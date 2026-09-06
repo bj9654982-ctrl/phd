@@ -1,0 +1,47 @@
+experiment:
+  name: baseline_small_debug
+  seed: 3407
+  deterministic: true
+
+runtime:
+  device: cuda
+  amp: true
+  compile: false
+  num_workers: 2
+
+data:
+  dataset: gopro
+  root: data/raw/GoPro
+  patch_size: 128
+  batch_size: 2
+  gradient_accumulation: 4
+  augment:
+    horizontal_flip: true
+    vertical_flip: true
+    rotate_90: true
+
+model:
+  name: compact_unet_baseline
+  width: 32
+  encoder_blocks: [2, 3, 4]
+  decoder_blocks: [2, 3, 4]
+  bottleneck_blocks: 6
+
+optimization:
+  optimizer: adamw
+  learning_rate: 0.0002
+  weight_decay: 0.0001
+  scheduler: cosine
+  debug_steps: 500
+  max_steps: 300000
+  gradient_clip_norm: 1.0
+
+loss:
+  charbonnier: 1.0
+  frequency: 0.1
+
+validation:
+  interval_steps: 1000
+  metrics: [psnr, ssim]
+  save_images: 8
+

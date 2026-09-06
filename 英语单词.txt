@@ -1,0 +1,713 @@
+“perceived”最常见意思是感知到的、主观看到/察觉到的，是动词perceive的过去式与过去分词，也可直接作形容词使用。
+- **词性**：动词过去式&过去分词 (v.过去式/过去分词)；形容词 (adj.)
+- **音标**：英 /pəˈsiːvd/，美 /pərˈsiːvd/
+- **常见搭配**：
+    - perceived value（感知价值）
+    - perceived difference（主观感知到的差异）
+- **例句**：The perceived color is blended from red, green and blue light.（人眼感知到的颜色是由红绿蓝光混合而成的。）
+
+“crystal”最常用含义为晶体、水晶，在电子显示领域常特指液晶，指代具备特殊光学分子结构的结晶态物质。
+- **词性**：名词 (n.)；形容词 (adj.)
+- **音标**：英 /ˈkrɪstl/，美 /ˈkrɪstl/
+- **常见搭配**：
+    - liquid crystal（液晶）
+    - crystal clear（清澈透明；浅显易懂）
+    - crystal structure（晶体结构）
+- **例句**：Liquid crystal technology has been widely used in display screens such as monitors and televisions.（液晶技术被广泛应用于显示器、电视等屏幕设备中。）
+
+
+transmissive 在中文里通常翻译为"透射的"，主要指光、热或其他能量形式穿过介质的能力。根据具体语境还可以有以下译法：
+传输的（侧重信息或信号的传递，如"transmissive communication"译作"传输通信"）
+传导的（用于热/电传导场景，如"transmissive material"译作"传导材料"）
+透光的（特指光学领域，如"transmissive display"译作"透光显示器"）
+例如显微镜中的"transmissive illumination"译为"透射照明"，而光纤的"transmissive spectrum"则更适合译作"传输频谱"。这个词的翻译需要结合具体学科领域——在物理学中多强调穿透性，在通信领域则侧重信号传输特性。 
+
+"polarization" 的翻译需要根据上下文灵活处理，常见译法包括：
+
+极化（物理学/光学）
+指光波或其他电磁波的振动方向集中在某一方向的现象，例如：
+"The polarization of light affects 3D movie effects." → "光的极化影响3D电影效果。"
+
+两极分化（社会学/政治学）
+描述群体意见或立场的极端对立，例如：
+"Social media increases political polarization." → "社交媒体加剧了政治两极分化。"
+
+偏振（光学专业术语）
+与"极化"同义但更强调光学特性，例如偏振镜（polarizing filter）。
+
+分化（生物学/化学）
+指细胞或分子产生差异的过程，例如：
+"Stem cell polarization leads to specialization." → "干细胞分化导致功能专一化。"
+
+
+"voltage" 在中文里最常用和标准的翻译是 电压，指电路中两点之间的电势差，单位为伏特（V）。
+其他译法可根据上下文调整：
+
+电压值：强调具体数值（如 "测量电压" → "measure the voltage"）。
+电势差：物理学术语，更侧重概念（如 "电势差驱动电流"）。
+伏特数：口语化表达（如 "电池的伏特数" → "battery voltage"）。
+例如：
+"High voltage" 通常译作 高压（如高压电线）。
+"Low voltage" 对应 低压（如低压设备）。
+在工程或日常语境中，直接使用"电压"即可覆盖大多数情况。
+
+
+resolution
+英/ˌrezəˈluːʃn/
+ 
+ 
+美/ˌrezəˈluːʃn/
+ 
+ 
+n.
+决议；分辨率；(问题、分歧等的)解决，消除；坚决；决心；坚定；清晰度；有决心；正式决定
+记忆
+resolut(e) 坚决的 + -ion 行为,状态
+
+
+"illuminate" 的翻译需根据上下文灵活处理，常见译法包括：
+
+照亮（物理光线）：
+The streetlights illuminate the road. → 路灯照亮了道路。
+阐明（抽象概念）：
+His explanation illuminated the complex theory. → 他的解释阐明了这一复杂理论。
+启发（思想层面）：
+The book illuminated her understanding of history. → 这本书启发了她对历史的理解。
+装饰灯光（艺术场景）：
+The cathedral was illuminated for the festival. → 大教堂为节日装点了灯光。
+其他译法如"点亮"（The screen illuminates when touched. → 触摸时屏幕点亮）、"照耀"（诗歌化表达）等。注意区分具体/抽象语境选择用词。
+
+
+groove
+英/ɡruːv/
+美/ɡruːv/
+n.
+槽；沟槽；沟；纹；辙；(某种)音乐节奏
+v.
+在…上开出沟（或槽等）；跟着流行乐跳舞；过得快活
+
+
+
+courtesy
+英/ˈkɜːtəsi/
+美/ˈkɜːrtəsi/
+n.
+礼貌；谦恭；彬彬有礼；(正式场合见面时的)客气话
+adj.
+免费乘坐(或使用)的
+
+"transiently" 的翻译需要根据上下文灵活处理，常见译法包括：
+
+短暂地（强调时间短）
+例：The signal appeared transiently and then disappeared.（信号短暂地出现后又消失了）
+瞬时地（侧重瞬间性，多用于科技语境）
+例：The protein is transiently expressed in cells.（该蛋白质在细胞中瞬时表达）
+暂时地（含临时性意味）
+例：He transiently stayed in Paris before moving on.（他暂时在巴黎停留后又继续行程）
+一闪而过地（文学化表达）
+例：A smile crossed her face transiently.（她脸上闪过一丝笑容）
+
+“permanently” 是一个副词，主要含义是“永久地、持久地”，强调状态或动作的不可逆或长期性。翻译时可根据语境灵活处理，常见译法包括：
+
+“永久地”：最直接的对应，强调永远不变。
+例：The account was permanently closed.（账户被永久关闭了。）
+“长期地”：侧重时间跨度，但非绝对永恒。
+例：She permanently moved to the countryside.（她长期搬到了乡下居住。）
+“固定地”：在技术或物理语境中，表示不可更改。
+例：The data is permanently stored in the chip.（数据被固定在芯片中存储。）
+“彻底地”：隐含“完全且不可恢复”的意味。
+例：The stain was permanently removed.（污渍被彻底清除了。）
+在中文里，有时会根据搭配调整用词，比如“永驻”“恒久”等文学化表达，但日常使用中以“永久地”最为通用。翻译时需注意上下文，例如法律文件强调严谨性多用“永久”，而口语可能简化为“一直”或“永远”。
+
+
+pigments 在中文中通常翻译为"颜料"，指用于着色的粉末或液体物质，广泛应用于绘画、涂料、化妆品等领域。根据具体语境，还可有以下译法：
+
+色素（强调天然或生物性色彩物质，如植物色素、黑色素）
+例：叶绿素是植物中的绿色 pigments。
+色料（工业或技术语境，如陶瓷色料）
+例：这款釉彩添加了耐高温的 pigments。
+染料（当指可溶性着色剂时，但严格来说染料与颜料化学性质不同）
+彩粉（口语化表达，尤其指固体粉末状颜料）
+派生用法：
+
+"矿物颜料"（mineral pigments）
+"荧光颜料"（fluorescent pigments）
+"色素沉着"（pigmentation，医学美容领域）
+
+"deposited" 可以翻译为：
+
+沉积（最常见译法）
+强调物质自然堆积或科学场景下的沉淀过程。
+例：The sediment was deposited over thousands of years. → 沉积物经过数千年堆积形成。
+存放/存入（金融或保管场景）
+用于资金、物品的主动存放行为。
+例：She deposited the money in the bank. → 她把钱存入了银行。
+镀层/附着（工业或化学场景）
+描述材料表面覆盖过程。
+例：The gold layer was deposited on the circuit. → 电路上镀了一层金。
+寄存（法律或临时保管）
+例：The documents were deposited with the court. → 文件已向法院寄存。
+
+"intermediate" 的翻译需根据上下文灵活处理，常见译法包括：
+
+中间的（位置/阶段）：如 intermediate stage → 中间阶段
+中级的（水平/难度）：如 intermediate level course → 中级课程
+中介的（化学/生物学）：如 intermediate metabolite → 中间代谢物
+其他场景：
+经济领域可译作中间产品（intermediate goods）
+交通场景可能译中转站（intermediate stop）
+
+
+“ink” 在中文中最常见的翻译是“墨水”，指用于书写或印刷的液体颜料。例如：
+
+钢笔墨水：用于钢笔书写的墨水。
+印刷墨水：用于印刷行业的油墨。
+其他可能的译法包括：
+
+油墨：特指印刷用的墨水，如“报纸油墨”。
+墨汁：传统书法或绘画用的墨水，如“毛笔蘸墨汁”。
+墨：文言或简略说法，如“泼墨山水画”。
+
+sweep
+英/swiːp/
+美/swiːp/
+v.
+打扫；清扫；扫；清除；扫视；扫去；(迅猛地)推送，吹走，冲走，带走；蜿蜒；挥动，舞动（手、臂等）；梳；（使）轻轻掠过，轻轻擦过；迅速传播；猛烈吹过；步态轻盈地走；突然袭来；（在系列比赛中）获得全部胜利，囊括各项冠军
+n.
+扫；清扫；打扫；掠；挥动；广泛性；全胜的一系列比赛；巡行；(道路、河流、海岸等)一长段，绵延弯曲的地带，呈缓坡状的地带
+
+
+"spraying" 的翻译需结合具体语境，常见译法包括：
+
+喷洒（最通用）：指液体雾化后分散的动作
+例：农药喷洒（pesticide spraying）/ 喷漆（spray painting）
+喷射：强调高压或定向喷出
+例：灭火器喷射（fire extinguisher spraying）
+泼洒：侧重液体飞溅的视觉效果
+例：海浪泼洒在甲板上（waves spraying on the deck）
+喷绘（艺术领域）：特指用喷枪作画
+例：街头喷绘艺术（street spray art）
+特殊场景下可能译作喷雾（如喷雾消毒 spray disinfection）或飞沫（如咳嗽飞沫 cough spray）。机械领域偶用雾化，但需搭配具体名词（如燃油雾化 fuel spraying）。
+
+thermal
+英/ˈθɜːml/
+美/ˈθɜːrml/
+adj.
+热的；热量的；保暖的；温暖的；防寒的
+n.
+上升的热气流；保暖内衣裤
+记忆
+therm- 热,热量 + -al ...的
+
+donor
+英/ˈdəʊnə(r)/
+美/ˈdoʊnər/
+n.
+赠送人，捐赠者；（化学）供体；（物理）施主；<律>赠与人，遗赠者，授权人；<医>供血者，献皮者
+adj.
+赠与的，捐赠的；人工授精出生的
+
+
+ribbon
+英/ˈrɪbən/
+美/ˈrɪbən/
+n.
+丝带；色带；(用于捆绑或装饰的)带子；带状物；绶带；勋带；狭长的东西
+v.
+装上丝带；加上带状条纹；把…撕成长带；形成带状
+
+dye
+英/daɪ/
+美/daɪ/
+n.
+染料；染液
+vt.
+染；给…染色
+
+abrupt
+英/əˈbrʌpt/
+美/əˈbrʌpt/
+adj.
+突然的；(言语、行为)粗鲁的，莽撞的，唐突的；意外的；生硬的
+记忆
+ab- 离去,相反 + rupt 打破,破裂
+
+CMOS (complementary metal–oxide–semiconductor) image sensors
+CMOS（互补金属氧化物半导体）图像传感器。
+
+
+mosaic
+英/məʊˈzeɪɪk/
+美/moʊˈzeɪɪk/
+n.
+马赛克；镶嵌图案
+adj.
+用拼花方式制成的；摩西 的
+v.
+用拼花图案装饰
+
+
+quoted
+英/ˈkwəʊtɪd/
+美/ˈkwoʊtɪd/
+v.
+报价；引用；引述；出价；开价；举例说明
+quote的过去分词和过去式
+
+
+flatbed
+英/ˈflætbed/
+美/ˈflætbed/
+n.
+平板车；平板拖车
+adj.
+平台型的；〔交〕平板；〔印〕平面印刷机的
+
+derive from
+英/dɪˈraɪv frəm/
+美/dɪˈraɪv frəm/
+源于
+
+fraction of light reflected (as opposed to absorbed) 
+反射光（而非吸收光）的比例
+
+idealized
+英/aɪˈdiːəlaɪzd/
+美/aɪˈdiːəlaɪzd/
+v.
+将…理想化；将…视为理想
+adj.
+理想化的
+idealize的过去分词和过去式
+
+vicinity
+英/vəˈsɪnəti/
+美/vəˈsɪnəti/
+n.
+附近；邻近地区；周围地区
+记忆
+vi(ll)- 邻居,附近 + -cin- + -ity …状态,性质
+
+reflectance
+英/rɪˈflektəns/
+美/rɪˈflektəns/
+n.
+(光的)反射比
+
+
+mundane
+英/mʌnˈdeɪn/
+美/mʌnˈdeɪn/
+adj.
+平凡的；单调的
+
+rectangular
+英/rekˈtæŋɡjələ(r)/
+美/rekˈtæŋɡjələr/
+adj.
+矩形的；长方形的
+
+invariably
+英/ɪnˈveəriəbli/
+美/ɪnˈveriəbli/
+adv.
+一成不变；始终如一地；一贯地
+记忆
+in- 不,无 + variabl(e) 可变的 + -ly ...地
+
+
+scarce
+英/skeəs/
+美/skers/
+adj.
+稀少的；缺乏的；不足的
+adv.
+几乎不；刚；简直不；勉强
+
+
+megapixel
+英/ˈmeɡəpɪksl/
+美/ˈmeɡəpɪksl/
+n.
+百万像素；兆像素
+
+“pixel artifacts” 在计算机图形学、数字图像处理和显示技术中，指的是由于图像处理、压缩、缩放或显示分辨率限制等原因，在像素级别上出现的非预期的、不自然的视觉瑕疵或失真。
+
+
+formula
+英/ˈfɔːmjələ/
+美/ˈfɔːrmjələ/
+n.
+公式；配方，处方；计划，方案；方程式；分子式，结构式；计算式；配方奶；(尤指机械遵循的) 惯例，常规；(日常礼节用的) 惯用语句，俗套话
+记忆
+form 形状 + -ul- + -a 名词后缀
+
+alternate
+英/ɔːlˈtɜːnət , ˈɔːltəneɪt , ˈɔːltɜːnət/
+美/ˈɔːltərnət , ˈɔːltərneɪt/
+n.
+候补；代理人；代替者
+v.
+(使)交替；(使)轮流
+adj.
+交替的；间隔的；轮流的；每隔(…天等)的
+记忆
+alter v.改变性质 + -n- + -ate 做,造成
+
+
+stripe
+英/straɪp/
+美/straɪp/
+n.
+条纹；(军装或警服上表示等级的)条，杠；线条
+vt.
+使带有条纹
+
+
+checkerboard
+英/ˈtʃekəbɔːd/
+美/ˈtʃekərbɔːrd/
+n.
+西洋跳棋棋盘
+adj.
+(通常为黑白)方格图案的
+
+approximation
+英/əˌprɒksɪˈmeɪʃn/
+美/əˌprɑːksɪˈmeɪʃn/
+n.
+近似值；粗略估算；类似事物
+
+gauge
+英/ɡeɪdʒ/
+美/ɡeɪdʒ/
+vt.
+(用仪器)测量；判定，判断(尤指人的感情或态度)；估计；估算
+n.
+事实，依据，尺度，标准；（铁道的）轨距；厚度；计量器；宽度；测量仪器(或仪表)；(枪管的)口径
+
+quantized
+/ˈkwɔntaizd/
+v.
+使……量子化；分层；把连续量转换为数字；取离散值
+adj.
+量化的；量子化的
+
+discrete
+英/dɪˈskriːt/
+美/dɪˈskriːt/
+adj.
+离散的；分离的；各别的；互不相连的
+
+
+analog
+美/ˈænəˌlɔg/
+n.
+模拟（与数字相对应）；类似物
+adj.
+模拟的
+
+calibration
+英/ˌkælɪˈbreɪʃn/
+美/ˌkælɪˈbreɪʃn/
+n.
+校准；标定；(温度计或其他仪表上的)刻度
+
+opaque
+英/əʊˈpeɪk/
+美/oʊˈpeɪk/
+adj.
+不透明的；不透光的；模糊；浑浊的；难懂；不清楚；隐晦
+n.
+不透明；晦暗；遮光涂料；[建]遮檐
+
+partially
+英/ˈpɑːʃəli/
+美/ˈpɑːrʃəli/
+adv.
+部分地；不完全地
+
+chunk
+英/tʃʌŋk/
+美/tʃʌŋk/
+n.
+组块；大块；厚片；厚块；话语组成部分；相当大的量
+
+variant
+英/ˈveəriənt/
+美/ˈveriənt/
+n.
+变种；变体；变形
+adj.
+变异的；不同的，相异的，不一致的；多样的；易变的，不定的
+
+quick-and-dirty
+英/kwɪk ənd ˈdɜːti/
+美/kwɪk ənd ˈdɜːrti/
+n.
+小吃店；快餐柜台；（美俚）暂且应急的；权宜的
+adj.
+应急的
+
+Subjective sense
+英/səbˈdʒektɪv sens/
+美/səbˈdʒektɪv sens/
+主观感觉；主观方面
+
+Bayer mosaic
+拜耳滤镜马赛克阵列
+
+
+organized
+英/ˈɔːɡənaɪzd/
+美/ˈɔːrɡənaɪzd/
+adj.
+系统的；有组织的；有条理的；有效率的；有安排的
+v.
+组织；管理；处理；安排；规划；筹备；分配；照料
+organize的过去分词和过去式
+
+broadly speaking
+英/ˈbrɔːdli ˈspiːkɪŋ/
+美/ˈbrɔːdli ˈspiːkɪŋ/
+概括地说；（作插入语）广义地说；一般说来
+
+machinery
+英/məˈʃiːnəri/
+美/məˈʃiːnəri/
+n.
+机械；(统称)机器；系统；机构；组织；机械装置；体制；(尤指)大型机器；机器的运转部分
+
+
+emanate
+英/ˈeməneɪt/
+美/ˈeməneɪt/
+vt.
+散发；产生；显示；表现
+
+Perspective 
+透视
+
+intersection
+英/ˌɪntəˈsekʃn/
+美/ˌɪntərˈsekʃn/
+n.
+十字路口；相交；交点；交叉；交叉路口；横断
+记忆
+intersect v.贯穿 + -ion 行为,状态
+
+
+demonstration
+英/ˌdemənˈstreɪʃn/
+美/ˌdemənˈstreɪʃn/
+n.
+证明；演示；示范；论证；说明；证实；表达；游行示威；示范表演；集会示威
+
+cubist
+英/ˈkjuːbɪst/
+美/ˈkjuːbɪst/
+n.
+立体派艺术家；立体派画家
+adj.
+立体派的；立体主义的
+
+peripheral
+英/pəˈrɪfərəl/
+美/pəˈrɪfərəl/
+n.
+外围设备；周边设备
+adj.
+外围的；周边的；次要的；附带的；与计算机相连的
+
+perpendicular
+英/ˌpɜːpənˈdɪkjələ(r)/
+美/ˌpɜːrpənˈdɪkjələr/
+adj.
+垂直的；成直角的；垂直式的(英国14、15世纪盛行的建筑风格，以使用垂直线和大拱为特征)
+n.
+垂直线(或位置、方向)
+
+orthographic
+adj.
+正交的；正字法的；拼字正确的；直角的
+
+oblique
+英/əˈbliːk/
+美/əˈbliːk/
+adj.
+（线或角）斜的，倾斜的，偏斜的；<语> 间接 (格) 的, 斜 (格) 的；间接的，不直截了当的，拐弯抹角的；<测> (地图投影) 斜轴的；不光明正大的，欺诈的，躲躲闪闪的
+n.
+倾斜物，斜角，斜线；<语> 间接格；斜线符号
+vi.
+倾斜，歪向；<军> 斜行进，与原方向成45度角前进
+adv.
+成45度角地
+
+surface normal
+英/ˈsɜːfɪs ˈnɔːml/
+美/ˈsɜːrfɪs ˈnɔːrml/
+表面法线
+
+planar
+英/ˈpleɪnə(r)/
+美/ˈpleɪnər/
+adj.
+平面的
+
+renaissance
+英/rɪˈneɪsns/
+美/ˈrenəsɑːns/
+n.
+（某一学科或艺术形式等衰落后的）复兴；（文艺、学术等的）复兴运动；新生，再生；复活；文艺复兴精神；复兴运动时期；文艺复兴（欧洲14、15和16世纪时，人们以古希腊罗马的思想文化来繁荣文学艺术）
+adj.
+文艺复兴的；复兴的；复兴时期的；复兴运动的
+
+distinction
+英/dɪˈstɪŋkʃn/
+美/dɪˈstɪŋkʃn/
+n.
+区别；区分；特点；差别；对比；（尤指给学生的）优等评分，荣誉，奖赏；优秀；卓越；杰出；特质；不同凡响
+
+
+vanish
+英/ˈvænɪʃ/
+美/ˈvænɪʃ/
+v.
+消失；使不见，使消失；消亡；（莫名其妙地）突然消失；不复存在，绝迹；<数>变为零，等于零
+n.
+<语>消失音
+
+propagation
+英/ˌprɒpə'ɡeɪʃ(ə)n/
+n.
+传播；扩展；宣传；培养
+
+invariably
+英/ɪnˈveəriəbli/
+美/ɪnˈveriəbli/
+adv.
+一成不变；始终如一地；一贯地
+
+coplanar
+adj.
+共（平）面的
+
+redundancy
+英/rɪˈdʌndənsi/
+美/rɪˈdʌndənsi/
+n.
+赘词，赘言，〈语〉多余信息 ；多余，剩余；〈英〉（因采用自动化等致劳动力过剩而造成的）裁员，解雇；大量，丰富；冗余码，冗余位；累赘，冗长；超静定（性）；多余物，多余量；〈计〉重复，冗余（为补救错失保证可靠性的一种方法）
+
+
+implicit
+英/ɪmˈplɪsɪt/
+美/ɪmˈplɪsɪt/
+adj.
+含蓄的；完全的；内含的；无疑问的；不直接言明的；成为一部分的
+记忆
+im- 否定 + plic 重叠,折叠 + -it 名词后缀
+
+discriminant
+n.判别式
+
+quadratic
+英/kwɒˈdrætɪk/
+美/kwɑːˈdrætɪk/
+adj.
+平方的；二次方的
+n.
+【数】二次方程式；二次项；【数】二次方程式论
+
+grazes
+英/ˈɡreɪzɪz/
+美/ˈɡreɪzɪz/
+v.
+放牧；擦伤，擦破(皮肤)；放牛；放羊；(在草地上)吃青草
+graze的第三人称单数
+
+determinant
+行列式
+
+heuristics
+英/hjuˈrɪstɪks/
+美/hjuˈrɪstɪks/
+n.
+启发式；探索法
+
+elaborate
+英/ɪˈlæbərət , ɪˈlæbəreɪt/
+美/ɪˈlæbərət , ɪˈlæbəreɪt/
+adj.
+复杂的；详尽的；精心制作的
+v.
+精心制作；详细描述；详尽阐述；详细制订
+
+
+illuminate
+英/ɪˈluːmɪneɪt/
+美/ɪˈluːmɪneɪt/
+vt.
+照明；照射；照亮；阐明；解释；使容光焕发；用彩灯装饰
+
+realism
+英/ˈriːəlɪzəm/
+美/ˈriːəlɪzəm/
+n.
+现实主义；逼真；现实性；(文艺的)现实主义风格；务实作风；现实主义方式
+
+ambient
+英/ˈæmbiənt/
+美/ˈæmbiənt/
+adj.
+周围的；周围环境的；产生轻松氛围的
+
+With this setup
+基于该架构
+
+turbulence
+1.
+骚乱；动乱；动荡；混乱
+
+a situation in which there is a lot of sudden change, confusion, disagreement and sometimes violence
+
+同义词：upheaval
+2.
+（空气和水的）湍流，涡流，紊流
+
+a series of sudden and violent changes in the direction that air or water is moving in
+
+We experienced severe turbulence during the flight.
+我们在飞行中遇到了强烈的气流。
+
+mitigation
+英/ˌmɪtɪˈɡeɪʃn/
+美/ˌmɪtɪˈɡeɪʃn/
+n.
+缓解；减轻
+
+fourier
+傅里叶
+
+tilt
+英/tɪlt/
+美/tɪlt/
+v.
+倾斜；使倾向于；(使)倾侧；偏向
+n.
+倾斜；倾侧；尝试；(意欲赢得某物或战胜某人的)企图
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

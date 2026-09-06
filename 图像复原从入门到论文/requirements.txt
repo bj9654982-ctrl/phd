@@ -1,0 +1,18 @@
+# 图像复原从入门到论文 - 环境依赖
+# Python 3.11 (conda torch-gpu 环境)
+# CUDA 12.1, NVIDIA GPU
+
+# 核心依赖
+numpy==2.4.6
+opencv-python==5.0.0.93
+scikit-image==0.26.0
+scipy==1.17.1
+pillow==12.3.0
+
+# PyTorch (GPU版本，需从PyTorch官方源安装)
+# 安装命令: pip install torch==2.5.1+cu121 torchvision==0.20.1+cu121 --index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+
+# 可选（绘图用）
+# matplotlib>=3.7.0

@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Datasets and weights
+data/raw/
+data/processed/
+data/GOPRO_Large/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Generated experiment artifacts
+results/runs/
+results/tensorboard/
+wandb/
+
+# Temporary files
+*.tmp
+*.log
+Thumbs.db

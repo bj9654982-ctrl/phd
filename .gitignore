@@ -1,0 +1,82 @@
+# ===== 博士学位论文参考PDF: 超过GitHub 50MB限制的大文件 =====
+图像复原博士学位论文/博士学位论文/深度学习驱动的图像复原：从基础模型构建到开放场景泛化-缑元彪.pdf
+图像复原博士学位论文/博士学位论文/新型张量分解方法与理论研究及其在高维图像处理中的应用-刘运阳.pdf
+
+# ===== TMT-reproduction: 只忽略大子目录，保留 code/docs/tools/figs =====
+图像复原博士学位论文/TMT-reproduction/.py39/
+图像复原博士学位论文/TMT-reproduction/.mamba_root/
+图像复原博士学位论文/TMT-reproduction/assets/
+图像复原博士学位论文/TMT-reproduction/references/
+图像复原博士学位论文/TMT-reproduction/downloads/
+图像复原博士学位论文/TMT-reproduction/video/
+
+# ===== 动态稀疏非局部去模糊论文: 只忽略 data 数据集 =====
+动态稀疏非局部去模糊论文/data/
+
+# ===== Imaging through...复现: 只忽略大子目录，保留代码/学习笔记 =====
+Imaging through the Atmosphere using Turbulence Mitigation Transformer复现/TMT-20260807T140132Z-1-001/
+Imaging through the Atmosphere using Turbulence Mitigation Transformer复现/参考文献/
+Imaging through the Atmosphere using Turbulence Mitigation Transformer复现/test_results_static/
+Imaging through the Atmosphere using Turbulence Mitigation Transformer复现/test_results_static_full/
+Imaging through the Atmosphere using Turbulence Mitigation Transformer复现/test_results/
+
+# ===== Python / 深度学习常见忽略 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+*.tar.gz
+*.zip
+
+# 数据集与模型权重
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+*.hdf5
+*.npz
+*.npy
+data/
+dataset/
+datasets/
+checkpoints/
+checkpoint/
+logs/
+runs/
+output/
+outputs/
+results/
+*.avi
+*.mp4
+*.mov
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== LaTeX 编译产物 =====
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg

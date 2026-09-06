@@ -1,0 +1,13 @@
+# The existing torch-gpu Conda environment is the reference environment.
+torch==2.5.1
+torchvision
+numpy==1.26.4
+Pillow
+PyYAML
+tqdm
+tensorboard
+matplotlib
+opencv-python
+scikit-image
+einops
+

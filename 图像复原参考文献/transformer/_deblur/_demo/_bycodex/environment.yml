@@ -1,0 +1,10 @@
+name: deblur-transformer-demo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy>=1.24,<2.0
+  - pillow>=10.0
+  - pip
+  - pip:
+      - torch>=2.2
