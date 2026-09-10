@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/swz30/Restormer",
+  "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+  "license": "MIT; retain LICENSE.md",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "official_url": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/swz30/Restormer/68dc6ac472db26f16361150cb7a96a1bc87da93f/LICENSE.md",
+      "bytes": 1090,
+      "sha256": "2b93776512924bc095ec5d97a79d76cf1ab401ae641d1ae1f46e94f1c53a2e59"
+    }
+  ],
+  "author_published_checkpoint_digest_available": false,
+  "local_hash_is_provenance_not_independent_author_signature": true,
+  "complete": false
+}

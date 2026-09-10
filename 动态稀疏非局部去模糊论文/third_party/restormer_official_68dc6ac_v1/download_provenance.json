@@ -1,0 +1,73 @@
+{
+  "repository": "https://github.com/swz30/Restormer",
+  "commit": "68dc6ac472db26f16361150cb7a96a1bc87da93f",
+  "license": "MIT; retain LICENSE.md",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/LICENSE.md?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/LICENSE.md?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 1090,
+      "sha256": "2b93776512924bc095ec5d97a79d76cf1ab401ae641d1ae1f46e94f1c53a2e59"
+    },
+    {
+      "path": "README.md",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/README.md?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/README.md?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 9620,
+      "sha256": "6a1ce0d30f78378ac64347840bf22985b0da75751442f55dd1ba7b14e7426d3e"
+    },
+    {
+      "path": "basicsr/models/archs/restormer_arch.py",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/basicsr/models/archs/restormer_arch.py?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/basicsr/models/archs/restormer_arch.py?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 11428,
+      "sha256": "3be243fa3c8e2cb2c9459eeac062b04d6084dbcc328292dae1c3e52ba6f7434a"
+    },
+    {
+      "path": "Motion_Deblurring/test.py",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/test.py?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/test.py?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 2944,
+      "sha256": "f6e78534c94e8d533e1a055e1ec2e97f66ab8310ba5ea9cca85b7a035c2e2506"
+    },
+    {
+      "path": "Motion_Deblurring/README.md",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/README.md?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/README.md?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 1730,
+      "sha256": "2db2809814de46f3137921be93d79533bb528740f436b1974ac00725e79a4d6b"
+    },
+    {
+      "path": "Motion_Deblurring/Options/Deblurring_Restormer.yml",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/Options/Deblurring_Restormer.yml?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/Options/Deblurring_Restormer.yml?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 2974,
+      "sha256": "8f4403ec761973f1c0677fae07841df3935075cea2f3871932d3cd26d1b16e73"
+    },
+    {
+      "path": "Motion_Deblurring/generate_patches_gopro.py",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/generate_patches_gopro.py?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/generate_patches_gopro.py?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 3712,
+      "sha256": "388487cedd85de1542b3b9bb866e0e92150249bebbe1ce981fefb9912bf6ea5a"
+    },
+    {
+      "path": "Motion_Deblurring/evaluate_gopro_hide.m",
+      "official_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/evaluate_gopro_hide.m?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "final_url": "https://api.github.com/repos/swz30/Restormer/contents/Motion_Deblurring/evaluate_gopro_hide.m?ref=68dc6ac472db26f16361150cb7a96a1bc87da93f",
+      "bytes": 1387,
+      "sha256": "c9eae0891d455625e11cad3f2ea793783de7ca8a8c6762ecc89439a497e981e5"
+    },
+    {
+      "path": "motion_deblurring.pth",
+      "official_url": "https://github.com/swz30/Restormer/releases/download/v1.0/motion_deblurring.pth",
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/418793252/55c7bcd2-cb39-4d8a-adc4-acf6f6131c27?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-09-06T08%3A04%3A27Z&rscd=attachment%3B+filename%3Dmotion_deblurring.pth&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-09-06T07%3A03%3A50Z&ske=2026-09-06T08%3A04%3A27Z&sks=b&skv=2018-11-09&sig=BwPJc%2BNRWcZBnQZexCGdfcgRDkL%2BBpZlZI1ZRSYIXgw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4ODY4MDY1MSwibmJmIjoxNzg4Njc4ODUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hjmvarx9cxXexm54zU7Hwz-yRDIVU6RFnDV2xpB6E-0&response-content-disposition=attachment%3B%20filename%3Dmotion_deblurring.pth&response-content-type=application%2Foctet-stream",
+      "bytes": 104700429,
+      "sha256": "194e38fb5b607c9dc5a5b3e08e65b2e79ee2bf0ef5048e0612f6b2ff2f79da31"
+    }
+  ],
+  "author_published_checkpoint_digest_available": false,
+  "local_hash_is_provenance_not_independent_author_signature": true,
+  "complete": true
+}
