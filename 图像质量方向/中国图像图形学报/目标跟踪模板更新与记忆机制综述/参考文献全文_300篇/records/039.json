@@ -1,0 +1,39 @@
+{
+  "number": 39,
+  "title": "Robust Object Tracking with Online Multiple Instance Learning",
+  "year": 2011,
+  "authors": [
+    "B. Babenko",
+    "Ming-Hsuan Yang",
+    "S. Belongie"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "更新策略与在线适应",
+  "priority": "P3 背景与边界",
+  "original_source": "https://doi.org/10.1109/TPAMI.2010.226",
+  "doi": "10.1109/TPAMI.2010.226",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://bbabenko.github.io/assets/papers/miltrack-pami-final.pdf",
+      "final_url": "https://bbabenko.github.io/assets/papers/miltrack-pami-final.pdf",
+      "bytes": 5335842,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\039_2011_Robust_Object_Tracking_with_Online_Multiple_Instance_Learning.pdf",
+  "download_url": "https://bbabenko.github.io/assets/papers/miltrack-pami-final.pdf",
+  "requested_url": "https://bbabenko.github.io/assets/papers/miltrack-pami-final.pdf",
+  "bytes": 5335842,
+  "sha256": "e42400b74dd305284b7b8d85d69f2ac9d0db9734182c686c8c5ac709c635eafe",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 16,
+  "pdf_title": "",
+  "first_page_text": "Robust Object Tracking with\nOnline Multiple Instance Learning\nBoris Babenko, Student Member, IEEE, Ming-Hsuan Yang, Senior Member, IEEE\nand Serge Belongie, Member, IEEE\nAbstract\nIn this paper we address the problem of tracking an object in a video given its location in the ﬁrst frame and no other\ninformation. Recently, a class of tracking techniques called “tracking by detection” has been shown to give promising results\nat real-time speeds. These methods train a discriminative classiﬁer in an online manner to separate the object from the\nbackground. This classiﬁer bootstraps itself by using the current tracker state to extract positive and negative examples\nfrom the current frame. Slight inaccuracies in the tracker can therefore lead to incorrectly labeled training examples, which\ndegrade the classiﬁer and can cause drift. In this paper we show that using Multiple Instance Learning (MIL), instead\nof traditional supervised learning, avoids these problems and can therefore lead to a more robust tracker with fewer\nparameter tweaks. We propose a novel online MIL algorithm for object tracking that achieves superior results with real-\ntime performance. We present thorough experimental results (both qualitative and quantitative) on a number of challenging\nvideo clips.\nIndex Terms\nVisual Tracking, Multiple Instance Learning, Online Boosting\n!\n• B. Babenko and S. Belongie are with the Department of Computer Science and Engineering, University of California, San Diego.\n• M.-H. Yang is with the Department of Computer Science, University of California, Merced.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>基于深度学习的视觉单目标跟踪综述 - 《计算机应用研究》编辑部官方网站</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/lib/bootstrap/bootstrap-5.1.3-dist/css/bootstrap-custum.css">
+
+    <!-- icon CSS of Segoe MDL2 Icons -->
+    <link rel="stylesheet" href="/lib/segoemdl2-icon/segoemdl2-icons.css">
+
+    <link rel="stylesheet" href="/css/site.css">
+
+    <link rel="apple-touch-icon" href="/favicon/aroc-favicon-152.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="/favicon/aroc-favicon-64.png" sizes="64x64">
+    <link rel="apple-touch-icon" href="/favicon/aroc-favicon-32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/favicon/aroc-favicon-16.png" sizes="16x16">
+    <link rel="shortcut icon" href="/favicon/aroc-favicon.ico" type="image/x-icon" />
+    <link rel="Bookmark" href="/favicon/aroc-favicon.ico" type="image/x-icon" />
+    <style>
+
+    </style>
+
+</head>
+<body class="position-relative">
+
+    
+
+<!-- 顶部页眉及关于导航 -->
+<header class="bg-primary main-header sticky-top" style="z-index: 1030;">
+    <div class="container-xl">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid px-0 py-2 py-md-4">
+                <a class="navbar-brand text-white d-flex align-items-center fs-6" href="/">
+                    <span id="mainHeaderLogo" class="pe-3" style="">
+                        <img src="/img/cnlogo_w.svg" alt=""
+                             class="main-header-logo">
+                    </span>
+                    <span class="small lh-sm text-justify d-none d-sm-block">ISSN 1001-3695<hr class="border-white m-0" />CN&nbsp;&nbsp;51-1196/TP</span>
+                </a>
+                <ul class="nav d-lg-none">
+                    <li class="nav-item"><a class="nav-link" href="/">首页</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#main-header-nav" aria-controls="main-header-nav" aria-expanded="false" href="/">关于</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pe-0" href="/language?lang=en&amp;returnUrl=%2Fabs%2F2021.03.0036">EN</a>
+                    </li>
+                </ul>
+
+                <div class="collapse navbar-collapse" id="main-header-nav">
+                    <ul class="navbar-nav ms-auto mt-3 mt-lg-0">
+                            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/">首页</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/info/about/journal">关于期刊</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/info/about/committee">编委会/董事会</a></li>
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="nav-link pe-0" href="/language?lang=en&amp;returnUrl=%2Fabs%2F2021.03.0036">English</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+</header>
+    
+<section class="bg-gray border-bottom">
+    <div class="container-xl">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid px-0">
+                <ul class="nav d-lg-none order-0">
+                    <li class="nav-item">
+                        <a href="" class="nav-link ps-0" data-bs-toggle="collapse" data-bs-target="#section-nav"
+                           aria-controls="section-nav" aria-expanded="false">
+                            <span class="si-global-navigation-button "></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="collapse navbar-collapse order-2 order-lg-1" id="section-nav">
+                    <ul class="navbar-nav me-auto nav py-2 py-lg-0">
+                        <li class="nav-item me-2"><a class="nav-link " href="/accepted">优先出版</a></li>
+                        <li class="nav-item me-2"><a class="nav-link" href="/printed">印刷出版</a></li>
+                        <li class="nav-item me-2"><a class="nav-link" href="/info/instruction/faq">常见问题及解答</a></li>
+                        <li class="nav-item me-2"><a class="nav-link" href="/download">常用文档下载</a></li>
+                        <li class="nav-item me-2"><a href="https://cert.arocmag.cn" target="_blank" class="nav-link text-primary"><span class="si-certificate me-1"></span>录用通知查验</a></li>
+                    </ul>
+
+                </div>
+
+                    <div class="flex-grow-1 flex-md-grow-0 order-1 order-lg-2">
+                        <form id="navbarSearchForm" method="post" class="input-group input-group-sm" action="/search">
+                            <button type="submit" class="input-group-text" id="navbarSearchBtn"><span class="si-search"></span></button>
+                            <input name="SearchWord" id="navbarSearchText" type="text" class="form-control navbar-searchtext" placeholder="搜索标题 / 关键词 / 作者" title="使用字符“&#x2B;”来连接多个关键词以获得更精确的搜索结果">
+                        <input name="AntiforgeryField" type="hidden" value="CfDJ8Fe3lySq_BpIllijAEmqk9eOwLIYVmGuz-AXmNbDZD3DQzD6sEWapif6yzoMWkHWujffkwSRq8l304mlKzjaR0eTYPDAOLpvlEeEr6Tw3JYe0bcBaeIUYztlnHDsYAHCqXdQfUcefXiig9puNKb62io" /></form>
+                    </div>
+            </div>
+        </nav>
+    </div>
+</section>
+
+
+    <!-- 主体 -->
+    <main>
+            
+<section id="stickySection" class="bg-gray border-bottom fixed-top" style="display: none; z-index: 1000;">
+    <div class="container-xl">
+        <h5 class="my-2 text-truncate me-3">基于深度学习的视觉单目标跟踪综述</h5>
+        <div class="mb-2 small text-truncate">张长弓, 杨海涛, 王晋宇, 冯博迪, 李高源, 高宇歌</div>
+    </div>
+</section>
+
+<section id="titleSection" class="bg-primary text-light border-bottom py-4">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-12 col-lg-10 position-relative">
+                <div class="small mb-4 d-flex flex-wrap">
+                        <div class="bg-white text-primary fw-normal px-2 rounded mb-2">综述评论</div>
+                        <div class="mx-3">|</div>
+                    <div class="me-3">
+                        <a class="text-light opacity-75" href="/printed">
+                            计算机应用研究 印刷出版<i class="si si-reply-mirrored small ms-1"></i>
+                        </a>
+                    </div>
+                    <div class="me-3">
+                        <a class="text-light opacity-75" href="/issue/202110">
+                            2021年第38卷 第10期<i class="si si-reply-mirrored small ms-1"></i>
+                        </a>
+                    </div>
+                        <span class="me-3">2888-2895</span>
+                </div>
+                <h2>基于深度学习的视觉单目标跟踪综述</h2>
+                    <h6 class="mb-3 text-white text-opacity-50">Survey on visual single object tracking based on deep learning</h6>
+                <div id="authorSection" class="d-flex flex-wrap mb-1">
+                        <div class="me-4 d-flex">
+                            <span>张长弓<sup></sup></span>
+                            <a class="text-light ms-1" href="/search/%E5%BC%A0%E9%95%BF%E5%BC%93">
+                                <i class="si si-search small"></i>
+                            </a>
+                        </div>
+                        <div class="me-4 d-flex">
+                            <span>杨海涛<sup></sup></span>
+                                <i class="si si-mail ms-1"></i>
+                            <a class="text-light ms-1" href="/search/%E6%9D%A8%E6%B5%B7%E6%B6%9B">
+                                <i class="si si-search small"></i>
+                            </a>
+                        </div>
+                        <div class="me-4 d-flex">
+                            <span>王晋宇<sup></sup></span>
+                            <a class="text-light ms-1" href="/search/%E7%8E%8B%E6%99%8B%E5%AE%87">
+                                <i class="si si-search small"></i>
+                            </a>
+                        </div>
+                        <div class="me-4 d-flex">
+                            <span>冯博迪<sup></sup></span>
+                            <a class="text-light ms-1" href="/search/%E5%86%AF%E5%8D%9A%E8%BF%AA">
+                                <i class="si si-search small"></i>
+                            </a>
+                        </div>
+                        <div class="me-4 d-flex">
+                            <span>李高源<sup></sup></span>
+                            <a class="text-light ms-1" href="/search/%E6%9D%8E%E9%AB%98%E6%BA%90">
+                                <i class="si si-search small"></i>
+                            </a>
+                        </div>
+                        <div class="me-4 d-flex">
+                            <span>高宇歌<sup></sup></span>
+                            <a class="text-light ms-1" href="/search/%E9%AB%98%E5%AE%87%E6%AD%8C">
+                                <i class="si si-search small"></i>
+                            </a>
+                        </div>
+                </div>
+                <div class="small mb-5 pt-2 pb-4 opacity-50">
+                        <div>航天工程大学 航天信息学院, 北京 101400</div>
+                </div>
+                <div class="small d-flex flex-wrap position-absolute bottom-0">
+                    <span class="text-light opacity-75 me-4">
+                        DOI: <a class="text-truncate text-light  opacity-75"
+                                href="https://doi.org/10.19734/j.issn.1001-3695.2021.03.0036" target="_blank">
+                            10.19734/j.issn.1001-3695.2021.03.0036<i class="si si-reply-mirrored small ms-1"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="col-2 d-none d-lg-block">
+                <img src="/img/cover-sample.png" alt="" class="img-fluid shadow-sm" />
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="downloadSection">
+    <div class="container-xl">
+        <div class="d-flex align-items-center border-bottom flex-wrap">
+            <div class="navbar">
+                <ul class="nav  align-items-center">
+                    <li class="nav-item ps-0">
+                        <button data-shortid="2021.03.0036" type="button" class="downloadDocBtn btn btn-sm btn-outline-danger p-0 d-flex align-items-center">
+                            <span class="si-pdf bg-danger text-white px-2 py-1"></span>
+                            <span class="ps-2 pe-2">下载全文</span>
+                        </button>
+                    </li>
+                    <li class="nav-item"><a href="#citeSection" onclick="return rollTo('citeSection')" class="nav-link"><span class="me-1 px-1 si-comment"></span>引用本文</a></li>
+                        <li class="vr"></li>
+                            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/appendix/202110/cover"><span class="me-1 px-1 si-dictionary"></span>封面</a></li>
+                            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/appendix/202110/catalog"><span class="me-1 px-1 si-knowledge-article"></span>目录</a></li>
+                            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/appendix/202110/ifcover"><span class="me-1 px-1 si-certificate"></span>封二</a></li>
+                            <li class="nav-item d-none d-lg-block"><a class="nav-link" href="/appendix/202110/ibcover"><span class="me-1 px-1 si-duplex-portrait-two-sided-long-edge "></span>封三</a></li>
+                        <li class="nav-item dropdown d-lg-none">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">其他页面</a>
+                            <ul class="dropdown-menu">
+
+                                    <li><a class="dropdown-item" href="/appendix/202110/cover"><span class="me-1 px-1 si-dictionary"></span>封面</a></li>
+                                    <li><a class="dropdown-item" href="/appendix/202110/catalog"><span class="me-1 px-1 si-knowledge-article"></span>目录</a></li>
+                                    <li><a class="dropdown-item" href="/appendix/202110/ifcover"><span class="me-1 px-1 si-certificate"></span>封二</a></li>
+                                    <li><a class="dropdown-item" href="/appendix/202110/ibcover"><span class="me-1 px-1 si-duplex-portrait-two-sided-long-edge "></span>封三</a></li>
+                            </ul>
+                        </li>
+
+
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="pt-4 pb-5 border-bottom">
+    <div class="container-xl">
+        <div class="row">
+            <div class="col-lg-9 col-xl-8">
+                <div id="abstractSection">
+                    <h4 class="text-primary pt-4 mb-2 pb-2">摘要</h4>
+                    <div class="pb-4">
+                        单目标跟踪是一种在视频中利用目标外观和上下文信息对单个目标分析运动状态、提供定位的技术，在智能监控、智能交互、导航制导等方面具有应用前景，但遮挡、背景干扰、目标变化等问题导致实际应用的进展缓慢。随着近年来深度学习的快速发展，研究使用深度学习技术优化单目标跟踪算法已成为计算机视觉领域的热点之一。围绕基于深度学习的单目标跟踪算法，在分析了单目标跟踪的基本原理基础上，从相关滤波、孪生网络、元学习、注意力、循环神经网络和生成对抗网络六个方面，根据核心算法的不同分别进行了概述和分析；此外，对研究现状进行了总结，提出了算法的发展趋势和优化思路。
+                    </div>
+                </div>
+                <div id="keywordsSection">
+                    <h4 class="text-primary pt-4 mb-2 pb-2">关键词</h4>
+                    <div class="d-flex flex-wrap pb-4">
+                            <a class="btn btn-sm btn-primary me-2 mb-2" href="/search/%E5%8D%95%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA">单目标跟踪</a>
+                            <a class="btn btn-sm btn-primary me-2 mb-2" href="/search/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0">深度学习</a>
+                            <a class="btn btn-sm btn-primary me-2 mb-2" href="/search/%E5%AD%AA%E7%94%9F%E7%BD%91%E7%BB%9C">孪生网络</a>
+                            <a class="btn btn-sm btn-primary me-2 mb-2" href="/search/%E7%9B%B8%E5%85%B3%E6%BB%A4%E6%B3%A2">相关滤波</a>
+                            <a class="btn btn-sm btn-primary me-2 mb-2" href="/search/%E5%85%83%E5%AD%A6%E4%B9%A0">元学习</a>
+                            <a class="btn btn-sm btn-primary me-2 mb-2" href="/search/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6">注意力机制</a>
+                    </div>
+                </div>
+                <div id="foundSection">
+                </div>
+                <div id="publishSection">
+                    <h4 class="text-primary pt-4 mb-2 pb-2">出版信息</h4>
+                    <div class="pb-4">
+                        <div class="mb-1">DOI: 10.19734/j.issn.1001-3695.2021.03.0036</div>
+                        <div class="mb-1">出版期卷: 《计算机应用研究》 印刷出版, 2021年第38卷 第10期</div>
+                            <div class="mb-1">所属栏目: 综述评论</div>
+                            <div class="mb-1">出版页码: 2888-2895</div>
+                            <div class="mb-1">文章编号: 1001-3695(2021)10-002-2888-08</div>
+                    </div>
+                </div>
+                <div id="historySection">
+                    <h4 class="text-primary pt-4 mb-2 pb-2">发布历史</h4>
+                    <div class="pb-4">
+                            <div class="d-flex">
+                                <span class="me-2">[2021-10-05] 印刷出版</span>
+                                <button type="button" data-shortid="2021.03.0036" data-version="v2" class="downloadDocBtn btn btn-link py-0">/doc/2021.03.0036/v2</button>
+                            </div>
+                    </div>
+                </div>
+                <div id="citeSection">
+                    <h4 class="text-primary pt-4 mb-2 pb-2">引用本文</h4>
+                    <div class="pb-4">
+                        <div class="text-break me-2 small text-dark">
+                            张长弓, 杨海涛, 王晋宇, 等. 基于深度学习的视觉单目标跟踪综述 [J]. 计算机应用研究, 2021, <b>38</b> (10): 2888-2895. (Zhang Changgong, Yang Haitao, Wang Jinyu, <i>et al</i>. Survey on visual single object tracking based on deep learning [J]. <b>Application Research of Computers</b>, 2021, <b>38</b> (10): 2888-2895. )
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 快捷目录 -->
+            <div class="d-none d-lg-block col-lg-3 col-xl-4">
+                <div id="abstractIndex" class="list-group list-group-flush sticky-top lh-lg fs-6 mt-3 py-3 border-start border-2" style="z-index: 888;">
+                    <a class="list-group-item list-group-item-action" href="#abstractSection" onclick="return rollTo('abstractSection');">摘要</a>
+                    <a class="list-group-item list-group-item-action" href="#keywordsSection" onclick="return rollTo('keywordsSection')">关键词</a>                    
+                    <a class="list-group-item list-group-item-action" href="#publishSection" onclick="return rollTo('publishSection')">出版信息</a>
+                    <a class="list-group-item list-group-item-action" href="#historySection" onclick="return rollTo('historySection')">发布历史</a>
+                    <a class="list-group-item list-group-item-action" href="#citeSection" onclick="return rollTo('citeSection')">引用本文</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-gray pt-3 pb-5 border-bottom">
+    <div class="container-xl">
+        <div class="row pb-3">
+            <div class="col-12 col-lg-6 col-xl-5">
+                <h3 class="py-2">关于期刊</h3>
+                <div class="row pb-3">
+                    <div class="col-4 col-sm-2 col-lg-3 py-1 border-end">
+                        <img src="/img/cover-sample.png" class="img-fluid shadow-sm border rounded" alt="">
+                    </div>
+                    <div class="col-8 col-sm-10 col-lg-9 py-1">
+                        <ul class="list-unstyled">
+                            <li class="text-primary fw-bold d-flex flex-wrap">
+                                <span class="fs-5 mb-1 me-2">计算机应用研究</span>
+                                <small class="badge bg-secondary text-light small align-self-center mb-1">月刊</small>
+                            </li>
+                                <li class="small"><i>Application Research of Computers</i></li>
+                            <li class="small text-muted d-flex mt-3">
+                                <span class="me-2">刊号</span>
+                                <span>ISSN 1001-3695<br />CN&nbsp;&nbsp;51-1196/TP</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col small pe-lg-5 text-justify">
+                        <p>《计算机应用研究》创刊于1984年，是由四川省科技厅所属四川省计算机研究院主办的计算技术类学术刊物。</p>
+<p>《计算机应用研究》瞄准本学科领域迫切需要的前沿技术，及时反映国内外计算机应用研究的主流技术、热点技术及最新发展趋势。主要刊载内容包括本学科领域高水平的学术论文、本学科最新科研成果和重大应用成果。栏目内容涉及计算机学科新理论、计算机基础理论、算法理论研究、算法设计与分析、区块链技术、系统软件与软件工程技术、模式识别与人工智能、体系结构、先进计算、并行处理、数据库技术、计算机网络与通信技术、信息安全技术、计算机图像图形学及其最新热点应用技术。
+</p>
+<p>《计算机应用研究》拥有众多高层次读者、作者，读者对象主要为从事计算机学科领域高、中级研究人员及工程技术人员，各高等院校计算机专业及相关专业的师生。多年来《计算机应用研究》的总被引频次及Web下载率一直名列本学科同类学术刊物前茅，所刊发的学术论文以其新颖性、学术性、前瞻性、导向性、实用性而备受广大读者的喜爱。
+</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="d-lg-none" />
+            <div class="col-12 col-lg-6 col-xl-5 pt-2 pt-lg-0">
+                <div class="row">
+                    <h3 id="intro-index" class="py-2">收录和评价</h3>
+                    <ul class="list-unstyled small">
+                        <li class="mb-1">第二届国家期刊奖百种重点期刊</li>
+<li class="mb-3">中国期刊方阵双效期刊</li>
+<li class="mb-1">全国中文核心期刊（北大2023年版）</li>
+<li class="mb-1">中国科技核心期刊</li>
+<li class="mb-1">中国科学引文数据库(CSCD)来源期刊</li>
+<li class="mb-1">RCCSE中国核心学术期刊</li>
+<li class="mb-3">中国计算机学会会刊</li>
+<li class="mb-1">2020—2025年科技期刊世界影响力指数(WJCI)报告收录期刊</li>
+<li class="mb-1">中国科技期刊精品数据库全文来源期刊</li>
+<li class="mb-1">中国学术期刊综合评价数据库来源期刊</li>
+<li class="mb-1">《中国期刊网》《中国学术期刊(光盘版)》来源期刊</li>
+<li class="mb-1">2017—2019年中国国际影响力优秀学术期刊(自然科学与工程技术)</li>
+<li class="mb-1">中国精品科技期刊顶尖学术论文(F5000)项目来源期刊</li>
+<li class="mb-1">《中国工程技术电子信息网》《电子科技文献数据库》来源期刊</li>
+<li class="mb-1">英国《科学文摘》(INSPEC)来源期刊</li>
+<li class="mb-1">《日本科学技术振兴机构数据库》(JST)来源期刊</li>
+<li class="mb-1">俄罗斯《文摘杂志》(AJ, VINITI)来源期刊</li>
+<li class="mb-1">美国《艾博思科学术数据库》(EBSCO)全文来源期刊</li>
+<li class="mb-1">美国《剑桥科学文摘(自然科学)》(CSA(NS))核心期刊</li>
+<li class="mb-1">波兰《哥白尼索引》(IC)来源期刊</li>
+<li class="mb-1">美国《乌利希期刊指南(网络版)》(Ulrichsweb)收录期刊</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="d-lg-none" />
+
+            <div class="col-12 col-xl-2">
+                <div class="row row-cols-3  row-cols-sm-6 row-cols-xl-2 align-items-center">
+                        <div class="position-relative align-items-center py-4 px-4 px-md-2 text-center">
+                            <img class="img-fluid" src="/img/ccf-logo.svg" />
+                            <a href="https://www.ccf.org.cn/" target="_blank" class="stretched-link small text-dark d-block col-5" title="中国计算机学会"></a>
+                        </div>
+                        <div class="position-relative align-items-center py-4 px-4 px-md-2 text-center">
+                            <img class="img-fluid" src="/img/ccflib-logo.svg" />
+                            <a href="https://dl.ccf.org.cn/article/journalIndex.html?issue=5&amp;title=@8ba1@7b97@673a@5e94@7528@7814@7a76&amp;year=2026&amp;_ack=1&amp;pageNum_p=1" target="_blank" class="stretched-link small text-dark d-block col-5" title="CCF数字图书馆"></a>
+                        </div>
+                        <div class="position-relative align-items-center py-4 px-4 px-md-2 text-center">
+                            <img class="img-fluid" src="/img/cnki-logo.png" />
+                            <a href="https://navi.cnki.net/knavi/journals/JSYJ/detail?uniplatform=NZKPT" target="_blank" class="stretched-link small text-dark d-block col-5" title="中国知网 中国知识基础设施工程"></a>
+                        </div>
+                        <div class="position-relative align-items-center py-4 px-4 px-md-2 text-center">
+                            <img class="img-fluid" src="/img/wanfang-logo.png" />
+                            <a href="https://sns.wanfangdata.com.cn/perio/jsjyyyj" target="_blank" class="stretched-link small text-dark d-block col-5" title="万方数据 "></a>
+                        </div>
+                        <div class="position-relative align-items-center py-4 px-4 px-md-2 text-center">
+                            <img class="img-fluid" src="/img/cqvip-logo.png" />
+                            <a href="http://lib.cqvip.com/Qikan/Journal/Summary?kind=1&amp;gch=93231X" target="_blank" class="stretched-link small text-dark d-block col-5" title="维普资讯 "></a>
+                        </div>
+                        <div class="position-relative align-items-center py-4 px-4 px-md-2 text-center">
+                            <img class="img-fluid" src="/img/cscd-logo.png" />
+                            <a href="http://www.sciencechina.cn/" target="_blank" class="stretched-link small text-dark d-block col-5" title="中国科学引文数据库 "></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+    </main>
+
+    <footer class="text-muted my-4 py-3">
+    <div class="container-xl">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-3 col-lg-2 mb-3 mb-md-0">
+                <img src="/img/cnlogo_b.svg" class="main-header-logo" alt="" />
+            </div>
+            <div class="col-12 col-md-9 col-lg-10">
+                <div class="d-flex small flex-wrap mb-1">
+                    <div class="d-flex flex-row me-3">
+                        <span class="pe-1">&copy;2026</span>
+                        <span>
+                            <a class="link-secondary text-decoration-none"
+                               href="https://www.arocmag.cn"
+                               target="_blank">计算机应用研究</a>
+                        </span>
+                    </div>
+                    <div class="d-flex flex-row me-3">
+                        <span class="si-bank si pe-1"></span>
+                        <span>
+                            <a class="link-secondary text-decoration-none" href="http://www.scsics.cn/"
+                               target="_blank">四川省计算机研究院</a>
+                        </span>
+                    </div>
+                    <div class="d-flex flex-row me-3">
+                        <span class="si-shield pe-1"></span>
+                        <span>
+                            <a href="https://beian.miit.gov.cn" target="_blank"
+                               class="link-secondary text-decoration-none">蜀ICP备13001376号-34</a>
+                        </span>
+                    </div>
+                    <div class="d-flex flex-row me-3">
+                        <span class="pe-1 si-certificate"></span>
+                        <span>
+                            <a href="https://www.xinnet.com/domain/cert.do?method=listCert&amp;enDomainName=arocmag.cn"
+                               target="_blank" class="link-secondary text-decoration-none">域名证书</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-wrap small">
+                    <div class="d-flex flex-row me-3" title="官方网站">
+                        <span class="pe-1 si-home"></span>
+                        <span>
+                            <a href="https://www.arocmag.cn"
+                               class="link-secondary text-decoration-none">https://www.arocmag.cn</a>
+                        </span>
+                    </div>
+                    <div class="d-flex flex-row me-3" title="服务邮箱">
+                        <span class="pe-1 si si-mail"></span>
+                        <span>journal&#x0040;arocmag.cn</span>
+                    </div>
+                    <div class="d-flex flex-row me-3" title="服务电话">
+                        <span class="pe-1 si-phone"></span>
+                        <span>028-85249567</span>
+                    </div>
+                    <div class="d-flex flex-row me-3" title="办公地址">
+                        <span class="pe-1 si si-work"></span>
+                        <span>四川省成都市武候区成科西路3号</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+
+    <div id="goTopBox" class="position-fixed end-0 bottom-0 me-4 mb-4 shadow" style="display: none; z-index: 1020; ">
+    <button class="btn btn-dark bg-dark bg-opacity-75 border-0" id="goBackTop" title="回到顶部">
+        <i class="si-chevron-up"></i>
+    </button>
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/jquery-cookie/jquery.cookie.js"></script>
+    <script src="/lib/popper.js/2.5.4/popper.min.js"></script>
+    <script src="/lib/bootstrap/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+    <script src="/js/site.js?v=Q5hm_nifjEOus0TT9TUrkK83rZYvp8QrbeaVZq-KIuU"></script>
+
+
+    
+    <script>
+        function setStickyTop() {
+            $('#stickySection').css("top", $('header').height() + "px");
+            $('#abstractIndex').css("top", $('header').height() + $('#stickySection').height() + "px");
+            scrollShow($('#authorSection'), $('#stickySection'), -20, true);
+
+            /* 滚动页面显示/隐藏 goTopBox */
+            scrollShow($('#titleSection'), $('#goTopBox'), 200, true);
+
+        }
+
+        function rollTo(obj) {
+            scrollToObj($('#' + obj), -($('header').height() + $('#stickySection').height() + 20));
+            return false;
+        }
+
+        $(function () {
+            $(window).scroll(function () {
+                setStickyTop();
+            }).resize(function () {
+                setStickyTop();
+            });
+        });
+
+        $(document).ready(function () {
+            setStickyTop();
+            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                target: '#abstractIndex',
+                offset: $('header').height() + $('#stickySection').height() + 100
+            })
+
+            $('.downloadDocBtn').on('click', function () {
+                var shortid = $(this).attr('data-shortid');
+                var version = $(this).attr('data-version');
+                if (!version) {
+                    version = 0;
+                }
+                location.href = "/doc/" + shortid + "?stamp=1793102526&coden=0234710535F6F4D2D9577D139ACE069784567BBADF62EE4E3FAAA0753D3CD371&version=" + version;
+            });
+        });
+
+    </script>
+
+</body>
+</html>

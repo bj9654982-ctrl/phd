@@ -1,0 +1,363 @@
+{
+  "number": 55,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Minimum Uncertainty Gap for Robust Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2025-10-13T19:55:24Z",
+      "timestamp": 1760385324479
+    },
+    "reference-count": 37,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2013.305",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2013-10-10T23:22:10Z",
+      "timestamp": 1381447330000
+    },
+    "page": "2355-2362",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Minimum Uncertainty Gap for Robust Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Junseok",
+        "family": "Kwon",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Kyoung Mu",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "article-title": "Tracking by sampling trackers",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "35",
+        "article-title": "Tracking non-stationary appearances and dynamic feature selection",
+        "author": "yang",
+        "year": "2005",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "17",
+        "article-title": "Tracking of a non-rigid object via patchbased dynamic appearance modeling and adaptive basin hopping monte carlo sampling",
+        "author": "kwon",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "36",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "18",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "33",
+        "article-title": "Cascaded confidence filtering for improved tracking-by-detection",
+        "author": "stalder",
+        "year": "2010",
+        "journal-title": "ECCV"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "15",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "34",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "16",
+        "DOI": "10.1109/TPAMI.2005.223"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "13",
+        "DOI": "10.1109/TPAMI.2003.1233903"
+      },
+      {
+        "year": "2010",
+        "author": "jia",
+        "journal-title": "Bounded Approximations for Marginal Likelihoods",
+        "key": "14"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "37",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "11",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "12",
+        "article-title": "Icondensation: Unifying low-level and highlevel tracking in a stochastic framework",
+        "author": "isard",
+        "year": "1998",
+        "journal-title": "ECCV"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "21",
+        "DOI": "10.1109/TPAMI.2008.170"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "20",
+        "DOI": "10.1109/TPAMI.2012.161"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "22",
+        "DOI": "10.1198/016214506000001202"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "23",
+        "DOI": "10.1109/TPAMI.2004.16"
+      },
+      {
+        "key": "24",
+        "article-title": "Minimum error bounded efficient l1 tracker with occlusion detection",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "25",
+        "article-title": "Visual tracking with histograms and articulating blocks",
+        "author": "nejhum",
+        "year": "2008",
+        "journal-title": "CVPR"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "26",
+        "DOI": "10.1109/CVPR.2012.6247895"
+      },
+      {
+        "key": "27",
+        "article-title": "Robust visual tracking using autoregressive hidden markov model",
+        "author": "park",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "28",
+        "article-title": "Color-based probabilistic tracking",
+        "author": "perez",
+        "year": "2002",
+        "journal-title": "ECCV"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "29",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "3",
+        "DOI": "10.1109/CVPR.1998.698614"
+      },
+      {
+        "key": "2",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "10",
+        "DOI": "10.1109/ICCV.2005.181"
+      },
+      {
+        "key": "1",
+        "article-title": "Robust fragments-based tracking using the integral histogram",
+        "author": "adam",
+        "year": "2006",
+        "journal-title": "CVPR"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "30",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "7",
+        "article-title": "Model uncertainty in classical conditioning",
+        "author": "courville",
+        "year": "2003",
+        "journal-title": "NIPS"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "6",
+        "DOI": "10.1109/CVPR.2000.854761"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "32",
+        "DOI": "10.1109/CVPR.2005.361"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "5",
+        "DOI": "10.1109/TPAMI.2005.205"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "31",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "4",
+        "DOI": "10.1007/978-1-4612-0023-9_1"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "9",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "doi-asserted-by": "publisher",
+        "key": "8",
+        "DOI": "10.1109/ICCV.2011.6126228"
+      }
+    ],
+    "event": {
+      "name": "2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            6,
+            23
+          ]
+        ]
+      },
+      "location": "Portland, OR, USA",
+      "end": {
+        "date-parts": [
+          [
+            2013,
+            6,
+            28
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2013 IEEE Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6596161/6618844/06619149.pdf?arnumber=6619149",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          22
+        ]
+      ],
+      "date-time": "2017-03-22T17:19:35Z",
+      "timestamp": 1490203175000
+    },
+    "score": 47.73098,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6619149/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1109/cvpr.2013.305",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    }
+  }
+}

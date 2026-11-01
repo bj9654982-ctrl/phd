@@ -1,0 +1,41 @@
+{
+  "number": 18,
+  "title": "Learning Spatio-Temporal Transformer for Visual Tracking",
+  "year": 2021,
+  "authors": [
+    "Bin Yan",
+    "Houwen Peng",
+    "Jianlong Fu",
+    "Dong Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "ICCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.pdf",
+      "bytes": 689236,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\018_2021_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.pdf",
+  "bytes": 689236,
+  "sha256": "177a13526d201b17ff46382b1aae53ead49e129416dca2093ec40bffe8058a19",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning Spatio-Temporal Transformer for Visual Tracking",
+  "first_page_text": "Learning Spatio-Temporal Transformer for Visual Tracking\nBin Yan1,∗, Houwen Peng2,†, Jianlong Fu2, Dong Wang1,†, Huchuan Lu1\n1Dalian University of Technology\n2Microsoft Research Asia\nAbstract\nIn this paper, we present a new tracking architecture\nwith an encoder-decoder transformer as the key compo-\nnent. The encoder models the global spatio-temporal fea-\nture dependencies between target objects and search re-\ngions, while the decoder learns a query embedding to pre-\ndict the spatial positions of the target objects. Our method\ncasts object tracking as a direct bounding box prediction\nproblem, without using any proposals or predefined an-\nchors. With the encoder-decoder transformer, the predic-\ntion of objects just uses a simple fully-convolutional net-\nwork, which estimates the corners of objects directly. The\nwhole method is end-to-end, does not need any postprocess-\ning steps such as cosine window and bounding box smooth-\ning, thus largely simplifying existing tracking pipelines. The\nproposed tracker achieves state-of-the-art performance on\nmultiple challenging short-term and long-term benchmarks,\nwhile running at real-time speed, being 6× faster than\nSiam R-CNN [54]. Code and models are open-sourced at\nhttps://github.com/researchmm/Stark.\n1. Introduction\nVisual object tracking is a fundamental yet challeng-\ning research topic in computer vision. Over the past few\nyears, based on convolutional neural networks, object track-\ning has achieved remarkable progress [28, 11, 54]. How-\never, convolution kernels are not good at modeling long-\nrange dependencies of image contents and features, because\nthey only process a local neighborhood, either in space or\ntime. Current prevailing trackers, including both the offline\nSiamese trackers and the online learning models, are almost\nall built upon convolutional operations [2, 44, 3, 54]. As a\nconsequence, these methods only perform well on model-\ning local relationships of image content, but being limited\nto capturing long-range global interactions. Such deficiency\nmay degrade the model capacities for dealing with the sce-\nnarios where the global contextual information is important\n∗Work performed when Bin Yan was an intern of MSRA.\n† Corresponding authors: Houwen Peng (houwen.peng@microsoft.com),\nDong Wang (wdice@dlut.edu.cn).\n\u0000\u0001\u0000\u0002\u0000\u0003\u0000\u0004\u0000\u0005\u0000\u0006\u0007\b\b\t\n\u000b\f\r\u0006\u000e\n\u0005\u0000\u000f\u0000\u0005\u0002\u000f\u0005\n\u0005\u0005\u000f\u0000\u0005\u0010\u000f\u0005\n\u0011\u0000\u000f\u0000\u0011\u0002\u000f\u0005\n\u0011\u0005\u000f\u0000\u0011\u0010\u000f\u0005\n\u0010\u0000\u000f\u0000\u0000\u0001\u0002\u0002\u0003\u0004\u0004\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\u0007\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\t\b\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\b\b\n\t\n\u000b\u0001\f\t\n\r\u000e\f\u000f\n\u000b\u0001\f\t\n\u0010\u0011\u0012\u0002\u0013\n\u0000\u0001\u0002\u0003\u0014\u0015\u0015\u0013\n\u0016\u0017\u0000\f\u0014\f\r\u0006\u0018\u0007\u0010\u0000\u0019\u001a\u001b\u001c\u0002\u001a\u000e\n\u0002\u0011\u001d\n\u0014\u000e\u0010\f\n\u0000\u0001\u0002\u0003\u0004\u0005\u0006\u0007\u0001\nFigure 1: Comparison with state-of-the-arts on LaSOT [15]. We\nvisualize the Success performance with respect to the Frames-Per-\nSeconds (fps) tracking speed. The circle size indicates a weighted\nsum of the tracker’s speed (x-axis) and success score (y-axis). The\nlarger, the better. Ours-ST101 and Ours-ST50 indicate the pro-\nposed trackers with ResNet-101 and ResNet-50 as backbones, re-\nspectively. Better viewed in color.\nfor localization, such as the objects undergoing large-scale\nvariations or getting in and out of views frequently.\nThe problem of long-range interactions has been tackled\nin sequence modeling through the use of transformer [53].\nTransformer has enjoyed rich success in tasks such as\nnatural language modeling [13, 46] and speech recogni-\ntion [40]. Recently, transformer has been employed in dis-\ncriminative computer vision models and drawn great atten-\ntion [14, 5, 41]. Inspired by the recent DEtection TRans-\nformer (DETR) [5], we propose a new end-to-end tracking\narchitecture with encoder-decoder transformer to boost the\nperformance of conventional convolution models.\nBoth spatial and temporal information are important for\nobject tracking. The former one contains object appearance\ninformation for target localization, while the latter one in-\ncludes the state changes of objects across frames. Previous\nSiamese trackers [28, 59, 16, 7] only exploit the spatial in-\nformation for tracking, while online methods [63, 66, 11, 3]\nuse historical predictions for model updates. Although be-\ning successful, these methods do not explicitly model the\nrelationship between space and time. In this work, consider-\ning the superior capacity on modeling global dependencies,\nwe resort to transformer to integrate spatial and temporal\n10448\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

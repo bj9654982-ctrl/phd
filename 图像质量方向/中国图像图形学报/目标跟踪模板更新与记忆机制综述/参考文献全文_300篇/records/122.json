@@ -1,0 +1,40 @@
+{
+  "number": 122,
+  "title": "SINT++: Robust Visual Tracking via Adversarial Positive Instance Generation",
+  "year": 2018,
+  "authors": [
+    "Xiao Wang",
+    "Chenglong Li",
+    "Bin Luo",
+    "Jin Tang"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_SINT_Robust_Visual_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_SINT_Robust_Visual_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_SINT_Robust_Visual_CVPR_2018_paper.pdf",
+      "bytes": 1370789,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\122_2018_SINT++__Robust_Visual_Tracking_via_Adversarial_Positive_Instance_Generation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_SINT_Robust_Visual_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_SINT_Robust_Visual_CVPR_2018_paper.pdf",
+  "bytes": 1370789,
+  "sha256": "1a4f5cdd5aa4935e974ed0bd913bd9f1da0fe1f27b56f0c338baa14bce67ea28",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "SINT++: Robust Visual Tracking via Adversarial Positive Instance Generation",
+  "first_page_text": "SINT++: Robust Visual Tracking via Adversarial Positive Instance Generation\nXiao Wang, Chenglong Li, Bin Luo, Jin Tang\nSchool of Computer Science and Technology, Anhui University, Hefei, China 230601\n{wangxiaocvpr, lcl1314}@foxmail.com, {luobin, tj}@ahu.edu.cn\nAbstract\nExisting visual trackers are easily disturbed by occlu-\nsion, blur and large deformation. We think the performance\nof existing visual trackers may be limited due to the follow-\ning issues: i) Adopting the dense sampling strategy to gen-\nerate positive examples will make them less diverse; ii) The\ntraining data with different challenging factors are limited,\neven through collecting large training dataset. Collecting\neven larger training dataset is the most intuitive paradigm,\nbut it may still can not cover all situations and the positive\nsamples are still monotonous. In this paper, we propose to\ngenerate hard positive samples via adversarial learning for\nvisual tracking. Speciﬁcally speaking, we assume the tar-\nget objects all lie on a manifold, hence, we introduce the\npositive samples generation network (PSGN) to sampling\nmassive diverse training data through traversing over the\nconstructed target object manifold. The generated diverse\ntarget object images can enrich the training dataset and en-\nhance the robustness of visual trackers. To make the tracker\nmore robust to occlusion, we adopt the hard positive trans-\nformation network (HPTN) which can generate hard sam-\nples for tracking algorithm to recognize. We train this net-\nwork with deep reinforcement learning to automatically oc-\nclude the target object with a negative patch. Based on the\ngenerated hard positive samples, we train a Siamese net-\nwork for visual tracking and our experiments validate the\neffectiveness of the introduced algorithm. The project page\nof this paper can be found from the website 1.\n1. Introduction\nVisual tracking aims at covering the give target object\nusing an adaptive bounding box (BBox) and moves the\nBBox along with target. It requires the tracker can robustly\nmodel invarances to illumination, deformation, occlusions\nand scale variation, et al. The most intuitive paradigm to\nhandle these invariances is to collect large-scale training\nvideos which contain video frames under different chal-\n1https://sites.google.com/view/\ncvpr2018sintplusplus/\nFigure 1. Due to only one target object provided in visual tracking\nand most existing trackers adopt the dense positive sampling strat-\negy, which cause the positive training data lack of diversity. More-\nover, we argue that occlusions and deformations follow a long-tail\ndistribution, in another word, some occlusions and deformations\nare rare in training data. In this paper, we introduce two strategies\nto improve aforementioned situations via the generation of hard\npositive samples.\nlenging factors. They hope these videos could capture all\npossible variations of target object and the algorithm can\nthen effectively model invariance to them. These data in-\ndeed learning invariances to some extent, and this maybe\nthe main reasons why CNNs have been so successful in the\nvisual tracking.\nHowever, according to our observation, the target object\nof visual tracking could be anything, even occlusions and\ndeformations are all following a long-tail distribution. In\nother word, some occlusions and deformations are so rare\nthat they may still not occur in large-scale datasets, sim-\nilar claims can be found in [43]. Hence, the learning of\ninvariance to such rare/uncommon occlusions and deforma-\ntions needs to be tackled urgently. Collecting even larger\ndatasets is a possible scheme, but it is not likely to scale due\n14864\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

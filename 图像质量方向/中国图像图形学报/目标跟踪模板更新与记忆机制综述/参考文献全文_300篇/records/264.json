@@ -1,0 +1,40 @@
+{
+  "number": 264,
+  "title": "Fast Video Object Segmentation With Temporal Aggregation Network and Dynamic Template Matching",
+  "year": 2020,
+  "authors": [
+    "Xuhua Huang",
+    "Jiarui Xu",
+    "Yu-Wing Tai",
+    "Chi-Keung Tang"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Huang_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_CVPR_2020_paper.pdf",
+      "bytes": 1100210,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\264_2020_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_T.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Huang_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_CVPR_2020_paper.pdf",
+  "bytes": 1100210,
+  "sha256": "da0503101ba6ec1c9286002ba33a1652589de0790645c3c4b9a9149df8aa8835",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Fast Video Object Segmentation With Temporal Aggregation Network and Dynamic Template Matching",
+  "first_page_text": "Fast Video Object Segmentation with Temporal Aggregation Network and\nDynamic Template Matching\nXuhua Huang1∗\nJiarui Xu1∗\nYu-Wing Tai2\nChi-Keung Tang1\n1The Hong Kong University of Science and Technology\n2Tencent\nxhuangat@ust.hk\njxuat@ust.hk\nyuwingtai@tencent.com\ncktang@cs.ust.hk\nAbstract\nSigniﬁcant progress has been made in Video Object\nSegmentation (VOS), the video object tracking task in its\nﬁnest level.\nWhile the VOS task can be naturally de-\ncoupled into image semantic segmentation and video ob-\nject tracking, signiﬁcantly much more research effort has\nbeen made in segmentation than tracking.\nIn this pa-\nper, we introduce “tracking-by-detection” into VOS which\ncan coherently integrates segmentation into tracking, by\nproposing a new temporal aggregation network and a\nnovel dynamic time-evolving template matching mechanism\nto achieve signiﬁcantly improved performance.\nNotably,\nour method is entirely online and thus suitable for one-\nshot learning, and our end-to-end trainable model allows\nmultiple object segmentation in one forward pass.\nWe\nachieve new state-of-the-art performance on the DAVIS\nbenchmark without complicated bells and whistles in both\nspeed and accuracy, with a speed of 0.14 second per\nframe and J &F measure of 75.9% respectively. Project\npage is available at https://xuhuaking.github.\nio/Fast-VOS-DTTM-TAN/.\n1. Introduction\nVideo object segmentation (VOS) is a ﬁne-grained la-\nbeling problem aiming to ﬁnd pixel-level correspondence\nacross frames in a given video, which has broad range of\napplications including surveillance, video editing, robotics\nand autonomous driving. In this work, we focus on the\nsemi-supervised VOS setting in which the ground-truth seg-\nmentation masks of the target objects in the ﬁrst frame are\ngiven. The task is then to automatically predict the seg-\nmentation masks of the target objects for the rest of the\nvideo. With the recent advances in deep learning and the\nintroduction of the DAVIS datasets [44, 45], tremendous\nprogress has been made in tackling this semi-supervised\nVOS task. Notwithstanding, existing state-of-the-art meth-\nods are heavily biased toward semantic segmentation in\ntheir design and thus they do not leverage the advantages\n∗Equal contribution.\nThis research is supported in part by Tencent\nand the Research Grant Council of the Hong Kong SAR under grant no.\n1620818.\nFigure 1. Qualitative comparisons on the DAVIS validation set.\nThe camel example shows the case when FEELVOS [48] mis-\njudges pixels from another object. The racing car example shows\nthat PReMVOS [38] switches to another object between two con-\nsecutive frames. Both FEELVOS and PReMVOS are respectively\nthe top 2 entries on the DAVIS benchmark.\nof excellent tracking solutions. We believe that the VOS\ntask can be naturally decoupled into image semantic seg-\nmentation and video object tracking:\nIn semantic segmentation, most works [8, 9, 10, 11] are\nmainly based on Fully Convolutional Networks [37]. Many\nVOS pipelines [29, 4, 49, 1, 48, 52, 41] exploit these ar-\nchitectures to produce a segmentation map. However, se-\nmantic segmentation is not instance sensitive. In complex\nscenarios where many different instances share the same se-\nmantics (e.g., pedestrians, vehicles and cases in Figure 1),\nthese methods based on semantic segmentation may fail to\ntrack individual objects consistently. This has prompted us\n18879\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

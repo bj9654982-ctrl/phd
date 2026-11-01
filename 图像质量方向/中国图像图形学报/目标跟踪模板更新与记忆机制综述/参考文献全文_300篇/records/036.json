@@ -1,0 +1,38 @@
+{
+  "number": 36,
+  "title": "CONDENSATION—Conditional Density Propagation for Visual Tracking",
+  "year": 1998,
+  "authors": [
+    "Michael Isard",
+    "Andrew Blake"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://doi.org/10.1023/A:1008078328650",
+  "doi": "10.1023/A:1008078328650",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.cse.psu.edu/~rtc12/CSE598G/papers/Condensation_ijcv98.pdf",
+      "final_url": "https://www.cse.psu.edu/~rtc12/CSE598G/papers/Condensation_ijcv98.pdf",
+      "bytes": 2923721,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\036_1998_CONDENSATION—Conditional_Density_Propagation_for_Visual_Tracking.pdf",
+  "download_url": "https://www.cse.psu.edu/~rtc12/CSE598G/papers/Condensation_ijcv98.pdf",
+  "requested_url": "https://www.cse.psu.edu/~rtc12/CSE598G/papers/Condensation_ijcv98.pdf",
+  "bytes": 2923721,
+  "sha256": "7def6b8798935ef3242e08b47edcfc2044151d93d1d3f85471a7028c445177fe",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 36,
+  "pdf_title": "",
+  "first_page_text": "",
+  "title_exact_normalized": false,
+  "title_token_coverage": 0.0,
+  "identity_check": "题名需人工核对",
+  "technical_check": "PDF可解析"
+}

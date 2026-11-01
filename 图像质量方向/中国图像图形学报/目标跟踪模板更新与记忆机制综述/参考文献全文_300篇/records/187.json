@@ -1,0 +1,43 @@
+{
+  "number": 187,
+  "title": "Autoregressive Queries for Adaptive Tracking with Spatio-Temporal Transformers",
+  "year": 2024,
+  "authors": [
+    "Jinxia Xie",
+    "Bineng Zhong",
+    "Zhiyi Mo",
+    "Shengping Zhang",
+    "Liangtao Shi",
+    "Shuxiang Song",
+    "Rongrong Ji"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Xie_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers_CVPR_2024_paper.pdf",
+      "bytes": 1698303,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\187_2024_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers_CVPR_2024_paper.pdf",
+  "bytes": 1698303,
+  "sha256": "172296cd1b2e6a25ce65359c2dfb258e2301f7bdc4488ae17cb0335c77e75b4a",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Autoregressive Queries for Adaptive Tracking with Spatio-Temporal Transformers",
+  "first_page_text": "Autoregressive Queries for Adaptive Tracking with Spatio-Temporal\nTransformers\nJinxia Xie1,2,3, Bineng Zhong1,2,3*, Zhiyi Mo3, Shengping Zhang4, Liangtao Shi1, Shuxiang Song1, Rongrong Ji5\n1Key Laboratory of Education Blockchain and Intelligent Technology Ministry of Education\n2Guangxi Key Lab of Multi-Source Information Mining & Security\n1,2Guangxi Normal University, Guilin 541004, China\n3Guangxi Key Laboratory of Machine Vision and Intelligent Control, Wuzhou University\n4School of Computer Science and Technology, Harbin Institute of Technology\n5Media Analytics and Computing Lab, School of Informatics, Xiamen University\nxie jx@stu.gxnu.edu.cn, bnzhong@gxnu.edu.cn, zhiyim@gxuwz.edu.cn, s.zhang@hit.edu.cn\nslt@stu.gxnu.edu.cn, songshuxiang@mailbox.gxnu.edu.cn, rrji@xmu.edu.cn\nAbstract\nThe rich spatio-temporal information is crucial to cap-\nture the complicated target appearance variations in vi-\nsual tracking.\nHowever, most top-performing tracking\nalgorithms rely on many hand-crafted components for\nspatio-temporal information aggregation.\nConsequently,\nthe spatio-temporal information is far away from being fully\nexplored. To alleviate this issue, we propose an adaptive\ntracker with spatio-temporal transformers (named AQA-\nTrack), which adopts simple autoregressive queries to ef-\nfectively learn spatio-temporal information without many\nhand-designed components. Firstly, we introduce a set of\nlearnable and autoregressive queries to capture the instan-\ntaneous target appearance changes in a sliding window\nfashion. Then, we design a novel attention mechanism for\nthe interaction of existing queries to generate a new query\nin current frame. Finally, based on the initial target tem-\nplate and learnt autoregressive queries, a spatio-temporal\ninformation fusion module (STM) is designed for spatio-\ntemporal formation aggregation to locate a target object.\nBenefiting from the STM, we can effectively combine the\nstatic appearance and instantaneous changes to guide ro-\nbust tracking. Extensive experiments show that our method\nsignificantly improves the tracker’s performance on six pop-\nular tracking benchmarks: LaSOT, LaSOText, TrackingNet,\nGOT-10k, TNL2K, and UAV123.Code and models will be\nhttps://github.com/orgs/GXNU-ZhongLab.\n*Corresponding Author\nDynamic \nTemplate\n(or Feature)\nTemplate \n& \nSearch\nResult\nModel\nUpdate\nH1\nH2\nHn\nResult\nIntegrate\nModel\n...\nTemplate \n& \nSearch\nQueries\nResult\nResult\nResult\nResult\n...\nModel\nModel\nModel\nModel\nTemplate \n& \nSearch\nTemplate \n& \nSearch\nTemplate \n& \nSearch\nTemplate \n& \nSearch\n(a) Method based on update strategy.\n(b) Method based on integrating \nhistorical appearance.\n(c) Our adaptive method based on learnable and autoregressive queries.\nTimeline\nFigure 1. The comparison of three different tracking paradigms.\n(a) The trackers based on an updating strategy to update a dynamic\ntemplate or feature. (b) The trackers based on integrating historical\nappearance. H represents historical appearance. (c) The proposed\nadaptive tracker with learnable and autoregressive queries.\n1. Introduction\nVisual object tracking(VOT) is a fundamental task in\ncomputer vision, which aims to estimate the position and\nshape of an arbitrary target in video sequences given its\ninitial status. It has a wide range of applications in fields\nincluding robotic vision, video surveillance [10, 37], au-\ntonomous driving [14, 35], and various other domains.\nHowever, the tracking is often influenced by many factors,\nincluding camera movement, self-deformation, and exter-\nnal environment (occlusion or distractions from similar ob-\njects). And the target appearance always changing.\nDue to the aforementioned challenges, mainstream\ntracking algorithms [7, 8, 18, 19, 45, 51] are difficult to\neffectively discriminate targets based on the static appear-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19300\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

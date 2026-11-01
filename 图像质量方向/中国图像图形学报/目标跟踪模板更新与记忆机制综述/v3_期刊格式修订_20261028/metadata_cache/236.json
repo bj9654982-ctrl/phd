@@ -1,0 +1,427 @@
+{
+  "number": 236,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Tracking by Natural Language Specification with Long Short-term Context Decoupling",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2026-08-24T21:14:34Z",
+      "timestamp": 1787606074559,
+      "version": "build-2736575974"
+    },
+    "reference-count": 36,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006190",
+        "name": "Research and Development",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006190",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100005046",
+        "name": "Natural Science Foundation of Heilongjiang Province",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100005046",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011381",
+        "name": "State Key Laboratory of Robotics and System",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100011381",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv51070.2023.01288",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T15:55:59Z",
+      "timestamp": 1705334159000
+    },
+    "page": "13966-13975",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "title": [
+      "Tracking by Natural Language Specification with Long Short-term Context Decoupling"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ding",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,School of Computer Science and Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangqian",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,School of Computer Science and Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "first-page": "9758",
+        "article-title": "Self-supervised learning by cross-modal audio-video clustering",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "33",
+        "author": "Alwassel"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_22"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00179"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV45572.2020.9093425"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Robust visual object tracking with natural language region proposal network",
+        "author": "Feng",
+        "year": "2019"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00579"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_9"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00975"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01367"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_31"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Adam: A method for stochastic optimization",
+        "volume": "abs/1412.6980",
+        "author": "Kingma",
+        "year": "2015",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Cooperative learning of audio and video models from self-supervised synchronization",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "volume": "31",
+        "author": "Korbar"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-016-0981-7"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.777"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1405.0312"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3474085.3475349"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00853"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Representation learning with contrastive predictive coding",
+        "author": "van den Oord",
+        "year": "2018"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.789"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00859"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Learning video representations using contrastive bidirectional transformer",
+        "author": "Sun",
+        "year": "2019"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00972"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58520-4_30"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01355"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Audiovisual slowfast networks for video recognition",
+        "author": "Xiao",
+        "year": "2020"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00971"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Paris, France",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            6
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10376473/10376477/10378598.pdf?arnumber=10378598",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2024-01-17T20:24:06Z",
+      "timestamp": 1705523046000
+    },
+    "score": 57.828026,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10378598/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1109/iccv51070.2023.01288",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    }
+  }
+}

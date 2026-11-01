@@ -1,0 +1,209 @@
+{
+  "number": 51,
+  "original_doi": "10.52202/075280-0476",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Reading Relevant Feature from Global Representation Memory for Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2026-10-13T02:26:08Z",
+      "timestamp": 1791858368462,
+      "version": "4.3.4"
+    },
+    "publisher-location": "San Diego, California, USA",
+    "reference-count": 0,
+    "publisher": "Neural Information Processing Systems Foundation, Inc. (NeurIPS)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "DOI": "10.52202/075280-0476",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          2
+        ]
+      ],
+      "date-time": "2026-03-02T13:18:04Z",
+      "timestamp": 1772457484000
+    },
+    "page": "10814-10827",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Reading Relevant Feature from Global Representation Memory for Visual Object Tracking"
+    ],
+    "prefix": "10.52202",
+    "author": [
+      {
+        "given": "Xinyu",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pinxue",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lingyi",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinglun",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weifeng",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenqiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "29733",
+    "event": {
+      "name": "Advances in Neural Information Processing Systems 36",
+      "theme": "37th Conference on Neural Information Processing Systems (NeurIPS 2023)",
+      "location": "New Orleans, Louisiana, USA",
+      "acronym": "NeurIPS 2023",
+      "number": "36",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            16
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "Advances in Neural Information Processing Systems 36"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2026-06-19T15:34:48Z",
+      "timestamp": 1781883288000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://www.proceedings.com/075280-0476.html"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.52202/075280-0476",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "number": 270,
+  "title": "Efficient Regional Memory Network for Video Object Segmentation",
+  "year": 2021,
+  "authors": [
+    "Haozhe Xie",
+    "Hongxun Yao",
+    "Shangchen Zhou",
+    "Shengping Zhang",
+    "Wenxiu Sun"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Xie_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xie_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xie_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+      "bytes": 8646409,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\270_2021_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xie_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Xie_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+  "bytes": 8646409,
+  "sha256": "36477e142f539be3dd33f9babff6e5f692eeaf219989398fac0752b053002cc2",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Efficient Regional Memory Network for Video Object Segmentation",
+  "first_page_text": "Efﬁcient Regional Memory Network for Video Object Segmentation\nHaozhe Xie1,2\nHongxun Yao1\nShangchen Zhou3\nShengping Zhang1,4\nWenxiu Sun2,5\n1 Harbin Institute of Technology\n2 SenseTime Research and Tetras.AI\n3 S-Lab, Nanyang Technological University\n4 Peng Cheng Laboratory\n5 Shanghai AI Laboratory\nhttps://haozhexie.com/project/rmnet\nAbstract\nRecently, several Space-Time Memory based networks\nhave shown that the object cues (e.g. video frames as well\nas the segmented object masks) from the past frames are\nuseful for segmenting objects in the current frame. How-\never, these methods exploit the information from the mem-\nory by global-to-global matching between the current and\npast frames, which lead to mismatching to similar objects\nand high computational complexity. To address these prob-\nlems, we propose a novel local-to-local matching solution\nfor semi-supervised VOS, namely Regional Memory Net-\nwork (RMNet). In RMNet, the precise regional memory is\nconstructed by memorizing local regions where the target\nobjects appear in the past frames. For the current query\nframe, the query regions are tracked and predicted based\non the optical ﬂow estimated from the previous frame. The\nproposed local-to-local matching effectively alleviates the\nambiguity of similar objects in both memory and query\nframes, which allows the information to be passed from the\nregional memory to the query region efﬁciently and effec-\ntively. Experimental results indicate that the proposed RM-\nNet performs favorably against state-of-the-art methods on\nthe DAVIS and YouTube-VOS datasets.\n1. Introduction\nVideo object segmentation (VOS) is a task of estimating\nthe segmentation masks of class-agnostic objects in a video.\nTypically, it can be grouped into two categories: unsuper-\nvised VOS and semi-supervised VOS. The former does not\nresort to any manual annotation and interaction, while the\nlatter needs the masks of the target objects in the ﬁrst frame.\nIn this paper, we focus on the latter. Even the object masks\nin the ﬁrst frame are provided, semi-supervised VOS is still\nchallenging due to object deformation, occlusion, appear-\nance variation, and similar objects confusion.\nWith the recent advances in deep learning, there has\nbeen tremendous progress in semi-supervised VOS. Early\nmethods [10, 18, 24] propagate object masks from previ-\nPReMVOS\nSTM\nEGMN\nCFBI\nRMNet\n52\n39\n22\n10\n10\n52\n39\n22\n52\n39\n22\n10\n52\n39\n22\n10\n22\n39\n52\n10\nFigure 1. A representative example of video object segmentation\non the DAVIS 2017 dataset. Compared to existing methods rely\non optical ﬂows (e.g. PReMVOS [18]) and global feature match-\ning (e.g. STM [22], EGMN [17], and CFBI [41]), the proposed\nRMNet is more robust in segmenting similar objects.\nous frames using optical ﬂow and then reﬁne the masks\nwith a fully convolutional network. However, mask prop-\nagation usually causes error accumulation, especially when\ntarget objects are lost due to occlusions and drifting. Re-\ncently, matching-based methods [4, 17, 22, 28, 32, 41]\nhave attracted increasing attention as a promising solution\nto semi-supervised VOS. The basic idea of these methods\nis to perform global-to-global matching to ﬁnd the corre-\nspondence of target objects between the current and past\nframes.\nAmong them, the Space-Time Memory (STM)\nbased approaches [17, 22, 28] exploit the past frames saved\nin the memory to better handle object occlusion and drift-\ning. However, these methods memorize and match features\nin the regions without target objects, which lead to mis-\nmatching to similar objects and high computational com-\nplexity. As shown in Figure 1, they are less effective to track\nand distinguish the target objects with similar appearance.\nThe mismatching in the global-to-global matching can\nbe divided into two categories, as illustrated in Figure 2. (i)\nThe target object in the current frame matches to the wrong\nobject in the past frame (solid red line). (ii) The target ob-\n1286\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.875,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

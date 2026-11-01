@@ -1,0 +1,39 @@
+{
+  "number": 185,
+  "title": "Generalized Relation Modeling for Transformer Tracking",
+  "year": 2023,
+  "authors": [
+    "Shenyuan Gao",
+    "Chunluan Zhou",
+    "Jun Zhang"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.pdf",
+      "bytes": 2047375,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\185_2023_Generalized_Relation_Modeling_for_Transformer_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.pdf",
+  "bytes": 2047375,
+  "sha256": "81d4916dd44b0108e3bada782ff6ca594d428da0c5e7ebb055e599a51d3e09f4",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Generalized Relation Modeling for Transformer Tracking",
+  "first_page_text": "Generalized Relation Modeling for Transformer Tracking\nShenyuan Gao1\nChunluan Zhou2\nJun Zhang1\n1The Hong Kong University of Science and Technology\n2Wormpex AI Research\nsygao@connect.ust.hk\nczhou002@e.ntu.edu.sg\neejzhang@ust.hk\nAbstract\nCompared with previous two-stream trackers, the recent\none-stream tracking pipeline, which allows earlier interac-\ntion between the template and search region, has achieved\na remarkable performance gain. However, existing one-\nstream trackers always let the template interact with all\nparts inside the search region throughout all the encoder\nlayers.\nThis could potentially lead to target-background\nconfusion when the extracted feature representations are\nnot sufficiently discriminative. To alleviate this issue, we\npropose a generalized relation modeling method based\non adaptive token division.\nThe proposed method is a\ngeneralized formulation of attention-based relation model-\ning for Transformer tracking, which inherits the merits of\nboth previous two-stream and one-stream pipelines whilst\nenabling more flexible relation modeling by selecting ap-\npropriate search tokens to interact with template tokens.\nAn attention masking strategy and the Gumbel-Softmax\ntechnique are introduced to facilitate the parallel computa-\ntion and end-to-end learning of the token division module.\nExtensive experiments show that our method is superior\nto the two-stream and one-stream pipelines and achieves\nstate-of-the-art performance on six challenging bench-\nmarks with a real-time running speed. Code and models are\npublicly available at https://github.com/Little-Podi/GRM.\n1. Introduction\nGiven the target bounding box in the initial frame of a\nvideo, visual tracking [18] aims to localize the target in\nsuccessive frames.\nOver the past few years, two-stream\ntrackers [1,21,22,49], which extract features of the template\nand search region separately and then model cross-relations\nof the template and search region in a sequential fash-\nion, have emerged as a dominant tracking paradigm and\nmade a significant progress.\nFollowing this two-stream\npipeline, several Transformer-based trackers [4, 11, 38]\nutilize parallel self-attention blocks to enhance the ex-\ntracted features by modeling global self-relations within\neach image as illustrated in Fig. 1(a). Recently, leveraging\nFigure 1. Comparison of different relation modeling pipelines of\nTransformer-based trackers. The two-stream pipeline uses parallel\nself-attention blocks to model relations within each set of tokens\n(template or search tokens). The one-stream pipeline integrates\nthe cross-relation modeling between two sets of tokens and self-\nrelation modeling within each set of tokens via an unified attention\nblock. In contrast, our proposed pipeline performs an adaptive\ndivision of the search tokens, which can degenerate to the two-\nstream form if no search token is selected to interact with template\ntokens and to the one-stream form if all the search tokens are se-\nlected for cross-relation modeling.\nthe flexibility of the attention mechanism, the one-stream\npipeline [3, 5, 44] is proposed to jointly extract features\nand model relations, achieving promising performance. By\nconducting self-attention among all concatenated tokens,\nboth cross-relation modeling and self-relation modeling\ncan be performed simultaneously as illustrated in Fig. 1(b).\nIt is demonstrated in [3, 5, 39, 44] that letting the search\nregion interact with the template as early as possible is ben-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n18686\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

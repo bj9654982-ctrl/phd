@@ -1,0 +1,531 @@
+{
+  "number": 139,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T16:51:41Z",
+      "timestamp": 1792169501579,
+      "version": "4.4.0"
+    },
+    "reference-count": 51,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr46437.2021.00525",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2021-11-02T21:56:02Z",
+      "timestamp": 1635890162000
+    },
+    "page": "5285-5294",
+    "source": "Crossref",
+    "is-referenced-by-count": 219,
+    "title": [
+      "Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Bin",
+        "family": "Yan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinyu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huchuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyun",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00972"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref32",
+        "article-title": "UNet: convolutional networks for biomedical image segmentation",
+        "author": "ronneberger",
+        "year": "2015",
+        "journal-title": "MICCAI"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Faster R&#x2013;CNN: towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Automatic differentiation in pytorch",
+        "author": "paszke",
+        "year": "2017"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00131"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00058"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Hierarchical image saliency detection on extended cssd",
+        "author": "shi",
+        "year": "2015",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cag.2019.09.002"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref20",
+        "article-title": "The sixth visual object tracking vot2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01264-9_45"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00276"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00716"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Microsoft COCO: Common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00094"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_7"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00667"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00376"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref13",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "author": "henriques",
+        "year": "2008",
+        "journal-title": "ICVS"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01264-9_48"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01225-0_6"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2015",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2020.3002345"
+      },
+      {
+        "key": "ref19",
+        "article-title": "The eighth visual object tracking vot2020 challenge results",
+        "author": "kristan",
+        "year": "2020",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Transformer tracking",
+        "author": "chen",
+        "year": "2021",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01216-8_30"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref5",
+        "article-title": "High-performance longterm tracking with meta-updater",
+        "author": "dai",
+        "year": "2020",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Objects as points",
+        "author": "zhou",
+        "year": "2019"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00687"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.407"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Ocean: Object-aware anchor-free tracking",
+        "author": "zhang",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00676"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.404"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01228-1_36"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00408"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            20
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9577055/9577056/09577854.pdf?arnumber=9577854",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          10
+        ]
+      ],
+      "date-time": "2022-05-10T15:48:10Z",
+      "timestamp": 1652197690000
+    },
+    "score": 72.18048,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9577854/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 51,
+    "URL": "https://doi.org/10.1109/cvpr46437.2021.00525",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    }
+  }
+}

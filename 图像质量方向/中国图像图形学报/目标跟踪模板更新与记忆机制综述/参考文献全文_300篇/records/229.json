@@ -1,0 +1,39 @@
+{
+  "number": 229,
+  "title": "Rethinking Occlusion Modeling for UAV Tracking",
+  "year": 2026,
+  "authors": [
+    "Jian Zhang",
+    "Xincheng Yu",
+    "Yi Lin"
+  ],
+  "venue": "CVPR",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Rethinking_Occlusion_Modeling_for_UAV_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Rethinking_Occlusion_Modeling_for_UAV_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Rethinking_Occlusion_Modeling_for_UAV_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 3101995,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\229_2026_Rethinking_Occlusion_Modeling_for_UAV_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Rethinking_Occlusion_Modeling_for_UAV_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_Rethinking_Occlusion_Modeling_for_UAV_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 3101995,
+  "sha256": "95e0f1d08a2a2c6acf52031a91a708da2ebeb797f1b8261239c54044b37d33fe",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Rethinking Occlusion Modeling for UAV Tracking",
+  "first_page_text": "Rethinking Occlusion Modeling for UAV Tracking\nJian Zhang\nXincheng Yu\nYi Lin*\nNational Key Laboratory of Fundamental Science on Synthetic Vision,\nCollege of Computer Science, Sichuan University, Chengdu, 610000, China\nywjianjian@163.com, xinchengyu@alu.scu.edu.cn, yilin@scu.edu.cn\nAbstract\nOcclusion remains one of the major challenges in UAV\ntracking, where dynamic viewpoints and complex environ-\nments often cause partial or complete visibility loss. Exist-\ning transformer-based trackers typically regard occlusion\nas random information dropout, overlooking its structured\nand spatially correlated nature in real-world scenes. We\nrethink occlusion modeling in UAV tracking as a struc-\ntured process governed by spatial dependencies.\nBased\non this insight, we introduce Clustered Occlusion Model-\ning (COM) to generate realistic, density-adaptive occlu-\nsion patterns that enhance feature robustness under partial\nvisibility. Furthermore, we design Cost-Aware Depth Bias\n(CADB), which employs a depth-dependent prior to adjust\ninference depth, yielding better efficiency while maintain-\ning competitive accuracy.\nIntegrating COM and CADB\ninto a unified single-stream transformer framework, termed\nOCTrack, our tracker achieves robust and efficient UAV\ntracking in occlusion-prone environments. Extensive exper-\niments on multiple UAV benchmarks validate its effective-\nness and demonstrate state-of-the-art performance.\n1. Introduction\nUnmanned aerial vehicles (UAVs) are increasingly de-\nployed in vision-critical missions such as search and res-\ncue [43], powerline inspection [52], and autonomous de-\nlivery [26], where reliable perception and precise control\nare essential under dynamic and uncertain conditions. With\nmoving viewpoints and long-range observations, UAV vi-\nsual tracking operates in rapidly changing and cluttered\nscenes [4, 8, 51], placing stringent demands on the robust-\nness, adaptability, and real-time performance of onboard vi-\nsion systems. Tracking becomes particularly challenging as\ntargets are small, move abruptly, and are often occluded,\nbreaking spatial-temporal continuity when visual evidence\nis partially or completely missing. Meanwhile, limited on-\n*Corresponding author\nFigure 1. Comparison with state-of-the-art UAV tracking pipelines\non the UAVDT dataset. OCTrack sets a new benchmark with 0.85\nprecision and real-time efficiency at around 265 FPS.\nboard resources make it challenging to balance tracking ac-\ncuracy and efficiency.\nOver the past decade, visual tracking has progressed\nfrom discriminative filters to deep learning, culminating\nin transformer-based architectures that unify feature ex-\ntraction and interaction. The introduction of transformers\nhas reshaped the representational paradigm of visual track-\ning [9, 55], enabling joint optimization of feature extraction\nand interaction within a unified architecture. Single-stream\nmodels such as MixFormer [10], OSTrack [59], and Drop-\nMAE [49], through the synergy of global dependency mod-\neling and large-scale pretraining, achieve substantial gains\nin generalization and robustness. Recent studies [30, 50, 54]\nhave extended single-stream architectures to UAV tracking,\nachieving efficient real-time inference through adaptive to-\nken scheduling and dynamic depth control under resource\nconstraints. While achieving notable progress in structural\ncompression and computational efficiency, they still face\nchallenges in handling dynamic occlusion, which often dis-\nrupts visual continuity and degrades tracking stability in\ncomplex UAV environments. This challenge motivates a\nrethinking of occlusion modeling in UAV tracking toward a\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13563\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

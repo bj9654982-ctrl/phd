@@ -1,0 +1,42 @@
+{
+  "number": 260,
+  "title": "Enhancing Tracking Robustness with Auxiliary Adversarial Defense Networks",
+  "year": 2024,
+  "authors": [
+    "Zhewei Wu",
+    "Ruilong Yu",
+    "Qihe Liu",
+    "Shuying Cheng",
+    "Shilin Qiu",
+    "Shijie Zhou"
+  ],
+  "venue": "ECCV",
+  "category": "对抗扰动与可靠性诊断",
+  "priority": "P3 背景与边界",
+  "original_source": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6271_ECCV_2024_paper.php",
+  "doi": "10.1007/978-3-031-72952-2_12",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06271.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06271.pdf",
+      "bytes": 1062728,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\260_2024_Enhancing_Tracking_Robustness_with_Auxiliary_Adversarial_Defense_Networks.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06271.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06271.pdf",
+  "bytes": 1062728,
+  "sha256": "0dc9d5440ebade21cbeb656b6a1455f433092cc8c1b4ca12b867592550e271e9",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Enhancing Tracking Robustness with Auxiliary\nAdversarial Defense Networks\nZhewei Wu , Ruilong Yu, Qihe Liu† , Shuying Cheng , Shilin Qiu, and Shijie\nZhou\nUniversity of Electronic Science and Technology of China, Chengdu, 610000, China\n{wuzhewei0914,shuyingcheng0214}@foxmail.com, yrl666@outlook.com,\n{qiheliu,sjzhou}@uestc.edu.cn, qiushilin@std.uestc.edu.cn\nAbstract. Adversarial attacks in visual object tracking have signifi-\ncantly degraded the performance of advanced trackers by introducing\nimperceptible perturbations into images. However, there is still a lack of\nresearch on designing adversarial defense methods for object tracking. To\naddress these issues, we propose an effective auxiliary pre-processing de-\nfense network, AADN, which performs defensive transformations on the\ninput images before feeding them into the tracker. Moreover, it can be\nseamlessly integrated with other visual trackers as a plug-and-play mod-\nule without parameter adjustments. We train AADN using adversarial\ntraining, specifically employing Dua-Loss to generate adversarial samples\nthat simultaneously attack the classification and regression branches of\nthe tracker. Extensive experiments conducted on the OTB100, LaSOT,\nand VOT2018 benchmarks demonstrate that AADN maintains excellent\ndefense robustness against adversarial attack methods in both adaptive\nand non-adaptive attack scenarios. Moreover, when transferring the de-\nfense network to heterogeneous trackers, it exhibits reliable transferabil-\nity. Finally, AADN achieves a processing time of up to 5ms/frame, al-\nlowing seamless integration with existing high-speed trackers without\nintroducing significant computational overhead.\nKeywords: Adversarial Defense · Object Tracking · Adversarial Train-\ning\n1\nIntroduction\nVisual object tracking predicts the location of a target in a continuous sequence\nof video frames based on the specified appearance of target in the initial frame.\nAs a fundamental task in computer vision, it has received extensive attention\nand finds wide-ranging applications in various domains such as daily life and\nindustry [16, 20, 24, 30]. Research on adversarial samples [27] has revealed the\nability to deceive deep neural networks by introducing imperceptible pertur-\nbations into images. Consequently, an increasing number of researchers have\nturned their focus towards adversarial attack methods specifically for object\n† Corresponding author.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

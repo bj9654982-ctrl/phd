@@ -1,0 +1,1430 @@
+[
+  {
+    "number": 9,
+    "field": "doi",
+    "value": "10.1007/978-3-319-48881-3_56"
+  },
+  {
+    "number": 10,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.733"
+  },
+  {
+    "number": 11,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7298675"
+  },
+  {
+    "number": 12,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01240-3_10"
+  },
+  {
+    "number": 12,
+    "field": "authors",
+    "from": [
+      "Yang",
+      "Tianyu and Chan",
+      "Antoni B."
+    ],
+    "to": [
+      "Yang T",
+      "Chan A B"
+    ]
+  },
+  {
+    "number": 13,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00411"
+  },
+  {
+    "number": 14,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00628"
+  },
+  {
+    "number": 15,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00721"
+  },
+  {
+    "number": 16,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00803"
+  },
+  {
+    "number": 17,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00162"
+  },
+  {
+    "number": 18,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01028"
+  },
+  {
+    "number": 19,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.01356"
+  },
+  {
+    "number": 20,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.01324"
+  },
+  {
+    "number": 22,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.00879"
+  },
+  {
+    "number": 23,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01822"
+  },
+  {
+    "number": 28,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00661"
+  },
+  {
+    "number": 29,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01319"
+  },
+  {
+    "number": 32,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01246-5_19"
+  },
+  {
+    "number": 32,
+    "field": "authors",
+    "from": [
+      "Muller",
+      "Matthias and Bibi",
+      "Adel and Giancola",
+      "Silvio and Alsubaihi",
+      "Salman and Ghanem",
+      "Bernard"
+    ],
+    "to": [
+      "Muller M",
+      "Bibi A",
+      "Giancola S",
+      "Alsubaihi S",
+      "Ghanem B"
+    ]
+  },
+  {
+    "number": 33,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00552"
+  },
+  {
+    "number": 34,
+    "field": "doi",
+    "value": "10.1109/tpami.2019.2957464"
+  },
+  {
+    "number": 52,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.142"
+  },
+  {
+    "number": 53,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.362"
+  },
+  {
+    "number": 54,
+    "field": "doi",
+    "value": "10.1109/cvpr.2013.307"
+  },
+  {
+    "number": 55,
+    "field": "doi",
+    "value": "10.1109/cvpr.2013.305"
+  },
+  {
+    "number": 56,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.87"
+  },
+  {
+    "number": 57,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.285"
+  },
+  {
+    "number": 58,
+    "field": "doi",
+    "value": "10.1109/cvpr.2013.306"
+  },
+  {
+    "number": 59,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.308"
+  },
+  {
+    "number": 60,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.255"
+  },
+  {
+    "number": 61,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.88"
+  },
+  {
+    "number": 62,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.86"
+  },
+  {
+    "number": 63,
+    "field": "doi",
+    "value": "10.1109/cvpr.2013.314"
+  },
+  {
+    "number": 64,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.156"
+  },
+  {
+    "number": 65,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.157"
+  },
+  {
+    "number": 66,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.443"
+  },
+  {
+    "number": 67,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.164"
+  },
+  {
+    "number": 68,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.448"
+  },
+  {
+    "number": 69,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.446"
+  },
+  {
+    "number": 70,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.445"
+  },
+  {
+    "number": 71,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.344"
+  },
+  {
+    "number": 72,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.351"
+  },
+  {
+    "number": 73,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.352"
+  },
+  {
+    "number": 74,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7298823"
+  },
+  {
+    "number": 75,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7298835"
+  },
+  {
+    "number": 76,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.489"
+  },
+  {
+    "number": 77,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7299144"
+  },
+  {
+    "number": 78,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.354"
+  },
+  {
+    "number": 79,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7298632"
+  },
+  {
+    "number": 80,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7299132"
+  },
+  {
+    "number": 81,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.345"
+  },
+  {
+    "number": 82,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7298610"
+  },
+  {
+    "number": 83,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.350"
+  },
+  {
+    "number": 84,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.493"
+  },
+  {
+    "number": 85,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.357"
+  },
+  {
+    "number": 86,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.468"
+  },
+  {
+    "number": 87,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.130"
+  },
+  {
+    "number": 88,
+    "field": "doi",
+    "value": "10.1109/cvpr.2014.143"
+  },
+  {
+    "number": 89,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.490"
+  },
+  {
+    "number": 90,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.348"
+  },
+  {
+    "number": 91,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7299124"
+  },
+  {
+    "number": 92,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.159"
+  },
+  {
+    "number": 93,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.421"
+  },
+  {
+    "number": 94,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.156"
+  },
+  {
+    "number": 95,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.467"
+  },
+  {
+    "number": 96,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.513"
+  },
+  {
+    "number": 97,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.152"
+  },
+  {
+    "number": 98,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.279"
+  },
+  {
+    "number": 99,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.531"
+  },
+  {
+    "number": 100,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.510"
+  },
+  {
+    "number": 101,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.129"
+  },
+  {
+    "number": 102,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00058"
+  },
+  {
+    "number": 103,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00512"
+  },
+  {
+    "number": 104,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01240-3_34"
+  },
+  {
+    "number": 104,
+    "field": "authors",
+    "from": [
+      "Yao",
+      "Yingjie and Wu",
+      "Xiaohe and Zhang",
+      "Lei and Shan",
+      "Shiguang and Zuo",
+      "Wangmeng"
+    ],
+    "to": [
+      "Yao Y",
+      "Wu X",
+      "Zhang L",
+      "Shan S",
+      "Zuo W"
+    ]
+  },
+  {
+    "number": 105,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00934"
+  },
+  {
+    "number": 106,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00515"
+  },
+  {
+    "number": 107,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00509"
+  },
+  {
+    "number": 108,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01219-9_29"
+  },
+  {
+    "number": 108,
+    "field": "authors",
+    "from": [
+      "Zhang",
+      "Mengdan and Wang",
+      "Qiang and Xing",
+      "Junliang and Gao",
+      "Jin and Peng",
+      "Peixi and Hu",
+      "Weiming and Maybank",
+      "Steve"
+    ],
+    "to": [
+      "Zhang M",
+      "Wang Q",
+      "Xing J",
+      "Gao J",
+      "Peng P",
+      "Hu W",
+      "Maybank S"
+    ]
+  },
+  {
+    "number": 109,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00804"
+  },
+  {
+    "number": 110,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00298"
+  },
+  {
+    "number": 111,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00143"
+  },
+  {
+    "number": 112,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00593"
+  },
+  {
+    "number": 113,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00480"
+  },
+  {
+    "number": 114,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.01194"
+  },
+  {
+    "number": 116,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.158"
+  },
+  {
+    "number": 117,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00508"
+  },
+  {
+    "number": 118,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01264-9_22"
+  },
+  {
+    "number": 118,
+    "field": "authors",
+    "from": [
+      "Lu",
+      "Xiankai and Ma",
+      "Chao and Ni",
+      "Bingbing and Yang",
+      "Xiaokang and Reid",
+      "Ian and Yang",
+      "Ming-Hsuan"
+    ],
+    "to": [
+      "Lu X",
+      "Ma C",
+      "Ni B",
+      "Yang X",
+      "Reid I",
+      "Yang M H"
+    ]
+  },
+  {
+    "number": 119,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01240-3_7"
+  },
+  {
+    "number": 119,
+    "field": "authors",
+    "from": [
+      "Zhu",
+      "Zheng and Wang",
+      "Qiang and Li",
+      "Bo and Wu",
+      "Wei and Yan",
+      "Junjie and Hu",
+      "Weiming"
+    ],
+    "to": [
+      "Zhu Z",
+      "Wang Q",
+      "Li B",
+      "Wu W",
+      "Yan J",
+      "Hu W"
+    ]
+  },
+  {
+    "number": 120,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00935"
+  },
+  {
+    "number": 121,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00510"
+  },
+  {
+    "number": 122,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00511"
+  },
+  {
+    "number": 123,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01261-8_28"
+  },
+  {
+    "number": 123,
+    "field": "authors",
+    "from": [
+      "Dong",
+      "Xingping and Shen",
+      "Jianbing"
+    ],
+    "to": [
+      "Dong X",
+      "Shen J"
+    ]
+  },
+  {
+    "number": 124,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01216-8_30"
+  },
+  {
+    "number": 124,
+    "field": "authors",
+    "from": [
+      "Bhat",
+      "Goutam and Johnander",
+      "Joakim and Danelljan",
+      "Martin and Shahbaz Khan",
+      "Fahad and Felsberg",
+      "Michael"
+    ],
+    "to": [
+      "Bhat G",
+      "Johnander J",
+      "Danelljan M",
+      "Shahbaz Khan F",
+      "Felsberg M"
+    ]
+  },
+  {
+    "number": 125,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00937"
+  },
+  {
+    "number": 126,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00472"
+  },
+  {
+    "number": 127,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00142"
+  },
+  {
+    "number": 128,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00814"
+  },
+  {
+    "number": 129,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00441"
+  },
+  {
+    "number": 130,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00376"
+  },
+  {
+    "number": 131,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00146"
+  },
+  {
+    "number": 133,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00716"
+  },
+  {
+    "number": 134,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00676"
+  },
+  {
+    "number": 137,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00630"
+  },
+  {
+    "number": 138,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00670"
+  },
+  {
+    "number": 139,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00525"
+  },
+  {
+    "number": 140,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.01080"
+  },
+  {
+    "number": 141,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00108"
+  },
+  {
+    "number": 142,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00942"
+  },
+  {
+    "number": 143,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01309"
+  },
+  {
+    "number": 144,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00440"
+  },
+  {
+    "number": 145,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.01630"
+  },
+  {
+    "number": 146,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.01218"
+  },
+  {
+    "number": 147,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.00972"
+  },
+  {
+    "number": 148,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00855"
+  },
+  {
+    "number": 149,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00854"
+  },
+  {
+    "number": 151,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.466"
+  },
+  {
+    "number": 152,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.465"
+  },
+  {
+    "number": 153,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.462"
+  },
+  {
+    "number": 154,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.161"
+  },
+  {
+    "number": 155,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.153"
+  },
+  {
+    "number": 156,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.148"
+  },
+  {
+    "number": 157,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.63"
+  },
+  {
+    "number": 158,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.196"
+  },
+  {
+    "number": 159,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.21"
+  },
+  {
+    "number": 160,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.43"
+  },
+  {
+    "number": 161,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01240-3_42"
+  },
+  {
+    "number": 161,
+    "field": "authors",
+    "from": [
+      "Ren",
+      "Liangliang and Yuan",
+      "Xin and Lu",
+      "Jiwen and Yang",
+      "Ming and Zhou",
+      "Jie"
+    ],
+    "to": [
+      "Ren L",
+      "Yuan X",
+      "Lu J",
+      "Yang M",
+      "Zhou J"
+    ]
+  },
+  {
+    "number": 162,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00061"
+  },
+  {
+    "number": 163,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01219-9_35"
+  },
+  {
+    "number": 163,
+    "field": "authors",
+    "from": [
+      "Park",
+      "Eunbyung and Berg",
+      "Alexander C."
+    ],
+    "to": [
+      "Park E",
+      "Berg A C"
+    ]
+  },
+  {
+    "number": 164,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01234-2_20"
+  },
+  {
+    "number": 164,
+    "field": "authors",
+    "from": [
+      "Chen",
+      "Boyu and Wang",
+      "Dong and Li",
+      "Peixia and Wang",
+      "Shuang and Lu",
+      "Huchuan"
+    ],
+    "to": [
+      "Chen B",
+      "Wang D",
+      "Li P",
+      "Wang S",
+      "Lu H"
+    ]
+  },
+  {
+    "number": 165,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00479"
+  },
+  {
+    "number": 166,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00100"
+  },
+  {
+    "number": 167,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00626"
+  },
+  {
+    "number": 168,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00633"
+  },
+  {
+    "number": 169,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00741"
+  },
+  {
+    "number": 170,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00675"
+  },
+  {
+    "number": 171,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00632"
+  },
+  {
+    "number": 173,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00853"
+  },
+  {
+    "number": 175,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.01572"
+  },
+  {
+    "number": 176,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00687"
+  },
+  {
+    "number": 177,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01517"
+  },
+  {
+    "number": 178,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.00971"
+  },
+  {
+    "number": 182,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00859"
+  },
+  {
+    "number": 183,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00858"
+  },
+  {
+    "number": 184,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.00928"
+  },
+  {
+    "number": 185,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.01792"
+  },
+  {
+    "number": 186,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.02186"
+  },
+  {
+    "number": 187,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01826"
+  },
+  {
+    "number": 189,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.00935"
+  },
+  {
+    "number": 190,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.01400"
+  },
+  {
+    "number": 191,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01802"
+  },
+  {
+    "number": 192,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01808"
+  },
+  {
+    "number": 193,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.00680"
+  },
+  {
+    "number": 194,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.00675"
+  },
+  {
+    "number": 197,
+    "field": "doi",
+    "value": "10.1109/cvpr.2019.00140"
+  },
+  {
+    "number": 198,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01329"
+  },
+  {
+    "number": 199,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00301"
+  },
+  {
+    "number": 200,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00793"
+  },
+  {
+    "number": 201,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.01399"
+  },
+  {
+    "number": 202,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.01793"
+  },
+  {
+    "number": 204,
+    "field": "doi",
+    "value": "10.1109/cvpr.2013.308"
+  },
+  {
+    "number": 205,
+    "field": "doi",
+    "value": "10.1109/cvpr.2015.7299177"
+  },
+  {
+    "number": 206,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.108"
+  },
+  {
+    "number": 207,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.585"
+  },
+  {
+    "number": 208,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00247"
+  },
+  {
+    "number": 210,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01801"
+  },
+  {
+    "number": 211,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.02259"
+  },
+  {
+    "number": 212,
+    "field": "doi",
+    "value": "10.1109/cvpr.2018.00057"
+  },
+  {
+    "number": 213,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.01493"
+  },
+  {
+    "number": 215,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.00881"
+  },
+  {
+    "number": 217,
+    "field": "doi",
+    "value": "10.1109/iccv51701.2025.01247"
+  },
+  {
+    "number": 222,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00869"
+  },
+  {
+    "number": 223,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.01286"
+  },
+  {
+    "number": 224,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.00918"
+  },
+  {
+    "number": 225,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.01594"
+  },
+  {
+    "number": 226,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.00631"
+  },
+  {
+    "number": 227,
+    "field": "doi",
+    "value": "10.1109/iccv51701.2025.00610"
+  },
+  {
+    "number": 231,
+    "field": "doi",
+    "value": "10.1109/cvpr.2017.777"
+  },
+  {
+    "number": 232,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00579"
+  },
+  {
+    "number": 233,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.01355"
+  },
+  {
+    "number": 234,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.00915"
+  },
+  {
+    "number": 235,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.02217"
+  },
+  {
+    "number": 236,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.01288"
+  },
+  {
+    "number": 237,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01817"
+  },
+  {
+    "number": 238,
+    "field": "doi",
+    "value": "10.1109/iccv51701.2025.01846"
+  },
+  {
+    "number": 239,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.01785"
+  },
+  {
+    "number": 240,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.00816"
+  },
+  {
+    "number": 244,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01280"
+  },
+  {
+    "number": 245,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.01310"
+  },
+  {
+    "number": 246,
+    "field": "doi",
+    "value": "10.1109/cvpr52729.2023.00918"
+  },
+  {
+    "number": 247,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01805"
+  },
+  {
+    "number": 248,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.02507"
+  },
+  {
+    "number": 249,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01812"
+  },
+  {
+    "number": 250,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.00609"
+  },
+  {
+    "number": 251,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.02057"
+  },
+  {
+    "number": 252,
+    "field": "doi",
+    "value": "10.1109/iccv51701.2025.00330"
+  },
+  {
+    "number": 253,
+    "field": "doi",
+    "value": "10.1109/iccv51701.2025.00543"
+  },
+  {
+    "number": 255,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00492"
+  },
+  {
+    "number": 256,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00107"
+  },
+  {
+    "number": 258,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00664"
+  },
+  {
+    "number": 259,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01066"
+  },
+  {
+    "number": 261,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.480"
+  },
+  {
+    "number": 262,
+    "field": "doi",
+    "value": "10.1109/iccv.2019.00932"
+  },
+  {
+    "number": 263,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.01080"
+  },
+  {
+    "number": 264,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00890"
+  },
+  {
+    "number": 266,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00743"
+  },
+  {
+    "number": 267,
+    "field": "doi",
+    "value": "10.1109/cvpr42600.2020.00651"
+  },
+  {
+    "number": 270,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00134"
+  },
+  {
+    "number": 271,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01265"
+  },
+  {
+    "number": 272,
+    "field": "doi",
+    "value": "10.1109/cvpr46437.2021.00413"
+  },
+  {
+    "number": 273,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.00796"
+  },
+  {
+    "number": 275,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00139"
+  },
+  {
+    "number": 276,
+    "field": "doi",
+    "value": "10.1109/cvpr52688.2022.00142"
+  },
+  {
+    "number": 278,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.00118"
+  },
+  {
+    "number": 279,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.01276"
+  },
+  {
+    "number": 281,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.00304"
+  },
+  {
+    "number": 282,
+    "field": "doi",
+    "value": "10.1109/cvpr52733.2024.01760"
+  },
+  {
+    "number": 283,
+    "field": "doi",
+    "value": "10.1109/cvpr52734.2025.00810"
+  },
+  {
+    "number": 284,
+    "field": "doi",
+    "value": "10.1109/iccv51701.2025.01264"
+  },
+  {
+    "number": 287,
+    "field": "doi",
+    "value": "10.1109/iccv.2013.346"
+  },
+  {
+    "number": 288,
+    "field": "doi",
+    "value": "10.1109/iccv.2015.355"
+  },
+  {
+    "number": 289,
+    "field": "doi",
+    "value": "10.1109/cvpr.2016.85"
+  },
+  {
+    "number": 290,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.360"
+  },
+  {
+    "number": 291,
+    "field": "doi",
+    "value": "10.1109/iccv.2017.128"
+  },
+  {
+    "number": 292,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01219-9_41"
+  },
+  {
+    "number": 292,
+    "field": "authors",
+    "from": [
+      "Valmadre",
+      "Jack and Bertinetto",
+      "Luca and Henriques",
+      "Joao F. and Tao",
+      "Ran and Vedaldi",
+      "Andrea and Smeulders",
+      "Arnold W.M. and Torr",
+      "Philip H.S. and Gavves",
+      "Efstratios"
+    ],
+    "to": [
+      "Valmadre J",
+      "Bertinetto L",
+      "Henriques J F",
+      "Tao R",
+      "Vedaldi A",
+      "Smeulders A W M",
+      "Torr P H S",
+      "Gavves E"
+    ]
+  },
+  {
+    "number": 293,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01249-6_23"
+  },
+  {
+    "number": 293,
+    "field": "authors",
+    "from": [
+      "Du",
+      "Dawei and Qi",
+      "Yuankai and Yu",
+      "Hongyang and Yang",
+      "Yifan and Duan",
+      "Kaiwen and Li",
+      "Guorong and Zhang",
+      "Weigang and Huang",
+      "Qingming and Tian",
+      "Qi"
+    ],
+    "to": [
+      "Du D",
+      "Qi Y",
+      "Yu H",
+      "Yang Y",
+      "Duan K",
+      "Li G",
+      "Zhang W",
+      "Huang Q",
+      "Tian Q"
+    ]
+  },
+  {
+    "number": 294,
+    "field": "doi",
+    "value": "10.1007/978-3-030-01228-1_36"
+  },
+  {
+    "number": 294,
+    "field": "authors",
+    "from": [
+      "Xu",
+      "Ning and Yang",
+      "Linjie and Fan",
+      "Yuchen and Yang",
+      "Jianchao and Yue",
+      "Dingcheng and Liang",
+      "Yuchen and Price",
+      "Brian and Cohen",
+      "Scott and Huang",
+      "Thomas"
+    ],
+    "to": [
+      "Xu N",
+      "Yang L",
+      "Fan Y",
+      "Yang J",
+      "Yue D",
+      "Liang Y",
+      "Price B",
+      "Cohen S",
+      "Huang T"
+    ]
+  },
+  {
+    "number": 295,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01056"
+  },
+  {
+    "number": 296,
+    "field": "doi",
+    "value": "10.1109/iccv48922.2021.01013"
+  },
+  {
+    "number": 297,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.01880"
+  },
+  {
+    "number": 298,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.01240"
+  },
+  {
+    "number": 299,
+    "field": "doi",
+    "value": "10.1109/iccv51070.2023.01850"
+  },
+  {
+    "number": 300,
+    "field": "doi",
+    "value": "10.1109/iccv51701.2025.00556"
+  }
+]

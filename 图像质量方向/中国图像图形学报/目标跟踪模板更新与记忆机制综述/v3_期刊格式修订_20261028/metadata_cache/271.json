@@ -1,0 +1,601 @@
+{
+  "number": 271,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Hierarchical Memory Matching Network for Video Object Segmentation",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2026-10-20T16:38:50Z",
+      "timestamp": 1792514330185,
+      "version": "4.5.0"
+    },
+    "reference-count": 55,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006180",
+        "name": "Technology Development",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006180",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv48922.2021.01265",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2022-02-28T22:08:02Z",
+      "timestamp": 1646086082000
+    },
+    "page": "12869-12878",
+    "source": "Crossref",
+    "is-referenced-by-count": 117,
+    "title": [
+      "Hierarchical Memory Matching Network for Video Object Segmentation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Hongje",
+        "family": "Seong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Yonsei University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Seoung Wug",
+        "family": "Oh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Adobe Research"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joon-Young",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Adobe Research"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Seongwon",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yonsei University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Suhyeon",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yonsei University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Euntai",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Yonsei University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Kernelized memory network for video object segmentation",
+        "author": "seong",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00770"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/D16-1147"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Make one-shot video object segmentation efficient again",
+        "author": "meinhardt",
+        "year": "2020",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00743"
+      },
+      {
+        "key": "ref36",
+        "article-title": "The 2017 davis challenge on video object segmentation",
+        "author": "pont-tuset",
+        "year": "2017"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.372"
+      },
+      {
+        "key": "ref28",
+        "first-page": "565",
+        "article-title": "Premvos: Proposal-generation, refinement and merging for video object segmentation",
+        "author": "luiten",
+        "year": "2018",
+        "journal-title": "ACCV"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Video object segmentation with episodic graph memory networks",
+        "author": "lu",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2838670"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Learning what to learn for video object segmentation",
+        "author": "bhat",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00626"
+      },
+      {
+        "key": "ref20",
+        "first-page": "90",
+        "article-title": "Video object segmentation with joint re-identification and attention-aware mask propagation",
+        "author": "li",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Delving into the cyclic mechanism in semi-supervised video object segmentation",
+        "author": "li",
+        "year": "2020",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Fast video object segmentation using the global context module",
+        "author": "li",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Agssvos: Attention guided single-shot video object segmentation",
+        "author": "lin",
+        "year": "2019",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Video object segmentation with adaptive feature bank and uncertain-region refinement",
+        "author": "liang",
+        "year": "2020",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Spatiotemporal graph neural network based mask reconstruction for video object segmentation",
+        "author": "liu",
+        "year": "2021",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref25",
+        "first-page": "740",
+        "article-title": "Microsoft coco: Common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref50",
+        "article-title": "Collaborative video object segmentation by foreground-background integration",
+        "author": "yang",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2021.3081597"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Deformable detr: Deformable transformers for end-to-end object detection",
+        "author": "zhu",
+        "year": "2021",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00698"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00568"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00403"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV45572.2020.9093333"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2465960"
+      },
+      {
+        "key": "ref12",
+        "first-page": "325",
+        "article-title": "Maskrnn: Instance level video object segmentation",
+        "author": "hu",
+        "year": "2017",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref13",
+        "first-page": "54",
+        "article-title": "Videomatch: Matching based video object segmentation",
+        "author": "hu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00890"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00916"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-019-01164-6"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2015",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref18",
+        "first-page": "1378",
+        "article-title": "Ask me anything: Dynamic memory networks for natural language processing",
+        "author": "kumar",
+        "year": "2016",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00651"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00940"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.565"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345401"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.81"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-009-0275-4"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00857"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00680"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126343"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00408"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-016-0977-3"
+      },
+      {
+        "key": "ref48",
+        "first-page": "585",
+        "article-title": "Youtubevos: Sequence-to-sequence video object segmentation",
+        "author": "xu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2890659"
+      },
+      {
+        "key": "ref42",
+        "first-page": "2440",
+        "article-title": "End-to-end memory networks",
+        "author": "sukhbaatar",
+        "year": "2015",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.238"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Online adaptation of convolutional neural networks for video object segmentation",
+        "author": "voigtlaender",
+        "year": "2017",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref43",
+        "first-page": "9481",
+        "article-title": "Feelvos: Fast end-to-end embedding learning for video object segmentation",
+        "author": "voigtlaender",
+        "year": "2019",
+        "journal-title": "CVPR"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Montreal, QC, Canada",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9709627/9709628/09711304.pdf?arnumber=9711304",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2022-07-12T19:37:08Z",
+      "timestamp": 1657654628000
+    },
+    "score": 51.66044,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9711304/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "references-count": 55,
+    "URL": "https://doi.org/10.1109/iccv48922.2021.01265",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    }
+  }
+}

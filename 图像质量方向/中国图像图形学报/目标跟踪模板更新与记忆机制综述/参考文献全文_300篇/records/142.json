@@ -1,0 +1,42 @@
+{
+  "number": 142,
+  "title": "Graph Attention Tracking",
+  "year": 2021,
+  "authors": [
+    "Dongyan Guo",
+    "Yanyan Shao",
+    "Ying Cui",
+    "Zhenhua Wang",
+    "Liyan Zhang",
+    "Chunhua Shen"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Guo_Graph_Attention_Tracking_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Graph_Attention_Tracking_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Graph_Attention_Tracking_CVPR_2021_paper.pdf",
+      "bytes": 1726526,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\142_2021_Graph_Attention_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Graph_Attention_Tracking_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Graph_Attention_Tracking_CVPR_2021_paper.pdf",
+  "bytes": 1726526,
+  "sha256": "03cb746920d2b7f8aa57d0f90bce9cfbb69bfe2398028b5a3d5a66834c550763",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Graph Attention Tracking",
+  "first_page_text": "Graph Attention Tracking\nDongyan Guo†, Yanyan Shao†, Ying Cui†∗, Zhenhua Wang†, Liyan Zhang‡, Chunhua Shen⋄\n† Zhejiang University of Technology, China\n‡ Nanjing University of Aeronautics & Astronautics, China\n⋄Monash University, Australia\ne-mail: cuiying@zjut.edu.cn\nAbstract\nSiamese network based trackers formulate the visual\ntracking task as a similarity matching problem.\nAlmost\nall popular Siamese trackers realize the similarity learning\nvia convolutional feature cross-correlation between a tar-\nget branch and a search branch. However, since the size\nof target feature region needs to be pre-ﬁxed, these cross-\ncorrelation base methods suffer from either reserving much\nadverse background information or missing a great deal of\nforeground information. Moreover, the global matching be-\ntween the target and search region also largely neglects the\ntarget structure and part-level information.\nIn this paper, to solve the above issues, we propose a\nsimple target-aware Siamese graph attention network for\ngeneral object tracking. We propose to establish part-to-\npart correspondence between the target and the search re-\ngion with a complete bipartite graph, and apply the graph\nattention mechanism to propagate target information from\nthe template feature to the search feature. Further, instead\nof using the pre-ﬁxed region cropping for template-feature-\narea selection, we investigate a target-aware area selection\nmechanism to ﬁt the size and aspect ratio variations of dif-\nferent objects. Experiments on challenging benchmarks in-\ncluding GOT-10k, UAV123, OTB-100 and LaSOT demon-\nstrate that the proposed SiamGAT outperforms many state-\nof-the-art trackers and achieves leading performance. Code\nis available at: https: // git. io/ SiamGAT\n1. Introduction\nGeneral object tracking is a fundamental but challeng-\ning task in computer vision. In recent years, mainstream\ntrackers focus on Siamese network based architectures\n[10, 15, 16, 33], which achieve state-of-the-art performance\nas well as a good balance between tracking accuracy and\nefﬁciency. These trackers ﬁrst employ a Siamese network\nfor feature extraction. Then they develop a tracking-head\nSiamGAT\nSiamCAR\nATOM\nSiamRPN++\n#16\n#37\n#56\n#16\n#68\n#91\n#63\n#73\n#92\nFigure 1 – Comparisons of our SiamGAT with state-of-the-art\ntrackers on three challenging sequences from GOT-10k.\nBen-\neﬁting from the effective target information propagating, our\nSiamGAT successsfully handles the challenges such as shape de-\nformation, similar distractors and extreme aspect-ratio changes.\nCompared with the baseline SiamCAR (green), our SiamGAT\n(red) remarkably improves the tracking accuracy (zoom in for a\nbetter view).\nnetwork for object information decoding from one or more\nsimilarity maps (or so-called response maps) obtained by\ninformation embedding between the template-branch and\nthe search-branch. How to embed the information of the\ntwo branches to obtain informative response maps is a key\nissue, since information passed from the template to the\nsearch region is critical to the accurate localization of the\nobject. Almost all current state-of-the-art Siamese trackers\nlike SiamRPN [16], SiamRPN++ [15], SiamFC++ [33] and\nSiamCAR [10] utilize a cross-correlation based layer for\ninformation embedding, which takes convolution on deep\nfeatures as the basic operation. Despite their great success,\nsome important drawbacks exist with such cross-correlation\nbased trackers: 1) The size of convolution kernel is pre-\nﬁxed. As shown in Figure 2, a common processing is crop-\n9543\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,423 @@
+{
+  "number": 231,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Tracking by Natural Language Specification",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2026-10-13T17:00:57Z",
+      "timestamp": 1791910857596,
+      "version": "4.3.4"
+    },
+    "reference-count": 40,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2017.777",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2017-11-09T16:50:33Z",
+      "timestamp": 1510246233000
+    },
+    "page": "7350-7358",
+    "source": "Crossref",
+    "is-referenced-by-count": 160,
+    "title": [
+      "Tracking by Natural Language Specification"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Zhenyang",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ran",
+        "family": "Tao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Efstratios",
+        "family": "Gavves",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Cees G. M.",
+        "family": "Snoek",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arnold W. M.",
+        "family": "Smeulders",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Show, attend and tell: Neural image caption generation with visual attention",
+        "author": "xu",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Visual tracking: An experimental survey",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2015",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Grounding of textual phrases in images by reconstruction",
+        "author": "rohrbach",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Online object tracking, learning and parsing with and-or graphs",
+        "author": "wu",
+        "year": "2015",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.153"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Show and tell: A neural image caption generator",
+        "author": "vinyals",
+        "year": "2014",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref40",
+        "author": "zhou",
+        "year": "2015",
+        "journal-title": "Simple baseline for visual question answering"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_45"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Segmentation from natural language expressions",
+        "author": "hu",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.493"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Guided long-short term memory for image caption generation",
+        "author": "jia",
+        "year": "2015",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298932"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Referit game: Referring to objects in photographs of natural scenes",
+        "author": "kazemzadeh",
+        "year": "2014",
+        "journal-title": "EMNLP"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Midge: Generating image descriptions from computer vision detections",
+        "author": "mitchell",
+        "year": "2012",
+        "journal-title": "EACL"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.161"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Im2text: Describing images using 1 million captioned photographs",
+        "author": "ordonez",
+        "year": "2011",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.468"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Neural machine translation by jointly learning to align and translate",
+        "author": "bahdanau",
+        "year": "2015",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.159"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.279"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Visual question answering with question representation update (QRU)",
+        "author": "li",
+        "year": "2016",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Deep learning for question answering",
+        "author": "kulkarni",
+        "year": "2011",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.467"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Attributes make sense on segmented objects",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.9"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      }
+    ],
+    "event": {
+      "name": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Honolulu, HI",
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            21
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            26
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8097368/8099483/08100260.pdf?arnumber=8100260",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          15
+        ]
+      ],
+      "date-time": "2017-12-15T15:59:59Z",
+      "timestamp": 1513353599000
+    },
+    "score": 33.06037,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/8100260/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1109/cvpr.2017.777",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    }
+  }
+}

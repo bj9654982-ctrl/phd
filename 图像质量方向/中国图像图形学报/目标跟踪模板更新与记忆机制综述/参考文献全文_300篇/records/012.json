@@ -1,0 +1,39 @@
+{
+  "number": 12,
+  "title": "Learning Dynamic Memory Networks for Object Tracking",
+  "year": 2018,
+  "authors": [
+    "Yang",
+    "Tianyu and Chan",
+    "Antoni B."
+  ],
+  "venue": "ECCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Tianyu_Yang_Learning_Dynamic_Memory_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Tianyu_Yang_Learning_Dynamic_Memory_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Tianyu_Yang_Learning_Dynamic_Memory_ECCV_2018_paper.pdf",
+      "bytes": 710552,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\012_2018_Learning_Dynamic_Memory_Networks_for_Object_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Tianyu_Yang_Learning_Dynamic_Memory_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Tianyu_Yang_Learning_Dynamic_Memory_ECCV_2018_paper.pdf",
+  "bytes": 710552,
+  "sha256": "713106061e223b5fe5bb0d2e2edf13eb08e1b8ee794540c52d55e3ea06e02374",
+  "version": "会议官方开放版本",
+  "pages": 16,
+  "pdf_title": "Learning Dynamic Memory Networks for Object Tracking",
+  "first_page_text": "Learning Dynamic Memory Networks for Object\nTracking\nTianyu Yang[0000−0002−9674−5220] and Antoni B. Chan[0000−0002−2886−2513]\nDepartment of Computer Science, City University of Hong Kong, Hong Kong, China\ntianyyang8-c@my.cityu.edu.hk, abchan@cityu.edu.hk\nAbstract. Template-matching methods for visual tracking have gained\npopularity recently due to their comparable performance and fast speed.\nHowever, they lack eﬀective ways to adapt to changes in the target ob-\nject’s appearance, making their tracking accuracy still far from state-of-\nthe-art. In this paper, we propose a dynamic memory network to adapt\nthe template to the target’s appearance variations during tracking. An\nLSTM is used as a memory controller, where the input is the search\nfeature map and the outputs are the control signals for the reading and\nwriting process of the memory block. As the location of the target is at\nﬁrst unknown in the search feature map, an attention mechanism is ap-\nplied to concentrate the LSTM input on the potential target. To prevent\naggressive model adaptivity, we apply gated residual template learning\nto control the amount of retrieved memory that is used to combine with\nthe initial template. Unlike tracking-by-detection methods where the ob-\nject’s information is maintained by the weight parameters of neural net-\nworks, which requires expensive online ﬁne-tuning to be adaptable, our\ntracker runs completely feed-forward and adapts to the target’s appear-\nance changes by updating the external memory. Moreover, unlike other\ntracking methods where the model capacity is ﬁxed after oﬄine training –\nthe capacity of our tracker can be easily enlarged as the memory require-\nments of a task increase, which is favorable for memorizing long-term ob-\nject information. Extensive experiments on OTB and VOT demonstrates\nthat our tracker MemTrack performs favorably against state-of-the-art\ntracking methods while retaining real-time speed of 50 fps.\nKeywords: Addressable Memory, Gated Residual Template Learning\n1\nIntroduction\nAlong with the success of convolution neural networks in object recognition\nand detection, an increasing number of trackers [4, 13, 22, 26, 31] have adopted\ndeep learning models for visual object tracking. Among them are two dominant\ntracking strategies. One is the tracking-by-detection scheme that online trains\nan object appearance classiﬁer [22,26] to distinguish the target from the back-\nground. The model is ﬁrst learned using the initial frame, and then ﬁne-tuned\nusing the training samples generated in the subsequent frames based on the\nnewly predicted bounding box. The other scheme is template matching, which\nadopts either the target patch in the ﬁrst frame [4,29] or the previous frame [14]\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

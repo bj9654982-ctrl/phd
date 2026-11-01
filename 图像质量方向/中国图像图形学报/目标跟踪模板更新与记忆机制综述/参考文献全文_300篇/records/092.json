@@ -1,0 +1,40 @@
+{
+  "number": 92,
+  "title": "Adaptive Decontamination of the Training Set: A Unified Formulation for Discriminative Visual Tracking",
+  "year": 2016,
+  "authors": [
+    "Martin Danelljan",
+    "Gustav Hager",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Danelljan_Adaptive_Decontamination_of_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Danelljan_Adaptive_Decontamination_of_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Danelljan_Adaptive_Decontamination_of_CVPR_2016_paper.pdf",
+      "bytes": 1473834,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\092_2016_Adaptive_Decontamination_of_the_Training_Set__A_Unified_Formulation_for_Discri.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Danelljan_Adaptive_Decontamination_of_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Danelljan_Adaptive_Decontamination_of_CVPR_2016_paper.pdf",
+  "bytes": 1473834,
+  "sha256": "1ff67789b86008009814e360e7bddf1089756f183acc847a2d881b29c624dc70",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Adaptive Decontamination of the Training Set: A Unified Formulation for Discriminative Visual Tracking",
+  "first_page_text": "Adaptive Decontamination of the Training Set:\nA Uniﬁed Formulation for Discriminative Visual Tracking\nMartin Danelljan, Gustav H¨ager, Fahad Shahbaz Khan, Michael Felsberg\nComputer Vision Laboratory, Department of Electrical Engineering, Link¨oping University, Sweden\n{martin.danelljan, gustav.hager, fahad.khan, michael.felsberg}@liu.se\nAbstract\nTracking-by-detection methods have demonstrated com-\npetitive performance in recent years. In these approaches,\nthe tracking model heavily relies on the quality of the train-\ning set. Due to the limited amount of labeled training data,\nadditional samples need to be extracted and labeled by\nthe tracker itself. This often leads to the inclusion of cor-\nrupted training samples, due to occlusions, misalignments\nand other perturbations.\nExisting tracking-by-detection\nmethods either ignore this problem, or employ a separate\ncomponent for managing the training set.\nWe propose a novel generic approach for alleviating\nthe problem of corrupted training samples in tracking-by-\ndetection frameworks. Our approach dynamically manages\nthe training set by estimating the quality of the samples.\nContrary to existing approaches, we propose a uniﬁed for-\nmulation by minimizing a single loss over both the target\nappearance model and the sample quality weights.\nThe\njoint formulation enables corrupted samples to be down-\nweighted while increasing the impact of correct ones. Ex-\nperiments are performed on three benchmarks: OTB-2015\nwith 100 videos, VOT-2015 with 60 videos, and Temple-\nColor with 128 videos. On the OTB-2015, our uniﬁed for-\nmulation signiﬁcantly improves the baseline, with a gain\nof 3.8% in mean overlap precision. Finally, our method\nachieves state-of-the-art results on all three datasets.\n1. Introduction\nGeneric visual tracking is the problem of estimating the\ntrajectory of a target in an image sequence, given only its\ninitial location. Tracking methods serve as important com-\nponents in a variety of vision systems.\nThe problem is\nparticularly challenging due to the limited prior knowledge\nabout the target. Furthermore, the tracking model must be\nﬂexible to counter rapid target appearance changes, while\nbeing robust to, e.g., occlusions and background clutter.\nThe above mentioned problems have been addressed\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\nExample number\n0\n0.005\n0.01\n0.015\n0.02\n0.025\n0.03\nExample weight\n75\n107\n119\n129\n162\n182\n184\n75\n107\n119\n129\n162\n182\n184\nFigure 1. An illustration of our adaptive decontamination of the\ntraining set. We show the corresponding image patches and track-\ning predictions (red box) for selected training samples. The qual-\nity weights (blue), computed by our learning approach, determine\nthe impact of the corresponding training samples (numbered in\nchronological order).\nThe prior sample weights are plotted in\nred. Our approach down-weights samples that are misaligned (no.\n119), partially occluded (no. 129) or fully occluded (no. 162-182).\nby methods based on the tracking-by-detection paradigm\n[2, 11, 13, 29], with promising results in recent years. In this\nparadigm, tracking methods employ machine learning tech-\nniques to train an appearance model based on samples of the\ntarget and its background. Typically, supervised learning\nmethods such as Support Vector Machines (SVMs) or ridge\nregression are used to construct a discriminative classiﬁer\nor regressor. The quality of the tracking model is directly\ndependent on the training set. Therefore, a robust approach\nfor constructing and managing the training set is crucial for\navoiding model drift and tracking failure.\nStandard\ntracking-by-detection\napproaches\nstruggle\nwhen the training set is contaminated by corrupted sam-\nples. These corrupted samples are included in the training\nset in several different scenarios. Firstly, when encountered\nwith target deformation and out-of-plane rotation, inaccu-\nrate tracking predictions lead to misaligned training sam-\n1430\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.909,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

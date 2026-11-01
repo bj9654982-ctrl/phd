@@ -1,0 +1,41 @@
+{
+  "number": 246,
+  "title": "Visual Prompt Multi-Modal Tracking",
+  "year": 2023,
+  "authors": [
+    "Jiawen Zhu",
+    "Simiao Lai",
+    "Xin Chen",
+    "Dong Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.pdf",
+      "bytes": 2071394,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\246_2023_Visual_Prompt_Multi-Modal_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.pdf",
+  "bytes": 2071394,
+  "sha256": "14cc53c2ea2b2dbbb158b6dbbb80089d9c2a9c765556392737e8d409d0beba90",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Visual Prompt Multi-Modal Tracking",
+  "first_page_text": "Visual Prompt Multi-Modal Tracking\nJiawen Zhu1†\nSimiao Lai1†\nXin Chen1\nDong Wang1B\nHuchuan Lu1,2\n1Dalian University of Technology, China\n2Peng Cheng Laboratory, China\n{jiawen,laisimiao,chenxin3131}@mail.dlut.edu.cn, {wdice,lhchuan}@dlut.edu.cn\nAbstract\nVisible-modal object tracking gives rise to a series of\ndownstream multi-modal tracking tributaries. To inherit the\npowerful representations of the foundation model, a natural\nmodus operandi for multi-modal tracking is full ﬁne-tuning\non the RGB-based parameters. Albeit effective, this man-\nner is not optimal due to the scarcity of downstream data\nand poor transferability, etc. In this paper, inspired by the\nrecent success of the prompt learning in language models,\nwe develop Visual Prompt multi-modal Tracking (ViPT),\nwhich learns the modal-relevant prompts to adapt the frozen\npre-trained foundation model to various downstream multi-\nmodal tracking tasks. ViPT ﬁnds a better way to stimulate\nthe knowledge of the RGB-based model that is pre-trained\nat scale, meanwhile only introducing a few trainable pa-\nrameters (less than 1% of model parameters). ViPT outper-\nforms the full ﬁne-tuning paradigm on multiple downstream\ntracking tasks including RGB+Depth, RGB+Thermal, and\nRGB+Event tracking. Extensive experiments show the po-\ntential of visual prompt learning for multi-modal tracking,\nand ViPT can achieve state-of-the-art performance while\nsatisfying parameter efﬁciency. Code and models are avail-\nable at https://github.com/jiawen-zhu/ViPT.\n1. Introduction\nRGB-based tracking, a foundation task of visual object\ntracking, gains from large-scale benchmarks [9, 13, 27, 36,\n39, 45] provided by the community, and many excellent\nworks [2,3,5,7,22] have spurted out over the past decades.\nDespite the promising results, object tracking based on\npure RGB sequences is still prone to failure in some com-\nplex and corner scenarios, e.g., extreme illumination, back-\nground clutter, and motion blur. Therefore, multi-modal\ntracking is drawing increasing attention due to the ability to\nachieve more robust tracking by utilizing inter-modal com-\nplementarity, among which RGB+Depth (RGB-D) [47,60],\n†Equal contribution.\nBCorresponding author: Dr. Dong Wang.\n(b) Multi-modal Tracking (existing)\n(a) RGB-based Tracking\n(c) ViPT (ours)\nFoundation Task Pre-training\nFull Fine-tuning\nPrompt-tuning\nFusion\nFeature \nExtracting\nFoundation Model\nPrompts\n…\n…\nRGB\nRGB\nRGB\nFeature \nExtracting\nFoundation Model\nDownstream data\nLarge-scale data\nFoundation modality\nAuxiliary modality\nEvent\nThermal\nDepth\nEvent\nThermal\nDepth\nFigure 1. Existing multi-modal tracking paradigm vs. ViPT.\n(a) Foundation model training on large-scale RGB sequences.\n(a)→(b) Existing multi-modal methods extend the off-the-shelf\nfoundation model and conduct full ﬁne-tuning on downstream\ntracking tasks. (a)→(c) We investigate the design of a multi-modal\ntracking method in prompt-learning paradigm. Compared to (b),\nthe proposed ViPT has a more concise network structure, bene-\nﬁts from parameter-friendly prompt-tuning, and narrows the gap\nbetween the foundation and downstream models.\nRGB+Thermal (RGB-T) [44, 56], and RGB+Event (RGB-\nE) [51,52] are represented.\nHowever, as the downstream task of RGB-based track-\ning, the main issue encountered by multi-modal tracking is\nthe lack of large-scale datasets. For example, the widely\nused RGB-based tracking datasets, GOT-10k [13], Track-\ningNet [36], and LaSOT [9], contain 9.3K, 30.1K, and\n1.1K sequences, corresponding to 1.4M, 14M, and 2.8M\nframes for training. Whereas the largest training datasets\nin multi-modal tracking, DepthTrack [47], LasHeR [25],\nVisEvent [43], contain 150, 979, 500 training sequences,\ncorresponding to 0.22M, 0.51M, 0.21M annotated frame\npairs, which is at least an order of magnitude less than the\nformer. Accounting for the above limitation, multi-modal\ntracking methods [43, 47, 61] usually utilize pre-trained\nRGB-based trackers and perform ﬁne-tuning on their task-\noriented training sets (as shown in Figure 1 (a)→(b)).\nDeT [47] adds a depth feature extraction branch to the orig-\ninal ATOM [7] or DiMP [3] tracker and ﬁne-tunes on RGB-\nD training data. Zhang et al. [57] extend SiamRPN++ [21]\nwith dual-modal inputs for RGB-T tracking. They ﬁrst con-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n9516\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

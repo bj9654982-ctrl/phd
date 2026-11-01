@@ -1,0 +1,41 @@
+{
+  "number": 112,
+  "title": "ROI Pooled Correlation Filters for Visual Tracking",
+  "year": 2019,
+  "authors": [
+    "Yuxuan Sun",
+    "Chong Sun",
+    "Dong Wang",
+    "You He",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_ROI_Pooled_Correlation_Filters_for_Visual_Tracking_CVPR_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_ROI_Pooled_Correlation_Filters_for_Visual_Tracking_CVPR_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_ROI_Pooled_Correlation_Filters_for_Visual_Tracking_CVPR_2019_paper.pdf",
+      "bytes": 2398377,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\112_2019_ROI_Pooled_Correlation_Filters_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_ROI_Pooled_Correlation_Filters_for_Visual_Tracking_CVPR_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Sun_ROI_Pooled_Correlation_Filters_for_Visual_Tracking_CVPR_2019_paper.pdf",
+  "bytes": 2398377,
+  "sha256": "e37428070a9bfee73239e6b258f380b3310c342ab28924c231f39ec5a277fe51",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "ROI Pooled Correlation Filters for Visual Tracking",
+  "first_page_text": "ROI Pooled Correlation Filters for Visual Tracking\nYuxuan Sun1, Chong Sun2, Dong Wang1∗, You He3, Huchuan Lu1,4\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2Tencent Youtu Lab, China\n3Naval Aviation University, China\n4Peng Cheng Laboratory, China\nrumsyx@mail.dlut.edu.cn, waynecsun@tencent.com, heyou f@126.com, {wdice,lhchuan}@dlut.edu.cn\nAbstract\nThe ROI (region-of-interest) based pooling method per-\nforms pooling operations on the cropped ROI regions for\nvarious samples and has shown great success in the ob-\nject detection methods. It compresses the model size while\npreserving the localization accuracy, thus it is useful in\nthe visual tracking ﬁeld. Though being effective, the ROI-\nbased pooling operation is not yet considered in the cor-\nrelation ﬁlter formula. In this paper, we propose a novel\nROI pooled correlation ﬁlter (RPCF) algorithm for ro-\nbust visual tracking.\nThrough mathematical derivations,\nwe show that the ROI-based pooling can be equivalently\nachieved by enforcing additional constraints on the learned\nﬁlter weights, which makes the ROI-based pooling feasi-\nble on the virtual circular samples. Besides, we develop\nan efﬁcient joint training formula for the proposed corre-\nlation ﬁlter algorithm, and derive the Fourier solvers for\nefﬁcient model training. Finally, we evaluate our RPCF\ntracker on OTB-2013, OTB-2015 and VOT-2017 benchmark\ndatasets. Experimental results show that our tracker per-\nforms favourably against other state-of-the-art trackers.\n1. Introduction\nVisual tracking aims to localize the manually speciﬁed\ntarget object in the successive frames, and it has been\ndensely studied in the past decades for its broad applica-\ntions in the automatic drive, human-machine interaction,\nbehavior recognition, etc. Till now, visual tracking is still\na very challenging task due to the limited training data and\nplenty of real-world challenges, such as occlusion, defor-\nmation and illumination variations.\nIn recent years, the correlation ﬁlter (CF) has become\none of the most widely used formulas in visual tracking\nfor its computation efﬁciency. The success of the corre-\n∗Corresponding Author: Dr. Wang\nRPCF\nECO\nC-COT\nKCF\nCF2\nFigure 1. Visualized tracking results of our method and other four\ncompeting algorithms. Our tracker performs favourably against\nthe state-of-the-art.\nlation ﬁlter mainly comes from two aspects: ﬁrst, by ex-\nploiting the property of circulant matrix, the CF-based al-\ngorithms do not need to construct the training and testing\nsamples explicitly, and can be efﬁciently optimized in the\nFourier domain, enabling it to handle more features; sec-\nond, optimizing a correlation ﬁlter can be equivalently con-\nverted to solving a system of linear functions, thus the ﬁl-\nter weights can either be obtained with the analytic solu-\ntion (e.g., [9, 8]) or be solved via the optimization algo-\nrithms with quadratic convergence [9, 7]. As is well rec-\nognized, the primal correlation ﬁlter algorithms have lim-\nited tracking performance due to the boundary effects and\nthe over-ﬁtting problem. The phenomenon of boundary ef-\nfects is caused by the periodic assumptions of the training\nsamples, while the over-ﬁtting problem is caused by the un-\nbalance between the numbers of model parameters and the\n5783\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

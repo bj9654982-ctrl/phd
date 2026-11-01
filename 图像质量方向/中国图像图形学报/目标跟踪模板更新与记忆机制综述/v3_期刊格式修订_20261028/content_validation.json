@@ -1,0 +1,28 @@
+{
+  "references": 300,
+  "cited_unique": 300,
+  "uncited_numbers": [],
+  "doi_present": 282,
+  "doi_missing": [
+    46,
+    188,
+    195,
+    196,
+    203,
+    218,
+    219,
+    220,
+    221,
+    228,
+    229,
+    230,
+    241,
+    242,
+    243,
+    254,
+    285,
+    286
+  ],
+  "incomplete_author_lists": [],
+  "english_abstract_words": 1032
+}

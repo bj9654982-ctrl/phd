@@ -1,0 +1,422 @@
+{
+  "number": 153,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Object Tracking via Dual Linear Structured SVM and Explicit Feature Map",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2026-06-05T21:37:55Z",
+      "timestamp": 1780695475270,
+      "version": "3.54.1"
+    },
+    "reference-count": 39,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2016.462",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          13
+        ]
+      ],
+      "date-time": "2016-12-13T01:38:49Z",
+      "timestamp": 1481593129000
+    },
+    "page": "4266-4274",
+    "source": "Crossref",
+    "is-referenced-by-count": 200,
+    "title": [
+      "Object Tracking via Dual Linear Structured SVM and Explicit Feature Map"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Jifeng",
+        "family": "Ning",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jimei",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shaojie",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming-Hsuan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tcs.2013.09.026"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.306"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Online spatio-temporal structural context learning for visual tracking",
+        "author": "wen",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Fast tracking via dense spatio-temporal context learning",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Meem: Robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BFb0028345"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref10",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "author": "henriques",
+        "year": "2014",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-013-0633-0"
+      },
+      {
+        "key": "ref13",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCV Worksohps"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459203"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Robust visual tracking using 11 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "first-page": "2259",
+        "DOI": "10.1109/TPAMI.2011.66",
+        "article-title": "Robust visual tracking and vehicle classification via sparse representation",
+        "volume": "33",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.346"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Fast training of support vector machines using sequential minimal optimization",
+        "volume": "3",
+        "author": "platt",
+        "year": "1999",
+        "journal-title": "Advances in Kernel MethodsSupport Vector Learning"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Learning a deep compact image representation for visual tracking",
+        "author": "wang",
+        "year": "2013",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1273496.1273508"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.153"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2003.1211475"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/sam.10075"
+      },
+      {
+        "key": "ref5",
+        "author": "cannons",
+        "year": "2008",
+        "journal-title": "A Review of Visual Tracking"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Transfer learning based visual tracking with gaussian processes regression",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "ref20",
+        "author": "ramanan",
+        "year": "2014",
+        "journal-title": "Dual coordinate solvers for large-scale structural svms"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref21",
+        "article-title": "(online) subgradient methods for structured prediction",
+        "author": "ratliff",
+        "year": "2007",
+        "journal-title": "ICAISC"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457447"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1442",
+        "DOI": "10.1109/TPAMI.2013.230",
+        "article-title": "Visual tracking: An experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10107-010-0420-4"
+      }
+    ],
+    "event": {
+      "name": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Las Vegas, NV, USA",
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            30
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7776647/7780329/07780831.pdf?arnumber=7780831",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2019-09-16T12:54:15Z",
+      "timestamp": 1568638455000
+    },
+    "score": 69.18612,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7780831/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1109/cvpr.2016.462",
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    }
+  }
+}

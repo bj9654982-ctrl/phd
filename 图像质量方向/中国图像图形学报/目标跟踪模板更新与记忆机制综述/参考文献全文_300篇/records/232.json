@@ -1,0 +1,40 @@
+{
+  "number": 232,
+  "title": "Siamese Natural Language Tracker: Tracking by Natural Language Descriptions With Siamese Trackers",
+  "year": 2021,
+  "authors": [
+    "Qi Feng",
+    "Vitaly Ablavsky",
+    "Qinxun Bai",
+    "Stan Sclaroff"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.pdf",
+      "bytes": 2643375,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\232_2021_Siamese_Natural_Language_Tracker__Tracking_by_Natural_Language_Descriptions_Wi.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.pdf",
+  "bytes": 2643375,
+  "sha256": "4b67d192104a81b5a3396ce0b72c9445b45e7ed60c7b0e523f4a2012522dd0a2",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Siamese Natural Language Tracker: Tracking by Natural Language Descriptions With Siamese Trackers",
+  "first_page_text": "Siamese Natural Language Tracker: Tracking by Natural Language\nDescriptions with Siamese Trackers\nQi Feng\nBoston University\nfung@bu.edu\nVitaly Ablavsky\nUniversity of Washington\nvxa@uw.edu\nQinxun Bai\nHorizon Robotics\nqinxun.bai@gmail.com\nStan Sclaroﬀ\nBoston University\nsclaroff@bu.edu\nAbstract\nWe propose a novel Siamese Natural Language\nTracker (SNLT), which brings the advancements in vi-\nsual tracking to the tracking by natural language (NL)\ndescriptions task. The proposed SNLT is applicable to a\nwide range of Siamese trackers, providing a new class\nof baselines for the tracking by NL task and promis-\ning future improvements from the advancements of\nSiamese trackers. The carefully designed architecture\nof the Siamese Natural Language Region Proposal Net-\nwork (SNL-RPN), together with the Dynamic Aggrega-\ntion of vision and language modalities, is introduced to\nperform the tracking by NL task. Empirical results over\ntracking benchmarks with NL annotations show that the\nproposed SNLT improves Siamese trackers by 3 to 7\npercentage points with a slight tradeoﬀof speed. The\nproposed SNLT outperforms all NL trackers to-date and\nis competitive among state-of-the-art real-time trackers\non LaSOT benchmarks while running at 50 frames per\nsecond on a single GPU. Code for this work is available\nat https: // github. com/ fredfung007/ snlt .\n1. Introduction\nVisual and language recognition skills evolve jointly\nin children from a young age. For example, it was ob-\nserved [33] that children at the age of twenty months\nwhose vocabulary size lags behind their peers have dif-\nﬁculty recognizing objects with sparse features (i.e.,\nstylized versions of real-world objects). Conversely, a\nchild’s ability to engage in the play activity called object\nsubstitution tends to be a predictor of healthy language\ndevelopment [34].\nBy contrast, in computer vision, particularly in ob-\nject tracking, appearance-based methods [24, 25] and\ntracking via natural-language (NL) descriptions [14, 26]\nevolve independently, without beneﬁting each other.\nIn this paper, we derive a formulation that links\n0\n0.2\n0.4\n0.6\n0.8\n10\n20\n30\n40\n50\n60\n70\n80\nSiamFC(2017)\nwith SNLT\nSiamRPN(2018)\nwith SNLT\nSiamRPN++(2019)\nwith SNLT\nATOM(2019)\nDiMP(2019)\nPrDiMP(2020)\nFENG(2020)\nLI(2017)\nPrecision on LaSOT test set\nFrames per Second (FPS)\nSiamese Trackers\nOur SNLT Variants\nNL Trackers\nOther Visual Trackers\nFigure 1:\nThe proposed Siamese Natural Language\nTracker (SNLT) improves Siamese trackers by lever-\naging predictions from two modalities: vision and lan-\nguage. Our SNLT implementation runs at 50 frames\nper second on an NVIDIA 2080 Ti GPU, and out-\nperforms best published natural language trackers, i.e.\nFeng [14] and Li [26], on the LaSOT [13] test set.\nthe vision and language modalities in such a way\nthat improvements in appearance-based tracking yield\nimprovements in language-based tracking.\nOur for-\nmulation applies to Siamese trackers, a broad family\nof trackers that includes SiamFC [1], SiamRPN [25],\nSiamRPN++ [24], etc. Siamese trackers have proven\nto be successful in many tracking scenarios and have\nachieved state-of-the-art performance. We show that\nby bringing the advancements of these Siamese trackers\nto the tracking by NL task, we can build NL trackers\nthat outperform all prior NL trackers and promise to\nsee improvements over time with the advancements of\nSiamese trackers.\nHence, we present the ﬁrst practical and general so-\n5851\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

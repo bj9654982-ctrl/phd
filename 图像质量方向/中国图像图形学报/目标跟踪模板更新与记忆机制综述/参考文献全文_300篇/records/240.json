@@ -1,0 +1,41 @@
+{
+  "number": 240,
+  "title": "MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking",
+  "year": 2025,
+  "authors": [
+    "Xinqi Liu",
+    "Li Zhou",
+    "Zikun Zhou",
+    "Jianqiu Chen",
+    "Zhenyu He"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.pdf",
+      "bytes": 3797209,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\240_2025_MambaVLT__Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Track.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.pdf",
+  "bytes": 3797209,
+  "sha256": "2501d6bec4f1e6b41668422a703f362b41be38c94612fbaebe197034c268212e",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking",
+  "first_page_text": "MambaVLT: Time-Evolving Multimodal State Space Model for\nVision-Language Tracking\nXinqi Liu1†, Li Zhou1†, Zikun Zhou2*, Jianqiu Chen1, and Zhenyu He1,*\n1Harbin Institute of Technology, Shenzhen\n2Pengcheng Laboratory\n{xqliu01,lizhou.hit,zhouzikunhit,jianqiuer}@gmail.com\nzhenyuhe@hit.edu.cn\nAbstract\nThe vision-language tracking task aims to perform object\ntracking based on various modality references.\nExisting\nTransformer-based vision-language tracking methods have\nmade remarkable progress by leveraging the global mod-\neling ability of self-attention. However, current approaches\nstill face challenges in effectively exploiting the temporal in-\nformation and dynamically updating reference features dur-\ning tracking. Recently, the State Space Model (SSM), known\nas Mamba, has shown astonishing ability in efficient long-\nsequence modeling. Particularly, its state space evolving\nprocess demonstrates promising capabilities in memorizing\nmultimodal temporal information with linear complexity.\nWitnessing its success, we propose a Mamba-based vision-\nlanguage tracking model to exploit its state space evolving\nability in temporal space for robust multimodal tracking,\ndubbed MambaVLT. In particular, our approach mainly in-\ntegrates a time-evolving hybrid state space block and a se-\nlective locality enhancement block, to capture contextual in-\nformation for multimodal modeling and adaptive reference\nfeature update. Besides, we introduce a modality-selection\nmodule that dynamically adjusts the weighting between vi-\nsual and language references, mitigating potential ambi-\nguities from either reference type. Extensive experimental\nresults show that our method performs favorably against\nstate-of-the-art trackers across diverse benchmarks.\n1. Introduction\nSingle object tracking involves localizing a target in a video\nbased on provided reference information, which may be an\ninitial bounding box [53], a language specification [31],\nor a combination of both [31].\nThis technology has di-\nverse applications, including video surveillance, robotics,\nand autonomous vehicles.\nTracking by initial bounding\nbox [14, 33, 52] is an extensively studied tracking task.\n†Xinqi Liu and Li Zhou contribute equally. ∗Zikun Zhou and Zhenyu\nHe are Corresponding authors.\nInput\nContext \nDecoder\nTracker\nContext \nExtractor\nPred\nt\nt+1\n(a) Discrete context prompt updating  \nState Space \nMemory\n(b) Continuous state space evolving \nState \nSpace\nevolve\nPred\nMambaVLT\nupdate\nContext\nInput\nInput\nContext \nDecoder\nTracker\nContext \nExtractor\nPred\nContext\nState Space \nMemory\nState \nSpace\nevolve\nPred\nMambaVLT\nInput\nFigure 1. Illustration of two ways for capturing temporal con-\ntext information. (a) Vision-language tracker with discrete context\nprompt. (b) Our MambaVLT with continuous time-evolving state\nspace for temporal information transmission.\nA common solution is cropping a template based on the\nbounding box in the first frame as a reference and accord-\ningly locating the target in subsequent frames. Nonethe-\nless, solely relying on the visual template without direct\nsemantics may lead to ambiguity [46].\nRecently, track-\ning by natural language specification [31] and tracking by\nboth language and box specification [31] have been pro-\nposed to address this issue.\nThese approaches incorpo-\nrate language descriptions as references, facilitating natural\nhuman-computer interaction. Previous studies [37, 41, 58]\nhave made significant progress under various reference set-\ntings. However, they are still constrained by their limited\nability to capture long-term temporal information and adap-\ntively update the reference information as the tracker oper-\nates on a video.\nTypically, the appearance and motion mode of the tar-\nget keep varying in the video. Previous works [37, 41, 58]\nhave introduced different methods to adapt to these tempo-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n8731\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,46 @@
+{
+  "number": 294,
+  "title": "YouTube-VOS: Sequence-to-Sequence Video Object Segmentation",
+  "year": 2018,
+  "authors": [
+    "Xu",
+    "Ning and Yang",
+    "Linjie and Fan",
+    "Yuchen and Yang",
+    "Jianchao and Yue",
+    "Dingcheng and Liang",
+    "Yuchen and Price",
+    "Brian and Cohen",
+    "Scott and Huang",
+    "Thomas"
+  ],
+  "venue": "ECCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.pdf",
+      "bytes": 2797934,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\294_2018_YouTube-VOS__Sequence-to-Sequence_Video_Object_Segmentation.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.pdf",
+  "bytes": 2797934,
+  "sha256": "0e849c7b113195cc4246b81e763690c3e1d547eeedec0576a6b3aa345aa054a1",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "YouTube-VOS: Sequence-to-Sequence Video Object Segmentation",
+  "first_page_text": "YouTube-VOS: Sequence-to-Sequence Video\nObject Segmentation\nNing Xu1, Linjie Yang2, Yuchen Fan3, Jianchao Yang2, Dingcheng Yue3,\nYuchen Liang3, Brian Price1, Scott Cohen1, and Thomas Huang3\n1 Adobe Research, USA\n{nxu,bprice,scohen}@adobe.com\n2 Snapchat Research, USA\n{linjie.yang,jianchao.yang}@snap.com\n3 University of Illinois at Urbana-Champaign, USA\n{yuchenf4,dyue2,yliang35,t-huang1}@illinois.edu\nAbstract. Learning long-term spatial-temporal features are critical for\nmany video analysis tasks. However, existing video segmentation meth-\nods predominantly rely on static image segmentation techniques, and\nmethods capturing temporal dependency for segmentation have to de-\npend on pretrained optical ﬂow models, leading to suboptimal solu-\ntions for the problem. End-to-end sequential learning to explore spatial-\ntemporal features for video segmentation is largely limited by the scale\nof available video segmentation datasets, i.e., even the largest video\nsegmentation dataset only contains 90 short video clips. To solve this\nproblem, we build a new large-scale video object segmentation dataset\ncalled YouTube Video Object Segmentation dataset (YouTube-VOS).\nOur dataset contains 3,252 YouTube video clips and 78 categories in-\ncluding common objects and human activities4. This is by far the largest\nvideo object segmentation dataset to our knowledge and we have released\nit at https://youtube-vos.org. Based on this dataset, we propose a novel\nsequence-to-sequence network to fully exploit long-term spatial-temporal\ninformation in videos for segmentation. We demonstrate that our method\nis able to achieve the best results on our YouTube-VOS test set and com-\nparable results on DAVIS 2016 compared to the current state-of-the-art\nmethods. Experiments show that the large scale dataset is indeed a key\nfactor to the success of our model.\nKeywords: Video Object Segmentation, Large-scale Dataset, Spatial-\nTemporal Information.\n1\nIntroduction\nLearning eﬀective spatial-temporal features has been demonstrated to be very\nimportant for many video analysis tasks. For example, Donahue et al. [10] pro-\npose long-term recurrent convolution network for activity recognition and video\n4 This is the statistics when we submit this paper, see updated statistics on our web-\nsite.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

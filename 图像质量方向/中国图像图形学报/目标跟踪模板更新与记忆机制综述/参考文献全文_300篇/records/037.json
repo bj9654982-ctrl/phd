@@ -1,0 +1,39 @@
+{
+  "number": 37,
+  "title": "Kernel-based object tracking",
+  "year": 2003,
+  "authors": [
+    "D. Comaniciu",
+    "V. Ramesh",
+    "P. Meer"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://doi.org/10.1109/TPAMI.2003.1195991",
+  "doi": "10.1109/TPAMI.2003.1195991",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.cs.ucf.edu/courses/cap6412/spr2003/2003/Kernel-based%20object%20tracking.pdf",
+      "final_url": "https://www.cs.ucf.edu/courses/cap6412/spr2003/2003/Kernel-based%20object%20tracking.pdf",
+      "bytes": 2739000,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\037_2003_Kernel-based_object_tracking.pdf",
+  "download_url": "https://www.cs.ucf.edu/courses/cap6412/spr2003/2003/Kernel-based%20object%20tracking.pdf",
+  "requested_url": "https://www.cs.ucf.edu/courses/cap6412/spr2003/2003/Kernel-based%20object%20tracking.pdf",
+  "bytes": 2739000,
+  "sha256": "52582f965ba826f95ffa72133e8cf674789f1079b1f4e60a5311f28490696c31",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 14,
+  "pdf_title": "Kernel-based object tracking - Pattern Analysis and Machine Intelligence, IEEE Transactions on",
+  "first_page_text": "Kernel-Based Object Tracking\nDorin Comaniciu, Senior Member, IEEE, Visvanathan Ramesh, Member, IEEE, and\nPeter Meer, Senior Member, IEEE\nAbstract—A new approach toward target representation and localization, the central component in visual tracking of nonrigid objects,\nis proposed. The feature histogram-based target representations are regularized by spatial masking with an isotropic kernel. The\nmasking induces spatially-smooth similarity functions suitable for gradient-based optimization, hence, the target localization problem\ncan be formulated using the basin of attraction of the local maxima. We employ a metric derived from the Bhattacharyya coefficient as\nsimilarity measure, and use the mean shift procedure to perform the optimization. In the presented tracking examples, the new method\nsuccessfully coped with camera motion, partial occlusions, clutter, and target scale variations. Integration with motion filters and data\nassociation techniques is also discussed. We describe only a few of the potential applications: exploitation of background information,\nKalman tracking using motion models, and face tracking.\nIndex Terms—Nonrigid object tracking, target localization and representation, spatially-smooth similarity function, Bhattacharyya\ncoefficient, face tracking.\næ\n1\nINTRODUCTION\nR\nEAL-TIME object tracking is the critical task in many\ncomputer vision applications such as surveillance [44],\n[16], [32], perceptual user interfaces [10], augmented reality\n[26], smart rooms [39], [75], [47], object-based video compres-\nsion [11], and driver assistance [34], [4].\nTwo major components can be distinguished in a typical\nvisualtracker.TargetRepresentationandLocalizationismostlya\nbottom-up process which has also to cope with the changes in\nthe appearance of the target. Filtering and Data Association is\nmostly a top-down process dealing with the dynamics of the\ntracked object, learning of scene priors, and evaluation of\ndifferent hypotheses. The way the two components are\ncombined and weighted is application dependent and plays\na decisive role in the robustness and efficiency of the tracker.\nFor example, face tracking in a crowded scene relies more on\ntarget representation than on target dynamics [21], while in\naerial video surveillance, e.g., [74], the target motion and the\nego-motion of the camera are the more important compo-\nnents. In real-time applications, only a small percentage of the\nsystem resources can be allocated for tracking, the rest being\nrequired for the preprocessing stages or to high-level tasks\nsuch as recognition, trajectory interpretation, and reasoning.\nTherefore, it is desirable to keep the computational complex-\nity of a tracker as low as possible.\nThe most abstract formulation of the filtering and data\nassociation process is through the state space approach for\nmodeling discrete-time dynamic systems [5]. The informa-\ntion characterizing the target is defined by the state\nsequence fxkgk¼0;1;..., whose evolution in time is specified\nby the dynamic equation xk ¼ fkðxkÿ1; vkÞ. The available\nmeasurements fzkgk¼1;... are related to the corresponding\nstates through the measurement equation zk ¼ hkðxk; nkÞ. In\ngeneral, both f k and hk are vector-valued, nonlinear, and\ntime-varying functions. Each of the noise sequences,\nfvkgk¼1;... and fnkgk¼1;... is assumed to be independent and\nidentically distributed (i.i.d.).\nThe objective of tracking is to estimate the state xk given all\nthe measurements z1:k up that moment, or equivalently to\nconstructtheprobabilitydensityfunction(pdf)pðxkjz1:kÞ.The\ntheoretically optimal solution is provided by the recursive\nBayesian filter which solves the problem in two steps. The\nprediction step uses the dynamic equation and the already\ncomputed pdf of the state at time t ¼ k ÿ 1, pðxkÿ1jz1:kÿ1Þ, to\nderive the prior pdf of the current state, pðxkjz1:kÿ1Þ. Then, the\nupdate step employs the likelihood function pðzkjxkÞ of the\ncurrent measurement to compute the posterior pdf pðxkjz1:k).\nWhen the noise sequences are Gaussian and f k and hk\nare linear functions, the optimal solution is provided by the\nKalman filter [5, p. 56], which yields the posterior being also\nGaussian. (We will return to this topic in Section 6.2.) When\nthe functions fk and hk are nonlinear, by linearization the\nExtended Kalman Filter (EKF) [5, p. 106] is obtained, the\nposterior density being still modeled as Gaussian. A recent\nalternative to the EKF is the Unscented Kalman Filter (UKF)\n[42] which uses a set of discretely sampled points to\nparameterize the mean and covariance of the posterior\ndensity. When the state space is discrete and consists of a\nfinite number of states, Hidden Markov Models (HMM)\nfilters [60] can be applied for tracking. The most general\nclass of filters is represented by particle filters [45], also\ncalled bootstrap filters [31], which are based on Monte Carlo\nintegration methods. The current density of the state is\nrepresented by a set of random samples with associated\nweights and the new density is computed based on these\nsamples and weights (see [23], [3] for reviews). The UKF can\nbe employed to generate proposal distributions for particle\nfilters, in which case the filter is called Unscented Particle\nFilter (UPF) [54].\nWhen the tracking is performed in a cluttered environ-\nment where multiple targets can be present [52], problems\n564\nIEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,\nVOL. 25,\nNO. 5,\nMAY 2003\n. D. Comaniciu and V. Ramesh are with the Real-Time Vision and Modeling\nDepartment, Siemens Corporate Research, 755 College Road East,\nPrinceton, NJ 08540. E-mail: comanici@scr.siemens.com.\n. P. Meer is with the Electrical and Computer Engineering Department,\nRutgers University, 94 Brett Road, Piscataway, NJ 08854-8058.\nManuscript received 21 May 2002; revised 13 Oct. 2002; accepted 16 Oct.\n2002.\nRecommended for acceptance by M. Irani.\nFor information on obtaining reprints of this article, please send e-mail to:\ntpami@computer.org, and reference IEEECS Log Number 116595.\n0162-8828/03/$10.00 ß 2003 IEEE\nPublished by the IEEE Computer Society\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,598 @@
+{
+  "number": 213,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T19:03:43Z",
+      "timestamp": 1792695823428,
+      "version": "4.5.0"
+    },
+    "reference-count": 58,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr46437.2021.01493",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2021-11-02T21:56:02Z",
+      "timestamp": 1635890162000
+    },
+    "page": "15175-15184",
+    "source": "Crossref",
+    "is-referenced-by-count": 245,
+    "title": [
+      "LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Bin",
+        "family": "Yan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Houwen",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianlong",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huchuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "muller",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Teacher-students knowledge distillation for siamese trackers",
+        "author": "liu",
+        "year": "2019"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Random search and reproducibility for neural architecture search",
+        "author": "li",
+        "year": "2019",
+        "journal-title": "UAI"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref37",
+        "article-title": "DARTS: differentiable architecture searc",
+        "author": "liu",
+        "year": "2019",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00017"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Microsoft COCO: Common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00146"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00276"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Real-Time MDNet",
+        "author": "jung",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref2",
+        "year": "0"
+      },
+      {
+        "key": "ref1",
+        "year": "0"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Single path one-shot neural architecture search with uniform sampling",
+        "author": "guo",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Deep compression: Compressing deep neural networks with pruning, trained quantization and huffman coding",
+        "author": "han",
+        "year": "2016",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00745"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00140"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Batch Normalization: Accelerating deep network training by reducing internal covariate shift",
+        "author": "ioffe",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.154"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Neural architecture search with reinforcement learning",
+        "author": "zoph",
+        "year": "2017",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref57",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref56",
+        "article-title": "Ocean: Object-aware anchor-free tracking",
+        "author": "zhang",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2964284.2967274"
+      },
+      {
+        "key": "ref53",
+        "article-title": "ROAM: Recurrently optimizing tracking model",
+        "author": "yang",
+        "year": "2020",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Siamese box adaptive network for visual tracking",
+        "author": "chen",
+        "year": "2020",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.195"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00020"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1",
+        "article-title": "Neural architecture search: A survey",
+        "volume": "20",
+        "author": "elsken",
+        "year": "2019",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00478"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00720"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Understanding and simplifying one-shot architecture search",
+        "author": "bender",
+        "year": "2018",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref3",
+        "year": "0"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00138"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Once-for-all: Train one network and specialize it for efficient deployment",
+        "author": "cai",
+        "year": "2019",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref9",
+        "article-title": "DetNAS: Backbone search for object detection",
+        "author": "chen",
+        "year": "2019",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Efficientnet: Rethinking model scaling for convolutional neural networks",
+        "author": "tan",
+        "year": "2019",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Tracking the known and the unknown by leveraging semantic information",
+        "author": "tripathi",
+        "year": "2019",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33014780"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Efficient neural architecture search via parameters sharing",
+        "author": "pham",
+        "year": "2018",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.789"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            20
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9577055/9577056/09578709.pdf?arnumber=9578709",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          10
+        ]
+      ],
+      "date-time": "2022-05-10T15:48:02Z",
+      "timestamp": 1652197682000
+    },
+    "score": 80.777695,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9578709/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 58,
+    "URL": "https://doi.org/10.1109/cvpr46437.2021.01493",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    }
+  }
+}

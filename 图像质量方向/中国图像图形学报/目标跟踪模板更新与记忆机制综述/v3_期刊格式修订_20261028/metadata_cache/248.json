@@ -1,0 +1,790 @@
+{
+  "number": 248,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "SDSTrack: Self-Distillation Symmetric Adapter Learning for Multi-Modal Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T16:23:33Z",
+      "timestamp": 1792081413681,
+      "version": "4.4.0"
+    },
+    "reference-count": 75,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2024-06-01T00:00:00Z",
+          "timestamp": 1717200000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "name": "NSFC",
+        "award": [
+          "62088101"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62088101"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52733.2024.02507",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2024-09-16T13:34:53Z",
+      "timestamp": 1726493693000
+    },
+    "page": "26541-26551",
+    "source": "Crossref",
+    "is-referenced-by-count": 127,
+    "title": [
+      "SDSTrack: Self-Distillation Symmetric Adapter Learning for Multi-Modal Visual Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Xiaojun",
+        "family": "Hou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiazheng",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yijie",
+        "family": "Qian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yaowei",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuo",
+        "family": "Xin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junhao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kai",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mengmeng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhengkai",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Liang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huzhou Institute, Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yong",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "article-title": "Medical image segmentation on mri images with missing modalities: A review",
+        "author": "Azad",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Dcanet: Differential convolution attention network for rgb-d semantic segmentation",
+        "author": "Bai",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Continual road-scene semantic segmentation via feature-aligned symmetric multi-modal network",
+        "author": "Barbato",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref5",
+        "first-page": "375",
+        "article-title": "Back-bone is all your need: A simplified architecture for visual object tracking",
+        "volume-title": "European Conference on Computer Vision",
+        "author": "Chen",
+        "year": "2022"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01400"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "author": "Devlin",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref11",
+        "article-title": "An image is worth 16×16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSEN.2020.3033034"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_9"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00017"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Gaussian error linear units (gelus)",
+        "author": "Hendrycks",
+        "year": "2016",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref19",
+        "first-page": "2790",
+        "article-title": "Parameter-efficient transfer learning for nlp",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Houlsby",
+        "year": "2019"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Lora: Low-rank adaptation of large language models",
+        "author": "Hu",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref21",
+        "first-page": "28714",
+        "article-title": "3d siamese voxel-to-bev tracker for sparse point clouds",
+        "volume": "34",
+        "author": "Hui",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19827-4_41"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33018529"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58517-4_2"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19830-4_3"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-68238-5_39"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW54120.2021.00305"
+      },
+      {
+        "key": "ref28",
+        "first-page": "431",
+        "article-title": "The tenth visual object tracking vot2022 challenge results",
+        "volume-title": "European Conference on Computer Vision",
+        "author": "Kristan",
+        "year": "2022"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2021.emnlp-main.243"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3123266.3123289"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2019.106977"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58542-6_14"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2021.3130533"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Swintrack: A simple and strong baseline for transformer tracking",
+        "author": "Lin",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i2.25253"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2018.2863604"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.1907.11692"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Decoupled weight decay regularization",
+        "author": "Loshchilov",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Rgb-t tracking based on mixed attention",
+        "author": "Luo",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICPR48806.2021.9412984"
+      },
+      {
+        "key": "ref43",
+        "first-page": "8748",
+        "article-title": "Learning transferable visual models from natural language supervision",
+        "volume-title": "International conference on machine learning",
+        "author": "Radford",
+        "year": "2021"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Complementary random masking for rgb-thermal semantic segmentation",
+        "author": "Shin",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00516"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Erasure-based interaction network for rgbt video object detection and a unified benchmark",
+        "author": "Tu",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00709"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2017.7989593"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMECH.2018.2820172"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2023.3318601"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01426"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00935"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v36i3.20187"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00943"
+      },
+      {
+        "key": "ref56",
+        "article-title": "Multimodal adaptation of clip for few-shot action recognition",
+        "author": "Xing",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01055"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503161.3547851"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2020.3038720"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref62",
+        "article-title": "Florence: A new foundation model for computer vision",
+        "author": "Yuan",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2022.acl-short.1"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2023.3300537"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00116"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00278"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2021.3060862"
+      },
+      {
+        "key": "ref68",
+        "article-title": "Attention-based dual supervised decoder for rgbd semantic segmentation",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICPR48806.2021.9413315"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02217"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00918"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i3.25500"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIV.2020.2980735"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.02015"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01597"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Seattle, WA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10654794/10654797/10656550.pdf?arnumber=10656550",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          17
+        ]
+      ],
+      "date-time": "2026-08-17T19:04:19Z",
+      "timestamp": 1786993459000
+    },
+    "score": 81.41507,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10656550/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "references-count": 75,
+    "URL": "https://doi.org/10.1109/cvpr52733.2024.02507",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    }
+  }
+}

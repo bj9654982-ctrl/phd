@@ -1,0 +1,43 @@
+{
+  "number": 82,
+  "title": "Structural Sparse Tracking",
+  "year": 2015,
+  "authors": [
+    "Tianzhu Zhang",
+    "Si Liu",
+    "Changsheng Xu",
+    "Shuicheng Yan",
+    "Bernard Ghanem",
+    "Narendra Ahuja",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2015/html/Zhang_Structural_Sparse_Tracking_2015_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Zhang_Structural_Sparse_Tracking_2015_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Zhang_Structural_Sparse_Tracking_2015_CVPR_paper.pdf",
+      "bytes": 6626370,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\082_2015_Structural_Sparse_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Zhang_Structural_Sparse_Tracking_2015_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Zhang_Structural_Sparse_Tracking_2015_CVPR_paper.pdf",
+  "bytes": 6626370,
+  "sha256": "9d84d72a2dabef20db282825b7f2d54464c2c1a098bd50961bdb928052c0d2aa",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Structural Sparse Tracking",
+  "first_page_text": "Structural Sparse Tracking\nTianzhu Zhang1,2\nSi Liu3\nChangsheng Xu2,4\nShuicheng Yan5\nBernard Ghanem1,6\nNarendra Ahuja1,7\nMing-Hsuan Yang8\n1 Advanced Digital Sciences Center\n2 Institute of Automation, CAS\n3 Institute of Information Engineering, CAS\n4 China-Singapore Institute of Digital Media\n5 National University of Singapore\n6 King Abdullah University of Science and Technology\n7 University of Illinois at Urbana-Champaign\n8 University of California at Merced\nAbstract\nSparse representation has been applied to visual tracking\nby ﬁnding the best target candidate with minimal reconstruc-\ntion error by use of target templates. However, most sparse\nrepresentation based trackers only consider holistic or lo-\ncal representations and do not make full use of the intrinsic\nstructure among and inside target candidates, thereby mak-\ning the representation less effective when similar objects ap-\npear or under occlusion. In this paper, we propose a novel\nStructural Sparse Tracking (SST) algorithm, which not on-\nly exploits the intrinsic relationship among target candidates\nand their local patches to learn their sparse representations\njointly, but also preserves the spatial layout structure among\nthe local patches inside each target candidate. We show that\nour SST algorithm accommodates most existing sparse track-\ners with the respective merits. Both qualitative and quantita-\ntive evaluations on challenging benchmark image sequences\ndemonstrate that the proposed SST algorithm performs fa-\nvorably against several state-of-the-art methods.\n1. Introduction\nVisual tracking aims to estimate the states of a moving\ntarget in a video.\nIt has long been one of the most im-\nportant and fundamental topics in computer vision with a\nplethora of applications such as surveillance, vehicle naviga-\ntion, human computer interface, and human motion analysis,\nto name a few. Despite numerous object tracking method-\ns [33, 26, 35, 30, 17, 24] having been proposed in recent\nyears, it remains a challenging task to develop a robust al-\ngorithm for complex and dynamic scenes due to the factors\nsuch as partial occlusions, illumination, pose, scale, camera\nmotion, background clutter, and viewpoint.\nMost tracking algorithms are developed from the discrim-\ninative or generative perspectives. Discriminative approach-\nes formulate the tracking problem as a binary classiﬁcation\ntask in order to ﬁnd the decision boundary for separating\nthe target object from the background [2, 6, 9, 10, 3, 16].\nAvidan [2] combines a set of weak classiﬁers into a strong\none and develops an ensemble tracking method. Collins et\nal. [6] demonstrate that the most discriminative features can\nbe learned online to separate the target object from the back-\nground. In [9], Grabner et al. propose an online boosting\nmethod to update discriminative features and a semi-online\nboosting algorithm [10] to handle the drifting problem in ob-\nject tracking. Babenko et al. [3] introduce multiple instance\nlearning into online object tracking where samples are con-\nsidered within positive and negative bags or sets. Kalal et\nal. [16] propose the P-N learning algorithm to exploit the un-\nderlying structure of positive and negative samples to learn\nclassiﬁers for object tracking.\nIn contrast, generative tracking methods typically learn\na model to represent the target object and then use it to\nsearch for the image region with minimal reconstruction er-\nror [5, 7, 14, 1, 25, 31, 18]. Black et al. [5] learn an off-line\nsubspace model to represent the object of interest for track-\ning. The mean shift tracking algorithm [7] models a target\nwith nonparametric distributions of features (e.g., color pix-\nels) and locates the object with mode shifts. The Frag tracker\n[1] addresses the partial occlusion problem by modeling ob-\nject appearance with histograms of local patches. The IVT\nmethod [25] utilizes an incremental subspace model to adapt\nappearance changes. Kwon et al. [18] use multiple obser-\nvation models to cover a wide range of appearance changes,\ncaused by pose and illumination variation, for tracking. Most\nof these methods use holistic representations to describe ob-\njects and hence do not handle occlusions or distracters well.\nRecently, sparse representation based generative tracking\nmethods have been developed for object tracking [21, 20, 19,\n23, 22, 34, 37, 36, 4, 15, 13, 39, 42, 41, 29]. These track-\ners can be categorized based on the representation schemes\ninto global, local, and joint sparse appearance models as\nshown in Figure 1. In [21, 19, 23, 22, 34, 4], the sparse\ntrackers represent each target candidate xi as a sparse linear\ncombination of target templates T that can be dynamically\nupdated to account for appearance changes. These models\nhave been shown to be robust against partial occlusions with\ndemonstrated performance for tracking. However, all these\nmethods model a target object as a single entity as shown in\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

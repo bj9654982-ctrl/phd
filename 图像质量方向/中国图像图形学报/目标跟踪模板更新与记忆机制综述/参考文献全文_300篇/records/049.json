@@ -1,0 +1,47 @@
+{
+  "number": 49,
+  "title": "融合上下文感知注意力的Transformer目标跟踪方法",
+  "year": 2025,
+  "authors": [
+    "徐晗",
+    "董仕豪",
+    "张家伟",
+    "郑钰辉"
+  ],
+  "venue": "中国图象图形学报",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.cjig.cn/zh/article/doi/10.11834/jig.240084/",
+  "doi": "10.11834/jig.240084",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.240084/",
+      "final_url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.240084/",
+      "bytes": 354810,
+      "content_type": "text/html",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://www.cjig.cn/rc-pub/front/front-article/download/80748761/lowqualitypdf/融合上下文感知注意力的Transformer目标跟踪方法.pdf",
+      "final_url": "https://www.cjig.cn/rc-pub/front/front-article/download/80748761/lowqualitypdf/%E8%9E%8D%E5%90%88%E4%B8%8A%E4%B8%8B%E6%96%87%E6%84%9F%E7%9F%A5%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%9A%84Transformer%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA%E6%96%B9%E6%B3%95.pdf",
+      "bytes": 4511207,
+      "content_type": "application/pdf;charset=utf-8"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\049_2025_融合上下文感知注意力的Transformer目标跟踪方法.pdf",
+  "download_url": "https://www.cjig.cn/rc-pub/front/front-article/download/80748761/lowqualitypdf/%E8%9E%8D%E5%90%88%E4%B8%8A%E4%B8%8B%E6%96%87%E6%84%9F%E7%9F%A5%E6%B3%A8%E6%84%8F%E5%8A%9B%E7%9A%84Transformer%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA%E6%96%B9%E6%B3%95.pdf",
+  "requested_url": "https://www.cjig.cn/rc-pub/front/front-article/download/80748761/lowqualitypdf/融合上下文感知注意力的Transformer目标跟踪方法.pdf",
+  "bytes": 4511207,
+  "sha256": "d89b71dab47f289a6e0f6018074ccfd06572e3c05d878af6b7a24f0973598257",
+  "version": "出版方公开全文",
+  "pages": 13,
+  "pdf_title": "融合上下文感知注意力的Transformer目标跟踪方法",
+  "first_page_text": "融合上下文感知注意力的Transformer目标跟踪方法\n徐晗，董仕豪，张家伟，郑钰辉*\n南京信息工程大学计算机学院，南京 210044\n摘 要： 目的　近年来，Transformer 跟踪器取得突破性的进展，其中自注意力机制发挥了重要作用。当前，自注意\n力机制中独立关联计算易导致权重不明显现象，限制了跟踪方法性能。为此，提出了一种融合上下文感知注意力的\nTransformer 目标跟踪方法。方法　首先，引入SwinTransformer（hierarchical vision Transformer using shifted windows）\n以提取视觉特征，利用跨尺度策略整合深层与浅层的特征信息，提高网络对复杂场景中目标表征能力。其次，构建\n了基于上下文感知注意力的编解码器，充分融合模板特征和搜索特征。上下文感知注意力使用嵌套注意计算，加入\n分配权重的目标掩码，可有效抑制由相关性计算不准确导致的噪声。最后，使用角点预测头估计目标边界框，通过\n相似度分数结果更新模板图像。结果　在TrackingNet（large-scale object tracking dataset）、LaSOT（large-scale single \nobject tracking）和GOT-10K（generic object tracking benchmark）等多个公开数据集上开展大量测试，本文方法均取得\n了优异性能。在GOT-10K 上平均重叠率达到73. 9%，在所有对比方法中排在第1 位；在LaSOT 上的AUC（area under \ncurve）得分和精准度为0. 687、0. 749，与性能第2 的ToMP（transforming model prediction for tracking）相比分别提高了\n1. 1%和2. 7%；在TrackingNet上的AUC得分和精准度为0. 831、0. 807，较第 2 名分别高出 0. 8%和0. 3%。结论　所\n提方法利用上下文感知注意力聚焦特征序列中的目标信息，提高了向量交互的精确性，可有效应对快速运动、相似\n物干扰等问题，提升了跟踪性能。\n关键词： 计算机视觉；目标跟踪；上下文感知注意力；Transformer；特征融合\nContext-aware attention fused Transformer tracking\nXu　Han， Dong　Shihao， Zhang　Jiawei， Zheng　Yuhui*\nSchool of Computer Science， Nanjing University of Information Science and Technology， Nanjing 210044， China\nAbstract： Objective　Visual target tracking， as one of the key tasks in the field of computer vision， is mainly aimed at pre⁃\ndicting the size and position of a target in a given video sequence.  In recent years， target tracking has been widely used in \nthe fields of autonomous driving， unmanned aerial vehicles （UAVs）， military activities， and intelligent surveillance.  \nAlthough numerous excellent methods have emerged in the field of target tracking， multifaceted challenges remain， includ⁃\ning， but not limited to， shape variations， occlusion， motion blurring， and interference from proximate objects.  Currently， \ntarget tracking methods are categorized into two main groups： correlation-based filtering and deep learning based.  The for⁃\nmer approximates the target tracking process as a search image signal domain computation.  However， fully utilizing image \nrepresentation information by using manual features is difficult， which greatly limits the performance of tracking methods.  \nIn recent years， deep learning has made significant progress in the field of target tracking by virtue of its powerful visual \n中图法分类号：TP391. 4  文献标识码： A  文章编号： 1006-8961（2025）01-0212-13\n论文引用格式：Xu H， Dong S H， Zhang J W and Zheng Y H.  2025.  Context-aware attention fused Transformer tracking.  Journal of Image and Graph⁃\nics， 30（01）：0212-0224（徐晗， 董仕豪， 张家伟， 郑钰辉.  2025.  融合上下文感知注意力的Transformer 目标跟踪方法.  中国图象图形学报， \n30（01）：0212-0224）［DOI：10. 11834/jig. 240084］\n收稿日期：2024-02-06；修回日期：2024-04-29；预印本日期：2024-05-06\n * 通信作者：郑钰辉 zhengyh@vip.126.com\n基金项目：国家自然科学基金项目（U20B2065）；江苏省自然科学基金项目（BK20211539）\nSupported by：National Natural Science Foundation of China （U20B2065）； Natural Science Foundation of Jiangsu Province， China （BK20211539）\n212\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

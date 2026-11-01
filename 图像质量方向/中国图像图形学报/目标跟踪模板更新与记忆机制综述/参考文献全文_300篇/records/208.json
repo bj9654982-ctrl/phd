@@ -1,0 +1,41 @@
+{
+  "number": 208,
+  "title": "'Skimming-Perusal' Tracking: A Framework for Real-Time and Robust Long-Term Tracking",
+  "year": 2019,
+  "authors": [
+    "Bin Yan",
+    "Haojie Zhao",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Xiaoyun Yang"
+  ],
+  "venue": "ICCV",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Skimming-Perusal_Tracking_A_Framework_for_Real-Time_and_Robust_Long-Term_Tracking_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Yan_Skimming-Perusal_Tracking_A_Framework_for_Real-Time_and_Robust_Long-Term_Tracking_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Yan_Skimming-Perusal_Tracking_A_Framework_for_Real-Time_and_Robust_Long-Term_Tracking_ICCV_2019_paper.pdf",
+      "bytes": 1630580,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\208_2019_'Skimming-Perusal'_Tracking__A_Framework_for_Real-Time_and_Robust_Long-Term_Tr.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Yan_Skimming-Perusal_Tracking_A_Framework_for_Real-Time_and_Robust_Long-Term_Tracking_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Yan_Skimming-Perusal_Tracking_A_Framework_for_Real-Time_and_Robust_Long-Term_Tracking_ICCV_2019_paper.pdf",
+  "bytes": 1630580,
+  "sha256": "18615206e3c20fde2615ea23d64694aaf5d77575ed6acf7f952fd8722ddbf919",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "'Skimming-Perusal' Tracking: A Framework for Real-Time and Robust Long-Term Tracking",
+  "first_page_text": "‘Skimming-Perusal’ Tracking: A Framework for Real-Time and Robust\nLong-term Tracking\nBin Yan1†, Haojie Zhao1†, Dong Wang1∗, Huchuan Lu1 and Xiaoyun Yang2\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2China Science IntelliCloud Technology Co., Ltd.,\n† Equal Contribution\n{yan bin, haojie zhao}@mail.dlut.edu.cn, {wdice, lhchuan}@dlut.edu.cn, xiaoyun.yang@intellicloud.ai\nAbstract\nCompared with traditional short-term tracking, long-\nterm tracking poses more challenges and is much closer\nto realistic applications. However, few works have been\ndone and their performance have also been limited. In this\nwork, we present a novel robust and real-time long-term\ntracking framework based on the proposed skimming and\nperusal modules. The perusal module consists of an effec-\ntive bounding box regressor to generate a series of candi-\ndate proposals and a robust target veriﬁer to infer the op-\ntimal candidate with its conﬁdence score. Based on this\nscore, our tracker determines whether the tracked objec-\nt being present or absent, and then chooses the tracking\nstrategies of local search or global search respectively in\nthe next frame. To speed up the image-wide global search,\na novel skimming module is designed to efﬁciently choose\nthe most possible regions from a large number of sliding\nwindows. Numerous experimental results on the VOT-2018\nlong-term and OxUvA long-term benchmarks demonstrate\nthat the proposed method achieves the best performance\nand runs in real-time. The source codes are available at\nhttps://github.com/iiau-tracker/SPLT.\n1. Introduction\nOnline visual tracking is one of most important prob-\nlems in computer vision, and has many practical applica-\ntions including video surveillance, behavior analysis, vi-\nsual navigation, augmented reality and so on. It is a very\ntough task to design a robust and efﬁcient tracker caused by\nthe challenges from both foreground and background vari-\nations.\nThese challenges include occlusion, illumination\nvariation, viewpoint change, rotation, motion blur, to name\na few. Due to the breakthrough of deep learning and the\nconstruction of large-scale benchmarks, numerous tracker-\ns [5, 25, 31, 30, 18, 41, 14, 20, 6, 34, 17, 4, 8, 19, 36, 37]\n∗Corresponding Author: Dr. Dong Wang, wdice@dlut.edu.cn\nhave recently achieved very promising performance.\nHowever, most of existing trackers and datasets focus on\nthe short-term tracking task, the setting of which is that the\ntracked object is almost always in the camera ﬁled of view\nbut not necessarily fully visible.\nThere still exists a big\ngap between the short-term tracking setting and the realistic\ntracking applications. In recent, some researchers have fo-\ncused on the long-term tracking task and attempted to create\nrelated large-scale benchmarks (such as VOT2018LT [23]\nand OxUvA [33]).\nCompared with short-term tracking, the long-term track-\ning task additionally requires the tracker having the capa-\nbility to capture the tracked object in long-term videos and\nto handle the frequent target disappearance and reappear-\nance. Thus, it poses more challenges than short-term track-\ning mainly from two aspects. First, the frame length in long-\nterm datasets is much greater than that in short-term scenar-\nios. For examples, the average numbers of frame length\nin the VOT2018LT [23], OxUvA [33], OTB2015 [35] and\nVOT2018 [16] benchmarks are 4196, 4235, 590 and 350,\nrespectively (the former two are long-term datasets and the\nlatter two are well-known short-term datasets).\nSecond,\nthere exist a large number of absent labels in long-term\ntracking datasets. Thus, it is critical for long-term trackers\nto capture the tracked object in long-term sequences, deter-\nmine whether the target is present or absent, and have the\ncapability of image-wide re-detection.\nUntil now, some long-term trackers have been devel-\noped based on hand-crafted features, including TLD [15],\nLCT [24], FCLT [22], MUSTer [11], CMT [26] and\nEBT [40]. Although these methods obtain some achieve-\nments on a small number of long-term videos, they can-\nnot achieve satisfactory performance on recent long-term\nbenchmarks (see experiments in [16, 33]). Recently, some\ndeep-learning-based algorithms [7, 16, 38] are proposed for\nlong-term tracking and signiﬁcantly improved the tracking\nperformance. But there still lacks of a robust and real-time\nframework to address the long-term tracking task.\nIn this work, we propose a novel ‘Skimming-Perusal’\n2385\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,39 @@
+{
+  "number": 80,
+  "title": "Single Target Tracking Using Adaptive Clustered Decision Trees and Dynamic Multi-Level Appearance Models",
+  "year": 2015,
+  "authors": [
+    "Jingjing Xiao",
+    "Rustam Stolkin",
+    "Ales Leonardis"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2015/html/Xiao_Single_Target_Tracking_2015_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Single_Target_Tracking_2015_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Single_Target_Tracking_2015_CVPR_paper.pdf",
+      "bytes": 826205,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\080_2015_Single_Target_Tracking_Using_Adaptive_Clustered_Decision_Trees_and_Dynamic_Mul.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Single_Target_Tracking_2015_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Xiao_Single_Target_Tracking_2015_CVPR_paper.pdf",
+  "bytes": 826205,
+  "sha256": "5cdf1c8ee79ad7d0cff7a8e0887ee5d30a9480cd830b9c4c056029e04291a5da",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Single Target Tracking Using Adaptive Clustered Decision Trees and Dynamic Multi-Level Appearance Models",
+  "first_page_text": "Single target tracking using adaptive clustered decision trees and dynamic\nmulti-level appearance models\nJingjing Xiao\nSchool of EESE\nUniversity of Birmingham\nshine636363@sina.com\nRustam Stolkin\nSchool of Mechanical Engineering\nUniversity of Birmingham\nr.stolkin@cs.bham.ac.uk\nAleˇs Leonardis\nSchool of Computer Science\nUniversity of Birmingham\na.leonardis@cs.bham.ac.uk\nAbstract\nThis paper presents a method for single target tracking\nof arbitrary objects in challenging video sequences. Targets\nare modeled at three different levels of granularity (pixel\nlevel, parts-based level and bounding box level), which are\ncross-constrained to enable robust model relearning. The\nmain contribution is an adaptive clustered decision tree\nmethod which dynamically selects the minimum combina-\ntion of features necessary to sufﬁciently represent each tar-\nget part at each frame, thereby providing robustness with\ncomputational efﬁciency. The adaptive clustered decision\ntree is implemented in two separate parts of the tracking\nalgorithm: ﬁrstly to enable robust matching at the parts-\nbased level between successive frames; and secondly to se-\nlect the best superpixels for learning new parts of the tar-\nget. We have tested the tracker using two different track-\ning benchmarks (VOT2013-2014 and CVPR2013 tracking\nchallenges), based on two different test methodologies, and\nshow it to be signiﬁcantly more robust than the best state-\nof-the-art methods from both of those tracking challenges,\nwhile also offering competitive tracking precision.\n1. Introduction\nAfter several decades of visual tracking research, even\nthe most sophisticated trackers are still prone to failure in\nchallenging scenarios, including clutter and camouﬂage in\none or more feature modalities, rapid and erratic target mo-\ntion, occlusions, and targets which change their shape and\nappearance over time. These problematic tracking condi-\ntions predominantly lead to failures in three fundamental\nparts of the tracking algorithm: 1) the model of the target\nobject’s visual appearance; 2) the mechanism for matching\nmodel parts to image regions at each frame; 3) the mecha-\nnism for continuously relearning or updating models of tar-\ngets which change their appearance over time.\nThis paper presents a target tracking algorithm which\nachieves state-of-the-art robustness by addressing each of\nthese three fundamental areas. We propose a ﬂexible tar-\nget representation which can adaptively exploit an arbitrary\nnumber of different image features. Targets are modelled\nat three different levels of granularity, including the level\nof individual pixels, the level of parts, and a bounding box\nlevel which encodes overall information about the target as\na whole. Cross-constraints between these different levels\nduring updates, enable continuous target model relearning\nwhich is robust and stable.\nThe main contribution of the paper is an adaptive clus-\ntered decision tree approach which dynamically selects the\nminimum combination of features necessary to sufﬁciently\nrepresent each target part at each frame, thereby provid-\ning robustness without sacriﬁcing computational efﬁciency.\nWe show how this adaptive clustered decision tree can be\nutilised in two separate parts of the tracking algorithm:\nﬁrstly to enable robust matching at the part-based level at\nevery frame; and secondly to select the best superpixels for\nlearning new parts of the target. During matching, the adap-\ntive clustered decision tree is used to search the set of super-\npixels in the current frame, to ﬁnd the best match to a target\npart in the previous frame. During model updating, the de-\ncision tree is used to search for the most suitable superpixel\nfrom which to model a new target part, in order to replace\nan old target part which has been detected as drifting.\nWe have carried out a principled evaluation using the lat-\nest benchmarks, and comparing against the best other state-\nof-the-art trackers. Results show that the proposed method\noutperforms the best 4 trackers on both VOT 2013 and 2014\nbenchmark sets. It also signiﬁcantly outperforms the 7 best\navailable methods on the CVPR2013 dataset wrt robustness,\nwhile also achieving competitive tracking accuracy.\nThe rest of the paper is organized as follows.\nRe-\nlated work is discussed in Sec. 2.\nThe multi-level tar-\nget model, and its initialisation, is introduced in Sec. 3.\nSec. 4 explains the adaptive clustered decision tree, and\nshows how it is used for both target matching and model\nupdating at each successive frame.\nSec. 5 presents and\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

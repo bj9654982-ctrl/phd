@@ -1,0 +1,42 @@
+{
+  "number": 161,
+  "title": "Deep Reinforcement Learning with Iterative Shift for Visual Tracking",
+  "year": 2018,
+  "authors": [
+    "Ren",
+    "Liangliang and Yuan",
+    "Xin and Lu",
+    "Jiwen and Yang",
+    "Ming and Zhou",
+    "Jie"
+  ],
+  "venue": "ECCV",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Liangliang_Ren_Deep_Reinforcement_Learning_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Liangliang_Ren_Deep_Reinforcement_Learning_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Liangliang_Ren_Deep_Reinforcement_Learning_ECCV_2018_paper.pdf",
+      "bytes": 1382624,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\161_2018_Deep_Reinforcement_Learning_with_Iterative_Shift_for_Visual_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Liangliang_Ren_Deep_Reinforcement_Learning_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Liangliang_Ren_Deep_Reinforcement_Learning_ECCV_2018_paper.pdf",
+  "bytes": 1382624,
+  "sha256": "dc94384250fa31b68b9546245ce54863ee81f2050cfb77983df490558f7f7816",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "Deep Reinforcement Learning with Iterative Shift for Visual Tracking",
+  "first_page_text": "Deep Reinforcement Learning with Iterative\nShift for Visual Tracking\nLiangliang Ren1,∗, Xin Yuan1,∗, Jiwen Lu1,†, Ming Yang2, Jie Zhou1\n1Tsinghua University; 2Horizon Robotics, Inc.\n{renll16, yuanx16}@mails.tsinghua.edu.cn; {lujiwen,\njzhou}@tsinghua.edu.cn; ming.yang@horizon-robotics.com\nAbstract. Visual tracking is confronted by the dilemma to locate a\ntarget both accurately and eﬃciently, and make decisions online whether\nand how to adapt the appearance model or even restart tracking. In\nthis paper, we propose a deep reinforcement learning with iterative shift\n(DRL-IS) method for single object tracking, where an actor-critic net-\nwork is introduced to predict the iterative shifts of object bounding box-\nes, and evaluate the shifts to take actions on whether to update object\nmodels or re-initialize tracking. Since locating an object is achieved by an\niterative shift process, rather than online classiﬁcation on many sampled\nlocations, the proposed method is robust to cope with large deformations\nand abrupt motion, and computationally eﬃcient since ﬁnding a target\ntakes up to 10 shifts. In oﬄine training, the critic network guides to learn\nhow to make decisions jointly on motion estimation and tracking status\nin an end-to-end manner. Experimental results on the OTB benchmarks\nwith large deformation improve the tracking precision by 1.7% and runs\nabout 5 times faster than the competing state-of-the-art methods.\nKeywords: Visual object tracking, reinforcement learning, actor-critic\nalgorithm\n1\nIntroduction\nVisual object tracking (VOT) aims at locating a target eﬃciently in a video\nsequence, which remains a challenging problem in unconstrained applications\ndue to deformation, abrupt motion, occlusions and illumination, after several\ndecades of intensive research [5, 10, 20, 36, 41, 42, 51]. Essentially VOT needs to\naddress 3 key issues: 1) How to represent a target, i.e., the observation model;\n2) How to eﬃciently leverage the motion smoothness assumption to locate a\ntarget in the next frame; 3) How to update tracking models online, if necessary,\nto handle dynamic scenarios.\nThe appearance models have evolved from intensity templates [19], color\nhistograms [14], and sparse features [4], to the dominating deep features [47]\nextracted by CNN models. Thus, naturally tracking may be formulated as a\n∗Indicates equal contribution.\n† Corresponding author.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

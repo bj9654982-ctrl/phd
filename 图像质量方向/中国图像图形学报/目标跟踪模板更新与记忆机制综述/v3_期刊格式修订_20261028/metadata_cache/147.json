@@ -1,0 +1,552 @@
+{
+  "number": 147,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Saliency-Associated Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T17:26:14Z",
+      "timestamp": 1790875574167,
+      "version": "4.1.0"
+    },
+    "reference-count": 51,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv48922.2021.00972",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2022-02-28T22:08:02Z",
+      "timestamp": 1646086082000
+    },
+    "page": "9846-9855",
+    "source": "Crossref",
+    "is-referenced-by-count": 136,
+    "title": [
+      "Saliency-Associated Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Zikun",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenjie",
+        "family": "Pei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Peng Cheng Laboratory"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongpeng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Feng",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Southern University of Science and Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhenyu",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Microsoft coco: Common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Pg-net: Pixel to global matching network for visual tracking",
+        "author": "liao",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298632"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00060"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "muller",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.467"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00626"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00371"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00146"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Acquisition of localization confidence for accurate object detection",
+        "author": "jiang",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2014"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "ref24",
+        "article-title": "The sixth visual object tracking vot2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Semi-supervised classification with graph convolutional networks",
+        "author": "kipf",
+        "year": "2017",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref50",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00064"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10479-005-5724-z"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00972"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00478"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Got-10k: A large high-diversity benchmark for generic object tracking in the wild",
+        "author": "huang",
+        "year": "2019",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Know your surroundings: Exploiting scene information for object tracking",
+        "author": "bhat",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00480"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Ocean: Object-aware anchor-free tracking",
+        "author": "zhang",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.164"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2797082"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298610"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00376"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00632"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00676"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Montreal, QC, Canada",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9709627/9709628/09711190.pdf?arnumber=9711190",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          13
+        ]
+      ],
+      "date-time": "2022-07-13T19:42:19Z",
+      "timestamp": 1657741339000
+    },
+    "score": 38.159653,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9711190/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "references-count": 51,
+    "URL": "https://doi.org/10.1109/iccv48922.2021.00972",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    }
+  }
+}

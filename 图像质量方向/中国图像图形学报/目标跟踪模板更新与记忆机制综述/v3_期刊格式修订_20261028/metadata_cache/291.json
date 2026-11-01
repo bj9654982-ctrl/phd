@@ -1,0 +1,425 @@
+{
+  "number": 291,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Need for Speed: A Benchmark for Higher Frame Rate Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T16:39:58Z",
+      "timestamp": 1792082398598,
+      "version": "4.4.0"
+    },
+    "reference-count": 41,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2017.128",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2017-12-25T16:51:45Z",
+      "timestamp": 1514220705000
+    },
+    "page": "1134-1143",
+    "source": "Crossref",
+    "is-referenced-by-count": 462,
+    "title": [
+      "Need for Speed: A Benchmark for Higher Frame Rate Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Hamed Kiani",
+        "family": "Galoogahi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ashton",
+        "family": "Fagg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chen",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Deva",
+        "family": "Ramanan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Simon",
+        "family": "Lucey",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-12637-1_74"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1007/s11263-012-0564-1",
+        "article-title": "Efficiently scaling up crowdsourced video annotation",
+        "volume": "101",
+        "author": "vondrick",
+        "year": "2013",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Visual tracking: An experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "0",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref30",
+        "author": "simonyan",
+        "year": "2014",
+        "journal-title": "Very Deep Convolutional Networks for Large-scale Image Recognition"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Learning a deep compact image representation for visual tracking",
+        "author": "wang",
+        "year": "2013",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.153"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10599-4_13"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-33786-4_17"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_45"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.381"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "ref18",
+        "article-title": "The visual object tracking vot2014 challenge results",
+        "author": "kristan",
+        "year": "2014",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref19",
+        "first-page": "1",
+        "article-title": "The visual object tracking vot2015 challenge results",
+        "author": "kristan",
+        "year": "2015",
+        "journal-title": "ICCV Workshop"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-47969-4_44"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV.2015.18"
+      },
+      {
+        "key": "ref27",
+        "author": "nam",
+        "year": "2016",
+        "journal-title": "Learning multi-domain convolutional neural networks for visual tracking"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "ref5",
+        "first-page": "297",
+        "article-title": "A parameter-free hedging algorithm",
+        "author": "chaudhuri",
+        "year": "2009",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2015.84"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref20",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref22",
+        "first-page": "254",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511541087"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref41",
+        "first-page": "3864",
+        "article-title": "Metric learning driven multi-task structured output optimization for robust keypoint tracking",
+        "author": "zhao",
+        "year": "2015",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2482905"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      }
+    ],
+    "event": {
+      "name": "2017 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Venice",
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            22
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            29
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2017 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8234942/8237262/08237390.pdf?arnumber=8237390",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2019-10-08T13:53:54Z",
+      "timestamp": 1570542834000
+    },
+    "score": 55.91789,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/8237390/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1109/iccv.2017.128",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,577 @@
+{
+  "number": 145,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Learning to Fuse Asymmetric Feature Maps in Siamese Trackers",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T16:39:56Z",
+      "timestamp": 1792082396649,
+      "version": "4.4.0"
+    },
+    "reference-count": 54,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr46437.2021.01630",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2021-11-02T17:56:02Z",
+      "timestamp": 1635875762000
+    },
+    "page": "16565-16575",
+    "source": "Crossref",
+    "is-referenced-by-count": 88,
+    "title": [
+      "Learning to Fuse Asymmetric Feature Maps in Siamese Trackers"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Wencheng",
+        "family": "Han",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Beijing Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xingping",
+        "family": "Dong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inception Institute of Artificial Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fahad Shahbaz",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Mohamed Bin Zayed University of Artificial Intelligence,UAE"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ling",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inception Institute of Artificial Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianbing",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Inception Institute of Artificial Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00058"
+      },
+      {
+        "key": "ref38",
+        "first-page": "8026",
+        "article-title": "Pytorch: An imperative style, high-performance deep learning library",
+        "author": "steiner",
+        "year": "2019",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref33",
+        "first-page": "1931",
+        "article-title": "Deep attentive tracking via reciprocative learning",
+        "author": "pu",
+        "year": "2018",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref32",
+        "first-page": "569",
+        "article-title": "Meta-tracker: Fast and robust online adaptation for visual object trackers",
+        "author": "park",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref30",
+        "first-page": "300",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "muller",
+        "year": "2018",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV)"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00937"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2019.2936503"
+      },
+      {
+        "key": "ref34",
+        "first-page": "91",
+        "article-title": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Teacher-Students Knowledge Distillation for Siamese Trackers",
+        "author": "liu",
+        "year": "2019",
+        "journal-title": "arXiv 1907 10586"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2019.2959256"
+      },
+      {
+        "key": "ref29",
+        "first-page": "445",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "mueller",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref2",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref1",
+        "first-page": "523",
+        "article-title": "Learning feed-forward one-shot learners",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.21"
+      },
+      {
+        "key": "ref22",
+        "first-page": "777",
+        "article-title": "The visual object tracking vot2016 challenge results",
+        "volume": "9914",
+        "author": "kristan",
+        "year": "2016",
+        "journal-title": "LNCS"
+      },
+      {
+        "key": "ref21",
+        "first-page": "3053",
+        "article-title": "Hierarchical attentive recurrent tracking",
+        "author": "kosiorek",
+        "year": "2017",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref24",
+        "first-page": "23",
+        "article-title": "Mnist handwritten digit database. 2010",
+        "volume": "7",
+        "author": "lecun",
+        "year": "2010"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref50",
+        "first-page": "6728",
+        "article-title": "Deformable siamese attention networks for visual object tracking",
+        "author": "yu",
+        "year": "2020",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.148"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Ocean: Object-aware anchor-free tracking",
+        "author": "zhang",
+        "year": "2020",
+        "journal-title": "arXiv preprint arXiv 2006 10226"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref52",
+        "first-page": "351",
+        "article-title": "Structured siamese network for real-time visual tracking",
+        "author": "zhang",
+        "year": "2018",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2019.2898567"
+      },
+      {
+        "key": "ref11",
+        "first-page": "6836",
+        "article-title": "Correlation-guided attention for corner detection based visual tracking",
+        "author": "du",
+        "year": "2020",
+        "journal-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/s41586-020-2649-2",
+        "article-title": "Array programming with NumPy",
+        "author": "harris",
+        "year": "2020",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00508"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref18",
+        "first-page": "749",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Mobilenets: Efficient convolutional neural networks for mobile vision applications",
+        "author": "howard",
+        "year": "2017",
+        "journal-title": "arXiv preprint arXiv 1704 04861"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58592-1_13"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00061"
+      },
+      {
+        "key": "ref7",
+        "first-page": "459",
+        "article-title": "Triplet Loss in Siamese Network for Object Tracking",
+        "author": "dong",
+        "year": "2018",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00675"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2956703"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.634"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref48",
+        "first-page": "152",
+        "article-title": "Learning dynamic memory networks for object tracking",
+        "author": "yang",
+        "year": "2018",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref42",
+        "first-page": "809",
+        "article-title": "Learning a deep compact image representation for visual tracking",
+        "author": "wang",
+        "year": "2013",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00376"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00511"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00510"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            20
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9577055/9577056/09577277.pdf?arnumber=9577277",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2025-11-14T18:47:38Z",
+      "timestamp": 1763146058000
+    },
+    "score": 62.769085,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9577277/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 54,
+    "URL": "https://doi.org/10.1109/cvpr46437.2021.01630",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    }
+  }
+}

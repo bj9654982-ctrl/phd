@@ -1,0 +1,375 @@
+{
+  "number": 52,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Constructing Adaptive Complex Cells for Robust Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ],
+      "date-time": "2026-10-04T11:41:00Z",
+      "timestamp": 1791114060743,
+      "version": "4.1.0"
+    },
+    "reference-count": 32,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2013.142",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2014-03-07T16:30:17Z",
+      "timestamp": 1394209817000
+    },
+    "page": "1113-1120",
+    "source": "Crossref",
+    "is-referenced-by-count": 52,
+    "title": [
+      "Constructing Adaptive Complex Cells for Robust Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Dapeng",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zejian",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Geng",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nanning",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "article-title": "On the connections between saliency and tracking",
+        "author": "mahadevan",
+        "year": "2012",
+        "journal-title": "In NIPS"
+      },
+      {
+        "key": "17",
+        "article-title": "Robust visual tracking using local sparse appearance model and k-selection",
+        "author": "liu",
+        "year": "2012",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383047"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995453"
+      },
+      {
+        "key": "13",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2005.01.012"
+      },
+      {
+        "key": "12",
+        "article-title": "Self-paced learning for long term tracking",
+        "author": "jamessteven",
+        "year": "2013",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.23"
+      },
+      {
+        "key": "20",
+        "article-title": "Robust visual tracking using l1 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "In ICCV"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "24",
+        "article-title": "Improving ncc-based direct visual tracking",
+        "author": "scandaroli",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1163/156856899X00111"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990517"
+      },
+      {
+        "key": "28",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "In ICCV"
+      },
+      {
+        "key": "29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "2",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1113/jphysiol.1968.sp008455"
+      },
+      {
+        "key": "1",
+        "article-title": "Robust fragments-based tracking using the integral histogram",
+        "author": "adam",
+        "year": "2006",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "30",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "6",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "32",
+        "article-title": "Robust object tracking via sparsity-based collaborative model",
+        "author": "zhong",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.240"
+      },
+      {
+        "key": "4",
+        "author": "doucet",
+        "year": "2011",
+        "journal-title": "A tutorial on particle filtering and smoothing Fifteen years later"
+      },
+      {
+        "key": "9",
+        "article-title": "Surf tracking",
+        "author": "he",
+        "year": "2009",
+        "journal-title": "In ICCV"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.314"
+      }
+    ],
+    "event": {
+      "name": "2013 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Sydney, Australia",
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            8
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2013 IEEE International Conference on Computer Vision"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6750807/6751100/06751248.pdf?arnumber=6751248",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2017-03-23T14:11:13Z",
+      "timestamp": 1490278273000
+    },
+    "score": 48.521675,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6751248/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1109/iccv.2013.142",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    }
+  }
+}

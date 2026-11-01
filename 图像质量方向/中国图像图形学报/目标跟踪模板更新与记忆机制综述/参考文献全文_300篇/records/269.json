@@ -1,0 +1,42 @@
+{
+  "number": 269,
+  "title": "Video Object Segmentation with Episodic Graph Memory Networks",
+  "year": 2020,
+  "authors": [
+    "Xiankai Lu",
+    "Wenguan Wang",
+    "Martin Danelljan",
+    "Tianfei Zhou",
+    "Jianbing Shen",
+    "Luc Van Gool"
+  ],
+  "venue": "ECCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1062_ECCV_2020_paper.php",
+  "doi": "10.1007/978-3-030-58580-8_39",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480664.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480664.pdf",
+      "bytes": 5063487,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\269_2020_Video_Object_Segmentation_with_Episodic_Graph_Memory_Networks.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480664.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123480664.pdf",
+  "bytes": 5063487,
+  "sha256": "92a86ff23dd8a13b6c347240170a0c4b5ef7eed66fbc1b19c4e8f5d992717185",
+  "version": "会议官方开放版本",
+  "pages": 18,
+  "pdf_title": "",
+  "first_page_text": "Video Object Segmentation with\nEpisodic Graph Memory Networks\nXiankai Lu1 , BWenguan Wang2 , Martin Danelljan2\nTianfei Zhou1 , Jianbing Shen1 , and Luc Van Gool2\n1 Inception Institute of Artiﬁcial Intelligence\n2 ETH Zurich\n{carrierlxk, wenguanwang.ai}@gmail.com\nhttps://github.com/carrierlxk/GraphMemVOS\nAbstract. How to make a segmentation model eﬃciently adapt to a\nspeciﬁc video as well as online target appearance variations is a fun-\ndamental issue in the ﬁeld of video object segmentation. In this work, a\ngraph memory network is developed to address the novel idea of “learning\nto update the segmentation model”. Speciﬁcally, we exploit an episodic\nmemory network, organized as a fully connected graph, to store frames as\nnodes and capture cross-frame correlations by edges. Further, learnable\ncontrollers are embedded to ease memory reading and writing, as well as\nmaintain a ﬁxed memory scale. The structured, external memory design\nenables our model to comprehensively mine and quickly store new knowl-\nedge, even with limited visual information, and the diﬀerentiable memory\ncontrollers slowly learn an abstract method for storing useful represen-\ntations in the memory and how to later use these representations for\nprediction, via gradient descent. In addition, the proposed graph mem-\nory network yields a neat yet principled framework, which can generalize\nwell to both one-shot and zero-shot video object segmentation tasks. Ex-\ntensive experiments on four challenging benchmark datasets verify that\nour graph memory network is able to facilitate the adaptation of the\nsegmentation network for case-by-case video object segmentation.\nKeywords: Video segmentation, Episodic graph memory, Learn to update\n1\nIntroduction\nVideo object segmentation (VOS), as a core task in computer vision, aims to\npredict the target object in a video at the pixel level. Typically, according to\nwhether or not annotations are provided for the ﬁrst frame during testing, VOS\ncan be categorized into one-shot video object segmentation (O-VOS) [5,48] and\nzero-shot video object segmentation (Z-VOS)[52]. Provided with only ﬁrst-frame\nannotations, O-VOS is to identify and segment the labeled object instances in\nthe rest of the video[7,15,17,27,33,69]; whereas Z-VOS targets at automatically\ninferring the primary objects without any test-time indications [44,45].\nB Corresponding author: Wenguan Wang.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

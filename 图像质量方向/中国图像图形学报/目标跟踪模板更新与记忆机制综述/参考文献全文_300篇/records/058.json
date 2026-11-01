@@ -1,0 +1,41 @@
+{
+  "number": 58,
+  "title": "Part-Based Visual Tracking with Online Latent Structural Learning",
+  "year": 2013,
+  "authors": [
+    "Rui Yao",
+    "Qinfeng Shi",
+    "Chunhua Shen",
+    "Yanning Zhang",
+    "Anton van den Hengel"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2013/html/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.pdf",
+      "bytes": 1124211,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\058_2013_Part-Based_Visual_Tracking_with_Online_Latent_Structural_Learning.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.pdf",
+  "bytes": 1124211,
+  "sha256": "6bf4658a6c949042aa7d4492db29cc637f5e8195fa3bd2c800809fd5f1d09a66",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Part-Based Visual Tracking with Online Latent Structural Learning",
+  "first_page_text": "Part-based Visual Tracking with Online Latent Structural Learning\nRui Yao1, Qinfeng Shi2, Chunhua Shen2, Yanning Zhang1, Anton van den Hengel2\n1 School of Computer Science, Northwestern Polytechnical University, China\n2 School of Computer Science, The University of Adelaide, Australia\nyaorui@mail.nwpu.edu.cn, {javen.shi,chunhua.shen,anton.vandenhengel}@adelaide.edu.au\nAbstract\nDespite many advances made in the area, deformable\ntargets and partial occlusions continue to represent key\nproblems in visual tracking. Structured learning has shown\ngood results when applied to tracking whole targets, but ap-\nplying this approach to a part-based target model is compli-\ncated by the need to model the relationships between parts,\nand to avoid lengthy initialisation processes. We thus pro-\npose a method which models the unknown parts using la-\ntent variables. In doing so we extend the online algorithm\npegasos to the structured prediction case (i.e., predicting\nthe location of the bounding boxes) with latent part vari-\nables. To better estimate the parts, and to avoid over-ﬁtting\ncaused by the extra model complexity/capacity introduced\nby the parts, we propose a two-stage training process, based\non the primal rather than the dual form. We then show\nthat the method outperforms the state-of-the-art (linear and\nnon-linear kernel) trackers.\n1. Introduction\nVisual tracking is a goal in itself, but is also a pre-\nprocessing step before further analysis of the activities, be-\nhaviours, interactions and relationships between objects of\ninterest. Recent progress in object tracking has yielded a\nsteady increase in performance, but designing a robust al-\ngorithm to track generic objects in the presence of partially\noccluded and deformable targets is still a major challenge\n(as shown in Fig. 1). This additional difﬁculty falls on top\nof those that regularly challenge visual tracking including\nsigniﬁcant variation in appearance due to factors such as\nchanging pose, viewpoint, and illumination.\nTo address the appearance variation challenge re-\nsearchers have developed sophisticated appearance models\nand methods of adapting these models during tracking. One\nsolution is to build a robust object appearance model and\nﬁnd the best candidate image patch to match the model, see,\nfor example, incremental subspace learning [18], integral\nhistogram tracking [1], visual tracking decomposition [13],\n\u0002\u0003\u0004\u0005\u0006\u0007\n\b\t\n\n\u000b\f\n\r\u0004\u000e\u000f\n\u0010\t\u0011\n\u0012\u0005\u0004\u0013\nFigure 1: Qualitative tracking results of our tracker and competing trackers over rep-\nresentative frames of three sequences. These sequences contain heavy pose variation\n(board, the ﬁrst row), shape deformation (fskater, the second row), partial occlusion\n(faceocc2, the third row), and etc. Note that the number marked on small rectangles\nrepresents the index of object parts.\nand sparse representation tracking [16, 14]. Another ap-\nproach is to model both the object and the background, and\nthen to distinguish the object from the background using a\ndiscriminative classiﬁer [3, 8, 9, 25, 4, 10]. Avidan [3], for\nexample, used a Support Vector Machine as an off-line bi-\nnary classiﬁer to distinguish target from background. In [4],\nBabenko et al. employ an online Multiple Instance Learn-\ning based appearance model to resolve the sample ambigu-\nity problem. Hare et al. [10] applied structured learning to\n(whole) visual object tracking, which builds upon its pre-\nvious successful application to object detection [5]. This\ncategory of approach is termed tracking-by-detection. All\nof these methods, however, delineate the tracked object by\na single regular bounding box (e.g., a rectangular or circular\nwindow), which renders them sensitive to partial occlusions\nand shape deformations.\nDeformable part-based models have been successfully\napplied to object detection [7, 29, 15] and object recog-\nnition [2, 19] on numerous occasions. Part-based appear-\nance models [7, 15, 29, 19, 2, 17] have been shown to have\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.306\n2361\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.306\n2361\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.306\n2363\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,435 @@
+{
+  "number": 43,
+  "original_doi": "10.1007/978-3-319-10599-4_13",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "MEEM: Robust Tracking via Multiple Experts Using Entropy Minimization",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T09:57:52Z",
+      "timestamp": 1791280672086,
+      "version": "4.1.0"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 32,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783319105987",
+        "type": "print"
+      },
+      {
+        "value": "9783319105994",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2014-01-01T00:00:00Z",
+          "timestamp": 1388534400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-319-10599-4_13",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2014-08-14T07:37:13Z",
+      "timestamp": 1408001833000
+    },
+    "page": "188-203",
+    "source": "Crossref",
+    "is-referenced-by-count": 641,
+    "title": [
+      "MEEM: Robust Tracking via Multiple Experts Using Entropy Minimization"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Jianming",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shugao",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stan",
+        "family": "Sclaroff",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "reference": [
+      {
+        "issue": "8",
+        "key": "13_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "1064",
+        "DOI": "10.1109/TPAMI.2004.53",
+        "volume": "26",
+        "author": "S. Avidan",
+        "year": "2004",
+        "unstructured": "Avidan, S.: Support vector tracking. PAMI 26(8), 1064–1072 (2004)",
+        "journal-title": "PAMI"
+      },
+      {
+        "issue": "2",
+        "key": "13_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1109/TPAMI.2007.35",
+        "volume": "29",
+        "author": "S. Avidan",
+        "year": "2007",
+        "unstructured": "Avidan, S.: Ensemble tracking. PAMI 29(2), 261–271 (2007)",
+        "journal-title": "PAMI"
+      },
+      {
+        "issue": "8",
+        "key": "13_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1619",
+        "DOI": "10.1109/TPAMI.2010.226",
+        "volume": "33",
+        "author": "B. Babenko",
+        "year": "2011",
+        "unstructured": "Babenko, B., Yang, M.H., Belongie, S.: Robust object tracking with online multiple instance learning. PAMI 33(8), 1619–1632 (2011)",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "13_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bai, Q., Wu, Z., Sclaroff, S., Betke, M., Monnier, C.: Randomized ensemble tracking. In: ICCV (2013)",
+        "DOI": "10.1109/ICCV.2013.255"
+      },
+      {
+        "key": "13_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chu, D.M., Smeulders, A.W.: Thirteen hard cases in visual tracking. In: AVSS (2010)",
+        "DOI": "10.1109/AVSS.2010.85"
+      },
+      {
+        "key": "13_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dinh, T.B., Vo, N., Medioni, G.: Context tracker: Exploring supporters and distracters in unconstrained environments. In: CVPR (2011)",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "13_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grabner, H., Grabner, M., Bischof, H.: Real-time tracking via on-line boosting. In: BMVC (2006)",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "13_CR8",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "234",
+        "DOI": "10.1007/978-3-540-88682-2_19",
+        "volume-title": "Computer Vision – ECCV 2008",
+        "author": "H. Grabner",
+        "year": "2008",
+        "unstructured": "Grabner, H., Leistner, C., Bischof, H.: Semi-supervised on-line boosting for robust tracking. In: Forsyth, D., Torr, P., Zisserman, A. (eds.) ECCV 2008, Part I. LNCS, vol. 5302, pp. 234–247. Springer, Heidelberg (2008)"
+      },
+      {
+        "key": "13_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grabner, M., Grabner, H., Bischof, H.: Learning features for tracking. In: CVPR (2007)",
+        "DOI": "10.1109/CVPR.2007.382995"
+      },
+      {
+        "key": "13_CR10",
+        "unstructured": "Grandvalet, Y., Bengio, Y.: Semi-supervised learning by entropy minimization. In: NIPS (2005)"
+      },
+      {
+        "key": "13_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hare, S., Saffari, A., Torr, P.H.: Struck: Structured output tracking with kernels. In: ICCV (2011)",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "13_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, S., Yang, Q., Lau, R.W., Wang, J., Yang, M.H.: Visual tracking via locality sensitive histograms. In: CVPR (2013)",
+        "DOI": "10.1109/CVPR.2013.314"
+      },
+      {
+        "key": "13_CR13",
+        "unstructured": "Jia, X., Lu, H., Yang, M.H.: Visual tracking via adaptive structural local sparse appearance model. In: CVPR (2012)"
+      },
+      {
+        "key": "13_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kalal, Z., Matas, J., Mikolajczyk, K.: Pn learning: Bootstrapping binary classifiers by structural constraints. In: CVPR (2010)",
+        "DOI": "10.1109/CVPR.2010.5540231"
+      },
+      {
+        "key": "13_CR15",
+        "unstructured": "Kim, M., Kumar, S., Pavlovic, V., Rowley, H.: Face tracking and recognition with visual constraints in real-world videos. In: CVPR (2008)"
+      },
+      {
+        "key": "13_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kwon, J., Lee, K.M.: Visual tracking decomposition. In: CVPR (2010)",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "13_CR17",
+        "unstructured": "Kwon, J., Lee, K.M.: Tracking by sampling trackers. In: ICCV (2011)"
+      },
+      {
+        "key": "13_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, X., Hu, W., Shen, C., Zhang, Z., Dick, A., van den Hengel, A.: A survey of appearance models in visual object tracking. arXiv preprint arXiv:1303.4803 (2013)",
+        "DOI": "10.1145/2508037.2508039"
+      },
+      {
+        "key": "13_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Maji, S., Berg, A.C.: Max-margin additive classifiers for detection. In: CVPR (2009)",
+        "DOI": "10.1109/ICCV.2009.5459203"
+      },
+      {
+        "issue": "6",
+        "key": "13_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "810",
+        "DOI": "10.1109/TPAMI.2004.16",
+        "volume": "26",
+        "author": "L. Matthews",
+        "year": "2004",
+        "unstructured": "Matthews, L., Ishikawa, T., Baker, S.: The template update problem. PAMI 26(6), 810–815 (2004)",
+        "journal-title": "PAMI"
+      },
+      {
+        "issue": "11",
+        "key": "13_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "2259",
+        "DOI": "10.1109/TPAMI.2011.66",
+        "volume": "33",
+        "author": "X. Mei",
+        "year": "2011",
+        "unstructured": "Mei, X., Ling, H.: Robust visual tracking and vehicle classification via sparse representation. PAMI 33(11), 2259–2272 (2011)",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "13_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mei, X., Ling, H., Wu, Y., Blasch, E., Bai, L.: Minimum error bounded efficient l1 tracker with occlusion detection. In: CVPR (2011)",
+        "DOI": "10.1109/CVPR.2011.5995421"
+      },
+      {
+        "key": "13_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Supancic III, J.S., Ramanan, D.: Self-paced learning for long-term tracking. In: CVPR (2013)",
+        "DOI": "10.1109/CVPR.2013.308"
+      },
+      {
+        "key": "13_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tang, F., Brennan, S., Zhao, Q., Tao, H.: Co-tracking using semi-supervised support vector machines. In: ICCV (2007)",
+        "DOI": "10.1109/ICCV.2007.4408954"
+      },
+      {
+        "key": "13_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, D., Lu, H., Yang, M.H.: Least soft-thresold squares tracking. In: CVPR (2013)",
+        "DOI": "10.1109/CVPR.2013.307"
+      },
+      {
+        "issue": "3",
+        "key": "13_CR26",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1002/sam.10075",
+        "volume": "3",
+        "author": "Z. Wang",
+        "year": "2010",
+        "unstructured": "Wang, Z., Vucetic, S.: Online training on a budget of support vector machines using twin prototypes. Statistical Analysis and Data Mining 3(3), 149–169 (2010)",
+        "journal-title": "Statistical Analysis and Data Mining"
+      },
+      {
+        "key": "13_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Y., Lim, J., Yang, M.H.: Online object tracking: A benchmark. In: CVPR (2013)",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "issue": "4",
+        "key": "13_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1145/1177352.1177355",
+        "volume": "38",
+        "author": "A. Yilmaz",
+        "year": "2006",
+        "unstructured": "Yilmaz, A., Javed, O., Shah, M.: Object tracking: A survey. ACM Computing Surveys (CSUR) 38(4), 13 (2006)",
+        "journal-title": "ACM Computing Surveys (CSUR)"
+      },
+      {
+        "key": "13_CR29",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "678",
+        "DOI": "10.1007/978-3-540-88688-4_50",
+        "volume-title": "Computer Vision – ECCV 2008",
+        "author": "Q. Yu",
+        "year": "2008",
+        "unstructured": "Yu, Q., Dinh, T.B., Medioni, G.: Online tracking and reacquisition using co-trained generative and discriminative trackers. In: Forsyth, D., Torr, P., Zisserman, A. (eds.) ECCV 2008, Part II. LNCS, vol. 5303, pp. 678–691. Springer, Heidelberg (2008)"
+      },
+      {
+        "key": "13_CR30",
+        "series-title": "Lecture Notes in Computer Science",
+        "volume-title": "Computer Vision - ECCV ’94",
+        "author": "R. Zabih",
+        "year": "1994",
+        "unstructured": "Zabih, R., Woodfill, J.: Non-parametric local transforms for computing visual correspondence. In: Eklundh, J.-O. (ed.) ECCV 1994. LNCS, vol. 801, Springer, Heidelberg (1994)"
+      },
+      {
+        "key": "13_CR31",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "470",
+        "DOI": "10.1007/978-3-642-33783-3_34",
+        "volume-title": "Computer Vision – ECCV 2012",
+        "author": "T. Zhang",
+        "year": "2012",
+        "unstructured": "Zhang, T., Ghanem, B., Liu, S., Ahuja, N.: Low-rank sparse learning for robust visual tracking. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part VI. LNCS, vol. 7577, pp. 470–484. Springer, Heidelberg (2012)"
+      },
+      {
+        "key": "13_CR32",
+        "unstructured": "Zhong, W., Lu, H., Yang, M.H.: Robust object tracking via sparsity-based collaborative model. In: CVPR (2012)"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2014"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-10599-4_13",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          14
+        ]
+      ],
+      "date-time": "2022-04-14T12:53:36Z",
+      "timestamp": 1649940816000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/978-3-319-10599-4_13"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783319105987",
+      "9783319105994"
+    ],
+    "references-count": 32,
+    "URL": "https://doi.org/10.1007/978-3-319-10599-4_13",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    }
+  }
+}

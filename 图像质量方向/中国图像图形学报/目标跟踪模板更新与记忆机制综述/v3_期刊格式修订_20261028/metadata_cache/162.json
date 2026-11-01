@@ -1,0 +1,567 @@
+{
+  "number": 162,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Hyperparameter Optimization for Tracking with Continuous Deep Q-Learning",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          23
+        ]
+      ],
+      "date-time": "2026-09-23T09:37:44Z",
+      "timestamp": 1790156264043,
+      "version": "4.0.1"
+    },
+    "reference-count": 58,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2018.00061",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2018-12-17T20:49:37Z",
+      "timestamp": 1545079777000
+    },
+    "page": "518-527",
+    "source": "Crossref",
+    "is-referenced-by-count": 111,
+    "title": [
+      "Hyperparameter Optimization for Tracking with Continuous Deep Q-Learning"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Xingping",
+        "family": "Dong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianbing",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenguan",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ling",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fatih",
+        "family": "Porikli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "author": "plappert",
+        "year": "2016",
+        "journal-title": "keras-rl"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.462"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2015.2463221"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2015.2477879"
+      },
+      {
+        "key": "ref31",
+        "author": "lillicrap",
+        "year": "2015",
+        "journal-title": "Continuous control with deep reinforcement learning"
+      },
+      {
+        "key": "ref30",
+        "first-page": "254",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCV Workshops"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "first-page": "529",
+        "DOI": "10.1038/nature14236",
+        "article-title": "Human-level control through deep reinforcement learning",
+        "volume": "518",
+        "author": "mnih",
+        "year": "2015",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref35",
+        "first-page": "244",
+        "article-title": "Clustering local motion estimates for robust and efficient object tracking",
+        "author": "maresca",
+        "year": "2014",
+        "journal-title": "ECCV Workshops"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cviu.2016.07.002"
+      },
+      {
+        "key": "ref27",
+        "article-title": "DeepTrack: Learning discriminative feature representations by convolutional neural networks for visual tracking",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref29",
+        "author": "li",
+        "year": "2016",
+        "journal-title": "Hyperband A Novel Bandit-Based Approach to Hyperparameter Optimization"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref1",
+        "first-page": "2546",
+        "article-title": "Algorithms for hyper-parameter optimization",
+        "author": "bergstra",
+        "year": "2011",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref22",
+        "first-page": "507",
+        "article-title": "Sequential model-based optimization for general algorithm configuration",
+        "volume": "5",
+        "author": "hutter",
+        "year": "2011",
+        "journal-title": "LION"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.21"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref23",
+        "first-page": "127",
+        "article-title": "Tree-structured reinforcement learning for sequential object localization",
+        "author": "jie",
+        "year": "2016",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref26",
+        "article-title": "The visual object tracking vot2015 challenge results",
+        "author": "kristan",
+        "year": "2015",
+        "journal-title": "IEEE ICCV Workshops"
+      },
+      {
+        "key": "ref25",
+        "author": "kingma",
+        "year": "2014",
+        "journal-title": "Adam A method for stochastic optimization"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patrec.2014.03.025"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref58",
+        "author": "zuo",
+        "year": "2016",
+        "journal-title": "Learning support correlation filters for visual tracking"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10599-4_13"
+      },
+      {
+        "key": "ref56",
+        "author": "zhang",
+        "year": "2017",
+        "journal-title": "Deep reinforcement learning for visual object tracking in videos"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Action-decision networks for visual tracking with deep reinforcement learning",
+        "author": "yoo",
+        "year": "2017",
+        "journal-title": "IEEE CVPR"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "first-page": "1834",
+        "DOI": "10.1109/TPAMI.2014.2388226",
+        "article-title": "Object tracking benchmark",
+        "volume": "37",
+        "author": "yi",
+        "year": "2015",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.510"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2456636"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2016.2631884"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Towards an empirical foundation for assessing bayesian optimization of hyperparame-terse",
+        "volume": "10",
+        "author": "eggensperger",
+        "year": "2013",
+        "journal-title": "NIPS Workshop on Bayesian Optimization in Theory and Practice"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.585"
+      },
+      {
+        "key": "ref15",
+        "first-page": "2829",
+        "article-title": "Continuous deep q-learning with model-based acceleration",
+        "author": "gu",
+        "year": "2016",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref17",
+        "author": "hansen",
+        "year": "2016",
+        "journal-title": "Using deep q-leaming to control optimization hyperparameters"
+      },
+      {
+        "key": "ref18",
+        "first-page": "749",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref4",
+        "first-page": "169",
+        "article-title": "Heuristically accelerated reinforcement learning: Theoretical and experimental results",
+        "author": "bianchi",
+        "year": "2012",
+        "journal-title": "Proceedings of the 20th European Conference on Artificial Intelligence"
+      },
+      {
+        "key": "ref3",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV Workshops"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.286"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "ref7",
+        "author": "choi",
+        "year": "2017",
+        "journal-title": "Visual tracking by reinforced decision making"
+      },
+      {
+        "key": "ref49",
+        "first-page": "113",
+        "article-title": "The enhanced flock of trackers",
+        "author": "vojff",
+        "year": "2014",
+        "journal-title": "Registration and Recognition in Images and Videos"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.43"
+      },
+      {
+        "key": "ref45",
+        "first-page": "2171",
+        "article-title": "Scalable bayesian optimization using deep neural networks",
+        "author": "snoek",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2487575.2487629"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.1038/nature16961",
+        "article-title": "Mastering the game of go with deep neural networks and tree search",
+        "volume": "529",
+        "author": "silver",
+        "year": "2016",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2017.2750082"
+      },
+      {
+        "key": "ref44",
+        "first-page": "2951",
+        "article-title": "Practical bayesian optimization of machine learning algorithms",
+        "author": "snoek",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref43",
+        "first-page": "387",
+        "article-title": "Deterministic policy gradient algorithms",
+        "author": "silver",
+        "year": "2014",
+        "journal-title": "ICML"
+      }
+    ],
+    "event": {
+      "name": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Salt Lake City, UT",
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8576498/8578098/08578159.pdf?arnumber=8578159",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          27
+        ]
+      ],
+      "date-time": "2022-01-27T06:27:21Z",
+      "timestamp": 1643264841000
+    },
+    "score": 41.84086,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8578159/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "references-count": 58,
+    "URL": "https://doi.org/10.1109/cvpr.2018.00061",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  }
+}

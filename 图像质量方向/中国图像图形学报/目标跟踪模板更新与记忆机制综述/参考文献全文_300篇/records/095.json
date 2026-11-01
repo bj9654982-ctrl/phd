@@ -1,0 +1,40 @@
+{
+  "number": 95,
+  "title": "Structural Correlation Filter for Robust Visual Tracking",
+  "year": 2016,
+  "authors": [
+    "Si Liu",
+    "Tianzhu Zhang",
+    "Xiaochun Cao",
+    "Changsheng Xu"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_Structural_Correlation_Filter_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_Structural_Correlation_Filter_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_Structural_Correlation_Filter_CVPR_2016_paper.pdf",
+      "bytes": 3347353,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\095_2016_Structural_Correlation_Filter_for_Robust_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_Structural_Correlation_Filter_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Liu_Structural_Correlation_Filter_CVPR_2016_paper.pdf",
+  "bytes": 3347353,
+  "sha256": "f89f7c83bb2fd50b2ab049cf2622c17cae8f5b31b73553039b80006dab7d976f",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Structural Correlation Filter for Robust Visual Tracking",
+  "first_page_text": "Structural Correlation Filter for Robust Visual Tracking\nSi Liu1\nTianzhu Zhang2\nXiaochun Cao1 ∗Changsheng Xu2\n1 State Key Laboratory Of Information Security, Institute of Information Engineering, Chinese Academy of Sciences\n2 National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences\nAbstract\nIn this paper, we propose a novel structural correlation\nﬁlter (SCF) model for robust visual tracking. The proposed\nSCF model takes part-based tracking strategies into ac-\ncount in a correlation ﬁlter tracker, and exploits circular\nshifts of all parts for their motion modeling to preserve tar-\nget object structure. Compared with existing correlation ﬁl-\nter trackers, our proposed tracker has several advantages:\n(1) Due to the part strategy, the learned structural correla-\ntion ﬁlters are less sensitive to partial occlusion, and have\ncomputational efﬁciency and robustness. (2) The learned\nﬁlters are able to not only distinguish the parts from the\nbackground as the traditional correlation ﬁlters, but also\nexploit the intrinsic relationship among local parts via spa-\ntial constraints to preserve object structure. (3) The learned\ncorrelation ﬁlters not only make most parts share similar\nmotion, but also tolerate outlier parts that have differen-\nt motion. Both qualitative and quantitative evaluations on\nchallenging benchmark image sequences demonstrate that\nthe proposed SCF tracking algorithm performs favorably a-\ngainst several state-of-the-art methods.\n1. Introduction\nVisual tracking is one of the most fundamental prob-\nlems in computer vision with various applications in video\nsurveillance, human computer interaction and vehicle nav-\nigation. Although great progress has been made in recen-\nt years, it remains a challenging problem due to factors\nsuch as illumination changes, geometric deformations, par-\ntial occlusions, fast motions and background clutters.\nTracking algorithms can be generally categorized as\neither generative or discriminative methods.\nGenerative\ntrackers typically formulate tracking problem as searching\nfor the best image regions which are similar to the tracked\ntargets [25, 38, 17, 34]. Different from generative track-\ners, discriminative approaches cast tracking as a classiﬁca-\ntion problem that distinguishes tracked targets from back-\n∗Indicates corresponding author\nFigure 1. Comparisons of our approach with state-of-the-art cor-\nrelation ﬁlter trackers in challenging situations of partial occlusion\non the Lemming sequence [30]. Our SCF tracker takes part-based\ntracking strategy into account for translation estimation, and per-\nforms robustly to partial occlusion after the 361th frame than the\nDSST [7] and KCF [13] methods.\ngrounds [2, 3, 16, 11, 32]. Recently, correlation ﬁlter based\ndiscriminative tracking methods have been proven to be\nable to achieve fairly high speed and robust tracking perfor-\nmance [5, 7, 13, 33, 12, 8, 14, 22, 21, 19]. Conventionally,\ncorrelation ﬁlters are designed to produce correlation peak-\ns for each interested target in the scene while yielding low\nresponses to background, which are usually used to detect\nexpected patterns. As proved by Convolution Theorem, the\ncorrelation in time domain corresponds to an element-wise\nmultiplication in Fourier domain. Thus, the intrinsic idea\nof correlation ﬁlter is that the correlation can be calculat-\ned in Fourier domain in order to avoid the time-consuming\nconvolution operation. Due to its computational efﬁcien-\ncy, correlation ﬁlters have attracted considerable attention\nto visual tracking. Although achieved the appealing result-\ns both in accuracy and robustness, these correlation ﬁlter\nbased trackers cannot deal with partial occlusion well. Fig-\nure 1 shows one example about the tracking results on the\nlemming sequence of two correlation ﬁlter based tracker-\ns, namely DSST [7] and KCF [13], which have achieved\nstate-of-art results and have beaten all other attended track-\n14312\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

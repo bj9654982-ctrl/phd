@@ -1,0 +1,43 @@
+{
+  "number": 196,
+  "title": "TGTrack: Temporal Generative Learning for Unified Single Object Tracking",
+  "year": 2026,
+  "authors": [
+    "Wanting Geng",
+    "Xin Chen",
+    "Chuanyu Sun",
+    "Jie Zhao",
+    "Ben Kang",
+    "Dong Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "自回归与生成式跟踪",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 2561316,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\196_2026_TGTrack__Temporal_Generative_Learning_for_Unified_Single_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 2561316,
+  "sha256": "3ec4aba35009d2b91ba7c8283a3a1adae6b39bd81f421fbe4b713a305e9503d8",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "TGTrack: Temporal Generative Learning for Unified Single Object Tracking",
+  "first_page_text": "TGTrack: Temporal Generative Learning for Unified Single Object Tracking\nWanting Geng1, Xin Chen2,∗, Chuanyu Sun1, Jie Zhao1, Ben Kang1, Dong Wang1, Huchuan Lu1\n1Dalian University of Technology\n2City University of Hong Kong\nAbstract\nExisting single object trackers typically treat temporal\nmodeling superficially by passing limited inter-frame in-\nformation, such as propagated tokens or template updates,\nwithout intrinsic temporal supervision learning. To address\nthis limitation, we propose TGTrack, a new unified tracking\nframework that incorporates a temporally generative super-\nvision task to guide the model in learning temporal dynam-\nics. The core of TGTrack is a temporally generative learn-\ning paradigm equipped with a transformer-based genera-\ntive decoder, which consists of a gated fusion module and\nan autoregressive prediction mechanism. This joint design\nenables the model to infer future scenarios from preceding\ninformation, thereby improving its ability to model both vi-\nsual appearance and temporal dynamics. Furthermore, we\nintroduce a time token embedding to explicitly encode the\ntemporal position of each frame. Experiments on 11 bench-\nmarks spanning five modalities show that TGTrack achieves\nstate-of-the-art performance in robust unified tracking. For\ninstance, TGTrack-B384 achieves an AUC of 75.3% on La-\nSOT. Code is available at https://github.com/wtg1/TGTrack.\n1. Introduction\nSingle object tracking (SOT) is a fundamental task in com-\nputer vision, which aims to continuously locate a specific\ntarget throughout a video sequence given its initial bound-\ning box. With the rapid advancement of deep neural net-\nworks and large-scale training, recent RGB-based track-\ners [1, 8, 36, 68, 69] have achieved remarkable perfor-\nmance. To handle more challenging scenarios such as low\nillumination, severe occlusion, or fast motion, researchers\nhave extended SOT to multi-modal tracking by incorporat-\ning complementary modalities such as depth [61], thermal\ninfrared [26, 27], event streams [52], and natural language\ndescriptions [31, 51]. Building upon these advances, recent\nworks [11, 20, 21, 54, 72] have aimed to develop unified\n∗Corresponding author: Xin Chen (xche32@cityu.edu.hk).\nEncoder\n&\nHead\nUpdate Condition\nUpdate\nUpdate\nResult\nResult\nEncoder\nTemporal Tokens\nHead\nTime Token\nRGB\nThe n-th template\nResult\nSearch region\nX\n…\nTime Token\n+\n+\nEncoder\n&\nHead\nRGB\nX\nEncoder\n&\nHead\nRGB\nX\nRGB\nX\n𝑺\n𝑺\n…\nGenerative \nDecoder\n(a) Template Update-based\n(b) Temporal Token Propagation\n(c) Generative Temporal Modeling (Ours)\nFigure 1. Comparison of three temporal modeling paradigms in\ntracking: (a) template update-based, (b) token propagation-based,\nand (c) our generative temporal modeling approach.\nframeworks capable of jointly modeling multiple modali-\nties, showing promising results in tracking robustness.\nHowever, both RGB-based and unified trackers generally\ntend to overemphasize architectural design and modality fu-\nsion, while overlooking the importance of temporal model-\ning, which limits their adaptability to dynamic target ap-\npearance changes. To address this issue, recent works have\nexplored temporal modeling strategies that can be broadly\ncategorized into two paradigms. The first paradigm, shown\nin Fig.1(a), updates template frames with handcrafted pa-\nrameters [9, 11, 23, 59], making the model sensitive to pa-\nrameter settings and limiting its generalization. The second\nparadigm, shown in Fig.1(b), propagates a small number of\ntemporal context tokens across frames [1, 22, 28, 57, 68, 70]\nto capture temporal dynamics. Despite these advances, both\nparadigms still encode temporal information implicitly by\ninjecting temporally relevant contents into the input but lack\nexplicit supervision, hindering their ability to model tempo-\nral dependencies and appearance transitions.\nMotivated by the aforementioned limitation, we seek\nto reformulate tracking supervision by introducing a time-\naware learning objective that explicitly guides the model to\nunderstand how targets and scenes evolve over time, thereby\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n28134\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

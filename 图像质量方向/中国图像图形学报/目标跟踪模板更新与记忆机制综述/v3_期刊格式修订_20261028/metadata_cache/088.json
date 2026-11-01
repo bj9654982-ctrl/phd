@@ -1,0 +1,339 @@
+{
+  "number": 88,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Adaptive Color Attributes for Real-Time Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2026-10-13T16:55:01Z",
+      "timestamp": 1791910501880,
+      "version": "4.3.4"
+    },
+    "reference-count": 28,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2014.143",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2014-09-30T14:58:09Z",
+      "timestamp": 1412089089000
+    },
+    "page": "1090-1097",
+    "source": "Crossref",
+    "is-referenced-by-count": 1193,
+    "title": [
+      "Adaptive Color Attributes for Real-Time Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Martin",
+        "family": "Danelljan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fahad Shahbaz",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Felsberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joost",
+        "family": "Van De Weijer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "article-title": "Color-based probabilistic tracking",
+        "author": "perez",
+        "year": "2002",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0262-8856(02)00129-4"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247895"
+      },
+      {
+        "key": "15",
+        "article-title": "Tracking by sampling trackers",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995730"
+      },
+      {
+        "key": "13",
+        "article-title": "Color attributes for object detection",
+        "author": "khan",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-011-0495-2"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540231"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-013-0633-0"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.154"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "22",
+        "article-title": "Coloring local feature extraction",
+        "author": "weijer de j van",
+        "year": "2006",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2009.2019809"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.307"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "26",
+        "article-title": "A new biologically inspired color image descriptor",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "27",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "28",
+        "article-title": "Robust object tracking via sparsity-based collaborative model",
+        "author": "zhong",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "3",
+        "author": "berlin",
+        "year": "1969",
+        "journal-title": "Basic Color Terms Their Universality and Evolution"
+      },
+      {
+        "key": "2",
+        "article-title": "Real time robust l1 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "10",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "1",
+        "article-title": "Robust fragments-based tracking using the integral histogram",
+        "author": "adam",
+        "year": "2006",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.22"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "9",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.314"
+      }
+    ],
+    "event": {
+      "name": "2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Columbus, OH",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            6,
+            23
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2014,
+            6,
+            28
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2014 IEEE Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6909096/6909393/06909539.pdf?arnumber=6909539",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2020-12-03T21:19:44Z",
+      "timestamp": 1607030384000
+    },
+    "score": 49.631268,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/6909539/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1109/cvpr.2014.143",
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    }
+  }
+}

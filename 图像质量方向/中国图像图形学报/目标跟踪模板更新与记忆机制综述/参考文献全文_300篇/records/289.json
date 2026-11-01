@@ -1,0 +1,42 @@
+{
+  "number": 289,
+  "title": "A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation",
+  "year": 2016,
+  "authors": [
+    "Federico Perazzi",
+    "Jordi Pont-Tuset",
+    "Brian McWilliams",
+    "Luc Van Gool",
+    "Markus Gross",
+    "Alexander Sorkine-Hornung"
+  ],
+  "venue": "CVPR",
+  "category": "数据集与评价设计",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf",
+      "bytes": 2152156,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\289_2016_A_Benchmark_Dataset_and_Evaluation_Methodology_for_Video_Object_Segmentation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.pdf",
+  "bytes": 2152156,
+  "sha256": "5db727294c466c722c9b1fc2409542c00172d21ae7aacc459736f47edbdc650c",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation",
+  "first_page_text": "A Benchmark Dataset and Evaluation Methodology for\nVideo Object Segmentation\nF. Perazzi1,2\nJ. Pont-Tuset1\nB. McWilliams2\nL. Van Gool1\nM. Gross1,2\nA. Sorkine-Hornung2\n1ETH Zurich\n2Disney Research\nAbstract\nOver the years, datasets and benchmarks have proven\ntheir fundamental importance in computer vision research,\nenabling targeted progress and objective comparisons in\nmany ﬁelds. At the same time, legacy datasets may impend\nthe evolution of a ﬁeld due to saturated algorithm perfor-\nmance and the lack of contemporary, high quality data. In\nthis work we present a new benchmark dataset and evalu-\nation methodology for the area of video object segmenta-\ntion. The dataset, named DAVIS (Densely Annotated VIdeo\nSegmentation), consists of ﬁfty high quality, Full HD video\nsequences, spanning multiple occurrences of common video\nobject segmentation challenges such as occlusions, motion-\nblur and appearance changes. Each video is accompanied\nby densely annotated, pixel-accurate and per-frame ground\ntruth segmentation. In addition, we provide a comprehen-\nsive analysis of several state-of-the-art segmentation ap-\nproaches using three complementary metrics that measure\nthe spatial extent of the segmentation, the accuracy of the\nsilhouette contours and the temporal coherence. The results\nuncover strengths and weaknesses of current approaches,\nopening up promising directions for future works.\n1. Introduction\nVideo object segmentation is a binary labeling prob-\nlem aiming to separate foreground object(s) from the back-\nground region of a video. A pixel-accurate, spatio-temporal\nbipartition of the video is instrumental to several applica-\ntions including, among others, action recognition, object\ntracking, video summarization, and rotoscoping for video\nediting. Despite remarkable progress in recent years, video\nobject segmentation still remains a challenging problem and\nmost existing approaches still exhibit too severe limitations\nin terms of quality and efﬁciency to be applicable in practi-\ncal applications, e.g. for processing large datasets, or video\npost-production and editing in the visual effects industry.\nWhat is most striking is the performance gap among\nstate-of-the-art video object segmentation algorithms and\nclosely related methods focusing on image segmentation\nFigure 1: Sample sequences from our dataset, with ground\ntruth segmentation masks overlayed. Please refer to the sup-\nplemental material for the complete dataset.\nand object recognition, which have experienced remark-\nable progress in the recent years.\nA key factor boot-\nstrapping this progress has been the availability of large\nscale datasets and benchmarks [12, 26, 29, 42]. This is in\nstark contrast to video object segmentation.\nWhile sev-\neral datasets exists for various different video segmentation\ntasks [1,4,5,15,20,21,25,38,41,44,46,47], none of them\ntargets the speciﬁc task of video object segmentation.\nTo date, the most widely adopted dataset is that of [47],\nwhich, however, was originally proposed for joint segmen-\ntation and tracking and only contains six low-resolution\nvideo sequences, which are not representative anymore for\nthe image quality and resolution encountered in today’s\nvideo processing applications. As a consequence, evalua-\ntions performed on such datasets are likely to be overﬁt-\nted, without reliable indicators regarding the differences be-\ntween individual video segmentation approaches, and the\nreal performance on unseen, more contemporary data be-\ncomes difﬁcult to determine [6]. Despite the effort of some\nauthors to augment their evaluation with additional datasets,\na standardized and widely adopted evaluation methodology\nfor video object segmentation does not yet exists.\nTo this end, we introduce a new dataset speciﬁcally de-\nsigned for the task of video object segmentation.\nThe\n1724\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

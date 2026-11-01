@@ -1,0 +1,41 @@
+{
+  "number": 172,
+  "title": "Towards Sequence-Level Training for Visual Tracking",
+  "year": 2022,
+  "authors": [
+    "Minji Kim",
+    "Seungkwan Lee",
+    "Jungseul Ok",
+    "Bohyung Han",
+    "Minsu Cho"
+  ],
+  "venue": "ECCV",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5099_ECCV_2022_paper.php",
+  "doi": "10.1007/978-3-031-20047-2_31",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820521.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820521.pdf",
+      "bytes": 2085892,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\172_2022_Towards_Sequence-Level_Training_for_Visual_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820521.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820521.pdf",
+  "bytes": 2085892,
+  "sha256": "b62652cab0d53e9705accb88734d73339fec14644777a0eb3e036b28536fbc57",
+  "version": "会议官方开放版本",
+  "pages": 16,
+  "pdf_title": "",
+  "first_page_text": "Towards Sequence-Level Training for Visual Tracking\nMinji Kim1*\nSeungkwan Lee3,4*\nJungseul Ok3\nBohyung Han1,2\nMinsu Cho3\n1ECE & 2IPAI, Seoul National University\n3Pohang University of Science and Technology (POSTECH)\n4Deeping Source Inc.\nhttps://github.com/byminji/SLTtrack\nAbstract. Despite the extensive adoption of machine learning on the task of vi-\nsual object tracking, recent learning-based approaches have largely overlooked\nthe fact that visual tracking is a sequence-level task in its nature; they rely heav-\nily on frame-level training, which inevitably induces inconsistency between train-\ning and testing in terms of both data distributions and task objectives. This work\nintroduces a sequence-level training strategy for visual tracking based on rein-\nforcement learning and discusses how a sequence-level design of data sampling,\nlearning objectives, and data augmentation can improve the accuracy and robust-\nness of tracking algorithms. Our experiments on standard benchmarks including\nLaSOT, TrackingNet, and GOT-10k demonstrate that four representative tracking\nmodels, SiamRPN++, SiamAttn, TransT, and TrDiMP, consistently improve by\nincorporating the proposed methods in training without modifying architectures.\nKeywords: visual tracking, sequence-level training, reinforcement learning\n1\nIntroduction\nVisual object tracking aims to estimate the spatial extent, e.g., a bounding box, of a\ntarget object over a sequence of video frames [34, 30, 23]. This task has been drawing\nsignificant attention due to its wide range of applications including visual surveillance,\nrobotics, and autonomous driving [14, 12]. Unlike standard recognition tasks such as\nimage classification and object detection, the class of the target object is unknown and\nonly its bounding box at the initial frame is given for testing. Despite the long history\nof its study [30], object tracking in the wild still remains challenging due to appearance\nvariation, occlusion, interference, distracting clutter, etc. To tackle the issues, recent\nmethods increasingly rely on robust feature representations that are learned by deep\nneural networks with convolutions [25, 19, 2, 1, 21, 43] and attention [39, 32, 4].\nAlthough learning to track has been widely adopted in the research community,\nit is largely overlooked that visual tracking is essentially a sequence-level task; the\nestimated target state in the current frame is affected by the history of target states in\nthe previous frames and also influences tracking results in the subsequent frames. For\nexample, recent state-of-the-art methods [25, 2, 5, 8, 20, 39, 32, 43, 38] rely heavily\non frame-level training, which encourages the trackers to better localize target objects\nin each frame through supervised learning. While it greatly improves the tracker by\n* These authors contributed equally to this work.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

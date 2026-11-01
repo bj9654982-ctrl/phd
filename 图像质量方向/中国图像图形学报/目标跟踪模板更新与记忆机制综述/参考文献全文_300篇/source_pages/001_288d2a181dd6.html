@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="preload" as="style" href="https://publications.ri.cmu.edu/build/assets/app-DX637nK3.css" /><link rel="modulepreload" as="script" href="https://publications.ri.cmu.edu/build/assets/app-DIuewKhF.js" /><link rel="stylesheet" href="https://publications.ri.cmu.edu/build/assets/app-DX637nK3.css" data-navigate-track="reload" /><script type="module" src="https://publications.ri.cmu.edu/build/assets/app-DIuewKhF.js" data-navigate-track="reload"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+
+    <!-- Custom Styles and JS -->
+    <link rel="stylesheet" href="https://publications.ri.cmu.edu/css/custom.css">
+    <script src="/js/app.js" defer></script>
+
+    <title>The Template Update Problem - Robotics Institute Carnegie Mellon University</title>
+
+</head>
+
+<body class="h-full font-sans h-full ">
+    <div class="min-h-full">
+
+        
+        <nav class="bg-[#AA4545]">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+            <div class="flex items-center">
+                <div class="shrink-0">
+                    <img class="w-48" src="https://publications.ri.cmu.edu/logo.png" alt=" Robotics Institute Logo">
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="hidden md:block">
+                <div class="ml-4 flex items-center md:ml-6">
+                    
+
+                    <!-- Profile dropdown -->
+                    <div class="relative ml-3">
+                        
+
+                        <!--
+                Dropdown menu, show/hide based on menu state.
+
+                Entering: "transition ease-out duration-100"
+                  From: "transform opacity-0 scale-95"
+                  To: "transform opacity-100 scale-100"
+                Leaving: "transition ease-in duration-75"
+                  From: "transform opacity-100 scale-100"
+                  To: "transform opacity-0 scale-95"
+              -->
+                        <!-- Active: "bg-gray-100 outline-hidden", Not Active: "" -->
+
+                        <!-- <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 ring-1 shadow-lg ring-black/5 focus:outline-hidden" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
+                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
+                </div> -->
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Mobile menu, show/hide based on menu state. -->
+    <div class="md:hidden" id="mobile-menu">
+        
+        
+        <!-- <div class="mt-3 space-y-1 px-2">
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Your Profile</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Settings</a>
+            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-400 hover:bg-gray-700 hover:text-white">Sign out</a>
+          </div> -->
+        
+    </div>
+</nav>
+
+
+
+<nav class="bg-[#222222] text-white text-sm shadow-inner">
+    <div class="mx-auto px-4 sm:px-6 lg:px-8 py-2 ">
+        <div class="flex space-x-4 justify-between align-middle hidden lg:flex">
+                        <div class="flex gap-3">
+    <div class="flex items-center">Filter By:</div>
+    <a href="https://publications.ri.cmu.edu" id='' class="rounded-md
+    px-3
+    py-2
+    sm:px-2
+    sm:py-1
+    text-sm
+    font-medium
+    my-1
+    border
+    whitespace-nowrap
+    self-start
+
+    hover:bg-black
+    hover:text-white
+    hover:border-white
+
+    transition
+    ease-in-out
+    duration-150
+     
+    bg-black
+    text-white
+    border-white
+    ">
+    All Publications
+</a>
+    <a href="https://publications.ri.cmu.edu?type=conference" id='conference' class="rounded-md
+    px-3
+    py-2
+    sm:px-2
+    sm:py-1
+    text-sm
+    font-medium
+    my-1
+    border
+    whitespace-nowrap
+    self-start
+
+    hover:bg-black
+    hover:text-white
+    hover:border-white
+
+    transition
+    ease-in-out
+    duration-150
+     
+    bg-white
+    text-black
+    ">
+    Conference Papers
+</a>
+    <a href="https://publications.ri.cmu.edu?type=article" id='article' class="rounded-md
+    px-3
+    py-2
+    sm:px-2
+    sm:py-1
+    text-sm
+    font-medium
+    my-1
+    border
+    whitespace-nowrap
+    self-start
+
+    hover:bg-black
+    hover:text-white
+    hover:border-white
+
+    transition
+    ease-in-out
+    duration-150
+     
+    bg-white
+    text-black
+    ">
+    Journal Articles
+</a>
+    <a href="https://publications.ri.cmu.edu?type=workshop" id='workshop' class="rounded-md
+    px-3
+    py-2
+    sm:px-2
+    sm:py-1
+    text-sm
+    font-medium
+    my-1
+    border
+    whitespace-nowrap
+    self-start
+
+    hover:bg-black
+    hover:text-white
+    hover:border-white
+
+    transition
+    ease-in-out
+    duration-150
+     
+    bg-white
+    text-black
+    ">
+    Workshop Paper
+</a>
+    <a href="https://publications.ri.cmu.edu?type=mastersthesis" id='mastersthesis' class="rounded-md
+    px-3
+    py-2
+    sm:px-2
+    sm:py-1
+    text-sm
+    font-medium
+    my-1
+    border
+    whitespace-nowrap
+    self-start
+
+    hover:bg-black
+    hover:text-white
+    hover:border-white
+
+    transition
+    ease-in-out
+    duration-150
+     
+    bg-white
+    text-black
+    ">
+    Master's Theses
+</a>
+    <a href="https://publications.ri.cmu.edu?type=phdthesis" id='phdthesis' class="rounded-md
+    px-3
+    py-2
+    sm:px-2
+    sm:py-1
+    text-sm
+    font-medium
+    my-1
+    border
+    whitespace-nowrap
+    self-start
+
+    hover:bg-black
+    hover:text-white
+    hover:border-white
+
+    transition
+    ease-in-out
+    duration-150
+     
+    bg-white
+    text-black
+    ">
+    PhD Theses
+</a>
+    <a href="https://publications.ri.cmu.edu?type=techreport" id='techreport' class="rounded-md
+    px-3
+    py-2
+    sm:px-2
+    sm:py-1
+    text-sm
+    font-medium
+    my-1
+    border
+    whitespace-nowrap
+    self-start
+
+    hover:bg-black
+    hover:text-white
+    hover:border-white
+
+    transition
+    ease-in-out
+    duration-150
+     
+    bg-white
+    text-black
+    ">
+    Technical Reports
+</a>
+</div>
+<div class="justify-between items-center flex">
+        <div class="back_arrow justify-between items-center flex gap-1 text-base ">
+        <div>&larr; </div><a href="https://publications.ri.cmu.edu" class="btn btn-secondary border-b">Back to
+            Publications</a>
+    </div>
+    </div>                    </div>
+    </div>
+</nav>
+
+        <header style="display: none;">
+            <div class="mx-auto px-4 py-6 pb-0 sm:px-6 lg:px-8 sm:flex sm:justify-between">
+                <h1 class="text-3xl font-bold tracking-tight text-gray-900">The Template Update Problem</h1>
+            </div>
+        </header>
+
+        <main>
+            <div class="mx-auto px-4 py-6 sm:px-6 lg:px-8">
+                <div class="single-pub-container mt-8 max-w-5xl m-auto">
+
+        <div class="upper_section max-w-[950px] m-auto">
+            <div class="date italic pb-4 text-gray-600 leading-7">June
+                2004
+            </div>
+
+            <h1 class="mb-4 text-[1.875rem]/9 ">The Template Update Problem</h1>
+
+            <div class="mb-4">
+                                    <a class="text-xl text-xl inline-flex items-center justify-center gap-2 "
+                        href="/storage/publications/pub_files/pub4/matthews_iain_2004_1/matthews_iain_2004_1.pdf" target="_blank">
+                        View Publication
+                        <img src="https://publications.ri.cmu.edu/external-link.svg" alt="External link" class="w-4 h-4 inline-block">
+                    </a>
+                            </div>
+
+            <div class="mb-6">
+                <h2 class="font-semibold">Authors:</h2> <span class="publication-authors"><a target='_blank' href='https://www.ri.cmu.edu/ri-people/iain-matthews/'>Iain Matthews</a>, Takahiro Ishikawa, and Simon Baker</span>
+            </div>
+
+            <div class="tags mb-6 flex gap-[0.625em] items-baseline flex-wrap">
+                                    <a class="tag text-black hover:text-black no-underline hover:no-underline border-0 block px-[4px] py-[2px] bg-gray-300 rounded-[5px] article"
+                        href="https://publications.ri.cmu.edu?type=article">Journal Article
+                    </a>
+                                
+                            </div>
+        </div>
+
+        <hr>
+
+        <div class="lower_section max-w-[950px] m-auto">
+
+
+                            <div class="abstract my-4">
+                    <h2 class="font-semibold mb-4">Abstract:</h2>
+                    <div class="mb-3">Template tracking dates back to the 1981 Lucas-Kanade algorithm. One question that has received very little attention, however, is how to update the template so that it remains a good model of the tracked object. We propose a template update algorithm that avoids the ``drifting'' inherent in the naive algorithm.</div>
+                </div>
+            
+            
+            <div x-data="{ open: false, copied: false }" class="my-4">
+                <a class="cursor-pointer mr-4" @click.prevent="open = !open">
+                    <span x-text="open ? 'Hide BibTeX' : 'Show BibTeX'"></span>
+                </a>
+
+                <a href="#" class="cursor-pointer"
+                    @click.prevent="
+                        navigator.clipboard.writeText($refs.bibtex.innerText);
+                        copied = true;
+                        setTimeout(() => copied = false, 2000);
+                    ">
+                    <span x-text="copied ? 'Copied!' : 'Copy BibTeX'"></span>
+                </a>
+
+                <div x-ref="bibtex"
+                    x-bind:style="open ? 'max-height: ' + $refs.bibtex.scrollHeight + 'px' : 'max-height: 0px'"
+                    class="overflow-hidden transition-[max-height] duration-300 ease-in-out">
+                    <div class="mt-3">
+                        &#64;article{Matthews-2004-8945,<br>author = {Iain Matthews And Takahiro Ishikawa And Simon Baker},<br>title = {The Template Update Problem},<br>journal = {Proceedings of IEEE Transactions on Pattern Analysis and Machine Intelligence},<br>year = {2004},<br>month = {June},<br>volume = {26},<br>number = {6},<br>pages = {810 - 815},<br>keywords = {Template tracking, the Lucas-Kanade algorithm, active appearance models},<br>}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+
+
+    </div>
+            </div>
+        </main>
+
+        <div class="bg-white shadow-sm" style="margin-bottom: -2rem">
+    <div class="mx-auto px-4 py-6 mt-9 sm:px-6 lg:px-8 sm:flex sm:justify-between">
+        <div id="notice">
+            <strong>Copyright notice:</strong> This material is presented to ensure timely dissemination of
+            scholarly
+            and
+            technical work. Copyright and all rights therein are retained by authors or by other copyright holders.
+            All
+            persons copying this information are expected to adhere to the terms and constraints invoked by each
+            author's
+            copyright. These works may not be reposted without the explicit permission of the copyright holder.
+        </div>
+    </div>
+</div>
+<footer class="bg-[#222222] text-gray-400 mt-8">
+    <div class="mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+            <div class="text-sm">
+                &copy; 2026 RI Data Repository. All rights reserved.
+            </div>
+        </div>
+    </div>
+</footer>    </div>
+</body>
+
+</html>

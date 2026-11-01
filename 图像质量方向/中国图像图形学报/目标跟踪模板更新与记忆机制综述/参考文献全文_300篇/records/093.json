@@ -1,0 +1,39 @@
+{
+  "number": 93,
+  "title": "In Defense of Sparse Tracking: Circulant Sparse Tracker",
+  "year": 2016,
+  "authors": [
+    "Tianzhu Zhang",
+    "Adel Bibi",
+    "Bernard Ghanem"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Zhang_In_Defense_of_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_In_Defense_of_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_In_Defense_of_CVPR_2016_paper.pdf",
+      "bytes": 1478959,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\093_2016_In_Defense_of_Sparse_Tracking__Circulant_Sparse_Tracker.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_In_Defense_of_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhang_In_Defense_of_CVPR_2016_paper.pdf",
+  "bytes": 1478959,
+  "sha256": "94b3e33413e3dfd1281846c4717777819e118c198ec2abc56af31a62b52e7d83",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "In Defense of Sparse Tracking: Circulant Sparse Tracker",
+  "first_page_text": "In Defense of Sparse Tracking: Circulant Sparse Tracker\nTianzhu Zhang1,2, Adel Bibi1, and Bernard Ghanem1\n1 King Abdullah University of Science and Technology (KAUST), Saudi Arabia\n2 Institute of Automation, Chinese Academy of Sciences (CASIA), China\ntianzhu.zhang@kaust.edu.sa, adel.bibi@kaust.edu.sa, bernard.ghanem@kaust.edu.sa\nAbstract\nSparse representation has been introduced to visual\ntracking by ﬁnding the best target candidate with mini-\nmal reconstruction error within the particle ﬁlter frame-\nwork. However, most sparse representation based trackers\nhave high computational cost, less than promising tracking\nperformance, and limited feature representation. To deal\nwith the above issues, we propose a novel circulant sparse\ntracker (CST), which exploits circulant target templates.\nBecause of the circulant structure property, CST has the fol-\nlowing advantages: (1) It can reﬁne and reduce particles\nusing circular shifts of target templates. (2) The optimiza-\ntion can be efﬁciently solved entirely in the Fourier domain.\n(3) High dimensional features can be embedded into CST\nto signiﬁcantly improve tracking performance without sac-\nriﬁcing much computation time. Both qualitative and quan-\ntitative evaluations on challenging benchmark sequences\ndemonstrate that CST performs better than all other sparse\ntrackers and favorably against state-of-the-art methods.\n1. Introduction\nVisual object tracking is a fundamental research topic\nin computer vision and is related to a wide range of appli-\ncations including video surveillance, auto-control systems,\nand human computer interaction. Given the initial state of\na target in the ﬁrst frame, the goal of tracking is to predict\nstates of the target over time. Despite very promising ad-\nvances over the past decade, it remains a challenging prob-\nlem to design a fast and robust tracker due to factors such as\nillumination changes, deformations, partial occlusions, fast\nmotion, and background clutter.\nRecently, sparse representation has been developed for\nobject tracking [26, 25, 22, 28, 27, 36, 4, 19, 41, 18]. The\nseminal work in [27] was the ﬁrst to successfully apply\nsparse representation to visual tracking using particle ﬁl-\ntering. Here, the tracker represents each target candidate as\na sparse linear combination of dictionary templates that can\nbe dynamically updated to maintain an up-to-date target ap-\nFigure 1.\nComparison of our CST tracker with state-of-the-art\nmethods (KCF, Struck, SCM, ASLA, L1APG, and TLD) on two\nvideos from a visual tracking benchmark [32]. On the Jogging\nsequence, only TLD and CST can track well when partial occlu-\nsion happens. On the Tiger sequence, our CST can track the target\nthroughout the whole sequence, while other trackers suffer from\ndrift. The sparse trackers (ASLA, L1APG, SCM) fail to track these\nsequences. Overall, the proposed CST method performs favorably\nagainst the state-of-the-art trackers.\npearance model. This representation has been shown to be\nrobust against partial occlusions, thus, leading to improved\ntracking performance. However, sparse trackers generally\nsuffer from the following drawbacks: (1) They remain com-\nputationally expensive, despite recent speedup attempts [5].\nSparse trackers perform computationally expensive ℓ1 min-\nimization at each frame. In a particle ﬁlter framework, com-\nputational cost grows linearly with the number of particles\nsampled. It is this computational bottleneck that precludes\nthe use of these trackers in real-time scenarios. (2) They\nhave limited overall performance. Based on results in the\nVOT2014 challenge [24] and the visual tracking bench-\nmark [32], sparse trackers do not achieve a better accu-\nracy than other types of trackers, such as KCF [16] and\nStruck [15]. (3) They are limited in the features they can use\nfor representation. Due to the high computational cost, most\nsparse trackers make use of gray-scale pixel appearance and\ncannot adopt more representative features, such as, HOG\n13880\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

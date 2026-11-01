@@ -1,0 +1,40 @@
+{
+  "number": 89,
+  "title": "Learning Spatially Regularized Correlation Filters for Visual Tracking",
+  "year": 2015,
+  "authors": [
+    "Martin Danelljan",
+    "Gustav Hager",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg"
+  ],
+  "venue": "ICCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Danelljan_Learning_Spatially_Regularized_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Danelljan_Learning_Spatially_Regularized_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Danelljan_Learning_Spatially_Regularized_ICCV_2015_paper.pdf",
+      "bytes": 2740598,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\089_2015_Learning_Spatially_Regularized_Correlation_Filters_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Danelljan_Learning_Spatially_Regularized_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Danelljan_Learning_Spatially_Regularized_ICCV_2015_paper.pdf",
+  "bytes": 2740598,
+  "sha256": "a43c6786edfd690ec0e18be4a3ce2732c29d36ecd651b82b84eb13277f78151c",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Learning Spatially Regularized Correlation Filters for Visual Tracking",
+  "first_page_text": "Learning Spatially Regularized Correlation Filters for Visual Tracking\nMartin Danelljan, Gustav H¨ager, Fahad Shahbaz Khan, Michael Felsberg\nComputer Vision Laboratory, Link¨oping University, Sweden\n{martin.danelljan, gustav.hager, fahad.khan, michael.felsberg}@liu.se\nAbstract\nRobust and accurate visual tracking is one of the most\nchallenging computer vision problems. Due to the inherent\nlack of training data, a robust approach for constructing a\ntarget appearance model is crucial. Recently, discrimina-\ntively learned correlation ﬁlters (DCF) have been success-\nfully applied to address this problem for tracking. These\nmethods utilize a periodic assumption of the training sam-\nples to efﬁciently learn a classiﬁer on all patches in the tar-\nget neighborhood. However, the periodic assumption also\nintroduces unwanted boundary effects, which severely de-\ngrade the quality of the tracking model.\nWe propose Spatially Regularized Discriminative Cor-\nrelation Filters (SRDCF) for tracking. A spatial regular-\nization component is introduced in the learning to penalize\ncorrelation ﬁlter coefﬁcients depending on their spatial lo-\ncation. Our SRDCF formulation allows the correlation ﬁl-\nters to be learned on a signiﬁcantly larger set of negative\ntraining samples, without corrupting the positive samples.\nWe further propose an optimization strategy, based on the it-\nerative Gauss-Seidel method, for efﬁcient online learning of\nour SRDCF. Experiments are performed on four benchmark\ndatasets: OTB-2013, ALOV++, OTB-2015, and VOT2014.\nOur approach achieves state-of-the-art results on all four\ndatasets. On OTB-2013 and OTB-2015, we obtain an ab-\nsolute gain of 8.0% and 8.2% respectively, in mean overlap\nprecision, compared to the best existing trackers.\n1. Introduction\nVisual tracking is a classical computer vision problem\nwith many applications. In generic tracking the task is to\nestimate the trajectory of a target in an image sequence,\ngiven only its initial location. This problem is especially\nchallenging. The tracker must generalize the target appear-\nance from a very limited set of training samples to achieve\nrobustness against, e.g. occlusions, fast motion and defor-\nmations. Here, we investigate the key problem of learning a\nrobust appearance model under these conditions.\nRecently, Discriminative Correlation Filter (DCF) based\n(a) Original image.\n(b) Periodicity in correlation ﬁlters.\nFigure 1. Example image (a) and the underlying periodic assump-\ntion (b) employed in the standard DCF methods. The periodic\nassumption (b) leads to a limited set of negative training samples,\nthat fails to capture the true image content (a). As a consequence,\nan inaccurate tracking model is learned.\napproaches [5, 8, 10, 19, 20, 24] have successfully been ap-\nplied to the tracking problem [23]. These methods learn a\ncorrelation ﬁlter from a set of training samples. The corre-\nlation ﬁlter is trained to perform a circular sliding window\noperation on the training samples. This corresponds to as-\nsuming a periodic extension of these samples (see ﬁgure 1).\nThe periodic assumption enables efﬁcient training and de-\ntection by utilizing the Fast Fourier Transform (FFT).\nAs discussed above, the computational efﬁciency of the\nstandard DCF originates from the periodic assumption at\nboth training and detection. However, this underlying as-\nsumption produces unwanted boundary effects. This leads\nto an inaccurate representation of the image content, since\nthe training patches contain periodic repetitions. The in-\nduced boundary effects mainly limit the standard DCF for-\nmulation in two important aspects. Firstly, inaccurate nega-\ntive training patches reduce the discriminative power of the\nlearned model. Secondly, the detection scores are only ac-\ncurate near the center of the region, while the remaining\nscores are heavily inﬂuenced by the periodic repetitions of\nthe detection sample. This leads to a very restricted target\nsearch region at the detection step.\nThe aforementioned limitations of the standard DCF for-\n4310\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

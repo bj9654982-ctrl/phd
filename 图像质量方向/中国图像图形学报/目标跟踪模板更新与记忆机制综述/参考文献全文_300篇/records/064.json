@@ -1,0 +1,39 @@
+{
+  "number": 64,
+  "title": "Multi-Cue Visual Tracking Using Robust Feature-Level Fusion Based on Joint Sparse Representation",
+  "year": 2014,
+  "authors": [
+    "Xiangyuan Lan",
+    "Andy J. Ma",
+    "Pong C. Yuen"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.pdf",
+      "bytes": 2666758,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\064_2014_Multi-Cue_Visual_Tracking_Using_Robust_Feature-Level_Fusion_Based_on_Joint_Spa.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.pdf",
+  "bytes": 2666758,
+  "sha256": "7c831877b5a6960bfc918485204373fc20dd84e78530187b24131943ce965407",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Multi-Cue Visual Tracking Using Robust Feature-Level Fusion Based on Joint Sparse Representation",
+  "first_page_text": "Multi-Cue Visual Tracking Using Robust Feature-Level Fusion Based on Joint\nSparse Representation\nXiangyuan Lan\nAndy J Ma\nPong C Yuen\nDepartment of Computer Science, Hong Kong Baptist University\n{xylan, jhma, pcyuen}@comp.hkbu.edu.hk\nAbstract\nThe use of multiple features for tracking has been proved\nas an effective approach because limitation of each feature\ncould be compensated. Since different types of variation-\ns such as illumination, occlusion and pose may happen in\na video sequence, especially long sequence videos, how to\ndynamically select the appropriate features is one of the key\nproblems in this approach. To address this issue in multi-\ncue visual tracking, this paper proposes a new joint sparse\nrepresentation model for robust feature-level fusion. The\nproposed method dynamically removes unreliable features\nto be fused for tracking by using the advantages of sparse\nrepresentation. As a result, robust tracking performance is\nobtained. Experimental results on publicly available videos\nshow that the proposed method outperforms both existing\nsparse representation based and fusion-based trackers.\n1. Introduction\nEffective modeling of the object’s appearance is one\nof the key issues for the success of a visual tracker [14]\nand many visual features have been proposed for han-\ndling illumination, pose, occlusion and scaling variation-\ns [10, 11, 24, 27]. However, because the appearance of\ntarget and the environment are dynamically changed, es-\npecially in long term videos, a single feature is difﬁcult to\ndeal with all such variations. As such, the use of multi-\nple cues/features to model object appearance has been pro-\nposed and proved as a more robust approach for better per-\nformance [21, 8, 3, 20, 15].\nMany algorithms based on\nmulti-cue appearance model have been proposed for track-\ning in the past years. Generally, existing multi-cue track-\ning algorithms can be roughly divided into two categories:\nscore level and feature level. Score-level approach com-\nbines classiﬁcation score corresponding to different visu-\nal cues to perform the foreground and background classi-\nﬁcation.\nMethods such as online boosting [8, 9], multi-\nple kernel boosting [21] and online multiple instance learn-\ning [3]have been proposed. However, the Data Processing\nInequality (DPI) [5] indicates that the feature level contains\nmore information than that in the classiﬁer level. Therefore,\nfeature level fusion should be performed to take advantage\nof the more informative cues for tracking. A typical ap-\nproach is to concatenate different feature vectors to form a\nsingle vector [20]. But such method may result in a high\ndimensional feature vector which may degrade the tracking\nefﬁciency. Moreover, combining all features may not be\nnecessary to improve the tracking performance because not\nall cues/features are reliable. As such, dynamically selec-\ntion/combination of visual cues/features is required.\nRecently, multi-task joint sparse representation (MTJS-\nR) [19, 22] has been proposed for feature-level fusion in\nvisual classiﬁcation and promising results have been report-\ned. In MTJSR, the class-level joint sparsity patterns among\nmultiple features are discovered by using a joint sparsity-\ninducing norm. Therefore, the relationship between differ-\nent visual cues can be discovered by the joint sparsity con-\nstraint. Moreover, high-dimensional features are represent-\ned by low-dimensional reconstruction weights for efﬁcient\nfusion. However, directly applying the MTJSR for objec-\nt tracking may not achieve convincing performance, since\nMTJSR was derived based on the assumption that all repre-\nsentation tasks are closely related and share the same spar-\nsity pattern, which may not be valid in tracking application\ndue to unreliable features.\nIn order to overcome the above-mentioned problem, this\npaper proposes to remove the negative effect from the unre-\nliable visual cues (outlier) that do not share the same sparsi-\nty pattern. Based on joint sparse representation, we propose\nand develop a new robust feature-level fusion method for\nvisual tracking. It is important to point out that the existing\njoint sparse representation based tracking algorithms can-\nnot make use of multiple features. For example, Zhang et\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

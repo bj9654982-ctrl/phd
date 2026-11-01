@@ -1,0 +1,39 @@
+{
+  "number": 97,
+  "title": "Context-Aware Correlation Filter Tracking",
+  "year": 2017,
+  "authors": [
+    "Matthias Mueller",
+    "Neil Smith",
+    "Bernard Ghanem"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Mueller_Context-Aware_Correlation_Filter_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Mueller_Context-Aware_Correlation_Filter_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Mueller_Context-Aware_Correlation_Filter_CVPR_2017_paper.pdf",
+      "bytes": 1240598,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\097_2017_Context-Aware_Correlation_Filter_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Mueller_Context-Aware_Correlation_Filter_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Mueller_Context-Aware_Correlation_Filter_CVPR_2017_paper.pdf",
+  "bytes": 1240598,
+  "sha256": "e01308766ce158e7cac0e3f6377a488d9a145e41ff28cc18c36a1be4cf3bd504",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Context-Aware Correlation Filter Tracking",
+  "first_page_text": "Context-Aware Correlation Filter Tracking\nMatthias Mueller, Neil Smith, Bernard Ghanem\nKing Abdullah University of Science and Technology (KAUST), Thuwal, Saudi Arabia\n{matthias.mueller.2, neil.smith, bernard.ghanem}@kaust.edu.sa\nAbstract\nCorrelation ﬁlter (CF) based trackers have recently\ngained a lot of popularity due to their impressive per-\nformance on benchmark datasets, while maintaining high\nframe rates. A signiﬁcant amount of recent research focuses\non the incorporation of stronger features for a richer repre-\nsentation of the tracking target. However, this only helps\nto discriminate the target from background within a small\nneighborhood. In this paper, we present a framework that\nallows the explicit incorporation of global context within\nCF trackers. We reformulate the original optimization prob-\nlem and provide a closed form solution for single and multi-\ndimensional features in the primal and dual domain. Ex-\ntensive experiments demonstrate that this framework signif-\nicantly improves the performance of many CF trackers with\nonly a modest impact on frame rate.\n1. Introduction\nObject tracking remains a core problem in computer\nvision with numerous applications, such as surveillance,\nhuman-machine interaction, robotics, etc.\nLarge new\ndatasets and benchmarks such as OTB-50 [26], OTB-100\n[27], TC-128 [19], ALOV300++ [24] and UAV123 [23],\nas well as, tracking challenges such as the visual object\ntracking (VOT) challenge and multi-object tracking (MOT)\nchallenge have sparked the interest of many researchers and\nhelped advance the ﬁeld signiﬁcantly. Despite substantial\nprogress in recent years, visual object tracking remains a\nchallenging problem in computer vision.\nIn this paper, we address the problem of single-object\ntracking, which is commonly approached as a tracking-by-\ndetection problem.\nCurrently, most research focuses on\nmodel-free generic object trackers, where no prior assump-\ntions regarding the object appearance are made. The generic\nnature of this problem makes it challenging, since there are\nvery few constraints on object appearance, and the object\ncan undergo a variety of unpredictable transformations in\nconsecutive frames (e.g. aspect ratio change, illumination\nvariation, in/out-of-plane rotation, occlusion, etc.).\nThe tracking problem can be divided into two main chal-\nFigure 1: Tracking results of our context-aware adaptation\nof the baseline SAMF tracker, denoted as SAMFCA, and a\ncomparison with recent state-of-the-art tracking algorithms\non the Box and Jump sequences from OTB-100.\nlenges, object representation and sampling for detection.\nRecently, most successful single-object tracking algorithms\nuse a discriminative object representation with either strong\nhand-crafted features, such as HOG and Colornames, or\nlearned ones. Recent work has integrated deep features [21]\ntrained on a large dataset, such as ImageNet, to represent the\ntracked object. Sampling on the other hand is a trade-off be-\ntween computation time and precise scanning of the region\nof interest for the target.\nLately, CF trackers have sparked a lot of interest, due\nto their high accuracy while running at high frame rates.\n[4, 6, 10, 11, 14]. In general, CF trackers learn a correla-\ntion ﬁlter online to localize the object in consecutive frames.\nThe learned ﬁlter is applied to the region of interest in the\nnext frame and the location of the maximum response cor-\nresponds to the object location. The ﬁlter is then updated\nby using the new object location. The major reasons be-\nhind the success of this tracking paradigm is the approxi-\nmate dense sampling performed by circularly shifting the\ntraining samples and the computational efﬁciency of learn-\ning the correlation ﬁlter in the Fourier domain. Provided\nthat the background is homogeneous and the object does\nnot move much, these circular shifts are equivalent to actual\ntranslations in the image and this framework works well.\nHowever, since these assumptions are not always valid,\nCF trackers have several drawbacks. One major drawback is\n1396\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

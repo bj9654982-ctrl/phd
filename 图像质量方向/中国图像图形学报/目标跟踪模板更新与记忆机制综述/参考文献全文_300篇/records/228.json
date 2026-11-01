@@ -1,0 +1,43 @@
+{
+  "number": 228,
+  "title": "Dual-branch Distilled Transformer for Efficient Asymmetric UAV Tracking",
+  "year": 2026,
+  "authors": [
+    "Hongtao Yang",
+    "Bineng Zhong",
+    "Qihua Liang",
+    "Yaozong Zheng",
+    "Xiantao Hu",
+    "Yuanliang Xue",
+    "Shuxiang Song"
+  ],
+  "venue": "CVPR",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 1272212,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\228_2026_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Yang_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 1272212,
+  "sha256": "93382df3835295a682c1014262fe44eb827d77c7320deac9d4d14f1d9379d4c9",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Dual-branch Distilled Transformer for Efficient Asymmetric UAV Tracking",
+  "first_page_text": "Dual-branch Distilled Transformer for Efficient Asymmetric UAV Tracking\nHongtao Yang1,2, Bineng Zhong1,2*, Qihua Liang1,2*, Yaozong Zheng1,2,\nXiantao Hu3, Yuanliang Xue4, Shuxiang Song1,2\n1Key Lab of Education Blockchain and Intelligent Technology, Ministry of Education,\nGuangxi Normal University, Guilin, 541004, China\n2Guangxi Key Lab of Multi-Source Information Mining and Security,\nGuangxi Normal University, Guilin, 541004, China\n3Nanjing University of Science and Technology\n4Xi’an Research Institute of High Technology, Xi’an 710025, China\nyht@stu.gxnu.edu.cn, bnzhong@gxnu.edu.cn, qhliang@gxnu.edu.cn, yaozongzheng@stu.gxnu.edu.cn\nxiantaohu@njust.edu.cn, xyl 507@outlook.com, songshuxiang@mailbox.gxnu.edu.cn\nAbstract\nGiven the real-time demands of UAV tracking, many meth-\nods simplify the backbone to reduce computation, but this\noften weakens feature representation and degrades perfor-\nmance in complex scenarios.\nTo alleviate this issue, we\npropose EATrack, an efficient and asymmetric UAV track-\ning framework centered around a teacher-guided dual-\nbranch distillation strategy that enhances the feature ex-\npressiveness of the lightweight student model. Specifically,\nEATrack investigates two complementary perspectives of\nknowledge transfer: a spatially focused feature-level dis-\ntillation that compensates for weakened representations by\nguiding the student to learn strong target representations,\nand a prediction-level distillation that enhances spatial lo-\ncalization by learning the teacher’s capability of accurate\ntarget localization.\nFurthermore, to enhance robustness\nagainst appearance variations, we introduce a fine-grained\ntarget-aware distillation strategy that selectively transfers\nthe teacher’s target modeling capacity to the student. A\ntemporal adaptation module is incorporated at inference\nto enhance robustness over time. Experiments on five UAV\nbenchmarks demonstrate that EATrack achieves a favorable\nbalance between accuracy and speed, with EATrack-DeiT\nimproving average success rate by 1.2% over the previous\nSOTA while running at 241.9 FPS on GPU.\n1. Introduction\nUnmanned aerial vehicle (UAV) tracking plays a crucial\nrole in a variety of real-world scenarios, such as wildlife\n*Corresponding author.\n96.8%\n95.9%\n93.7%\n92.2%\n90.4%\n87.3%\n84.3%\n77.2%\n73.8%\n64.5%\n61.5%\n49.0%\n74.7%\n39.2%\n78.7%\n45.6%\nCosine(%)\nNon-Distilled Layers\n(a) Different Trackers on the Same \nSearch Region\nEATrack\nNon-distilled Student Tracker\n(b) Layer-wise Cosine Similarity Between \nTrackers and the Teacher Tracker\n(c) Tracking Results of the Non-distilled \nStudent Tracker\n(d) Tracking Results of EATrack with \nTeacher Distillation\nGround \nTruth\nTeacher \nTracker\nUnsupervised \nStudent Tracker\nEATrack\nDistilled \nLayers\nFigure 1. Impact of teacher tracker distillation. (a) Tracking re-\nsults of different trackers on the same search image. (b) Layer-\nwise cosine similarity between trackers and the teacher tracker on\nthe same search image. (c) The non-distilled student gradually\nloses the target. (d) Our tracker, benefiting from teacher distilla-\ntion, achieves results comparable to the teacher tracker.\nprotection [16], environmental monitoring [32], and traffic\npatrolling [22]. Compared to general visual tracking, UAV-\nbased tracking encounters more complex and dynamic con-\nditions, including rapid motion, frequent occlusion, varying\nviewpoints, and small object sizes. Moreover, UAV plat-\nforms are often equipped with limited onboard computing\nresources, which place strict constraints on both model size\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13615\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

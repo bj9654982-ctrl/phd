@@ -1,0 +1,641 @@
+{
+  "number": 259,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Learning to Adversarially Blur Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2026-06-23T19:43:49Z",
+      "timestamp": 1782243829504,
+      "version": "3.54.5"
+    },
+    "reference-count": 55,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100020959",
+        "name": "JST-Mirai Program",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100020959",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001321",
+        "name": "National Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001321",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001321",
+        "name": "National Research Foundation",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001321",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004720",
+        "name": "NCR",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100004720",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv48922.2021.01066",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2022-02-28T22:08:02Z",
+      "timestamp": 1646086082000
+    },
+    "page": "10819-10828",
+    "source": "Crossref",
+    "is-referenced-by-count": 52,
+    "title": [
+      "Learning to Adversarially Blur Visual Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Qing",
+        "family": "Guo",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tianjin University,College of Intelligence and Computing,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ziyi",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kyushu University,Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Felix",
+        "family": "Juefei-Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alibaba Group,USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lei",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Alberta,Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaofei",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University,Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianjun",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Kyushu University,Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-66709-6_6"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-8659.2010.01840.x"
+      },
+      {
+        "key": "ref33",
+        "first-page": "3",
+        "article-title": "Rectifier nonlinearities improve neural network acoustic models",
+        "volume": "30",
+        "author": "maas",
+        "year": "2013",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00099"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.35"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00020"
+      },
+      {
+        "key": "ref35",
+        "first-page": "445",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "mueller",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2214050"
+      },
+      {
+        "key": "ref28",
+        "first-page": "0",
+        "article-title": "The sixth visual object tracking vot2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV) Workshops"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2015",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref29",
+        "first-page": "1",
+        "article-title": "The visual object tracking vot2015 challenge results",
+        "author": "kristan",
+        "year": "2015",
+        "journal-title": "Proceedings of the IEEE International Conference on Computer Vision Workshops"
+      },
+      {
+        "key": "ref2",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/38.963459"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2019.2955292"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58595-2_13"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Watch out! motion is blurring the vision of your deep neural networks",
+        "volume": "34",
+        "author": "guo",
+        "year": "2020",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Mobilenets: Efficient convolutional neural networks for mobile vision applications",
+        "author": "howard",
+        "year": "2017"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.179"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Got-10k: A large high-diversity benchmark for generic object tracking in the wild",
+        "author": "huang",
+        "year": "2019",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2018/543"
+      },
+      {
+        "key": "ref55",
+        "first-page": "103",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref54",
+        "author": "zhang",
+        "year": "2019",
+        "journal-title": "Deeper and wider Siamese networks for real-time visual tracking"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126474"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00107"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01261-8_28"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00957"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00957"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Making images undiscoverable from co-saliency detection",
+        "author": "gao",
+        "year": "2020"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Explaining and harnessing adversarial examples",
+        "author": "goodfellow",
+        "year": "2014"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Explaining and harnessing adversarial examples",
+        "author": "goodfellow",
+        "year": "2014"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2020.3045630"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref4",
+        "first-page": "205",
+        "article-title": "Know your surroundings: Exploiting scene information for object tracking",
+        "author": "bhat",
+        "year": "2020",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/SP.2017.49"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00700"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2021.3108009"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01019"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.174"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Instant motion tracking and its applications to augmented reality",
+        "author": "wei",
+        "year": "2019"
+      },
+      {
+        "key": "ref45",
+        "first-page": "4864",
+        "author": "wang",
+        "year": "2018",
+        "journal-title": "Sint++ robust visual tracking via adversarial positive instance generation"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00492"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSMCC.2004.829274"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00931"
+      },
+      {
+        "key": "ref41",
+        "first-page": "234",
+        "article-title": "U-net: Convolutional networks for biomedical image segmentation",
+        "author": "ronneberger",
+        "year": "2015",
+        "journal-title": "International Conference on Medical Image Computing and Computer-Assisted Intervention"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICME51207.2021.9428437"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Montreal, QC, Canada",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9709627/9709628/09710841.pdf?arnumber=9710841",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2022-07-15T19:42:26Z",
+      "timestamp": 1657914146000
+    },
+    "score": 56.039318,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9710841/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "references-count": 55,
+    "URL": "https://doi.org/10.1109/iccv48922.2021.01066",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "number": 248,
+  "title": "SDSTrack: Self-Distillation Symmetric Adapter Learning for Multi-Modal Visual Object Tracking",
+  "year": 2024,
+  "authors": [
+    "Xiaojun Hou",
+    "Jiazheng Xing",
+    "Yijie Qian",
+    "Yaowei Guo",
+    "Shuo Xin",
+    "Junhao Chen",
+    "Kai Tang",
+    "Mengmeng Wang",
+    "Zhengkai Jiang",
+    "Liang Liu",
+    "Yong Liu"
+  ],
+  "venue": "CVPR",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Hou_SDSTrack_Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_Object_Tracking_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hou_SDSTrack_Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hou_SDSTrack_Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+      "bytes": 9705107,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\248_2024_SDSTrack__Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hou_SDSTrack_Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hou_SDSTrack_Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+  "bytes": 9705107,
+  "sha256": "b6a44d7080220c7570a232b0ab7ec84f62dfa6ceac2cdb3a1381cdc7ced91dab",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "SDSTrack: Self-Distillation Symmetric Adapter Learning for Multi-Modal Visual Object Tracking",
+  "first_page_text": "SDSTrack: Self-Distillation Symmetric Adapter Learning for\nMulti-Modal Visual Object Tracking\nXiaojun Hou1, Jiazheng Xing1, Yijie Qian1, Yaowei Guo1, Shuo Xin1, Junhao Chen1,\nKai Tang1, Mengmeng Wang1, Zhengkai Jiang2, Liang Liu3*, Yong Liu1*\n1Zhejiang University\n2Youtu Lab, Tencent\n3Huzhou Institute, Zhejiang University\n1{xiaojunhou, jiazhengxing, yijieqian, yaoweiguo, shuoxin, chenjunhao\nkaitang, mengmengwang}@zju.edu.cn\n1∗yongliu@iipc.zju.edu.cn\n2zhengkjiang@tencent.com\n3∗leonliuz@zju.edu.cn\nAbstract\nMultimodal Visual Object Tracking (VOT) has recently\ngained significant attention due to its robustness.\nEarly\nresearch focused on fully fine-tuning RGB-based trackers,\nwhich was inefficient and lacked generalized representa-\ntion due to the scarcity of multimodal data.\nTherefore,\nrecent studies have utilized prompt tuning to transfer pre-\ntrained RGB-based trackers to multimodal data. However,\nthe modality gap limits pre-trained knowledge recall, and\nthe dominance of the RGB modality persists, preventing the\nfull utilization of information from other modalities.\nTo\naddress these issues, we propose a novel symmetric mul-\ntimodal tracking framework called SDSTrack. We introduce\nlightweight adaptation for efficient fine-tuning, which di-\nrectly transfers the feature extraction ability from RGB to\nother domains with a small number of trainable parame-\nters and integrates multimodal features in a balanced, sym-\nmetric manner. Furthermore, we design a complementary\nmasked patch distillation strategy to enhance the robust-\nness of trackers in complex environments, such as extreme\nweather, poor imaging, and sensor failure. Extensive ex-\nperiments demonstrate that SDSTrack outperforms state-of-\nthe-art methods in various multimodal tracking scenarios,\nincluding RGB+Depth, RGB+Thermal, and RGB+Event\ntracking, and exhibits impressive results in extreme con-\nditions.\nOur source code is available at: https://\ngithub.com/hoqolo/SDSTrack.\n1. Introduction\nRGB-based visual object tracking has garnered consider-\nable research attention in recent years, and several works\nhave achieved impressive tracking performance [4–7, 9, 13,\n36, 53, 57, 61]. However, the performance of RGB-based\n*Corresponding authors.\n(b) Previous  asymmetric framework\n(a) Previous  symmetric framework\n(c) SDSTrack (ours)\nTuned parameters\nFrozen parameters\nModal X\nfeature extraction\nRGB\nX-Modal\nRGB\nfeature extraction\nX-Modal\nfeature extraction\nFusion\nRGB\nfeature extraction\nRGB\nX-Modal\nX-Modal\nfeature extraction\nFusion\nRGB\nX-Modal\nRGB\nfeature extraction\nFusion\nFigure 1. Previous frameworks vs. SDSTrack. (a) Previous sym-\nmetric framework [58] has lots of training parameters and risk of\noverfitting. (b) Previous asymmetric framework [71] regards RGB\nas the primary modality and X-Modal as the auxiliary modality\nwith prompt tuning. (c) Our proposed SDSTrack utilizes adapter-\nbased tuning to fine-tune the pre-trained RGB-based tracker in\na symmetric manner. “X-Modal” denotes modalities other than\nRGB, which can be Depth, Thermal, Event, etc.\ntrackers often degrades in complex conditions, particularly\ndue to the degradation in imaging quality. This limitation\nis critical in real-world applications, especially in safety-\nsensitive scenarios like autonomous driving. Consequently,\nthere is a growing interest in incorporating multimodal im-\nages to obtain more comprehensive information, which has\nalso gained considerable attention in other areas such as ob-\nject detection [23, 24, 46] and semantic segmentation [1–\n3, 25, 37, 44, 68, 75], among others.\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n26551\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

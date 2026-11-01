@@ -1,0 +1,46 @@
+{
+  "number": 293,
+  "title": "The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking",
+  "year": 2018,
+  "authors": [
+    "Du",
+    "Dawei and Qi",
+    "Yuankai and Yu",
+    "Hongyang and Yang",
+    "Yifan and Duan",
+    "Kaiwen and Li",
+    "Guorong and Zhang",
+    "Weigang and Huang",
+    "Qingming and Tian",
+    "Qi"
+  ],
+  "venue": "ECCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.pdf",
+      "bytes": 5946776,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\293_2018_The_Unmanned_Aerial_Vehicle_Benchmark__Object_Detection_and_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.pdf",
+  "bytes": 5946776,
+  "sha256": "4d18d25363a5f6e26a9e307aeae9989722177fd04e765c41793f8ad2ca335167",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking",
+  "first_page_text": "The Unmanned Aerial Vehicle Benchmark:\nObject Detection and Tracking\nDawei Du1[0000−0001−9404−524X], Yuankai Qi2[0000−0003−4312−5682], Hongyang\nYu2[0000−0003−0036−531X], Yifan Yang1[0000−0003−1455−2001], Kaiwen\nDuan1[0000−0002−8663−7429], Guorong Li1[0000−0003−3954−2387], Weigang\nZhang3[0000−0003−0042−7074], Qingming Huang1[0000−0001−7542−296X], and Qi\nTian4,5[0000−0002−7252−5047]\n1 University of Chinese Academy of Sciences, China\n{dawei.du,yifan.yang,kaiwen.duan}@vipl.ict.ac.cn,\nliguorong@ucas.ac.cn,qmhuang@ucas.ac.cn\n2 Harbin Institute of Technology, China\nqykshr@gmail.com, hyang.yu@hit.edu.cn\n3 Harbin Institute of Technology, Weihai, China\nwgzhang@hit.edu.cn\n4 Huawei Noah’s Ark Lab, China\ntian.qi1@huawei.com\n5 University of Texas at San Antonio, USA\nqi.tian@utsa.edu\nAbstract. With the advantage of high mobility, Unmanned Aerial Ve-\nhicles (UAVs) are used to fuel numerous important applications in com-\nputer vision, delivering more eﬃciency and convenience than surveillance\ncameras with ﬁxed camera angle, scale and view. However, very limited\nUAV datasets are proposed, and they focus only on a speciﬁc task such\nas visual tracking or object detection in relatively constrained scenar-\nios. Consequently, it is of great importance to develop an unconstrained\nUAV benchmark to boost related researches. In this paper, we construct\na new UAV benchmark focusing on complex scenarios with new level\nchallenges. Selected from 10 hours raw videos, about 80, 000 represen-\ntative frames are fully annotated with bounding boxes as well as up to\n14 kinds of attributes (e.g., weather condition, ﬂying altitude, camera\nview, vehicle category, and occlusion) for three fundamental computer\nvision tasks: object detection, single object tracking, and multiple object\ntracking. Then, a detailed quantitative study is performed using most re-\ncent state-of-the-art algorithms for each task. Experimental results show\nthat the current state-of-the-art methods perform relative worse on our\ndataset, due to the new challenges appeared in UAV based real scenes,\ne.g., high density, small object, and camera motion. To our knowledge,\nour work is the ﬁrst time to explore such issues in unconstrained scenes\ncomprehensively. The dataset and all the experimental results are avail-\nable in https://sites.google.com/site/daviddo0323/.\nKeywords: UAV, Object Detection, Single Object Tracking, Multiple\nObject Tracking\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

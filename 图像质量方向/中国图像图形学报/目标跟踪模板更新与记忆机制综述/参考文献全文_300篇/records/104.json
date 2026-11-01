@@ -1,0 +1,42 @@
+{
+  "number": 104,
+  "title": "Joint Representation and Truncated Inference Learning for Correlation Filter based Tracking",
+  "year": 2018,
+  "authors": [
+    "Yao",
+    "Yingjie and Wu",
+    "Xiaohe and Zhang",
+    "Lei and Shan",
+    "Shiguang and Zuo",
+    "Wangmeng"
+  ],
+  "venue": "ECCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Yingjie_Yao_Joint_Representation_and_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Yingjie_Yao_Joint_Representation_and_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Yingjie_Yao_Joint_Representation_and_ECCV_2018_paper.pdf",
+      "bytes": 1252792,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\104_2018_Joint_Representation_and_Truncated_Inference_Learning_for_Correlation_Filter_b.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Yingjie_Yao_Joint_Representation_and_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Yingjie_Yao_Joint_Representation_and_ECCV_2018_paper.pdf",
+  "bytes": 1252792,
+  "sha256": "ad8d40e9306b2a13d911536b04c57a0aef4f38cc37724614520a83cfa3dc8207",
+  "version": "会议官方开放版本",
+  "pages": 16,
+  "pdf_title": "Joint Representation and Truncated Inference Learning for Correlation Filter based Tracking",
+  "first_page_text": "Joint Representation and Truncated Inference\nLearning for Correlation Filter based Tracking\nYingjie Yao1[0000−0002−3533−1569], Xiaohe Wu1[0000−0001−6884−9121],\nLei Zhang2[0000−0002−4424−4942], Shiguang Shan3[0000−0002−8348−392X], and\nWangmeng Zuo1(\f)[0000−0002−3330−783X]\n1 Harbin Institute of Technology, Harbin 150001, China\n2 University of Pittsburgh, 3362 Fifth Avenue, Pittsburgh, PA 15213\n3 Institute of Computing Technology, CAS, Beijing, 100049, China\n{yaoyoyogurt,xhwu.cpsl.hit,cszhanglei}@gmail.com,\nsgshan@ict.ac.cn, wmzuo@hit.edu.cn\nAbstract Correlation ﬁlter (CF) based trackers generally include two\nmodules, i.e., feature representation and on-line model adaptation. In\nexisting oﬀ-line deep learning models for CF trackers, the model adap-\ntation usually is either abandoned or has closed-form solution to make it\nfeasible to learn deep representation in an end-to-end manner. However,\nsuch solutions fail to exploit the advances in CF models, and cannot\nachieve competitive accuracy in comparison with the state-of-the-art CF\ntrackers. In this paper, we investigate the joint learning of deep represen-\ntation and model adaptation, where an updater network is introduced\nfor better tracking on future frame by taking current frame represen-\ntation, tracking result, and last CF tracker as input. By modeling the\nrepresentor as convolutional neural network (CNN), we truncate the al-\nternating direction method of multipliers (ADMM) and interpret it as\na deep network of updater, resulting in our model for learning repre-\nsentation and truncated inference (RTINet). Experiments demonstrate\nthat our RTINet tracker achieves favorable tracking accuracy against the\nstate-of-the-art trackers and its rapid version can run at a real-time speed\nof 24 fps. The code and pre-trained models will be publicly available at\nhttps://github.com/tourmaline612/RTINet.\nKeywords: Visual tracking · correlation ﬁlters · convolutional neural\nnetworks · unrolled optimization\n1\nIntroduction\nIn recent years, correlation ﬁlters (CFs) have achieved noteworthy advances as\nwell as state-of-the-art performance in visual tracking. Generally, the CF-based\napproaches learn CFs on feature representation for model adaptation along with\nan image sequence. Therefore, the advancement of CF-based tracking perfor-\nmance is mainly driven by the improvement on both feature representation and\nCF learning model. The development of feature representation has witnessed the\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

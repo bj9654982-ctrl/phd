@@ -1,0 +1,47 @@
+{
+  "number": 50,
+  "title": "MixFormerV2: Efficient Fully Transformer Tracking",
+  "year": 2023,
+  "authors": [
+    "Yutao Cui",
+    "Tianhui Song",
+    "Gangshan Wu",
+    "Limin Wang"
+  ],
+  "venue": "Advances in Neural Information Processing Systems",
+  "category": "高效跟踪与资源预算",
+  "priority": "P1 核心精读",
+  "original_source": "https://papers.nips.cc/paper_files/paper/2023/hash/b7870bd43b2d133a1ed95582ae5d82a4-Abstract-Conference.html",
+  "doi": "10.52202/075280-2561",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2023/hash/b7870bd43b2d133a1ed95582ae5d82a4-Abstract-Conference.html",
+      "final_url": "https://papers.nips.cc/paper_files/paper/2023/hash/b7870bd43b2d133a1ed95582ae5d82a4-Abstract-Conference.html",
+      "bytes": 9951,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b7870bd43b2d133a1ed95582ae5d82a4-Paper-Conference.pdf",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b7870bd43b2d133a1ed95582ae5d82a4-Paper-Conference.pdf",
+      "bytes": 2164673,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\050_2023_MixFormerV2__Efficient_Fully_Transformer_Tracking.pdf",
+  "download_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b7870bd43b2d133a1ed95582ae5d82a4-Paper-Conference.pdf",
+  "requested_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/b7870bd43b2d133a1ed95582ae5d82a4-Paper-Conference.pdf",
+  "bytes": 2164673,
+  "sha256": "8b55b42b678597d39943fecc6afa906d9b49e2acc4afb34ad083c69a7846a4f5",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 16,
+  "pdf_title": "",
+  "first_page_text": "MixFormerV2: Efficient Fully Transformer Tracking\nYutao Cui†\nTianhui Song†\nGangshan Wu\nLimin Wang∗\nState Key Laboratory for Novel Software Technology, Nanjing University, China\nhttps://github.com/MCG-NJU/MixFormerV2\nAbstract\nTransformer-based trackers have achieved high accuracy on standard benchmarks.\nHowever, their efficiency remains an obstacle to practical deployment on both GPU\nand CPU platforms. In this paper, to mitigate this issue, we propose a fully trans-\nformer tracking framework based on the successful MixFormer tracker [14], coined\nas MixFormerV2, without any dense convolutional operation or complex score\nprediction module. We introduce four special prediction tokens and concatenate\nthem with those from target template and search area. Then, we apply a unified\ntransformer backbone on these mixed token sequence. These prediction tokens are\nable to capture the complex correlation between target template and search area\nvia mixed attentions. Based on them, we can easily predict the tracking box and\nestimate its confidence score through simple MLP heads. To further improve the\nefficiency of MixFormerV2, we present a new distillation-based model reduction\nparadigm, including dense-to-sparse distillation and deep-to-shallow distillation.\nThe former one aims to transfer knowledge from the dense-head based MixViT\nto our fully transformer tracker, while the latter one is for pruning the backbone\nlayers. We instantiate two MixForemrV2 trackers, where the MixFormerV2-B\nachieves an AUC of 70.6% on LaSOT and AUC of 56.7% on TNL2k with a high\nGPU speed of 165 FPS, and the MixFormerV2-S surpasses FEAR-L by 2.7%\nAUC on LaSOT with a real-time CPU speed.\n1\nIntroduction\nVisual object tracking has been a fundamental and long-standing task in computer vision, which aims\nto locate the object in a video sequence, given its initial bounding box. It has a wide range of practical\napplications, which often require for low computational latency. So it is important to design a more\nefficient tracking architecture while maintaining high accuracy.\nRecently, the transformer-based one-stream trackers [7, 14, 55] attain excellent tracking accuracy\nthan the previous Siamese-based ones [2, 10, 11], due to the unified modeling of feature extraction\nand target integration within a transformer block, which allows both components to benefit from\nthe transformer development (e.g. ViT [18], self-supervised pre-training [24] or contrastive pre-\ntraining [43]). However for these trackers, inference efficiency, especially on CPU, is still the main\nobstacle to practical deployment. Taking the state-of-the-art tracker MixViT [15] as an instance, its\npipeline contains i) transformer backbone on the token sequence from target template and search\narea, ii) dense corner head on the 2D search region for regression and iii) extra complex score\nprediction module for classification (i.e., estimating the box quality for reliable online samples\nselection). To achieve a high-efficiency tracker, there are still several issues on the design of MixViT.\nFirst, the dense convolutional corner head still exhibits a time-consuming design, as implied in Tab 1.\nThis is because it densely estimates the probability distribution of the box corners through a total of\n† Equal contribution. ∗Corresponding author (lmwang@nju.edu.cn).\n37th Conference on Neural Information Processing Systems (NeurIPS 2023).\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

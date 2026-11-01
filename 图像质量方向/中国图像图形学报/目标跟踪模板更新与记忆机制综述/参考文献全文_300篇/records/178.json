@@ -1,0 +1,44 @@
+{
+  "number": 178,
+  "title": "High-Performance Discriminative Tracking With Transformers",
+  "year": 2021,
+  "authors": [
+    "Bin Yu",
+    "Ming Tang",
+    "Linyu Zheng",
+    "Guibo Zhu",
+    "Jinqiao Wang",
+    "Hao Feng",
+    "Xuetao Feng",
+    "Hanqing Lu"
+  ],
+  "venue": "ICCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Yu_High-Performance_Discriminative_Tracking_With_Transformers_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_High-Performance_Discriminative_Tracking_With_Transformers_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_High-Performance_Discriminative_Tracking_With_Transformers_ICCV_2021_paper.pdf",
+      "bytes": 5552058,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\178_2021_High-Performance_Discriminative_Tracking_With_Transformers.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_High-Performance_Discriminative_Tracking_With_Transformers_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Yu_High-Performance_Discriminative_Tracking_With_Transformers_ICCV_2021_paper.pdf",
+  "bytes": 5552058,
+  "sha256": "3162a58e0445aaf0a648ce33d0666e3916dac20bdba8f0e98f08bc80e3817051",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "High-Performance Discriminative Tracking With Transformers",
+  "first_page_text": "High-Performance Discriminative Tracking with Transformers\nBin Yu1,2, Ming Tang2, Linyu Zheng1,2, Guibo Zhu1,2, Jinqiao Wang1,2,3,\nHao Feng4, Xuetao Feng4, Hanqing Lu1,2\n1School of Artiﬁcial Intelligence, UCAS, China\n2National Laboratory of Pattern Recognition, Institute of Automation, CAS, China\n3ObjectEye Inc.\n4Alibaba Group\n{bin.yu,tangm,linyu.zheng,gbzhu,jqwang,luhq}@nlpr.ia.ac.cn\n{yuanning.fh,xuetao.fxt}@alibaba-inc.com\nAbstract\nEnd-to-end discriminative trackers improve the state of\nthe art signiﬁcantly, yet the improvement in robustness and\nefﬁciency is restricted by the conventional discriminative\nmodel, i.e., least-squares based regression. In this paper, we\npresent DTT, a novel single-object discriminative tracker,\nbased on an encoder-decoder Transformer architecture. By\nself- and encoder-decoder attention mechanisms, our ap-\nproach is able to exploit the rich scene information in an\nend-to-end manner, effectively removing the need for hand-\ndesigned discriminative models. In online tracking, given a\nnew test frame, dense prediction is performed at all spatial\npositions. Not only location, but also bounding box of the\ntarget object is obtained in a robust fashion, streamlining\nthe discriminative tracking pipeline. DTT is conceptual-\nly simple and easy to implement. It yields state-of-the-art\nperformance on four popular benchmarks including GOT-\n10k, LaSOT, NfS, and TrackingNet while running at over 50\nFPS, conﬁrming its effectiveness and efﬁciency. We hope\nDTT may provide a new perspective for single-object visual\ntracking.\n1. Introduction\nGeneric visual tracking is a long-standing topic in the\nﬁeld of computer vision and has attracted increasing atten-\ntion over the last decades. Despite signiﬁcant progress in\nrecent years [2,6,7,19,23,26,33,34,41,42], visual tracking\nremains challenging due to numerous factors such as very\nlimited online training samples, large appearance variation,\nand heavy background clutters.\nIn recent years, Siamese network based trackers [1,5,11–\n13, 19, 20, 36, 37] have attracted great attention because of\ntheir balanced speed and accuracy. These methods formu-\nlate the visual tracking task as a target matching problem\nand aim to learn a general similarity metric between the tar-\nget template and the search region (see Fig. 1(a)). Power-\nful backbone networks [19] and effective proposal network-\ns [11] are proposed to achieve promising results. However,\nthe Siamese learning framework cannot exploit the back-\nground information effectively to improve the discrimina-\ntion.\nOn the contrary, modern discriminative trackers [2,3,42]\nare able to exploit the background information and typical-\nly learn an adaptive discriminative model by minimizing the\nregression loss (see Fig. 1(b)). Although they have achieved\nleading performance on serval benchmarks [15,16,35], we\npoint out that such tracking scheme has the following three\nlimitations. 1) The discrimination of the applied regression\nmodels (i.e., least-squares based regression) is rough and in-\nsufﬁcient for robust tracking because the conventional mod-\nels often fail to reserve the detailed scene information and\nencode the relationships among the distractors in the back-\nground. 2) Modern discriminative models can only con-\ntribute to localization, and thus have to rely on other meth-\nods like ATOM [6] for ﬁnal predicted bounding box, result-\ning in a separated tracking pipeline. 3) In online tracking,\niterative solution is needed in both the model predictor [2]\nand the bounding box reﬁnement module [6], which is not\nfriendly to most embedded devices and may negatively af-\nfect the efﬁciency.\nTo this end, we present a novel discriminative tracker\nwith Transformers, termed as DTT, which is a conceptual-\nly simple, efﬁcient and robust tracking architecture. The\ncore advantage of DTT is that it can effectively and ef-\nﬁciently exploit the rich scene information for both clas-\nsiﬁcation and bounding box regression. Speciﬁcally, DT-\nT is built upon an encoder-decoder Transformer architec-\nture [32] where the features of training image obtained by\nconvolutional neural networks (CNNs) are fed to the en-\ncoder, as shown in Fig. 1(c).\nDue to the self-attention\nmechanism in the encoder, its outputs, called discrimina-\n9856\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

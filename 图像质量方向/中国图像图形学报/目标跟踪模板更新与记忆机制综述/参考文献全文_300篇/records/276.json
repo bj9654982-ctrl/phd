@@ -1,0 +1,43 @@
+{
+  "number": 276,
+  "title": "SWEM: Towards Real-Time Video Object Segmentation With Sequential Weighted Expectation-Maximization",
+  "year": 2022,
+  "authors": [
+    "Zhihui Lin",
+    "Tianyu Yang",
+    "Maomao Li",
+    "Ziyu Wang",
+    "Chun Yuan",
+    "Wenhao Jiang",
+    "Wei Liu"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Lin_SWEM_Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Expectation-Maximization_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_SWEM_Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Expectation-Maximization_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_SWEM_Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Expectation-Maximization_CVPR_2022_paper.pdf",
+      "bytes": 2051782,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\276_2022_SWEM__Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Exp.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_SWEM_Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Expectation-Maximization_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Lin_SWEM_Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Expectation-Maximization_CVPR_2022_paper.pdf",
+  "bytes": 2051782,
+  "sha256": "5e9c943e1631931a647735e541c5c122d1c69c395fac7fcb7211592cc525fb29",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "SWEM: Towards Real-Time Video Object Segmentation With Sequential Weighted Expectation-Maximization",
+  "first_page_text": "SWEM: Towards Real-Time Video Object Segmentation with Sequential\nWeighted Expectation-Maximization\nZhihui Lin1∗, Tianyu Yang2, Maomao Li2, Ziyu Wang3, Chun Yuan4†, Wenhao Jiang3, and Wei Liu3\n1Department of Computer Science and Technologies, Tsinghua University, Beijing, China\n2Tencent AI Lab, Shenzhen, China\n3Tencent Data Platform, Shenzhen, China\n4Tsinghua Shenzhen International Graduate School, Peng Cheng Lab, Shenzhen, China\n{lin-zh14@mails, yuanc@sz}.tsinghua.edu.cn\ntianyu-yang@outlook.com\n{limaomao07, cswhjiang}@gmail.com\nwangziyukobe@163.com\nwl2223@columbia.edu\nAbstract\nMatching-based methods, especially those based on\nspace-time memory, are significantly ahead of other solu-\ntions in semi-supervised video object segmentation (VOS).\nHowever, continuously growing and redundant template\nfeatures lead to an inefficient inference.\nTo alleviate\nthis, we propose a novel Sequential Weighted Expectation-\nMaximization (SWEM) network to greatly reduce the re-\ndundancy of memory features.\nDifferent from the previ-\nous methods which only detect feature redundancy between\nframes, SWEM merges both intra-frame and inter-frame\nsimilar features by leveraging the sequential weighted EM\nalgorithm. Further, adaptive weights for frame features en-\ndow SWEM with the flexibility to represent hard samples,\nimproving the discrimination of templates. Besides, the pro-\nposed method maintains a fixed number of template features\nin memory, which ensures the stable inference complexity of\nthe VOS system. Extensive experiments on commonly used\nDAVIS and YouTube-VOS datasets verify the high efficiency\n(36 FPS) and high performance (84.3% J &F on DAVIS\n2017 validation dataset) of SWEM.\n1. Introduction\nSemi-supervised video object segmentation (VOS) has\nseized great interest recent years [3,6,10,16,18,21,25,28,\n32,33,37,38,42,43,47,49,51] in the computer vision com-\nmunity. It aims to segment the objects of interest from the\nbackground in a video, where only the mask annotation of\nthe first frame is provided during testing. A group of early\nmethods concentrate on on-line fine-tuning [2,3,19,29,30]\nwith the first annotated frame. However, these method tends\nto suffer from model degradation caused by target appear-\n*Work done during an internship at Tencent AI Lab\n†Corresponding Author\n…\n…\n…\nMemory\n(a) STM\n…\n…\nSWEM\nMemory\n(b) SWEM\nFigure 1. Instead of storing all past frames features as memory,\njust like STM [32] and following methods [6, 16, 37, 38] do, our\nSWEM sequentially updates a compact set of bases with a fixed\nsize, greatly reducing the inter-frame and intra-frame redundancy.\nance changes as video goes on. Besides, propagation-based\nmethods use masks computed in previous frames to esti-\nmate masks in the current frame [7, 33, 45, 48], which is,\nhowever, vulnerable to occlusions and rapid motion.\nRecently, matching-based VOS methods [5, 6, 16, 17,\n25, 28, 37, 38, 42, 43, 49, 52] have achieved striking perfor-\nmance. Such matching-based methods first exploit previ-\nous frames to construct target templates, and then calculate\nthe pixel-level correlations between the new coming frame\nembeddings and the target templates to perform the seg-\nmentation. As seen in Figure 1, the Space-Time Memory\nNetwork (STM) [32] and the following STM-like methods\n[6, 16, 37, 38, 49] leverage memory networks to store tem-\nplate features every T frames endlessly, which is prone to\nmissing key-frame information and running out of memory\nfor long-term videos. Besides, given that the inter-frame\nredundancy of video features would harm the efficiency of\nmatching, another group of methods AFB URR [25] and\nSwift [43] take advantage of the similarity of inter-frame\nfeatures to selectively update partial features.\nNonethe-\nless, they all fail to balance the performance and efficiency\nthrough a hand-crafted similarity threshold.\nAlthough past efforts have achieved promising results,\nwe argue that both inter-frame redundancy and intra-frame\none pose the main obstacles that prevent efficient template\n1362\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

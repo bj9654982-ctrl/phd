@@ -1,0 +1,40 @@
+{
+  "number": 155,
+  "title": "STCT: Sequentially Training Convolutional Networks for Visual Tracking",
+  "year": 2016,
+  "authors": [
+    "Lijun Wang",
+    "Wanli Ouyang",
+    "Xiaogang Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Wang_STCT_Sequentially_Training_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Wang_STCT_Sequentially_Training_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Wang_STCT_Sequentially_Training_CVPR_2016_paper.pdf",
+      "bytes": 1454794,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\155_2016_STCT__Sequentially_Training_Convolutional_Networks_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Wang_STCT_Sequentially_Training_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Wang_STCT_Sequentially_Training_CVPR_2016_paper.pdf",
+  "bytes": 1454794,
+  "sha256": "dd5bb16dc6ccfad395042aba9379caaab81bfe9453c4435fce0c44ce7a8d7c80",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "STCT: Sequentially Training Convolutional Networks for Visual Tracking",
+  "first_page_text": "STCT: Sequentially Training Convolutional Networks for Visual Tracking\nLijun Wang1,2, Wanli Ouyang2, Xiaogang Wang2, and Huchuan Lu1\n1Dalian University of Technology, China\n2The Chinese University of Hong Kong, Hong Kong, China\nAbstract\nDue to the limited amount of training samples, ﬁne-\ntuning pre-trained deep models online is prone to over-\nﬁtting.\nIn this paper, we propose a sequential training\nmethod for convolutional neural networks (CNNs) to effec-\ntively transfer pre-trained deep features for online applica-\ntions. We regard a CNN as an ensemble with each chan-\nnel of the output feature map as an individual base learner.\nEach base learner is trained using different loss criterions\nto reduce correlation and avoid over-training. To achieve\nthe best ensemble online, all the base learners are sequen-\ntially sampled into the ensemble via important sampling. To\nfurther improve the robustness of each base learner, we pro-\npose to train the convolutional layers with random binary\nmasks, which serves as a regularization to enforce each\nbase learner to focus on different input features.\nThe proposed online training method is applied to vi-\nsual tracking problem by transferring deep features trained\non massive annotated visual data and is shown to signif-\nicantly improve tracking performance.\nExtensive experi-\nments are conducted on two challenging benchmark data\nset and demonstrate that our tracking algorithm can outper-\nform state-of-the-art methods with a considerable margin.\n1. Introduction\nVisual tracking is a fundamental problem in computer\nvision that has been receiving a rapidly growing atten-\ntion. It has a variety of subﬁelds ranging from single-target\nto multi-target tracking.\nThe focus here is single-target,\nmodel-free online tracking [20, 12, 38], where a category\nagnostic target is indicated by a bounding box in the ﬁrst\nframe, and the tracker aims at locating the target in the fol-\nlowing each frame. Due to signiﬁcant target appearance\nchanges caused by abrupt motion, deformation, occlusion\nand illumination variation, visual tracking is still a very\nchallenging problem.\nPrior approaches [11, 15, 40, 41] rely on hand-crafted\nfeatures to describe the target and have addressed the above\nchallenging factors to a certain extend.\nHowever, these\nSTCT\nOTCT\nFigure 1. Due to limited number of training samples, online train-\ning CNNs for tracking (denoted as OTCT) can easily lead to over-\nﬁtting and cause tracking failure. We propose a sequential learning\nmethod (denoted as STCT) for CNNs to address this issue.\nhand-crafted features are designed for certain scenarios.\nThus, they can not generalize well and are incapable to cap-\nture the semantic information of the target, which can easily\nlead to tracking failure in challenging conditions.\nRecently, deep Convolutional Neural Networks (CNNs)\ntrained on large scale image classiﬁcation data sets (e.g. [5])\nhave demonstrated great success in many vision tasks [29,\n9, 3, 25]. These semantic representations discovered by the\nlearning process are shown to be very effective at distin-\nguishing objects of various categories. However, supervised\ntraining of deep CNNs with millions of parameters entails\na large number of annotated training samples. To apply\ndeep CNNs for tasks with a limited amount of training sam-\nples, previous approaches [24, 30] adopt a transfer learning\nmethod by ﬁrst pre-training a deep CNN on a source task\nwith a large scale training data set and then ﬁne-tuning the\nlearned feature on the target task. Due to the good general-\nization capability of CNN features across different data sets,\nthis transfer learning approach is effective and has shown\nstate-of-the-art performance.\nHowever, for online visual tracking, the lack of training\n1373\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

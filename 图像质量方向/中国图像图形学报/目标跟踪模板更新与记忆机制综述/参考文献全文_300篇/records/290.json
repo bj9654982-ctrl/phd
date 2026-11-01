@@ -1,0 +1,40 @@
+{
+  "number": 290,
+  "title": "Beyond Standard Benchmarks: Parameterizing Performance Evaluation in Visual Object Tracking",
+  "year": 2017,
+  "authors": [
+    "Luka Cehovin Zajc",
+    "Alan Lukezic",
+    "Ales Leonardis",
+    "Matej Kristan"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Zajc_Beyond_Standard_Benchmarks_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Zajc_Beyond_Standard_Benchmarks_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Zajc_Beyond_Standard_Benchmarks_ICCV_2017_paper.pdf",
+      "bytes": 2035352,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\290_2017_Beyond_Standard_Benchmarks__Parameterizing_Performance_Evaluation_in_Visual_Ob.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Zajc_Beyond_Standard_Benchmarks_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Zajc_Beyond_Standard_Benchmarks_ICCV_2017_paper.pdf",
+  "bytes": 2035352,
+  "sha256": "9cf2c339e60be2fbb88c300fcdb0c025469c71eaeb7d3fdba1fe541de4aaf222",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Beyond Standard Benchmarks: Parameterizing Performance Evaluation in Visual Object Tracking",
+  "first_page_text": "Beyond standard benchmarks: Parameterizing performance evaluation\nin visual object tracking\nLuka ˇCehovin Zajc, Alan Lukeˇziˇc, Aleˇs Leonardis, Matej Kristan\nUniversity of Ljubljana\nFaculty of computer and information science\n{luka.cehovin, alan.lukezic, ales.leonardis, matej.kristan}@fri.uni-lj.si\nAbstract\nObject-to-camera motion produces a variety of appar-\nent motion patterns that signiﬁcantly affect performance of\nshort-term visual trackers. Despite being crucial for de-\nsigning robust trackers, their inﬂuence is poorly explored\nin standard benchmarks due to weakly deﬁned, biased and\noverlapping attribute annotations. In this paper we pro-\npose to go beyond pre-recorded benchmarks with post-hoc\nannotations by presenting an approach that utilizes omni-\ndirectional videos to generate realistic, consistently anno-\ntated, short-term tracking scenarios with exactly param-\neterized motion patterns. We have created an evaluation\nsystem, constructed a fully annotated dataset of omnidirec-\ntional videos and generators for typical motion patterns. We\nprovide an in-depth analysis of major tracking paradigms\nwhich is complementary to the standard benchmarks and\nconﬁrms the expressiveness of our evaluation approach.\n1. Introduction\nSingle-target visual object tracking has made signif-\nicant progress in the last decade.\nTo a large extent\nthis can be attributed to the adoption of benchmarks,\nthrough which common evaluation protocols, datasets\nand baseline algorithms have been established.\nStarting\nwith PETS initiative [28], several benchmarks on gen-\neral single-target short-term tracking have been devel-\noped since, most notably OTB50 [25], VOT2013 [15],\nALOV300+ [21], VOT2014 [16, 14], VOT2015 [13]\nOTB100 [26], TC128 [17] and VOT2016 [12].\nThe recent benchmarks [12, 18] report that, apart from\nthe obvious situations like full occlusions, the trackers’ per-\nformance is largely affected by the apparent motion, i.e.,\nobject motion with respect to the camera. The complex-\nity of apparent motion patterns varies in realistic applica-\ntions. An automated video-conferencing system largely ob-\nserves translational motions, a drone circling over a tar-\nFigure 1: By re-parameterizing camera trajectory, a single\n360° video produces various 2D viewpoint sequences with\nunique apparent motion patterns.\nget induces a large off-center rotational pattern, while wa-\nter movement induces periodic scale changes in underwater\nrobotic vessels. In some trackers, the translational motions\nare addressed by motion models. But compositions of scale\nchanges, rotations and off-center translations are often as-\nsumed to be addressed by the visual models and localiza-\ntion techniques. This aspect is left largely unexplored in\nstandard benchmarks, which are dominated by a handful of\nmotion patterns and cannot fully expose the limitations of\nexisting trackers. Advances in short-term tracking there-\nfore call for accurate parametrization of apparent motion\npatterns in test sequences.\nDataset variation, systematic organization and low re-\ndundancy are crucial for practical evaluation, as argued\nby the recent work on test-data validation in computer\nvision [29].\nEstablished benchmarks in visual tracking\napproach this requirement by increasing the number of\nsequences [21], applying advanced dataset construction\nmethodologies [12] and by annotating entire sequences or\n3323\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

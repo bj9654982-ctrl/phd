@@ -1,0 +1,582 @@
+{
+  "number": 250,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Exploring Historical Information for RGBE Visual Tracking with Mamba",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T16:27:29Z",
+      "timestamp": 1791304049056,
+      "version": "4.1.0"
+    },
+    "reference-count": 49,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006190",
+        "name": "Research and Development",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006190",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006190",
+        "name": "Research and Development",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100006190",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100016089",
+        "name": "National Key Laboratory of Human Factors Engineering",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100016089",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52734.2025.00609",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          13
+        ]
+      ],
+      "date-time": "2025-08-13T17:26:42Z",
+      "timestamp": 1755106002000
+    },
+    "page": "6500-6509",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Exploring Historical Information for RGBE Visual Tracking with Mamba"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Chuanyu",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dalian University of Technology,Key Laboratory of Social Computing and Cognitive Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiqing",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dalian Maritime University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dalian University of Technology,Key Laboratory of Social Computing and Cognitive Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huilin",
+        "family": "Ge",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Jiangsu University of Science and Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qianchen",
+        "family": "Xia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tsinghua University,The Future Laboratory,Beijing,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Baocai",
+        "family": "Yin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dalian University of Technology,Key Laboratory of Social Computing and Cognitive Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dalian University of Technology,Key Laboratory of Social Computing and Cognitive Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i2.27852"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01400"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref7",
+        "author": "Dong",
+        "year": "2024",
+        "journal-title": "Fusion-Mamba for Cross-modality Object Detection"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2010.11929"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Hungry hungry hippos: Towards language modeling with state space models",
+        "volume-title": "The Eleventh International Conference on Learning Representations",
+        "author": "Fu"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2023.3326683"
+      },
+      {
+        "key": "ref11",
+        "author": "Gu",
+        "year": "2023",
+        "journal-title": "Mamba: Linear-time sequence modeling with selective state spaces"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Efficiently modeling long sequences with structured state spaces",
+        "volume-title": "International Conference on Learning Representations",
+        "author": "Gu"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.02507"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-97-8858-3_1"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2019.106977"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2021.3130533"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11704-018-6442-4"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-73347-5_14"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "ref20",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "VMamba: Visual State Space Model"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00306"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01229"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iccv51070.2023.02122"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i5.28286"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Simplified state space layers for sequence modeling",
+        "volume-title": "The Eleventh International Conference on Learning Representations",
+        "author": "Smith"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i2.25327"
+      },
+      {
+        "key": "ref28",
+        "author": "Tang",
+        "year": "2022",
+        "journal-title": "Revisiting color-event based tracking: A unified network, dataset, and metric"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2023.3318601"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.visinf.2022.09.003"
+      },
+      {
+        "key": "ref31",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Long-term frame-event visual tracking: Benchmark dataset and baseline"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01821"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3581783.3612147"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2024/350"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00935"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01826"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s44267-024-00072-9"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3588432.3591511"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01280"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00943"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-023-01959-8"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Hivit: A simpler and more efficient design of hierarchical vision transformer",
+        "volume-title": "The Eleventh International Conference on Learning Representations",
+        "author": "Zhang"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s44267-023-00032-9"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i7.28591"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00918"
+      },
+      {
+        "key": "ref49",
+        "author": "Zhu",
+        "year": "2024",
+        "journal-title": "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11091818/11091608/11094905.pdf?arnumber=11094905",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2025-08-14T07:44:46Z",
+      "timestamp": 1755157486000
+    },
+    "score": 60.33298,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11094905/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "references-count": 49,
+    "URL": "https://doi.org/10.1109/cvpr52734.2025.00609",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    }
+  }
+}

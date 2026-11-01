@@ -1,0 +1,41 @@
+{
+  "number": 139,
+  "title": "Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+  "year": 2021,
+  "authors": [
+    "Bin Yan",
+    "Xinyu Zhang",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Xiaoyun Yang"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.pdf",
+      "bytes": 2397554,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\139_2021_Alpha-Refine__Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.pdf",
+  "bytes": 2397554,
+  "sha256": "0bc9f97eed78e6851da95f989e03bdf2df70dd0d275f97f9ea237851244d84ed",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+  "first_page_text": "Alpha-Reﬁne: Boosting Tracking Performance by\nPrecise Bounding Box Estimation\nBin Yan1*, Xinyu Zhang1*, Dong Wang1†, Huchuan Lu1,2 and Xiaoyun Yang3\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2Peng Cheng Laboratory 3Remark AI\n{yan bin,zhangxy71102}@mail.dlut.edu.cn, {wdice, lhchuan}@dlut.edu.cn, xyang@remarkholdings.com\nAbstract\nVisual object tracking aims to precisely estimate the\nbounding box for the given target, which is a challeng-\ning problem due to factors such as deformation and occlu-\nsion. Many recent trackers adopt the multiple-stage strategy\nto improve bounding box estimation. These methods ﬁrst\ncoarsely locate the target and then reﬁne the initial predic-\ntion in the following stages. However, existing approaches\nstill suffer from limited precision, and the coupling of dif-\nferent stages severely restricts the method’s transferability.\nThis work proposes a novel, ﬂexible, and accurate reﬁne-\nment module called Alpha-Reﬁne (AR), which can signiﬁ-\ncantly improve the base trackers’ box estimation quality. By\nexploring a series of design options, we conclude that the\nkey to successful reﬁnement is extracting and maintaining\ndetailed spatial information as much as possible. Following\nthis principle, Alpha-Reﬁne adopts a pixel-wise correlation,\na corner prediction head, and an auxiliary mask head as the\ncore components.\nComprehensive experiments on Track-\ningNet, LaSOT, GOT-10K, and VOT2020 benchmarks with\nmultiple base trackers show that our approach signiﬁcantly\nimproves the base tracker’s performance with little extra\nlatency. The proposed Alpha-Reﬁne method leads to a se-\nries of strengthened trackers, among which the ARSiamRPN\n(AR strengthened SiamRPNpp) and the ARDiMP50 (AR\nstrengthened DiMP50) achieve good efﬁciency-precision\ntrade-off, while the ARDiMPsuper (AR strengthened DiMP-\nsuper) achieves very competitive performance at a real-\ntime speed. Code and pretrained models are available at\nhttps://github.com/MasterBin-IIAU/AlphaReﬁne.\n1. Introduction\nPrecise box estimation is indispensable for a success-\nful tracker. Early trackers usually solve this problem by\n*Equal contribution.\n†Corresponding Author: Dr. Dong Wang, wdice@dlut.edu.cn\nTable 1. Oracle experiment on LaSOT. The center of the search\nregion is always set at the center of the ground truth, reﬂecting the\nbox estimation capacity of these methods. The best three results\nare marked in red, green and blue bold fonts respectively.\nOracle\nAUC\nPNorm\nP\nSiamRPNpp[23]\n0.682\n0.829\n0.745\nATOM[7]\n0.580\n0.686\n0.604\nDiMPsuper[2]\n0.693\n0.799\n0.734\nECO[6]\n0.496\n0.666\n0.533\nAlphaReﬁne\n0.762\n0.902\n0.919\nmulti-scale search [1, 6, 35, 3] or sampling-then-regression\nstrategy [37, 29], which are inaccurate and greatly limit the\nperformance of the trackers.\nFor obtaining more robust\nand precise tracking results, many state-of-the-art track-\ners [40, 12, 7, 2] adopt a multiple-stage tracking strategy,\nwhich introduces additional tracking stages for more pre-\ncise box estimation. These trackers ﬁrst coarsely locate the\ntarget and then reﬁne the initial result in the additional track-\ning stages to get more precise box prediction. However,\nthis box estimation can still be improved, even for state-of-\nthe-art trackers. An oracle experiment veriﬁes this opinion.\nWe set the tracker’s search region always centering at the\nground truth so that the performance will be mainly deter-\nmined by the capacity of box estimation. Table 1 shows\nthat with the aforementioned oracle setting, state-of-the-art\ntrackers’ AUC scores are still far from perfection, indicating\nunsatisfying box estimation, although some methods (e.g.\nATOM [7], DiMP [2]) have built-in box estimation mod-\nules. In contrast, given the perfectly centered search region,\nthe proposed Alpha-Reﬁne achieves signiﬁcantly better per-\nformance, demonstrating that Alpha-Reﬁne’s superiority in\nbox estimation.\nAdditionally, most of reﬁnement methods in existing\ntrackers [40, 12, 7, 2] are weak in transferability, because\ntheir training is coupled with other components. Extra re-\ntraining is required if above reﬁnement modules are applied\nto new base trackers. As opposed to these methods, Alpha-\n5289\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.889,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

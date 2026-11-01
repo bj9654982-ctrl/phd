@@ -1,0 +1,42 @@
+{
+  "number": 197,
+  "title": "Unsupervised Deep Tracking",
+  "year": 2019,
+  "authors": [
+    "Ning Wang",
+    "Yibing Song",
+    "Chao Ma",
+    "Wengang Zhou",
+    "Wei Liu",
+    "Houqiang Li"
+  ],
+  "venue": "CVPR",
+  "category": "自监督训练与表征迁移",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Unsupervised_Deep_Tracking_CVPR_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Unsupervised_Deep_Tracking_CVPR_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Unsupervised_Deep_Tracking_CVPR_2019_paper.pdf",
+      "bytes": 2223756,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\197_2019_Unsupervised_Deep_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Unsupervised_Deep_Tracking_CVPR_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Unsupervised_Deep_Tracking_CVPR_2019_paper.pdf",
+  "bytes": 2223756,
+  "sha256": "433b952d4d0edb7f91de9d5d1e19344fa59f8b86ed00a957d9c57d04feccb210",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Unsupervised Deep Tracking",
+  "first_page_text": "Unsupervised Deep Tracking\nNing Wang1\nYibing Song2∗Chao Ma3\nWengang Zhou1\nWei Liu2∗\nHouqiang Li1\n1 CAS Key Laboratory of GIPAS, University of Science and Technology of China\n2 Tencent AI Lab\n3 MoE Key Lab of Artiﬁcial Intelligence, AI Institute, Shanghai Jiao Tong University\nwn6149@mail.ustc.edu.cn, dynamicstevenson@gmail.com, chaoma@sjtu.edu.cn\nzhwg@ustc.edu.cn, wl2223@columbia.edu, lihq@ustc.edu.cn\nAbstract\nWe propose an unsupervised visual tracking method in\nthis paper.\nDifferent from existing approaches using ex-\ntensive annotated data for supervised learning, our CNN\nmodel is trained on large-scale unlabeled videos in an un-\nsupervised manner. Our motivation is that a robust tracker\nshould be effective in both the forward and backward pre-\ndictions (i.e., the tracker can forward localize the target ob-\nject in successive frames and backtrace to its initial position\nin the ﬁrst frame). We build our framework on a Siamese\ncorrelation ﬁlter network, which is trained using unlabeled\nraw videos. Meanwhile, we propose a multiple-frame val-\nidation method and a cost-sensitive loss to facilitate unsu-\npervised learning. Without bells and whistles, the proposed\nunsupervised tracker achieves the baseline accuracy of fully\nsupervised trackers, which require complete and accurate\nlabels during training. Furthermore, unsupervised frame-\nwork exhibits a potential in leveraging unlabeled or weakly\nlabeled data to further improve the tracking accuracy.\n1. Introduction\nVisual tracking is a fundamental task in computer vision,\nwhich aims to localize the target object in the video given\na bounding box annotation in the ﬁrst frame. The state-\nof-the-art deep tracking methods [1, 46, 15, 55, 27, 60, 58,\n54, 4, 19, 33, 34] typically use pretrained CNN models for\nfeature extraction. These models are trained in a supervised\nmanner, requiring a large quantity of annotated ground-truth\nlabels. Manual annotations are always expensive and time-\nconsuming, whereas extensive unlabeled videos are readily\navailable on the Internet. It deserves to investigate how to\nexploit unlabeled video sequences for visual tracking.\n∗Y. Song and W. Liu are the corresponding authors. This work is done\nwhen N. Wang is an intern in Tencent AI Lab. The source code and results\nare available at https://github.com/594422814/UDT.\nSupervised Training:\nAnnotated sequences      \nForward tracking       \nUnsupervised Training:\nUnlabeled sequences      \nForward and Backward tracking      \nFigure 1. The comparison between supervised and unsupervised\nlearning. Visual tracking methods via supervised learning require\nground-truth labels for every frame of the training videos. By uti-\nlizing the forward tracking and backward veriﬁcation, we train the\nunsupervised tracker without heavyweight annotations.\nIn this paper, we propose to learn a visual tracking model\nfrom scratch via unsupervised learning. Our intuition re-\nsides on the observation that visual tracking can be per-\nformed in both the forward and backward manners. Ini-\ntially, given the target object annotated on the ﬁrst frame, we\ncan track the target object forward in the subsequent frames.\nWhen tracking backward, we use the predicted location in\nthe last frame as the initial target annotation and track it\nbackward towards the ﬁrst frame. The estimated target lo-\ncation in the ﬁrst frame via backward tracking is expected to\nbe identical with the initial annotation. After measuring the\ndifference between the forward and backward target trajec-\ntories, our network is trained in an unsupervised manner1 by\nconsidering the trajectory consistency as shown in Fig. 1.\nThrough exploiting consecutive frames in unlabeled videos,\nour model learns to locate targets by repeatedly performing\nforward tracking and backward veriﬁcation.\nThe proposed unsupervised learning scheme aims to\nacquire a generic feature representation, while not being\n1In this paper, we do not distinguish between the term unsupervised and\nself-supervised, as both refer to learning without ground-truth annotations.\n1308\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

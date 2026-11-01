@@ -1,0 +1,39 @@
+{
+  "number": 72,
+  "title": "Exploring Causal Relationships in Visual Object Tracking",
+  "year": 2015,
+  "authors": [
+    "Karel Lebeda",
+    "Simon Hadfield",
+    "Richard Bowden"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Lebeda_Exploring_Causal_Relationships_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Lebeda_Exploring_Causal_Relationships_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Lebeda_Exploring_Causal_Relationships_ICCV_2015_paper.pdf",
+      "bytes": 881544,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\072_2015_Exploring_Causal_Relationships_in_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Lebeda_Exploring_Causal_Relationships_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Lebeda_Exploring_Causal_Relationships_ICCV_2015_paper.pdf",
+  "bytes": 881544,
+  "sha256": "56d57081dccfc162ae5d762abf4db61b36e7580003652d2fe11a17220109f224",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Exploring Causal Relationships in Visual Object Tracking",
+  "first_page_text": "Exploring Causal Relationships in Visual Object Tracking\nKarel Lebeda\nSimon Hadﬁeld\nRichard Bowden\nUniversity of Surrey, Guildford, GU2 7XH, United Kingdom\n{K.Lebeda,S.Hadfield,R.Bowden}@Surrey.ac.uk\nAbstract\nCausal relationships can often be found in visual object\ntracking between the motions of the camera and that of the\ntracked object. This object motion may be an effect of the\ncamera motion, e.g. an unsteady handheld camera. But it\nmay also be the cause, e.g. the cameraman framing the ob-\nject. In this paper we explore these relationships, and pro-\nvide statistical tools to detect and quantify them; these are\nbased on transfer entropy and stem from information the-\nory. The relationships are then exploited to make predic-\ntions about the object location. The approach is shown to be\nan excellent measure for describing such relationships. On\nthe VOT2013 dataset the prediction accuracy is increased\nby 62 % over the best non-causal predictor. We show that\nthe location predictions are robust to camera shake and sud-\nden motion, which is invaluable for any tracking algorithm\nand demonstrate this by applying causal prediction to two\nstate-of-the-art trackers. Both of them beneﬁt, Struck gain-\ning a 7 % accuracy and 22 % robustness increase on the\nVTB1.1 benchmark, becoming the new state-of-the-art.\n1. Introduction\nCausality is a relation between two events, a cause\n(source) and an effect (consequence). In general terms, we\nsay that an event causes another event (its effect), if it pre-\ncedes the effect in time and it increases the probability of the\neffect happening. Although causality has been studied by\nphilosophers for millennia, it received little attention from\nthe scientiﬁc community before the twentieth century. Re-\ncently, theoretical advances have brought practical progress\nin the analysis of time series in many scientiﬁc areas.\nAn example of a causal relationship, which can be ob-\nserved (and exploited) in the area of computer vision, is the\nrelationship between the motions of the camera and an ob-\nject in Visual Object Tracking (VOT). There are different\npossible causal relationships. For instance, the motion of\nthe camera instantly causes motion of the object in the im-\nage frame. An abrupt movement of the camera (e.g. a shake)\ncan cause a tracker to fail even in otherwise simple tracking\n0\n50\n100\n150\n200\n250\n0\n5\n10\n15\nframe #\n# failed trackers\nFigure 1. Top: selected frames of the BICYCLE sequence in the\nVOT Challenge (1, 140&173). Bottom: number of trackers from\nthe challenge, which failed on particular frames. Notice the two\nchallenging moments, a strong occlusion around frame 180 and an\nabrupt camera shake around frame 140.\nscenarios. A particular example can be seen in the perfor-\nmance of all submitted trackers on the BICYCLE sequence\nin the ICCV VOT Challenge 2013 [25]. While this sequence\nis relatively easy to track in general, there are two challeng-\ning moments (see Figure 1, showing the numbers of failed\ntrackers in the VOT Challenge). Many tracking failures are\npresent around frame 180, caused by a strong occlusion, and\naround frame 140, stemming from an abrupt camera shake.\nIf these were detected and accounted for, many of the fail-\nures could be prevented, regardless of the tracker.\nAnother interesting causal relationship often arises when\nthe motion of the object causes changes of the camera mo-\ntion. If there is a human in the loop, e.g. a cameraman, they\nare partially tracking an object by deﬁnition. A similar con-\nclusion would hold for an automatically-controlled camera,\ntracking the object. When the object moves towards the\nedge of the image, the cameraman is likely to move the\ncamera such that the object does not disappear from the\nscene. An extreme case of this is the satirical Zero-order\nTracker [27], shown to successfully track a challenging se-\nquence by simply returning a bounding box on a constant\nlocation in the image. As illustrated in Figure 2, here the\ncameraman kept the diver in the centre of the image frame\nfor almost whole sequence. However, even in less extreme\n13065\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

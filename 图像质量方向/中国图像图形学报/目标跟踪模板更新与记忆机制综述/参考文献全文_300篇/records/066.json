@@ -1,0 +1,39 @@
+{
+  "number": 66,
+  "title": "Online Object Tracking, Learning and Parsing with And-Or Graphs",
+  "year": 2014,
+  "authors": [
+    "Yang Lu",
+    "Tianfu Wu",
+    "Song Chun Zhu"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Lu_Online_Object_Tracking_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lu_Online_Object_Tracking_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lu_Online_Object_Tracking_2014_CVPR_paper.pdf",
+      "bytes": 4598911,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\066_2014_Online_Object_Tracking,_Learning_and_Parsing_with_And-Or_Graphs.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lu_Online_Object_Tracking_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lu_Online_Object_Tracking_2014_CVPR_paper.pdf",
+  "bytes": 4598911,
+  "sha256": "acc08d6d3f2a8761e984b6768b989bc039d9c49a6b6af1283fc0223edee62598",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Online Object Tracking, Learning and Parsing with And-Or Graphs",
+  "first_page_text": "Online Object Tracking, Learning and Parsing with And-Or Graphs\nYang Lu, Tianfu Wu∗and Song-Chun Zhu\nCenter for Vision, Cognition, Learning and Art\nDepartment of Statistics, University of California, Los Angeles, USA\nyanglv@ucla.edu, {tfwu, sczhu}@stat.ucla.edu\nAbstract\nThis paper presents a framework for simultaneously\ntracking, learning and parsing objects with a hierarchi-\ncal and compositional And-Or graph (AOG) representation.\nThe AOG is discriminatively learned online to account for\nthe appearance (e.g., lighting and partial occlusion) and\nstructural (e.g., different poses and viewpoints) variations\nof the object itself, as well as the distractors (e.g., similar\nobjects) in the scene background. In tracking, the state of\nthe object (i.e., bounding box) is inferred by parsing with the\ncurrent AOG using a spatial-temporal dynamic program-\nming (DP) algorithm. When the AOG grows big for han-\ndling objects with large variations in long-term tracking,\nwe propose a bottom-up/top-down scheduling scheme for\nefﬁcient inference, which performs focused inference with\nthe most stable and discriminative small sub-AOG. During\nonline learning, the AOG is re-learned iteratively with two\nsteps: (i) Identifying the false positives and false negatives\nof the current AOG in a new frame by exploiting the spa-\ntial and temporal constraints observed in the trajectory; (ii)\nUpdating the structure of the AOG, and re-estimating the\nparameters based on the augmented training dataset. In ex-\nperiments, the proposed method outperforms state-of-the-\nart tracking algorithms on a recent public tracking bench-\nmark with 50 testing videos and 30 publicly available track-\ners evaluated [34].\n1. Introduction\n1.1. Objective and Motivation\nGiven a speciﬁed object in the ﬁrst frame of a video,\nthe objective of online object tracking is to locate it in\nthe subsequent frames with bounding boxes. Online ob-\nject tracking, especially long-term tracking, is a very chal-\nlenging problem due to (i) the variations of the object it-\nself, which include the appearance and structural variations,\nscale changes, occlusions (partial or complete), and the sit-\nuations of disappearing and reappearing, etc., and (ii) the\ncomplexity of the scene, which includes camera motion, the\nbackground clutter, distractors, illumination changes, and\n∗Tianfu Wu is the corresponding author\nframe cropping, etc. In recent literature, object tracking\nhas received much attention due to practical applications in\nvideo surveillance, activity and event prediction, etc.\nThis paper presents an online Tracking-Learning-Parsing\n(TLP) framework to address the issues above. The object\nto be tracked is modeled by an And-Or graph (AOG) [39]\nwhich is a hierarchical and compositional representation\nwith a directed acyclic graph (DAG) structure.\nThe hy-\npothesis space of AOG is constructed using the quantization\nmethod [31] recently proposed for learning object detectors\nin PASCAL VOC datasets. The AOG is discriminatively\ntrained online to account for the variations of objects against\nbackground stated above. Our TLP framework is of similar\nspirit to tracking-learning-detection (TLD) [19], tracking-\nby-detection [2] and self-paced learning of tracking [16].\nNote that the AOG in this paper is learned for the tracked\nobject instance, rather than at the object category level. The\nmotivation of introducing the AOG is four-fold.\ni) More representational power: Unlike TLD [19] and\nmany others which model an object as a single template or a\nmixture of small number of templates and thus does not per-\nform well for articulated objects (e.g., person), an AOG rep-\nresents an object in a hierarchical and compositional man-\nner which has three types of nodes: an And-node represents\nthe rule of decomposing a complex structure (e.g., a walk-\ning person or a running basketball player) into simple ones;\nan Or-node represents alternative structures at both object\nand part levels which can capture different poses and view-\npoints and partial occlusion; and a Terminal-node grounds\nthe representational symbol to image data using different\nappearance templates to capture local appearance change.\nBoth the structure and appearance of the AOG will be dis-\ntriminatively trained online to account for the variations of\na tracked object against its scene backgrounds.\nii) More ﬂexible computing schemes: Firstly, due to the\nDAG structure of an AOG, we can use a dynamic program-\nming (DP) algorithm in inference; Secondly, the compo-\nsitional property embedded in an AOG naturally leads to\ndifferent bottom-up/top-down computing schemes as the α-\nβ-γ computing processes studied in [32], which can track\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

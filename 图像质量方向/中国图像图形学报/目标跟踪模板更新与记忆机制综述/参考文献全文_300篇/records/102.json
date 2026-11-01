@@ -1,0 +1,40 @@
+{
+  "number": 102,
+  "title": "Correlation Tracking via Joint Discrimination and Reliability Learning",
+  "year": 2018,
+  "authors": [
+    "Chong Sun",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Sun_Correlation_Tracking_via_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Correlation_Tracking_via_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Correlation_Tracking_via_CVPR_2018_paper.pdf",
+      "bytes": 1097904,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\102_2018_Correlation_Tracking_via_Joint_Discrimination_and_Reliability_Learning.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Correlation_Tracking_via_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Correlation_Tracking_via_CVPR_2018_paper.pdf",
+  "bytes": 1097904,
+  "sha256": "5e1af4becbafbccba88a113ba36e9fe4af83a3faaa8e43627a8fd650d6c04df0",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Correlation Tracking via Joint Discrimination and Reliability Learning",
+  "first_page_text": "Correlation Tracking via Joint Discrimination and Reliability Learning\nChong Sun1, Dong Wang1∗, Huchuan Lu1, Ming-Hsuan Yang2\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2Electrical Engineering and Computer Science, University of California, Merced, USA\nwaynecool@mail.dlut.edu.cn, {wdice,lhchuan}@dlut.edu.cn, mhyang@ucmerced.edu\nAbstract\nFor visual tracking, an ideal ﬁlter learned by the correla-\ntion ﬁlter (CF) method should take both discrimination and\nreliability information. However, existing attempts usually\nfocus on the former one while pay less attention to reliabil-\nity learning. This may make the learned ﬁlter be dominated\nby the unexpected salient regions on the feature map, there-\nby resulting in model degradation. To address this issue, we\npropose a novel CF-based optimization problem to jointly\nmodel the discrimination and reliability information. First,\nwe treat the ﬁlter as the element-wise product of a base ﬁl-\nter and a reliability term. The base ﬁlter is aimed to learn\nthe discrimination information between the target and back-\ngrounds, and the reliability term encourages the ﬁnal ﬁlter\nto focus on more reliable regions. Second, we introduce\na local response consistency regular term to emphasize e-\nqual contributions of different regions and avoid the tracker\nbeing dominated by unreliable regions. The proposed op-\ntimization problem can be solved using the alternating di-\nrection method and speeded up in the Fourier domain. We\nconduct extensive experiments on the OTB-2013, OTB-2015\nand VOT-2016 datasets to evaluate the proposed tracker.\nExperimental results show that our tracker performs favor-\nably against other state-of-the-art trackers.\n1. Introduction\nVisual tracking is a hot topic for its wide applications in\nmany computer vision tasks, such as video surveillance, be-\nhaviour analysis, augmented reality, to name a few. Though\nmany trackers [12, 26, 20, 25, 16] have been proposed to\naddress this task, designing a robust visual tracking system\nis still challenging as the tracked target may undergo large\ndeformations, rotations and other challenges.\nNumerous recent studies apply the correlation ﬁlter (CF)\nfor robust visual tracking. With low computational load,\nthe CF-based tracker can exploit large numbers of cycli-\n∗Corresponding Author\nDRT\nECO\nC-COT\nCF2\nFigure 1. Example tracking results of different methods on the\nOTB dataset. Our tracker (DRT) has comparable or better results\ncompared with the existing best tracker ECO.\ncally shifted samples for learning, thus showing superior\nperformance. However, as the correlation ﬁlter takes the\nentire image as the positive sample and the cyclically shift-\ned images as negative ones, the learned ﬁlters are likely to\nbe inﬂuenced by the background regions. Existing meth-\nods (e.g. [8, 10, 5]) address this problem by incorporating\na spatial regularization on the ﬁlter, so that the learned ﬁl-\nter weights focus on the central part of the target object.\nIn [14], the authors prove that the correlation ﬁlter method\ncan be used to simulate the conventional ridge regression\nmethod. By multiplying the ﬁlter with a binary mask, the\ntracker is able to generate the real training samples having\nthe same size as the target object, and thus better suppress-\ning the background regions. However, this method has t-\nwo limitations: ﬁrst, it exploits the augmented Lagrangian\nmethod for model learning, which limits the model exten-\nsion; second, even though the background region outside\nthe bounding box is suppressed, the tracker may also be in-\nﬂuenced by the background region inside the bounding box.\nWith the great success of deep convolutional neural net-\nwork (CNN) in object detection and classiﬁcation, more\nand more CF based trackers resort to the pre-trained CN-\nN model for robust target representation [29, 28, 5]. Since\nmost of CNN models are pre-trained with respect to the task\n489\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

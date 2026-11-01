@@ -1,0 +1,820 @@
+{
+  "number": 277,
+  "original_doi": "10.1007/978-3-031-19815-1_37",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T21:05:59Z",
+      "timestamp": 1792789559777,
+      "version": "4.5.0"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 64,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783031198144",
+        "type": "print"
+      },
+      {
+        "value": "9783031198151",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-19815-1_37",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2022-10-19T19:11:54Z",
+      "timestamp": 1666206714000
+    },
+    "page": "640-658",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 437,
+    "title": [
+      "XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Ho Kei",
+        "family": "Cheng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alexander G.",
+        "family": "Schwing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "37_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Atkinson, R.C., Shiffrin, R.M.: Human memory: a proposed system and its control processes. In: Psychology of learning and motivation, vol. 2, pp. 89–195. Elsevier (1968)",
+        "DOI": "10.1016/S0079-7421(08)60422-3"
+      },
+      {
+        "key": "37_CR2",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "777",
+        "DOI": "10.1007/978-3-030-58536-5_46",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "G Bhat",
+        "year": "2020",
+        "unstructured": "Bhat, G., et al.: Learning what to learn for video object segmentation. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12347, pp. 777–794. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58536-5_46"
+      },
+      {
+        "key": "37_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caelles, S., Maninis, K.K., Pont-Tuset, J., Leal-Taixé, L., Cremers, D., Van Gool, L.: One-shot video object segmentation. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.565"
+      },
+      {
+        "key": "37_CR4",
+        "unstructured": "Chang, A.X., et al.: ShapeNet: an information-rich 3D model repository. arXiv:1512.03012 (2015)"
+      },
+      {
+        "key": "37_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, X., Li, Z., Yuan, Y., Yu, G., Shen, J., Qi, D.: State-aware tracker for real-time video object segmentation. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00940"
+      },
+      {
+        "key": "37_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Y., Pont-Tuset, J., Montes, A., Van Gool, L.: Blazingly fast video object segmentation with pixel-wise metric learning. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00130"
+      },
+      {
+        "key": "37_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng, H.K., Chung, J., Tai, Y.W., Tang, C.K.: Cascadepsp: toward class-agnostic and very high-resolution segmentation via global and local refinement. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00891"
+      },
+      {
+        "key": "37_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng, H.K., Tai, Y.W., Tang, C.K.: Modular interactive video object segmentation: interaction-to-mask, propagation and difference-aware fusion. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00551"
+      },
+      {
+        "key": "37_CR9",
+        "unstructured": "Cheng, H.K., Tai, Y.W., Tang, C.K.: Rethinking space-time networks with improved memory coverage for efficient video object segmentation. In: NeurIPS (2021)"
+      },
+      {
+        "key": "37_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng, J., Tsai, Y.H., Hung, W.C., Wang, S., Yang, M.H.: Fast and accurate online video object segmentation via tracking parts. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00774"
+      },
+      {
+        "key": "37_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cho, K., Van Merriënboer, B., Bahdanau, D., Bengio, Y.: On the properties of neural machine translation: encoder-decoder approaches. arXiv (2014)",
+        "DOI": "10.3115/v1/W14-4012"
+      },
+      {
+        "key": "37_CR12",
+        "unstructured": "Denninger, M., et al.: Blenderproc. arXiv:1911.01911 (2019)"
+      },
+      {
+        "key": "37_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duarte, K., Rawat, Y.S., Shah, M.: Capsulevos: semi-supervised video object segmentation using capsule routing. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00857"
+      },
+      {
+        "key": "37_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duke, B., Ahmed, A., Wolf, C., Aarabi, P., Taylor, G.W.: Sstvos: sparse spatiotemporal transformers for video object segmentation. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00585"
+      },
+      {
+        "key": "37_CR15",
+        "volume-title": "Computer Vision: A Modern Approach",
+        "author": "D Forsyth",
+        "year": "2011",
+        "unstructured": "Forsyth, D., Ponce, J.: Computer Vision: A Modern Approach. Prentice hall, Upper Saddle River (2011)"
+      },
+      {
+        "key": "37_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ge, W., Lu, X., Shen, J.: Video object segmentation using global and instance embedding learning. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.01656"
+      },
+      {
+        "key": "37_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "37_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, L., Zhang, P., Zhang, B., Pan, P., Xu, Y., Jin, R.: Learning position and target consistency for memory-based video object segmentation. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00413"
+      },
+      {
+        "key": "37_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, P., Wang, G., Kong, X., Kuen, J., Tan, Y.P.: Motion-guided cascaded refinement network for video object segmentation. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00152"
+      },
+      {
+        "key": "37_CR20",
+        "unstructured": "Hu, Y.T., Huang, J.B., Schwing, A.: Maskrnn: instance level video object segmentation. In: NIPS (2017)"
+      },
+      {
+        "key": "37_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, X., Xu, J., Tai, Y.W., Tang, C.K.: Fast video object segmentation with temporal aggregation network and dynamic template matching. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00890"
+      },
+      {
+        "key": "37_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jang, W.D., Kim, C.S.: Online video object segmentation via convolutional trident network. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.790"
+      },
+      {
+        "key": "37_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johnander, J., Danelljan, M., Brissman, E., Khan, F.S., Felsberg, M.: A generative appearance model for end-to-end video object segmentation. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00916"
+      },
+      {
+        "key": "37_CR24",
+        "unstructured": "Kingma, D.P., Ba, J.: Adam: a method for stochastic optimization. In: ICLR (2015)"
+      },
+      {
+        "key": "37_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, X., Wei, T., Chen, Y.P., Tai, Y.W., Tang, C.K.: Fss-1000: a 1000-class dataset for few-shot segmentation. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00294"
+      },
+      {
+        "key": "37_CR26",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "93",
+        "DOI": "10.1007/978-3-030-01219-9_6",
+        "volume-title": "Computer Vision – ECCV 2018",
+        "author": "X Li",
+        "year": "2018",
+        "unstructured": "Li, X., Loy, C.C.: Video object segmentation with joint re-identification and attention-aware mask propagation. In: Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.) ECCV 2018. LNCS, vol. 11207, pp. 93–110. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-01219-9_6"
+      },
+      {
+        "key": "37_CR27",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "735",
+        "DOI": "10.1007/978-3-030-58607-2_43",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "Yu Li",
+        "year": "2020",
+        "unstructured": "Li, Yu., Shen, Z., Shan, Y.: Fast video object segmentation using the global context module. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12355, pp. 735–750. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58607-2_43"
+      },
+      {
+        "key": "37_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liang, S., Shen, X., Huang, J., Hua, X.S.: Video object segmentation with dynamic memory networks and adaptive object alignment. In: ICCV (2021)",
+        "DOI": "10.1109/ICCV48922.2021.00796"
+      },
+      {
+        "key": "37_CR29",
+        "unstructured": "Liang, Y., Li, X., Jafari, N., Chen, J.: Video object segmentation with adaptive feature bank and uncertain-region refinement. In: NeurIPS (2020)"
+      },
+      {
+        "key": "37_CR30",
+        "unstructured": "Loshchilov, I., Hutter, F.: Decoupled weight decay regularization. In: ICLR (2019)"
+      },
+      {
+        "key": "37_CR31",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "661",
+        "DOI": "10.1007/978-3-030-58580-8_39",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "X Lu",
+        "year": "2020",
+        "unstructured": "Lu, X., Wang, W., Danelljan, M., Zhou, T., Shen, J., Van Gool, L.: Video object segmentation with episodic graph memory networks. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12348, pp. 661–679. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58580-8_39"
+      },
+      {
+        "key": "37_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "1515",
+        "DOI": "10.1109/TPAMI.2018.2838670",
+        "volume": "41",
+        "author": "KK Maninis",
+        "year": "2018",
+        "unstructured": "Maninis, K.K., et al.: Video object segmentation without temporal information. PAMI 41, 1515–1530 (2018)",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "37_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mao, Y., Wang, N., Zhou, W., Li, H.: Joint inductive and transductive learning for video object segmentation. In: ICCV (2021)",
+        "DOI": "10.1109/ICCV48922.2021.00953"
+      },
+      {
+        "key": "37_CR34",
+        "unstructured": "Meinhardt, T., Leal-Taixé, L.: Make one-shot video object segmentation efficient again. In: NeurIPS (2020)"
+      },
+      {
+        "key": "37_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oh, S.W., Lee, J.Y., Sunkavalli, K., Kim, S.J.: Fast video object segmentation by reference-guided mask propagation. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00770"
+      },
+      {
+        "key": "37_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oh, S.W., Lee, J.Y., Xu, N., Kim, S.J.: Video object segmentation using space-time memory networks. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "37_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, H., Yoo, J., Jeong, S., Venkatesh, G., Kwak, N.: Learning dynamic network using a reuse gate function in semi-supervised video object segmentation. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00830"
+      },
+      {
+        "key": "37_CR38",
+        "unstructured": "Patrick, M., et al.: Keeping your eye on the ball: trajectory attention in video transformers. In: NeurIPS (2021)"
+      },
+      {
+        "key": "37_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perazzi, F., Khoreva, A., Benenson, R., Schiele, B., Sorkine-Hornung, A.: Learning video object segmentation from static images. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.372"
+      },
+      {
+        "key": "37_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perazzi, F., Pont-Tuset, J., McWilliams, B., Van Gool, L., Gross, M., Sorkine-Hornung, A.: A benchmark dataset and evaluation methodology for video object segmentation. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "37_CR41",
+        "unstructured": "Pont-Tuset, J., Perazzi, F., Caelles, S., Arbeláez, P., Sorkine-Hornung, A., Van Gool, L.: The 2017 davis challenge on video object segmentation. arXiv:1704.00675 (2017)"
+      },
+      {
+        "key": "37_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Robinson, A., Lawin, F.J., Danelljan, M., Khan, F.S., Felsberg, M.: Learning fast and robust target models for video object segmentation. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00743"
+      },
+      {
+        "key": "37_CR43",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "629",
+        "DOI": "10.1007/978-3-030-58542-6_38",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "H Seong",
+        "year": "2020",
+        "unstructured": "Seong, H., Hyun, J., Kim, E.: Kernelized memory network for video object segmentation. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12367, pp. 629–645. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58542-6_38"
+      },
+      {
+        "key": "37_CR44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seong, H., Oh, S.W., Lee, J.Y., Lee, S., Lee, S., Kim, E.: Hierarchical memory matching network for video object segmentation. In: ICCV (2021)",
+        "DOI": "10.1109/ICCV48922.2021.01265"
+      },
+      {
+        "key": "37_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "717",
+        "DOI": "10.1109/TPAMI.2015.2465960",
+        "volume": "38",
+        "author": "J Shi",
+        "year": "2015",
+        "unstructured": "Shi, J., Yan, Q., Xu, L., Jia, J.: Hierarchical image saliency detection on extended cssd. TPAMI 38, 717–729 (2015)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "37_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Squire, L.R., Genzel, L., Wixted, J.T., Morris, R.G.: Memory consolidation. In: Cold Spring Harbor perspectives in biology. Cold Spring Harbor Lab (2015)",
+        "DOI": "10.1101/cshperspect.a021766"
+      },
+      {
+        "key": "37_CR47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ventura, C., Bellver, M., Girbau, A., Salvador, A., Marques, F., Giro-i Nieto, X.: Rvos: end-to-end recurrent network for video object segmentation. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00542"
+      },
+      {
+        "key": "37_CR48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Chai, Y., Schroff, F., Adam, H., Leibe, B., Chen, L.C.: Feelvos: fast end-to-end embedding learning for video object segmentation. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00971"
+      },
+      {
+        "key": "37_CR49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Leibe, B.: Online adaptation of convolutional neural networks for video object segmentation. In: BMVC (2017)",
+        "DOI": "10.5244/C.31.116"
+      },
+      {
+        "key": "37_CR50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, H., Jiang, X., Ren, H., Hu, Y., Bai, S.: Swiftnet: real-time video object segmentation. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00135"
+      },
+      {
+        "key": "37_CR51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, L., et al.: Learning to detect salient objects with image-level supervision. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.404"
+      },
+      {
+        "key": "37_CR52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Q., Zhang, L., Bertinetto, L., Hu, W., Torr, P.H.: Fast online object tracking and segmentation: a unifying approach. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "37_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Z., Xu, J., Liu, L., Zhu, F., Shao, L.: Ranet: ranking attention network for fast video object segmentation. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00408"
+      },
+      {
+        "key": "37_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, H., Yao, H., Zhou, S., Zhang, S., Sun, W.: Efficient regional memory network for video object segmentation. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00134"
+      },
+      {
+        "key": "37_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiong, Y., et al.: Nyströmformer: A nyström-based algorithm for approximating self-attention. In: AAAI (2021)",
+        "DOI": "10.1609/aaai.v35i16.17664"
+      },
+      {
+        "key": "37_CR56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, K., Wen, L., Li, G., Bo, L., Huang, Q.: Spatiotemporal CNN for video object segmentation. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00147"
+      },
+      {
+        "key": "37_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, N., et al.: Youtube-vos: a large-scale video object segmentation benchmark. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01228-1_36"
+      },
+      {
+        "key": "37_CR58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, X., Wang, J., Li, X., Lu, Y.: Reliable propagation-correction modulation for video object segmentation. In: AAAI (2022)",
+        "DOI": "10.1609/aaai.v36i3.20200"
+      },
+      {
+        "key": "37_CR59",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "332",
+        "DOI": "10.1007/978-3-030-58558-7_20",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "Z Yang",
+        "year": "2020",
+        "unstructured": "Yang, Z., Wei, Y., Yang, Y.: Collaborative video object segmentation by foreground-background integration. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12350, pp. 332–348. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58558-7_20"
+      },
+      {
+        "key": "37_CR60",
+        "unstructured": "Yang, Z., Wei, Y., Yang, Y.: Associating objects with transformers for video object segmentation. In: NeurIPS (2021)"
+      },
+      {
+        "key": "37_CR61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Z., Wei, Y., Yang, Y.: Collaborative video object segmentation by multi-scale foreground-background integration. PAMI (2021)",
+        "DOI": "10.1109/TPAMI.2021.3081597"
+      },
+      {
+        "key": "37_CR62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zeng, Y., Zhang, P., Zhang, J., Lin, Z., Lu, H.: Towards high-resolution salient object detection. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00733"
+      },
+      {
+        "key": "37_CR63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, L., Lin, Z., Zhang, J., Lu, H., He, Y.: Fast video object segmentation via dynamic targeting network. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00568"
+      },
+      {
+        "key": "37_CR64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y., Wu, Z., Peng, H., Lin, S.: A transductive approach for video object segmentation. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00698"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2022"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-19815-1_37",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2026-10-20T01:05:54Z",
+      "timestamp": 1792458354000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/chapter/10.1007/978-3-031-19815-1_37"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783031198144",
+      "9783031198151"
+    ],
+    "references-count": 64,
+    "URL": "https://doi.org/10.1007/978-3-031-19815-1_37",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "20 October 2022",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ECCV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "European Conference on Computer Vision",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Tel Aviv",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Israel",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2022",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "23 October 2022",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "27 October 2022",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "17",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "eccv2022",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://eccv2022.ecva.net/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Double-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "CMT",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "5804",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "1645",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "0",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "28% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.21",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.91",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Yes",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "This content has been made available to all.",
+        "name": "free",
+        "label": "Free to read"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "number": 5,
+  "title": "单目标跟踪中的视觉智能评估技术综述",
+  "year": 2024,
+  "authors": [
+    "胡世宇",
+    "赵鑫",
+    "黄凯奇"
+  ],
+  "venue": "中国图象图形学报",
+  "category": "相关综述与研究定位",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.cjig.cn/zh/article/doi/10.11834/jig.230498/",
+  "doi": "10.11834/jig.230498",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.230498/",
+      "final_url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.230498/",
+      "bytes": 594922,
+      "content_type": "text/html",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://www.cjig.cn/rc-pub/front/front-article/download/67496294/lowqualitypdf/单目标跟踪中的视觉智能评估技术综述.pdf",
+      "final_url": "https://www.cjig.cn/rc-pub/front/front-article/download/67496294/lowqualitypdf/%E5%8D%95%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA%E4%B8%AD%E7%9A%84%E8%A7%86%E8%A7%89%E6%99%BA%E8%83%BD%E8%AF%84%E4%BC%B0%E6%8A%80%E6%9C%AF%E7%BB%BC%E8%BF%B0.pdf",
+      "bytes": 12909092,
+      "content_type": "application/pdf;charset=utf-8"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\005_2024_单目标跟踪中的视觉智能评估技术综述.pdf",
+  "download_url": "https://www.cjig.cn/rc-pub/front/front-article/download/67496294/lowqualitypdf/%E5%8D%95%E7%9B%AE%E6%A0%87%E8%B7%9F%E8%B8%AA%E4%B8%AD%E7%9A%84%E8%A7%86%E8%A7%89%E6%99%BA%E8%83%BD%E8%AF%84%E4%BC%B0%E6%8A%80%E6%9C%AF%E7%BB%BC%E8%BF%B0.pdf",
+  "requested_url": "https://www.cjig.cn/rc-pub/front/front-article/download/67496294/lowqualitypdf/单目标跟踪中的视觉智能评估技术综述.pdf",
+  "bytes": 12909092,
+  "sha256": "84f2b3a0319e256d85c7b1abd948a0dd6f789146717cd84804bfcbc6a0fba3dc",
+  "version": "出版方公开全文",
+  "pages": 34,
+  "pdf_title": "单目标跟踪中的视觉智能评估技术综述",
+  "first_page_text": "单目标跟踪中的视觉智能评估技术综述\n胡世宇1，2，赵鑫1，2，黄凯奇1，2，3*\n1.  中国科学院大学人工智能学院，北京 100049； 2.  中国科学院自动化研究所智能系统与工程研究中心，北京 100190；\n3.  中国科学院脑科学与智能技术卓越创新中心，上海 200031\n摘 要： 单目标跟踪任务旨在对人类动态视觉系统进行建模，让机器在复杂环境中具备类人的运动目标跟踪能力，\n并已广泛应用于无人驾驶、视频监控、机器人视觉等领域。研究者从算法设计的角度开展了大量工作，并在代表性\n数据集中表现出良好性能。然而，在面临如目标形变、快速运动、光照变化等挑战因素时，现有算法的跟踪效果和人\n类预期相比还存在着较大差距，揭示了当前的评测技术发展仍存在滞后性和局限性。综上，区别于以算法设计为核\n心的传统综述思路，本文依托单目标跟踪任务、从视觉智能评估技术出发，对评测流程中涉及的各个关键性环节（评\n测任务、评测环境、待测对象和评估机制）进行系统梳理。首先，对单目标跟踪任务的发展历程和挑战因素进行介\n绍，并详细对比了评估所需的评测环境（数据集、竞赛等）。其次，对单目标跟踪待测对象进行介绍，不仅包含以相关\n滤波和孪生神经网络为代表的跟踪算法，同时也涉及跨学科领域开展的人类视觉跟踪实验。最后，从“机机对抗”和\n“人机对抗”两个角度对单目标跟踪评估机制进行回顾，并对当前待测对象的目标跟踪能力进行分析和总结。在此\n基础上，对单目标跟踪智能评估的发展趋势进行总结和展望，进一步分析未来研究中存在的挑战因素，并探讨了下\n一步可能的研究方向。\n关键词： 智能评估技术；竞赛和数据集；视觉跟踪能力；单目标跟踪（SOT）；目标跟踪算法\nVisual intelligence evaluation techniques for single object tracking： \na survey\nHu　Shiyu1，2， Zhao　Xin1，2， Huang　Kaiqi1，2，3*\n1.  School of Artificial Intelligence， University of Chinese Academy of Sciences， Beijing 100049，China； \n2.  Center for Research on Intelligent System and Engineering， Institute of Automation， Chinese Academy of Sciences， Beijing 100190，China；\n3.  Center for Excellence in Brain Science and Intelligence Technology， Chinese Academy of Sciences， Shanghai 200031， China\nAbstract： Single object tracking （SOT） task， which aims to model the human dynamic vision system and accomplish \nhuman-like object tracking ability in complex environments， has been widely used in various real-world applications like \nself-driving， video surveillance， and robot vision.  Over the past decade， the development in deep learning has encouraged \nmany research groups to work on designing different tracking frameworks like correlation filter （CF） and Siamese neural \nnetworks （SNNs）， which facilitate the progress of SOT research.  However， many factors （e. g. ， target deformation， fast \n中图法分类号：TP389. 1  文献标识码： A  文章编号： 1006-8961（2024）08-2269-34\n论文引用格式：Hu S Y， Zhao X and Huang K Q.  2024.  Visual intelligence evaluation techniques for single object tracking： a survey.  Journal of \nImage and Graphics， 29（08）：2269-2302（胡世宇， 赵鑫， 黄凯奇.  2024.  单目标跟踪中的视觉智能评估技术综述.  中国图象图形学报， 29（08）：\n2269-2302）［DOI：10. 11834/jig. 230498］\n收稿日期：2023-07-10；修回日期：2023-10-07；预印本日期：2023-10-14\n * 通信作者：黄凯奇 kqhuang@nlpr.ia.ac.cn\n基金项目：科技创新2030——“新一代人工智能”重大项目（2022ZD0116403）；国家自然科学基金项目（61721004）；中国科学院战略性先导\n科技专项（XDA27000000）\nSupported by：Technological Innovation 2030——“New Generation Artificial Intelligence” Major Project （2022ZD0116403）； National Natural \nScience Foundation of China （61721004）； Strategic Priority Research Program of Chinese Academy of Sciences （XDA27000000）\n2269\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": null,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,421 @@
+{
+  "number": 120,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "High Performance Visual Tracking with Siamese Region Proposal Network",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T23:34:23Z",
+      "timestamp": 1792971263114,
+      "version": "4.5.0"
+    },
+    "reference-count": 39,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2018.00935",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2018-12-17T20:49:37Z",
+      "timestamp": 1545079777000
+    },
+    "page": "8971-8980",
+    "source": "Crossref",
+    "is-referenced-by-count": 2540,
+    "title": [
+      "High Performance Visual Tracking with Siamese Region Proposal Network"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Bo",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junjie",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zheng",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaolin",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "author": "zhu",
+        "year": "2017",
+        "journal-title": "End-to-end flow correlation tracking with spatial-temporal attention"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2017.231"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref32",
+        "first-page": "3539",
+        "article-title": "Multiple people tracking by lifted multicut and person reidentification",
+        "author": "tang",
+        "year": "2017",
+        "journal-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref30",
+        "first-page": "1842",
+        "article-title": "Meta-learning with memory-augmented neural networks",
+        "author": "santoro",
+        "year": "2016",
+        "journal-title": "International Conference on Machine Learning"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref36",
+        "author": "wang",
+        "year": "2017",
+        "journal-title": "Dcfnet Discriminant correlation filters network for visual tracking"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-013-0620-5"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.585"
+      },
+      {
+        "key": "ref12",
+        "author": "gordon",
+        "year": "2017",
+        "journal-title": "Re3 Real-time recurrent regression networks for object tracking"
+      },
+      {
+        "key": "ref13",
+        "first-page": "749",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2017.230"
+      },
+      {
+        "key": "ref16",
+        "author": "kristan",
+        "year": "2016",
+        "journal-title": "The visual object tracking vot2016 challenge results"
+      },
+      {
+        "key": "ref17",
+        "first-page": "564",
+        "article-title": "The visual object tracking vot2015 challenge results",
+        "author": "kristan",
+        "year": "2016",
+        "journal-title": "IEEE International Conference on Computer Vision Workshop"
+      },
+      {
+        "key": "ref18",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "International Conference on Neural Information Processing Systems"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2015.2455418"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref4",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref27",
+        "first-page": "91",
+        "article-title": "Faster r-cnn: towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "International Conference on Neural Information Processing Systems"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref6",
+        "first-page": "379",
+        "article-title": "R-fcn: Object detection via region-based fully convolutional networks",
+        "author": "dai",
+        "year": "2016",
+        "journal-title": "Advances in Neural IInformation Processing Systems"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Learning feed-forward one-shot learners",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.28.65"
+      },
+      {
+        "key": "ref1",
+        "first-page": "3981",
+        "article-title": "Learning to learn by gradient descent by gradient descent",
+        "author": "andrychowicz",
+        "year": "2016",
+        "journal-title": "Neural Information Processing Systems"
+      },
+      {
+        "key": "ref20",
+        "author": "li",
+        "year": "2006",
+        "journal-title": "One-shot learning of object categories"
+      },
+      {
+        "key": "ref22",
+        "article-title": "SSD: Single shot multibox detector",
+        "author": "liu",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.106"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Discriminative correlation filter with channel and spatial reliability",
+        "author": "lukei",
+        "year": "2017",
+        "journal-title": "IEEE Conf Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.690"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.789"
+      }
+    ],
+    "event": {
+      "name": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Salt Lake City, UT",
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8576498/8578098/08579033.pdf?arnumber=8579033",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          27
+        ]
+      ],
+      "date-time": "2022-01-27T10:23:06Z",
+      "timestamp": 1643278986000
+    },
+    "score": 54.592075,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8579033/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1109/cvpr.2018.00935",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  }
+}

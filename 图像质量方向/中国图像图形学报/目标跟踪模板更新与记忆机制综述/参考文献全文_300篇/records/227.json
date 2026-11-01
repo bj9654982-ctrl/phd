@@ -1,0 +1,42 @@
+{
+  "number": 227,
+  "title": "UMDATrack: Unified Multi-Domain Adaptive Tracking Under Adverse Weather Conditions",
+  "year": 2025,
+  "authors": [
+    "Siyuan Yao",
+    "Rui Zhu",
+    "Ziqi Wang",
+    "Wenqi Ren",
+    "Yanyang Yan",
+    "Xiaochun Cao"
+  ],
+  "venue": "ICCV",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Yao_UMDATrack_Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Conditions_ICCV_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yao_UMDATrack_Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Conditions_ICCV_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yao_UMDATrack_Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Conditions_ICCV_2025_paper.pdf",
+      "bytes": 997241,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\227_2025_UMDATrack__Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Condit.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yao_UMDATrack_Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Conditions_ICCV_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Yao_UMDATrack_Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Conditions_ICCV_2025_paper.pdf",
+  "bytes": 997241,
+  "sha256": "9e83d08c3b26a9a4bd4b6da6fe63872b9c275fba880795f89ebd9450ab4f4127",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "UMDATrack: Unified Multi-Domain Adaptive Tracking Under Adverse Weather Conditions",
+  "first_page_text": "UMDATrack: Uniﬁed Multi-Domain Adaptive Tracking\nUnder Adverse Weather Conditions\nSiyuan Yao1,2, Rui Zhu2, Ziqi Wang2, Wenqi Ren1,4,5, Yanyang Yan3, Xiaochun Cao1∗\n1 Sun Yat-sen University 2 Beijing University of Posts and Telecommunications\n3 University of Chinese Academy of Sciences 4 MoE Key Laboratory of Information Technology\n5 Guangdong Key Laboratory of Information Security Technology\nyaosiyuan04@gmail.com, ruizhu@bupt.edu.cn, zq_wang@bupt.edu.cn,\nyanyanyang@ict.ac.cn, rwq.renwenqi@gmail.com, caoxiaochun@mail.sysu.edu.cn\nAbstract\nVisual object tracking has gained promising progress in past\ndecades. Most of the existing approaches focus on learning\ntarget representation in well-conditioned daytime data, while\nfor the unconstrained real-world scenarios with adverse\nweather conditions, e.g. nighttime or foggy environment, the\ntremendous domain shift leads to signiﬁcant performance\ndegradation. In this paper, we propose UMDATrack, which\nis capable of maintaining high-quality target state prediction\nunder various adverse weather conditions within a uniﬁed\ndomain adaptation framework. Speciﬁcally, we ﬁrst use a\ncontrollable scenario generator to synthesize a small amount\nof unlabeled videos (less than 2% frames in source daytime\ndatasets) in multiple weather conditions under the guidance\nof diﬀerent text prompts. Afterwards, we design a simple yet\neﬀective domain-customized adapter (DCA), allowing the tar-\nget objects’ representation to rapidly adapt to various weather\nconditions without redundant model updating. Furthermore,\nto enhance the localization consistency between source and\ntarget domains, we propose a target-aware conﬁdence align-\nment module (TCA) following optimal transport theorem.\nExtensive experiments demonstrate that UMDATrack can\nsurpass existing advanced visual trackers and lead new state-\nof-the-art performance by a signiﬁcant margin. Our code is\navailable at https://github.com/Z-Z188/UMDATrack.\n1. Introduction\nVisual object tracking (VOT) is a fundamental visual task of\ncomputer vision over the past decades, aiming to estimate\nthe state of arbitrary target objects in video sequences given\nthe initial annotation. Existing mainstream methods formu-\nlate object tracking as a target matching problem, which\n∗Corresponding Author.\nTarget frame\nSource frame\nTarget frame\nImage \nEnhancer\nSingle \nDomain Adaptation\nAdapter\nMultiple \nDomain Adaptation\nTracker\nFeature \nExtractor\nSource frame\nTarget frame\n…\nDark\nFoggy\nRainy\n(a) Track-by- \nEnhancement \n(b) Single Domain    \nAdaptative Tracking\nScenario \nGenerator\n(c) Multi-Domain \nAdaptative Tracking \nTracker\nTracker\nFeature \nExtractor\nFeature \nExtractor\nFeature \nExtractor\nFigure 1. Three representative tracking pipelines under adverse\nweather conditions. (a) “Track-by-Enhancement” pipeline [48].\n(b) Single domain adaptation pipeline [49]. (c) The proposed\nuniﬁed multi-domain adaptive tracking (UMDATrack) pipeline.\nUMDATrack utilizes controllable scenarios generator to synthesize\nunlabeled video frames and employ a ﬂexible domain-customized\nadapter to transfer the knowledge to multi-domain.\nconstructs template-search pairs to learn a position-sensitive\nmatching network for target localization.\nOwing to the\npromising advances of recent deep learning architectures,\nVOT has achieved remarkable success in terms of accuracy\nand eﬃciency.\nRecent advanced object trackers typically utilize well-\nconditioned daytime datasets, e.g. LaSOT [10] or Track-\ningNet [29] as supervision for model training, however, the\nperformance of these SOTA trackers is unsatisfactory in\nreal-world scenarios with adverse weather conditions (e.g.\nnighttime or foggy environment) due to the tremendous do-\nmain gap. To address this issue, some eﬀorts have explored\nto introduce synthesized datasets [40, 52] or domain adaptive\ndiscriminator [49, 55] to enhance the cross-domain trans-\nferability. Despite the signiﬁcant advances, they potentially\nsuﬀer from two drawbacks. First, most of the existing ap-\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n6466\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.9,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

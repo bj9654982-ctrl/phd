@@ -1,0 +1,41 @@
+{
+  "number": 63,
+  "title": "Visual Tracking via Locality Sensitive Histograms",
+  "year": 2013,
+  "authors": [
+    "Shengfeng He",
+    "Qingxiong Yang",
+    "Rynson W.H. Lau",
+    "Jiang Wang",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2013/html/He_Visual_Tracking_via_2013_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/He_Visual_Tracking_via_2013_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/He_Visual_Tracking_via_2013_CVPR_paper.pdf",
+      "bytes": 2258228,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\063_2013_Visual_Tracking_via_Locality_Sensitive_Histograms.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/He_Visual_Tracking_via_2013_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/He_Visual_Tracking_via_2013_CVPR_paper.pdf",
+  "bytes": 2258228,
+  "sha256": "687b809fcba210f95b6baa35aac841a494b2c84f62966987bc6cfe543dfd9bfb",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Visual Tracking via Locality Sensitive Histograms",
+  "first_page_text": "Visual Tracking via Locality Sensitive Histograms\nShengfeng He‡\nQingxiong Yang‡∗\nRynson W.H. Lau‡\nJiang Wang‡\nMing-Hsuan Yang§\n‡Department of Computer Science\n§Electrical Engineering and Computer Science\nCity University of Hong Kong\nUniversity of California at Merced\nshengfeng he@yahoo.com, {qiyang, rynson.lau, jiangwang6}@cityu.edu.hk, mhyang@ucmerced.edu\nAbstract\nThis paper presents a novel locality sensitive histogram\nalgorithm for visual tracking. Unlike the conventional im-\nage histogram that counts the frequency of occurrences of\neach intensity value by adding ones to the corresponding\nbin, a locality sensitive histogram is computed at each pixel\nlocation and a ﬂoating-point value is added to the corre-\nsponding bin for each occurrence of an intensity value. The\nﬂoating-point value declines exponentially with respect to\nthe distance to the pixel location where the histogram is\ncomputed; thus every pixel is considered but those that are\nfar away can be neglected due to the very small weights as-\nsigned. An efﬁcient algorithm is proposed that enables the\nlocality sensitive histograms to be computed in time linear\nin the image size and the number of bins. A robust tracking\nframework based on the locality sensitive histograms is pro-\nposed, which consists of two main components: a new fea-\nture for tracking that is robust to illumination changes and\na novel multi-region tracking algorithm that runs in real-\ntime even with hundreds of regions. Extensive experiments\ndemonstrate that the proposed tracking framework outper-\nforms the state-of-the-art methods in challenging scenarios,\nespecially when the illumination changes dramatically.\n1. Introduction\nVisual tracking is one of the most active research areas\nin computer vision, with numerous applications including\naugmented reality, surveillance, and object identiﬁcation.\nThe chief issue for robust visual tracking is to handle the\nappearance change of the target object. Based on the ap-\npearance models used, tracking algorithms can be divided\ninto generative tracking [4, 17, 19, 14, 3] and discrimina-\ntive tracking [7, 2, 11, 8].\nGenerative tracking represents the target object in a par-\nticular feature space, and then searches for the best match-\ning score within the image region. In general, it does not\nrequires a large dataset for training. Discriminative track-\ning treats visual tracking as a binary classiﬁcation problem\nto deﬁne the boundary between a target image patch and the\n∗Correspondence author.\nbackground. It generally requires a large dataset in order to\nachieve good performances. While numerous algorithms of\ntwo categories have been proposed with success, it remains\na challenging task to develop a tracking algorithm that is\nboth accurate and efﬁcient. In order to address challeng-\ning factors in visual tracking, numerous features and models\nhave been used to represent target objects.\nThe appearance of an object changes drastically when\nillumination varies signiﬁcantly.\nIt has been shown that\ntwo images, taken at the same pose but under different il-\nlumination conditions, cannot be uniquely identiﬁed as be-\ning the same object or different ones [10]. To deal with\nthis problem, numerous methods have been proposed based\non illumination invariant features [5]. Early works on vi-\nsual tracking represent objects with contours [9] with suc-\ncess when the brightness constancy assumption holds. The\neigentracking approach [4] operates on the subspace con-\nstancy assumption to account for the appearance change\ncaused by illumination variation based on a set of train-\ning images. Most recently, Harr-like features and online\nsubspace models have been used in object tracking with\ndemonstrated success in dealing with large lighting varia-\ntion [13, 2, 3, 22]. Notwithstanding the demonstrated suc-\ncess, these methods often require time-consuming mixture\nmodels or optimization processes.\nDue to their simplicity, intensity histograms are widely\nused to represent objects for recognition and tracking. How-\never, spatial information of object appearance is missing\nin this holistic representation, which makes it sensitive to\nnoise as well as occlusion in tracking applications.\nTo\naddress this problem, algorithms based on multi-region\nrepresentations have been proposed. The fragment-based\ntracker [1] divides the target object into several regions and\nrepresents them with multiple local histograms. A vote map\nis used to combine the votes from all the regions in the\ntarget frame. However, the computation of multiple local\nhistograms and the vote map can be time consuming even\nwith the use of integral histograms [15]. As a trade-off be-\ntween accuracy and speed, the fragment-based method [1]\nuses up to 40 regions to represent the target object and thus\ncauses jitter effects. To account for large geometric appear-\nance changes, recent multi-region trackers combine local\nand global representations by adapting the region locations\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.314\n2425\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.314\n2425\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.314\n2427\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,41 @@
+{
+  "number": 179,
+  "title": "AiATrack: Attention in Attention for Transformer Visual Tracking",
+  "year": 2022,
+  "authors": [
+    "Shenyuan Gao",
+    "Chunluan Zhou",
+    "Chao Ma",
+    "Xinggang Wang",
+    "Junsong Yuan"
+  ],
+  "venue": "ECCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1951_ECCV_2022_paper.php",
+  "doi": "10.1007/978-3-031-20047-2_9",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820141.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820141.pdf",
+      "bytes": 1122801,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\179_2022_AiATrack__Attention_in_Attention_for_Transformer_Visual_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820141.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820141.pdf",
+  "bytes": 1122801,
+  "sha256": "8bcc939fd00e76389f718906a7014313a03bbe6a53548f30ec0fd3106e80576a",
+  "version": "会议官方开放版本",
+  "pages": 18,
+  "pdf_title": "",
+  "first_page_text": "AiATrack: Attention in Attention for\nTransformer Visual Tracking\nShenyuan Gao1, Chunluan Zhou2, Chao Ma3, Xinggang Wang1, Junsong Yuan4\n1 Huazhong University of Science and Technology\n2 Wormpex AI Research\n3 Shanghai Jiao Tong University\n4 State University of New York at Buffalo\nshenyuangao@gmail.com,\nczhou002@e.ntu.edu.sg\nchaoma@sjtu.edu.cn,\nxgwang@hust.edu.cn,\njsyuan@buffalo.edu\nAbstract. Transformer trackers have achieved impressive advancements\nrecently, where the attention mechanism plays an important role. How-\never, the independent correlation computation in the attention mecha-\nnism could result in noisy and ambiguous attention weights, which in-\nhibits further performance improvement. To address this issue, we pro-\npose an attention in attention (AiA) module, which enhances appropriate\ncorrelations and suppresses erroneous ones by seeking consensus among\nall correlation vectors. Our AiA module can be readily applied to both\nself-attention blocks and cross-attention blocks to facilitate feature ag-\ngregation and information propagation for visual tracking. Moreover, we\npropose a streamlined Transformer tracking framework, dubbed AiA-\nTrack, by introducing efficient feature reuse and target-background em-\nbeddings to make full use of temporal references. Experiments show that\nour tracker achieves state-of-the-art performance on six tracking bench-\nmarks while running at a real-time speed. Code and models are publicly\navailable at https://github.com/Little-Podi/AiATrack.\nKeywords: Visual Tracking, Attention Mechanism, Vision Transformer\n1\nIntroduction\nVisual tracking is one of the fundamental tasks in computer vision. It has gained\nincreasing attention because of its wide range of applications [35,18]. Given a\ntarget with bounding box annotation in the initial frame of a video, the objective\nof visual tracking is to localize the target in successive frames. Over the past few\nyears, Siamese trackers [2,32,31,58], which regards the visual tracking task as a\none-shot matching problem, have gained enormous popularity. Recently, several\ntrackers [48,8,54,6,52,51] have explored the application of the Transformer [47]\narchitecture and achieved promising performance.\nThe crucial components in a typical Transformer tracking framework [48,8,54]\nare the attention blocks. As shown in Fig. 1, the feature representations of the\nreference frame and search frame are enhanced via self-attention blocks, and\nthe correlations between them are bridged via cross-attention blocks for target\nprediction in the search frame. The Transformer attention [47] takes queries and\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

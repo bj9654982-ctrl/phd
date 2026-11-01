@@ -1,0 +1,509 @@
+{
+  "number": 11,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "MUlti-Store Tracker (MUSTer): A cognitive psychology inspired approach to object tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T09:57:54Z",
+      "timestamp": 1791280674357,
+      "version": "4.1.0"
+    },
+    "reference-count": 52,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2015.7298675",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2015-10-15T22:42:06Z",
+      "timestamp": 1444948926000
+    },
+    "page": "749-758",
+    "source": "Crossref",
+    "is-referenced-by-count": 507,
+    "title": [
+      "MUlti-Store Tracker (MUSTer): A cognitive psychology inspired approach to object tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Zhibin",
+        "family": "Hong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhe",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chaohui",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xue",
+        "family": "Mei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danil",
+        "family": "Prokhorov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dacheng",
+        "family": "Tao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "first-page": "142",
+        "article-title": "Extended lucas-kanade tracking",
+        "author": "oron",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV.2014.6836013"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.1999.790410"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.147"
+      },
+      {
+        "key": "ref31",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2508037.2508039"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "first-page": "2259",
+        "DOI": "10.1109/TPAMI.2011.66",
+        "article-title": "Robust visual tracking and vehicle classification via sparse representation",
+        "volume": "33",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2015.2399233"
+      },
+      {
+        "key": "ref35",
+        "first-page": "674",
+        "article-title": "An iterative image registration technique with an application to stereo vision",
+        "author": "lucas",
+        "year": "1981",
+        "journal-title": "IlCAI"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VISI.0000029664.99615.94"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10590-1_25"
+      },
+      {
+        "key": "ref27",
+        "first-page": "1195",
+        "article-title": "Tracking by sampling trackers",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.26"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0079-7421(08)60422-3"
+      },
+      {
+        "key": "ref20",
+        "first-page": "513",
+        "article-title": "Dual-force metric learning for robust distracter-resistant tracker",
+        "author": "hong",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref22",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10599-4_11"
+      },
+      {
+        "key": "ref24",
+        "first-page": "1",
+        "article-title": "The visual object tracking VOT2014 challenge results",
+        "author": "kristan",
+        "year": "2014",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "ref25",
+        "first-page": "1551",
+        "article-title": "Learning occlusion with likelihoods for visual tracking",
+        "author": "kwak",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref50",
+        "first-page": "188",
+        "article-title": "Meem: Robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref51",
+        "first-page": "2042",
+        "article-title": "Robust visual tracking via multi-task sparse learning",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref10",
+        "article-title": "A first look at music composition using lstm recurrent neural networks",
+        "author": "eck",
+        "year": "2002",
+        "journal-title": "Istituto Dalle Molle di Studi sull Intelligenza Artificiale"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.167"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.346"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539819"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2013.6638947"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref15",
+        "author": "hartley",
+        "year": "2003",
+        "journal-title": "Multiple View Geometry in Computer Vision"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref17",
+        "first-page": "702",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.86"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2011.07.024"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/10011-000"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2009.2019809"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/cviu.1999.0832"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.145"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.250"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.308"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1442",
+        "DOI": "10.1109/TPAMI.2013.230",
+        "article-title": "Visual tracking: An experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "TPAMI"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Boston, MA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7293313/7298593/07298675.pdf?arnumber=7298675",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          12
+        ]
+      ],
+      "date-time": "2022-02-12T00:56:03Z",
+      "timestamp": 1644627363000
+    },
+    "score": 72.185486,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/7298675/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "references-count": 52,
+    "URL": "https://doi.org/10.1109/cvpr.2015.7298675",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    }
+  }
+}

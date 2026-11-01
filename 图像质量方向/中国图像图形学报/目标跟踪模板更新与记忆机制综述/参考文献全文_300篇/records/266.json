@@ -1,0 +1,41 @@
+{
+  "number": 266,
+  "title": "Learning Fast and Robust Target Models for Video Object Segmentation",
+  "year": 2020,
+  "authors": [
+    "Andreas Robinson",
+    "Felix Jaremo Lawin",
+    "Martin Danelljan",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Robinson_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Robinson_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Robinson_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation_CVPR_2020_paper.pdf",
+      "bytes": 3145769,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\266_2020_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Robinson_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Robinson_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation_CVPR_2020_paper.pdf",
+  "bytes": 3145769,
+  "sha256": "d6d977ca1cfa8be91d50c63387e5f49473bc71d844e41e280cfab3a3a1e8b2b7",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning Fast and Robust Target Models for Video Object Segmentation",
+  "first_page_text": "Learning Fast and Robust Target Models for Video Object Segmentation\nAndreas Robinson1∗\nFelix J¨aremo Lawin1∗\nMartin Danelljan2\nFahad Shahbaz Khan1,3\nMichael Felsberg1\n1CVL, Link¨oping University, Sweden\n2CVL, ETH Zurich, Switzerland\n3IIAI, UAE\nAbstract\nVideo object segmentation (VOS) is a highly challeng-\ning problem since the initial mask, deﬁning the target ob-\nject, is only given at test-time.\nThe main difﬁculty is to\neffectively handle appearance changes and similar back-\nground objects, while maintaining accurate segmentation.\nMost previous approaches ﬁne-tune segmentation networks\non the ﬁrst frame, resulting in impractical frame-rates and\nrisk of overﬁtting. More recent methods integrate gener-\native target appearance models, but either achieve limited\nrobustness or require large amounts of training data.\nWe propose a novel VOS architecture consisting of two\nnetwork components. The target appearance model con-\nsists of a light-weight module, which is learned during the\ninference stage using fast optimization techniques to pre-\ndict a coarse but robust target segmentation. The segmen-\ntation model is exclusively trained ofﬂine, designed to pro-\ncess the coarse scores into high quality segmentation masks.\nOur method is fast, easily trainable and remains highly ef-\nfective in cases of limited training data. We perform ex-\ntensive experiments on the challenging YouTube-VOS and\nDAVIS datasets. Our network achieves favorable perfor-\nmance, while operating at higher frame-rates compared to\nstate-of-the-art. Code and trained models are available at\nhttps://github.com/andr345/frtm-vos.\n1. Introduction\nThe problem of video object segmentation (VOS) has a\nvariety of important applications, including object bound-\nary estimation for grasping [1, 25], autonomous driving\n[38, 40], surveillance [10, 13] and video editing [33]. The\ntask is to predict pixel-accurate masks of the region occu-\npied by a speciﬁc target object, in every frame of a given\nvideo sequence. This work focuses on the semi-supervised\nsetting, where a target ground truth mask is provided in the\nﬁrst frame. Challenges arise in dynamic environments with\nsimilar background objects and when the target undergoes\n∗Authors contributed equally.\nImage\nTarget model output\nSegmentation\nFigure 1. During inference, our target model learns to produce seg-\nmentation score maps (center) of the target. As demonstrated in\nthese examples, the target scores remain robust, despite difﬁcult\nchallenges, including distracting objects and appearance changes.\nOur segmentation network is trained to reﬁne these coarse target\nscore maps into a high-quality ﬁnal object segmentation (right).\nconsiderable appearance changes or occlusions. Success-\nful video object segmentation therefore requires both robust\nand accurate target pixel classiﬁcation.\nAiming to achieve a robust target-speciﬁc segmentation,\nseveral methods [4, 30, 36, 47] ﬁne-tune a generic segmen-\ntation network on the ﬁrst frame, given the ground-truth\nmask. Although capable of generating accurate segmen-\ntation masks under favorable circumstances, these meth-\nods suffer from low frame-rates, impractical for many real\nworld applications. Moreover, ﬁne-tuning is prone to over-\nﬁt to a single view of the scene, while degrading generic\nsegmentation functionality learned during ofﬂine training.\nThis limits performance in more challenging videos involv-\ning drastic appearance changes, occlusions and distractor\nobjects [48]. Further, the crucial ﬁne-tuning step is not in-\ncluded in the ofﬂine training stage, which therefore does not\nsimulate the full inference procedure.\nRecent works [20, 22, 33, 34, 44] address these limita-\ntions by employing internal models of the target and back-\n7406\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

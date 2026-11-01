@@ -1,0 +1,41 @@
+{
+  "number": 94,
+  "title": "Staple: Complementary Learners for Real-Time Tracking",
+  "year": 2016,
+  "authors": [
+    "Luca Bertinetto",
+    "Jack Valmadre",
+    "Stuart Golodetz",
+    "Ondrej Miksik",
+    "Philip H. S. Torr"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Bertinetto_Staple_Complementary_Learners_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Bertinetto_Staple_Complementary_Learners_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Bertinetto_Staple_Complementary_Learners_CVPR_2016_paper.pdf",
+      "bytes": 1421497,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\094_2016_Staple__Complementary_Learners_for_Real-Time_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Bertinetto_Staple_Complementary_Learners_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Bertinetto_Staple_Complementary_Learners_CVPR_2016_paper.pdf",
+  "bytes": 1421497,
+  "sha256": "fdbcac1f8955c5c39f6a359610d23c443019601598cdd2f58500865ca095e1d4",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Staple: Complementary Learners for Real-Time Tracking",
+  "first_page_text": "Staple: Complementary Learners for Real-Time Tracking\nLuca Bertinetto\nJack Valmadre\nStuart Golodetz\nOndrej Miksik\nPhilip H.S. Torr\nUniversity of Oxford\n{name.surname}@eng.ox.ac.uk\n#1\nDSST\nStaple\nDAT\n#20\n#50\n#90\n#100\n#1\ncolour histogram scores\nHOG\n#10\n#50\nFigure 1: Sometimes colour distributions are not enough to discriminate the target from the background. Conversely, template\nmodels (like HOG) depend on the spatial conﬁguration of the object and perform poorly when this changes rapidly. Our\ntracker Staple can rely on the strengths of both template and colour-based models. Like DSST [10], its performance is not\naffected by non-distinctive colours (top). Like DAT [33], it is robust to fast deformations (bottom).\nAbstract\nCorrelation Filter-based trackers have recently achieved\nexcellent performance, showing great robustness to chal-\nlenging situations exhibiting motion blur and illumination\nchanges. However, since the model that they learn depends\nstrongly on the spatial layout of the tracked object, they\nare notoriously sensitive to deformation. Models based on\ncolour statistics have complementary traits: they cope well\nwith variation in shape, but suffer when illumination is not\nconsistent throughout a sequence. Moreover, colour distri-\nbutions alone can be insufﬁciently discriminative. In this\npaper, we show that a simple tracker combining comple-\nmentary cues in a ridge regression framework can operate\nfaster than 80 FPS and outperform not only all entries in the\npopular VOT14 competition, but also recent and far more\nsophisticated trackers according to multiple benchmarks.\n1. Introduction\nWe consider the widely-adopted scenario of short-term,\nsingle-object tracking, in which the target is only speciﬁed\nin the ﬁrst frame (using a rectangle). Short-term implies\nthat re-detection should not be necessary. The key challenge\nof tracking an unfamiliar object in video is to be robust to\nchanges in its appearance. The task of tracking unfamil-\niar objects, for which training examples are not available in\nadvance, is interesting because in many situations it is not\nfeasible to obtain such a dataset. It is advantageous for the\nalgorithm to perform above real-time for computationally\nintensive applications such as robotics, surveillance, video\nprocessing and augmented reality.\nSince an object’s appearance can vary signiﬁcantly dur-\ning a video, it is not generally effective to estimate its model\nfrom the ﬁrst frame alone and use this single, ﬁxed model\nto locate the object in all other frames. Most state-of-the-\nart algorithms therefore employ model adaptation to take\nadvantage of information present in later frames. The sim-\nplest, most widespread approach is to treat the tracker’s pre-\ndictions in new frames as training data with which to update\nthe model. The danger of learning from predictions is that\nsmall errors can accumulate and cause model drift. This\nis particularly likely to happen when the appearance of the\nobject changes.\nIn this paper, we propose Staple (Sum of Template And\nPixel-wise LEarners), a tracker that combines two image\npatch representations that are sensitive to complementary\nfactors to learn a model that is inherently robust to both\ncolour changes and deformations. To maintain real-time\nspeed, we solve two independent ridge-regression prob-\nlems, exploiting the inherent structure of each representa-\ntion. Compared to other algorithms that fuse the predictions\nof multiple models, our tracker combines the scores of two\nmodels in a dense translation search, enabling greater ac-\ncuracy. A critical property of the two models is that their\nscores are similar in magnitude and indicative of their re-\nliability, so that the prediction is dominated by the more\n1401\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,341 @@
+{
+  "number": 84,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "TRIC-track: Tracking by Regression with Incrementally Learned Cascades",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          14
+        ]
+      ],
+      "date-time": "2026-09-14T12:41:29Z",
+      "timestamp": 1789389689548,
+      "version": "build-2803163510"
+    },
+    "reference-count": 27,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2015.493",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2016-02-19T23:23:49Z",
+      "timestamp": 1455924229000
+    },
+    "page": "4337-4345",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "title": [
+      "TRIC-track: Tracking by Regression with Incrementally Learned Cascades"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Xiaomeng",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michel",
+        "family": "Valstar",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brais",
+        "family": "Martinez",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muhammad Haris",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tony",
+        "family": "Pridmore",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1267351"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-16814-2_31"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.32"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0095-3"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.205"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1844",
+        "DOI": "10.1109/TPAMI.2010.205",
+        "article-title": "Robust facial feature tracking using shape-constrained multiresolution-selected linear predictors",
+        "volume": "33",
+        "author": "ong",
+        "year": "2011",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.175"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2008.4587575"
+      },
+      {
+        "key": "ref19",
+        "first-page": "1453",
+        "article-title": "Large margin methods for structured and interdependent output variables",
+        "volume": "6",
+        "author": "tsochantaridis",
+        "year": "2005",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.329"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2008.119"
+      },
+      {
+        "key": "ref3",
+        "first-page": "484",
+        "article-title": "Active appearance models",
+        "author": "cootes",
+        "year": "1998",
+        "journal-title": "Computer Vision - ECCV'98 5th European Conference on Computer Vision Freiburg Germany June 2&#x2013;6 1998 Proceedings Volume II"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-010-0364-4"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.167"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref9",
+        "first-page": "702",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "Proceedings of the 12th European Conference on Computer Vision-Volume Part VI ECCV'12"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.240"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.167"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Supervised descent method and its application to face alignment",
+        "author": "xuehan-xiong",
+        "year": "2013",
+        "journal-title": "Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.306"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383178"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.240"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Santiago, Chile",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            13
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7407725/7410356/07410850.pdf?arnumber=7410850",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2017-06-24T06:21:45Z",
+      "timestamp": 1498285305000
+    },
+    "score": 68.579,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7410850/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "references-count": 27,
+    "URL": "https://doi.org/10.1109/iccv.2015.493",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    }
+  }
+}

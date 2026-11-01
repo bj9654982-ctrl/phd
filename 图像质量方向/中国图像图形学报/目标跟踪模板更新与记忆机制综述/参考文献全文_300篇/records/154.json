@@ -1,0 +1,40 @@
+{
+  "number": 154,
+  "title": "Recurrently Target-Attending Tracking",
+  "year": 2016,
+  "authors": [
+    "Zhen Cui",
+    "Shengtao Xiao",
+    "Jiashi Feng",
+    "Shuicheng Yan"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Cui_Recurrently_Target-Attending_Tracking_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Cui_Recurrently_Target-Attending_Tracking_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Cui_Recurrently_Target-Attending_Tracking_CVPR_2016_paper.pdf",
+      "bytes": 1316777,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\154_2016_Recurrently_Target-Attending_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Cui_Recurrently_Target-Attending_Tracking_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Cui_Recurrently_Target-Attending_Tracking_CVPR_2016_paper.pdf",
+  "bytes": 1316777,
+  "sha256": "f03777aa14b248451fd7b69b27587195b75c3f271719162ea7d074986d3ebea9",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Recurrently Target-Attending Tracking",
+  "first_page_text": "Recurrently Target-Attending Tracking\nZhen Cui1, Shengtao Xiao2, Jiashi Feng2, Shuicheng Yan3,2\n1 Research Center for Learning Science, Southeast University, Nanjing 210096, China\n2 Department of Electrical and Computer Engineering, National University of Singapore, Singapore\n3 360 Artiﬁcial Intelligence Institute, Beijing, China\nzhen.cui@seu.edu.cn;{xstgavin124,jshfeng}@gmail.com;eleyans@nus.edu.sg\nAbstract\nRobust visual tracking is a challenging task in computer\nvision. Due to the accumulation and propagation of esti-\nmation error, model drifting often occurs and degrades the\ntracking performance. To mitigate this problem, in this pa-\nper we propose a novel tracking method called Recurrent-\nly Target-attending Tracking (RTT). RTT attempts to iden-\ntify and exploit those reliable parts which are beneﬁcial\nfor the overall tracking process. To bypass occlusion and\ndiscover reliable components, multi-directional Recurren-\nt Neural Networks (RNNs) are employed in RTT to capture\nlong-range contextual cues by traversing a candidate spa-\ntial region from multiple directions. The produced conﬁ-\ndence maps from the RNNs are employed to adaptively reg-\nularize the learning of discriminative correlation ﬁlters by\nsuppressing clutter background noises while making full use\nof the information from reliable parts. To solve the weighted\ncorrelation ﬁlters, we especially derive an efﬁcient closed-\nform solution with a sharp reduction in computation com-\nplexity. Extensive experiments demonstrate that our pro-\nposed RTT is more competitive over those correlation ﬁlter\nbased methods.\n1. Introduction\nVisual object tracking is a fundamental research topic in\ncomputer vision with a wide range of applications, includ-\ning video surveillance, trafﬁc monitoring, and augmented\nreality [45], etc. Despite the great progress that has been\nmade over the past decades, it remains very challenging due\nto the existing unpredictable appearance variations such as\npartial occlusion, illumination change, geometric deforma-\ntion, background clutter, fast motion, etc.\nA typical pipeline of visual tracking starts with an initial\nlocation (e.g., a rectangle bounding box) of the object in the\n* This work was performed when Zhen Cui was a Postdoctoral Fellow\nat National University of Singapore.\nﬁrst video frame, and then the location of the speciﬁed tar-\nget in the subsequent frames is predicted. Among the exist-\ning tracking works, recent part-based methods [1, 35, 7, 31]\nhave been studied actively due to their robustness to local\nappearance variations, particularly partial occlusion.\nBy\npartitioning the candidate region of the tracking target in-\nto several parts, part-based methods attempt to extract some\nuseful cues from those identiﬁed reliable parts. For exam-\nple, Kwon et al. [26] used the topology structure of lo-\ncal patches to ﬁnd those reliable parts. Zhang et al. [46]\nemployed a locality-constrained low-rank and sparse prior\nto establish correspondences between parts across frames.\nMore recently, Liu et al. [31] proposed to learn one response\nfunction for each part, and integrated response maps of all\nparts to generate the ﬁnal tracking conﬁdence. However,\nthose methods might suffer from some difﬁculties in cap-\nturing large-range spatial dependencies between parts, es-\npecially for those objects with a large homogenous region.\nIn addition to the above methods, many holistic track-\ning methods have also been developed. In particular, cor-\nrelation ﬁlter (CF) based methods [4, 11, 13, 28, 33, 23]\narouse increasing interest due to their excellent efﬁciency\nand robustness. CF based methods usually learn a group\nof correlation ﬁlters, which produce correlation peaks for\nthe targets in the scene and meanwhile yield low respons-\nes to background regions. The correlation ﬁlters are trained\nby scanning the candidate regions using a circular sliding\nwindow. As they adopt the holistically convolutional repre-\nsentation, the whole candidate region is identically treated\nwithout any identiﬁcation during training. This might pro-\nduce inaccurate ﬁlters which cause the learnt tracker to drift\naway from its correct trajectory, especially when the candi-\ndate region embodies cluttered background.\nTo address the above problems, we propose a novel\ntracking method called Recurrently Target-attending Track-\ning (RTT), which attempts to identify and exploit those reli-\nable parts throughout the process of model learning. To dis-\ncover reliable components, RTT employs multi-directional\nRecurrent Neural Networks (RNNs) to spatially encode all\n4321\n1449\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

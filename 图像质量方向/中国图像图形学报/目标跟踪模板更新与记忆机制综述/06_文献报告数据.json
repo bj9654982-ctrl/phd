@@ -1,0 +1,62 @@
+[
+  {
+    "source": "STMTrack CVPR2021 Table4",
+    "variable": "reference_frames",
+    "settings": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8",
+      "ALL"
+    ],
+    "dataset": "TrackingNet",
+    "AUC_percent": [
+      79.1,
+      79.3,
+      80.2,
+      80.3,
+      80.2,
+      79.8
+    ],
+    "FPS": [
+      43,
+      26.6,
+      29.3,
+      28.6,
+      22.7,
+      6.5
+    ],
+    "reproduced": false
+  },
+  {
+    "source": "HIPTrack CVPR2024 supplementary Table3",
+    "variable": "update_interval",
+    "settings": [
+      5,
+      10,
+      20,
+      30
+    ],
+    "dataset": "LaSOT",
+    "AUC_percent": [
+      72.7,
+      72.7,
+      72.7,
+      72.6
+    ],
+    "PNorm_percent": [
+      82.9,
+      82.9,
+      82.9,
+      82.5
+    ],
+    "P_percent": [
+      79.5,
+      79.5,
+      79.5,
+      79
+    ],
+    "reproduced": false
+  }
+]

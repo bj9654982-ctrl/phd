@@ -1,0 +1,40 @@
+{
+  "number": 44,
+  "title": "Accurate Scale Estimation for Robust Visual Tracking",
+  "year": 2014,
+  "authors": [
+    "Martin Danelljan",
+    "Gustav Häger",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg"
+  ],
+  "venue": "Proceedings of the British Machine Vision Conference 2014",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://doi.org/10.5244/C.28.65",
+  "doi": "10.5244/C.28.65",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://bmva-archive.org.uk/bmvc/2014/files/paper038.pdf",
+      "final_url": "https://bmva-archive.org.uk/bmvc/2014/files/paper038.pdf",
+      "bytes": 2549653,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\044_2014_Accurate_Scale_Estimation_for_Robust_Visual_Tracking.pdf",
+  "download_url": "https://bmva-archive.org.uk/bmvc/2014/files/paper038.pdf",
+  "requested_url": "https://bmva-archive.org.uk/bmvc/2014/files/paper038.pdf",
+  "bytes": 2549653,
+  "sha256": "e2813612e80f6985a37f97ac4b7bc41e63b787829347d7ca923518142e21d7c3",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 11,
+  "pdf_title": "",
+  "first_page_text": "DANELLJAN et al.: ACCURATE SCALE ESTIMATION FOR ROBUST VISUAL TRACKING\n1\nAccurate Scale Estimation for\nRobust Visual Tracking\nMartin Danelljan\nmartin.danelljan@liu.se\nGustav Häger\nhager.gustav@gmail.com\nFahad Shahbaz Khan\nfahad.khan@liu.se\nMichael Felsberg\nmichael.felsberg@liu.se\nComputer Vision Laboratory\nDepartment of Electrical Engineering\nLinköping University\nLinköping, Sweden\nAbstract\nRobust scale estimation is a challenging problem in visual object tracking. Most\nexisting methods fail to handle large scale variations in complex image sequences. This\npaper presents a novel approach for robust scale estimation in a tracking-by-detection\nframework. The proposed approach works by learning discriminative correlation ﬁlters\nbased on a scale pyramid representation. We learn separate ﬁlters for translation and\nscale estimation, and show that this improves the performance compared to an exhaustive\nscale search. Our scale estimation approach is generic as it can be incorporated into any\ntracking method with no inherent scale estimation.\nExperiments are performed on 28 benchmark sequences with signiﬁcant scale vari-\nations. Our results show that the proposed approach signiﬁcantly improves the perfor-\nmance by 18.8% in median distance precision compared to our baseline. Finally, we\nprovide both quantitative and qualitative comparison of our approach with state-of-the-\nart trackers in literature. The proposed method is shown to outperform the best existing\ntracker by 16.6% in median distance precision, while operating at real-time.\n1\nIntroduction\nVisual object tracking is a popular problem in computer vision. The problem involves esti-\nmating the location of a visual target in each frame of an image sequence. Despite signiﬁcant\nprogress in recent years, the problem is still difﬁcult due to factors such as partial occlusion,\ndeformation, motion blur, fast motion, illumination variation, background clutter and scale\nvariations. Most existing approaches provide inferior performance when encountered with\nlarge scale variations in complex image sequences. In this paper, we tackle the challenging\nproblem of scale estimation for visual tracking.\nIn recent years, tracking-by-detection methods [3, 9, 11, 19] have shown to provide ex-\ncellent tracking performance. These approaches work by posing the task of target localiza-\ntion as a classiﬁcation problem. The decision boundary is obtained by learning a discrimina-\ntive classiﬁer online using image patches from both the target and the background. Recently,\nc⃝2014. The copyright of this document resides with its authors.\nIt may be distributed unchanged freely in print or electronic forms.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

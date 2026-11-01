@@ -1,0 +1,46 @@
+{
+  "number": 253,
+  "title": "XTrack: Multimodal Training Boosts RGB-X Video Object Trackers",
+  "year": 2025,
+  "authors": [
+    "Yuedong Tan",
+    "Zongwei Wu",
+    "Yuqian Fu",
+    "Zhuyun Zhou",
+    "Guolei Sun",
+    "Eduard Zamfir",
+    "Chao Ma",
+    "Danda Paudel",
+    "Luc Van Gool",
+    "Radu Timofte"
+  ],
+  "venue": "ICCV",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Tan_XTrack_Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers_ICCV_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_XTrack_Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers_ICCV_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_XTrack_Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers_ICCV_2025_paper.pdf",
+      "bytes": 1416688,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\253_2025_XTrack__Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_XTrack_Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers_ICCV_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_XTrack_Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers_ICCV_2025_paper.pdf",
+  "bytes": 1416688,
+  "sha256": "c5ac24bad587ed6a4b97081af48258bc2ed6a27eda9afde5c20c7b151678a579",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "XTrack: Multimodal Training Boosts RGB-X Video Object Trackers",
+  "first_page_text": "XTrack: Multimodal Training Boosts RGB-X Video Object Trackers\nYuedong Tan1,2\nZongwei Wu1∗\nYuqian Fu2\nZhuyun Zhou1\nGuolei Sun4\nEduard Zamfir 1\nChao Ma3\nDanda Paudel2\nLuc Van Gool2,4\nRadu Timofte1\n1 Computer Vision Lab, CAIDAS & IFI, University of Wurzburg\n2 INSAIT, Sofia University\n3 AI Institute, Shanghai Jiao Tong University\n4 CVL, ETH Zurich\nAbstract\nMultimodal sensing has proven valuable for visual track-\ning, as different sensor types offer unique strengths in han-\ndling one specific challenging scene where object appear-\nance varies. While a generalist model capable of leverag-\ning all modalities would be ideal, development is hindered\nby data sparsity, typically in practice, only one modality\nis available at a time. Therefore, it is crucial to ensure\nand achieve that knowledge gained from multimodal sens-\ning – such as identifying relevant features and regions –\nis effectively shared, even when certain modalities are un-\navailable at inference. We venture with a simple assump-\ntion: similar samples across different modalities have more\nknowledge to share than otherwise. To implement this, we\nemploy a classifier with weak loss tasked with distinguish-\ning between modalities. More specifically, if the classifier\n“fails” to accurately identify the modality of the given sam-\nple, this signals an opportunity for cross-modal knowledge\nsharing. Intuitively, knowledge transfer is facilitated when-\never a sample from one modality is sufficiently close and\naligned with another. Technically, we achieve this by rout-\ning samples from one modality to the expert of the others,\nwithin a mixture-of-experts framework designed for multi-\nmodal video object tracking. During the inference, the ex-\npert of the respective modality is chosen, which we show\nto benefit from the multimodal knowledge available dur-\ning training, thanks to the proposed method. Through the\nexhaustive experiments that use only paired RGB-E, RGB-\nD, and RGB-T during training, we showcase the benefit\nof the proposed method for RGB-X tracker during infer-\nence, with an average +3% precision improvement over\nthe current SOTA. The source code is publicly available at\nhttps://github.com/supertyd/XTrack.\n1. Introduction\nVisual object tracking has made significant progress, driven\nby recent advancements in deep learning [4–6].\nWhile\nRGB-based trackers have demonstrated strong, generaliz-\nEvent\nThermal\nDepth\n(a) Conventional Single Modal Training for VOT\nClass\nPrior on Input Type\nAppearance\nEvent\nEvent\nThermal\nDepth\n(b) Ours with Cross Modal Knowledge Sharing\nEvent\nRouter\nClassifier\nExperts\nFigure 1. Motivation: (a) Existing tracking methods typically ad-\ndress each modality in isolation, tackling one appearance-related\nchallenge at a time. This is mainly due to cross-modal domain\ngaps and the lack of a comprehensive multimodal dataset. Conse-\nquently, only modality-specific branches are activated during in-\nference based on a priori knowledge of the input type, limiting\nthe potential for cross-modal integration. (b) We leverage Mixture\nof Experts to achieve such knowledge sharing. This is made pos-\nsible by integrating a weak auxiliary classification loss, which is\nachieved for the first time for an RGB-X tracker.\nable performance [5, 12, 33, 47], they still struggle with\nlarge appearance changes under challenging scenes [11, 20,\n38]. Additional sensory input can enhance robustness in\nthese scenarios, with each sensor addressing a specific chal-\nlenge — such as Event cameras[46, 58] for motion aware-\nness, depth sensors[68] for occlusion handling, and ther-\nmal imaging[28] for illumination variation — leading to in-\ncreasing interest in multimodal object tracking [30, 53, 66].\nHowever, current advances in multimodal tracking are\n*Corresponding\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n5734\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

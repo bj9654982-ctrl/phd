@@ -1,0 +1,38 @@
+{
+  "number": 70,
+  "title": "Visual Tracking via Probability Continuous Outlier Model",
+  "year": 2014,
+  "authors": [
+    "Dong Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Wang_Visual_Tracking_via_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Wang_Visual_Tracking_via_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Wang_Visual_Tracking_via_2014_CVPR_paper.pdf",
+      "bytes": 2273586,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\070_2014_Visual_Tracking_via_Probability_Continuous_Outlier_Model.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Wang_Visual_Tracking_via_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Wang_Visual_Tracking_via_2014_CVPR_paper.pdf",
+  "bytes": 2273586,
+  "sha256": "a89122fe27a7b80d43a909cd4d4a1094e02f1fcf614058a964af71e36af49e46",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Visual Tracking via Probability Continuous Outlier Model",
+  "first_page_text": "Visual Tracking via Probability Continuous Outlier Model\nDong Wang\nDalian University of Technology, Dalian, China\nwdice@dlut.edu.cn\nwangdong.ice@gmail.com\nHuchuan Lu\nDalian University of Technology, Dalian, China\nlhchuan@dlut.edu.cn\nluhuchuan@gmail.com\nAbstract\nIn this paper, we present a novel online visual tracking\nmethod based on linear representation. First, we present\na novel probability continuous outlier model (PCOM) to\ndepict the continuous outliers that occur in the linear rep-\nresentation model. In the proposed model, the element of\nthe noisy observation sample can be either represented by\na PCA subspace with small Guassian noise or treated as\nan arbitrary value with a uniform prior, in which the spatial\nconsistency prior is exploited by using a binary Markov ran-\ndom ﬁeld model. Then, we derive the objective function of\nthe PCOM method, the solution of which can be iteratively\nobtained by the outlier-free least squares and standard max-\nﬂow/min-cut steps. Finally, based on the proposed PCOM\nmethod, we design an effective observation likelihood func-\ntion and a simple update scheme for visual tracking. Both\nqualitative and quantitative evaluations demonstrate that\nour tracker achieves very favorable performance in terms\nof both accuracy and speed.\n1. Introduction\nAs one of the fundamental topics in computer vision,\nvisual tracking plays a key role in numerous lines of re-\nsearch and has many practical applications such as video\nsurveillance, human computer interaction, trafﬁc control,\nmotion analysis, activity analysis, driver assistance system\nand so on. While much work has been done [26] in the\npast decades, designing a robust tracking algorithm remains\na challenging task due to numerous factors including illu-\nmination variation, partial occlusion, pose change, motion\nblur, background clutter, and many more. A typical track-\ning system includes two basic components: (1) a motion\nmodel, which relates the states of an object over time and\nsupplies the tracker with a number of candidate states (e.g.,\nKalman ﬁlter [6], particle ﬁlter [16]) ; (2) an observation\nmodel, which represents the tracked object and evaluates\nthe likelihood of each candidate state in the current frame.\nIn this paper, we focus on developing an effective observa-\ntion model due to its crucial role for visual tracking.\nExisting observation models can be categorized into\nmethods based on templates (e.g., [1, 14]), online classi-\nﬁers (e.g., [2, 12]), linear representation models (e.g., [19,\n18, 24, 23]) and so on. In the template-based algorithms,\nthe tracked object is described by one single template [6] or\nmultiple templates [14]. Then the tracking problem can be\nconsidered as searching for the regions which are the most\nsimilar to the tracked object. The trackers based on online\nclassiﬁers treat tracking as a binary classiﬁcation problem,\nwhich aims to distinguish the tracked targets from its sur-\nrounding backgrounds. Both classic and recent machine\nlearning algorithms could promote the progress of tracking\nalgorithms or systems, including boosting [9], support vec-\ntor machines [21], naive bayes [27], random forests [20],\nmultiple instance learning [2], matting [7] and so on. In\nthis work, we propose a fast and effective generative tracker\nbased on the linear representation model, which is able to\ndeal with continuous outliers and therefore provides an ac-\ncurate match effectively.\nInstead of representing the tracked object as a collection\nof low-level features, the linear representation models main-\ntain holistic appearance information and therefore provide a\ncompact notion of the “thing” being tracked [19, 18]. Ross\net al. [19] propose an incremental visual tracking (IVT)\nmethod, which represents the tracked object by using a low\ndimensional principle component analysis (PCA) [22] sub-\nspace and assumes that the representation error is Gaussian\ndistributed with small variances. Although the IVT method\nis robust to illumination and pose changes, it is very sensi-\ntive to partial occlusion and background clutter. The under-\nlying reason is the noise term cannot be modeled with small\nvariances when some outlier occurs.\nInspired by the idea of sparse representation [25], Mei\net al. develop a novel ℓ1 tracker [18], which uses a se-\nries of object and trivial templates to represent the tracked\nobject. In the ℓ1 tracker, object templates are used to de-\nscribe the object class to be tracked and trivial templates are\nadopted to deal with outliers (e.g., partial occlusion) with\nsparsity constraints. Furthermore, several methods improve\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

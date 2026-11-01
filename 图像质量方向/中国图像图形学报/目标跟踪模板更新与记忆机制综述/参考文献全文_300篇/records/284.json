@@ -1,0 +1,45 @@
+{
+  "number": 284,
+  "title": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+  "year": 2025,
+  "authors": [
+    "Shuangrui Ding",
+    "Rui Qian",
+    "Xiaoyi Dong",
+    "Pan Zhang",
+    "Yuhang Zang",
+    "Yuhang Cao",
+    "Yuwei Guo",
+    "Dahua Lin",
+    "Jiaqi Wang"
+  ],
+  "venue": "ICCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Ding_SAM2Long_Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_ICCV_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ding_SAM2Long_Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_ICCV_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ding_SAM2Long_Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_ICCV_2025_paper.pdf",
+      "bytes": 4559692,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\284_2025_SAM2Long__Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_Training-Free_Mem.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ding_SAM2Long_Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_ICCV_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Ding_SAM2Long_Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_ICCV_2025_paper.pdf",
+  "bytes": 4559692,
+  "sha256": "5d29bb08ee513de9d62389c226f6557260a01f2ded438ed9d7ca353dd2bfd0c4",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+  "first_page_text": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation\nwith a Training-Free Memory Tree\nShuangrui Ding1 Rui Qian1 Xiaoyi Dong1,2* Pan Zhang2\nYuhang Zang2 Yuhang Cao2 Yuwei Guo1 Dahua Lin1,2,3 Jiaqi Wang2*\n1 The Chinese University of Hong Kong 2 Shanghai AI Laboratory 3 CPII under InnoHK\nhttps://mark12ding.github.io/project/SAM2Long/\nAbstract\nThe Segment Anything Model 2 (SAM 2) has emerged as\na powerful foundation model for object segmentation in\nboth images and videos. The crucial design of SAM 2 for\nvideo segmentation is its memory module, which prompts\nobject-aware memories from previous frames for current\nframe prediction. However, its greedy-selection memory de-\nsign suffers from the “error accumulation” problem, where\nan errored or missed mask will cascade and influence the\nsegmentation of the subsequent frames, which limits the per-\nformance of SAM 2 toward complex long-term videos. To\nthis end, we introduce SAM2Long, an improved training-\nfree video object segmentation strategy, which considers the\nsegmentation uncertainty within each frame and chooses\nthe video-level optimal results from multiple segmentation\npathways in a constrained tree search manner. In prac-\ntice, we maintain a fixed number of segmentation pathways\nthroughout the video. For each frame, multiple masks are\nproposed based on the existing pathways, creating various\ncandidate branches. We then select the same fixed number\nof branches with higher cumulative scores as the new path-\nways for the next frame. After processing the final frame,\nthe pathway with the highest cumulative score is chosen as\nthe final segmentation result. Benefiting from its heuristic\nsearch design, SAM2Long is robust toward occlusions and\nobject reappearances, and can effectively segment and track\nobjects for complex long-term videos. Without further train-\ning, SAM2Long significantly and consistently outperforms\nSAM 2 on nine VOS benchmarks and three VOT benchmarks.\nNotably, SAM2Long achieves an average improvement of 3.7\npoints across all 12 direct comparisons, with gains of up to\n5.3 points in J &F on long-term video object segmentation\nbenchmarks such as SA-V and LVOS. The code is released at\nhttps://github.com/Mark12Ding/SAM2Long.\n*Corresponding Author.\n1. Introduction\nThe Segment Anything Model 2 (SAM 2) has gained signif-\nicant attention as a unified foundational model for prompt-\nable object segmentation in both images and videos. No-\ntably, SAM 2 [50] has achieved state-of-the-art performance\nacross various video object segmentation tasks, significantly\nsurpassing previous methods. Building upon the original\nSAM [33], SAM 2 incorporates a memory module that en-\nables it to generate masklet predictions using stored memory\ncontexts from previously observed frames. This module\nallows SAM 2 to seamlessly extend SAM into the video do-\nmain, processing video frames sequentially, attending to the\nprior memories of the target object, and maintaining object\ncoherence over time.\nWhile SAM 2 demonstrates strong performance in video\nsegmentation and downstream tasks [25], its greedy segmen-\ntation strategy struggles to handle complex video scenarios\nwith frequent occlusions and object reappearance. In detail,\nSAM 2 confidently and accurately segments frames when\nclear visual cues are present. However, in scenarios with\nocclusions or reappearing objects, it can produce mask pro-\nposals that are highly variable and uncertain. Regardless of\nthe frame’s complexity, a uniform greedy selection strategy\nis applied to both scenarios: the mask with the highest pre-\ndicted IoU is selected. Such greedy choice works well for\nthe easy cases but raises the error potential for the challeng-\ning frames. Once an incorrect mask is selected into memory,\nit is uncorrectable and will mislead the segmentation of the\nsubsequent frames. Figure 1 illustrates the problem of “error\naccumulation” both qualitatively and quantitatively. The per-\nformance of SAM 2 gradually declines as the propagation\nprogresses into later temporal segments, underscoring its\nlimitations in keeping accurate tracking over time.\nTo this end, we redesign the memory module of SAM 2\nto enhance its long-term capability and robustness against\nocclusions and error propagation. Our approach is motivated\nby the observation that the SAM 2 mask decoder gener-\nates multiple diverse masks, accompanied by predicted IoU\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13614\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

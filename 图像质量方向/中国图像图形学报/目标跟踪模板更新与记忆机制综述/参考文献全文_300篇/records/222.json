@@ -1,0 +1,41 @@
+{
+  "number": 222,
+  "title": "Unsupervised Domain Adaptation for Nighttime Aerial Tracking",
+  "year": 2022,
+  "authors": [
+    "Junjie Ye",
+    "Changhong Fu",
+    "Guangze Zheng",
+    "Danda Pani Paudel",
+    "Guang Chen"
+  ],
+  "venue": "CVPR",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Ye_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ye_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ye_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking_CVPR_2022_paper.pdf",
+      "bytes": 4637090,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\222_2022_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ye_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ye_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking_CVPR_2022_paper.pdf",
+  "bytes": 4637090,
+  "sha256": "4780c6fc780ef020d3ce0f639e767c7ee4452def95bd2ac0da26fb7fb1c9ba7f",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Unsupervised Domain Adaptation for Nighttime Aerial Tracking",
+  "first_page_text": "Unsupervised Domain Adaptation for Nighttime Aerial Tracking\nJunjie Ye†, Changhong Fu†,*, Guangze Zheng†, Danda Pani Paudel‡, and Guang Chen†\n†Tongji University, China\n‡ETH Z¨urich, Switzerland\n{ye.jun.jie, changhongfu, mmlp, guangchen}@tongji.edu.cn, paudel@vision.ee.ethz.ch\nAbstract\nPrevious advances in object tracking mostly reported on\nfavorable illumination circumstances while neglecting per-\nformance at nighttime, which signiﬁcantly impeded the de-\nvelopment of related aerial robot applications. This work\ninstead develops a novel unsupervised domain adaptation\nframework for nighttime aerial tracking (named UDAT).\nSpeciﬁcally, a unique object discovery approach is provided\nto generate training patches from raw nighttime tracking\nvideos.\nTo tackle the domain discrepancy, we employ a\nTransformer-based bridging layer post to the feature ex-\ntractor to align image features from both domains. With\na Transformer day/night feature discriminator, the day-\ntime tracking model is adversarially trained to track at\nnight.\nMoreover, we construct a pioneering benchmark\nnamely NAT2021 for unsupervised domain adaptive night-\ntime tracking, which comprises a test set of 180 manually\nannotated tracking sequences and a train set of over 276k\nunlabelled nighttime tracking frames. Exhaustive experi-\nments demonstrate the robustness and domain adaptabil-\nity of the proposed framework in nighttime aerial track-\ning. The code and benchmark are available at https:\n//github.com/vision4robotics/UDAT.\n1. Introduction\nStanding as one of the fundamental tasks in computer\nvision, object tracking has received widespread attention\nwith multifarious aerial robot applications, e.g., unmanned\naerial vehicle (UAV) self-localization [49], target follow-\ning [25], and aerial cinematography [2]. Driven by large-\nscale datasets [10,17,32] with the supervision of meticulous\nmanual annotations, emerging deep trackers [4, 8, 14, 22]\nkeep setting state-of-the-arts (SOTAs) in recent years.\nDespite the advances, whether current benchmarks or\napproaches are proposed for object tracking under favor-\nable illumination conditions. In contrast to daytime, images\ncaptured at night have low contrast, brightness, and signal-\n*Corresponding author\n#959\n#1782\n#1856\n#16\n#323\n#815\nUDAT-CAR\nUDAT-BAN\nSiamCAR\nSiamBAN\n#102\n#64\n#86\nTarget object\n(a) Qualitative comparison in typical night scenes.\n0.34\n0.36\n0.38\n0.40\n0.42\n0.44\n0.46\n0.48\nSuccess rate\n0.40\n0.42\n0.44\n0.46\n0.48\n0.50\n0.52\n0.54\n0.56\nNormalized precision\nOverall performance on NAT2021 -test\nUDAT-CAR  (Ours)\nUDAT-BAN  (Ours)\nSiamCAR (CVPR2020)\nSiamBAN (CVPR2020)\nHiFT (ICCV2021)\nLUDTplus (IJCV2021)\nLUDT (IJCV2021)\nSiamAPN (ICRA2021)\nD3S (CVPR2020)\nSiamFC++ (AAAI2020)\nOcean (ECCV2020)\nUpdateNet (ICCV2019)\nSiamRPN++ (CVPR2019)\nSiamDW (CVPR2019)\nDaSiamRPN (ECCV2018)\n(b) Overall performance comparison on NAT2021-test.\nFigure 1. (a) Qualitative comparison of the proposed unsupervised\ndomain adaptive trackers (i.e., UDAT-CAR and UDAT-BAN) and\ntheir baselines [8, 14].\n(b) Overall performance of SOTA ap-\nproaches on the constructed NAT2021-test benchmark. The pro-\nposed UDAT effectively adapts general trackers to nighttime aerial\ntracking scenes and yields favorable performance.\nto-noise ratio (SNR). These differences cause the discrep-\nancy in feature distribution of day/night images. Due to the\ncross-domain discrepancy, current SOTA trackers general-\nize badly to nighttime scenes [48, 50], which severely im-\npedes the broadening of relevant aerial robot applications.\nRegarding such domain gap and the performance drop,\nthis work aims to address the cross-domain object tracking\nproblem. In particular, we target adapting SOTA tracking\nmodels in daytime general conditions to nighttime aerial\nperspectives. One possible straightforward solution is to\ncollect and annotate adequate target domain data for train-\ning. Nevertheless, such a non-trivial workload is expensive\nand time-consuming, since backbones’ pre-training alone\ngenerally takes millions of high-quality images [9].\nWe\n8896\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,39 @@
+{
+  "number": 71,
+  "title": "Discriminative Low-Rank Tracking",
+  "year": 2015,
+  "authors": [
+    "Yao Sui",
+    "Yafei Tang",
+    "Li Zhang"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Sui_Discriminative_Low-Rank_Tracking_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Sui_Discriminative_Low-Rank_Tracking_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Sui_Discriminative_Low-Rank_Tracking_ICCV_2015_paper.pdf",
+      "bytes": 1355329,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\071_2015_Discriminative_Low-Rank_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Sui_Discriminative_Low-Rank_Tracking_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Sui_Discriminative_Low-Rank_Tracking_ICCV_2015_paper.pdf",
+  "bytes": 1355329,
+  "sha256": "b49096ff59fa02a861bc1b8872d310a5ba7c58ab51381334d980166801826457",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Discriminative Low-Rank Tracking",
+  "first_page_text": "Discriminative Low-Rank Tracking\nYao Sui, Yafei Tang, Li Zhang\nDepartment of Electronic Engineering, Tsinghua University, Beijing 100084, China\nsuiyao@gmail.com, tangyf24@chinaunicom.cn, chinazhangli@tsinghua.edu.cn\nAbstract\nGood tracking performance is in general attributed to\naccurate representation over previously obtained targets\nor reliable discrimination between the target and the sur-\nrounding background. In this work, we exploit the advan-\ntages of the both approaches to achieve a robust track-\ner.\nWe construct a subspace to represent the target and\nthe neighboring background, and simultaneously propagate\ntheir class labels via the learned subspace. Moreover, we\npropose a novel criterion to identify the target from numer-\nous target candidates on each frame, which takes into ac-\ncount both discrimination reliability and representation ac-\ncuracy. In addition, with the proposed criterion, the ambi-\nguity in the class labels of the neighboring background sam-\nples, which often inﬂuences the reliability of discriminative\ntracking model, is effectively alleviated, while the training\nset is still kept small. Extensive experiments demonstrate\nthat our tracker performs favourably against many other\nstate-of-the-art trackers.\n1. Introduction\nVisual tracking plays an important role in computer vi-\nsion for its various practical applications, e.g., video surveil-\nlance, human-machine interface and robotics. The funda-\nmental task of visual tracking is to estimate the motion s-\ntates of the target on each frame, given an initial state. In\ngeneral, tracking models can be viewed as either genera-\ntive or discriminative. Generative model focuses on ﬁnding\na region of interest (ROI) in the frame image as the tar-\nget, which best matches a learned target appearance mod-\nel, while discriminative model trains a binary classiﬁer to\ndistinguish the target from background.\nCurrent studies\nhave shown that discriminative model achieves better per-\nformance if the size of training set is sufﬁciently large [15],\nand that generative model can obtain higher generalization\nwhen only a limited number of training samples are avail-\nable [22]. In the pursuit of precise tracking results, we may\nprefer discriminative model if we can acquire a sufﬁciently\nlarge number of training samples. However, it is unpracti-\n(a)\n(b)\n(c)\nFigure 1. Illustration of the discriminative low-rank learning. (a) A\nnumber of original samples belonging to two classes in the three-\ndimensional observation space. (b) The samples projected into the\nlearned two-dimensional subspace. (c) The samples reconstructed\nover the learned subspace, which are also successfully separated\nbetween the two classes by the learned classiﬁer.\ncal to obtain so many training samples. Even we can acquire\nthese samples, considering the time-sensitive nature of vi-\nsual tracking, the training cost over these samples is also\nunacceptably expensive.\nIn this work, we aim to utilize the good generalization\ncapability of generative model, and augment it with dis-\ncriminative capability, in order to achieve improved track-\ning performance. Thus, our tracking model is both genera-\ntive and discriminative. We choose two simple but very ef-\nfective methods for our model: subspace learning and linear\nclassiﬁcation. Joint learning [26, 25, 19] is used to construc-\nt this model, i.e., we construct a subspace to represent the\ntarget and background, and simultaneously propagate their\nclass labels by a linear classiﬁer. This assigns both repre-\nsentation and discrimination capabilities to the learned sub-\nspace: the target and background can be accurately repre-\nsented (reconstructed) by the learned subspace, and simul-\ntaneously their reconstructions over this subspace can also\nbe reliably distinguished by the linear classiﬁer. In brief,\nwe intend to construct such a subspace, the discriminative\nsubspace, over which the reconstructed samples are linearly\nseparable. The basic idea of our method, called the discrim-\ninative low-rank learning, is illustrated in Fig. 1. With the\nchoices for our tracking model, we are still facing several\nproblems addressed as follows.\n3002\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

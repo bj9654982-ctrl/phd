@@ -1,0 +1,42 @@
+{
+  "number": 107,
+  "title": "Multi-Cue Correlation Filters for Robust Visual Tracking",
+  "year": 2018,
+  "authors": [
+    "Ning Wang",
+    "Wengang Zhou",
+    "Qi Tian",
+    "Richang Hong",
+    "Meng Wang",
+    "Houqiang Li"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Multi-Cue_Correlation_Filters_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Multi-Cue_Correlation_Filters_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Multi-Cue_Correlation_Filters_CVPR_2018_paper.pdf",
+      "bytes": 1587269,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\107_2018_Multi-Cue_Correlation_Filters_for_Robust_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Multi-Cue_Correlation_Filters_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Multi-Cue_Correlation_Filters_CVPR_2018_paper.pdf",
+  "bytes": 1587269,
+  "sha256": "2f3ac747ed6eedbfab0c9b7488a70054272c36960b0a8c9c45af84458263535e",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Multi-Cue Correlation Filters for Robust Visual Tracking",
+  "first_page_text": "Multi-Cue Correlation Filters for Robust Visual Tracking\nNing Wang1, Wengang Zhou1, Qi Tian2, Richang Hong3, Meng Wang3, Houqiang Li1\n1CAS Key Laboratory of GIPAS, University of Science and Technology of China\n2University of Texas at San Antonio\n3HeFei University of Technology\nwn6149@mail.ustc.edu.cn, {zhwg,lihq}@ustc.edu.cn, qi.tian@utsa.edu, {hongrc,wangmeng}@hfut.edu.cn\nAbstract\nIn recent years, many tracking algorithms achieve im-\npressive performance via fusing multiple types of features,\nhowever, most of them fail to fully explore the context among\nthe adopted multiple features and the strength of them. In\nthis paper, we propose an efﬁcient multi-cue analysis frame-\nwork for robust visual tracking.\nBy combining differen-\nt types of features, our approach constructs multiple ex-\nperts through Discriminative Correlation Filter (DCF) and\neach of them tracks the target independently. With the pro-\nposed robustness evaluation strategy, the suitable expert is\nselected for tracking in each frame. Furthermore, the di-\nvergence of multiple experts reveals the reliability of the\ncurrent tracking, which is quantiﬁed to update the experts\nadaptively to keep them from corruption.\nThrough the proposed multi-cue analysis, our tracker\nwith standard DCF and deep features achieves outstand-\ning results on several challenging benchmarks: OTB-2013,\nOTB-2015, Temple-Color and VOT 2016.\nOn the other\nhand, when evaluated with only simple hand-crafted fea-\ntures, our method demonstrates comparable performance\namongst complex non-realtime trackers, but exhibits much\nbetter efﬁciency, with a speed of 45 FPS on a CPU.\n1. Introduction\nVisual tracking is a fundamental task in computer vision\nwith a wide range of applications. It is challenging since\nonly the initial state of the target is available. Although\nsubstantial progress has been made in the past decades\n[52, 16, 35], there still remain many challenges [49].\nIn recent years, Discriminative Correlation Filter (DCF)\nbased tracking methods [4, 16] have gained much atten-\ntion thanks to their impressive performance as well as high\nspeed. In DCF based trackers, the ﬁlter is trained through\nminimizing a least-squares loss for all circular shifts of a\ntraining sample. Since the correlation operation can be cal-\nculated in Fourier domain, DCF shows the advantage of\nhigh computational efﬁciency. Its performance is further\n(a) Biker\n(f) MotorRolling\n(d) Shaking\n(e) Singer2\nMCCT\nC-COT\nDeepSRDCF\nSRDCF\n(b) Box\n(c) Diving\nFigure 1. Comparison of the proposed algorithm (MCCT) with\nthe state-of-the-art trackers: SRDCF [12], DeepSRDCF [11] and\nC-COT [13]. These trackers adopt various types of features and\nperform differently in challenging scenes. Our method maintain-\ns multiple cues for tracking and performs favorably against these\ntrackers. All the videos are from OTB-2015 [48].\nenhanced by using multi-dimensional features [16, 26, 31],\npart-based strategies [29, 28], adaptive scale [9, 26], long-\nterm framework [32, 17, 45], end-to-end learning [41, 40]\nand improved ﬁlter training methods [20, 30, 33, 14]. Spe-\ncially, the combination of DCF and features from deep con-\nvolutional neural networks (CNNs) [23, 39] has demonstrat-\ned state-of-the-art results. Recently, Ma et al. [31] propose\na HCF algorithm, which constructs multiple DCFs on low,\nmiddle and high-level features to capture both spatial detail-\ns and semantics. It predicts the target location using multi-\nlevel DCF response maps in a coarse-to-ﬁne fashion.\nAlthough feature-level fusion methods [26, 31, 38] have\nbeen widely used or extended to boost the performance,\nthere still leaves room for improvement. In HCF [31] or\nother methods [56, 38] that follow such a fusion strategy,\nthe initial weight of high-level features is usually high such\nthat semantic features play the dominant role in general. It\nis reasonable because of better effectiveness of high-level\nfeatures compared to shallow features. However, due to the\noccasional misguidance of the semantic information, a tran-\nsient drift or wrong prediction may be ampliﬁed by the in-\nadequate online update. Therefore, the feature-level fusion\n4844\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

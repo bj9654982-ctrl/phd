@@ -1,0 +1,468 @@
+{
+  "number": 212,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Context-Aware Deep Feature Compression for High-Speed Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2026-06-05T21:38:00Z",
+      "timestamp": 1780695480697,
+      "version": "3.54.1"
+    },
+    "reference-count": 43,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2018.00057",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2018-12-18T01:49:37Z",
+      "timestamp": 1545097777000
+    },
+    "page": "479-488",
+    "source": "Crossref",
+    "is-referenced-by-count": 181,
+    "title": [
+      "Context-Aware Deep Feature Compression for High-Speed Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Jongwon",
+        "family": "Choi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hyung Jin",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tobias",
+        "family": "Fischer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sangdoo",
+        "family": "Yun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kyuewang",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiyeoup",
+        "family": "Jeong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yiannis",
+        "family": "Demiris",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jin Young",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Attribute2image: Conditional image generation from visual attributes",
+        "author": "yan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Context-aware CNNs for nerson head detection",
+        "author": "vu",
+        "year": "2015",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1390156.1390294"
+      },
+      {
+        "key": "ref31",
+        "article-title": "MatConvNet-Convolutional Neural Networks for MATLAB",
+        "author": "vedaldi",
+        "year": "2015",
+        "journal-title": "ACM MM"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.153"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298938"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.148"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2016.2536638"
+      },
+      {
+        "key": "ref12",
+        "author": "everingham",
+        "year": "0",
+        "journal-title": "The PASCAL Visual Object Classes Challenge 2012 (VOC2012) Results"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1561/0100000006",
+        "article-title": "Toeplitz and circulant matrices: A review",
+        "volume": "2",
+        "author": "gray",
+        "year": "2006",
+        "journal-title": "Foundations and Trends? in Communications and Information Theory"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Caltech-256 object category dataset",
+        "author": "griffin",
+        "year": "2007",
+        "journal-title": "Caltech Technical Report"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2509974"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.2006.18.7.1527"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1127647"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.468"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Return of the devil in the details: Delving deep into convolutional nets",
+        "author": "chatfield",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.429"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.513"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2609928"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Convolutional features for correlation filter based visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ICCV Workshops"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV Workshops"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299170"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.70"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126419"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Meem: Robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Towards perspective-free object counting with deep learning",
+        "author": "oñoro-rubio",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298731"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      }
+    ],
+    "event": {
+      "name": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Salt Lake City, UT",
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8576498/8578098/08578155.pdf?arnumber=8578155",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          27
+        ]
+      ],
+      "date-time": "2022-01-27T13:49:56Z",
+      "timestamp": 1643291396000
+    },
+    "score": 58.292534,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8578155/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1109/cvpr.2018.00057",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  }
+}

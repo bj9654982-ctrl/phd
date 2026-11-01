@@ -1,0 +1,4721 @@
+[
+  {
+    "key": "C1",
+    "doi": "10.1023/A:1008078328650",
+    "year": 1998,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T06:10:54Z",
+        "timestamp": 1792131054987,
+        "version": "4.4.0"
+      },
+      "reference-count": 51,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                1998,
+                8,
+                1
+              ]
+            ],
+            "date-time": "1998-08-01T00:00:00Z",
+            "timestamp": 901929600000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                1998,
+                8,
+                1
+              ]
+            ],
+            "date-time": "1998-08-01T00:00:00Z",
+            "timestamp": 901929600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "International Journal of Computer Vision"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            1998,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1023/a:1008078328650",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2002,
+            12,
+            22
+          ]
+        ],
+        "date-time": "2002-12-22T07:45:23Z",
+        "timestamp": 1040543123000
+      },
+      "page": "5-28",
+      "source": "Crossref",
+      "is-referenced-by-count": 3722,
+      "title": [
+        "CONDENSATION—Conditional Density Propagation for Visual Tracking"
+      ],
+      "prefix": "10.1007",
+      "volume": "29",
+      "author": [
+        {
+          "given": "Michael",
+          "family": "Isard",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrew",
+          "family": "Blake",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "reference": [
+        {
+          "key": "180995_CR1",
+          "unstructured": "Anderson and Moore 1979. Optimal Filtering. Prentice Hall."
+        },
+        {
+          "key": "180995_CR2",
+          "unstructured": "Astrom, K.J. 1970. Introduction to Stochastic Control Theory. Academic Press."
+        },
+        {
+          "key": "180995_CR3",
+          "unstructured": "Bar-Shalom, Y. and Fortmann, T. 1988. Tracking and Data Association. Academic Press."
+        },
+        {
+          "key": "180995_CR4",
+          "unstructured": "Bartels, R., Beatty, J., and Barsky, B. 1987. An Introduction to Splines for use in Computer Graphics and Geometric Modeling. Morgan Kaufmann."
+        },
+        {
+          "key": "180995_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Baumberg, A. and Hogg, D. 1994. Learning flexible models from image sequences. In Proc. 3rd European Conference on Computer Vision, J.-O. Eklundh (Ed.), Springer-Verlag, pp. 299-308.",
+          "DOI": "10.1007/3-540-57956-7_34"
+        },
+        {
+          "key": "180995_CR6",
+          "first-page": "413",
+          "volume": "2",
+          "author": "A. Baumberg",
+          "year": "1995",
+          "unstructured": "Baumberg, A. and Hogg, D. 1995. Generating spatiotemporal models from examples. In Proc. of the British Machine Vision Conference, vol. 2, pp. 413-422.",
+          "journal-title": "Proc. of the British Machine Vision Conference"
+        },
+        {
+          "issue": "2",
+          "key": "180995_CR7",
+          "doi-asserted-by": "crossref",
+          "first-page": "127",
+          "DOI": "10.1007/BF01469225",
+          "volume": "11",
+          "author": "A. Blake",
+          "year": "1993",
+          "unstructured": "Blake, A., Curwen, R., and Zisserman, A. 1993. A framework for spatio-temporal control in the tracking of visual contours. Int. Journal of Computer Vision, 11(2):127-145.",
+          "journal-title": "Int. Journal of Computer Vision"
+        },
+        {
+          "key": "180995_CR8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Blake, A. and Isard, M. 1994. 3D position, attitude and shape input using video tracking of hands and lips. In Proc. Siggraph, ACM, pp. 185-192.",
+          "DOI": "10.1145/192161.192197"
+        },
+        {
+          "key": "180995_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "101",
+          "DOI": "10.1016/0004-3702(95)00032-1",
+          "volume": "78",
+          "author": "A. Blake",
+          "year": "1995",
+          "unstructured": "Blake, A., Isard, M., and Reynard, D. 1995. Learning to track the visual motion of contours Artificial Intelligence, 78: 101-134.",
+          "journal-title": "Artificial Intelligence"
+        },
+        {
+          "issue": "2",
+          "key": "180995_CR10",
+          "first-page": "80",
+          "volume": "17",
+          "author": "R. Bucy",
+          "year": "1969",
+          "unstructured": "Bucy, R. 1969. Bayes theorem and digital realizations for non-linear filters. J. Astronautical Sciences, 17(2):80-94.",
+          "journal-title": "J. Astronautical Sciences"
+        },
+        {
+          "key": "180995_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cipolla, R. and Blake, A. 1990. The dynamic analysis of apparent contours. In Proc. 3rd Int. Conf. on Computer Vision, pp. 616-625.",
+          "DOI": "10.1109/ICCV.1990.139606"
+        },
+        {
+          "key": "180995_CR12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cootes, T., Taylor, C., Lanitis, A., Cooper, D., and Graham, J. 1993. Building and using flexible models incorporating grey-level information. In Proc. 4th Int. Conf. on Computer Vision, pp. 242-246.",
+          "DOI": "10.1109/ICCV.1993.378212"
+        },
+        {
+          "key": "180995_CR13",
+          "doi-asserted-by": "crossref",
+          "first-page": "241",
+          "DOI": "10.1007/BF01212362",
+          "volume": "1",
+          "author": "E. Dickmanns",
+          "year": "1988",
+          "unstructured": "Dickmanns, E. and Graefe, V. 1988. Applications of dynamic monocular machine vision.MachineVision and Applications, 1:241-261.",
+          "journal-title": "MachineVision and Applications"
+        },
+        {
+          "key": "180995_CR14",
+          "first-page": "381",
+          "volume": "24",
+          "author": "M. Fischler",
+          "year": "1981",
+          "unstructured": "Fischler, M. and Bolles, R. 1981. Random sample consensus: A paradigm for model fitting with application to image analysis and automated cartography. Commun. Assoc. Comp. Mach., 24:381-395.",
+          "journal-title": "Commun. Assoc. Comp. Mach."
+        },
+        {
+          "key": "180995_CR15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1109/T-C.1973.223602",
+          "volume": "C-22",
+          "author": "M.A. Fischler",
+          "year": "1973",
+          "unstructured": "Fischler, M.A. and Elschlager, R.A. 1973. The representation and matching of pictorial structures. IEEE. Trans. Computers, C-22:1.",
+          "journal-title": "IEEE. Trans. Computers"
+        },
+        {
+          "key": "180995_CR16",
+          "volume-title": "Applied Optimal Estimation",
+          "year": "1974",
+          "unstructured": "Gelb, A. (Ed.) 1974. Applied Optimal Estimation. MIT Press: Cambridge, MA."
+        },
+        {
+          "issue": "6",
+          "key": "180995_CR17",
+          "doi-asserted-by": "crossref",
+          "first-page": "721",
+          "DOI": "10.1109/TPAMI.1984.4767596",
+          "volume": "6",
+          "author": "S. Geman",
+          "year": "1984",
+          "unstructured": "Geman, S. and Geman, D. 1984. Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images. IEEE Trans. Pattern Analysis and Machine Intelligence, 6(6):721-741.",
+          "journal-title": "IEEE Trans. Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "issue": "3",
+          "key": "180995_CR18",
+          "doi-asserted-by": "crossref",
+          "first-page": "243",
+          "DOI": "10.1007/BF00126395",
+          "volume": "7",
+          "author": "D. Gennery",
+          "year": "1992",
+          "unstructured": "Gennery, D. 1992. Visual tracking of known three-dimensional objects. Int. Journal of Computer Vision, 7(3):243-270.",
+          "journal-title": "Int. Journal of Computer Vision"
+        },
+        {
+          "key": "180995_CR19",
+          "unstructured": "Goodwin, C. and Sin, K. 1984. Adaptive Filtering Prediction and Control. Prentice-Hall."
+        },
+        {
+          "issue": "2",
+          "key": "180995_CR20",
+          "first-page": "107",
+          "volume": "140",
+          "author": "N. Gordon",
+          "year": "1993",
+          "unstructured": "Gordon, N., Salmond, D., and Smith, A. 1993. Novel approach to nonlinear/non-Gaussian Bayesian state estimation. IEE Proc. F, 140(2):107-113.",
+          "journal-title": "IEE Proc. F"
+        },
+        {
+          "key": "180995_CR21",
+          "volume-title": "HANDS. A Pattern Theoretical Study of Biological Shapes",
+          "author": "U. Grenander",
+          "year": "1991",
+          "unstructured": "Grenander, U., Chow, Y., and Keenan, D.M. 1991. HANDS. A Pattern Theoretical Study of Biological Shapes. Springer-Verlag: New York."
+        },
+        {
+          "key": "180995_CR22",
+          "unstructured": "Hager, G. 1990. Sensor Fusion and Planning: A Computational Approach. Kluwer Academic Publishers."
+        },
+        {
+          "key": "180995_CR23",
+          "first-page": "59",
+          "volume-title": "Active Vision",
+          "author": "C. Harris",
+          "year": "1992",
+          "unstructured": "Harris, C. 1992. Tracking with rigid models. In Active Vision, A. Blake and A. Yuille (Eds.), MIT Press: Cambridge, MA, pp. 59-74."
+        },
+        {
+          "issue": "1",
+          "key": "180995_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "5",
+          "DOI": "10.1016/0262-8856(83)90003-3",
+          "volume": "1",
+          "author": "D. Hogg",
+          "year": "1983",
+          "unstructured": "Hogg, D. 1983. Model-based vision: A program to see a walking person, Image and Vision Computing, 1(1):5-20.",
+          "journal-title": "Image and Vision Computing"
+        },
+        {
+          "key": "180995_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Huttenlocher, D., Noh, J., and Rucklidge, W. 1993. Tracking nonrigid objects in complex scenes. In Proc. 4th Int. Conf. on Computer Vision, pp. 93-101.",
+          "DOI": "10.1109/ICCV.1993.378231"
+        },
+        {
+          "key": "180995_CR26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Isard, M. and Blake, A. 1996. Visual tracking by stochastic propagation of conditional density. In Proc. 4th European Conf. on Computer Vision, Cambridge, England, pp. 343-356.",
+          "DOI": "10.1007/BFb0015549"
+        },
+        {
+          "key": "180995_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kass, M., Witkin, A., and Terzopoulos, D. 1987. Snakes: Active contour models. In Proc. 1st Int. Conf. on Computer Vision, pp. 259-268.",
+          "DOI": "10.1016/B978-0-08-051581-6.50031-3"
+        },
+        {
+          "issue": "1",
+          "key": "180995_CR28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1080/10618600.1996.10474692",
+          "volume": "5",
+          "author": "G. Kitagawa",
+          "year": "1996",
+          "unstructured": "Kitagawa, G. 1996. Monte-carlo filter and smoother for non-Gaussian nonlinear state space models. J. Computational and Graphical Statistics, 5(1):1-25.",
+          "journal-title": "J. Computational and Graphical Statistics"
+        },
+        {
+          "issue": "2",
+          "key": "180995_CR29",
+          "doi-asserted-by": "crossref",
+          "first-page": "337",
+          "DOI": "10.1364/JOSAA.8.000377",
+          "volume": "8",
+          "author": "J. Koenderink",
+          "year": "1991",
+          "unstructured": "Koenderink, J. and Van Doorn, A. 1991. Affine structure from motion, J. Optical Soc. of America A., 8(2):337-385.",
+          "journal-title": "J. Optical Soc. of America A."
+        },
+        {
+          "issue": "5",
+          "key": "180995_CR30",
+          "doi-asserted-by": "publisher",
+          "first-page": "441",
+          "DOI": "10.1109/34.134043",
+          "volume": "13",
+          "author": "D. Lowe",
+          "year": "1991",
+          "unstructured": "Lowe, D. 1991. Fitting parameterised 3D models to images. IEEE Trans. Pattern Analysis and Machine Intelligence, 13(5):441-450.",
+          "journal-title": "IEEE Trans. Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "issue": "2",
+          "key": "180995_CR31",
+          "doi-asserted-by": "crossref",
+          "first-page": "113",
+          "DOI": "10.1007/BF00127170",
+          "volume": "8",
+          "author": "D. Lowe",
+          "year": "1992",
+          "unstructured": "Lowe, D. 1992. Robust model-based motion tracking through the integration of search and estimation. Int. Journal of Computer Vision, 8(2):113-122.",
+          "journal-title": "Int. Journal of Computer Vision"
+        },
+        {
+          "key": "180995_CR32",
+          "doi-asserted-by": "crossref",
+          "first-page": "209",
+          "DOI": "10.1007/BF00133032",
+          "volume": "3",
+          "author": "L.H. Matthies",
+          "year": "1989",
+          "unstructured": "Matthies, L.H., Kanade, T., and Szeliski, R. 1989. Kalman filterbased algorithms for estimating depth from image sequences. Int. Journal of Computer Vision, 3:209-236.",
+          "journal-title": "Int. Journal of Computer Vision"
+        },
+        {
+          "key": "180995_CR33",
+          "unstructured": "Menet, S., Saint-Marc, P., and Medioni, G. 1990. B-snakes: Implementation and application to stereo. In Proceedings DARPA, pp. 720-726."
+        },
+        {
+          "issue": "11",
+          "key": "180995_CR34",
+          "doi-asserted-by": "publisher",
+          "first-page": "2678",
+          "DOI": "10.1109/78.482117",
+          "volume": "43",
+          "author": "M. Miller",
+          "year": "1995",
+          "unstructured": "Miller, M., Srivasta, A., and Grenander, U. 1995. Conditional-mean estimation via jump-diffusion processes in multiple target tracking/ recognition. IEEE Transactions on Signal Processing, 43(11): 2678-2690.",
+          "journal-title": "IEEE Transactions on Signal Processing"
+        },
+        {
+          "key": "180995_CR35",
+          "unstructured": "Papoulis, A. 1990. Probability and Statistics. Prentice-Hall."
+        },
+        {
+          "key": "180995_CR36",
+          "unstructured": "Press, W., Teukolsky, S., Vetterling, W., and Flannery, B. 1988. Numerical Recipes in C. Cambridge University Press."
+        },
+        {
+          "key": "180995_CR37",
+          "unstructured": "Rabiner, L. and Bing-Hwang, J. 1993. Fundamentals of Speech Recognition. Prentice-Hall."
+        },
+        {
+          "key": "180995_CR38",
+          "first-page": "91",
+          "volume-title": "Active Vision",
+          "author": "B. Rao",
+          "year": "1992",
+          "unstructured": "Rao, B. 1992. Data association methods for tracking systems. In Active Vision, A. Blake and A. Yuille (Eds.), MIT Press: Cambridge, MA, pp. 91-105."
+        },
+        {
+          "key": "180995_CR39",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/9780470316436",
+          "volume-title": "Linear Statistical Inference and its Applications",
+          "author": "C. Rao",
+          "year": "1973",
+          "unstructured": "Rao, C. 1973. Linear Statistical Inference and its Applications. John Wiley and Sons: New York."
+        },
+        {
+          "key": "180995_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rehg, J. and Kanade, T. 1994. Visual tracking of high dof articulated structures: An application to human hand tracking. In Proc. 3rd European Conference on Computer Vision, J.-O. Eklundh (Ed.), Springer-Verlag, pp. 35-46.",
+          "DOI": "10.1007/BFb0028333"
+        },
+        {
+          "key": "180995_CR41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Reynard, D., Wildenberg, A., Blake, A., and Marchant, J. 1996. Learning dynamics of complex motions from image sequences. In Proc. 4th European Conf. on Computer Vision, Cambridge, England, pp. 357-368.",
+          "DOI": "10.1007/BFb0015550"
+        },
+        {
+          "key": "180995_CR42",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1002/9780470316726",
+          "volume-title": "Stochastic Simulation",
+          "author": "B. Ripley",
+          "year": "1987",
+          "unstructured": "Ripley, B. 1987. Stochastic Simulation. Wiley: New York."
+        },
+        {
+          "key": "180995_CR43",
+          "doi-asserted-by": "crossref",
+          "first-page": "477",
+          "DOI": "10.1098/rsta.1990.0127",
+          "volume": "332",
+          "author": "B. Ripley",
+          "year": "1990",
+          "unstructured": "Ripley, B. and Sutherland, A. 1990. Finding spiral structures in images of galaxies. Phil. Trans. R. Soc. Lond. A., 332, 1627:477-485.",
+          "journal-title": "Phil. Trans. R. Soc. Lond. A."
+        },
+        {
+          "key": "180995_CR44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rowe, S. and Blake, A. 1996. Statistical feature modelling for active contours. In Proc. 4th European Conf. on Computer Vision, Cambridge, England, pp. 560-569.",
+          "DOI": "10.1007/3-540-61123-1_170"
+        },
+        {
+          "key": "180995_CR45",
+          "doi-asserted-by": "publisher",
+          "first-page": "465",
+          "DOI": "10.1016/0005-1098(71)90097-5",
+          "volume": "7",
+          "author": "H.W. Sorenson",
+          "year": "1971",
+          "unstructured": "Sorenson, H.W. and Alspach, D.L. 1971. Recursive Bayesian estimation using Gaussian sums. Automatica, 7:465-479.",
+          "journal-title": "Automatica"
+        },
+        {
+          "issue": "10",
+          "key": "180995_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "976",
+          "DOI": "10.1109/34.329011",
+          "volume": "16",
+          "author": "G. Storvik",
+          "year": "1994",
+          "unstructured": "Storvik, G. 1994. A Bayesian approach to dynamic contours through stochastic sampling and simulated annealing. IEEE Trans. Pattern Analysis and Machine Intelligence, 16(10):976-986.",
+          "journal-title": "IEEE Trans. Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "180995_CR47",
+          "doi-asserted-by": "crossref",
+          "first-page": "361",
+          "DOI": "10.1098/rstb.1992.0114",
+          "volume": "337",
+          "author": "G. Sullivan",
+          "year": "1992",
+          "unstructured": "Sullivan, G. 1992. Visual interpretation of known objects in constrained scenes. Phil. Trans. R. Soc. Lond. B., 337:361-370.",
+          "journal-title": "Phil. Trans. R. Soc. Lond. B."
+        },
+        {
+          "key": "180995_CR48",
+          "doi-asserted-by": "crossref",
+          "first-page": "7.",
+          "DOI": "10.1109/34.85659",
+          "volume": "13",
+          "author": "D. Terzopoulos",
+          "year": "1991",
+          "unstructured": "Terzopoulos, D. and Metaxas, D. 1991. Dynamic 3D models with local and global deformations: Deformable superquadrics.IEEE Trans. Pattern Analysis and Machine Intelligence, 13:7.",
+          "journal-title": "IEEE Trans. Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "180995_CR49",
+          "first-page": "3",
+          "volume-title": "Active Vision",
+          "author": "D. Terzopoulos",
+          "year": "1992",
+          "unstructured": "Terzopoulos, D. and Szeliski, R. 1992.Tracking with Kalman snakes. In Active Vision, A. Blake and A. Yuille (Eds.), MIT Press: Cambridge, MA, pp. 3-20."
+        },
+        {
+          "issue": "10",
+          "key": "180995_CR50",
+          "doi-asserted-by": "publisher",
+          "first-page": "992",
+          "DOI": "10.1109/34.99234",
+          "volume": "13",
+          "author": "S. Ullman",
+          "year": "1991",
+          "unstructured": "Ullman, S. and Basri, R. 1991. Recognition by linear combinations of models. IEEE Trans. Pattern Analysis and Machine Intelligence, 13(10):992-1006.",
+          "journal-title": "IEEE Trans. Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "180995_CR51",
+          "first-page": "20",
+          "volume-title": "Acive Vision",
+          "author": "A. Yuille",
+          "year": "1992",
+          "unstructured": "Yuille, A. and Hallinan, P. 1992. Deformable templates. In Acive Vision, A. Blake and A. Yuille (Eds.), MIT Press: Cambridge, MA, pp. 20-38."
+        }
+      ],
+      "container-title": [
+        "International Journal of Computer Vision"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1023/A:1008078328650.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/article/10.1023/A:1008078328650/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "https://link.springer.com/content/pdf/10.1023/A:1008078328650.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            11
+          ]
+        ],
+        "date-time": "2025-08-11T09:24:27Z",
+        "timestamp": 1754904267000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "https://link.springer.com/10.1023/A:1008078328650"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            1998,
+            8
+          ]
+        ]
+      },
+      "references-count": 51,
+      "journal-issue": {
+        "issue": "1",
+        "published-print": {
+          "date-parts": [
+            [
+              1998,
+              8
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "180995"
+      ],
+      "URL": "https://doi.org/10.1023/a:1008078328650",
+      "relation": {},
+      "ISSN": [
+        "0920-5691",
+        "1573-1405"
+      ],
+      "issn-type": [
+        {
+          "value": "0920-5691",
+          "type": "print"
+        },
+        {
+          "value": "1573-1405",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            1998,
+            8
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C2",
+    "doi": "10.1109/TPAMI.2003.1195991",
+    "year": 2003,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2026-10-24T18:15:12Z",
+        "timestamp": 1792865712721,
+        "version": "4.5.0"
+      },
+      "reference-count": 79,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "5",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2003,
+                5,
+                1
+              ]
+            ],
+            "date-time": "2003-05-01T00:00:00Z",
+            "timestamp": 1051747200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Pattern Anal. Machine Intell."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2003,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1109/tpami.2003.1195991",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2003,
+            5,
+            2
+          ]
+        ],
+        "date-time": "2003-05-02T14:30:27Z",
+        "timestamp": 1051885827000
+      },
+      "page": "564-577",
+      "source": "Crossref",
+      "is-referenced-by-count": 3683,
+      "title": [
+        "Kernel-based object tracking"
+      ],
+      "prefix": "10.1109",
+      "volume": "25",
+      "author": [
+        {
+          "given": "D.",
+          "family": "Comaniciu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "V.",
+          "family": "Ramesh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Meer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/cviu.1998.0744"
+        },
+        {
+          "issue": "4",
+          "key": "ref2",
+          "first-page": "363",
+          "article-title": "The Bhattacharyya Metric as an Absolute Similarity Measure for Frequency Coded Data",
+          "volume": "34",
+          "author": "Aherne",
+          "year": "1998",
+          "journal-title": "Kybernetika"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.978374"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990474"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1121/1.398863"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.1995.466925"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1998.698614"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008195307933"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2000.854942"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/acv.1998.732882"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/icip.2002.1038997"
+        },
+        {
+          "key": "ref12",
+          "first-page": "15",
+          "article-title": "Analyzing the Layout of Composite Textures",
+          "volume-title": "Proc. Texture 2002 Workshop",
+          "author": "Caenen"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1999.784636"
+        },
+        {
+          "key": "ref14",
+          "first-page": "717",
+          "article-title": "Trust-Region Methods for Real-Time tracking",
+          "volume-title": "Proc. Eigth Int’l Conf. Computer Vision",
+          "volume": "II",
+          "author": "Chen"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/cvpr.2001.990521"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.959341"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.1000236"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2000.854761"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/0471200611"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.481539"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008122917811"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.41388"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008935410038"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/3-540-45053-X_48"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.400571"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990964"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1997.609292"
+        },
+        {
+          "key": "ref28",
+          "volume-title": "Introduction to Statistical Pattern Recognition",
+          "author": "Fukunaga",
+          "year": "1990"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.917572"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/cviu.1998.0716"
+        },
+        {
+          "key": "ref31",
+          "first-page": "107",
+          "article-title": "A Novel Approach to Non-Linear and Non-Gaussian Bayesian State Estimation",
+          "volume-title": "IEE Proc.-F",
+          "volume": "140",
+          "author": "Gordon"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.959343"
+        },
+        {
+          "key": "ref33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1996.517104"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1117/12.317463"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990507"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/AFGR.1998.670952"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008108327226"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/78.978386"
+        },
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1997.609402"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008078328650"
+        },
+        {
+          "key": "ref41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990505"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1117/12.280797"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TCOM.1967.1089532"
+        },
+        {
+          "key": "ref44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1999.784638"
+        },
+        {
+          "key": "ref45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2289375"
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1999.786996"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/VS.2000.856852"
+        },
+        {
+          "key": "ref48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2000.854755"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/18.61115"
+        },
+        {
+          "key": "ref50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ACV.1998.732851"
+        },
+        {
+          "key": "ref51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008122218374"
+        },
+        {
+          "key": "ref52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MOT.2001.937981"
+        },
+        {
+          "key": "ref53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0262-8856(98)00104-8"
+        },
+        {
+          "key": "ref54",
+          "article-title": "The Unscented Particle Filter",
+          "author": "Merwe",
+          "year": "2000"
+        },
+        {
+          "key": "ref55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0262-8856(01)00076-2"
+        },
+        {
+          "key": "ref56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990979"
+        },
+        {
+          "key": "ref57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/3-540-47969-4_44"
+        },
+        {
+          "key": "ref58",
+          "volume-title": "Numerical Recipes in C",
+          "author": "Press",
+          "year": "1992"
+        },
+        {
+          "key": "ref59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.1999.790412"
+        },
+        {
+          "key": "ref60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.18626"
+        },
+        {
+          "key": "ref61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1020350100748"
+        },
+        {
+          "key": "ref62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.927458"
+        },
+        {
+          "key": "ref63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TAC.1979.1102177"
+        },
+        {
+          "key": "ref64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(sici)1098-1098(2000)11:1<71::aid-ima8>3.3.co;2-x"
+        },
+        {
+          "key": "ref65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1999.784618"
+        },
+        {
+          "key": "ref66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/cvpr.2001.991045"
+        },
+        {
+          "key": "ref67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.1998.710860"
+        },
+        {
+          "key": "ref68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/SERIES1345"
+        },
+        {
+          "key": "ref69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990509"
+        },
+        {
+          "key": "ref70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2001.937536"
+        },
+        {
+          "key": "ref71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00130487"
+        },
+        {
+          "key": "ref72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21236/ada299525"
+        },
+        {
+          "key": "ref73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/cviu.1999.0758"
+        },
+        {
+          "key": "ref74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.959344"
+        },
+        {
+          "key": "ref75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.598236"
+        },
+        {
+          "key": "ref76",
+          "first-page": "26",
+          "article-title": "A Co-Inference Approach to Robust Tracking",
+          "volume-title": "Proc. Eigth Int’l Conf. Computer Vision",
+          "volume": "II",
+          "author": "Wu"
+        },
+        {
+          "key": "ref77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/IVS.2002.1187922"
+        },
+        {
+          "key": "ref78",
+          "article-title": "Target Tracking in FLIR Imagery Using Mean Shift and Global Motion Compensation",
+          "volume-title": "IEEE Workshop Computer Vision Beyond Visible Spectrum",
+          "author": "Yilmaz"
+        },
+        {
+          "key": "ref79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/cvpr.2000.854761"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx5/34/26906/01195991.pdf?arnumber=1195991",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2025-03-16T01:12:04Z",
+        "timestamp": 1742087524000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/1195991/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2003,
+            5
+          ]
+        ]
+      },
+      "references-count": 79,
+      "journal-issue": {
+        "issue": "5",
+        "published-print": {
+          "date-parts": [
+            [
+              2003,
+              5
+            ]
+          ]
+        }
+      },
+      "URL": "https://doi.org/10.1109/tpami.2003.1195991",
+      "relation": {},
+      "ISSN": [
+        "0162-8828"
+      ],
+      "issn-type": [
+        {
+          "value": "0162-8828",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2003,
+            5
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C3",
+    "doi": "10.1007/s11263-007-0075-7",
+    "year": 2008,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            16
+          ]
+        ],
+        "date-time": "2026-10-16T06:10:56Z",
+        "timestamp": 1792131056250,
+        "version": "4.4.0"
+      },
+      "reference-count": 34,
+      "publisher": "Springer Science and Business Media LLC",
+      "issue": "1-3",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2007,
+                8,
+                17
+              ]
+            ],
+            "date-time": "2007-08-17T00:00:00Z",
+            "timestamp": 1187308800000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "Int J Comput Vis"
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            5
+          ]
+        ]
+      },
+      "DOI": "10.1007/s11263-007-0075-7",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            16
+          ]
+        ],
+        "date-time": "2007-08-16T13:32:07Z",
+        "timestamp": 1187271127000
+      },
+      "page": "125-141",
+      "source": "Crossref",
+      "is-referenced-by-count": 2642,
+      "title": [
+        "Incremental Learning for Robust Visual Tracking"
+      ],
+      "prefix": "10.1007",
+      "volume": "77",
+      "author": [
+        {
+          "given": "David A.",
+          "family": "Ross",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jongwoo",
+          "family": "Lim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ruei-Sung",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ming-Hsuan",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            17
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "75_CR1",
+          "first-page": "1",
+          "volume-title": "Computational models of visual processing",
+          "author": "E. H. Adelson",
+          "year": "1991",
+          "unstructured": "Adelson, E. H., & Bergen, J. R. (1991). The plenoptic function and the elements of early vision. In M. Landy & J. A. Movshon (Eds.), Computational models of visual processing (pp. 1–20). Cambridge: MIT Press."
+        },
+        {
+          "key": "75_CR2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Avidan, S. (2001). Support vector tracking. In Proceedings of IEEE conference on computer vision and pattern recognition (Vol. 1, pp. 184–191).",
+          "DOI": "10.1109/CVPR.2001.990474"
+        },
+        {
+          "key": "75_CR3",
+          "unstructured": "Belhumeur, P., & Kreigman, D. (1997). What is the set of images of an object under all possible lighting conditions. In Proceedings of IEEE conference on computer vision and pattern recognition (pp. 270–277)."
+        },
+        {
+          "key": "75_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Birchfield, S. (1998). Elliptical head tracking using intensity gradient and color histograms. In Proceedings of IEEE conference on computer vision and pattern recognition (pp. 232–237).",
+          "DOI": "10.1109/CVPR.1998.698614"
+        },
+        {
+          "key": "75_CR5",
+          "series-title": "LNCS",
+          "first-page": "329",
+          "volume-title": "Proceedings of the fourth European conference on computer vision",
+          "author": "M. J. Black",
+          "year": "1996",
+          "unstructured": "Black, M. J., & Jepson, A. D. (1996). Eigentracking: robust matching and tracking of articulated objects using view-based representation. In B. Buxton & R. Cipolla (Eds.), LNCS : Vol. 1064. Proceedings of the fourth European conference on computer vision (pp. 329–342). Berlin: Springer."
+        },
+        {
+          "key": "75_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Black, M. J., Fleet, D. J., & Yacoob, Y. (1998). A framework for modeling appearance change in image sequence. In Proceedings of IEEE international conference on computer vision (pp. 660–667).",
+          "DOI": "10.1109/ICCV.1998.710788"
+        },
+        {
+          "key": "75_CR7",
+          "series-title": "LNCS",
+          "first-page": "707",
+          "volume-title": "Proceedings of the seventh European conference on computer vision",
+          "author": "M. Brand",
+          "year": "2002",
+          "unstructured": "Brand, M. (2002). Incremental singular value decomposition of uncertain data with missing values. In A. Heyden, G. Sparr, M. Nielsen & P. Johansen (Eds.), LNCS : Vol. 2350. Proceedings of the seventh European conference on computer vision (pp. 707–720). Berlin: Springer."
+        },
+        {
+          "issue": "5",
+          "key": "75_CR8",
+          "doi-asserted-by": "crossref",
+          "first-page": "564",
+          "DOI": "10.1109/TPAMI.2003.1195991",
+          "volume": "25",
+          "author": "D. Comaniciu",
+          "year": "2003",
+          "unstructured": "Comaniciu, D., Ramesh, V., & Meer, P. (2003). Kernel-based object tracking. IEEE Transactions on Pattern Analysis and Machine Intelligence, 25(5), 564–577.",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "issue": "6",
+          "key": "75_CR9",
+          "doi-asserted-by": "crossref",
+          "first-page": "681",
+          "DOI": "10.1109/34.927467",
+          "volume": "23",
+          "author": "T. Cootes",
+          "year": "2001",
+          "unstructured": "Cootes, T., Edwards, G., & Taylor, C. (2001). Active appearance models. IEEE Transactions on Pattern Analysis and Machine Intelligence, 23(6), 681–685.",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "75_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Georgescu, B., Comaniciu, D., Han, T. X., & Zhou, X. S. (2004). Multi-model component-based tracking using robust information fusion. In 2nd workshop on statistical methods in video processing, May 2004",
+          "DOI": "10.1007/978-3-540-30212-4_6"
+        },
+        {
+          "key": "75_CR11",
+          "unstructured": "Golub, G. H., & Van Loan, C. F. (1996) Matrix computations. The Johns Hopkins University Press."
+        },
+        {
+          "key": "75_CR12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hager, G., & Belhumeur, P. (1996) Real-time tracking of image regions with changes in geometry and illumination. In Proceedings of IEEE conference on computer vision and pattern recognition (pp. 403–410).",
+          "DOI": "10.1109/CVPR.1996.517104"
+        },
+        {
+          "key": "75_CR13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hall, P., Marshall, D., & Martin, R. (1998). Incremental eigenanalysis for classification. In Proceedings of British machine vision conference (pp. 286–295).",
+          "DOI": "10.5244/C.12.29"
+        },
+        {
+          "issue": "13–14",
+          "key": "75_CR14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1009",
+          "DOI": "10.1016/S0262-8856(02)00114-2",
+          "volume": "20",
+          "author": "P. Hall",
+          "year": "2002",
+          "unstructured": "Hall, P., Marshall, D., & Martin, R. (2002). Adding and subtracting eigenspaces with eigenvalue decomposition and singular value decomposition. Image and Vision Computing, 20(13–14), 1009–1016.",
+          "journal-title": "Image and Vision Computing"
+        },
+        {
+          "key": "75_CR15",
+          "series-title": "LNCS",
+          "first-page": "531",
+          "volume-title": "Proceedings of the seventh European conference on computer vision",
+          "author": "M. Harville",
+          "year": "2002",
+          "unstructured": "Harville, M. (2002). A framework for high-level feedback to adaptive, per-pixel mixture of Gaussian background models. In A. Heyden, G. Sparr, M. Nielsen & P. Johansen (Eds.), LNCS : Vol. 2352. Proceedings of the seventh European conference on computer vision (pp. 531–542). Berlin: Springer."
+        },
+        {
+          "key": "75_CR16",
+          "series-title": "LNCS",
+          "first-page": "343",
+          "volume-title": "Proceedings of the fourth European conference on computer vision",
+          "author": "M. Isard",
+          "year": "1996",
+          "unstructured": "Isard, M., & Blake, A. (1996). Contour tracking by stochastic propagation of conditional density. In B. Buxton & R. Cipolla (Eds.), LNCS : Vol. 1064. Proceedings of the fourth European conference on computer vision (pp. 343–356). Berlin: Springer."
+        },
+        {
+          "issue": "10",
+          "key": "75_CR17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1296",
+          "DOI": "10.1109/TPAMI.2003.1233903",
+          "volume": "25",
+          "author": "A. D. Jepson",
+          "year": "2003",
+          "unstructured": "Jepson, A. D., Fleet, D. J., & El-Maraghi, T. F. (2003). Robust online appearance models for visual tracking. IEEE Transactions on Pattern Analysis and Machine Intelligence, 25(10), 1296–1311.",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "75_CR18",
+          "volume-title": "Principal component analysis",
+          "author": "I. T. Jolliffe",
+          "year": "2002",
+          "unstructured": "Jolliffe, I. T. (2002). Principal component analysis. Berlin: Springer."
+        },
+        {
+          "key": "75_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "La Cascia, M., & Sclaroff, S. (1999). Fast, reliable head tracking under varying illumination. In Proceedings of IEEE conference on computer vision and pattern recognition (Vol. 1, pp. 604–608).",
+          "DOI": "10.21236/ADA366995"
+        },
+        {
+          "issue": "8",
+          "key": "75_CR20",
+          "doi-asserted-by": "crossref",
+          "first-page": "1371",
+          "DOI": "10.1109/83.855432",
+          "volume": "9",
+          "author": "A. Levy",
+          "year": "2000",
+          "unstructured": "Levy, A., & Lindenbaum, M. (2000). Sequential Karhunen–Loeve basis extraction and its application to images. IEEE Transactions on Image Processing, 9(8), 1371–1374.",
+          "journal-title": "IEEE Transactions on Image Processing"
+        },
+        {
+          "key": "75_CR21",
+          "first-page": "793",
+          "volume-title": "Advances in neural information processing systems",
+          "author": "J. Lim",
+          "year": "2005",
+          "unstructured": "Lim, J., Ross, D., Lin, R.-S., & Yang, M.-H. (2005). Incremental learning for visual tracking. In L. Saul, Y. Weiss & L. Bottou (Eds.), Advances in neural information processing systems (pp. 793–800). Cambridge: MIT Press."
+        },
+        {
+          "key": "75_CR22",
+          "first-page": "801",
+          "volume-title": "Advances in neural information processing systems",
+          "author": "R.-S. Lin",
+          "year": "2005",
+          "unstructured": "Lin, R.-S., Ross, D., Lim, J., & Yang, M.-H. (2005). Adaptive discriminative generative model and its applications. In L. Saul, Y. Weiss & L. Bottou (Eds.), Advances in neural information processing systems (pp. 801–808). Cambridge: MIT Press."
+        },
+        {
+          "key": "75_CR23",
+          "unstructured": "Lucas, B., & Kanade, T. (1981). An iterative image registration technique with an application to stereo vision. In Proceedings of international joint conference on artificial intelligence (pp. 674–679)."
+        },
+        {
+          "issue": "6",
+          "key": "75_CR24",
+          "doi-asserted-by": "crossref",
+          "first-page": "810",
+          "DOI": "10.1109/TPAMI.2004.16",
+          "volume": "26",
+          "author": "I. Matthews",
+          "year": "2004",
+          "unstructured": "Matthews, I., Ishikawa, T., & Baker, S. (2004). The template update problem. IEEE Transactions on Pattern Analysis and Machine Intelligence, 26(6), 810–815.",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "75_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Moghaddam, B., & Pentland, A. (1995). Probabilistic visual learning for object detection. In Proceedings of IEEE international conference on computer vision (pp. 786–793).",
+          "DOI": "10.1109/ICCV.1995.466858"
+        },
+        {
+          "issue": "1",
+          "key": "75_CR26",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1007/BF01421486",
+          "volume": "14",
+          "author": "H. Murase",
+          "year": "1995",
+          "unstructured": "Murase, H., & Nayar, S. (1995). Visual learning and recognition of 3d objects from appearance. International Journal of Computer Vision, 14(1), 5–24.",
+          "journal-title": "International Journal of Computer Vision"
+        },
+        {
+          "key": "75_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "North, B., & Blake, A. (1998). Learning dynamical models using expectation-maximization. In Proceedings of IEEE international conference on computer vision (pp. 384–389).",
+          "DOI": "10.1109/ICCV.1998.710747"
+        },
+        {
+          "key": "75_CR28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rasmussen, C., & Hager, G. (1998). Joint probabilistic techniques for tracking multi-part objects. In Proceedings of IEEE conference on computer vision and pattern recognition (pp. 16–21).",
+          "DOI": "10.1109/CVPR.1998.698582"
+        },
+        {
+          "key": "75_CR29",
+          "series-title": "LNCS",
+          "first-page": "707",
+          "volume-title": "Proceedings of the eighth European conference on computer vision",
+          "author": "D. Ross",
+          "year": "2004",
+          "unstructured": "Ross, D., Lim, J., & Yang, M.-H. (2004). Adaptive probabilistic visual tracking with incremental subspace update. In A. Heyden, G. Sparr, M. Nielsen & P. Johansen (Eds.), LNCS : Vol. 2350. Proceedings of the eighth European conference on computer vision (pp. 707–720). Berlin: Springer."
+        },
+        {
+          "key": "75_CR30",
+          "first-page": "626",
+          "volume-title": "Advances in neural information processing systems 10",
+          "author": "S. Roweis",
+          "year": "1997",
+          "unstructured": "Roweis, S. (1997). EM algorithms for PCA and SPCA. In M. I. Jordan, M. J. Kearns & S. A. Solla (Eds.), Advances in neural information processing systems 10 (pp. 626–632). Cambridge: MIT Press."
+        },
+        {
+          "issue": "3",
+          "key": "75_CR31",
+          "doi-asserted-by": "crossref",
+          "first-page": "611",
+          "DOI": "10.1111/1467-9868.00196",
+          "volume": "61",
+          "author": "M. E. Tipping",
+          "year": "1999",
+          "unstructured": "Tipping, M. E., & Bishop, C. M. (1999). Probabilistic principal component analysis. Journal of the Royal Statistical Society, Series B, 61(3), 611–622.",
+          "journal-title": "Journal of the Royal Statistical Society, Series B"
+        },
+        {
+          "key": "75_CR32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Toyama, K., & Blake, A. (2001). Probabilistic tracking in metric space. In Proceedings of IEEE international conference on computer vision (pp. 50–57).",
+          "DOI": "10.1109/ICCV.2001.937599"
+        },
+        {
+          "key": "75_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vermaak, J., Lawrence, N., & Perez, P. (2003). Variational inference for visual tracking. In Proceedings of IEEE conference on computer vision and pattern recognition (Vol. 1, pp. 773–780).",
+          "DOI": "10.1109/CVPR.2003.1211431"
+        },
+        {
+          "key": "75_CR34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Williams, O., Blake, A., & Cipolla, R. (2003). A sparse probabilistic learning algorithms for real-time tracking. In Proceedings of IEEE international conference on computer vision (Vol. 1, pp. 353–360).",
+          "DOI": "10.1109/ICCV.2003.1238366"
+        }
+      ],
+      "container-title": [
+        "International Journal of Computer Vision"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s11263-007-0075-7.pdf",
+          "content-type": "application/pdf",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/article/10.1007/s11263-007-0075-7/fulltext.html",
+          "content-type": "text/html",
+          "content-version": "vor",
+          "intended-application": "text-mining"
+        },
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/s11263-007-0075-7",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2019,
+            6,
+            1
+          ]
+        ],
+        "date-time": "2019-06-01T08:16:37Z",
+        "timestamp": 1559376997000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/s11263-007-0075-7"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            17
+          ]
+        ]
+      },
+      "references-count": 34,
+      "journal-issue": {
+        "issue": "1-3",
+        "published-print": {
+          "date-parts": [
+            [
+              2008,
+              5
+            ]
+          ]
+        }
+      },
+      "alternative-id": [
+        "75"
+      ],
+      "URL": "https://doi.org/10.1007/s11263-007-0075-7",
+      "relation": {},
+      "ISSN": [
+        "0920-5691",
+        "1573-1405"
+      ],
+      "issn-type": [
+        {
+          "value": "0920-5691",
+          "type": "print"
+        },
+        {
+          "value": "1573-1405",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            17
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C4",
+    "doi": "10.1109/TPAMI.2010.226",
+    "year": 2011,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ],
+        "date-time": "2026-10-22T19:03:33Z",
+        "timestamp": 1792695813088,
+        "version": "4.5.0"
+      },
+      "reference-count": 47,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "8",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2011,
+                8,
+                1
+              ]
+            ],
+            "date-time": "2011-08-01T00:00:00Z",
+            "timestamp": 1312156800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Pattern Anal. Mach. Intell."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            8
+          ]
+        ]
+      },
+      "DOI": "10.1109/tpami.2010.226",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2010,
+            12,
+            23
+          ]
+        ],
+        "date-time": "2010-12-23T20:10:05Z",
+        "timestamp": 1293135005000
+      },
+      "page": "1619-1632",
+      "source": "Crossref",
+      "is-referenced-by-count": 1736,
+      "title": [
+        "Robust Object Tracking with Online Multiple Instance Learning"
+      ],
+      "prefix": "10.1109",
+      "volume": "33",
+      "author": [
+        {
+          "given": "B.",
+          "family": "Babenko",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "family": "Ming-Hsuan Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "S.",
+          "family": "Belongie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1998.698614"
+        },
+        {
+          "key": "ref2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2001.937594"
+        },
+        {
+          "key": "ref3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2005.349"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2006.188"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1177352.1177355"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.722606"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1007939232436"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2000.854761"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2006.256"
+        },
+        {
+          "key": "ref10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2003.1233903"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2004.16"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11263-007-0075-7"
+        },
+        {
+          "key": "ref13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0004-3702(96)00034-3"
+        },
+        {
+          "key": "ref14",
+          "first-page": "1417",
+          "article-title": "Multiple Instance Boosting for Object Detection",
+          "volume-title": "Proc. Neural Information Processing Systems",
+          "author": "Viola"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-88688-4_16"
+        },
+        {
+          "key": "ref16",
+          "first-page": "577",
+          "article-title": "Support Vector Machines for Multiple-Instance Learning",
+          "volume-title": "Proc. Neural Information Processing Systems",
+          "author": "Andrews"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-88682-2_16"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2008.4587632"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-24670-1_3"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BFb0015549"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1020874308076"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2007.383238"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2006.52"
+        },
+        {
+          "key": "ref24",
+          "first-page": "801",
+          "article-title": "Adaptive Discriminative Generative Model and Its Applications",
+          "volume-title": "Proc. Neural Information Processing Systems",
+          "author": "Lin"
+        },
+        {
+          "key": "ref25",
+          "first-page": "47",
+          "article-title": "Real-Time Tracking via Online Boosting",
+          "volume-title": "Proc. Conf. British Machine Vision",
+          "author": "Grabner"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2007.4408912"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2005.144"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2004.53"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2005.262"
+        },
+        {
+          "key": "ref30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2005.205"
+        },
+        {
+          "key": "ref31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2006.149"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990517"
+        },
+        {
+          "key": "ref33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-3-540-88682-2_19"
+        },
+        {
+          "key": "ref34",
+          "article-title": "Online Ensemble Learning",
+          "author": "Oza",
+          "year": "2001"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2007.383046"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2004.1315271"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2699986"
+        },
+        {
+          "key": "ref38",
+          "article-title": "Simultaneous Learning and Alignment: Multi-Instance and Multi-Pose Learning",
+          "volume-title": "Proc. Faces in Real-Life Images",
+          "author": "Babenko"
+        },
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jcss.1997.1504"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1214/aos/1016218223"
+        },
+        {
+          "key": "ref41",
+          "article-title": "On Robustness of Online Boosting—A Competitive Study",
+          "volume-title": "Proc. Third IEEE Workshop Online Computer Vision",
+          "author": "Leistner"
+        },
+        {
+          "key": "ref42",
+          "first-page": "260",
+          "article-title": "Online Boosting and Vision",
+          "volume-title": "Proc. IEEE Conf. Computer Vision and Pattern Recognition",
+          "author": "Grabner"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2007.70738"
+        },
+        {
+          "key": "ref44",
+          "article-title": "The PASCAL Visual Object Classes Challenge 2010 (VOC2010) Results",
+          "author": "Everingham",
+          "year": "2011"
+        },
+        {
+          "key": "ref45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCVW.2009.5457445"
+        },
+        {
+          "key": "ref46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2008.4587597"
+        },
+        {
+          "key": "ref47",
+          "article-title": "Online Multiple Instance Learning with No Regret",
+          "volume-title": "Proc. IEEE Conf. Computer Vision and Pattern Recognitio",
+          "author": "Mu"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx5/34/5898466/05674053.pdf?arnumber=5674053",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            13
+          ]
+        ],
+        "date-time": "2025-03-13T05:57:55Z",
+        "timestamp": 1741845475000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/5674053/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2011,
+            8
+          ]
+        ]
+      },
+      "references-count": 47,
+      "journal-issue": {
+        "issue": "8"
+      },
+      "URL": "https://doi.org/10.1109/tpami.2010.226",
+      "relation": {},
+      "ISSN": [
+        "0162-8828"
+      ],
+      "issn-type": [
+        {
+          "value": "0162-8828",
+          "type": "print"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            8
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C5",
+    "doi": "10.1109/TPAMI.2011.239",
+    "year": 2012,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            22
+          ]
+        ],
+        "date-time": "2026-10-22T19:03:50Z",
+        "timestamp": 1792695830669,
+        "version": "4.5.0"
+      },
+      "reference-count": 69,
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "issue": "7",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                7,
+                1
+              ]
+            ],
+            "date-time": "2012-07-01T00:00:00Z",
+            "timestamp": 1341100800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [
+        "IEEE Trans. Pattern Anal. Mach. Intell."
+      ],
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            7
+          ]
+        ]
+      },
+      "DOI": "10.1109/tpami.2011.239",
+      "type": "journal-article",
+      "created": {
+        "date-parts": [
+          [
+            2011,
+            12,
+            13
+          ]
+        ],
+        "date-time": "2011-12-13T14:19:58Z",
+        "timestamp": 1323785998000
+      },
+      "page": "1409-1422",
+      "source": "Crossref",
+      "is-referenced-by-count": 2857,
+      "title": [
+        "Tracking-Learning-Detection"
+      ],
+      "prefix": "10.1109",
+      "volume": "34",
+      "author": [
+        {
+          "given": "Zdenek",
+          "family": "Kalal",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Krystian",
+          "family": "Mikolajczyk",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiri",
+          "family": "Matas",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "ref39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/VR.2010.5444811"
+        },
+        {
+          "key": "ref38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5244/C.23.58"
+        },
+        {
+          "key": "ref33",
+          "article-title": "Online Tracking and Reacquisition Using Co-Trained Generative and Discriminative Trackers",
+          "author": "yu",
+          "year": "2008",
+          "journal-title": "Proc 10th European Conf Computer Vision"
+        },
+        {
+          "key": "ref32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2007.4408954"
+        },
+        {
+          "key": "ref31",
+          "article-title": "Semi-Supervised OnLine Boosting for Robust Tracking",
+          "author": "grabner",
+          "year": "2008",
+          "journal-title": "Proc 10th European Conf Computer Vision"
+        },
+        {
+          "key": "ref30",
+          "article-title": "Visual Tracking with Online Multiple Instance Learning",
+          "author": "babenko",
+          "year": "2009",
+          "journal-title": "Proc IEEE Conf Computer Vision and Pattern Recognition"
+        },
+        {
+          "key": "ref37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2004.92"
+        },
+        {
+          "key": "ref36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2005.288"
+        },
+        {
+          "key": "ref35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2001.990517"
+        },
+        {
+          "key": "ref34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:VISI.0000029664.99615.94"
+        },
+        {
+          "key": "ref60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2006.188"
+        },
+        {
+          "key": "ref62",
+          "article-title": "BRIEF: Binary Robust Independent Elementary Features",
+          "author": "calonder",
+          "year": "2010",
+          "journal-title": "Proc European Conf Computer Vision"
+        },
+        {
+          "key": "ref61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2007.383123"
+        },
+        {
+          "key": "ref63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1010933404324"
+        },
+        {
+          "key": "ref28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2007.35"
+        },
+        {
+          "key": "ref64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICPR.2010.675"
+        },
+        {
+          "key": "ref27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2005.205"
+        },
+        {
+          "key": "ref65",
+          "article-title": "Pyramidal Implementation of the Lucas Kanade Feature Tracker Description of the Algorithm",
+          "author": "bouguet",
+          "year": "1999",
+          "journal-title": "Technical Report"
+        },
+        {
+          "key": "ref66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCVW.2009.5457446"
+        },
+        {
+          "key": "ref29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2006.215"
+        },
+        {
+          "key": "ref67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2010.5540145"
+        },
+        {
+          "key": "ref68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCVW.2009.5457447"
+        },
+        {
+          "key": "ref69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCVW.2009.5457445"
+        },
+        {
+          "key": "ref2",
+          "first-page": "674",
+          "article-title": "An Iterative Image Registration Technique with an Application to Stereo Vision",
+          "volume": "81",
+          "author": "lucas",
+          "year": "1981",
+          "journal-title": "Proc Seventh Int'l Joint Conf Artificial Intelligence"
+        },
+        {
+          "key": "ref1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/279943.279962"
+        },
+        {
+          "key": "ref20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2006.256"
+        },
+        {
+          "key": "ref22",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1007/s11263-007-0075-7",
+          "article-title": "Incremental Learning for Robust Visual Tracking",
+          "volume": "77",
+          "author": "ross",
+          "year": "2007",
+          "journal-title": "Int'l J Computer Vision"
+        },
+        {
+          "key": "ref21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1007939232436"
+        },
+        {
+          "key": "ref24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2008.146"
+        },
+        {
+          "key": "ref23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2010.5539821"
+        },
+        {
+          "key": "ref26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2004.53"
+        },
+        {
+          "key": "ref25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2010.5539819"
+        },
+        {
+          "key": "ref50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2005.167"
+        },
+        {
+          "key": "ref51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008078328650"
+        },
+        {
+          "key": "ref59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2010.5540231"
+        },
+        {
+          "key": "ref58",
+          "author": "ogata",
+          "year": "2009",
+          "journal-title": "Modern Control Engineering"
+        },
+        {
+          "key": "ref57",
+          "author": "zhou",
+          "year": "1996",
+          "journal-title": "Robust and Optimal Control"
+        },
+        {
+          "key": "ref56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/34.655648"
+        },
+        {
+          "key": "ref55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2009.5459278"
+        },
+        {
+          "key": "ref54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2007.4408936"
+        },
+        {
+          "key": "ref53",
+          "article-title": "A Boosted Particle Filter: Multitarget Detection and Tracking",
+          "author": "okuma",
+          "year": "2004",
+          "journal-title": "Proc European Conf Computer Vision"
+        },
+        {
+          "key": "ref52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2007.383199"
+        },
+        {
+          "key": "ref10",
+          "article-title": "Robust Real-Time Visual Tracking Using Pixel-Wise Posteriors",
+          "author": "bibby",
+          "year": "2008",
+          "journal-title": "Proc 10th European Conf Computer Vision"
+        },
+        {
+          "key": "ref11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2010.5539818"
+        },
+        {
+          "key": "ref40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5244/C.19.3"
+        },
+        {
+          "key": "ref12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0004-3702(81)90024-2"
+        },
+        {
+          "key": "ref13",
+          "first-page": "25",
+          "article-title": "High Accuracy Optical Flow Estimation Based on a Theory for Warping",
+          "author": "brox",
+          "year": "2004",
+          "journal-title": "Proc European Conf Computer Vision"
+        },
+        {
+          "key": "ref14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF01420984"
+        },
+        {
+          "key": "ref15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2003.1195991"
+        },
+        {
+          "key": "ref16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2004.16"
+        },
+        {
+          "key": "ref17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2005.324"
+        },
+        {
+          "key": "ref18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cviu.2006.12.004"
+        },
+        {
+          "key": "ref19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2003.1233903"
+        },
+        {
+          "key": "ref4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11263-008-0136-6"
+        },
+        {
+          "key": "ref3",
+          "article-title": "Good Features to Track",
+          "author": "shi",
+          "year": "1994",
+          "journal-title": "Proc IEEE CS Conf Computer Vision and Pattern Recognition"
+        },
+        {
+          "key": "ref6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2007.250600"
+        },
+        {
+          "key": "ref5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0031-3203(02)00100-0"
+        },
+        {
+          "key": "ref8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.1998.698614"
+        },
+        {
+          "key": "ref7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5244/C.22.110"
+        },
+        {
+          "key": "ref49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2005.259"
+        },
+        {
+          "key": "ref9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008078328650"
+        },
+        {
+          "key": "ref46",
+          "article-title": "Semi-Super-vised Self-Training of Object Detection Models",
+          "author": "rosenberg",
+          "year": "2005",
+          "journal-title": "Proc Seventh IEEE Workshop Application of Computer Vision"
+        },
+        {
+          "key": "ref45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2003.1211479"
+        },
+        {
+          "key": "ref48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2003.1238406"
+        },
+        {
+          "key": "ref47",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-642-01793-3_77",
+          "article-title": "Challenges and Research Directions for Adaptive Biometric Recognition Systems",
+          "author": "poh",
+          "year": "2009",
+          "journal-title": "Proc Third Int'l Conf Advances in Biometrics"
+        },
+        {
+          "key": "ref42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7551/mitpress/9780262033589.001.0001"
+        },
+        {
+          "key": "ref41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2009.5206794"
+        },
+        {
+          "key": "ref44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1007692713085"
+        },
+        {
+          "key": "ref43",
+          "doi-asserted-by": "crossref",
+          "DOI": "10.1007/978-3-031-01548-9",
+          "author": "zhu",
+          "year": "2009",
+          "journal-title": "Introduction to Semi-Supervised Learning"
+        }
+      ],
+      "container-title": [
+        "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx5/34/6200921/06104061.pdf?arnumber=6104061",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            11
+          ]
+        ],
+        "date-time": "2023-06-11T15:47:01Z",
+        "timestamp": 1686498421000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/6104061/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2012,
+            7
+          ]
+        ]
+      },
+      "references-count": 69,
+      "journal-issue": {
+        "issue": "7"
+      },
+      "URL": "https://doi.org/10.1109/tpami.2011.239",
+      "relation": {},
+      "ISSN": [
+        "0162-8828",
+        "2160-9292"
+      ],
+      "issn-type": [
+        {
+          "value": "0162-8828",
+          "type": "print"
+        },
+        {
+          "value": "2160-9292",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            7
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C6",
+    "doi": "10.1109/ICCV.2011.6126251",
+    "year": 2011,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ],
+        "date-time": "2026-10-07T00:09:00Z",
+        "timestamp": 1791331740945,
+        "version": "4.3.1"
+      },
+      "reference-count": 23,
+      "publisher": "IEEE",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      },
+      "DOI": "10.1109/iccv.2011.6126251",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            1,
+            31
+          ]
+        ],
+        "date-time": "2012-01-31T21:40:48Z",
+        "timestamp": 1328046048000
+      },
+      "page": "263-270",
+      "source": "Crossref",
+      "is-referenced-by-count": 1295,
+      "title": [
+        "Struck: Structured output tracking with kernels"
+      ],
+      "prefix": "10.1109",
+      "author": [
+        {
+          "given": "Sam",
+          "family": "Hare",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amir",
+          "family": "Saffari",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Philip H. S.",
+          "family": "Torr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "263",
+      "reference": [
+        {
+          "key": "19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2009.5459183"
+        },
+        {
+          "key": "22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2003.1238366"
+        },
+        {
+          "key": "17",
+          "first-page": "3",
+          "article-title": "Robust multi-view boosting with priors",
+          "volume": "2",
+          "author": "saffari",
+          "year": "2010",
+          "journal-title": "Proc ECCV"
+        },
+        {
+          "key": "23",
+          "first-page": "3",
+          "article-title": "Online semi-supervised multiple-instance boosting",
+          "volume": "2",
+          "author": "zeisl",
+          "year": "2010",
+          "journal-title": "Proc CVPR"
+        },
+        {
+          "key": "18",
+          "first-page": "1453",
+          "article-title": "Large margin methods for structured and interdependent output variables",
+          "volume": "6",
+          "author": "tsochantaridis",
+          "year": "2005",
+          "journal-title": "JMLR"
+        },
+        {
+          "key": "15",
+          "first-page": "185",
+          "volume": "4",
+          "author": "platt",
+          "year": "1999",
+          "journal-title": "Fast Training of Support Vector Machines using Sequential Minimal Optimization"
+        },
+        {
+          "key": "16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2010.5539937"
+        },
+        {
+          "key": "13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCVW.2009.5457451"
+        },
+        {
+          "key": "14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2010.5540136"
+        },
+        {
+          "key": "11",
+          "first-page": "3",
+          "article-title": "Semi-supervised on-line boosting for robust tracking",
+          "volume": "2",
+          "author": "grabner",
+          "year": "2008",
+          "journal-title": "Proc ECCV"
+        },
+        {
+          "key": "12",
+          "first-page": "6",
+          "article-title": "MIForests: Multiple-instance learning with randomized trees",
+          "author": "leistner",
+          "year": "2010",
+          "journal-title": "Proc ECCV"
+        },
+        {
+          "key": "21",
+          "first-page": "5",
+          "article-title": "Multi-class pegasos on a budget",
+          "volume": "2",
+          "author": "wang",
+          "year": "2010",
+          "journal-title": "Proc ICML"
+        },
+        {
+          "key": "3",
+          "first-page": "6",
+          "article-title": "Visual tracking with online multiple instance learning",
+          "volume": "2",
+          "author": "babenko",
+          "year": "2009",
+          "journal-title": "Proc CVPR"
+        },
+        {
+          "key": "20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:VISI.0000013087.49260.fb"
+        },
+        {
+          "key": "2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2004.53"
+        },
+        {
+          "key": "1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPR.2006.256"
+        },
+        {
+          "key": "10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.5244/C.20.6"
+        },
+        {
+          "key": "7",
+          "first-page": "5",
+          "article-title": "Online classification on a budget",
+          "volume": "2",
+          "author": "crammer",
+          "year": "2003",
+          "journal-title": "NIPS"
+        },
+        {
+          "key": "6",
+          "first-page": "5",
+          "article-title": "Sequence labelling SVMs trained in one pass",
+          "volume": "2",
+          "author": "bordes",
+          "year": "2008",
+          "journal-title": "Proc ECML-PKDD"
+        },
+        {
+          "key": "5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1145/1273496.1273508"
+        },
+        {
+          "key": "4",
+          "first-page": "4",
+          "article-title": "Learning to localize objects with structured output regression",
+          "volume": "2",
+          "author": "blaschko",
+          "year": "2008",
+          "journal-title": "Proc ECCV"
+        },
+        {
+          "key": "9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ICCV.2009.5459169"
+        },
+        {
+          "key": "8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2009.167"
+        }
+      ],
+      "event": {
+        "name": "2011 IEEE International Conference on Computer Vision (ICCV)",
+        "location": "Barcelona, Spain",
+        "start": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              6
+            ]
+          ]
+        },
+        "end": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              13
+            ]
+          ]
+        }
+      },
+      "container-title": [
+        "2011 International Conference on Computer Vision"
+      ],
+      "original-title": [],
+      "link": [
+        {
+          "URL": "http://xplorestaging.ieee.org/ielx5/6118259/6126217/06126251.pdf?arnumber=6126251",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2017,
+            3,
+            21
+          ]
+        ],
+        "date-time": "2017-03-21T14:27:35Z",
+        "timestamp": 1490106455000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://ieeexplore.ieee.org/document/6126251/"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      },
+      "references-count": 23,
+      "URL": "https://doi.org/10.1109/iccv.2011.6126251",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C7",
+    "doi": "10.1007/978-3-642-33765-9_50",
+    "year": 2012,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            13
+          ]
+        ],
+        "date-time": "2026-10-13T16:54:41Z",
+        "timestamp": 1791910481884,
+        "version": "4.3.4"
+      },
+      "publisher-location": "Berlin, Heidelberg",
+      "reference-count": 23,
+      "publisher": "Springer Berlin Heidelberg",
+      "isbn-type": [
+        {
+          "value": "9783642337642",
+          "type": "print"
+        },
+        {
+          "value": "9783642337659",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2012,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2012-01-01T00:00:00Z",
+            "timestamp": 1325376000000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "DOI": "10.1007/978-3-642-33765-9_50",
+      "type": "book-chapter",
+      "created": {
+        "date-parts": [
+          [
+            2012,
+            9,
+            26
+          ]
+        ],
+        "date-time": "2012-09-26T08:07:02Z",
+        "timestamp": 1348646822000
+      },
+      "page": "702-715",
+      "source": "Crossref",
+      "is-referenced-by-count": 1343,
+      "title": [
+        "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels"
+      ],
+      "prefix": "10.1007",
+      "author": [
+        {
+          "given": "João F.",
+          "family": "Henriques",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Caseiro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pedro",
+          "family": "Martins",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jorge",
+          "family": "Batista",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "reference": [
+        {
+          "key": "50_CR1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Henriques, J.F., Caseiro, R., Batista, J.: Globally optimal solution to multi-object tracking with merged measurements. In: ICCV (2011)",
+          "DOI": "10.1109/ICCV.2011.6126532"
+        },
+        {
+          "key": "50_CR2",
+          "series-title": "LNCS",
+          "first-page": "343",
+          "volume-title": "ECCV 2012, Part II",
+          "author": "A.R. Zamir",
+          "year": "2012",
+          "unstructured": "Zamir, A.R., Dehghan, A., Shah, M.: GMCP-Tracker: Global Multi-object Tracking Using Generalized Minimum Clique Graphs. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part II. LNCS, vol. 7573, pp. 343–356. Springer, Heidelberg (2012)"
+        },
+        {
+          "issue": "8",
+          "key": "50_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "1619",
+          "DOI": "10.1109/TPAMI.2010.226",
+          "volume": "33",
+          "author": "B. Babenko",
+          "year": "2011",
+          "unstructured": "Babenko, B., Yang, M.-H., Belongie, S.: Robust object tracking with online multiple instance learning. TPAMI 33(8), 1619–1632 (2011)",
+          "journal-title": "TPAMI"
+        },
+        {
+          "key": "50_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hare, S., Saffari, A., Torr, P.: Struck: Structured output tracking with kernels. In: ICCV (2011)",
+          "DOI": "10.1109/ICCV.2011.6126251"
+        },
+        {
+          "issue": "8",
+          "key": "50_CR5",
+          "doi-asserted-by": "publisher",
+          "first-page": "1064",
+          "DOI": "10.1109/TPAMI.2004.53",
+          "volume": "26",
+          "author": "S. Avidan",
+          "year": "2004",
+          "unstructured": "Avidan, S.: Support vector tracking. TPAMI 26(8), 1064–1072 (2004)",
+          "journal-title": "TPAMI"
+        },
+        {
+          "key": "50_CR6",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "publisher",
+          "first-page": "234",
+          "DOI": "10.1007/978-3-540-88682-2_19",
+          "volume-title": "Computer Vision – ECCV 2008",
+          "author": "H. Grabner",
+          "year": "2008",
+          "unstructured": "Grabner, H., Leistner, C., Bischof, H.: Semi-supervised On-Line Boosting for Robust Tracking. In: Forsyth, D., Torr, P., Zisserman, A. (eds.) ECCV 2008, Part I. LNCS, vol. 5302, pp. 234–247. Springer, Heidelberg (2008)"
+        },
+        {
+          "key": "50_CR7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Saffari, A., Leistner, C., Santner, J., Godec, M., Bischof, H.: On-line random forests. In: 3rd IEEE ICCV Workshop on On-line Computer Vision (2009)",
+          "DOI": "10.1109/ICCVW.2009.5457447"
+        },
+        {
+          "issue": "4",
+          "key": "50_CR8",
+          "doi-asserted-by": "publisher",
+          "first-page": "13",
+          "DOI": "10.1145/1177352.1177355",
+          "volume": "38",
+          "author": "A. Yilmaz",
+          "year": "2006",
+          "unstructured": "Yilmaz, A., Javed, O., Shah, M.: Object tracking: A survey. ACM Computing Surveys 38(4), 13–58 (2006)",
+          "journal-title": "ACM Computing Surveys"
+        },
+        {
+          "issue": "18",
+          "key": "50_CR9",
+          "doi-asserted-by": "publisher",
+          "first-page": "3823",
+          "DOI": "10.1016/j.neucom.2011.07.024",
+          "volume": "74",
+          "author": "H. Yang",
+          "year": "2011",
+          "unstructured": "Yang, H., Shao, L., Zheng, F., Wang, L., Song, Z.: Recent advances and trends in visual tracking: A review. Neurocomputing 74(18), 3823–3831 (2011)",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "50_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lampert, C.H., Blaschko, M.B., Hofmann, T.: Beyond sliding windows: Object localization by efficient subwindow search. In: CVPR (2008)",
+          "DOI": "10.1109/CVPR.2008.4587586"
+        },
+        {
+          "key": "50_CR11",
+          "unstructured": "Alexe, B., Petrescu, V., Ferrari, V.: Exploiting spatial overlap to efficiently compute appearance distances between image windows. In: NIPS (2011)"
+        },
+        {
+          "key": "50_CR12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bolme, D.S., Beveridge, J.R., Draper, B.A., Lui, Y.M.: Visual object tracking using adaptive correlation filters. In: CVPR (2010)",
+          "DOI": "10.1109/CVPR.2010.5539960"
+        },
+        {
+          "key": "50_CR13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Vedaldi, A., Gulshan, V., Varma, M., Zisserman, A.: Multiple kernels for object detection. In: ICCV (2009)",
+          "DOI": "10.1109/ICCV.2009.5459183"
+        },
+        {
+          "key": "50_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Harzallah, H., Jurie, F., Schmid, C.: Combining efficient object localization and image classification. In: ICCV (2009)",
+          "DOI": "10.1109/ICCV.2009.5459257"
+        },
+        {
+          "key": "50_CR15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bolme, D.S., Draper, B.A., Beveridge, J.R.: Average of synthetic exact filters. In: CVPR (2009)",
+          "DOI": "10.1109/CVPRW.2009.5206701"
+        },
+        {
+          "key": "50_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Patnaik, R., Casasent, D.: Fast FFT-based distortion-invariant kernel filters for general object recognition. In: Proceedings of SPIE, vol. 7252 (2009)",
+          "DOI": "10.1117/12.805411"
+        },
+        {
+          "key": "50_CR17",
+          "first-page": "131",
+          "volume": "190",
+          "author": "R. Rifkin",
+          "year": "2003",
+          "unstructured": "Rifkin, R., Yeo, G., Poggio, T.: Regularized least-squares classification. Nato Science Series Sub Series III: Computer and Systems Sciences 190, 131–154 (2003)",
+          "journal-title": "Nato Science Series Sub Series III: Computer and Systems Sciences"
+        },
+        {
+          "key": "50_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schölkopf, B., Smola, A.J.: Learning with kernels: Support vector machines, regularization, optimization, and beyond. MIT Press (2002)",
+          "DOI": "10.7551/mitpress/4175.001.0001"
+        },
+        {
+          "key": "50_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gray, R.M.: Toeplitz and Circulant Matrices: A Review. Now Publishers (2006)",
+          "DOI": "10.1561/9781933019680"
+        },
+        {
+          "key": "50_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Patnaik, R.: Distortion-invariant kernel correlation filters for general object recognition. PhD thesis, Carnegie Mellon University (2009)",
+          "DOI": "10.1117/12.805411"
+        },
+        {
+          "key": "50_CR21",
+          "unstructured": "González, R.C., Woods, R.E.: Digital image processing. Prentice Hall (2008)"
+        },
+        {
+          "issue": "1-3",
+          "key": "50_CR22",
+          "doi-asserted-by": "publisher",
+          "first-page": "125",
+          "DOI": "10.1007/s11263-007-0075-7",
+          "volume": "77",
+          "author": "D.A. Ross",
+          "year": "2007",
+          "unstructured": "Ross, D.A., Lim, J., Lin, R.-S., Yang, M.-H.: Incremental learning for robust visual tracking. IJCV 77(1-3), 125–141 (2007)",
+          "journal-title": "IJCV"
+        },
+        {
+          "key": "50_CR23",
+          "unstructured": "Adam, A., Rivlin, E., Shimshoni, I.: Robust fragments-based tracking using the integral histogram. In: CVPR (2006)"
+        }
+      ],
+      "container-title": [
+        "Lecture Notes in Computer Science",
+        "Computer Vision – ECCV 2012"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-33765-9_50",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            9
+          ]
+        ],
+        "date-time": "2025-04-09T14:10:37Z",
+        "timestamp": 1744207837000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/978-3-642-33765-9_50"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      },
+      "ISBN": [
+        "9783642337642",
+        "9783642337659"
+      ],
+      "references-count": 23,
+      "URL": "https://doi.org/10.1007/978-3-642-33765-9_50",
+      "relation": {},
+      "ISSN": [
+        "0302-9743",
+        "1611-3349"
+      ],
+      "issn-type": [
+        {
+          "value": "0302-9743",
+          "type": "print"
+        },
+        {
+          "value": "1611-3349",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2012
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C8",
+    "doi": "10.1007/978-3-319-10599-4_13",
+    "year": 2014,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            6
+          ]
+        ],
+        "date-time": "2026-10-06T09:57:52Z",
+        "timestamp": 1791280672086,
+        "version": "4.1.0"
+      },
+      "publisher-location": "Cham",
+      "reference-count": 32,
+      "publisher": "Springer International Publishing",
+      "isbn-type": [
+        {
+          "value": "9783319105987",
+          "type": "print"
+        },
+        {
+          "value": "9783319105994",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2014,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2014-01-01T00:00:00Z",
+            "timestamp": 1388534400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "DOI": "10.1007/978-3-319-10599-4_13",
+      "type": "book-chapter",
+      "created": {
+        "date-parts": [
+          [
+            2014,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2014-08-14T07:37:13Z",
+        "timestamp": 1408001833000
+      },
+      "page": "188-203",
+      "source": "Crossref",
+      "is-referenced-by-count": 641,
+      "title": [
+        "MEEM: Robust Tracking via Multiple Experts Using Entropy Minimization"
+      ],
+      "prefix": "10.1007",
+      "author": [
+        {
+          "given": "Jianming",
+          "family": "Zhang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shugao",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stan",
+          "family": "Sclaroff",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "reference": [
+        {
+          "issue": "8",
+          "key": "13_CR1",
+          "doi-asserted-by": "publisher",
+          "first-page": "1064",
+          "DOI": "10.1109/TPAMI.2004.53",
+          "volume": "26",
+          "author": "S. Avidan",
+          "year": "2004",
+          "unstructured": "Avidan, S.: Support vector tracking. PAMI 26(8), 1064–1072 (2004)",
+          "journal-title": "PAMI"
+        },
+        {
+          "issue": "2",
+          "key": "13_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "261",
+          "DOI": "10.1109/TPAMI.2007.35",
+          "volume": "29",
+          "author": "S. Avidan",
+          "year": "2007",
+          "unstructured": "Avidan, S.: Ensemble tracking. PAMI 29(2), 261–271 (2007)",
+          "journal-title": "PAMI"
+        },
+        {
+          "issue": "8",
+          "key": "13_CR3",
+          "doi-asserted-by": "publisher",
+          "first-page": "1619",
+          "DOI": "10.1109/TPAMI.2010.226",
+          "volume": "33",
+          "author": "B. Babenko",
+          "year": "2011",
+          "unstructured": "Babenko, B., Yang, M.H., Belongie, S.: Robust object tracking with online multiple instance learning. PAMI 33(8), 1619–1632 (2011)",
+          "journal-title": "PAMI"
+        },
+        {
+          "key": "13_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bai, Q., Wu, Z., Sclaroff, S., Betke, M., Monnier, C.: Randomized ensemble tracking. In: ICCV (2013)",
+          "DOI": "10.1109/ICCV.2013.255"
+        },
+        {
+          "key": "13_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chu, D.M., Smeulders, A.W.: Thirteen hard cases in visual tracking. In: AVSS (2010)",
+          "DOI": "10.1109/AVSS.2010.85"
+        },
+        {
+          "key": "13_CR6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dinh, T.B., Vo, N., Medioni, G.: Context tracker: Exploring supporters and distracters in unconstrained environments. In: CVPR (2011)",
+          "DOI": "10.1109/CVPR.2011.5995733"
+        },
+        {
+          "key": "13_CR7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grabner, H., Grabner, M., Bischof, H.: Real-time tracking via on-line boosting. In: BMVC (2006)",
+          "DOI": "10.5244/C.20.6"
+        },
+        {
+          "key": "13_CR8",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "publisher",
+          "first-page": "234",
+          "DOI": "10.1007/978-3-540-88682-2_19",
+          "volume-title": "Computer Vision – ECCV 2008",
+          "author": "H. Grabner",
+          "year": "2008",
+          "unstructured": "Grabner, H., Leistner, C., Bischof, H.: Semi-supervised on-line boosting for robust tracking. In: Forsyth, D., Torr, P., Zisserman, A. (eds.) ECCV 2008, Part I. LNCS, vol. 5302, pp. 234–247. Springer, Heidelberg (2008)"
+        },
+        {
+          "key": "13_CR9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grabner, M., Grabner, H., Bischof, H.: Learning features for tracking. In: CVPR (2007)",
+          "DOI": "10.1109/CVPR.2007.382995"
+        },
+        {
+          "key": "13_CR10",
+          "unstructured": "Grandvalet, Y., Bengio, Y.: Semi-supervised learning by entropy minimization. In: NIPS (2005)"
+        },
+        {
+          "key": "13_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hare, S., Saffari, A., Torr, P.H.: Struck: Structured output tracking with kernels. In: ICCV (2011)",
+          "DOI": "10.1109/ICCV.2011.6126251"
+        },
+        {
+          "key": "13_CR12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, S., Yang, Q., Lau, R.W., Wang, J., Yang, M.H.: Visual tracking via locality sensitive histograms. In: CVPR (2013)",
+          "DOI": "10.1109/CVPR.2013.314"
+        },
+        {
+          "key": "13_CR13",
+          "unstructured": "Jia, X., Lu, H., Yang, M.H.: Visual tracking via adaptive structural local sparse appearance model. In: CVPR (2012)"
+        },
+        {
+          "key": "13_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kalal, Z., Matas, J., Mikolajczyk, K.: Pn learning: Bootstrapping binary classifiers by structural constraints. In: CVPR (2010)",
+          "DOI": "10.1109/CVPR.2010.5540231"
+        },
+        {
+          "key": "13_CR15",
+          "unstructured": "Kim, M., Kumar, S., Pavlovic, V., Rowley, H.: Face tracking and recognition with visual constraints in real-world videos. In: CVPR (2008)"
+        },
+        {
+          "key": "13_CR16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kwon, J., Lee, K.M.: Visual tracking decomposition. In: CVPR (2010)",
+          "DOI": "10.1109/CVPR.2010.5539821"
+        },
+        {
+          "key": "13_CR17",
+          "unstructured": "Kwon, J., Lee, K.M.: Tracking by sampling trackers. In: ICCV (2011)"
+        },
+        {
+          "key": "13_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, X., Hu, W., Shen, C., Zhang, Z., Dick, A., van den Hengel, A.: A survey of appearance models in visual object tracking. arXiv preprint arXiv:1303.4803 (2013)",
+          "DOI": "10.1145/2508037.2508039"
+        },
+        {
+          "key": "13_CR19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Maji, S., Berg, A.C.: Max-margin additive classifiers for detection. In: CVPR (2009)",
+          "DOI": "10.1109/ICCV.2009.5459203"
+        },
+        {
+          "issue": "6",
+          "key": "13_CR20",
+          "doi-asserted-by": "publisher",
+          "first-page": "810",
+          "DOI": "10.1109/TPAMI.2004.16",
+          "volume": "26",
+          "author": "L. Matthews",
+          "year": "2004",
+          "unstructured": "Matthews, L., Ishikawa, T., Baker, S.: The template update problem. PAMI 26(6), 810–815 (2004)",
+          "journal-title": "PAMI"
+        },
+        {
+          "issue": "11",
+          "key": "13_CR21",
+          "doi-asserted-by": "publisher",
+          "first-page": "2259",
+          "DOI": "10.1109/TPAMI.2011.66",
+          "volume": "33",
+          "author": "X. Mei",
+          "year": "2011",
+          "unstructured": "Mei, X., Ling, H.: Robust visual tracking and vehicle classification via sparse representation. PAMI 33(11), 2259–2272 (2011)",
+          "journal-title": "PAMI"
+        },
+        {
+          "key": "13_CR22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mei, X., Ling, H., Wu, Y., Blasch, E., Bai, L.: Minimum error bounded efficient l1 tracker with occlusion detection. In: CVPR (2011)",
+          "DOI": "10.1109/CVPR.2011.5995421"
+        },
+        {
+          "key": "13_CR23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Supancic III, J.S., Ramanan, D.: Self-paced learning for long-term tracking. In: CVPR (2013)",
+          "DOI": "10.1109/CVPR.2013.308"
+        },
+        {
+          "key": "13_CR24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tang, F., Brennan, S., Zhao, Q., Tao, H.: Co-tracking using semi-supervised support vector machines. In: ICCV (2007)",
+          "DOI": "10.1109/ICCV.2007.4408954"
+        },
+        {
+          "key": "13_CR25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, D., Lu, H., Yang, M.H.: Least soft-thresold squares tracking. In: CVPR (2013)",
+          "DOI": "10.1109/CVPR.2013.307"
+        },
+        {
+          "issue": "3",
+          "key": "13_CR26",
+          "doi-asserted-by": "crossref",
+          "first-page": "149",
+          "DOI": "10.1002/sam.10075",
+          "volume": "3",
+          "author": "Z. Wang",
+          "year": "2010",
+          "unstructured": "Wang, Z., Vucetic, S.: Online training on a budget of support vector machines using twin prototypes. Statistical Analysis and Data Mining 3(3), 149–169 (2010)",
+          "journal-title": "Statistical Analysis and Data Mining"
+        },
+        {
+          "key": "13_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, Y., Lim, J., Yang, M.H.: Online object tracking: A benchmark. In: CVPR (2013)",
+          "DOI": "10.1109/CVPR.2013.312"
+        },
+        {
+          "issue": "4",
+          "key": "13_CR28",
+          "doi-asserted-by": "publisher",
+          "first-page": "13",
+          "DOI": "10.1145/1177352.1177355",
+          "volume": "38",
+          "author": "A. Yilmaz",
+          "year": "2006",
+          "unstructured": "Yilmaz, A., Javed, O., Shah, M.: Object tracking: A survey. ACM Computing Surveys (CSUR) 38(4), 13 (2006)",
+          "journal-title": "ACM Computing Surveys (CSUR)"
+        },
+        {
+          "key": "13_CR29",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "publisher",
+          "first-page": "678",
+          "DOI": "10.1007/978-3-540-88688-4_50",
+          "volume-title": "Computer Vision – ECCV 2008",
+          "author": "Q. Yu",
+          "year": "2008",
+          "unstructured": "Yu, Q., Dinh, T.B., Medioni, G.: Online tracking and reacquisition using co-trained generative and discriminative trackers. In: Forsyth, D., Torr, P., Zisserman, A. (eds.) ECCV 2008, Part II. LNCS, vol. 5303, pp. 678–691. Springer, Heidelberg (2008)"
+        },
+        {
+          "key": "13_CR30",
+          "series-title": "Lecture Notes in Computer Science",
+          "volume-title": "Computer Vision - ECCV ’94",
+          "author": "R. Zabih",
+          "year": "1994",
+          "unstructured": "Zabih, R., Woodfill, J.: Non-parametric local transforms for computing visual correspondence. In: Eklundh, J.-O. (ed.) ECCV 1994. LNCS, vol. 801, Springer, Heidelberg (1994)"
+        },
+        {
+          "key": "13_CR31",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "publisher",
+          "first-page": "470",
+          "DOI": "10.1007/978-3-642-33783-3_34",
+          "volume-title": "Computer Vision – ECCV 2012",
+          "author": "T. Zhang",
+          "year": "2012",
+          "unstructured": "Zhang, T., Ghanem, B., Liu, S., Ahuja, N.: Low-rank sparse learning for robust visual tracking. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part VI. LNCS, vol. 7577, pp. 470–484. Springer, Heidelberg (2012)"
+        },
+        {
+          "key": "13_CR32",
+          "unstructured": "Zhong, W., Lu, H., Yang, M.H.: Robust object tracking via sparsity-based collaborative model. In: CVPR (2012)"
+        }
+      ],
+      "container-title": [
+        "Lecture Notes in Computer Science",
+        "Computer Vision – ECCV 2014"
+      ],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-10599-4_13",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            14
+          ]
+        ],
+        "date-time": "2022-04-14T12:53:36Z",
+        "timestamp": 1649940816000
+      },
+      "score": 71.3853,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/978-3-319-10599-4_13"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "ISBN": [
+        "9783319105987",
+        "9783319105994"
+      ],
+      "references-count": 32,
+      "URL": "https://doi.org/10.1007/978-3-319-10599-4_13",
+      "ISSN": [
+        "0302-9743",
+        "1611-3349"
+      ],
+      "issn-type": [
+        {
+          "value": "0302-9743",
+          "type": "print"
+        },
+        {
+          "value": "1611-3349",
+          "type": "electronic"
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "key": "C9",
+    "doi": "10.5244/C.28.65",
+    "year": 2014,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2026-10-24T19:48:13Z",
+        "timestamp": 1792871293761,
+        "version": "4.5.0"
+      },
+      "reference-count": 0,
+      "publisher": "British Machine Vision Association",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "DOI": "10.5244/c.28.65",
+      "type": "proceedings-article",
+      "created": {
+        "date-parts": [
+          [
+            2015,
+            5,
+            2
+          ]
+        ],
+        "date-time": "2015-05-02T01:33:04Z",
+        "timestamp": 1430530384000
+      },
+      "page": "65.1-65.11",
+      "source": "Crossref",
+      "is-referenced-by-count": 1282,
+      "title": [
+        "Accurate Scale Estimation for Robust Visual Tracking"
+      ],
+      "prefix": "10.5244",
+      "author": [
+        {
+          "given": "Martin",
+          "family": "Danelljan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gustav",
+          "family": "Häger",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fahad",
+          "family": "Shahbaz Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Felsberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "3205",
+      "event": {
+        "name": "British Machine Vision Conference 2014",
+        "theme": "Machine Vision, Image Processing & Pattern Recognition",
+        "location": "Nottingham",
+        "acronym": "BMVC 2014",
+        "number": "2014",
+        "sponsor": [
+          "British Machine Vision Association"
+        ]
+      },
+      "container-title": [
+        "Proceedings of the British Machine Vision Conference 2014"
+      ],
+      "original-title": [],
+      "deposited": {
+        "date-parts": [
+          [
+            2015,
+            5,
+            2
+          ]
+        ],
+        "date-time": "2015-05-02T01:33:18Z",
+        "timestamp": 1430530398000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://www.bmva.org/bmvc/2014/papers/paper038/index.html"
+        }
+      },
+      "subtitle": [],
+      "proceedings-subject": "Machine Vision, Image Processing & Pattern Recognition",
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.5244/c.28.65",
+      "relation": {},
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2014
+          ]
+        ]
+      },
+      "article-number": "38"
+    }
+  },
+  {
+    "key": "C10",
+    "doi": "10.1007/978-3-319-46454-1_29",
+    "year": 2016,
+    "record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            10,
+            24
+          ]
+        ],
+        "date-time": "2026-10-24T19:48:14Z",
+        "timestamp": 1792871294488,
+        "version": "4.5.0"
+      },
+      "publisher-location": "Cham",
+      "reference-count": 48,
+      "publisher": "Springer International Publishing",
+      "isbn-type": [
+        {
+          "value": "9783319464534",
+          "type": "print"
+        },
+        {
+          "value": "9783319464541",
+          "type": "electronic"
+        }
+      ],
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2016,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2016-01-01T00:00:00Z",
+            "timestamp": 1451606400000
+          },
+          "content-version": "tdm",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        },
+        {
+          "start": {
+            "date-parts": [
+              [
+                2016,
+                1,
+                1
+              ]
+            ],
+            "date-time": "2016-01-01T00:00:00Z",
+            "timestamp": 1451606400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://www.springer.com/tdm"
+        }
+      ],
+      "content-domain": {
+        "domain": [
+          "link.springer.com"
+        ],
+        "crossmark-restriction": false
+      },
+      "short-container-title": [],
+      "published-print": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "DOI": "10.1007/978-3-319-46454-1_29",
+      "type": "book-chapter",
+      "created": {
+        "date-parts": [
+          [
+            2016,
+            9,
+            15
+          ]
+        ],
+        "date-time": "2016-09-15T05:15:09Z",
+        "timestamp": 1473916509000
+      },
+      "page": "472-488",
+      "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+      "source": "Crossref",
+      "is-referenced-by-count": 1134,
+      "title": [
+        "Beyond Correlation Filters: Learning Continuous Convolution Operators for Visual Tracking"
+      ],
+      "prefix": "10.1007",
+      "author": [
+        {
+          "given": "Martin",
+          "family": "Danelljan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andreas",
+          "family": "Robinson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fahad",
+          "family": "Shahbaz Khan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Felsberg",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "297",
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            9,
+            16
+          ]
+        ]
+      },
+      "reference": [
+        {
+          "key": "29_CR1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Badino, H., Yamamoto, A., Kanade, T.: Visual odometry by multi-frame feature integration. In: ICCV Workshop (2013)",
+          "DOI": "10.1109/ICCVW.2013.37"
+        },
+        {
+          "issue": "3",
+          "key": "29_CR2",
+          "doi-asserted-by": "publisher",
+          "first-page": "221",
+          "DOI": "10.1023/B:VISI.0000011205.11775.fd",
+          "volume": "56",
+          "author": "S Baker",
+          "year": "2004",
+          "unstructured": "Baker, S., Matthews, I.A.: Lucas-kanade 20 years on: a unifying framework. IJCV 56(3), 221–255 (2004)",
+          "journal-title": "IJCV"
+        },
+        {
+          "key": "29_CR3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bertinetto, L., Valmadre, J., Golodetz, S., Miksik, O., Torr, P.H.S.: Staple: complementary learners for real-time tracking. In: CVPR (2016)",
+          "DOI": "10.1109/CVPR.2016.156"
+        },
+        {
+          "key": "29_CR4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Boddeti, V.N., Kanade, T., Kumar, B.: Correlation filters for object alignment. In: CVPR (2013)",
+          "DOI": "10.1109/CVPR.2013.297"
+        },
+        {
+          "key": "29_CR5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bolme, D.S., Beveridge, J.R., Draper, B.A., Lui, Y.M.: Visual object tracking using adaptive correlation filters. In: CVPR (2010)",
+          "DOI": "10.1109/CVPR.2010.5539960"
+        },
+        {
+          "key": "29_CR6",
+          "unstructured": "Bouguet, J.Y.: Pyramidal implementation of the lucas kanade feature tracker. Technical report Microprocessor Research Labs, Intel Corporation (2000)"
+        },
+        {
+          "key": "29_CR7",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "611",
+          "DOI": "10.1007/978-3-642-33783-3_44",
+          "volume-title": "Computer Vision – ECCV 2012",
+          "author": "DJ Butler",
+          "year": "2012",
+          "unstructured": "Butler, D.J., Wulff, J., Stanley, G.B., Black, M.J.: A naturalistic open source movie for optical flow evaluation. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part VI. LNCS, vol. 7577, pp. 611–625. Springer, Heidelberg (2012)"
+        },
+        {
+          "key": "29_CR8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cimpoi, M., Maji, S., Vedaldi, A.: Deep filter banks for texture recognition and segmentation. In: CVPR (2015)",
+          "DOI": "10.1109/CVPR.2015.7299007"
+        },
+        {
+          "key": "29_CR9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Accurate scale estimation for robust visual tracking. In: BMVC (2014)",
+          "DOI": "10.5244/C.28.65"
+        },
+        {
+          "key": "29_CR10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Convolutional features for correlation filter based visual tracking. In: ICCV Workshop (2015)",
+          "DOI": "10.1109/ICCVW.2015.84"
+        },
+        {
+          "key": "29_CR11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Learning spatially regularized correlation filters for visual tracking. In: ICCV (2015)",
+          "DOI": "10.1109/ICCV.2015.490"
+        },
+        {
+          "key": "29_CR12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Adaptive decontamination of the training set: a unified formulation for discriminative visual tracking. In: CVPR (2016)",
+          "DOI": "10.1109/CVPR.2016.159"
+        },
+        {
+          "key": "29_CR13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danelljan, M., Shahbaz Khan, F., Felsberg, M., van de Weijer, J.: Adaptive color attributes for real-time visual tracking. In: CVPR (2014)",
+          "DOI": "10.1109/CVPR.2014.143"
+        },
+        {
+          "key": "29_CR14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Felsberg, M.: Enhanced distribution field tracking using channel representations. In: ICCV Workshop (2013)",
+          "DOI": "10.1109/ICCVW.2013.22"
+        },
+        {
+          "issue": "8",
+          "key": "29_CR15",
+          "doi-asserted-by": "publisher",
+          "first-page": "1702",
+          "DOI": "10.1109/TPAMI.2014.2375215",
+          "volume": "37",
+          "author": "JA Fernandez",
+          "year": "2015",
+          "unstructured": "Fernandez, J.A., Boddeti, V.N., Rodriguez, A., Kumar, B.V.K.V.: Zero-aliasing correlation filters for object recognition. TPAMI 37(8), 1702–1715 (2015)",
+          "journal-title": "TPAMI"
+        },
+        {
+          "issue": "4",
+          "key": "29_CR16",
+          "doi-asserted-by": "publisher",
+          "first-page": "312",
+          "DOI": "10.1007/s100440050039",
+          "volume": "2",
+          "author": "A Fusiello",
+          "year": "1999",
+          "unstructured": "Fusiello, A., Trucco, E., Tommasini, T., Roberto, V.: Improving feature tracking with robust statistics. Pattern Anal. Appl. 2(4), 312–320 (1999)",
+          "journal-title": "Pattern Anal. Appl."
+        },
+        {
+          "key": "29_CR17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Galoogahi, H.K., Sim, T., Lucey, S.: Multi-channel correlation filters. In: ICCV (2013)",
+          "DOI": "10.1109/ICCV.2013.381"
+        },
+        {
+          "key": "29_CR18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Galoogahi, H.K., Sim, T., Lucey, S.: Correlation filters with limited boundaries. In: CVPR (2015)",
+          "DOI": "10.1109/CVPR.2015.7299094"
+        },
+        {
+          "key": "29_CR19",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "publisher",
+          "first-page": "188",
+          "DOI": "10.1007/978-3-319-10578-9_13",
+          "volume-title": "Computer Vision – ECCV 2014",
+          "author": "J Gao",
+          "year": "2014",
+          "unstructured": "Gao, J., Ling, H., Hu, W., Xing, J.: Transfer learning based visual tracking with gaussian processes regression. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014. LNCS, vol. 8691, pp. 188–203. Springer, Heidelberg (2014). doi: 10.1007/978-3-319-10578-9_13"
+        },
+        {
+          "key": "29_CR20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gladh, S., Danelljan, M., Shahbaz Khan, F., Felsberg, M.: Deep motion features for visual tracking. In: ICPR (2016)",
+          "DOI": "10.1109/ICPR.2016.7899807"
+        },
+        {
+          "key": "29_CR21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hare, S., Saffari, A., Torr, P.: Struck: structured output tracking with kernels. In: ICCV (2011)",
+          "DOI": "10.1109/ICCV.2011.6126251"
+        },
+        {
+          "key": "29_CR22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, S., Yang, Q., Lau, R., Wang, J., Yang, M.H.: Visual tracking via locality sensitive histograms. In: CVPR (2013)",
+          "DOI": "10.1109/CVPR.2013.314"
+        },
+        {
+          "key": "29_CR23",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "702",
+          "DOI": "10.1007/978-3-642-33765-9_50",
+          "volume-title": "Computer Vision – ECCV 2012",
+          "author": "JF Henriques",
+          "year": "2012",
+          "unstructured": "Henriques, J.F., Caseiro, R., Martins, P., Batista, J.: Exploiting the circulant structure of tracking-by-detection with kernels. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part IV. LNCS, vol. 7575, pp. 702–715. Springer, Heidelberg (2012)"
+        },
+        {
+          "issue": "3",
+          "key": "29_CR24",
+          "doi-asserted-by": "publisher",
+          "first-page": "583",
+          "DOI": "10.1109/TPAMI.2014.2345390",
+          "volume": "37",
+          "author": "JF Henriques",
+          "year": "2015",
+          "unstructured": "Henriques, J.F., Caseiro, R., Martins, P., Batista, J.: High-speed tracking with kernelized correlation filters. TPAMI 37(3), 583–596 (2015)",
+          "journal-title": "TPAMI"
+        },
+        {
+          "key": "29_CR25",
+          "unstructured": "Jia, X., Lu, H., Yang, M.H.: Visual tracking via adaptive structural local sparse appearance model. In: CVPR (2012)"
+        },
+        {
+          "key": "29_CR26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kalal, Z., Matas, J., Mikolajczyk, K.: P-N learning: bootstrapping binary classifiers by structural constraints. In: CVPR (2010)",
+          "DOI": "10.1109/CVPR.2010.5540231"
+        },
+        {
+          "key": "29_CR27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Klein, G., Murray, D.: Parallel tracking and mapping for small AR workspaces. In: ISMAR (2007)",
+          "DOI": "10.1109/ISMAR.2007.4538852"
+        },
+        {
+          "key": "29_CR28",
+          "unstructured": "Kristan, M., Leonardis, A., Matas, J., Felsberg, M., Pflugfelder, R., Čehovin, L., Vojír, T., Häger, G., Lukězič, A., Fernández, G.: The visual object tracking VOT 2016 challenge results. In: ECCV Workshop (2016)"
+        },
+        {
+          "key": "29_CR29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kristan, M., Matas, J., Leonardis, A., Felsberg, M., Čehovin, L., Fernández, G., Vojír, T., Nebehay, G., Pflugfelder, R., Häger, G.: The visual object tracking VOT 2015 challenge results. In: ICCV Workshop (2015)",
+          "DOI": "10.1007/978-3-319-16181-5_14"
+        },
+        {
+          "key": "29_CR30",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "publisher",
+          "first-page": "191",
+          "DOI": "10.1007/978-3-319-16181-5_14",
+          "volume-title": "Computer Vision - ECCV 2014 Workshops",
+          "author": "M Kristan",
+          "year": "2015",
+          "unstructured": "Kristan, M., et al.: The visual object tracking VOT 2014 challenge results. In: Agapito, L., Bronstein, M.M., Rother, C. (eds.) ECCV 2014. LNCS, vol. 8926, pp. 191–217. Springer, Heidelberg (2015). doi: 10.1007/978-3-319-16181-5_14"
+        },
+        {
+          "key": "29_CR31",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "publisher",
+          "first-page": "254",
+          "DOI": "10.1007/978-3-319-16181-5_18",
+          "volume-title": "Computer Vision - ECCV 2014 Workshops",
+          "author": "Y Li",
+          "year": "2015",
+          "unstructured": "Li, Y., Zhu, J.: A scale adaptive kernel correlation filter tracker with feature integration. In: Agapito, L., Bronstein, M.M., Rother, C. (eds.) ECCV 2014. LNCS, vol. 8926, pp. 254–265. Springer, Heidelberg (2015). doi: 10.1007/978-3-319-16181-5_18"
+        },
+        {
+          "issue": "12",
+          "key": "29_CR32",
+          "first-page": "5630",
+          "volume": "24",
+          "author": "P Liang",
+          "year": "2015",
+          "unstructured": "Liang, P., Blasch, E., Ling, H.: Encoding color information for visual tracking: algorithms and benchmark. TIP 24(12), 5630–5644 (2015)",
+          "journal-title": "TIP"
+        },
+        {
+          "key": "29_CR33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, L., Shen, C., van den Hengel, A.: The treasure beneath convolutional layers: cross-convolutional-layer pooling for image classification. In: CVPR (2015)",
+          "DOI": "10.1109/CVPR.2015.7299107"
+        },
+        {
+          "key": "29_CR34",
+          "unstructured": "Lucas, B.D., Kanade, T.: An iterative image registration technique with an application to stereo vision. In: IJCAI (1981)"
+        },
+        {
+          "key": "29_CR35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ma, C., Huang, J.B., Yang, X., Yang, M.H.: Hierarchical convolutional features for visual tracking. In: ICCV (2015)",
+          "DOI": "10.1109/ICCV.2015.352"
+        },
+        {
+          "key": "29_CR36",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ma, C., Yang, X., Zhang, C., Yang, M.H.: Long-term correlation tracking. In: CVPR (2015)",
+          "DOI": "10.1109/CVPR.2015.7299177"
+        },
+        {
+          "key": "29_CR37",
+          "volume-title": "Numerical Optimization",
+          "author": "J Nocedal",
+          "year": "2006",
+          "unstructured": "Nocedal, J., Wright, S.J.: Numerical Optimization, 2nd edn. Springer, New York (2006)",
+          "edition": "2"
+        },
+        {
+          "key": "29_CR38",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oquab, M., Bottou, L., Laptev, I., Sivic, J.: Learning and transferring mid-level image representations using convolutional neural networks. In: CVPR (2014)",
+          "DOI": "10.1109/CVPR.2014.222"
+        },
+        {
+          "key": "29_CR39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ovren, H., Forssén, P.: Gyroscope-based video stabilisation with auto-calibration. In: ICRA (2015)",
+          "DOI": "10.1109/ICRA.2015.7139474"
+        },
+        {
+          "key": "29_CR40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Possegger, H., Mauthner, T., Bischof, H.: In defense of color-based model-free tracking. In: CVPR (2015)",
+          "DOI": "10.1109/CVPR.2015.7298823"
+        },
+        {
+          "key": "29_CR41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sevilla-Lara, L., Learned-Miller, E.G.: Distribution fields for tracking. In: CVPR (2012)",
+          "DOI": "10.1109/CVPR.2012.6247891"
+        },
+        {
+          "key": "29_CR42",
+          "unstructured": "Shi, J., Tomasi, C.: Good features to track. In: CVPR (1994)"
+        },
+        {
+          "key": "29_CR43",
+          "unstructured": "Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition. In: ICLR (2015)"
+        },
+        {
+          "key": "29_CR44",
+          "unstructured": "Tomasi, C., Kanade, T.: Detection and Tracking of Point Features. Technical report (1991)"
+        },
+        {
+          "key": "29_CR45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, Y., Lim, J., Yang, M.H.: Online object tracking: a benchmark. In: CVPR (2013)",
+          "DOI": "10.1109/CVPR.2013.312"
+        },
+        {
+          "issue": "9",
+          "key": "29_CR46",
+          "doi-asserted-by": "publisher",
+          "first-page": "1834",
+          "DOI": "10.1109/TPAMI.2014.2388226",
+          "volume": "37",
+          "author": "Y Wu",
+          "year": "2015",
+          "unstructured": "Wu, Y., Lim, J., Yang, M.H.: Object tracking benchmark. TPAMI 37(9), 1834–1848 (2015)",
+          "journal-title": "TPAMI"
+        },
+        {
+          "key": "29_CR47",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "188",
+          "DOI": "10.1007/978-3-319-10599-4_13",
+          "volume-title": "Computer Vision – ECCV 2014",
+          "author": "J Zhang",
+          "year": "2014",
+          "unstructured": "Zhang, J., Ma, S., Sclaroff, S.: MEEM: robust tracking via multiple experts using entropy minimization. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014, Part VI. LNCS, vol. 8694, pp. 188–203. Springer, Heidelberg (2014)"
+        },
+        {
+          "key": "29_CR48",
+          "series-title": "Lecture Notes in Computer Science",
+          "doi-asserted-by": "crossref",
+          "first-page": "675",
+          "DOI": "10.1007/978-3-319-16817-3_44",
+          "volume-title": "Computer Vision – ACCV 2014",
+          "author": "V Zografos",
+          "year": "2015",
+          "unstructured": "Zografos, V., Lenz, R., Ringaby, E., Felsberg, M., Nordberg, K.: Fast segmentation of sparse 3D point trajectories using group theoretical invariants. In: Cremers, D., Reid, I., Saito, H., Yang, M.-H. (eds.) ACCV 2014. LNCS, vol. 9006, pp. 675–691. Springer, Heidelberg (2015)"
+        }
+      ],
+      "container-title": [
+        "Lecture Notes in Computer Science",
+        "Computer Vision – ECCV 2016"
+      ],
+      "original-title": [],
+      "language": "en",
+      "link": [
+        {
+          "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_29",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            10
+          ]
+        ],
+        "date-time": "2025-06-10T15:00:58Z",
+        "timestamp": 1749567658000
+      },
+      "score": 1,
+      "resource": {
+        "primary": {
+          "URL": "http://link.springer.com/10.1007/978-3-319-46454-1_29"
+        }
+      },
+      "subtitle": [],
+      "short-title": [],
+      "issued": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "ISBN": [
+        "9783319464534",
+        "9783319464541"
+      ],
+      "references-count": 48,
+      "URL": "https://doi.org/10.1007/978-3-319-46454-1_29",
+      "relation": {},
+      "ISSN": [
+        "0302-9743",
+        "1611-3349"
+      ],
+      "issn-type": [
+        {
+          "value": "0302-9743",
+          "type": "print"
+        },
+        {
+          "value": "1611-3349",
+          "type": "electronic"
+        }
+      ],
+      "subject": [],
+      "published": {
+        "date-parts": [
+          [
+            2016
+          ]
+        ]
+      },
+      "assertion": [
+        {
+          "value": "16 September 2016",
+          "order": 1,
+          "name": "first_online",
+          "label": "First Online",
+          "group": {
+            "name": "ChapterHistory",
+            "label": "Chapter History"
+          }
+        },
+        {
+          "value": "ECCV",
+          "order": 1,
+          "name": "conference_acronym",
+          "label": "Conference Acronym",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "European Conference on Computer Vision",
+          "order": 2,
+          "name": "conference_name",
+          "label": "Conference Name",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "Amsterdam",
+          "order": 3,
+          "name": "conference_city",
+          "label": "Conference City",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "The Netherlands",
+          "order": 4,
+          "name": "conference_country",
+          "label": "Conference Country",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "2016",
+          "order": 5,
+          "name": "conference_year",
+          "label": "Conference Year",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "8 October 2016",
+          "order": 7,
+          "name": "conference_start_date",
+          "label": "Conference Start Date",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "16 October 2016",
+          "order": 8,
+          "name": "conference_end_date",
+          "label": "Conference End Date",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "14",
+          "order": 9,
+          "name": "conference_number",
+          "label": "Conference Number",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "eccv2016",
+          "order": 10,
+          "name": "conference_id",
+          "label": "Conference ID",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "http://www.eccv2016.org/",
+          "order": 11,
+          "name": "conference_url",
+          "label": "Conference URL",
+          "group": {
+            "name": "ConferenceInfo",
+            "label": "Conference Information"
+          }
+        },
+        {
+          "value": "This content has been made available to all.",
+          "name": "free",
+          "label": "Free to read"
+        }
+      ]
+    }
+  }
+]

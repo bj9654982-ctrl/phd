@@ -1,0 +1,817 @@
+{
+  "number": 3,
+  "original_doi": "10.1109/TPAMI.2013.230",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Visual Tracking: An Experimental Survey",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T15:13:19Z",
+      "timestamp": 1793113999015,
+      "version": "4.5.0"
+    },
+    "reference-count": 114,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              7,
+              1
+            ]
+          ],
+          "date-time": "2014-07-01T00:00:00Z",
+          "timestamp": 1404172800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Pattern Anal. Mach. Intell."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1109/tpami.2013.230",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2014-01-31T17:53:04Z",
+      "timestamp": 1391190784000
+    },
+    "page": "1442-1468",
+    "source": "Crossref",
+    "is-referenced-by-count": 1107,
+    "title": [
+      "Visual Tracking: An Experimental Survey"
+    ],
+    "prefix": "10.1109",
+    "volume": "36",
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2008.57"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Performance evaluation of object detection and tracking systems",
+        "author": "bashir",
+        "year": "0",
+        "journal-title": "Proc IEEE Int Workshop PETS"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2004.828427"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2010.85"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11042-010-0591-2"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540148"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imavis.2012.06.002"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2007.4425357"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2011.2182520"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2206035"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2072572.2072590"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.800219"
+      },
+      {
+        "key": "ref29",
+        "author": "ferryman",
+        "year": "0",
+        "journal-title": "Proc IEEE Int Workshop PETS"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cviu.2006.08.002"
+      },
+      {
+        "key": "ref22",
+        "first-page": "765",
+        "article-title": "Recent developments in vision based target tracking for autonomous vehicles navigation",
+        "author": "jia",
+        "year": "0",
+        "journal-title": "Proc IEEE ITSC"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cviu.2006.10.016"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2008.4517714"
+      },
+      {
+        "key": "ref23",
+        "first-page": "1",
+        "article-title": "On energy efficiency in collaborative target tracking in wireless sensor network: A review",
+        "volume": "15",
+        "author": "demigha",
+        "year": "2012",
+        "journal-title": "IEEE Commun Surv Tuts"
+      },
+      {
+        "key": "ref101",
+        "first-page": "674",
+        "article-title": "An iterative image registration technique with an application to stereo vision",
+        "volume": "3 vancouver bc canada",
+        "author": "lucas",
+        "year": "0",
+        "journal-title": "Proc IJCAI"
+      },
+      {
+        "key": "ref26",
+        "year": "0"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2011.6027309"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS.2010.5650583"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VISI.0000011205.11775.fd"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.45"
+      },
+      {
+        "key": "ref59",
+        "article-title": "Minimum error bounded efficient l1 tracker with occlusion detection",
+        "author": "mei",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Robust visual tracking using L1 minimization",
+        "author": "mei",
+        "year": "0",
+        "journal-title": "Proc IEEE 12th ICCV"
+      },
+      {
+        "key": "ref57",
+        "article-title": "An adaptive coupled-layer visual model for robust visual tracking",
+        "author": "?ehovin",
+        "year": "0",
+        "journal-title": "Proc IEEE ICCV"
+      },
+      {
+        "key": "ref56",
+        "article-title": "Visual tracking via geometric particle filtering on the affine group with optimal importance functions",
+        "author": "kwon",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.1998.710707"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2000.854761"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2008/246309"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-35749-7_7"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "145",
+        "DOI": "10.1109/TSMCC.2009.2035631",
+        "article-title": "A review of active appearance models",
+        "volume": "40",
+        "author": "gao",
+        "year": "2010",
+        "journal-title": "IEEE Trans Syst Man Cybern C"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126532"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.21"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Improving data association by joint modeling of pedestrian trajectories and groupings",
+        "author": "pellegrini",
+        "year": "0",
+        "journal-title": "Proc 11th ECCV"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "first-page": "95",
+        "DOI": "10.1117/12.421129",
+        "article-title": "Template matching using fast normalized cross correlation",
+        "volume": "4387",
+        "author": "briechle",
+        "year": "0",
+        "journal-title": "Proc SPIE"
+      },
+      {
+        "key": "ref7",
+        "article-title": "GMCP-tracker: Global multi-object tracking using generalized minimum clique graphs",
+        "author": "zamir",
+        "year": "0",
+        "journal-title": "Proc 12th ECCV"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Global data association for multi-object tracking using network flows",
+        "author": "zhang",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "babenko",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref45",
+        "first-page": "1195",
+        "article-title": "Tracking by sampling trackers",
+        "author": "maggio",
+        "year": "0",
+        "journal-title": "Proc IEEE ICCV"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2011.2132728"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2011.10.001"
+      },
+      {
+        "key": "ref42",
+        "article-title": "Locally orderless tracking",
+        "author": "shaul oron",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-009-0275-4"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780470974377"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Tracking of a non-rigid object via patch-based dynamic appearance modeling and adaptive basin hopping monte carlo sampling",
+        "author": "kwon",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2002.802522"
+      },
+      {
+        "key": "ref72",
+        "author": "terzopoulos",
+        "year": "1992",
+        "journal-title": "Tracking With Kalman Snakes"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206663"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patrec.2010.11.003"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.70814"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-76386-4_79"
+      },
+      {
+        "key": "ref75",
+        "article-title": "Tracking people with appearance models",
+        "author": "senior",
+        "year": "0",
+        "journal-title": "Proc Int Workshop PETS"
+      },
+      {
+        "key": "ref78",
+        "article-title": "Part-based multiple-person tracking with partial occlusion handling",
+        "author": "shu",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2006.155"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-006-7067-x"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126228"
+      },
+      {
+        "key": "ref61",
+        "article-title": "Color invariant surf in discriminative object tracking",
+        "author": "chu",
+        "year": "0",
+        "journal-title": "Proc IEEE ECCV"
+      },
+      {
+        "key": "ref63",
+        "first-page": "5",
+        "article-title": "Random forests",
+        "volume": "45",
+        "author": "breiman",
+        "year": "2001",
+        "journal-title": "ML"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0031-3203(81)90009-1"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1015706.1015720"
+      },
+      {
+        "key": "ref66",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "0",
+        "journal-title": "Proc IEEE ICCV"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0004-3702(96)00034-3"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457446"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2236340"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383123"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540231"
+      },
+      {
+        "key": "ref109",
+        "author": "collett",
+        "year": "2003",
+        "journal-title": "Modelling Survial Data in Medical Research"
+      },
+      {
+        "key": "ref95",
+        "article-title": "Floor fields for tracking in high density crowd scenes",
+        "author": "ali",
+        "year": "0",
+        "journal-title": "Proc 10th ECCV"
+      },
+      {
+        "key": "ref108",
+        "author": "lawless",
+        "year": "2003",
+        "journal-title": "Statistical Models and Methods for Lifetime Data"
+      },
+      {
+        "key": "ref94",
+        "author": "ristic",
+        "year": "2003",
+        "journal-title": "Beyond the Kalman Filter Particle Filters for Tracking Applications"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995667"
+      },
+      {
+        "key": "ref93",
+        "article-title": "An introduction to the Kalman filter",
+        "author": "welch",
+        "year": "2001"
+      },
+      {
+        "key": "ref106",
+        "article-title": "Overall evaluation of the PETS 2009 results",
+        "volume": "7",
+        "author": "ellis",
+        "year": "0",
+        "journal-title": "Proc IEEE Int Workshop PETS"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.3662552"
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP.2007.366104"
+      },
+      {
+        "key": "ref91",
+        "first-page": "192",
+        "article-title": "Search on automatic target tracking based on PTZ system",
+        "author": "qigui",
+        "year": "0",
+        "journal-title": "Proc IEEE IAS"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "ref90",
+        "article-title": "Diffuse-specular separation and depth recovery from image sequences",
+        "author": "lin",
+        "year": "0",
+        "journal-title": "Proc ECCV"
+      },
+      {
+        "key": "ref103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459369"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.94"
+      },
+      {
+        "key": "ref111",
+        "first-page": "163",
+        "article-title": "Evaluation of survival data and two new rank order statistics arising in its consideration",
+        "volume": "50",
+        "author": "mantel",
+        "year": "1966",
+        "journal-title": "Cancer Chemother Rep"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4419-6646-9_2"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1958.10501452"
+      },
+      {
+        "key": "ref98",
+        "article-title": "People orientation recognition by mixtures of wrapped distributions on random trees",
+        "author": "baltieri",
+        "year": "0",
+        "journal-title": "Proc 12th ECCV"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patrec.2011.11.016"
+      },
+      {
+        "key": "ref96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459301"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540143"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/83.902291"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Tracking in low frame rate video: A cascade particle filter with discriminative observers of different life spans",
+        "author": "li",
+        "year": "0",
+        "journal-title": "Proc IEEE CVPR"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Tracking of abrupt motion using Wang-Landau Monte Carlo estimation",
+        "author": "kwon",
+        "year": "0",
+        "journal-title": "Proc 10th ECCV"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "869",
+        "DOI": "10.1109/TCSVT.2011.2180771",
+        "article-title": "Lips contour detection and tracking using watershed region-based active contour model and modified",
+        "volume": "22",
+        "author": "siew",
+        "year": "2012",
+        "journal-title": "IEEE Trans Circuits Syst Video Technol"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1",
+        "article-title": "Tracking systems",
+        "author": "ristic",
+        "year": "0",
+        "journal-title": "Proc IEEE Radar"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2009.108"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cviu.2007.09.014"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AIS.2010.5547021"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2003.812429"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2006.869595"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CDC.1994.411746"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2011.2162714"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.598236"
+      },
+      {
+        "key": "ref114",
+        "article-title": "Segmentation as selective search for object recognition",
+        "author": "van de sande",
+        "year": "0",
+        "journal-title": "Proc ICCV"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1266761"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.977559"
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1999.784637"
+      },
+      {
+        "key": "ref86",
+        "article-title": "Understanding background mixture models for foreground segmentation",
+        "author": "power",
+        "year": "0",
+        "journal-title": "J Proc of IVCNZ"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1233909"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995517"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/34/6840869/06671560.pdf?arnumber=6671560",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2022-01-12T16:19:45Z",
+      "timestamp": 1642004385000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6671560/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          7
+        ]
+      ]
+    },
+    "references-count": 114,
+    "journal-issue": {
+      "issue": "7"
+    },
+    "URL": "https://doi.org/10.1109/tpami.2013.230",
+    "relation": {},
+    "ISSN": [
+      "0162-8828",
+      "2160-9292"
+    ],
+    "issn-type": [
+      {
+        "value": "0162-8828",
+        "type": "print"
+      },
+      {
+        "value": "2160-9292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          7
+        ]
+      ]
+    }
+  }
+}

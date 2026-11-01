@@ -1,0 +1,42 @@
+{
+  "number": 214,
+  "title": "FEAR: Fast, Efficient, Accurate and Robust Visual Tracker",
+  "year": 2022,
+  "authors": [
+    "Vasyl Borsuk",
+    "Roman Vei",
+    "Orest Kupyn",
+    "Tetiana Martyniuk",
+    "Igor Krashenyi",
+    "Jiři Matas"
+  ],
+  "venue": "ECCV",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6990_ECCV_2022_paper.php",
+  "doi": "10.1007/978-3-031-20047-2_37",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820625.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820625.pdf",
+      "bytes": 8523086,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\214_2022_FEAR__Fast,_Efficient,_Accurate_and_Robust_Visual_Tracker.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820625.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820625.pdf",
+  "bytes": 8523086,
+  "sha256": "1f19c95bfb3c585337cebc88ecdff916959f03f8b6dee6f23d4d393407b66fd3",
+  "version": "会议官方开放版本",
+  "pages": 18,
+  "pdf_title": "",
+  "first_page_text": "FEAR: Fast, Efficient, Accurate and Robust Visual\nTracker\nVasyl Borsuk1,2∗, Roman Vei1,2∗, Orest Kupyn1,2, Tetiana Martyniuk1,2, Igor\nKrashenyi1,2, and Jiˇri Matas3\n1 Ukrainian Catholic University\n{borsuk, vey, kupyn, t.martynyuk, igor.krashenyi}@ucu.edu.ua\n2 Pi˜nata Farms, Los Angeles, USA\n{vasyl, roman, orest, tetiana, igor}@pinatafarm.com\n3 Visual Recognition Group, Center for Machine Perception, FEE, CTU in Prague\nmatas@cmp.felk.cvut.cz\nAbstract. We present FEAR, a family of fast, efficient, accurate, and robust\nSiamese visual trackers. We present a novel and efficient way to benefit from\ndual-template representation for object model adaption, which incorporates tem-\nporal information with only a single learnable parameter. We further improve the\ntracker architecture with a pixel-wise fusion block. By plugging-in sophisticated\nbackbones with the abovementioned modules, FEAR-M and FEAR-L trackers\nsurpass most Siamese trackers on several academic benchmarks in both accu-\nracy and efficiency. Employed with the lightweight backbone, the optimized ver-\nsion FEAR-XS offers more than 10 times faster tracking than current Siamese\ntrackers while maintaining near state-of-the-art results. FEAR-XS tracker is 2.4x\nsmaller and 4.3x faster than LightTrack with superior accuracy. In addition, we\nexpand the definition of the model efficiency by introducing FEAR benchmark\nthat assesses energy consumption and execution speed. We show that energy con-\nsumption is a limiting factor for trackers on mobile devices. Source code, pre-\ntrained models, and evaluation protocol are available at https://github.\ncom/PinataFarms/FEARTracker.\nKeywords: Object tracking\n1\nIntroduction\nVisual object tracking is a highly active research area of computer vision with many\napplications such as autonomous driving [15], surveillance [55], augmented reality [63],\nand robotics [44]. Building a general system for tracking an arbitrary object in the wild\nusing only information about the location of the object in the first frame is non-trivial\ndue to occlusions, deformations, lighting changes, background cluttering, reappearance,\netc. [54]. Real-world scenarios often require models to be deployed on the edge devices\nwith hardware and power limitations, adding further complexity. Thus, developing a\nrobust tracking algorithm has remained a challenge.\n* These authors contributed equally to this work.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

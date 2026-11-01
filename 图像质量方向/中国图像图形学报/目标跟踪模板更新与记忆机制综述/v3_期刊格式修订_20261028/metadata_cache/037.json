@@ -1,0 +1,606 @@
+{
+  "number": 37,
+  "original_doi": "10.1109/TPAMI.2003.1195991",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Kernel-based object tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T15:53:25Z",
+      "timestamp": 1793030005838,
+      "version": "4.5.0"
+    },
+    "reference-count": 79,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2003,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2003-05-01T00:00:00Z",
+          "timestamp": 1051747200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Pattern Anal. Machine Intell."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2003,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1109/tpami.2003.1195991",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2003-05-02T14:30:27Z",
+      "timestamp": 1051885827000
+    },
+    "page": "564-577",
+    "source": "Crossref",
+    "is-referenced-by-count": 3684,
+    "title": [
+      "Kernel-based object tracking"
+    ],
+    "prefix": "10.1109",
+    "volume": "25",
+    "author": [
+      {
+        "given": "D.",
+        "family": "Comaniciu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "V.",
+        "family": "Ramesh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "P.",
+        "family": "Meer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/cviu.1998.0744"
+      },
+      {
+        "issue": "4",
+        "key": "ref2",
+        "first-page": "363",
+        "article-title": "The Bhattacharyya Metric as an Absolute Similarity Measure for Frequency Coded Data",
+        "volume": "34",
+        "author": "Aherne",
+        "year": "1998",
+        "journal-title": "Kybernetika"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/78.978374"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990474"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/1.398863"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.1995.466925"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1998.698614"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008195307933"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2000.854942"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/acv.1998.732882"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/icip.2002.1038997"
+      },
+      {
+        "key": "ref12",
+        "first-page": "15",
+        "article-title": "Analyzing the Layout of Composite Textures",
+        "volume-title": "Proc. Texture 2002 Workshop",
+        "author": "Caenen"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1999.784636"
+      },
+      {
+        "key": "ref14",
+        "first-page": "717",
+        "article-title": "Trust-Region Methods for Real-Time tracking",
+        "volume-title": "Proc. Eigth Int’l Conf. Computer Vision",
+        "volume": "II",
+        "author": "Chen"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr.2001.990521"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.959341"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.1000236"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2000.854761"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/0471200611"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.481539"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008122917811"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.41388"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008935410038"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-45053-X_48"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.400571"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990964"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1997.609292"
+      },
+      {
+        "key": "ref28",
+        "volume-title": "Introduction to Statistical Pattern Recognition",
+        "author": "Fukunaga",
+        "year": "1990"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.917572"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/cviu.1998.0716"
+      },
+      {
+        "key": "ref31",
+        "first-page": "107",
+        "article-title": "A Novel Approach to Non-Linear and Non-Gaussian Bayesian State Estimation",
+        "volume-title": "IEE Proc.-F",
+        "volume": "140",
+        "author": "Gordon"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.959343"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1996.517104"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.317463"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990507"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AFGR.1998.670952"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008108327226"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/78.978386"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1997.609402"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008078328650"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990505"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.280797"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCOM.1967.1089532"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1999.784638"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2289375"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1999.786996"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VS.2000.856852"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2000.854755"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/18.61115"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACV.1998.732851"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008122218374"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MOT.2001.937981"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0262-8856(98)00104-8"
+      },
+      {
+        "key": "ref54",
+        "article-title": "The Unscented Particle Filter",
+        "author": "Merwe",
+        "year": "2000"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0262-8856(01)00076-2"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990979"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/3-540-47969-4_44"
+      },
+      {
+        "key": "ref58",
+        "volume-title": "Numerical Recipes in C",
+        "author": "Press",
+        "year": "1992"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.1999.790412"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.18626"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1020350100748"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.927458"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.1979.1102177"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(sici)1098-1098(2000)11:1<71::aid-ima8>3.3.co;2-x"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.1999.784618"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr.2001.991045"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.1998.710860"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/SERIES1345"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990509"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2001.937536"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00130487"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21236/ada299525"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/cviu.1999.0758"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.959344"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.598236"
+      },
+      {
+        "key": "ref76",
+        "first-page": "26",
+        "article-title": "A Co-Inference Approach to Robust Tracking",
+        "volume-title": "Proc. Eigth Int’l Conf. Computer Vision",
+        "volume": "II",
+        "author": "Wu"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IVS.2002.1187922"
+      },
+      {
+        "key": "ref78",
+        "article-title": "Target Tracking in FLIR Imagery Using Mean Shift and Global Motion Compensation",
+        "volume-title": "IEEE Workshop Computer Vision Beyond Visible Spectrum",
+        "author": "Yilmaz"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr.2000.854761"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/34/26906/01195991.pdf?arnumber=1195991",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          16
+        ]
+      ],
+      "date-time": "2025-03-16T01:12:04Z",
+      "timestamp": 1742087524000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/1195991/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2003,
+          5
+        ]
+      ]
+    },
+    "references-count": 79,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2003,
+            5
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1109/tpami.2003.1195991",
+    "relation": {},
+    "ISSN": [
+      "0162-8828"
+    ],
+    "issn-type": [
+      {
+        "value": "0162-8828",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2003,
+          5
+        ]
+      ]
+    }
+  }
+}

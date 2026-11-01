@@ -1,0 +1,42 @@
+{
+  "number": 174,
+  "title": "Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance",
+  "year": 2024,
+  "authors": [
+    "Liting Lin",
+    "Heng Fan",
+    "Zhipeng Zhang",
+    "Yaowei Wang",
+    "Yong Xu",
+    "Haibin Ling"
+  ],
+  "venue": "ECCV",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/113_ECCV_2024_paper.php",
+  "doi": "10.1007/978-3-031-73232-4_17",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00113.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00113.pdf",
+      "bytes": 700498,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\174_2024_Tracking_Meets_LoRA__Faster_Training,_Larger_Model,_Stronger_Performance.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00113.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00113.pdf",
+  "bytes": 700498,
+  "sha256": "4d6210b2b469c4a741d643fe5fee4db03197dbae506256c8d0ce3dcbc1a378a2",
+  "version": "会议官方开放版本",
+  "pages": 18,
+  "pdf_title": "",
+  "first_page_text": "Tracking Meets LoRA: Faster Training, Larger\nModel, Stronger Performance\nLiting Lin1, Heng Fan2, Zhipeng Zhang3, Yaowei Wang1,†,\nYong Xu4,1, and Haibin Ling5,†\n1 Pengcheng Laboratory, China\n2 Department of CSE, University of North Texas, USA\n3 KargoBot, China\n4 School of Computer Science & Engineering, South China Univ. of Tech., China\n5 Department of Computer Science, Stony Brook University, USA\nlt.lin@qq.com, heng.fan@unt.edu, zhipeng.zhang.cv@outlook.com\nwangyw@pcl.ac.cn, yxu@scut.edu.cn, hling@cs.stonybrook.edu\nAbstract. Motivated by the Parameter-Efficient Fine-Tuning (PEFT)\nin large language models, we propose LoRAT, a method that unveils the\npower of larger Vision Transformers (ViT) for tracking within laboratory-\nlevel resources. The essence of our work lies in adapting LoRA, a tech-\nnique that fine-tunes a small subset of model parameters without adding\ninference latency, to the domain of visual tracking. However, unique chal-\nlenges and potential domain gaps make this transfer not as easy as the\nfirst intuition. Firstly, a transformer-based tracker constructs unshared\nposition embedding for template and search image. This poses a chal-\nlenge for the transfer of LoRA, usually requiring consistency in the de-\nsign when applied to the pre-trained backbone, to downstream tasks.\nSecondly, the inductive bias inherent in convolutional heads diminishes\nthe effectiveness of parameter-efficient fine-tuning in tracking models. To\novercome these limitations, we first decouple the position embeddings in\ntransformer-based trackers into shared spatial ones and independent type\nones. The shared embeddings, which describe the absolute coordinates\nof multi-resolution images (namely, the template and search images),\nare inherited from the pre-trained backbones. In contrast, the indepen-\ndent embeddings indicate the sources of each token and are learned from\nscratch. Furthermore, we design an anchor-free head solely based on a\nmultilayer perceptron (MLP) to adapt PETR, enabling better perfor-\nmance with less computational overhead. With our design, 1) it becomes\npractical to train trackers with the ViT-g backbone on GPUs with only\nmemory of 25.8GB (batch size of 16); 2) we reduce the training time\nof the L-224 variant from 35.0 to 10.8 GPU hours; 3) we improve the\nLaSOT SUC score from 0.703 to 0.742 with the L-224 variant; 4) we fast\nthe inference speed of the L-224 variant from 52 to 119 FPS. Code and\nmodels are available at https://github.com/LitingLin/LoRAT.\nKeywords: visual object tracking, LoRA, parameter-efficient fine-tuning\n† corresponding author\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

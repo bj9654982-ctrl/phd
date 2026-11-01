@@ -1,0 +1,39 @@
+{
+  "number": 175,
+  "title": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+  "year": 2025,
+  "authors": [
+    "Wenrui Cai",
+    "Qingjie Liu",
+    "Yunhong Wang"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_SPMTrack_Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Experts_for_Scalable_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Cai_SPMTrack_Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Experts_for_Scalable_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Cai_SPMTrack_Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Experts_for_Scalable_CVPR_2025_paper.pdf",
+      "bytes": 3010315,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\175_2025_SPMTrack__Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Expe.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Cai_SPMTrack_Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Experts_for_Scalable_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Cai_SPMTrack_Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Experts_for_Scalable_CVPR_2025_paper.pdf",
+  "bytes": 3010315,
+  "sha256": "083151f876ca04fabdd56778a205457d753241c05144e4cf035f240d07157ca6",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+  "first_page_text": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with\nMixture of Experts for Scalable Visual Tracking\nWenrui Cai1, Qingjie Liu1,2,3,∗, Yunhong Wang1,3\n1State Key Laboratory of Virtual Reality Technology and Systems, Beihang University, Beijing, China\n2Zhongguancun Laboratory, Beijing, China\n3Hangzhou Innovation Institute, Beihang University, Hangzhou, China\n{wenrui cai, qingjie.liu, yhwang}@buaa.edu.cn\nAbstract\nMost state-of-the-art trackers adopt one-stream paradigm,\nusing a single Vision Transformer for joint feature extrac-\ntion and relation modeling of template and search region\nimages. However, relation modeling between different im-\nage patches exhibits significant variations. For instance,\nbackground regions dominated by target-irrelevant infor-\nmation require reduced attention allocation, while fore-\nground, particularly boundary areas, need to be be em-\nphasized.\nA single model may not effectively handle all\nkinds of relation modeling simultaneously. In this paper,\nwe propose a novel tracker called SPMTrack based on\nmixture-of-experts tailored for visual tracking task (TMoE),\ncombining the capability of multiple experts to handle di-\nverse relation modeling more flexibly.\nBenefiting from\nTMoE, we extend relation modeling from image pairs to\nspatio-temporal context, further improving tracking accu-\nracy with minimal increase in model parameters. More-\nover, we employ TMoE as a parameter-efficient fine-tuning\nmethod, substantially reducing trainable parameters, which\nenables us to train SPMTrack of varying scales efficiently\nand preserve the generalization ability of pretrained mod-\nels to achieve superior performance. We conduct experi-\nments on seven datasets, and experimental results demon-\nstrate that our method significantly outperforms current\nstate-of-the-art trackers. The source code is available at\nhttps://github.com/WenRuiCai/SPMTrack.\n1. Introduction\nVisual tracking aims to predict the location of a target\nthroughout subsequent frames of a video, given the initial\nstate in the first frame template. Currently, most state-of-\nthe-art trackers adopt a Transformer-based [46] one-stream\n∗Corresponding author.\n0\n200\n400\n600\n800\n1000\n1200\n1400\nThe number of parameters(M)\n70\n71\n72\n73\n74\n75\n76\n77\n78\nLaSOT AUC(%)\nPerformance VS.  Number of Parameters on LaSOT\nSPMTrack-B (Ours)\nSPMTrack-L (Ours)\nSPMTrack-G (Ours)\nLoRAT-B378\nLoRAT-L378\nLoRAT-G378\nSeqTrack-B\nSeqTrack-L\nODTrack-B\nODTrack-L\nARTrackV2384\nARTrackV2-L384\nROMTrack384\nGRM\nHIPTrack\nOSTrack384\nFigure 1. Comparison of LaSOT AUC and model parameter count\nacross different trackers. Larger loop indicates better performance.\nparadigm [3, 5, 10, 33, 52, 59, 61], utilizing a single Vi-\nsion Transformer [12] backbone that accepts both the tem-\nplate and the search region image as input, and employs\nself-attention to perform image feature extraction and tem-\nplate–search region relation modeling simultaneously.\nHowever, not all relation modeling between image\npatches benefits tracking performance.\nPrior studies [4,\n20, 58, 59] have demonstrated that the abundance of back-\nground patches in the search region deteriorates the discrim-\ninative power of the foreground features, and single vanilla\nattention has limited capability in suppressing undesirable\nforeground-background interactions. Meanwhile, there are\nalso some kinds of relation modeling that demonstrate pos-\nitive effects on tracking performance [17, 19]. For instance,\nenhancing attention to target boundary regions can improve\ntracking performance [17], especially in challenging scenar-\nios such as motion blur, partial occlusion, and deformation.\nTo address various relation modeling, numerous meth-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n16871\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

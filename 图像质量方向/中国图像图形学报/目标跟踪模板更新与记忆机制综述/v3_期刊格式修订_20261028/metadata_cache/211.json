@@ -1,0 +1,485 @@
+{
+  "number": 211,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "A Distractor-Aware Memory for Visual Object Tracking with SAM2",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2026-10-09T17:28:52Z",
+      "timestamp": 1791566932861,
+      "version": "4.3.4"
+    },
+    "reference-count": 51,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52734.2025.02259",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          13
+        ]
+      ],
+      "date-time": "2025-08-13T17:26:42Z",
+      "timestamp": 1755106002000
+    },
+    "page": "24255-24264",
+    "source": "Crossref",
+    "is-referenced-by-count": 49,
+    "title": [
+      "A Distractor-Aware Memory for Visual Object Tracking with SAM2"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Jovana",
+        "family": "Videnovic",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Ljubljana,Faculty of Computer and Information Science,Slovenia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Lukezic",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Ljubljana,Faculty of Computer and Information Science,Slovenia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matej",
+        "family": "Kristan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Ljubljana,Faculty of Computer and Information Science,Slovenia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-26348-4_26"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58536-5_46"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00879"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01400"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-68238-5_44"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19815-1_37"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.00304"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2024.3349519"
+      },
+      {
+        "key": "ref12",
+        "first-page": "6181",
+        "article-title": "Learning discriminative model prediction for tracking",
+        "volume-title": "Int. Conf. Computer Vision",
+        "author": "Danelljan"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01850"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Sam2long: Enhancing sam 2 for long video segmentation with a training-free memory tree",
+        "author": "Ding",
+        "year": "2024"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-020-01387-y"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01792"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iccv51070.2023.01240"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00371"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-68238-5_39"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-25085-9_25"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW60793.2023.00195"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-91767-7_24"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Learning spatial-semantic features for robust video object segmentation",
+        "author": "Li",
+        "year": "2024"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-73232-4_17"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2021.3137933"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-024-02010-0"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i5.28192"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-68238-5_43"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01319"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00853"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Dinov2: Learning robust visual features without supervision",
+        "author": "Oquab",
+        "year": "2023"
+      },
+      {
+        "key": "ref35",
+        "article-title": "The 2017 davis challenge on video object segmentation",
+        "author": "Pont-Tuset",
+        "year": "2017"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Sam 2: Segment anything in images and videos",
+        "volume-title": "Proc. Int. Conf. Learning Representations",
+        "author": "Ravi"
+      },
+      {
+        "key": "ref37",
+        "first-page": "29441",
+        "article-title": "Hiera: A hierarchical vision transformer without the bells-and-whistles",
+        "volume-title": "Proc. Int. Conf. Mach. Learning",
+        "author": "Ryali"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr52729.2023.01399"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01826"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01228-1_36"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2023.3347644"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00525"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Samurai: Adapting segment anything model for zero-shot visual tracking with motion-aware memory",
+        "author": "Yang",
+        "year": "2024"
+      },
+      {
+        "key": "ref46",
+        "first-page": "36324",
+        "article-title": "Decoupling features in hierarchical propagation for video object segmentation",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Neural Inf. Proc. Systems"
+      },
+      {
+        "key": "ref47",
+        "first-page": "2491",
+        "article-title": "Associating objects with transformers for video object segmentation",
+        "volume": "34",
+        "author": "Yang",
+        "year": "2021",
+        "journal-title": "Neural Inf. Proc. Systems"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i7.28591"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01760"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11091818/11091608/11094917.pdf?arnumber=11094917",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2025-08-14T07:51:12Z",
+      "timestamp": 1755157872000
+    },
+    "score": 59.63586,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11094917/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "references-count": 51,
+    "URL": "https://doi.org/10.1109/cvpr52734.2025.02259",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    }
+  }
+}

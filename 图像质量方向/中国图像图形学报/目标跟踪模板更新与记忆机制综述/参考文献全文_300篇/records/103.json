@@ -1,0 +1,40 @@
+{
+  "number": 103,
+  "title": "High-Speed Tracking With Multi-Kernel Correlation Filters",
+  "year": 2018,
+  "authors": [
+    "Ming Tang",
+    "Bin Yu",
+    "Fan Zhang",
+    "Jinqiao Wang"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Tang_High-Speed_Tracking_With_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Tang_High-Speed_Tracking_With_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Tang_High-Speed_Tracking_With_CVPR_2018_paper.pdf",
+      "bytes": 1496511,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\103_2018_High-Speed_Tracking_With_Multi-Kernel_Correlation_Filters.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Tang_High-Speed_Tracking_With_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Tang_High-Speed_Tracking_With_CVPR_2018_paper.pdf",
+  "bytes": 1496511,
+  "sha256": "a5aa6562df3b73e0834839fd92ed690529d75e8c462c9745bf78311267a18540",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "High-Speed Tracking With Multi-Kernel Correlation Filters",
+  "first_page_text": "High-speed Tracking with Multi-kernel Correlation Filters\nMing Tang1∗, Bin Yu1, Fan Zhang2, and Jinqiao Wang1\n1National Lab of Pattern Recognition, Institute of Automation, CAS, Beijing 100190, China\n2School of Info. & Comm. Eng., Beijing University of Posts and Telecommunications\nAbstract\nCorrelation ﬁlter (CF) based trackers are currently\nranked top in terms of their performances. Nevertheless,\nonly some of them, such as KCF [26] and MKCF [48], are\nable to exploit the powerful discriminability of non-linear\nkernels. Although MKCF achieves more powerful discrim-\ninability than KCF through introducing multi-kernel learn-\ning (MKL) into KCF, its improvement over KCF is quite lim-\nited and its computational burden increases signiﬁcantly in\ncomparison with KCF. In this paper, we will introduce the\nMKL into KCF in a different way than MKCF. We refor-\nmulate the MKL version of CF objective function with its\nupper bound, alleviating the negative mutual interference\nof different kernels signiﬁcantly. Our novel MKCF tracker,\nMKCFup, outperforms KCF and MKCF with large margins\nand can still work at very high fps. Extensive experiments\non public data sets show that our method is superior to\nstate-of-the-art algorithms for target objects of small move\nat very high speed.\n1. Introduction\nVisual object tracking is one of the most challenging\nproblems in computer vision [49, 28, 32, 42, 35, 39, 36, 38,\n29, 59, 57, 23, 50, 6, 46]. To adapt to unpredictable vari-\nations of object appearance and background during track-\ning, the tracker could select a single strong feature that is\nrobust to any variation. However, this strategy has been\nknown to be difﬁcult [51, 20], especially for a model-free\ntracking task in which no prior knowledge about the target\nobject is known except for the initial frame. Therefore, de-\nsigning an effective and efﬁcient scheme to combine several\ncomplementary features for tracking is a reasonable alterna-\ntive [54, 56, 33, 16, 1, 53, 60, 58].\nSince 2010, correlation ﬁlter based trackers (CF track-\ners) have been being proposed and almost dominated the\n∗The corresponding author (tangm@nlpr.ia.ac.cn). This work was sup-\nported by Natural Science Foundation of China under Grants 61375035\nand 61772527. The code is available at http://www.nlpr.ia.ac.cn/mtang/\nPublications.htm.\nMKCFup\nMKCF\nECO-HC\nSRDCF\nKCF\nFigure 1. Qualitative comparison of our novel multi-kernel cor-\nrelation ﬁlters tracker, MKCFup, with state-of-the-art trackers,\nKCF [26], MKCF [48], SRDCF [12], and ECO HC [9] on chal-\nlenging sequences, singer2 and freeman4 of OTB2013 [55] and\nski long and running 100 m 2 of NfS [17].\ntracking domain in recent years [4, 25, 16, 10, 26, 13, 15,\n5, 8, 43, 14, 41, 37]. Bolme et al. [4] reignited the interests\nin correlation ﬁlters in the vision community by proposing\na CF tracker, called minimum output sum of squared er-\nror (MOSSE), with classical signal processing techniques.\nMOSSE used a base image patch and several virtual ones\nto train the correlation ﬁlter directly in the Fourier domain,\nachieving top accuracy and fps then.\nLater, the expres-\nsion of MOSSE in the spatial domain turned out to be the\nridge regression [45] with a linear kernel [25]. Therefore,\nin order to exploit the powerful discriminability of non-\nlinear kernels, Henriques et al. [25, 26] utilized the cir-\nculant structure produced by a base sample to propose an\nefﬁcient kernelized correlation ﬁlter based tracker (KCF).\nDanelljan et al. [16] extended the KCF with the historically\nweighted objective function and low-dimensional adaptive\ncolor channels. To adaptively employ complementary fea-\ntures in KCF, Tang and Feng [48] derived a multi-kernel\n14874\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

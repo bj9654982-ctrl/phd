@@ -1,0 +1,441 @@
+{
+  "number": 2,
+  "original_doi": "10.1109/TIP.2012.2206035",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Adaptive Appearance Modeling for Video Tracking: Survey and Evaluation",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T09:57:49Z",
+      "timestamp": 1791280669358,
+      "version": "4.1.0"
+    },
+    "reference-count": 48,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "10",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. on Image Process."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/tip.2012.2206035",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          28
+        ]
+      ],
+      "date-time": "2012-06-28T18:11:06Z",
+      "timestamp": 1340907066000
+    },
+    "page": "4334-4348",
+    "source": "Crossref",
+    "is-referenced-by-count": 121,
+    "title": [
+      "Adaptive Appearance Modeling for Video Tracking: Survey and Evaluation"
+    ],
+    "prefix": "10.1109",
+    "volume": "21",
+    "author": [
+      {
+        "given": "S.",
+        "family": "Salti",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "A.",
+        "family": "Cavallaro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Di Stefano",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2002.1017623"
+      },
+      {
+        "key": "ref33",
+        "first-page": "678",
+        "article-title": "Online tracking and reacquisition using co-trained generative and discriminative trackers",
+        "author": "yu",
+        "year": "2008",
+        "journal-title": "Proc 10th Eur Conf Comput Vis"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/279943.279962"
+      },
+      {
+        "key": "ref31",
+        "first-page": "642",
+        "article-title": "Vision-based multiple interacting targets tracking via on-line supervised learning",
+        "author": "song",
+        "year": "2008",
+        "journal-title": "Proc Eur Conf Comput Vis"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2009.2019807"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.93808"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2005.181"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459252"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.205"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0095-3"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.144"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2007.4408954"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.215"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457446"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref17",
+        "first-page": "243",
+        "author": "grossberg",
+        "year": "1988",
+        "journal-title": "Competitive Learning From Interactive Activation to Adaptive Resonance"
+      },
+      {
+        "key": "ref18",
+        "first-page": "234",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "Proc Eur Conf Comput Vis"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2004.836152"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1195991"
+      },
+      {
+        "key": "ref27",
+        "first-page": "852",
+        "article-title": "Online learning of probabilistic appearance manifolds for video-based recognition and tracking",
+        "volume": "1",
+        "author": "lee",
+        "year": "2005",
+        "journal-title": "Proc Comput Soc Conf Comput Vis Pattern Recognit"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2001.937594"
+      },
+      {
+        "key": "ref6",
+        "author": "collins",
+        "year": "1999",
+        "journal-title": "A system for video surveillance and monitoring"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457445"
+      },
+      {
+        "key": "ref5",
+        "first-page": "661",
+        "article-title": "Color-based probabilistic tracking",
+        "author": "prez",
+        "year": "2002",
+        "journal-title": "Proc Eur Conf Comput Vis"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1233903"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.868683"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008078328650"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.16"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/9780470974377"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2007.4425357"
+      },
+      {
+        "key": "ref20",
+        "first-page": "1",
+        "article-title": "A nonparametric treatment for location/segmentation based visual tracking",
+        "author": "lu",
+        "year": "2007",
+        "journal-title": "Proc Comput Soc Conf Comput Vis Pattern Recognit"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206634"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2011.2182520"
+      },
+      {
+        "key": "ref22",
+        "first-page": "1208",
+        "article-title": "Tracking of a non-rigid object via patch-based dynamic appearance modeling and adaptive Basin hopping Monte Carlo sampling",
+        "author": "kwon",
+        "year": "2009",
+        "journal-title": "Proc Comput Soc Conf Comput Vis Pattern Recognit"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2009.69"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1273496.1273508"
+      },
+      {
+        "key": "ref24",
+        "first-page": "1",
+        "article-title": "A unified approach for adaptive multiple feature tracking for surveillance applications",
+        "author": "zelniker",
+        "year": "2009",
+        "journal-title": "Proc British Mach Vis Conf"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459278"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref44",
+        "author": "oza",
+        "year": "2001",
+        "journal-title": "Online ensemble learning"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VISI.0000013087.49260.fb"
+      },
+      {
+        "key": "ref25",
+        "first-page": "411",
+        "article-title": "Closed-loop adaptation for robust tracking",
+        "author": "fan",
+        "year": "2010",
+        "journal-title": "Proc Europ Conf Comput Vis"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Image Processing"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/83/6303957/06227353.pdf?arnumber=6227353",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2017-11-14T12:07:59Z",
+      "timestamp": 1510661279000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6227353/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          10
+        ]
+      ]
+    },
+    "references-count": 48,
+    "journal-issue": {
+      "issue": "10"
+    },
+    "URL": "https://doi.org/10.1109/tip.2012.2206035",
+    "relation": {},
+    "ISSN": [
+      "1057-7149",
+      "1941-0042"
+    ],
+    "issn-type": [
+      {
+        "value": "1057-7149",
+        "type": "print"
+      },
+      {
+        "value": "1941-0042",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          10
+        ]
+      ]
+    }
+  }
+}

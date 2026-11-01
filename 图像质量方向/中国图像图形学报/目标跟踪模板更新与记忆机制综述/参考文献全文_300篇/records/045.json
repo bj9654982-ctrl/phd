@@ -1,0 +1,47 @@
+{
+  "number": 45,
+  "title": "Beyond Correlation Filters: Learning Continuous Convolution Operators for Visual Tracking",
+  "year": 2016,
+  "authors": [
+    "Martin Danelljan",
+    "Andreas Robinson",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg"
+  ],
+  "venue": "Computer Vision - ECCV 2016",
+  "category": "相关滤波与样本正则化",
+  "priority": "P1 核心精读",
+  "original_source": "https://doi.org/10.1007/978-3-319-46454-1_29",
+  "doi": "10.1007/978-3-319-46454-1_29",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://doi.org/10.1007/978-3-319-46454-1_29",
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-319-46454-1_29",
+      "bytes": 383138,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_29.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_29.pdf",
+      "bytes": 1636664,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\045_2016_Beyond_Correlation_Filters__Learning_Continuous_Convolution_Operators_for_Visu.pdf",
+  "download_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_29.pdf",
+  "requested_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_29.pdf",
+  "bytes": 1636664,
+  "sha256": "3ae66fce30c9091d0ed81ac653c94bf20a36c1908aa02a15aeaa69005a8b0673",
+  "version": "出版方公开全文",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Beyond Correlation Filters: Learning Continuous\nConvolution Operators for Visual Tracking\nMartin Danelljan(B), Andreas Robinson, Fahad Shahbaz Khan,\nand Michael Felsberg\nCVL, Department of Electrical Engineering, Link¨oping University,\nLink¨oping, Sweden\n{martin.danelljan,andreas.robinson,fahad.khan,michael.felsberg}@liu.se\nAbstract. Discriminative Correlation Filters (DCF) have demonstrated\nexcellent performance for visual object tracking. The key to their success\nis the ability to eﬃciently exploit available negative data by including\nall shifted versions of a training sample. However, the underlying DCF\nformulation is restricted to single-resolution feature maps, signiﬁcantly\nlimiting its potential. In this paper, we go beyond the conventional DCF\nframework and introduce a novel formulation for training continuous\nconvolution ﬁlters. We employ an implicit interpolation model to pose\nthe learning problem in the continuous spatial domain. Our proposed\nformulation enables eﬃcient integration of multi-resolution deep feature\nmaps, leading to superior results on three object tracking benchmarks:\nOTB-2015 (+5.1 % in mean OP), Temple-Color (+4.6 % in mean OP),\nand VOT2015 (20 % relative reduction in failure rate). Additionally, our\napproach is capable of sub-pixel localization, crucial for the task of accu-\nrate feature point tracking. We also demonstrate the eﬀectiveness of our\nlearning formulation in extensive feature point tracking experiments.\n1\nIntroduction\nVisual tracking is the task of estimating the trajectory of a target in a video.\nIt is one of the fundamental problems in computer vision. Tracking of objects\nor feature points has numerous applications in robotics, structure-from-motion,\nand visual surveillance. In recent years, Discriminative Correlation Filter (DCF)\nbased approaches have shown outstanding results on object tracking benchmarks\n[30,46]. DCF methods train a correlation ﬁlter for the task of predicting the\ntarget classiﬁcation scores. Unlike other methods, the DCF eﬃciently utilize all\nspatial shifts of the training samples by exploiting the discrete Fourier transform.\nDeep convolutional neural networks (CNNs) have shown impressive perfor-\nmance for many tasks, and are therefore of interest for DCF-based tracking.\nA CNN consists of several layers of convolution, normalization and pooling oper-\nations. Recently, activations from the last convolutional layers have been success-\nfully employed for image classiﬁcation. Features from these deep convolutional\nElectronic supplementary material The online version of this chapter (doi:10.\n1007/978-3-319-46454-1 29) contains supplementary material, which is available to\nauthorized users.\nc\n⃝Springer International Publishing AG 2016\nB. Leibe et al. (Eds.): ECCV 2016, Part V, LNCS 9909, pp. 472–488, 2016.\nDOI: 10.1007/978-3-319-46454-1 29\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

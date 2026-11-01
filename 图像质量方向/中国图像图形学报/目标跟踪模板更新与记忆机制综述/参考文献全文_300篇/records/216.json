@@ -1,0 +1,40 @@
+{
+  "number": 216,
+  "title": "Exploring the Feature Extraction and Relation Modeling For Light-Weight Transformer Tracking",
+  "year": 2024,
+  "authors": [
+    "Jikai Zheng",
+    "Mingjiang Liang",
+    "Shaoli Huang",
+    "Jifeng Ning"
+  ],
+  "venue": "ECCV",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4168_ECCV_2024_paper.php",
+  "doi": "10.1007/978-3-031-73397-0_7",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04168.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04168.pdf",
+      "bytes": 1327519,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\216_2024_Exploring_the_Feature_Extraction_and_Relation_Modeling_For_Light-Weight_Transf.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04168.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04168.pdf",
+  "bytes": 1327519,
+  "sha256": "941c8dabc3124d5eea7d3b253042663c17eb0e48014fa82a1e7afc738e254804",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Exploring the Feature Extraction and Relation\nModeling For Light-Weight Transformer Tracking\nJikai Zheng†1,4, Mingjiang Liang†2, Shaoli Huang3, and Jifeng Ning∗1,4\n1 College of Information Engineering, Northwest A&F University, Shaanxi, China\n2 University of Technology Sydney, Sydney, Australia\n3 Tencent AI-Lab, Guangdong, China\n4 Shaanxi Engineering Research Center of Agricultural Information Intelligent\nPerception and Analysis, Shaanxi, China\njikai_zheng@163.com, mingjiang.liang@student.uts.edu.au,\nshaolihuang@tencent.com, jf_ning@sina.com\nAbstract. Recent advancements in transformer-based lightweight ob-\nject tracking have set new standards across various benchmarks due to\ntheir efficiency and effectiveness. Despite these achievements, most cur-\nrent trackers rely heavily on pre-existing object detection architectures\nwithout optimizing the backbone network to leverage the unique de-\nmands of object tracking. Addressing this gap, we introduce the Feature\nExtraction and Relation Modeling Tracker (FERMT) - a novel approach\nthat significantly enhances tracking speed and accuracy. At the heart\nof FERMT is a strategic decomposition of the conventional attention\nmechanism into four distinct sub-modules within a one-stream tracker.\nThis design stems from our insight that the initial layers of a tracking\nnetwork should prioritize feature extraction, whereas the deeper layers\nshould focus on relation modeling between objects. Consequently, we\npropose an innovative, lightweight backbone specifically tailored for ob-\nject tracking. Our approach is validated through meticulous ablation\nstudies, confirming the effectiveness of our architectural decisions. Fur-\nthermore, FERMT incorporates a Dual Attention Unit for feature pre-\nprocessing, which facilitates global feature interaction across channels\nand enriches feature representation with attention cues. Benchmarking\non GOT-10k, FERMT achieves a groundbreaking Average Overlap (AO)\nscore of 69.6%, outperforming the leading real-time trackers by 5.6% in\naccuracy while boasting a 54% improvement in CPU tracking speed. This\nwork not only sets a new standard for state-of-the-art (SOTA) perfor-\nmance in light-weight tracking but also bridges the efficiency gap between\nfast and high-performance trackers. The code and models are available\nat https://github.com/KarlesZheng/FERMT.\nKeywords: Light-weight Object Tracking · Transformer · Feature ex-\ntraction · relation modeling\n†Equal Contribution.\n*Corresponding author.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

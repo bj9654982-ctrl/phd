@@ -1,0 +1,387 @@
+{
+  "number": 80,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Single target tracking using adaptive clustered decision trees and dynamic multi-level appearance models",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T09:57:52Z",
+      "timestamp": 1791280672094,
+      "version": "4.1.0"
+    },
+    "reference-count": 36,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2015.7299132",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2015-10-15T22:42:06Z",
+      "timestamp": 1444948926000
+    },
+    "page": "4978-4987",
+    "source": "Crossref",
+    "is-referenced-by-count": 37,
+    "title": [
+      "Single target tracking using adaptive clustered decision trees and dynamic multi-level appearance models"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Jingjing",
+        "family": "Xiao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rustam",
+        "family": "Stolkin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ales",
+        "family": "Leonardis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref33",
+        "first-page": "1323",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV.2012.6162999"
+      },
+      {
+        "key": "ref31",
+        "first-page": "91",
+        "article-title": "Robustifying the flock of track-ers",
+        "author": "vojír",
+        "year": "2011",
+        "journal-title": "16th Computer Vision Winter Workshop"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.145"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.24"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.400571"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.22"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.215"
+      },
+      {
+        "key": "ref13",
+        "first-page": "234",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref15",
+        "first-page": "3250",
+        "article-title": "Shrink boost for selecting multi-lbp histogram features in object detection",
+        "author": "heng",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref16",
+        "first-page": "702",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "joao",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10590-1_1"
+      },
+      {
+        "key": "ref18",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.32"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MFI.2012.6343021"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref27",
+        "first-page": "147",
+        "article-title": "An adaptive background model for camshift tracking with a moving camera",
+        "author": "stolkin",
+        "year": "2007",
+        "journal-title": "6th International Conference on Advances in Pattern Recognition"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.120"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.imavis.2006.07.017"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Particle filter tracking of camouflaged targets by adaptive fusion of thermal and visible spectra camera data",
+        "author": "stolkin",
+        "year": "2014",
+        "journal-title": "IEEE Sensors"
+      },
+      {
+        "key": "ref5",
+        "first-page": "99",
+        "article-title": "Anil Kumar Bhattacharya On a measure of divergence between two statistical populations defined by their probability distributions",
+        "year": "1943",
+        "journal-title": "Bulletin of the Calcutta Mathematical Society issue 35"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "1631",
+        "DOI": "10.1109/TPAMI.2005.205",
+        "article-title": "Online selection of discriminative tracking features",
+        "volume": "27",
+        "author": "robert",
+        "year": "2005",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-37431-9_7"
+      },
+      {
+        "key": "ref2",
+        "year": "0",
+        "journal-title": "The VOT challenge"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref1",
+        "year": "0",
+        "journal-title": "CVPR benchmark dataset"
+      },
+      {
+        "key": "ref20",
+        "first-page": "254",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCV visual object tracking workshop"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.16"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.443"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0262-8856(02)00129-4"
+      },
+      {
+        "key": "ref23",
+        "first-page": "1436",
+        "article-title": "Robust visual tracking using 11 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref26",
+        "first-page": "125",
+        "article-title": "Incremental learning for robust visual tracking",
+        "volume": "77",
+        "author": "david",
+        "year": "2008",
+        "journal-title": "IICV"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.250"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Boston, MA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7293313/7298593/07299132.pdf?arnumber=7299132",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2017-06-23T21:24:41Z",
+      "timestamp": 1498253081000
+    },
+    "score": 72.47916,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7299132/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "references-count": 36,
+    "URL": "https://doi.org/10.1109/cvpr.2015.7299132",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    }
+  }
+}

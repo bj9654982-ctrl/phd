@@ -1,0 +1,619 @@
+{
+  "number": 222,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Unsupervised Domain Adaptation for Nighttime Aerial Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2026-10-08T18:32:21Z",
+      "timestamp": 1791484341193,
+      "version": "4.3.4"
+    },
+    "reference-count": 56,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2022-06-01T00:00:00Z",
+          "timestamp": 1654041600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2022-06-01T00:00:00Z",
+          "timestamp": 1654041600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62173249"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62173249"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007219",
+        "name": "Natural Science Foundation of Shanghai",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "20ZR1460100"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "20ZR1460100"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100007219",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52688.2022.00869",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2022-09-27T19:56:41Z",
+      "timestamp": 1664308601000
+    },
+    "page": "8886-8895",
+    "source": "Crossref",
+    "is-referenced-by-count": 129,
+    "title": [
+      "Unsupervised Domain Adaptation for Nighttime Aerial Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Junjie",
+        "family": "Ye",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tongji University,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Changhong",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tongji University,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guangze",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tongji University,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danda Pani",
+        "family": "Paudel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ETH Z&#x00FC;rich,Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Guang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tongji University,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV48630.2021.00281"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.74"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2577031"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.789"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "ref30",
+        "first-page": "2813",
+        "article-title": "Least Squares Gen-erative Adversarial Networks",
+        "author": "mao",
+        "year": "0",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58589-1_21"
+      },
+      {
+        "key": "ref36",
+        "first-page": "1",
+        "article-title": "Map-Guided Curriculum Domain Adaptation and Uncertainty-Aware Evaluation for Semantic Nighttime Image Segmen-tation",
+        "author": "sakaridis",
+        "year": "2020",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "ref35",
+        "first-page": "8197",
+        "article-title": "Learning To Relate Depth and Semantics for Un-supervised Domain Adaptation",
+        "author": "saha",
+        "year": "0",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref28",
+        "first-page": "740",
+        "article-title": "Microsoft COCO: Common Objects in Context",
+        "author": "lin",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01194"
+      },
+      {
+        "key": "ref29",
+        "first-page": "7131",
+        "article-title": "D3S-A Dis-criminative Single Shot Segmentation Tracker",
+        "author": "lukežic",
+        "year": "0",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS40897.2019.8968163"
+      },
+      {
+        "key": "ref1",
+        "first-page": "850",
+        "article-title": "Fully-Convolutional Siamese Networks for Object Tracking",
+        "author": "bertinetto",
+        "year": "0",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref20",
+        "first-page": "1",
+        "article-title": "Adam: A Method for Stochastic Optimization",
+        "author": "kingma",
+        "year": "0",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA48506.2021.9561564"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2021.3063604"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2017.2704624"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW.2016.11"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS51168.2021.9636680"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_7"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01329"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref52",
+        "first-page": "1533",
+        "article-title": "Dy-namic Context-Sensitive Filtering Network for Video Salient Object Detection",
+        "author": "zhang",
+        "year": "0",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-020-01387-y"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA48506.2021.9560756"
+      },
+      {
+        "key": "ref40",
+        "first-page": "2058",
+        "article-title": "Return of Frus-tratingly Easy Domain Adaptation",
+        "author": "sun",
+        "year": "0",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref13",
+        "first-page": "1180",
+        "article-title": "Unsupervised Do-main Adaptation by Backpropagation",
+        "volume": "37",
+        "author": "ganin",
+        "year": "0",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "High-Speed Tracking with Kernelized Correlation Filters",
+        "volume": "37",
+        "author": "henriques",
+        "year": "2015",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref18",
+        "first-page": "731",
+        "article-title": "AugGAN: Cross Domain Adaptation with GAN-based Data Augmentation",
+        "author": "huang",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00298"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01517"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.88"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS51168.2021.9636309"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00352"
+      },
+      {
+        "key": "ref49",
+        "first-page": "6004",
+        "article-title": "Multi-Regularized Correlation Fil-ter for UAV Tracking and Self-Localization",
+        "volume": "69",
+        "author": "ye",
+        "year": "2022",
+        "journal-title": "IEEE TIE"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01551"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LRA.2022.3146911"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref42",
+        "first-page": "2579",
+        "article-title": "Visualizing data using t-sne",
+        "volume": "9",
+        "author": "van der maaten",
+        "year": "2008",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-020-01357-4"
+      },
+      {
+        "key": "ref43",
+        "first-page": "6000",
+        "article-title": "Attention Is All You Need",
+        "author": "vaswani",
+        "year": "0",
+        "journal-title": "NeurIPS"
+      }
+    ],
+    "event": {
+      "name": "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "New Orleans, LA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            24
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9878378/9878366/09879981.pdf?arnumber=9879981",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2022-10-14T20:55:28Z",
+      "timestamp": 1665780928000
+    },
+    "score": 53.605057,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9879981/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6
+        ]
+      ]
+    },
+    "references-count": 56,
+    "URL": "https://doi.org/10.1109/cvpr52688.2022.00869",
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6
+        ]
+      ]
+    }
+  }
+}

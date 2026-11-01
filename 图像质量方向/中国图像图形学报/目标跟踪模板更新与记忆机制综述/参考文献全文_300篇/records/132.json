@@ -1,0 +1,40 @@
+{
+  "number": 132,
+  "title": "CLNet: A Compact Latent Network for Fast Adjusting Siamese Trackers",
+  "year": 2020,
+  "authors": [
+    "Xingping Dong",
+    "Jianbing Shen",
+    "Ling Shao",
+    "Fatih Porikli"
+  ],
+  "venue": "ECCV",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3485_ECCV_2020_paper.php",
+  "doi": "10.1007/978-3-030-58565-5_23",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650375.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650375.pdf",
+      "bytes": 1372001,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\132_2020_CLNet__A_Compact_Latent_Network_for_Fast_Adjusting_Siamese_Trackers.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650375.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650375.pdf",
+  "bytes": 1372001,
+  "sha256": "6f347df4547765336290f2294f6d671ab7210c339186939f570f16b3aac3cd38",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "CLNet: A Compact Latent Network for Fast\nAdjusting Siamese Trackers\nXingping Dong1[0000−0003−1613−9288], Jianbing Shen1⋆[0000−0003−1883−2086],\nLing Shao1,2[0000−0002−8264−6117], and Fatih Porikli3[0000−0002−1520−4466]\n1 Inception Institute of Artiﬁcial Intelligence, Abu Dhabi, UAE.\n2 Mohamed bin Zayed University of Artiﬁcial Intelligence, Abu Dhabi, UAE.\n3 Australian National University, Australia.\nAbstract. In this paper, we provide a deep analysis for Siamese-based\ntrackers and ﬁnd that the one core reason for their failure on challeng-\ning cases can be attributed to the problem of decisive samples missing\nduring oﬄine training. Furthermore, we notice that the samples given in\nthe ﬁrst frame can be viewed as the decisive samples for the sequence\nsince they contain rich sequence-speciﬁc information. To make full use\nof these sequence-speciﬁc samples, we propose a compact latent net-\nwork to quickly adjust the tracking model to adapt to new scenes. A\nstatistic-based compact latent feature is proposed to eﬃciently capture\nthe sequence-speciﬁc information for the fast adjustment. In addition,\nwe design a new training approach based on a diverse sample mining\nstrategy to further improve the discrimination ability of our compact\nlatent network. To evaluate the eﬀectiveness of our method, we apply\nit to adjust a recent state-of-the-art tracker, SiamRPN++. Extensive\nexperimental results on ﬁve recent benchmarks demonstrate that the\nadjusted tracker achieves promising improvement in terms of tracking\naccuracy, with almost the same speed. The code and models are avail-\nable at https://github.com/xingpingdong/CLNet-tracking.\nKeywords: Siamese tracker, latent feature, sequence-speciﬁc, sample\nmining, fast adjustment\n1\nIntroduction\nRecently, Siamese-based trackers [3, 31, 30] have attracted signiﬁcant attention\nin the tracking community, since they successfully incorporated data-driven deep\nlearning with real-time visual tracking, and achieved impressive tracking accu-\nracy. However, these trackers are still unable to address more challenging situ-\nations, such as similar distractors or huge deformation as shown in Fig. 1. To\nanalyze the core reason for these failures, we simplify the Siamese model to a\nlinear binary-classiﬁer and transfer the tracking task to a classiﬁcation problem.\nWe ﬁnd that the issues can be attributed to the problem of decisive samples\nmissing, i.e. some key samples, such as the ones in the above challenging cases,\n⋆Corresponding author: Jianbing Shen (shenjianbingcg@gmail.com)\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

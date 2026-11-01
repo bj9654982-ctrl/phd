@@ -1,0 +1,653 @@
+{
+  "number": 18,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Learning Spatio-Temporal Transformer for Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T03:22:00Z",
+      "timestamp": 1792984920349,
+      "version": "4.5.0"
+    },
+    "reference-count": 70,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv48922.2021.01028",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2022-02-28T17:08:02Z",
+      "timestamp": 1646068082000
+    },
+    "page": "10428-10437",
+    "source": "Crossref",
+    "is-referenced-by-count": 1176,
+    "title": [
+      "Learning Spatio-Temporal Transformer for Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Bin",
+        "family": "Yan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Dalian University of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Houwen",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research Asia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianlong",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Microsoft Research Asia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dalian University of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huchuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dalian University of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref70",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.515"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00716"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2482905"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Generalized focal loss: Learning qualified and distributed bounding boxes for dense object detection",
+        "author": "li",
+        "year": "2020",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.11.007"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00626"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-981-13-0469-9"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Decoupled weight decay regularization",
+        "author": "loshchilov",
+        "year": "2017"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Microsoft COCO: Common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58542-6_26"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01493"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00247"
+      },
+      {
+        "key": "ref61",
+        "article-title": "Alpha-refine: Boosting tracking performance by precise bounding box estimation",
+        "author": "yan",
+        "year": "2020"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_10"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00675"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/nav.3800020109"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00676"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref67",
+        "article-title": "Towards accurate pixel-wise object tracking by attention retrieval",
+        "author": "zhang",
+        "year": "2020"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref69",
+        "article-title": "Ocean: Object-aware anchor-free tracking",
+        "author": "zhang",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref1",
+        "year": "0"
+      },
+      {
+        "key": "ref20",
+        "article-title": "GOT-10k: A large high-diversity benchmark for generic object tracking in the wild",
+        "author": "huang",
+        "year": "2019",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Batch Normalization: Accelerating deep network training by reducing internal covariate shift",
+        "author": "ioffe",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6758"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01225-0_6"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00276"
+      },
+      {
+        "key": "ref25",
+        "article-title": "The eighth visual object tracking vot2020 challenge results",
+        "author": "kristan",
+        "year": "2020",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01158"
+      },
+      {
+        "key": "ref51",
+        "article-title": "TransTrack: Multiple-object tracking with transformer",
+        "author": "sun",
+        "year": "2020"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "ref56",
+        "article-title": "MaX-DeepLab: End-to-end panoptic segmentation with mask transformers",
+        "author": "wang",
+        "year": "2020"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00632"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref53",
+        "article-title": "Attention is all you need",
+        "author": "vaswani",
+        "year": "2017",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Rwth asr systems for librispeech: Hybrid vs attention&#x2013;w/o data augmentation",
+        "author": "lüscher",
+        "year": "2019"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref13",
+        "article-title": "BERT: Pre-training of deep bidirectional transformers for language understanding",
+        "author": "devlin",
+        "year": "2019",
+        "journal-title": "NAACL-HLT"
+      },
+      {
+        "key": "ref14",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "dosovitskiy",
+        "year": "2020"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref19",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "author": "henriques",
+        "year": "2008",
+        "journal-title": "ICVS"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Unveiling the power of deep tracking",
+        "author": "bhat",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref5",
+        "article-title": "End-to-end object detection with transformers",
+        "author": "carion",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Revisiting rcnn: On awakening the classification power of faster rcnn",
+        "author": "cheng",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "ref46",
+        "first-page": "9",
+        "article-title": "Language models are unsupervised multitask learners",
+        "volume": "1",
+        "author": "radford",
+        "year": "2019",
+        "journal-title": "OpenAIRE blog"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Faster R&#x2013;CNN: Towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref42",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "mueller",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref41",
+        "article-title": "TrackFormer: Multi-object tracking with transformers",
+        "author": "meinhardt",
+        "year": "2021"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "muller",
+        "year": "2018",
+        "journal-title": "ECCV"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Montreal, QC, Canada",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9709627/9709628/09710846.pdf?arnumber=9710846",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2022-07-15T15:42:44Z",
+      "timestamp": 1657899764000
+    },
+    "score": 45.884346,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9710846/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "references-count": 70,
+    "URL": "https://doi.org/10.1109/iccv48922.2021.01028",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    }
+  }
+}

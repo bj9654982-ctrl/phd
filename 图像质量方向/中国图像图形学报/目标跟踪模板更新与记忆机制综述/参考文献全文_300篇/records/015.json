@@ -1,0 +1,39 @@
+{
+  "number": 15,
+  "title": "Probabilistic Regression for Visual Tracking",
+  "year": 2020,
+  "authors": [
+    "Martin Danelljan",
+    "Luc Van Gool",
+    "Radu Timofte"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Danelljan_Probabilistic_Regression_for_Visual_Tracking_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Danelljan_Probabilistic_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Danelljan_Probabilistic_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "bytes": 4523728,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\015_2020_Probabilistic_Regression_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Danelljan_Probabilistic_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Danelljan_Probabilistic_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "bytes": 4523728,
+  "sha256": "d5734c0684aa93561c3c8db996c93fbe4d20473c5586bf830a0e440df2946cc3",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Probabilistic Regression for Visual Tracking",
+  "first_page_text": "Probabilistic Regression for Visual Tracking\nMartin Danelljan\nLuc Van Gool\nRadu Timofte\nComputer Vision Lab, D-ITET, ETH Z¨urich, Switzerland\nAbstract\nVisual tracking is fundamentally the problem of regress-\ning the state of the target in each video frame. While signif-\nicant progress has been achieved, trackers are still prone to\nfailures and inaccuracies. It is therefore crucial to represent\nthe uncertainty in the target estimation. Although current\nprominent paradigms rely on estimating a state-dependent\nconﬁdence score, this value lacks a clear probabilistic in-\nterpretation, complicating its use.\nIn this work, we therefore propose a probabilistic re-\ngression formulation and apply it to tracking.\nOur net-\nwork predicts the conditional probability density of the tar-\nget state given an input image.\nCrucially, our formula-\ntion is capable of modeling label noise stemming from in-\naccurate annotations and ambiguities in the task. The re-\ngression network is trained by minimizing the Kullback-\nLeibler divergence.\nWhen applied for tracking, our for-\nmulation not only allows a probabilistic representation\nof the output, but also substantially improves the perfor-\nmance.\nOur tracker sets a new state-of-the-art on six\ndatasets, achieving 59.8% AUC on LaSOT and 75.8% Suc-\ncess on TrackingNet. The code and models are available at\nhttps://github.com/visionml/pytracking.\n1. Introduction\nVisual object tracking is the task of estimating the state\nof a target object in each frame of a video sequence. Most\ncommonly, the state is represented as a bounding box en-\ncapsulating the target. Different ﬂavors of the problem arise\nfrom the type of given prior information about the scenario,\nsuch as object class [1] or static camera [37]. In its most\ngeneral form, however, virtually no prior knowledge is as-\nsumed and the initial state of the target is given during in-\nference. This imposes severe challenges, since the method\nmust learn a model of the target during tracking itself.\nAlong with a myriad of other computer vision tasks, such\nas object detection [24, 26, 35], pose estimation [6, 41, 47],\nand keypoint detection [36, 45], visual tracking can funda-\nmentally be formulated as a regression problem. In this gen-\neral view, the goal is thus to learn a model, typically a deep\n#012\n#200\n#462\n#045\n#317\n#1100\n#150\n#161\n#473\n#006\n#196\n#643\nOurs\nDiMP\nSiamRPN++\nFigure 1. A comparison of our approach with state-of-the-art track-\ners DiMP [3] and SiamRPN++ [28]. In tracking, estimating the\nuncertainty of the target state is important in the presence of simi-\nlar objects (ﬁrst row), occlusions (second row), when determining\nfailures (third row), and in cases of blur or other obstructions (bot-\ntom row). Unlike current state-of-the-art, our approach predicts a\nprobability distribution p(y|x) of the target state y conditioned on\nthe input image x, providing a clear interpretation of the output.\nThe proposed probabilistic formulation further improves the over-\nall performance of the tracker, including the cases shown above.\nneural network, capable of predicting the target state in each\nframe. While current and past approaches apply a variety of\ntechniques to address this problem, most of the successful\nmethods have a crucial aspect in common. Namely, that the\ntask of regressing the target state y∗in a frame x is achieved\nby learning to predict a conﬁdence value s(y, x) for any\ngiven state y. The target state is then estimated by maxi-\nmizing the predicted conﬁdence y∗= arg maxy s(y, x).\nThe aforementioned conﬁdence-based regression strat-\negy is shared by the previously dominant Discriminative\nCorrelation Filter (DCF) paradigm [5, 10, 12, 15, 22, 31, 39]\nand the more recent Siamese trackers [2, 17, 28, 29, 44, 50].\nBoth employ a convolutional operation to predict a target\nconﬁdence s(y, x) at each spatial position y, in order to\nlocalize the target. Recent work [3, 9] also demonstrated\nthe effectiveness of training a network branch to predict\n7183\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

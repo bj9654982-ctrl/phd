@@ -1,0 +1,41 @@
+{
+  "number": 67,
+  "title": "Partial Occlusion Handling for Visual Tracking via Robust Part Matching",
+  "year": 2014,
+  "authors": [
+    "Tianzhu Zhang",
+    "Kui Jia",
+    "Changsheng Xu",
+    "Yi Ma",
+    "Narendra Ahuja"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.pdf",
+      "bytes": 9142294,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\067_2014_Partial_Occlusion_Handling_for_Visual_Tracking_via_Robust_Part_Matching.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.pdf",
+  "bytes": 9142294,
+  "sha256": "6e2cd3d6a21644ac0cbb465a8f368fe6d34169a86ffdc17c8849370999d6af55",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Partial Occlusion Handling for Visual Tracking via Robust Part Matching",
+  "first_page_text": "Partial Occlusion Handling for Visual Tracking via Robust Part Matching\nTianzhu Zhang∗, Kui Jia∗, Changsheng Xu, Yi Ma, Narendra Ahuja\nInstitute of Automation, Chinese Academy of Sciences, P. R. China\nAdvanced Digital Sciences Center of Illinois, Singapore\nSchool of Information Science and Technology, ShanghaiTech University\nUniversity of Illinois at Urbana-Champaign, Urbana, IL USA\n∗\nAbstract\nPart-based visual tracking is advantageous due to its ro-\nbustness against partial occlusion. However, how to effec-\ntively exploit the conﬁdence scores of individual parts to\nconstruct a robust tracker is still a challenging problem.\nIn this paper, we address this problem by simultaneously\nmatching parts in each of multiple frames, which is realized\nby a locality-constrained low-rank sparse learning method\nthat establishes multi-frame part correspondences through\noptimization of partial permutation matrices. The proposed\npart matching tracker (PMT) has a number of attractive\nproperties.\n(1) It exploits the spatial-temporal locality-\nconstrained property for robust part matching. (2) It match-\nes local parts from multiple frames jointly by considering\ntheir low-rank and sparse structure information, which can\neffectively handle part appearance variations due to occlu-\nsion or noise. (3) The proposed PMT model has the inbuilt\nmechanism of leveraging multi-mode target templates, so\nthat the dilemma of template updating when encountering\nocclusion in tracking can be better handled. This contrasts\nwith existing methods that only do part matching between a\npair of frames. We evaluate PMT and compare with 10 pop-\nular state-of-the-art methods on challenging benchmarks.\nExperimental results show that PMT consistently outperfor-\nm these existing trackers.\n1. Introduction\nVisual tracking is one of the fundamental problems in\ncomputer vision.\nIts real-world applications range from\nvideo surveillance, autonomous vehicles, intelligent traf-\nﬁc control, human-computer interaction, etc. However, vi-\nsual tracking is challenging due to signiﬁcant object ap-\npearance variations caused by illumination change, occlu-\nsion, sensory noise, fast/abrupt object motion, and also clut-\n∗indicates equal contribution\n(a) Frames from three different video sequences with partial occlusion.\n(b) Qualitative results via robust part matching of multiple frames.\nFigure 1. (a) Frames from three different video sequences with\npartial occlusion. The ground truth track of each object is denoted\nin green. Clearly, occlusion renders the tracking problem very\ndifﬁcult. (b) The tracking results of our method are denoted with\nred bounding boxes. The blue cross marks denote the positions of\nparts, and the blue lines represent their correspondences. It is clear\nthat the part based matching is robust to partial occlusion.\ntered background. Over the past years, tremendous efforts\nin visual tracking has been made to overcome these chal-\nlenges, yielding a steady performance improvement. How-\never, most of existing methods [4, 14, 26, 24, 20, 32] focus\non modeling the holistic appearance of the target. As a re-\nsult, the tracking is prone to fail especially in the presence\nof partial occlusion, as shown in Figure 1(a).\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

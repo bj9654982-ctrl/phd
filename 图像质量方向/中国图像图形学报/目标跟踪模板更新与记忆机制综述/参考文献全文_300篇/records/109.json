@@ -1,0 +1,40 @@
+{
+  "number": 109,
+  "title": "Joint Group Feature Selection and Discriminative Filter Learning for Robust Visual Object Tracking",
+  "year": 2019,
+  "authors": [
+    "Tianyang Xu",
+    "Zhen-Hua Feng",
+    "Xiao-Jun Wu",
+    "Josef Kittler"
+  ],
+  "venue": "ICCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Xu_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_ICCV_2019_paper.pdf",
+      "bytes": 1715141,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\109_2019_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_Vi.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Xu_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_ICCV_2019_paper.pdf",
+  "bytes": 1715141,
+  "sha256": "bc1037ba861225f939187bc48e14b49f233c04de9eb15e56d420aeb638ace655",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Joint Group Feature Selection and Discriminative Filter Learning for Robust Visual Object Tracking",
+  "first_page_text": "Joint Group Feature Selection and Discriminative Filter Learning for Robust\nVisual Object Tracking\nTianyang Xu1,2 Zhen-Hua Feng2 Xiao-Jun Wu1∗Josef Kittler2\n1School of Internet of Things Engineering, Jiangnan University, Wuxi, China\n2 Centre for Vision, Speech and Signal Processing (CVSSP), University of Surrey, Guildford, UK\ntianyang xu@163.com, z.feng@surrey.ac.uk, wu xiaojun@jiangnan.edu.cn, j.kittler@surrey.ac.uk\nAbstract\nWe propose a new Group Feature Selection method for\nDiscriminative Correlation Filters (GFS-DCF) based vi-\nsual object tracking. The key innovation of the proposed\nmethod is to perform group feature selection across both\nchannel and spatial dimensions, thus to pinpoint the struc-\ntural relevance of multi-channel features to the ﬁltering sys-\ntem. In contrast to the widely used spatial regularisation\nor feature selection methods, to the best of our knowledge,\nthis is the ﬁrst time that channel selection has been advo-\ncated for DCF-based tracking. We demonstrate that our\nGFS-DCF method is able to signiﬁcantly improve the per-\nformance of a DCF tracker equipped with deep neural net-\nwork features. In addition, our GFS-DCF enables joint fea-\nture selection and ﬁlter learning, achieving enhanced dis-\ncrimination and interpretability of the learned ﬁlters.\nTo further improve the performance, we adaptively in-\ntegrate historical information by constraining ﬁlters to be\nsmooth across temporal frames, using an efﬁcient low-\nrank approximation. By design, speciﬁc temporal-spatial-\nchannel conﬁgurations are dynamically learned in the\ntracking process, highlighting the relevant features, and\nalleviating the performance degrading impact of less dis-\ncriminative representations and reducing information re-\ndundancy. The experimental results obtained on OTB2013,\nOTB2015, VOT2017, VOT2018 and TrackingNet demon-\nstrate the merits of our GFS-DCF and its superiority\nover the state-of-the-art trackers.\nThe code is publicly\navailable at https://github.com/XU-TIANYANG/\nGFS-DCF.\n1. Introduction\nTo consistently and accurately track an arbitrary object\nin video sequences is a very challenging task. The difﬁ-\nculties are posed by a wide spectrum of appearance varia-\ntions of an object in unconstrained scenarios. Among ex-\ngroup spatial \nregularisation  \ngroup channel \nregularisation\nlow-rank \ntemporal \nsmoothness \ndiscriminative filter learning\nmulti-channel features\ndesired response map\nlearned filters\nframe t\n...\n...\n...\n...\ngroup spatial \nattributes across \nchannels\ngroup channel \nattributes across \nspatial dimensions\nlearning\nFigure 1. In contrast to the classical DCF paradigm, our GFS-\nDCF performs channel and spatial group feature selection for the\nlearning of correlation ﬁlters. Group sparsity is enforced in the\nchannel and spatial dimensions to highlight relevant features with\nenhanced discrimination and interpretability. Additionally, a low-\nrank temporal smoothness constraint is employed across temporal\nframes to improve the stability of the learned ﬁlters.\nisting tracking algorithms, Discriminative Correlation Fil-\nters (DCF-) based trackers [27] have exhibited promising\nresults in recent benchmarks [81, 82, 53, 43] and com-\npetitions such as the Visual Object Tracking (VOT) chal-\nlenges [36, 32, 33, 34].\nThe success of high-performance DCF trackers is at-\ntributed to three aspects: spatial regularisation, temporal\nsmoothness and robust image feature representation. Re-\ngarding the ﬁrst point, as natural images and videos are\nprojections from a 3D space into a 2D plane, spatial reg-\nularisation directly improves the tracking accuracy by po-\ntentially endowing the learned ﬁlters with a speciﬁc atten-\ntion mechanism, enhancing the discrimination by focusing\non less ambiguous regions [15, 49, 31, 87]. Second, based\non the fact that video sequences are formed by discrete im-\nage sampling of continuous dynamic scenes, reﬂecting the\n7950\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

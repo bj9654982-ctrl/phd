@@ -1,0 +1,565 @@
+{
+  "number": 177,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "HiFT: Hierarchical Feature Transformer for Aerial Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T16:39:56Z",
+      "timestamp": 1792082396856,
+      "version": "4.4.0"
+    },
+    "reference-count": 53,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2021-10-01T00:00:00Z",
+          "timestamp": 1633046400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100007219",
+        "name": "Natural Science Foundation of Shanghai",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007219",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv48922.2021.01517",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2022-02-28T17:08:02Z",
+      "timestamp": 1646068082000
+    },
+    "page": "15437-15446",
+    "source": "Crossref",
+    "is-referenced-by-count": 308,
+    "title": [
+      "HiFT: Hierarchical Feature Transformer for Aerial Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ziang",
+        "family": "Cao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Tongji University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Changhong",
+        "family": "Fu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tongji University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junjie",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tongji University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bowen",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tongji University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yiming",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "New York University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "ref38",
+        "article-title": "TrackFormer: Multi-Object Tracking with Transformers",
+        "author": "meinhardt",
+        "year": "2021"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref30",
+        "first-page": "1097",
+        "article-title": "Ima-genet Classification with Deep Convolutional Neural Net-works",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "Advances in Neural Information Processing Sys-tems (NeurIPS)"
+      },
+      {
+        "key": "ref37",
+        "first-page": "740",
+        "article-title": "Microsoft coco: Common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV)"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01194"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00146"
+      },
+      {
+        "key": "ref34",
+        "first-page": "1",
+        "article-title": "Visual Object Tracking for Unmanned Aerial Vehicles: A Benchmark and New Motion Models",
+        "author": "li",
+        "year": "2017",
+        "journal-title": "Proceedings of the AAAI Conference on Artificial Intel-ligence (AAAI)"
+      },
+      {
+        "key": "ref28",
+        "first-page": "1",
+        "article-title": "GOT-10k: A Large High-Diversity Benchmark for Generic Object Tracking in the Wild",
+        "author": "huang",
+        "year": "2019",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Ma-chine Intelligence"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58595-2_2"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00298"
+      },
+      {
+        "key": "ref2",
+        "first-page": "850",
+        "article-title": "Fully-Convolutional Siamese Networks for Object Tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV)"
+      },
+      {
+        "key": "ref1",
+        "first-page": "6000",
+        "article-title": "Attention Is All You Need",
+        "author": "ashish",
+        "year": "2017",
+        "journal-title": "Advances in Neural Information Processing Systems (NIPS)"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MGRS.2021.3072992"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00942"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.04.004"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00911"
+      },
+      {
+        "key": "ref53",
+        "first-page": "101",
+        "article-title": "Distractor-Aware Siamese Networks for Visual Object Tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV)"
+      },
+      {
+        "key": "ref52",
+        "article-title": "Deformable DETR: Deformable Transformers for End-to-End Object Detection",
+        "author": "zhu",
+        "year": "2020"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref40",
+        "first-page": "91",
+        "article-title": "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "Advances in Neural IInformation Processing Systems"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2609928"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.789"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TGRS.2021.3083880"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA48506.2021.9560756"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA.2014.6907659"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS51168.2021.9636309"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS40897.2019.8968163"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref7",
+        "first-page": "213",
+        "article-title": "End-to-End Object Detection with Transformers",
+        "author": "carion",
+        "year": "2020",
+        "journal-title": "Proceedings of the European Conference on Computer Vision (ECCV)"
+      },
+      {
+        "key": "ref49",
+        "first-page": "1",
+        "article-title": "Multi-Scale Context Aggregation by Dilated Convolutions",
+        "author": "yu",
+        "year": "2016",
+        "journal-title": "Proceedings of the International Conference on Learning Representations (ICLR)"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00509"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIE.2021.3088366"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00583"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00474"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00140"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Montreal, QC, Canada",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            10,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9709627/9709628/09710895.pdf?arnumber=9710895",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2022-07-15T15:42:15Z",
+      "timestamp": 1657899735000
+    },
+    "score": 58.848694,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9710895/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    },
+    "references-count": 53,
+    "URL": "https://doi.org/10.1109/iccv48922.2021.01517",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10
+        ]
+      ]
+    }
+  }
+}

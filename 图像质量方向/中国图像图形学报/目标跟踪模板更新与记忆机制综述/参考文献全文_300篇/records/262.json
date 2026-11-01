@@ -1,0 +1,40 @@
+{
+  "number": 262,
+  "title": "Video Object Segmentation Using Space-Time Memory Networks",
+  "year": 2019,
+  "authors": [
+    "Seoung Wug Oh",
+    "Joon-Young Lee",
+    "Ning Xu",
+    "Seon Joo Kim"
+  ],
+  "venue": "ICCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.pdf",
+      "bytes": 4030776,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\262_2019_Video_Object_Segmentation_Using_Space-Time_Memory_Networks.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.pdf",
+  "bytes": 4030776,
+  "sha256": "215014ed570f68ce80a51a22423eaf2da41bc77691d9555d251f4b95a75fea35",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Video Object Segmentation Using Space-Time Memory Networks",
+  "first_page_text": "Video Object Segmentation using Space-Time Memory Networks\nSeoung Wug Oh*\nYonsei University\nJoon-Young Lee\nAdobe Research\nNing Xu\nAdobe Research\nSeon Joo Kim\nYonsei University\nAbstract\nWe propose a novel solution for semi-supervised video\nobject segmentation. By the nature of the problem, avail-\nable cues (e.g. video frame(s) with object masks) become\nricher with the intermediate predictions. However, the ex-\nisting methods are unable to fully exploit this rich source\nof information. We resolve the issue by leveraging mem-\nory networks and learn to read relevant information from\nall available sources. In our framework, the past frames\nwith object masks form an external memory, and the cur-\nrent frame as the query is segmented using the mask in-\nformation in the memory. Speciﬁcally, the query and the\nmemory are densely matched in the feature space, covering\nall the space-time pixel locations in a feed-forward fash-\nion. Contrast to the previous approaches, the abundant use\nof the guidance information allows us to better handle the\nchallenges such as appearance changes and occlussions.\nWe validate our method on the latest benchmark sets and\nachieved the state-of-the-art performance (overall score of\n79.4 on Youtube-VOS val set, J of 88.7 and 79.2 on DAVIS\n2016/2017 val set respectively) while having a fast runtime\n(0.16 second/frame on DAVIS 2016 val set).\n1. Introduction\nVideo object segmentation is a task of separating the\nforeground and the background pixels in all frames of a\ngiven video. It is an essential step for many video editing\ntasks, which is getting more attention as videos have be-\ncome the most popular form of shared media contents. We\ntackle the video object segmentation problem in the semi-\nsupervised setting, where the ground truth mask of the tar-\nget object is given in the ﬁrst frame and the goal is to es-\ntimate the object masks in all other frames. It is a very\nchallenging task as the appearance of the target object can\nchange drastically over time and also due to occlusions and\ndrifts.\nAs in most tasks in computer vision, many deep learn-\ning based algorithms have been introduced to solve the\nvideo object segmentation problem.\nWith deep learning\n*This work was done during an internship at Adobe Research.\n…\n…\n…\n…\n…\n…\nMemory\nRead\n(a)\n(c)\n(d)\nFirst\nIntermediate\nPrevious\nCurrent\n…\n…\n(b)\nFigure 1: Previous DNN-based algorithms extract features\nin different frames for video object segmentation (a-c). We\npropose an efﬁcient algorithm that exploits multiple frames\nin the given video for more accurate segmentation (d).\napproaches, the essential question is from which frame(s)\nshould the deep networks learn the cues? In some algo-\nrithms, the features were extracted and propagated from the\nprevious frame (Fig. 1(a)) [11, 26]. The main strength of\nthis approach is that it can deal with changes in appear-\nance better, while sacriﬁcing robustness against occlusions\nand error drifts. Another direction for deep learning based\nvideo segmentation is to use the ﬁrst frame as a reference\nand independently detect the target object at each frame\n(Fig. 1(b)) [2, 42, 12]. The pros and cons of this approach\nare exactly the opposite from the previous approach. Meth-\nods that use both the ﬁrst frame and the previous frame to\ntake the advantages of the two approaches were proposed\nin [24, 40] (Fig. 1(c)). By using two frames as the source\nfor cues, the algorithm [24] achieved the state-of-the-art ac-\ncuracy with faster running time, as the algorithm does not\nrequire online learning as with other methods.\nAs using two frames has shown to be beneﬁcial for video\nsegmentation, a natural extension is to use more frames,\npossibly every frame in the video, for the segmentation task.\n9226\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

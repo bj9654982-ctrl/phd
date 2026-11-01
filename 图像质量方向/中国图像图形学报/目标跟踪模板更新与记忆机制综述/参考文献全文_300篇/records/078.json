@@ -1,0 +1,39 @@
+{
+  "number": 78,
+  "title": "Online Object Tracking With Proposal Selection",
+  "year": 2015,
+  "authors": [
+    "Yang Hua",
+    "Karteek Alahari",
+    "Cordelia Schmid"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Hua_Online_Object_Tracking_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Hua_Online_Object_Tracking_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Hua_Online_Object_Tracking_ICCV_2015_paper.pdf",
+      "bytes": 1205739,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\078_2015_Online_Object_Tracking_With_Proposal_Selection.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Hua_Online_Object_Tracking_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Hua_Online_Object_Tracking_ICCV_2015_paper.pdf",
+  "bytes": 1205739,
+  "sha256": "6c3e46870ecfdaedad766c16437dd409a54753c29cce095a6cd7febd25905acd",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Online Object Tracking With Proposal Selection",
+  "first_page_text": "Online Object Tracking with Proposal Selection\nYang Hua\nKarteek Alahari\nCordelia Schmid\nInria∗\nAbstract\nTracking-by-detection approaches are some of the most\nsuccessful object trackers in recent years. Their success is\nlargely determined by the detector model they learn initially\nand then update over time. However, under challenging\nconditions where an object can undergo transformations,\ne.g., severe rotation, these methods are found to be lack-\ning. In this paper, we address this problem by formulating it\nas a proposal selection task and making two contributions.\nThe ﬁrst one is introducing novel proposals estimated from\nthe geometric transformations undergone by the object, and\nbuilding a rich candidate set for predicting the object loca-\ntion. The second one is devising a novel selection strat-\negy using multiple cues, i.e., detection score and edgeness\nscore computed from state-of-the-art object edges and mo-\ntion boundaries. We extensively evaluate our approach on\nthe visual object tracking 2014 challenge and online track-\ning benchmark datasets, and show the best performance.\n1. Introduction\nOver the past few years, the tracking-by-detection frame-\nwork has emerged as one of the successful paradigms for\ntracking objects [33, 37, 44, 50]. It formulates the tracking\nproblem as the task of detecting an object, which is likely to\nundergo changes in appearance, size, or become occluded,\nover time [3, 4, 17, 18, 19, 26, 31, 41, 47, 49]. These ap-\nproaches begin by training an object detector with an ini-\ntialization (in the form of a bounding box) in the ﬁrst frame,\nand then update this model over time. Naturally, the choice\nof exemplars used to update and improve the object model\nis critical [23, 47, 51].\nConsider the motocross example shown in Figure 1.\nHere, the target (biker and his motorbike) undergoes sev-\neral deformations as the biker performs an acrobatics rou-\ntine, which leads to signiﬁcant changes in the aspect ratio\nas well as the rotation angle of the bounding box. State-of-\nthe-art tracking methods, e.g., [23, 47], rely on axis-aligned\nbounding boxes and thus are ill-equipped to capture the ac-\ncurate extents of the object in such scenarios. In this paper,\n∗LEAR team, Inria Grenoble Rhˆone-Alpes, Laboratoire Jean Kuntz-\nmann, CNRS, Univ. Grenoble Alpes, France.\nFigure 1. Sample frames (cropped) from the jogging (top row) and\nmotocross (bottom row) sequences [33]. The ground truth anno-\ntation (green) in the ﬁrst frame (left) is used to train our tracker\nand the winner [12] of VOT2014 challenge [33]. We show these\ntwo tracking results (right) on another frame in the sequence. Our\nmethod (yellow) successfully tracks objects undergoing deforma-\ntions unlike [12] (red). Best viewed in pdf.\nwe aim to address this issue by treating the tracking prob-\nlem as the task of selecting the best proposal containing the\nobject of interest from several candidates. To this end, we\npropose a novel method to generate candidates which cap-\nture the extents of the object accurately, by estimating the\ntransformation(s) undergone by the object.\nThe focus of this paper is the problem of tracking a sin-\ngle target in monocular video sequences. The target is pro-\nvided as a ground truth annotation in the ﬁrst frame, as in\na standard tracking-by-detection setup [19, 26]. We learn\nan object detector model from this annotation and evalu-\nate it in subsequent frames to propose candidate locations\nthat are likely to contain the target. While these proposals\nare sufﬁcient to track objects undergoing a small subset of\ntransformations over time, such as translation shown in Fig-\nure 1-top, they cannot handle generic transformations, e.g.,\nsimilarity transformation shown in Figure 1-bottom. We\naddress this problem by: (i) introducing novel additional\nproposals to improve the candidate location set, and (ii) us-\ning multiple cues to select the proposal that is most likely\nto contain the target. Additional proposals are computed\n3092\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

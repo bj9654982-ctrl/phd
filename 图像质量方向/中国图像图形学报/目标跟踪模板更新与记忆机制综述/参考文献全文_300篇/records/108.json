@@ -1,0 +1,44 @@
+{
+  "number": 108,
+  "title": "Visual Tracking via Spatially Aligned Correlation Filters Network",
+  "year": 2018,
+  "authors": [
+    "Zhang",
+    "Mengdan and Wang",
+    "Qiang and Xing",
+    "Junliang and Gao",
+    "Jin and Peng",
+    "Peixi and Hu",
+    "Weiming and Maybank",
+    "Steve"
+  ],
+  "venue": "ECCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/mengdan_zhang_Visual_Tracking_via_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/mengdan_zhang_Visual_Tracking_via_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/mengdan_zhang_Visual_Tracking_via_ECCV_2018_paper.pdf",
+      "bytes": 1170620,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\108_2018_Visual_Tracking_via_Spatially_Aligned_Correlation_Filters_Network.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/mengdan_zhang_Visual_Tracking_via_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/mengdan_zhang_Visual_Tracking_via_ECCV_2018_paper.pdf",
+  "bytes": 1170620,
+  "sha256": "c857c6982ffa89d6f1e504d12a16d675f8859093dee79c47dc33488c8ff3f23a",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "Visual Tracking via Spatially Aligned Correlation Filters Network",
+  "first_page_text": "Visual Tracking via Spatially Aligned\nCorrelation Filters Network\nMengdan Zhang∗1, Qiang Wang∗1, Junliang Xing1, Jin Gao1, Peixi Peng1,\nWeiming Hu1, and Steve Maybank2\n1 CAS Center for Excellence in Brain Science and Intelligence Technology, National\nLaboratory of Pattern Recognition, Institute of Automation, Chinese Academy of\nSciences; University of Chinese Academy of Sciences, Beijing, China\n{mengdan.zhang, qiang.wang, jin.gao, wmhu}@nlpr.ia.ac.cn,\npxpeng@pku.edu.cn\n2 Birkbeck College, University of London, London, UK\nsjmaybank@dcs.bbk.ac.uk\nAbstract. Correlation\nﬁlters\nbased\ntrackers\nrely\non\na\nperiodic\nassumption of the search sample to eﬃciently distinguish the target from\nthe background. This assumption however yields undesired boundary\neﬀects and restricts aspect ratios of search samples. To handle these\nissues, an end-to-end deep architecture is proposed to incorporate\ngeometric transformations into a correlation ﬁlters based network.\nThis architecture introduces a novel spatial alignment module, which\nprovides continuous feedback for transforming the target from the border\nto the center with a normalized aspect ratio. It enables correlation\nﬁlters to work on well-aligned samples for better tracking. The whole\narchitecture not only learns a generic relationship between object\ngeometric transformations and object appearances, but also learns robust\nrepresentations coupled to correlation ﬁlters in case of various geometric\ntransformations. This lightweight architecture permits real-time speed.\nExperiments show our tracker eﬀectively handles boundary eﬀects and\naspect ratio variations, achieving state-of-the-art tracking results on\nrecent benchmarks.\nKeywords: visual tracking · spatial transformer network · deep learning\n· correlation ﬁlters network\n1\nIntroduction\nGeneric visual tracking aims to estimate the trajectory of a target in a video,\ngiven only its initial location. It has been widely applied, for example to video\nsurveillance [13, 1], and event recognition [27]. Visual tracking is challenging\nbecause the tracking scene contains complex motion patterns such as in-\nplane/out-of-plane rotation, deformation, and camera motion. A tracker has\nlimited online samples with which to learn to adapt to these motion patterns.\n*The ﬁrst two authors contributed equally to this work.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

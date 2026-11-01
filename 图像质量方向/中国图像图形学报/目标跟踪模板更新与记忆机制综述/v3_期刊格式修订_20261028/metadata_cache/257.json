@@ -1,0 +1,729 @@
+{
+  "number": 257,
+  "original_doi": "10.1007/978-3-030-58529-7_5",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Robust Tracking Against Adversarial Attacks",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2026-08-28T16:36:50Z",
+      "timestamp": 1787935010579,
+      "version": "build-2784847793"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 47,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783030585280",
+        "type": "print"
+      },
+      {
+        "value": "9783030585297",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-030-58529-7_5",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          12
+        ]
+      ],
+      "date-time": "2020-11-12T09:06:09Z",
+      "timestamp": 1605171969000
+    },
+    "page": "69-84",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 45,
+    "title": [
+      "Robust Tracking Against Adversarial Attacks"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Shuai",
+        "family": "Jia",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chao",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yibing",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaokang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "5_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bertinetto, L., Valmadre, J., Henriques, J.F., Vedaldi, A., Torr, P.H.: Fully-convolutional siamese networks for object tracking. In: ECCV Workshop (2016)",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "5_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhat, G., Danelljan, M., Van Gool, L., Timofte, R.: Learning discriminative model prediction for tracking. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "5_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Bhat, G., Khan, F.S., Felsberg, M.: Atom: accurate tracking by overlap maximization. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "5_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Bhat, G., Shahbaz Khan, F., Felsberg, M.: ECO: efficient convolution operators for tracking. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "5_CR5",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "472",
+        "DOI": "10.1007/978-3-319-46454-1_29",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "M Danelljan",
+        "year": "2016",
+        "unstructured": "Danelljan, M., Robinson, A., Shahbaz Khan, F., Felsberg, M.: Beyond correlation filters: learning continuous convolution operators for visual tracking. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9909, pp. 472–488. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "key": "5_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong, Y., et al.: Efficient decision-based black-box adversarial attacks on face recognition. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00790"
+      },
+      {
+        "key": "5_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Eykholt, K., et al.: Robust physical-world attacks on deep learning models. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00175"
+      },
+      {
+        "key": "5_CR8",
+        "unstructured": "Goodfellow, I.J., Shlens, J., Szegedy, C.: Explaining and harnessing adversarial examples. In: ICLR (2015)"
+      },
+      {
+        "key": "5_CR9",
+        "unstructured": "Guo, C., Rana, M., Cisse, M., Van Der Maaten, L.: Countering adversarial images using input transformations. In: ICLR (2018)"
+      },
+      {
+        "key": "5_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Han, B., Sim, J., Adam, H.: Branchout: regularization for online ensemble tracking with convolutional neural networks. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.63"
+      },
+      {
+        "key": "5_CR11",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "749",
+        "DOI": "10.1007/978-3-319-46448-0_45",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "D Held",
+        "year": "2016",
+        "unstructured": "Held, D., Thrun, S., Savarese, S.: Learning to track at 100 FPS with deep regression networks. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9905, pp. 749–765. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46448-0_45"
+      },
+      {
+        "key": "5_CR12",
+        "unstructured": "Ilyas, A., Engstrom, L., Athalye, A., Lin, J.: Black-box adversarial attacks with limited queries and information. arXiv preprint: 1804.08598 (2018)"
+      },
+      {
+        "key": "5_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jung, I., Son, J., Baek, M., Han, B.: Real-time mdnet. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01225-0_6"
+      },
+      {
+        "key": "5_CR14",
+        "unstructured": "Kristan, M., et al.: The sixth visual object tracking vot2018 challenge results. In: ECCV Workshop (2018)"
+      },
+      {
+        "key": "5_CR15",
+        "unstructured": "Kristan, M., et al.: The visual object tracking vot2016 challenge results. In: ECCV Workshop (2016)"
+      },
+      {
+        "key": "5_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kurakin, A., Goodfellow, I., Bengio, S.: Adversarial examples in the physical world. In: ICLR (2017)",
+        "DOI": "10.1201/9781351251389-8"
+      },
+      {
+        "key": "5_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Wu, W., Wang, Q., Zhang, F., Xing, J., Yan, J.: Siamrpn++: evolution of siamese visual tracking with very deep networks. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "5_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Yan, J., Wu, W., Zhu, Z., Hu, X.: High performance visual tracking with siamese region proposal network. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "5_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, F., Tian, C., Zuo, W., Zhang, L., Yang, M.H.: Learning spatial-temporal regularized correlation filters for visual tracking. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "5_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liao, F., Liang, M., Dong, Y., Pang, T., Hu, X., Zhu, J.: Defense against adversarial attacks using high-level representation guided denoiser. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00191"
+      },
+      {
+        "key": "5_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu, X., Ma, C., Ni, B., Yang, X., Reid, I., Yang, M.H.: Deep regression tracking with shrinkage loss. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01264-9_22"
+      },
+      {
+        "key": "5_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu, X., Wang, W., Ma, C., Shen, J., Shao, L., Porikli, F.: See more, know more: unsupervised video object segmentation with co-attention siamese networks. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00374"
+      },
+      {
+        "key": "5_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, C., Huang, J.B., Yang, X., Yang, M.H.: Hierarchical convolutional features for visual tracking. In: ICCV (2015)",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "5_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moosavi-Dezfooli, S.M., Fawzi, A., Fawzi, O., Frossard, P.: Universal adversarial perturbations. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.17"
+      },
+      {
+        "key": "5_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moosavi-Dezfooli, S.M., Fawzi, A., Frossard, P.: Deepfool: a simple and accurate method to fool deep neural networks. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.282"
+      },
+      {
+        "key": "5_CR26",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.1007/978-3-319-46448-0_27",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "M Mueller",
+        "year": "2016",
+        "unstructured": "Mueller, M., Smith, N., Ghanem, B.: A benchmark and simulator for UAV tracking. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9905, pp. 445–461. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "5_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nam, H., Han, B.: Learning multi-domain convolutional neural networks for visual tracking. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "5_CR28",
+        "unstructured": "Pu, S., Song, Y., Ma, C., Zhang, H., Yang, M.H.: Deep attentive tracking via reciprocative learning. In: NeurIPS (2018)"
+      },
+      {
+        "key": "5_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Qi, Y., et al.: Hedged deep tracking. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "5_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: towards real-time object detection with region proposal networks. TPAMI (2016)",
+        "DOI": "10.1109/TPAMI.2016.2577031"
+      },
+      {
+        "key": "5_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, Y., Ma, C., Gong, L., Zhang, J., Lau, R.W., Yang, M.H.: CREST: convolutional residual learning for visual tracking. In: ICCV (2017)",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "5_CR32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, Y., et al.: VITAL: visual tracking via adversarial learning. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00937"
+      },
+      {
+        "key": "5_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, B., Tsai, N.H., Liu, F., Yu, R., Su, H.: Adversarial defense by stratified convolutional sparse coding. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.01171"
+      },
+      {
+        "key": "5_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, Y., Sun, C., Wang, D., He, Y., Lu, H.: Roi pooled correlation filters for visual tracking. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00593"
+      },
+      {
+        "key": "5_CR35",
+        "unstructured": "Szegedy, C., et al.: Intriguing properties of neural networks. In: ICLR (2014)"
+      },
+      {
+        "key": "5_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Valmadre, J., Bertinetto, L., Henriques, J., Vedaldi, A., Torr, P.H.: End-to-end representation learning for correlation filter based tracking. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "5_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, L., Ouyang, W., Wang, X., Lu, H.: Visual tracking with fully convolutional networks. In: ICCV (2015)",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "5_CR38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, N., Song, Y., Ma, C., Zhou, W., Liu, W., Li, H.: Unsupervised deep tracking. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00140"
+      },
+      {
+        "key": "5_CR39",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wang, N., Zhou, W., Song, Y., Ma, C., Liu, W., Li, H.: Unsupervised deep representation learning for real-time tracking. IJCV (2020). https://doi.org/10.1007/s11263-020-01357-4",
+        "DOI": "10.1007/s11263-020-01357-4"
+      },
+      {
+        "key": "5_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wiyatno, R.R., Xu, A.: Physical adversarial textures that fool visual object tracking. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00492"
+      },
+      {
+        "key": "5_CR41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Y., Lim, J., Yang, M.H.: Object tracking benchmark. TPAMI (2015)",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "5_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiao, C., Deng, R., Li, B., Yu, F., Liu, M., Song, D.: Characterizing adversarial examples based on spatial consistency information for semantic segmentation. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01249-6_14"
+      },
+      {
+        "key": "5_CR43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, C., Wang, J., Zhang, Z., Zhou, Y., Xie, L., Yuille, A.: Adversarial examples for semantic segmentation and object detection. In: ICCV (2017)",
+        "DOI": "10.1109/ICCV.2017.153"
+      },
+      {
+        "key": "5_CR44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, C., Wu, Y., Maaten, L.V.d., Yuille, A.L., He, K.: Feature denoising for improving adversarial robustness. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00059"
+      },
+      {
+        "key": "5_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, T., Xu, C., Yang, M.H.: Multi-task correlation particle filter for robust object tracking. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.512"
+      },
+      {
+        "key": "5_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Peng, H.: Deeper and wider siamese networks for real-time visual tracking. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "5_CR47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, Z., Wang, Q., Li, B., Wu, W., Yan, J., Hu, W.: Distractor-aware siamese networks for visual object tracking. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01240-3_7"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2020"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-58529-7_5",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          12
+        ]
+      ],
+      "date-time": "2024-11-12T00:29:58Z",
+      "timestamp": 1731371398000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-030-58529-7_5"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783030585280",
+      "9783030585297"
+    ],
+    "references-count": 47,
+    "URL": "https://doi.org/10.1007/978-3-030-58529-7_5",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "13 November 2020",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ECCV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "European Conference on Computer Vision",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Glasgow",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "United Kingdom",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2020",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "23 August 2020",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "28 August 2020",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "16",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "eccv2020",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://eccv2020.eu/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Double-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "OpenReview",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "5025",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "1360",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "0",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "27% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "7",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Yes",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "The conference was held virtually due to the COVID-19 pandemic. From the ECCV Workshops 249 full papers, 18 short papers, and 21 further contributions were published out of a total of 467 submissions.",
+        "order": 10,
+        "name": "additional_info_on_review_process",
+        "label": "Additional Info on Review Process",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      }
+    ]
+  }
+}

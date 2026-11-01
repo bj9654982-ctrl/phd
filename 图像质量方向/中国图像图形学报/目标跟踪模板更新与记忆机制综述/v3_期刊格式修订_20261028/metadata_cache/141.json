@@ -1,0 +1,574 @@
+{
+  "number": 141,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Distractor-Aware Fast Tracking via Dynamic Convolutions and MOT Philosophy",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2026-03-25T06:13:24Z",
+      "timestamp": 1774419204356,
+      "version": "3.50.1"
+    },
+    "reference-count": 47,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100011222",
+        "name": "National Laboratory of Pattern Recognition",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100011222",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr46437.2021.00108",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2021-11-02T21:56:02Z",
+      "timestamp": 1635890162000
+    },
+    "page": "1024-1033",
+    "source": "Crossref",
+    "is-referenced-by-count": 33,
+    "title": [
+      "Distractor-Aware Fast Tracking via Dynamic Convolutions and MOT Philosophy"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Zikai",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Guangxi Normal University,Guangxi Key Lab of Multi-Source Information Mining &#x0026; Security"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Bineng",
+        "family": "Zhong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Guangxi Normal University,Guangxi Key Lab of Multi-Source Information Mining &#x0026; Security"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shengping",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhenjun",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Guangxi Normal University,Guangxi Key Lab of Multi-Source Information Mining &#x0026; Security"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xin",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing Seetatech Technology"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Zhaoxiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CAS &#x0026; University of Chinese Academy of Sciences &#x0026; Centre for Artificial Intelligence and Robotics, HKISI_CAS,Institute of Automation"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00255"
+      },
+      {
+        "key": "ref38",
+        "first-page": "1305",
+        "article-title": "Condconv: Conditionally parameterized convolutions for efficient inference",
+        "author": "yang",
+        "year": "2019",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Solov2: Dynamic, faster and stronger",
+        "author": "wang",
+        "year": "2020"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "first-page": "692",
+        "DOI": "10.1007/978-3-030-01219-9_41",
+        "article-title": "Long-term tracking in the wild: A benchmark",
+        "author": "valmadre",
+        "year": "2018",
+        "journal-title": "ECCV (3) volume 11207 of Lecture Notes in Computer Science"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2020.3032166"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00247"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.360"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Towards real-time multi-object tracking",
+        "author": "wang",
+        "year": "2019"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "ref40",
+        "article-title": "A simple baseline for multi-object tracking",
+        "author": "zhang",
+        "year": "2020"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00410"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6758"
+      },
+      {
+        "key": "ref13",
+        "first-page": "667",
+        "article-title": "Dynamic filter networks",
+        "author": "jia",
+        "year": "2016",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1007/978-3-030-01225-0_6",
+        "article-title": "Real-time mdnet",
+        "author": "jung",
+        "year": "2018",
+        "journal-title": "ECCV (4) volume 11208 of Lecture Notes in Computer Science"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-68279-0_2"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.106"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.789"
+      },
+      {
+        "key": "ref4",
+        "first-page": "6297",
+        "article-title": "High-performance longterm tracking with meta-updater",
+        "author": "dai",
+        "year": "2020",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-030-58452-8_17",
+        "article-title": "Conditional convolutions for instance segmentation",
+        "author": "tian",
+        "year": "2020"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206631"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2019.2904789"
+      },
+      {
+        "key": "ref1",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV Workshops (2) volume 9914 of Lecture Notes in Computer Science"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2020.3004267"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Performance evaluation methodology for long-term single-object tracking",
+        "author": "luke?i?",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Cybernetics"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2018.2885238"
+      },
+      {
+        "key": "ref22",
+        "first-page": "2206",
+        "article-title": "Leonardis A. The seventh visual object tracking VOT2019 challenge results",
+        "author": "kristan",
+        "year": "2019",
+        "journal-title": "ICCV Workshops"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "first-page": "103",
+        "DOI": "10.1007/978-3-030-01240-3_7",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV (9) volume 11213 of Lecture Notes in Computer Science"
+      },
+      {
+        "key": "ref21",
+        "first-page": "3",
+        "article-title": "Leonardis A. The sixth visual object tracking vot2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "ECCV Workshops (1) volume 11129 of Lecture Notes in Computer Science"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref24",
+        "first-page": "2579",
+        "article-title": "Visualizing data using t-sne",
+        "volume": "9",
+        "author": "van der maaten",
+        "year": "2008",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Learning regression and verification networks for long-term visual tracking",
+        "author": "zhang",
+        "year": "2018"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.357"
+      },
+      {
+        "key": "ref26",
+        "first-page": "629",
+        "article-title": "Long-term visual object tracking benchmark",
+        "author": "moudgil",
+        "year": "2018",
+        "journal-title": "ACCV (2) volume 11362 of Lecture Notes in Computer Science"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "first-page": "771",
+        "DOI": "10.1007/978-3-030-58589-1_46",
+        "article-title": "Ocean: Object-aware anchor-free tracking",
+        "author": "zhang",
+        "year": "2020",
+        "journal-title": "Computer Vision - ECCV 2020-16th European Conference"
+      },
+      {
+        "key": "ref25",
+        "article-title": "MOT16: A benchmark for multiobject tracking",
+        "author": "milan",
+        "year": "2016"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            20
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9577055/9577056/09578399.pdf?arnumber=9578399",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2022-08-02T23:18:20Z",
+      "timestamp": 1659482300000
+    },
+    "score": 73.90352,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9578399/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1109/cvpr46437.2021.00108",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    }
+  }
+}

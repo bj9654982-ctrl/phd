@@ -1,0 +1,43 @@
+{
+  "number": 259,
+  "title": "Learning To Adversarially Blur Visual Object Tracking",
+  "year": 2021,
+  "authors": [
+    "Qing Guo",
+    "Ziyi Cheng",
+    "Felix Juefei-Xu",
+    "Lei Ma",
+    "Xiaofei Xie",
+    "Yang Liu",
+    "Jianjun Zhao"
+  ],
+  "venue": "ICCV",
+  "category": "对抗扰动与可靠性诊断",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.pdf",
+      "bytes": 2633975,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\259_2021_Learning_To_Adversarially_Blur_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.pdf",
+  "bytes": 2633975,
+  "sha256": "5a291e678604c0ef065cd713bf7755daf56a3bba727bba6a497c3f60f70ef17f",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning To Adversarially Blur Visual Object Tracking",
+  "first_page_text": "Learning to Adversarially Blur Visual Object Tracking\nQing Guo1,5∗, Ziyi Cheng2*, Felix Juefei-Xu3, Lei Ma4†, Xiaofei Xie5†, Yang Liu5,6, Jianjun Zhao2\n1 College of Intelligence and Computing, Tianjin University, China,\n2 Kyushu University, Japan,\n3 Alibaba Group, USA,\n4 University of Alberta, Canada,\n5 Nanyang Technological University, Singapore,\n6 Zhejiang Sci-Tech University, China\nAbstract\nMotion blur caused by the moving of the object or cam-\nera during the exposure can be a key challenge for visual\nobject tracking, affecting tracking accuracy significantly. In\nthis work, we explore the robustness of visual object track-\ners against motion blur from a new angle, i.e., adversarial\nblur attack (ABA). Our main objective is to online transfer\ninput frames to their natural motion-blurred counterparts\nwhile misleading the state-of-the-art trackers during the\ntracking process. To this end, we first design the motion\nblur synthesizing method for visual tracking based on the\ngeneration principle of motion blur, considering the mo-\ntion information and the light accumulation process. With\nthis synthetic method, we propose optimization-based ABA\n(OP-ABA) by iteratively optimizing an adversarial objective\nfunction against the tracking w.r.t. the motion and light ac-\ncumulation parameters. The OP-ABA is able to produce\nnatural adversarial examples but the iteration can cause\nheavy time cost, making it unsuitable for attacking real-\ntime trackers. To alleviate this issue, we further propose\none-step ABA (OS-ABA) where we design and train a joint\nadversarial motion and accumulation predictive network\n(JAMANet) with the guidance of OP-ABA, which is able to\nefficiently estimate the adversarial motion and accumula-\ntion parameters in a one-step way. The experiments on four\npopular datasets (e.g., OTB100, VOT2018, UAV123, and\nLaSOT) demonstrate that our methods are able to cause\nsignificant accuracy drops on four state-of-the-art trackers\nwith high transferability. Please find the source code at\nhttps://github.com/tsingqguo/ABA\n1. Introduction\nVisual object tracking (VOT) has played an integral part\nin multifarious computer vision applications nowadays rang-\n*Qing Guo and Ziyi Cheng are co-first authors and contribute equally.\n†Lei Ma and Xiaofei Xie are corresponding authors (ma.lei@acm.org,\nxfxie@ntu.edu.sg).\nAdv. Blur Attack\nDeployed Tracker\nt th frame\n(t­1) th frame\nAdversarially blurred \nt th frame\nPrediction results on the original and \nadversarially blurred frames:\n...\nLive video\nFigure 1: An example of our adversarial blur attack against a deployed\ntracker, e.g., SiamRPN++ [30]. Two adjacent frames are fed to our attack\nand it generates an adversarially blurred frame that misleads the tracker to\noutput an inaccurate response map.\ning from augmented reality [1, 46] to video surveillance\n[47], from human-computer interaction [36, 32] to traffic\ncontrol [49], etc. Since the infusion of deep learning, VOT\nhas become more powerful in terms of both algorithmic\nperformance and efficiency [20], leading to the more per-\nvasive deployment of VOT-enabled on-device applications.\nHowever, the VOT can still exhibit robustness brittleness\nwhen faced with less ideal video feed. Among many known\ndegrading factors such as illumination variations, noise vari-\nations, etc., motion blur is perhaps one of the most important\nadverse factors for visual object tracking, which is caused\nby the moving of the object or camera during the exposure,\nand can severely jeopardize tracking accuracy [18]. Most of\nthe existing benchmarks [28, 50, 35] only indicate whether\na video or a frame contains motion blur or not and this piece\nof information is still insufficient to analyze the influence\nfrom motion blur by means of controlling all the variables,\ne.g., eliminating other possible interference from other degra-\ndation modes, which may lead to incomplete conclusions\nregarding the effects of motion blur in these benchmarks.\nMoreover, the currently limited datasets, albeit being\nlarge-scale, cannot well cover the diversity of motion blur\nin the real world because motion blur is caused by camera\nand object moving in the scene which is both dynamic and\nunknown. Existing motion blur generation methods cannot\n10839\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

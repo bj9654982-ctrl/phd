@@ -1,0 +1,40 @@
+{
+  "number": 268,
+  "title": "Memory Selection Network for Video Propagation",
+  "year": 2020,
+  "authors": [
+    "Ruizheng Wu",
+    "Huaijia Lin",
+    "Xiaojuan Qi",
+    "Jiaya Jia"
+  ],
+  "venue": "ECCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2319_ECCV_2020_paper.php",
+  "doi": "10.1007/978-3-030-58555-6_11",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600171.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600171.pdf",
+      "bytes": 1406510,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\268_2020_Memory_Selection_Network_for_Video_Propagation.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600171.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600171.pdf",
+  "bytes": 1406510,
+  "sha256": "1e7b8e8ddff3fcb7c4d1941716c482ff3a10bf8e4f3816afaf8ece9c1f30f7ac",
+  "version": "会议官方开放版本",
+  "pages": 16,
+  "pdf_title": "",
+  "first_page_text": "Memory Selection Network for\nVideo Propagation\nRuizheng Wu1⋆, Huaijia Lin1⋆, Xiaojuan Qi2, and Jiaya Jia1,3\n1 The Chinese University of Hong Kong\n{rzwu, linhj, leojia}@cse.cuhk.edu.hk\n2 University of Hong Kong\nxjqi@eee.hku.hk\n3 SmartMore\nAbstract. Video propagation is a fundamental problem in video pro-\ncessing where guidance frame predictions are propagated to guide predic-\ntions of the target frame. Previous research mainly treats the previous\nadjacent frame as guidance, which, however, could make the propaga-\ntion vulnerable to occlusion, large motion and inaccurate information\nin the previous adjacent frame. To tackle this challenge, we propose a\nmemory selection network, which learns to select suitable guidance from\nall previous frames for eﬀective and robust propagation. Experimental\nresults on video object segmentation and video colorization tasks show\nthat our method consistently improves performance and can robustly\nhandle challenging scenarios in video propagation.\n1\nIntroduction\nVideo propagation is a fundamental technique in video processing tasks, includ-\ning video colorization [18, 46, 47], video semantic segmentation [27, 14], video\nobject segmentation [29, 5, 20, 21, 16], to name a few. It aims at propagating in-\nformation from an annotated or intermediate guidance frame to the entire video.\nPrior work [29, 5, 20, 21, 16] mainly focused on propagating information in\na frame-by-frame fashion as illustrated in Figure 1(a) where adjacent frames\nare utilized to update the target one. This propagation pipeline is fragile due to\naccumulation of errors, since inaccurate predictions in previous frames inevitably\ninﬂuence target frame prediction. The inﬂuence is magniﬁed especially when the\ntarget object disappears or is misclassiﬁed.\nTo address the error accumulation caused by frame-by-frame propagation,\none feasible solution is to utilize the information from all previous frames to\npropagate them to the current one, as illustrated in Figure 1(b). Albeit reason-\nable, these frames contain a lot of redundant and cluttered information, and the\nproblem becomes more serious as the number of previous frames increases. Thus,\nselecting the best frame for propagating information eﬀectively and robustly in\nvideos is a critical issue.\n⋆Equal Contribution.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,42 @@
+{
+  "number": 11,
+  "title": "MUlti-Store Tracker (MUSTer): A Cognitive Psychology Inspired Approach to Object Tracking",
+  "year": 2015,
+  "authors": [
+    "Zhibin Hong",
+    "Zhe Chen",
+    "Chaohui Wang",
+    "Xue Mei",
+    "Danil Prokhorov",
+    "Dacheng Tao"
+  ],
+  "venue": "CVPR",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2015/html/Hong_MUlti-Store_Tracker_MUSTer_2015_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Hong_MUlti-Store_Tracker_MUSTer_2015_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Hong_MUlti-Store_Tracker_MUSTer_2015_CVPR_paper.pdf",
+      "bytes": 1052091,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\011_2015_MUlti-Store_Tracker_(MUSTer)__A_Cognitive_Psychology_Inspired_Approach_to_Obje.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Hong_MUlti-Store_Tracker_MUSTer_2015_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Hong_MUlti-Store_Tracker_MUSTer_2015_CVPR_paper.pdf",
+  "bytes": 1052091,
+  "sha256": "7c98c1b4323cf5bfd692a1765749c39d5c8e127650cb64c69350468da10c8bce",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "MUlti-Store Tracker (MUSTer): A Cognitive Psychology Inspired Approach to Object Tracking",
+  "first_page_text": "MUlti-Store Tracker (MUSTer): a Cognitive Psychology Inspired Approach to\nObject Tracking\nZhibin Hong1, Zhe Chen1, Chaohui Wang2, Xue Mei3, Danil Prokhorov3, and Dacheng Tao1\n1Centre for Quantum Computation and Intelligent Systems, Faculty of Engineering and Information Technology,\nUniversity of Technology, Sydney, NSW 2007, Australia\n2Laboratoire d’Informatique Gaspard Monge, UMR CNRS 8049, Universit´e Paris-Est, 77454 Marne-la-Vall´ee, France\n3 Toyota Research Institute, North America, Ann Arbor, MI 48105, USA\n{zhibin.hong@student., zhe.chen@student., dacheng.tao@}uts.edu.au, chaohui.wang@u-pem.fr,\n{xue.mei, danil.prokhorov}@tema.toyota.com\nAbstract\nVariations in the appearance of a tracked object, such\nas changes in geometry/photometry, camera viewpoint, il-\nlumination, or partial occlusion, pose a major challenge to\nobject tracking. Here, we adopt cognitive psychology prin-\nciples to design a ﬂexible representation that can adapt to\nchanges in object appearance during tracking. Inspired by\nthe well-known Atkinson-Shiffrin Memory Model, we pro-\npose MUlti-Store Tracker (MUSTer), a dual-component ap-\nproach consisting of short- and long-term memory stores\nto process target appearance memories. A powerful and\nefﬁcient Integrated Correlation Filter (ICF) is employed\nin the short-term store for short-term tracking. The inte-\ngrated long-term component, which is based on keypoint\nmatching-tracking and RANSAC estimation, can interac-\nt with the long-term memory and provide additional infor-\nmation for output control. MUSTer was extensively evalu-\nated on the CVPR2013 Online Object Tracking Benchmark\n(OOTB) and ALOV++ datasets. The experimental results\ndemonstrated the superior performance of MUSTer in com-\nparison with other state-of-art trackers.\n1. Introduction\nObject tracking is relatively easy for humans. Humans\nrespond quickly to visual information by recognizing tem-\nporal consistency and memorizing useful visual features to\nrecover from tracking failures when the target leaves ﬁeld-\nof-view. Memory is one of the most powerful, but least well\nunderstood, functions of the human brain. With the sophis-\nticated memory system, humans are capable of adapting to\ncomplex environments and behaving stably and consistent-\nly when facing temporal issues. We hypothesize that the\nprinciples of biological memory can be exploited to design\nEnvironmental \nInput Signals\nAuditory \nInformation\nVisual \nInformation\nHaptic \nInformation\nSensory \nRegister\nShort-term \nStore\nLong-term \nStore\nResponse \nOutput\nRemembering\nForgetting\nRehearsal\nCoding\nDecision\nRetrieval\nFigure 1. The Atkinson-Shiffrin memory model represented by an\nillustrative neural network. Nodes and their connections inside the\nshort- and long-term stores represent the possible structure of the\nneural network inside the human brain.\nsolutions to tracking problems, which can be regarded as a\ntime-series motion estimation problem.\nAlthough how human memory works is still not fully un-\nderstood, several memory models have been proposed. We\nfocus on the well-known Atkinson-Shiffrin Memory Mod-\nel (ASMM, also known as the multi-store model, outlined\nin Figure 1), which was proposed by Atkinson and Shiffrin\nin 1968 [1] to explain the basic structure and function of\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,907 @@
+{
+  "number": 132,
+  "original_doi": "10.1007/978-3-030-58565-5_23",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "CLNet: A Compact Latent Network for Fast Adjusting Siamese Trackers",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T23:32:04Z",
+      "timestamp": 1792798324974,
+      "version": "4.5.0"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 69,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783030585648",
+        "type": "print"
+      },
+      {
+        "value": "9783030585655",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2020-01-01T00:00:00Z",
+          "timestamp": 1577836800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-030-58565-5_23",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2020-11-11T12:03:19Z",
+      "timestamp": 1605096199000
+    },
+    "page": "378-395",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 78,
+    "title": [
+      "CLNet: A Compact Latent Network for Fast Adjusting Siamese Trackers"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1613-9288",
+        "authenticated-orcid": false,
+        "given": "Xingping",
+        "family": "Dong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1883-2086",
+        "authenticated-orcid": false,
+        "given": "Jianbing",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8264-6117",
+        "authenticated-orcid": false,
+        "given": "Ling",
+        "family": "Shao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1520-4466",
+        "authenticated-orcid": false,
+        "given": "Fatih",
+        "family": "Porikli",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "23_CR1",
+        "unstructured": "Andrychowicz, M., et al.: Learning to learn by gradient descent by gradient descent. In: NeurIPS (2016)"
+      },
+      {
+        "key": "23_CR2",
+        "unstructured": "Ba, J., Hinton, G.E., Mnih, V., Leibo, J.Z., Ionescu, C.: Using fast weights to attend to the recent past. In: NeurIPS (2016)"
+      },
+      {
+        "key": "23_CR3",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "850",
+        "DOI": "10.1007/978-3-319-48881-3_56",
+        "volume-title": "Computer Vision – ECCV 2016 Workshops",
+        "author": "L Bertinetto",
+        "year": "2016",
+        "unstructured": "Bertinetto, L., Valmadre, J., Henriques, J.F., Vedaldi, A., Torr, P.H.S.: Fully-convolutional siamese networks for object tracking. In: Hua, G., Jégou, H. (eds.) ECCV 2016. LNCS, vol. 9914, pp. 850–865. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "23_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Choi, J., Kwon, J., Lee, K.M.: Deep meta learning for real-time target-aware visual tracking. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00100"
+      },
+      {
+        "key": "23_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Bhat, G., Khan, F.S., Felsberg, M., et al.: Eco: efficient convolution operators for tracking. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "23_CR6",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "472",
+        "DOI": "10.1007/978-3-319-46454-1_29",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "M Danelljan",
+        "year": "2016",
+        "unstructured": "Danelljan, M., Robinson, A., Shahbaz Khan, F., Felsberg, M.: Beyond correlation filters: learning continuous convolution operators for visual tracking. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9909, pp. 472–488. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "key": "23_CR7",
+        "first-page": "763",
+        "volume": "19",
+        "author": "X Dong",
+        "year": "2017",
+        "unstructured": "Dong, X., Shen, J., Yu, D., Wang, W., Liu, J., Huang, H.: Occlusion-aware real-time object tracking. IEEE TMM 19, 763–771 (2017)",
+        "journal-title": "IEEE TMM"
+      },
+      {
+        "key": "23_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong, X., Shen, J.: Triplet loss in Siamese network for object tracking. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01261-8_28"
+      },
+      {
+        "key": "23_CR9",
+        "first-page": "516",
+        "volume": "25",
+        "author": "X Dong",
+        "year": "2015",
+        "unstructured": "Dong, X., Shen, J., Shao, L., Van Gool, L.: Sub-Markov random walk for image segmentation. IEEE TIP 25, 516–527 (2015)",
+        "journal-title": "IEEE TIP"
+      },
+      {
+        "key": "23_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dong, X., Shen, J., Wang, W., Liu, Y., Shao, L., Porikli, F.: Hyperparameter optimization for tracking with continuous deep q-learning. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00061"
+      },
+      {
+        "key": "23_CR11",
+        "unstructured": "Dong, X., Shen, J., Wang, W., Shao, L., Ling, H., Porikli, F.: Dynamical hyperparameter optimization via deep reinforcement learning in tracking. IEEE TPAMI (2019)"
+      },
+      {
+        "key": "23_CR12",
+        "first-page": "3516",
+        "volume": "28",
+        "author": "X Dong",
+        "year": "2019",
+        "unstructured": "Dong, X., Shen, J., Wu, D., Guo, K., Jin, X., Porikli, F.: Quadruplet network with one-shot learning for fast visual object tracking. IEEE TIP 28, 3516–3527 (2019)",
+        "journal-title": "IEEE TIP"
+      },
+      {
+        "key": "23_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, H., et al.: Lasot: a high-quality benchmark for large-scale single object tracking. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "23_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, H., Ling, H.: Siamese cascaded region proposal networks for real-time visual tracking. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "23_CR15",
+        "unstructured": "Finn, C., Abbeel, P., Levine, S.: Model-agnostic meta-learning for fast adaptation of deep networks. In: ICML (2017)"
+      },
+      {
+        "key": "23_CR16",
+        "unstructured": "Finn, C., Xu, K., Levine, S.: Probabilistic model-agnostic meta-learning. In: NeurIPS (2018)"
+      },
+      {
+        "key": "23_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galoogahi, H.K., Fagg, A., Huang, C., Ramanan, D., Lucey, S.: Need for speed: A benchmark for higher frame rate object tracking. In: ICCV (2017)",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "23_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, Q., Feng, W., Zhou, C., Huang, R., Wan, L., Wang, S.: Learning dynamic siamese network for visual object tracking. In: ICCV (2017)",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "23_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, A., Luo, C., Tian, X., Zeng, W.: A twofold siamese network for real-time object tracking. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00508"
+      },
+      {
+        "key": "23_CR20",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "749",
+        "DOI": "10.1007/978-3-319-46448-0_45",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "D Held",
+        "year": "2016",
+        "unstructured": "Held, D., Thrun, S., Savarese, S.: Learning to track at 100 FPS with deep regression networks. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9905, pp. 749–765. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46448-0_45"
+      },
+      {
+        "key": "23_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "volume": "37",
+        "author": "JF Henriques",
+        "year": "2015",
+        "unstructured": "Henriques, J.F., Rui, C., Martins, P., Batista, J.: High-speed tracking with kernelized correlation filters. IEEE TPAMI 37, 583–596 (2015)",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "23_CR22",
+        "unstructured": "Hinton, G.E., Plaut, D.C.: Using fast weights to deblur old memories. In: CCSS (1987)"
+      },
+      {
+        "key": "23_CR23",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "87",
+        "DOI": "10.1007/3-540-44668-0_13",
+        "volume-title": "Artificial Neural Networks—ICANN 2001",
+        "author": "S Hochreiter",
+        "year": "2001",
+        "unstructured": "Hochreiter, S., Younger, A.S., Conwell, P.R.: Learning to learn using gradient descent. In: Dorffner, G., Bischof, H., Hornik, K. (eds.) ICANN 2001. LNCS, vol. 2130, pp. 87–94. Springer, Heidelberg (2001). https://doi.org/10.1007/3-540-44668-0_13"
+      },
+      {
+        "key": "23_CR24",
+        "unstructured": "Hong, S., You, T., Kwak, S., Han, B.: Online tracking by learning discriminative saliency map with convolutional neural network. In: ICML (2015)"
+      },
+      {
+        "key": "23_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, C., Lucey, S., Ramanan, D.: Learning policies for adaptive tracking with deep feature cascades. In: ICCV (2017)",
+        "DOI": "10.1109/ICCV.2017.21"
+      },
+      {
+        "key": "23_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khan, S., Hayat, M., Zamir, S.W., Shen, J., Shao, L.: Striking the right balance with uncertainty. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00019"
+      },
+      {
+        "key": "23_CR27",
+        "unstructured": "Koch, G., Zemel, R., Salakhutdinov, R.: Siamese neural networks for one-shot image recognition. In: ICML deep learning workshop (2015)"
+      },
+      {
+        "key": "23_CR28",
+        "unstructured": "Kristan, M., et al.: The seventh visual object tracking vot2019 challenge results (2019)"
+      },
+      {
+        "key": "23_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "2137",
+        "DOI": "10.1109/TPAMI.2016.2516982",
+        "volume": "38",
+        "author": "M Kristan",
+        "year": "2016",
+        "unstructured": "Kristan, M., et al.: A novel performance evaluation methodology for single-target trackers. IEEE TPAMI 38, 2137–2155 (2016)",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "23_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Wu, W., Wang, Q., Zhang, F., Xing, J., Yan, J.: Siamrpn++: evolution of siamese visual tracking with very deep networks. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "23_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Yan, J., Wu, W., Zhu, Z., Hu, X.: High performance visual tracking with siamese region proposal network. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "23_CR32",
+        "unstructured": "Li, H., Dong, W., Mei, X., Ma, C., Huang, F., Hu, B.G.: Lgm-net: learning to generate matching networks for few-shot learning. In: ICML (2019)"
+      },
+      {
+        "key": "23_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, P., Chen, B., Ouyang, W., Wang, D., Yang, X., Lu, H.: Gradnet: gradient-guided network for visual object tracking. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00626"
+      },
+      {
+        "key": "23_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, S., Yeung, D.Y.: Visual object tracking for unmanned aerial vehicles: a benchmark and new motion models. In: AAAI (2017)",
+        "DOI": "10.1609/aaai.v31i1.11205"
+      },
+      {
+        "key": "23_CR35",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "740",
+        "DOI": "10.1007/978-3-319-10602-1_48",
+        "volume-title": "Computer Vision – ECCV 2014",
+        "author": "TY Lin",
+        "year": "2014",
+        "unstructured": "Lin, T.Y., et al.: Microsoft COCO: common objects in context. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014. LNCS, vol. 8693, pp. 740–755. Springer, Cham (2014). https://doi.org/10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "23_CR36",
+        "unstructured": "Liu, Y., Dong, X., Lu, X., Khan, F.S., Shen, J., Hoi, S.: Teacher-Students Knowledge Distillation for Siamese Trackers. arXiv (2019)"
+      },
+      {
+        "key": "23_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu, X., Ma, C., Ni, B., Yang, X., Reid, I., Yang, M.H.: Deep regression tracking with shrinkage loss. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01264-9_22"
+      },
+      {
+        "key": "23_CR38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu, X., Wang, W., Shen, J., Tai, Y.W., Crandall, D.J., Hoi, S.C.: Learning video object segmentation from unlabeled videos. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00898"
+      },
+      {
+        "key": "23_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, B., Hu, H., Shen, J., Zhang, Y., Porikli, F.: Linearization to nonlinear learning for visual tracking. In: ICCV (2015)",
+        "DOI": "10.1109/ICCV.2015.500"
+      },
+      {
+        "key": "23_CR40",
+        "first-page": "1818",
+        "volume": "17",
+        "author": "B Ma",
+        "year": "2015",
+        "unstructured": "Ma, B., Shen, J., Liu, Y., Hu, H., Shao, L., Li, X.: Visual tracking using strong classifier and structural local sparse descriptors. IEEE TMM 17, 1818–1828 (2015)",
+        "journal-title": "IEEE TMM"
+      },
+      {
+        "key": "23_CR41",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.1007/978-3-319-46448-0_27",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "M Mueller",
+        "year": "2016",
+        "unstructured": "Mueller, M., Smith, N., Ghanem, B.: A benchmark and simulator for UAV tracking. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9905, pp. 445–461. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "23_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nam, H., Han, B.: Learning multi-domain convolutional neural networks for visual tracking. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "23_CR43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, E., Berg, A.C.: Meta-tracker: fast and robust online adaptation for visual object trackers. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01219-9_35"
+      },
+      {
+        "key": "23_CR44",
+        "unstructured": "Ravi, S., Larochelle, H.: Optimization as a model for few-shot learning. In: ICLR (2017)"
+      },
+      {
+        "key": "23_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Real, E., Shlens, J., Mazzocchi, S., Pan, X., Vanhoucke, V.: Youtube-boundingboxes: a large high-precision human-annotated data set for object detection in video. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.789"
+      },
+      {
+        "key": "23_CR46",
+        "unstructured": "Ren, S., He, K., Girshick, R., Sun, J.: Faster r-cnn: towards real-time object detection with region proposal networks. In: NeurIPS (2015)"
+      },
+      {
+        "key": "23_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "211",
+        "DOI": "10.1007/s11263-015-0816-y",
+        "volume": "115",
+        "author": "O Russakovsky",
+        "year": "2015",
+        "unstructured": "Russakovsky, O., et al.: ImageNet large scale visual recognition challenge. IJCV 115, 211–252 (2015). https://doi.org/10.1007/s11263-015-0816-y",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "23_CR48",
+        "unstructured": "Rusu, A.A., et al.: Meta-learning with latent embedding optimization. In: ICLR (2019)"
+      },
+      {
+        "key": "23_CR49",
+        "unstructured": "Santoro, A., Bartunov, S., Botvinick, M., Wierstra, D., Lillicrap, T.: Meta-learning with memory-augmented neural networks. In: ICML (2016)"
+      },
+      {
+        "key": "23_CR50",
+        "unstructured": "Schmidhuber, J.: Evolutionary principles in self-referential learning, or on learning how to learn: the meta-meta-... hook. Ph.D. thesis, Technische Universität München (1987)"
+      },
+      {
+        "key": "23_CR51",
+        "first-page": "3068",
+        "volume": "50",
+        "author": "J Shen",
+        "year": "2020",
+        "unstructured": "Shen, J., Tang, X., Dong, X., Shao, L.: Visual object tracking by hierarchical attention siamese network. IEEE TCYB 50, 3068–3080 (2020)",
+        "journal-title": "IEEE TCYB"
+      },
+      {
+        "key": "23_CR52",
+        "first-page": "162",
+        "volume": "19",
+        "author": "J Shen",
+        "year": "2017",
+        "unstructured": "Shen, J., Yu, D., Deng, L., Dong, X.: Fast online tracking with detection refinement. IEEE TITS 19, 162–173 (2017)",
+        "journal-title": "IEEE TITS"
+      },
+      {
+        "key": "23_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "1829",
+        "DOI": "10.1007/s11263-019-01288-9",
+        "volume": "128",
+        "author": "Z Shen",
+        "year": "2020",
+        "unstructured": "Shen, Z., Lai, W.S., Xu, T., Kautz, J., Yang, M.H.: Exploiting semantics for face image deblurring. IJCV 128, 1829–1846 (2020). https://doi.org/10.1007/s11263-019-01288-9",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "23_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shen, Z., et al.: Human-aware motion deblurring. In: ICCV (2019)",
+        "DOI": "10.1109/ICCV.2019.00567"
+      },
+      {
+        "key": "23_CR55",
+        "unstructured": "Snell, J., Swersky, K., Zemel, R.: Prototypical networks for few-shot learning. In: NeurIPS (2017)"
+      },
+      {
+        "key": "23_CR56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, Y., et al.: Vital: visual tracking via adversarial learning. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00937"
+      },
+      {
+        "key": "23_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/978-1-4615-5529-2_1",
+        "volume-title": "Learning to learn",
+        "author": "S Thrun",
+        "year": "1998",
+        "unstructured": "Thrun, S., Pratt, L.: Learning to learn: introduction and overview. In: Thrun, S., Pratt, L. (eds.) Learning to learn, pp. 3–17. Springer, Boston (1998). https://doi.org/10.1007/978-1-4615-5529-2_1"
+      },
+      {
+        "key": "23_CR58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Valmadre, J., Bertinetto, L., Henriques, J.F., Vedaldi, A., Torr, P.H.: End-to-end representation learning for correlation filter based tracking. In: CVPR (2017)",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "23_CR59",
+        "unstructured": "Vinyals, O., Blundell, C., Lillicrap, T., Wierstra, D., et al.: Matching networks for one shot learning. In: NeurIPS (2016)"
+      },
+      {
+        "key": "23_CR60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Q., Teng, Z., Xing, J., Gao, J., Hu, W., Maybank, S.: Learning attentions: residual attentional siamese network for high performance online visual tracking. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00510"
+      },
+      {
+        "key": "23_CR61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, W., Shen, J., Dong, X., Borji, A.: Salient object detection driven by fixation prediction. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00184"
+      },
+      {
+        "key": "23_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "1913",
+        "DOI": "10.1109/TPAMI.2019.2905607",
+        "volume": "42",
+        "author": "W Wang",
+        "year": "2019",
+        "unstructured": "Wang, W., Shen, J., Dong, X., Borji, A., Yang, R.: Inferring salient objects from human fixations. IEEE TPAMI 42, 1913–1927 (2019)",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "23_CR63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X., Li, C., Luo, B., Tang, J.: Sint++: robust visual tracking via adversarial positive instance generation. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00511"
+      },
+      {
+        "key": "23_CR64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, T., Chan, A.B.: Learning dynamic memory networks for object tracking. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01240-3_10"
+      },
+      {
+        "key": "23_CR65",
+        "unstructured": "Yi, W., Jongwoo, L., Yang, M.H.: Object tracking benchmark. IEEE TPAMI (2015)"
+      },
+      {
+        "key": "23_CR66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yin, J., Wang, W., Meng, Q., Yang, R., Shen, J.: A unified object motion and affinity model for online multi-object tracking. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00680"
+      },
+      {
+        "key": "23_CR67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Y., Wang, L., Qi, J., Wang, D., Feng, M., Lu, H.: Structured siamese network for real-time visual tracking. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01240-3_22"
+      },
+      {
+        "key": "23_CR68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Peng, H.: Deeper and wider siamese networks for real-time visual tracking. In: CVPR (2019)",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "23_CR69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, Z., Wang, Q., Li, B., Wu, W., Yan, J., Hu, W.: Distractor-aware siamese networks for visual object tracking. In: ECCV (2018)",
+        "DOI": "10.1007/978-3-030-01240-3_7"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2020"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-58565-5_23",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          11
+        ]
+      ],
+      "date-time": "2024-11-11T00:08:04Z",
+      "timestamp": 1731283684000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-030-58565-5_23"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783030585648",
+      "9783030585655"
+    ],
+    "references-count": 69,
+    "URL": "https://doi.org/10.1007/978-3-030-58565-5_23",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "12 November 2020",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ECCV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "European Conference on Computer Vision",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Glasgow",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "United Kingdom",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2020",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "23 August 2020",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "28 August 2020",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "16",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "eccv2020",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://eccv2020.eu/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Double-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "OpenReview",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "5025",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "1360",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "0",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "27% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "7",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Yes",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "The conference was held virtually due to the COVID-19 pandemic.",
+        "order": 10,
+        "name": "additional_info_on_review_process",
+        "label": "Additional Info on Review Process",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      }
+    ]
+  }
+}

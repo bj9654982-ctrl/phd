@@ -1,0 +1,40 @@
+{
+  "number": 251,
+  "title": "PURA: Parameter Update-Recovery Test-Time Adaption for RGB-T Tracking",
+  "year": 2025,
+  "authors": [
+    "Zekai Shao",
+    "Yufan Hu",
+    "Bin Fan",
+    "Hongmin Liu"
+  ],
+  "venue": "CVPR",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Shao_PURA_Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shao_PURA_Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shao_PURA_Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking_CVPR_2025_paper.pdf",
+      "bytes": 2066718,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\251_2025_PURA__Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shao_PURA_Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Shao_PURA_Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking_CVPR_2025_paper.pdf",
+  "bytes": 2066718,
+  "sha256": "04065cf3b40054f9ee29263f84873f4c4389ab722cadb32bd9fb90b30d5b0d31",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "PURA: Parameter Update-Recovery Test-Time Adaption for RGB-T Tracking",
+  "first_page_text": "PURA: Parameter Update-Recovery Test-Time Adaption for RGB-T Tracking\nZekai Shao*\nYufan Hu∗\nBin Fan\nHongmin Liu†\nSchool of Intelligence Science and Technology, University of Science and Technology Beijing\nmelan.shao@foxmail.com, huyufanqaixuan@gmail.com, bin.fan@ieee.org, hmliu 82@163.com\nAbstract\nMaintaining stable tracking of objects in domain shift\nscenarios is crucial for RGB-T tracking, prompting us to ex-\nplore the use of unlabeled test sample information for effec-\ntive online model adaptation. However, current Test-Time\nAdaptation (TTA) methods in RGB-T tracking dramatically\nchange the model’s internal parameters during long-term\nadaptation. At the same time, the gradient computations in-\nvolved in the optimization process impose a significant com-\nputational burden. To address these challenges, we propose\na Parameter Update-Recovery Adaptation (PURA) frame-\nwork based on parameter decomposition. Firstly, our fast\nparameter update strategy adjusts model parameters us-\ning statistical information from test samples without requir-\ning gradient calculations, ensuring consistency between the\nmodel and test data distribution. Secondly, our parameter\ndecomposition recovery employs orthogonal decomposition\nto identify the principal update direction and recover pa-\nrameters in this direction, aiding in the retention of crit-\nical knowledge. Finally, we leverage the information ob-\ntained from decomposition to provide feedback on the mo-\nmentum during the update phase, ensuring a stable updat-\ning process. Experimental results demonstrate that PURA\noutperforms current state-of-the-art methods across multi-\nple datasets, validating its effectiveness. The project page\nis at https://melantech.github.io/PURA.\n1. Introduction\nRGB-T tracking is an object-tracking method that combines\nRGB and thermal imaging information and is widely used\nin object tracking in complex environments.\nDuring the\ntracking process, due to the presence of different scenar-\nios (such as various backgrounds and light variations), the\nproblem of data distribution shift [9, 24, 36] is inevitably\nencountered during the testing process. However, the pa-\nrameters of traditional trackers are usually fixed during the\ninference stage. Moreover, the limitations of training data\n*Equal contribution\n†Corresponding author\nTracker\nInput\nFast Update\nParameter\nDecompsition\nGradual Recovery\n(a)\nTracker\nInput\nEntropy\nMinimization\nBack Propgation\nTeacher Tracker\nStudent Tracker\nConsistency \nRegulariztion\nInput\nAugmented \nInputs\nMoving Average\n(b)\n(c)\nFigure 1. Comparison between our proposed Parameter Update-\nRecovery Adaption (PURA) framework with existing test-time\nadaption methods. (a) Entropy minimization-based method. (b)\nConsistency regularization-based method.\n(c) Our proposed\nPURA framework.\nmake RGB-T trackers extremely prone to overfitting. These\nproblem gives rise to a crucial question: can the RGB-T\ntracker effectively utilize sample information to improve its\ncapabilities during the tracking process? Notably, the lack\nof annotation information makes it unrealistic to update the\nmodel through supervised learning [11, 13, 42, 53]. Further-\nmore, object-tracking scenarios in complex environments\nusually have real-time requirements, and supervised learn-\ning will introduce extensive computational delays, causing\nthe tracker to fail to output results promptly.\nIn recent years, test-time adaptation (TTA) has been used\nfor online model adaption. During the testing phase, TTA\ncan dynamically adjust the model parameters, enabling the\nmodel to adapt to new distributions without the need to ac-\ncess the original training data. Notably, TTA has unique\nadvantages in RGB-T tracking scenarios because it can\nachieve real-time adaptation to distribution changes caused\nby different scenarios, thereby enhancing the stability and\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n22089\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

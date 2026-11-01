@@ -1,0 +1,47 @@
+{
+  "number": 24,
+  "title": "ODTrack: online dense temporal token learning for visual tracking",
+  "year": 2024,
+  "authors": [
+    "Zheng Y",
+    "Zhong B",
+    "Liang Q",
+    "et al"
+  ],
+  "venue": "AAAI",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://ojs.aaai.org/index.php/AAAI/article/view/28591",
+  "doi": "10.1609/aaai.v38i7.28591",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/28591",
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/view/28591",
+      "bytes": 27264,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/28591/29149",
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/download/28591/29149",
+      "bytes": 1986258,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\024_2024_ODTrack__online_dense_temporal_token_learning_for_visual_tracking.pdf",
+  "download_url": "https://ojs.aaai.org/index.php/AAAI/article/download/28591/29149",
+  "requested_url": "https://ojs.aaai.org/index.php/AAAI/article/download/28591/29149",
+  "bytes": 1986258,
+  "sha256": "f945861e114138d0b246618201e0bdfd43793a047202f8a298fe9dc15d322292",
+  "version": "出版方公开全文",
+  "pages": 9,
+  "pdf_title": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking",
+  "first_page_text": "ODTrack: Online Dense Temporal Token Learning for Visual Tracking\nYaozong Zheng1,2, Bineng Zhong1,2*, Qihua Liang1,2, Zhiyi Mo3, Shengping Zhang4, Xianxian Li1,2\n1Key Laboratory of Education Blockchain and Intelligent Technology, Ministry of Education, Guangxi Normal University\n2Guangxi Key Lab of Multi-Source Information Mining and Security, Guangxi Normal University\n3Guangxi Key Laboratory of Machine Vision and Intelligent Control, Wuzhou University\n4Harbin Institute of Technology\nyaozongzheng@stu.gxnu.edu.cn, bnzhong@gxnu.edu.cn, qhliang@gxnu.edu.cn\nzhiyim@gxuwz.edu.cn, s.zhang@hit.edu.cn, lixx@gxnu.edu.cn\nAbstract\nOnline contextual reasoning and association across consec-\nutive video frames are critical to perceive instances in vi-\nsual tracking. However, most current top-performing track-\ners persistently lean on sparse temporal relationships be-\ntween reference and search frames via an offline mode. Con-\nsequently, they can only interact independently within each\nimage-pair and establish limited temporal correlations. To\nalleviate the above problem, we propose a simple, flexible\nand effective video-level tracking pipeline, named ODTrack,\nwhich densely associates the contextual relationships of video\nframes in an online token propagation manner. ODTrack re-\nceives video frames of arbitrary length to capture the spatio-\ntemporal trajectory relationships of an instance, and com-\npresses the discrimination features (localization information)\nof a target into a token sequence to achieve frame-to-frame\nassociation. This new solution brings the following bene-\nfits: 1) the purified token sequences can serve as prompts\nfor the inference in the next video frame, whereby past in-\nformation is leveraged to guide future inference; 2) the com-\nplex online update strategies are effectively avoided by the\niterative propagation of token sequences, and thus we can\nachieve more efficient model representation and computation.\nODTrack achieves a new SOTA performance on seven bench-\nmarks, while running at real-time speed. Code and models are\navailable at https://github.com/GXNU-ZhongLab/ODTrack.\nIntroduction\nVisual tracking aims to uniquely identify and track an object\nwithin a video sequence by using arbitrary target queries. In\nthe visual world, objects rarely exist in isolation but rather\nwithin a larger and dynamic context. Therefore, visual per-\nception is a complex process that involves interpreting and\nunderstanding the surrounding environment of an object. In\nsuch a situation, equipping a model with the ability to per-\nform online contextual reasoning and establish associations\npresents a challenge in the field of visual tracking.\nDespite this challenge, a significant number of current\ntracking methods overlook this problem and instead rely\non the offline image-pair matching to localize instances in\nthe current frame. As shown in Fig.1(a), these offline meth-\nods(Bertinetto et al. 2016; Li et al. 2019; Chen et al. 2021;\n*Corresponding author.\nCopyright © 2024, Association for the Advancement of Artificial\nIntelligence (www.aaai.org). All rights reserved.\nBackbone\nBackbone\nMatching/Fu\nsion Module\nHead\nReference frame\nSearch frame\n(a) The offline image-level method\nTracking result\nSearch video-clip\n...\nEncoder\nEncoder\nEncoder\nReference video-clip\nToken\nToken\nToken\n(b) Our online video-level method\nTracking results\nFigure 1: Comparison of tracking methods. (a) The offline\nimage level tracking methods(Li et al. 2019; Chen et al.\n2021) based on sparse sampling and image-pair matching.\n(b) Our online video-level tracking method based on video\nsequence sampling and temporal token propagation.\nYan et al. 2021a; Ye et al. 2022; Cui et al. 2022) typically\nfollow a three-phase process: (i) extracting features by sam-\npling two video frames (i.e., reference and search frames);\n(ii) propagating the initial target information from the refer-\nence to the search frame through a matching/fusion module;\nand (iii) utilizing a bounding box prediction head to output\nthe localization results. Most trackers have performed well\nunder this paradigm, but still exhibit the following draw-\nbacks: (1) The sampling frames are sparse (i.e., using only\none reference frame and one search frame). Although vi-\nsual tracking inherently contains rich temporal data, this\nsimple sampling strategy falls short in accurately represent-\ning the motion state of an object, posing a significant chal-\nlenge for trackers to comprehend dynamic video content,\nand (2) The target information is matched offline and lim-\nited to image-pair level, preventing the association of the\ntargets across video frames. Traditional feature matching/-\nfusion methods(Chen et al. 2020; Zhang et al. 2020; Guo\net al. 2021; Xie et al. 2022) focus on the appearance similar-\nThe Thirty-Eighth AAAI Conference on Artiﬁcial Intelligence (AAAI-24)\n7588\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

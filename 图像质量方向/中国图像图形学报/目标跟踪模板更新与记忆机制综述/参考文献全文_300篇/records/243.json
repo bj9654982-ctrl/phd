@@ -1,0 +1,42 @@
+{
+  "number": 243,
+  "title": "MVLM: Template-Free Tracking via Vision-Language Margin Confidence and Memory-Gated Tracking",
+  "year": 2026,
+  "authors": [
+    "Dae-Hyeon Park",
+    "Mina Baek",
+    "Jeong-Hun Ha",
+    "Chan-Seop Park",
+    "Jamshidjon Ganiev",
+    "Seung-Hwan Bae"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 22497391,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\243_2026_MVLM__Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 22497391,
+  "sha256": "8bf0d58502004cefaf0ca502e1dfd449cae9b8a83ed02594a3828070c6101609",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "MVLM: Template-Free Tracking via Vision-Language Margin Confidence and Memory-Gated Tracking",
+  "first_page_text": "MVLM: Template-Free Tracking via Vision–Language Margin Confidence\nand Memory-Gated Tracking\nDae-Hyeon Park\nMina Baek\nJeong-Hun Ha\nChan-Seop Park\nJamshidjon Ganiev\nSeung-Hwan Bae*\nInha University, Dept. of Electrical and Computer Engineering, Vision and Learning Lab.\n{saintPalite2221,dkdend123,jhha,pcs1728,jamshid24}@inha.edu,\nshbae@inha.ac.kr\nhttps://mvlm-tft.github.io\nAbstract\nWe introduce a new template-free tracking paradigm based\nsolely on natural language, capable of tracking an arbitrary\nobject and seamlessly switching to a new target without\nbox initialization. Our key idea is to localize an object via\nvision-language (VL) correlation. However, using the cor-\nrelation alone is brittle under large search regions due to\nspatial uncertainty and ambiguous VL saliency. To resolve\nthese, we propose MVLM, a memory-based vision-language\nmargin confidence that integrates vision–language corre-\nlation, encoder prediction, and temporal memory. MVLM\ndynamically gates the search region—switching between\ncompact ROI (Region of Interest) search and global re-\nlocalization—to reduce spatial uncertainty. Theoretically,\nwe derive bounds that connect the MVLM score to tracking\nprobability, characterizing mis-localization within ROI and\nROI-exclusion probabilities. Through extensive evaluation,\nwe validate our theorems and achieve state-of-the-art per-\nformance on several benchmarks (TNL2K, LaSOT, OTB99,\nand MGIT) using only language guidance.\n1. Introduction\nTemplate-free (TF) tracking with natural language elimi-\nnates the need for visual templates or box initialization, al-\nlowing a tracker to follow arbitrary objects and seamlessly\nswitch to a new target by updating the text description.\nThis is beneficial for open-world and interactive scenarios,\nwhere the user may not have an initial bounding box and\nthe target can change on the fly. Although the earlier works\n[23, 26, 30, 38] state language-based tracking, they exploit\nobject templates as an input to a tracker. In contrast, our\napproach eliminates visual object templates completely, re-\n*Corresponding author (shbae@inha.ac.kr).\nlying solely on vision-language correlation as the semantic\nanchor.\nA natural approach is to localize the object by measur-\ning the correlation between vision features (from a search\nimage) and a language query. However, correlation-alone\ntracking is unstable under broad search regions: spatial un-\ncertainty grows with the area to scan, and vision–language\n(VL) saliency becomes ambiguous in the presence of dis-\ntractors, occlusions, or appearance shifts. As a result, track-\ners that rely only on instantaneous VL correlation tend to\nmislocalize or lose the target when the search region is\nlarge. Therefore, recent transformer-based object trackers\n[3–8, 13, 15, 31–34, 36] employ local ROI search for re-\nstricting the search region around the tracked object pre-\ndicted at a past frame. From these observations, the main\nproblem of TF tracking can be transformed into learn-\ning distinctive saliency from vision-language correlation\nand determining object search regions around an object or\nglobal image region according to tracking and language\nguidance.\nTo resolve these, we propose memory-based vision-\nlanguage confidence (MVLM) by incorporating three com-\nplementary features: (i) a VL correlation margin that sepa-\nrates the best-matching hypothesis from its nearest competi-\ntors, (ii) the encoder’s output statistics that capture local vi-\nsual evidence, and (iii) a lightweight temporal memory that\nstabilizes decisions across frames. We then exploit MVLM\nto gate the search strategy: when MVLM confidence is\nhigh, the tracker restricts itself to a compact ROI around the\ncurrent estimate; when confidence drops, it triggers global\nre-localization over the whole image. This memory-gated\ntracking reduces spatial uncertainty without sacrificing re-\ncoverability after failures or during target switching.\nBeyond the algorithm design, we provide a theoretical\nanalysis that links MVLM to tracking success. In particu-\nlar, we derive bounds that connect the MVLM score to the\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n35156\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

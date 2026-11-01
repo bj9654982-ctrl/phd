@@ -1,0 +1,47 @@
+{
+  "number": 47,
+  "title": "多模态视觉跟踪方法综述",
+  "year": 2023,
+  "authors": [
+    "李成龙",
+    "鹿安东",
+    "刘磊",
+    "汤进"
+  ],
+  "venue": "中国图象图形学报",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://www.cjig.cn/zh/article/doi/10.11834/jig.220578/",
+  "doi": "10.11834/jig.220578",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.220578/",
+      "final_url": "https://www.cjig.cn/zh/article/doi/10.11834/jig.220578/",
+      "bytes": 401146,
+      "content_type": "text/html",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://www.cjig.cn/rc-pub/front/front-article/download/56189247/lowqualitypdf/多模态视觉跟踪方法综述.pdf",
+      "final_url": "https://www.cjig.cn/rc-pub/front/front-article/download/56189247/lowqualitypdf/%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E8%B7%9F%E8%B8%AA%E6%96%B9%E6%B3%95%E7%BB%BC%E8%BF%B0.pdf",
+      "bytes": 7761852,
+      "content_type": "application/pdf;charset=utf-8"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\047_2023_多模态视觉跟踪方法综述.pdf",
+  "download_url": "https://www.cjig.cn/rc-pub/front/front-article/download/56189247/lowqualitypdf/%E5%A4%9A%E6%A8%A1%E6%80%81%E8%A7%86%E8%A7%89%E8%B7%9F%E8%B8%AA%E6%96%B9%E6%B3%95%E7%BB%BC%E8%BF%B0.pdf",
+  "requested_url": "https://www.cjig.cn/rc-pub/front/front-article/download/56189247/lowqualitypdf/多模态视觉跟踪方法综述.pdf",
+  "bytes": 7761852,
+  "sha256": "dcf15054c083dbd5bbdbcaf99c32308be6d4a7229d85caf7262d04735d05dc19",
+  "version": "出版方公开全文",
+  "pages": 20,
+  "pdf_title": "标题)",
+  "first_page_text": "37\n　\n中图法分类号:TP389. 1　　文献标识码: A　　文章编号: 1006-8961(2023)01-0037-20\n论文引用格式: Li C L, Lu A D, Liu L and Tang J. 2023. Multi-modal visual tracking: a survey. Journal of Image and Graphics,28(01):0037-0056(李\n成龙,鹿安东,刘磊,汤进. 2023. 多模态视觉跟踪方法综述. 中国图象图形学报,28(01):0037-0056)[DOI:10. 11834 / jig. 220578]\n收稿日期:2022-06-02;修回日期:2022-07-08;预印本日期:2022-07-15\n∗通信作者:汤进　tangjin@ ahu. edu. cn\n基金项目:国家自然科学基金项目(61976003);模式识别国家重点实验室开放课题\nSupported by:National Natural Science Foundation of China (61976003)\n多模态视觉跟踪方法综述\n李成龙\n1,鹿安东\n2,刘磊\n2,汤进\n2∗\n1. 安徽大学人工智能学院,合肥　230601; 2. 安徽大学计算机科学与技术学院,合肥　230601\n摘　要: 　目标跟踪是计算机视觉研究中的前沿和热点问题,在安全监控、无人驾驶等领域中有着重要的应用价\n值。然而,目前基于可见光数据的视觉跟踪方法,在光照变化、恶劣天气下因数据质量受限难以实现鲁棒跟踪。因\n此,一些研究者提出了多模态视觉跟踪任务,通过引入其他模态数据,包括红外模态、深度模态、事件模态以及文本\n模态,在一定程度上弥补了可见光模态在恶劣天气、遮挡、快速运动和外观歧义等条件下的不足。多模态视觉跟踪\n旨在挖掘可见光和其他模态数据的互补优势,在视频中实现鲁棒的目标定位,对全天时全天候感知有着重要的价\n值和意义,受到越来越多的研究和关注。由于主流的多模态视觉跟踪方法针对可见光—红外跟踪展开,因此,本文\n以阐述可见光—红外跟踪方法为主,从信息融合的角度将现有方法划分为结合式融合和判别式融合,分别进行了\n详细介绍和分析,并对不同类方法的优缺点进行了分析和比较。然后,本文对其他多模态视觉跟踪任务的研究工\n作进行了介绍,并对不同多模态视觉跟踪任务的优缺点进行了分析和比较。最后,本文对多模态视觉跟踪方法进\n行了总结并对未来发展进行展望。\n关键词:信息融合;视觉跟踪;多模态;结合式融合;判别式融合\nMulti-modal visual tracking: a survey\nLi Chenglong1, Lu Andong2, Liu Lei2, Tang Jin2∗\n1. School of Artificial Intelligence, Anhui University, Hefei　230601, China;\n2. School of Computer Science and Technology, Anhui University, Hefei　230601, China\nAbstract: Visual tracking can be as one of the key tasks in computer vision applications like surveillance, robotics and\nautomatic driving in the past decades. The performance issue for visual tracking is still challenged of the quality of visible\nlight data in adverse scenes, such as low illumination, background clutter, haze and smog. To deal with the imaging con-\nstraints of visible light data, current researches are focused on multiple modal data-introduced in common. The visible and\nmodal data integration can be effective in tracking performance in terms of the manner of thermal infrared, depth, event and\nlanguage. Benefiting from the integrated capability of visible and multi-modal data, multi-modal trackers have been develo-\nping intensively in such complicated scenarios of those are low illumination, occlusion, fast motion and semantic ambiguity.\nNowadays, our executive summary is focused on reviewing the RGB and thermal infrared (RGBT) tracking algorithms,\nwhich is oriented for the popular visible-infrared visual tracking towards multi-modal visual tracking. Existing multi-modal\nvisual tracking-based summaries are concerned of the segmentation of tracking algorithms in terms of multi-framework track-\ning or multi-level based fusions derived of pixel, feature, and decision. With respect of the information fusion plays a key\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": null,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,40 @@
+{
+  "number": 182,
+  "title": "Transformer Tracking With Cyclic Shifting Window Attention",
+  "year": 2022,
+  "authors": [
+    "Zikai Song",
+    "Junqing Yu",
+    "Yi-Ping Phoebe Chen",
+    "Wei Yang"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Song_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Song_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Song_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention_CVPR_2022_paper.pdf",
+      "bytes": 2411087,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\182_2022_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Song_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Song_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention_CVPR_2022_paper.pdf",
+  "bytes": 2411087,
+  "sha256": "b6a5708c10088487274d87dd101599beb78944d8560207fe35cadfa9cc56f2ee",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Transformer Tracking With Cyclic Shifting Window Attention",
+  "first_page_text": "Transformer Tracking with Cyclic Shifting Window Attention\nZikai Song1\nJunqing Yu1*\nYi-Ping Phoebe Chen2\nWei Yang1\n1Huazhong University of Science and Technology, China\n2La Trobe University, Australia\n{skyesong, yjqing, weiyangcs}@hust.edu.cn, phoebe.chen@latrobe.edu.au\nAbstract\nTransformer architecture has been showing its great\nstrength in visual object tracking, for its effective atten-\ntion mechanism.\nExisting transformer-based approaches\nadopt the pixel-to-pixel attention strategy on flattened im-\nage features and unavoidably ignore the integrity of ob-\njects.\nIn this paper, we propose a new transformer ar-\nchitecture with multi-scale cyclic shifting window atten-\ntion for visual object tracking, elevating the attention from\npixel to window level. The cross-window multi-scale at-\ntention has the advantage of aggregating attention at dif-\nferent scales and generates the best fine-scale match for\nthe target object.\nFurthermore, the cyclic shifting strat-\negy brings greater accuracy by expanding the window sam-\nples with positional information, and at the same time saves\nhuge amounts of computational power by removing redun-\ndant calculations. Extensive experiments demonstrate the\nsuperior performance of our method, which also sets the\nnew state-of-the-art records on five challenging datasets,\nalong with the VOT2020, UAV123, LaSOT, TrackingNet,\nand GOT-10k benchmarks.\nOur project is available at\nhttps://github.com/SkyeSong38/CSWinTT.\n1. Introduction\nVisual object tracking (VOT) is one of the fundamen-\ntal problems in computer vision research with a wide range\nof applications in video surveillance, autonomous vehicles,\nhuman-machine interaction, and others. It aims to estimate\nthe position of a target object in each video frame, com-\nmonly represented as a bounding box encapsulating the tar-\nget. The target object is given as a template in the initial\nframe, and the tracker is required to extract proper fea-\ntures about the target and localize the target in the follow-\ning frames. Most of the popular trackers [1, 22, 23, 37, 41]\nadopt the Siamese network structure, which conducts track-\ning by calculating the similarity between the template and\nsearch region in the current frame. The similarity metric\n* Corresponding author\n…\nattention\n…\ncyclic\nshifts\nwindow\npartition\nKey\nQuery\n…\n(a) Cyclic shifting window-level Attn\nQuery\nKey\n…\n…\n…\n(b) Pixel-level Attn\nFigure 1. (a) The proposed approach firstly achieves the window-\nlevel attention between query and key through window partition-\ning, and then applies cyclic shifts for each window (from the base\nsample in the red box to generated samples surrounded by orange\nboxes) to greatly extend the number of window samples, while\nmaintaining the integrity of objects. (b) Previous transformers pro-\nduce pixel-level attention, which weakens the positional informa-\ntion between pixels and ignores the integrity of objects.\nof cross-correlation used in Siamese trackers is prone to\nlose much semantic information for it is a single-level linear\ncomputational process. This deficiency can be well tackled\nby using the attention mechanism to learn the global con-\ntext. Recently, transformer-based approaches [6,12,25,39]\nhave reported new state-of-the-art performance on image\nrecognition, object detection, and semantic segmentation\nbenchmarks. This is no wonder as transformer [36] has a\npowerful cross-attention mechanism to reasoning between\npatches [18]. Particularly, transformer trackers [7,40,45,50]\nhave shown their great strength by introducing the atten-\ntion mechanism to enhance and fuse the features of the tar-\nget and the tracked object. However, we observe that these\ntransformer trackers simply put the flattened features of the\ntemplate and search region into pixel-level attention, each\npixel of a flattened feature (Query) matches all pixels of an-\nother flattened feature (Key) in a complete and disordered\nmanner, as shown in Figure 1b. This pixel-level attention\ndestroys the integrity of the target object and leads to infor-\nmation loss of relative positions between pixels.\nIn this paper, we propose a novel multi-scale cyclic shift-\ning window transformer for visual object tracking to further\n8791\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

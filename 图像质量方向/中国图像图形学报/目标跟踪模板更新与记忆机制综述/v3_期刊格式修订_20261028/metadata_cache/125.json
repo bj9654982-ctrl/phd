@@ -1,0 +1,594 @@
+{
+  "number": 125,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "VITAL: VIsual Tracking via Adversarial Learning",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T14:23:17Z",
+      "timestamp": 1791210197854,
+      "version": "4.1.0"
+    },
+    "reference-count": 64,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2018.00937",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2018-12-17T20:49:37Z",
+      "timestamp": 1545079777000
+    },
+    "page": "8990-8999",
+    "source": "Crossref",
+    "is-referenced-by-count": 468,
+    "title": [
+      "VITAL: VIsual Tracking via Adversarial Learning"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Yibing",
+        "family": "Song",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chao",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaohe",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lijun",
+        "family": "Gong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Linchao",
+        "family": "Bao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wangmeng",
+        "family": "Zuo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chunhua",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rynson W.H.",
+        "family": "Lau",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming-Hsuan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.462"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2017.2777183"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2481325"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref30",
+        "article-title": "The visual object tracking vot2016 challenge results",
+        "author": "kristan",
+        "year": "2016",
+        "journal-title": "European Conf on Comp Vision Workshop"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Reliable patch trackers: Robust visual tracking by exploiting reliable patches",
+        "author": "li",
+        "year": "2015",
+        "journal-title": "IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.629"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.148"
+      },
+      {
+        "key": "ref63",
+        "article-title": "Meem: robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.512"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Wasserstein generative adversarial networks",
+        "author": "arjovsky",
+        "year": "2017",
+        "journal-title": "International Conference on Machine Learning"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2509974"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "European Conf Comp Vision"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Online tracking by learning discriminative saliency map with convolutional neural network",
+        "author": "hong",
+        "year": "2015",
+        "journal-title": "International Conference on Machine Learning"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.632"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2017/632"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.324"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2733373.2807412"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.606"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2017/633"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "British Machine Vision Conference"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2015.84"
+      },
+      {
+        "key": "ref40",
+        "article-title": "f-gan: Training generative neural samplers using variational divergence minimization",
+        "author": "nowozin",
+        "year": "2016",
+        "journal-title": "Neural Information Processing Systems"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.159"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539906"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Transfer learning based visual tracking with gaussian processes regression",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Generative adversarial nets",
+        "author": "goodfellow",
+        "year": "2014",
+        "journal-title": "Neural Information Processing Systems"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.525"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.63"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision Workshop"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.468"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TVCG.2006.78"
+      },
+      {
+        "key": "ref7",
+        "article-title": "A unified framework for multitarget tracking and collective activity recognition",
+        "author": "choi",
+        "year": "2012",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cviu.2017.08.009",
+        "article-title": "Stylizing face images via multiple exemplars",
+        "author": "song",
+        "year": "2017",
+        "journal-title": "Computer Vision and Image Understanding"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.89"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.749"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Visual tracking: An experimental survey",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2014",
+        "journal-title": "International Conference on Learning Representations"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2018.2797482"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298823"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Single image dehazing via multi-scale convolutional neural networks",
+        "author": "ren",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      }
+    ],
+    "event": {
+      "name": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Salt Lake City, UT",
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8576498/8578098/08579035.pdf?arnumber=8579035",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          27
+        ]
+      ],
+      "date-time": "2022-01-27T00:01:25Z",
+      "timestamp": 1643241685000
+    },
+    "score": 47.681168,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8579035/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "references-count": 64,
+    "URL": "https://doi.org/10.1109/cvpr.2018.00937",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  }
+}

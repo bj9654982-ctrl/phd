@@ -1,0 +1,40 @@
+{
+  "number": 73,
+  "title": "Hierarchical Convolutional Features for Visual Tracking",
+  "year": 2015,
+  "authors": [
+    "Chao Ma",
+    "Jia-Bin Huang",
+    "Xiaokang Yang",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.pdf",
+      "bytes": 4122038,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\073_2015_Hierarchical_Convolutional_Features_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.pdf",
+  "bytes": 4122038,
+  "sha256": "4c7abc8ab835c2a5821846e08b2854094f09336da899bc96334ddcdc1c5eb33d",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Hierarchical Convolutional Features for Visual Tracking",
+  "first_page_text": "Hierarchical Convolutional Features for Visual Tracking\nChao Ma\nSJTU\nchaoma@sjtu.edu.cn\nJia-Bin Huang\nUIUC\njbhuang1@illinois.edu\nXiaokang Yang\nSJTU\nxkyang@sjtu.edu.cn\nMing-Hsuan Yang\nUC Merced\nmhyang@ucmerced.edu\nAbstract\nVisual object tracking is challenging as target objects of-\nten undergo signiﬁcant appearance changes caused by de-\nformation, abrupt motion, background clutter and occlu-\nsion. In this paper, we exploit features extracted from deep\nconvolutional neural networks trained on object recognition\ndatasets to improve tracking accuracy and robustness. The\noutputs of the last convolutional layers encode the semantic\ninformation of targets and such representations are robust\nto signiﬁcant appearance variations. However, their spatial\nresolution is too coarse to precisely localize targets. In con-\ntrast, earlier convolutional layers provide more precise lo-\ncalization but are less invariant to appearance changes. We\ninterpret the hierarchies of convolutional layers as a non-\nlinear counterpart of an image pyramid representation and\nexploit these multiple levels of abstraction for visual track-\ning. Speciﬁcally, we adaptively learn correlation ﬁlters on\neach convolutional layer to encode the target appearance.\nWe hierarchically infer the maximum response of each layer\nto locate targets. Extensive experimental results on a large-\nscale benchmark dataset show that the proposed algorithm\nperforms favorably against state-of-the-art methods.\n1. Introduction\nVisual object tracking is one of the fundamental prob-\nlems in computer vision with numerous applications [33,\n26]. A typical scenario of visual tracking is to track an un-\nknown target object, speciﬁed by a bounding box in the ﬁrst\nframe. Despite signiﬁcant progress in the recent decades,\nvisual tracking is still a challenging problem, mainly due\nto large appearance changes caused by occlusion, deforma-\ntion, abrupt motion, illumination variation, and background\nclutter. Recently, features based on convolutional neural\nnetworks (CNNs) have demonstrated state-of-the-art results\non a wide range of visual recognition tasks [20, 11]. It is\nthus of great interest to understand how to best exploit the\nrich feature hierarchies in CNNs for robust visual tracking.\nExisting deep learning based trackers [30, 21, 29,\n18] typically draw positive and negative training samples\naround the estimated target location to incrementally learn\na classiﬁer over features extracted from a CNN. Two issues\nensue with such approaches. The ﬁrst issue lies in the use\nof neural networks as an online classiﬁer following recent\nobject recognition algorithms, where only the outputs of the\nlast layer are used to represent targets. For high-level visual\nrecognition problems, it is effective to use features from the\nlast layer as they are most closely related to category-level\nsemantics and most invariant to nuisance variables such as\nintra-class variations and precise location. However, the ob-\njective of visual tracking is to locate targets precisely rather\nthan to infer their semantic classes. Using only the features\nfrom the last layer is thus not the optimal representation for\ntargets. The second issue is concerned with extracting train-\ning samples. Training a robust classiﬁer requires a consider-\nably large number of positive and negative samples, which\nis not available in visual tracking. In addition, there lies am-\nbiguity in determining a decision boundary since positive\nand negative samples are highly correlated due to sampling\nnear a target.\nIn this work, we address these two issues by (i) using the\nfeatures from hierarchical layers of CNNs rather than only\nthe last layer to represent targets; (ii) learning adaptive cor-\nrelation ﬁlters on each CNN layer without the need of sam-\npling. Our approach builds on the observation that although\nthe last layers of CNNs are more effective to capture seman-\ntics, they are insufﬁcient for capturing ﬁne-grained spatial\ndetails such as object positions. The earlier layers, on the\nother hand, are precise in localization but do not capture\nsemantics as illustrated in Figure 1. This observation sug-\ngests that reasoning with multiple layers of CNN features\nfor visual tracking is of great importance as semantics are\nrobust to signiﬁcant appearance variations and spatial de-\ntails are effective for precise localization. We exploit both\nthe hierarchical features from the recent advances in CNNs\nand the inference approach across multiple levels in clas-\nsical computer vision problems. For example, computing\noptical ﬂow from the coarse levels of the image pyramid\nare efﬁcient, but ﬁner levels are required for obtaining an\naccurate and detailed ﬂow ﬁeld. A coarse-to-ﬁne search-\ning strategy is often adopted for best results [23]. In light\n3074\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

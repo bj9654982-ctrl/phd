@@ -1,0 +1,39 @@
+{
+  "number": 91,
+  "title": "Real-Time Part-Based Visual Tracking via Adaptive Correlation Filters",
+  "year": 2015,
+  "authors": [
+    "Ting Liu",
+    "Gang Wang",
+    "Qingxiong Yang"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2015/html/Liu_Real-Time_Part-Based_Visual_2015_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Liu_Real-Time_Part-Based_Visual_2015_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Liu_Real-Time_Part-Based_Visual_2015_CVPR_paper.pdf",
+      "bytes": 1773069,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\091_2015_Real-Time_Part-Based_Visual_Tracking_via_Adaptive_Correlation_Filters.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Liu_Real-Time_Part-Based_Visual_2015_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Liu_Real-Time_Part-Based_Visual_2015_CVPR_paper.pdf",
+  "bytes": 1773069,
+  "sha256": "d7a868a08196ea50e5b2e414c467169fb54060d91d56a2d8e5e2be4d2c114cd7",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Real-Time Part-Based Visual Tracking via Adaptive Correlation Filters",
+  "first_page_text": "Real-time part-based visual tracking via adaptive correlation ﬁlters\nTing Liu,\nGang Wang\nSchool of Electrical and Electronic Engineering,\nNanyang Technological University.\n{liut0016, wanggang}@ntu.edu.sg\nQingxiong Yang\nDepartment of Computer Science,\nCity University of Hong Kong.\nqiyang@cityu.edu.hk\nAbstract\nRobust object tracking is a challenging task in comput-\ner vision. To better solve the partial occlusion issue, part-\nbased methods are widely used in visual object trackers.\nHowever, due to the complicated online training and updat-\ning process, most of these part-based trackers cannot run\nin real-time. Correlation ﬁlters have been used in tracking\ntasks recently because of the high efﬁciency. However, the\nconventional correlation ﬁlter based trackers cannot deal\nwith occlusion. Furthermore, most correlation ﬁlter based\ntrackers ﬁx the scale and rotation of the target which makes\nthe trackers unreliable in long-term tracking tasks. In this\npaper, we propose a novel tracking method which track ob-\njects based on parts with multiple correlation ﬁlters. Our\nmethod can run in real-time. Additionally, the Bayesian\ninference framework and a structural constraint mask are\nadopted to enable our tracker to be robust to various ap-\npearance changes. Extensive experiments have been done\nto prove the effectiveness of our method.\n1. Introduction\nVisual tracking is an important technique in computer vi-\nsion with various applications such as security and surveil-\nlance, human computer interaction and auto-control sys-\ntems [25, 43, 50]. With the development of single object\ntracking methods, most of the tracking tasks in simple en-\nvironment with slow motion and slight occlusion can be\nsolved well by current algorithms. However, in more com-\nplicated situations, more robust tracking methods are re-\nquired to realize accurate and real-time tracking.\nCurrent tracking algorithms are classiﬁed as either gen-\nerative or discriminative methods. Generative methods treat\ntracking problem as searching for the regions which are the\nmost similar to the tracked targets [3, 4, 6, 22, 24, 26–\n28, 46, 52]. The targets are often represented by a set of\nbasis vectors from a subspace (or a series of templates). D-\nifferent from generative trackers, discriminative approaches\ncast tracking as a classiﬁcation problem that distinguishes\nthe tracked targets from the backgrounds [2, 29, 42, 56].\nIt employs the information from both the target and back-\nground. For example, Avidan [3] proposed a strong classi-\nﬁer based on a set of weak classiﬁers to do ensemble track-\ning. In [4], Babenko et al. used an online multiple instance\nlearning which puts all ambiguous positive and negative\nsamples into bags to learn a discriminative model for track-\ning. Kalal et al. [21] proposed a P-N learning algorithm\nto learn tracking classiﬁers from positive and negative sam-\nples. In [16], Hare et al. used an online structured output\nsupport vector machine to adaptively track the targets. This\ncategory of approach is termed tracking-by-detection. Re-\ncently, correlation ﬁlter based tracking-by-detection meth-\nods have been proven to be able to achieve fairly high speed\nand robust tracking performance in relatively simple envi-\nronments [7, 17].\nRecently part-based tracking methods [1, 9, 19, 34, 37,\n47] become more popular partially because of their favor-\nable property of robustness against partial occlusion. They\nmodel the object appearance based on multiple parts of the\ntarget.\nObviously, when the target is partially occluded,\nremaining visible parts can still provide reliable cues for\ntracking. Most of these methods can be viewed as track-\ning by part-based object matching over time in a video se-\nquence. Because computational complexity of these meth-\nods is high, it is difﬁcult to realize real-time tracking.\nIn this paper, We aim to build a real-time part-based vi-\nsual object tracker which is able to handle partial occlusion\nand other challenging factors. Our key idea is to adopt the\ncorrelation ﬁlters as part classiﬁers. Hence, the part evalu-\nation speed can be fast. However, it becomes very critical\nto combine the tracking scores of different parts in a prop-\ner way. If some parts are occluded, and we still assign big\nweights to them, then there will be tracking errors. Our\ncontribution is to develop new criteria to measure the per-\nformance of different parts, and assign proper weights to\nthem. Speciﬁcally, we propose to use Smooth Constrain-\nt of Conﬁdence Maps as a criterion to measure how likely\na part is occluded. The experiments proved the effective-\nness of the SCCM criterion. Besides, we developed the s-\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.9,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

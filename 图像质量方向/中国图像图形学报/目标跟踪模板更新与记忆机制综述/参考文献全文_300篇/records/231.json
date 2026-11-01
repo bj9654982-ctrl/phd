@@ -1,0 +1,41 @@
+{
+  "number": 231,
+  "title": "Tracking by Natural Language Specification",
+  "year": 2017,
+  "authors": [
+    "Zhenyang Li",
+    "Ran Tao",
+    "Efstratios Gavves",
+    "Cees G. M. Snoek",
+    "Arnold W.M. Smeulders"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Li_Tracking_by_Natural_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Tracking_by_Natural_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Tracking_by_Natural_CVPR_2017_paper.pdf",
+      "bytes": 4824771,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\231_2017_Tracking_by_Natural_Language_Specification.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Tracking_by_Natural_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Tracking_by_Natural_CVPR_2017_paper.pdf",
+  "bytes": 4824771,
+  "sha256": "39c98dbdd717e28a2c4afe0ba4cb9ac0bac742e979f2134690117905a2c183e0",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Tracking by Natural Language Specification",
+  "first_page_text": "Tracking by Natural Language Speciﬁcation\nZhenyang Li, Ran Tao, Efstratios Gavves, Cees G. M. Snoek, Arnold W.M. Smeulders\nQUVA Lab, University of Amsterdam\nAbstract\nThis paper strives to track a target object in a video.\nRather than specifying the target in the ﬁrst frame of a video\nby a bounding box, we propose to track the object based on\na natural language speciﬁcation of the target, which pro-\nvides a more natural human-machine interaction as well as\na means to improve tracking results. We deﬁne three vari-\nants of tracking by language speciﬁcation: one relying on\nlingual target speciﬁcation only, one relying on visual target\nspeciﬁcation based on language, and one leveraging their\njoint capacity. To show the potential of tracking by natu-\nral language speciﬁcation we extend two popular tracking\ndatasets with lingual descriptions and report experiments.\nFinally, we also sketch new tracking scenarios in surveil-\nlance and other live video streams that become feasible with\na lingual speciﬁcation of the target.\n1. Introduction\nThe goal of this paper is to track an object in video,\na long-standing challenge in computer vision. The com-\nmon approach is to specify a target by means of a bound-\ning box around the object and to track this target as it\nmoves throughout the video [38, 33, 20]. The paradigm has\nproven to be effective and considerable progress has been\nachieved [17, 37, 34, 3, 11]. Yet, the fundamental assump-\ntion of having a bounding box target speciﬁcation available\nhas never been challenged. In this paper, we propose a new\napproach to object tracking in video, in addition to or in\ncontrast to target speciﬁcation by means of a bounding box.\nWe are inspired by recent progress in object retrieval [15,\n14, 26]. Both Hu et al. [15, 14] and Mao et al. [26] present\na recurrent neural network able to localize an object in an\nimage by means of a natural language query only, either re-\nturning a bounding box [15] or a free-form segment [14].\nTo cope with language ambiguity, Mao et al. introduce re-\nferring expressions that uniquely describe an object in an\nimage. However, unlike in still images, in videos objects\nmay change their appearance and position, also the back-\nground can vary dramatically from frame to frame. Even\nif the video frames contain the same object category, that\nFigure 1: Tracking by natural language speciﬁcation al-\nlows for a novel type of human-machine interaction in ob-\nject tracking. It enhances standard trackers by helping them\nagainst drift. It also opens up opportunities for new applica-\ntions like random start tracking, for example when the target\nis lost, or simultaneous multiple-video tracking.\nobject might have a different appearance, be in different lo-\ncation or in a different background, thus rendering any de-\nscription challenging. Unlike [15, 14, 26] we do not retrieve\nbut track the object of interest in video from a natural lan-\nguage speciﬁcation.\nFirst and foremost, the contribution of this paper is track-\ning by natural language speciﬁcation, which allows for a\nnovel type of human-machine interaction in tracking, see\nFigure 1. In several real-life applications, such as robotics\nor autonomous driving, deﬁning the target by a description\nis more natural, e.g., “track the red car in the middle lane”.\nAs a second contribution, we deﬁne three variants of track-\ning by language speciﬁcation, that are dominated by lingual\ntarget speciﬁcation, visual target speciﬁcation, or leverages\ntheir joint capacity. As third novelty we enrich standard\n6495\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.75,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

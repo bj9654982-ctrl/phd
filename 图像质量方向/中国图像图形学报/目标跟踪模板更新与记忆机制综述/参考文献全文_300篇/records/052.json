@@ -1,0 +1,41 @@
+{
+  "number": 52,
+  "title": "Constructing Adaptive Complex Cells for Robust Visual Tracking",
+  "year": 2013,
+  "authors": [
+    "Dapeng Chen",
+    "Zejian Yuan",
+    "Yang Wu",
+    "Geng Zhang",
+    "Nanning Zheng"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.pdf",
+      "bytes": 1640834,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\052_2013_Constructing_Adaptive_Complex_Cells_for_Robust_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.pdf",
+  "bytes": 1640834,
+  "sha256": "ad34ea6c55f8f9e561f4b9d224f4d46b373450326bec4987d5604e250f7e03f3",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Constructing Adaptive Complex Cells for Robust Visual Tracking",
+  "first_page_text": "Constructing Adaptive Complex Cells for Robust Visual Tracking\nDapeng Chen †\nZejian Yuan †\nYang Wu §\nGeng Zhang †\nNanning Zheng†\n† Institute of Artiﬁcial Intelligence and Robotics, Xi’an Jiaotong University\n§ Academic Center for Computing and Media Studies, Kyoto University\nAbstract\nRepresentation is a fundamental problem in object track-\ning. Conventional methods track the target by describing\nits local or global appearance. In this paper we present\nthat, besides the two paradigms, the composition of local\nregion histograms can also provide diverse and important\nobject cues. We use cells to extract local appearance, and\nconstruct complex cells to integrate the information from\ncells. With different spatial arrangements of cells, complex\ncells can explore various contextual information at multiple\nscales, which is important to improve the tracking perfor-\nmance. We also develop a novel template-matching algo-\nrithm for object tracking, where the template is composed\nof temporal varying cells and has two layers to capture the\ntarget and background appearance respectively. An adap-\ntive weight is associated with each complex cell to cope with\nocclusion as well as appearance variation. A fusion weight\nis associated with each complex cell type to preserve the\nglobal distinctiveness. Our algorithm is evaluated on 25\nchallenging sequences, and the results not only conﬁrm the\ncontribution of each component in our tracking system, but\nalso outperform other competing trackers.\n1. Introduction\nObject tracking is a fundamental problem in computer\nvision with applications in a wide range of domains. Mean-\nwhile it is one of the most challenging vision tasks, due to\nmany factors like appearance variation, heavy occlusion, il-\nlumination changes and cluttered background. To overcome\nthese challenges, a representation should be robust enough\nto identify the object under motion deformation, while at\nthe same time, the representation should also be distinctive\nenough to differentiate the target from background clutters.\nBesides, for real-time applications, computational efﬁcien-\ncy is a crucial requirement. However, either a local repre-\nEmail:\n{chendapeng1988, gzhang}@stu.xjtu.edu.cn; yzejian@ g-\nmail.com; nnzheng@mail.xjtu.edu.cn; yangwu@mm.media.kyoto-u.ac.jp\nsentation or a global representation can only focus on one\naspect of the above requirements. Generally, local repre-\nsentations describe the local regions. They are usually ro-\nbust to motion variation and can handle partial occlusions\n[1, 8, 16], but easily fail in background clutters because of\nignoring object structures. On the contrary, global repre-\nsentations can capture large object structures [20, 17, 25],\nbut lacking the local ﬂexibility makes them difﬁcult to cope\nwith occlusion and motion deformation. In addition, both\nkinds of representations only utilize the information insid-\ne the object and omit important contextual cues from sur-\nrounding background, which can be explored for accurate\nlocalization as well as occlusion inference.\nIn this paper, we propose a hierarchical representation\nframework. To achieve the local robustness, we extract lo-\ncal feature histograms as the bases of our representation,\ncalled cells. These cells spread over regular grids covering\nboth object region and neighbouring background. To obtain\nthe global distinctiveness, we integrate speciﬁc cells to con-\nstruct complex cells, which can explore multiple contextual\ninformation. According to different spatial arrangements\nof cells, the complex cells are categorized into four type-\ns that encode the object dependencies from local region,\nblock neighbourhood, inter-region relations and surround-\ning background respectively. The combination of four type-\ns achieve some complementary properties. They not only\nform a multi-scale representation to balance between local\nrobustness and global distinctiveness, but also utilize both\ninner and outer object information.\nFor object tracking, we develop a novel template repre-\nsentation and an efﬁcient matching algorithm. The template\nis composed of temporal varying cells and has two layers\nthat store the appearance of the target and background re-\nspectively. In greater detail, the cells are modeled as Gaus-\nsian distribution according to their temporal variation and\nthe two-layer template is convenient for context exploita-\ntion as well as occlusion inference. We track the object\nby matching the complex cells from candidates with those\nfrom the template.\nEach complex cell has two weights.\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.142\n1113\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.142\n1113\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

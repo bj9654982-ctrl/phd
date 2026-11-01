@@ -1,0 +1,40 @@
+{
+  "number": 62,
+  "title": "Tracking via Robust Multi-task Multi-view Joint Sparse Representation",
+  "year": 2013,
+  "authors": [
+    "Zhibin Hong",
+    "Xue Mei",
+    "Danil Prokhorov",
+    "Dacheng Tao"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Hong_Tracking_via_Robust_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Tracking_via_Robust_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Tracking_via_Robust_2013_ICCV_paper.pdf",
+      "bytes": 2126087,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\062_2013_Tracking_via_Robust_Multi-task_Multi-view_Joint_Sparse_Representation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Tracking_via_Robust_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Tracking_via_Robust_2013_ICCV_paper.pdf",
+  "bytes": 2126087,
+  "sha256": "84a57c4a858768f9dd51fa0208b51ea0f83aeefdcb35d108e5ab8420deb990a1",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Tracking via Robust Multi-task Multi-view Joint Sparse Representation",
+  "first_page_text": "Tracking via Robust Multi-Task Multi-View Joint Sparse Representation\nZhibin Hong1, Xue Mei2, Danil Prokhorov2, and Dacheng Tao1\n1Centre for Quantum Computation and Intelligent Systems, Faculty of Engineering and Information Technology,\nUniversity of Technology, Sydney, NSW 2007, Australia\n2 Toyota Research Institute, North America, Ann Arbor, MI 48105, USA\n{zhibin.hong@student.,dacheng.tao@}uts.edu.au, {xue.mei, danil.prokhorov}@tema.toyota.com\nAbstract\nCombining multiple observation views has proven bene-\nﬁcial for tracking.\nIn this paper, we cast tracking as a\nnovel multi-task multi-view sparse learning problem and\nexploit the cues from multiple views including various\ntypes of visual features, such as intensity, color, and edge,\nwhere each feature observation can be sparsely repre-\nsented by a linear combination of atoms from an adaptive\nfeature dictionary. The proposed method is integrated in a\nparticle ﬁlter framework where every view in each particle\nis regarded as an individual task.\nWe jointly consider\nthe underlying relationship between tasks across different\nviews and different particles, and tackle it in a uniﬁed\nrobust multi-task formulation. In addition, to capture the\nfrequently emerging outlier tasks, we decompose the repre-\nsentation matrix to two collaborative components which\nenable a more robust and accurate approximation. We show\nthat the proposed formulation can be efﬁciently solved using\nthe Accelerated Proximal Gradient method with a small\nnumber of closed-form updates. The presented tracker is\nimplemented using four types of features and is tested on\nnumerous benchmark video sequences. Both the qualitative\nand quantitative results demonstrate the superior perfor-\nmance of the proposed approach compared to several state-\nof-the-art trackers.\n1. Introduction\nTracking problems can involve data that is represented\nby multiple views 1 of various types of visual features\nincluding intensity [28], color [4], edge [14], wavelet [12]\nand texture. Exploiting these multiple sources of informa-\ntion can signiﬁcantly improve tracking performance as a\nresult of their complementary characteristics [2][14][7][18].\nGiven these cues from multiple views, an important\nproblem is how to integrate them and build an appropriate\n1Regarding the term multi-view learning [25] [29], we follow the\nmachine learning convention, in which views refer to different feature\nsubsets used to represent particular characteristics of an object.\nFigure 1. A ﬂowchart to illustrate the proposed tracking frame-\nwork.\nmodel to explore their mutual dependencies and indepen-\ndencies.\nSparse representation has recently been introduced for\ntracking [19], in which a tracking candidate is sparsely\nrepresented as a linear combination of target templates and\ntrivial templates. In particle ﬁlter-based tracking methods,\nparticles around the current state of the target are randomly\nsampled according to a zero-mean Gaussian distribution.\nEach particle shares dependencies with other particles.\nMulti-task learning aims to improve the performance of\nmultiple related tasks by exploiting the intrinsic relation-\nship among them. In [35], learning the representation of\neach particle is viewed as an individual task and a multi-task\nlearning with joint sparsity for all particles is employed.\nHowever, they assume that all tasks share a common set of\nfeatures, which generally does not hold in visual tracking\napplications, since outlier tasks often exist. For example,\na small number of particles sampled far away from the\nmajority of particles may have little overlap with other parti-\ncles and will be considered as outliers. In addition, [19],\n[35] only use the intensity feature to model the appearance\nchange of the target. The intensity appearance model with\nℓ1 minimization is very robust to partial occlusion, noise,\nand other tracking challenges [19].\nHowever, it is very\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.86\n649\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

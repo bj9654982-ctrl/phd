@@ -1,0 +1,42 @@
+{
+  "number": 164,
+  "title": "Real-time 'Actor-Critic' Tracking",
+  "year": 2018,
+  "authors": [
+    "Chen",
+    "Boyu and Wang",
+    "Dong and Li",
+    "Peixia and Wang",
+    "Shuang and Lu",
+    "Huchuan"
+  ],
+  "venue": "ECCV",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Boyu_Chen_Real-time_Actor-Critic_Tracking_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Boyu_Chen_Real-time_Actor-Critic_Tracking_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Boyu_Chen_Real-time_Actor-Critic_Tracking_ECCV_2018_paper.pdf",
+      "bytes": 1225261,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\164_2018_Real-time_'Actor-Critic'_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Boyu_Chen_Real-time_Actor-Critic_Tracking_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Boyu_Chen_Real-time_Actor-Critic_Tracking_ECCV_2018_paper.pdf",
+  "bytes": 1225261,
+  "sha256": "b8c185da1933e18d9c5d1504c4dd7393d2eb186e261a4ad4daa28dd10b55286e",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "Real-time 'Actor-Critic' Tracking",
+  "first_page_text": "Real-time ‘Actor-Critic’ Tracking\nBoyu Chen1[0000−0003−2397−7669], Dong Wang1∗[0000−0002−6976−4004], Peixia\nLi1[0000−0001−6167−5309], Shuang Wang2[0000−0002−6462−6040], and Huchuan\nLu1[0000−0002−6668−9758]\n1 School of Information and Communication Engineering,\nDalian University of Technology, China\n2 Alibaba Group, China\n∗Corresponding Author\nbychen@mail.dlut.edu.cn, wdice@dlut.edu.cn,\npxli@mail.dlut.edu.cn, uu.ws@alibaba-inc.com,\nlhchuan@dlut.edu.cn\nAbstract. In this work, we propose a novel tracking algorithm with real-time\nperformance based on the ‘Actor-Critic’ framework. This framework consists of\ntwo major components: ‘Actor’ and ‘Critic’. The ‘Actor’ model aims to infer the\noptimal choice in a continuous action space, which directly makes the tracker\nmove the bounding box to the object’s location in the current frame. For ofﬂine\ntraining, the ‘Critic’ model is introduced to form a ‘Actor-Critic’ framework with\nreinforcement learning and outputs a Q-value to guide the learning process of\nboth ‘Actor’ and ‘Critic’ deep networks. Then, we modify the original deep de-\nterministic policy gradient algorithm to effectively train our ‘Actor-Critic’ model\nfor the tracking task. For online tracking, the ‘Actor’ model provides a dynamic\nsearch strategy to locate the tracked object efﬁciently and the ‘Critic’ model acts\nas a veriﬁcation module to make our tracker more robust. To the best of our\nknowledge, this work is the ﬁrst attempt to exploit the continuous action and\n‘Actor-Critic’ framework for visual tracking. Extensive experimental results on\npopular benchmarks demonstrate that the proposed tracker performs favorably\nagainst many state-of-the-art methods, with real-time performance.\nKeywords: Visual tracking, Real-time tracking, Reinforcement learning\n1\nIntroduction\nVisual tracking aims to locate the target speciﬁed in the initial frame, which has many\nrealistic applications such as video surveillance, augment reality and behavior analysis.\nIn spite of many efforts having been done [1–3], it is still a challenge task due to many\nfactors such as deformation, illumination change, rotation, occlusion, to name a few.\nDeep-learning-based tracking algorithms have signiﬁcantly improved the tracking\nperformance in recent years [4–7]. The pre-trained convolutional neural networks (e.g.,\nAlexNet, VGG-16 and VGG-M) are usually adopted to obtain rich feature representa-\ntion for robust tracking. Among these methods, the MDNet tracker [5] achieves top-\nranked performance in popular benchmarks (such as OTB-100 [8] and VOT2015 [9]).\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

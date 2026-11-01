@@ -1,0 +1,41 @@
+{
+  "number": 111,
+  "title": "Object Tracking by Reconstruction With View-Specific Discriminative Correlation Filters",
+  "year": 2019,
+  "authors": [
+    "Ugur Kart",
+    "Alan Lukezic",
+    "Matej Kristan",
+    "Joni-Kristian Kamarainen",
+    "Jiri Matas"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2019/html/Kart_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlation_Filters_CVPR_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Kart_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlation_Filters_CVPR_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Kart_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlation_Filters_CVPR_2019_paper.pdf",
+      "bytes": 1467901,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\111_2019_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlatio.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Kart_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlation_Filters_CVPR_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Kart_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlation_Filters_CVPR_2019_paper.pdf",
+  "bytes": 1467901,
+  "sha256": "f6a8c98caf05e8f59a4636d05cc2c10a0e024fd87f24aed360dda5afe1350c39",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Object Tracking by Reconstruction With View-Specific Discriminative Correlation Filters",
+  "first_page_text": "Object Tracking by Reconstruction with View-Speciﬁc Discriminative\nCorrelation Filters\nU˘gur Kart⋆, Alan Lukeˇziˇc†, Matej Kristan†, Joni-Kristian K¨am¨ar¨ainen⋆,Jiˇr´ı Matas‡\n⋆Laboratory of Signal Processing, Tampere University, Finland\n† Faculty of Computer and Information Science, University of Ljubljana, Slovenia\n‡ Faculty of Electrical Engineering, Czech Technical University in Prague, Czech Republic\n{ugur.kart,joni.kamarainen}@tuni.fi\n{alan.lukezic,matej.kristan}@fri.uni-lj.si\nmatas@cmp.felk.cvut.cz\nAbstract\nStandard RGB-D trackers treat the target as a 2D struc-\nture, which makes modelling appearance changes related\neven to out-of-plane rotation challenging. This limitation is\naddressed by the proposed long-term RGB-D tracker called\nOTR – Object Tracking by Reconstruction. OTR performs\nonline 3D target reconstruction to facilitate robust learn-\ning of a set of view-speciﬁc discriminative correlation ﬁlters\n(DCFs). The 3D reconstruction supports two performance-\nenhancing features: (i) generation of an accurate spatial\nsupport for constrained DCF learning from its 2D pro-\njection and (ii) point-cloud based estimation of 3D pose\nchange for selection and storage of view-speciﬁc DCFs\nwhich robustly localize the target after out-of-view rotation\nor heavy occlusion. Extensive evaluation on the Princeton\nRGB-D tracking and STC Benchmarks shows OTR outper-\nforms the state-of-the-art by a large margin.\n1. Introduction\nVisual object tracking (VOT) is one of the core prob-\nlems in computer vision; it has many applications [18, 8].\nThe ﬁeld has progressed rapidly, fueled by the availabil-\nity of large and diverse datasets [39, 34] and the annual\nVOT challenge [22, 23]. Until recently, tracking research\nhas focused on RGB videos, largely neglecting RGB-D\n(rgb+depth) tracking as obtaining a reliable depth map at\nvideo frame rates has not been possible without expensive\nhardware. In the last few years, depth sensors have become\nwidely accessible, which has lead to a signiﬁcant increase of\nRGB-D tracking related work [6, 1, 26]. Depth provides im-\nportant cues for tracking since it simpliﬁes reasoning about\nocclusions and facilitates depth-based object segmentation.\nProgress in RGB-D tracking has been further boosted by\nLocalization\n& re-detection\nUpdate\nOTR\nCSR-rgbd++\n 15 \n 81 \n 191 \n2D object model\nView1\nCorrelation ﬁlter\nColor\nDepth\nView2 View3\n3D object pre-image\nPosition initialization\n& region selection\nDCF constraint\ngeneration\nFigure 1. The OTR – Object Tracking by Reconstruction – ob-\nject model consists of a set of 2D view-speciﬁc DCFs and of an\napproximate 3D object reconstruction. The OTR thus copes well\nwith out-of-view rotation with a signiﬁcant aspect change, while a\nstate-of-the-art tracker CSR-rgbd++ [19] drifts and fails.\nthe emergence of standard datasets and evaluation proto-\ncols [35, 40].\nIn RGB-D tracking, direct extensions of RGB methods\nby adding the D-channel as an additional input dimension\nhave achieved considerable success. In particular, discrimi-\nnative correlation ﬁlter (DCF) based methods have shown\nexcellent performance on the Princeton RGB-D tracking\nbenchmark [35], conﬁrming the reputation gained on RGB\nbenchmarks [22, 23, 19, 20, 6, 1].\nFurthermore, DCFs\nare efﬁcient in both learning of the visual target appear-\nance model and in target localization, which are both im-\nplemented by FFT, running in near real time on a standard\nCPU.\nA major limitation of the standard RGB and RGB-D\ntrackers, regardless of the actual method (e.g. DCF [4],\nSiamese deep nets [2], Mean shift [9], Lucas Kanade [27]),\n1339\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.889,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

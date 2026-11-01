@@ -1,0 +1,44 @@
+{
+  "number": 238,
+  "title": "ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking",
+  "year": 2025,
+  "authors": [
+    "Xiaokun Feng",
+    "Shiyu Hu",
+    "Xuchen Li",
+    "Dailing Zhang",
+    "Meiqi Wu",
+    "Jing Zhang",
+    "Xiaotang Chen",
+    "Kaiqi Huang"
+  ],
+  "venue": "ICCV",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.pdf",
+      "bytes": 19786181,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\238_2025_ATCTrack__Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_V.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.pdf",
+  "bytes": 19786181,
+  "sha256": "10e6f0f67224990a73421bdce3872af3c24d5b11df411dd38177b4280da3b741",
+  "version": "会议官方开放版本",
+  "pages": 12,
+  "pdf_title": "ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking",
+  "first_page_text": "ATCTrack: Aligning Target-Context Cues with Dynamic Target States\nfor Robust Vision-Language Tracking\nXiaokun Feng1,2*\nShiyu Hu3*\nXuchen Li1,2,4\nDailing Zhang1,2\nMeiqi Wu2\nJing Zhang2\nXiaotang Chen1,2\nKaiqi Huang1,2 †\n1School of Artiﬁcial Intelligence, UCAS\n2The Key Laboratory of Cognition and Decision Intelligence for Complex Systems, CASIA\n3School of Physical and Mathematical Sciences, NTU 4ZGCA\nAbstract\nVision-language tracking aims to locate the target object\nin the video sequence using a template patch and a lan-\nguage description provided in the initial frame. To achieve\nrobust tracking, especially in complex long-term scenarios\nthat reﬂect real-world conditions as recently highlighted by\nMGIT, it is essential not only to characterize the target fea-\ntures but also to utilize the context features related to the\ntarget. However, the visual and textual target-context cues\nderived from the initial prompts generally align only with\nthe initial target state. Due to their dynamic nature, tar-\nget states are constantly changing, particularly in complex\nlong-term sequences. It is intractable for these cues to con-\ntinuously guide Vision-Language Trackers (VLTs). Further-\nmore, for the text prompts with diverse expressions, our\nexperiments reveal that existing VLTs struggle to discern\nwhich words pertain to the target or the context, compli-\ncating the utilization of textual cues.\nIn this work, we\npresent a novel tracker named ATCTrack, which can ob-\ntain multimodal cues Aligned with the dynamic target states\nthrough comprehensive Target-Context feature modeling,\nthereby achieving robust tracking. Speciﬁcally, (1) for the\nvisual modality, we propose an effective temporal visual\ntarget-context modeling approach that provides the tracker\nwith timely visual cues. (2) For the textual modality, we\nachieve precise target words identiﬁcation solely based on\ntextual content, and design an innovative context words\ncalibration method to adaptively utilize auxiliary context\nwords.\n(3) We conduct extensive experiments on main-\nstream benchmarks and ATCTrack achieves a new SOTA\nperformance.\nThe code and models will be released at:\nhttps://github.com/XiaokunFeng/ATCTrack.\n*Equal Contribution\n†Corresponding authors\n(a)\nTarget state\nTimely visual target-context feature\nDedicated textual target-\ncontext words\nThe basketball\nplayer in yellow\nwho is holding the \nred ball.\n(b)\nTime\nAligned\nTemplate patch\nLanguage description\nTarget\nContext\nThe basketball player in yellow who is holding the red ball.\nTarget-related text\nContext-related text\nInitial prompts（static）\nTracking sequence (dynamic)\nIntractable\nTime\nAmbiguous\nThe basketball\nplayer in yellow\nwho is holding\nthe red ball\nFigure 1. (a) Limitations of initially given prompts (i.e., the tem-\nplate patch and language description). Despite containing certain\nmultimodal target-context cues, these static initial prompts are in-\ntractable for continuously guiding the tracker in dynamic tracking\nsequences. Particularly, the objects corresponding to the target-\nrelated text and context-related text can be ambiguous, which may\nmislead the tracker. (b) Our key insights lie in providing mul-\ntimodal target-context cues aligned with the dynamic target\nstates. For the visual modality, we model timely visual target-\ncontext features to adapt to dynamic changes.\nFor the textual\nmodality, we achieve precise awareness of target words and miti-\ngate the potential misleading effects of context words.\n1. Introduction\nGiven a template patch and a language description in the ini-\ntial frame, Vision-Language Tracking (VLT) task [49] aims\nto locate a user-deﬁned object in a video sequence. Har-\nnessing the complementary advantages of multiple modal-\nities [40], recent studies, exempliﬁed by MGIT [33], seek\nto explore the performance of Vision-Language Trackers\n(VLTs) in complex long-term sequences. These scenar-\nios, encompassing multifaceted spatiotemporal and causal\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19850\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

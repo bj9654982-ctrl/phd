@@ -1,0 +1,364 @@
+{
+  "number": 90,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Multi-kernel Correlation Filter for Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          19
+        ]
+      ],
+      "date-time": "2026-09-19T20:57:03Z",
+      "timestamp": 1789851423115,
+      "version": "4.0.1"
+    },
+    "reference-count": 37,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2015.348",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2016-02-19T23:23:49Z",
+      "timestamp": 1455924229000
+    },
+    "page": "3038-3046",
+    "source": "Crossref",
+    "is-referenced-by-count": 129,
+    "title": [
+      "Multi-kernel Correlation Filter for Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ming",
+        "family": "Tang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiayi",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2007.4408875"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2189580"
+      },
+      {
+        "key": "ref31",
+        "author": "schölkopf",
+        "year": "2002",
+        "journal-title": "Learning with kernels"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0954-898X_5_4_006"
+      },
+      {
+        "key": "ref37",
+        "first-page": "242",
+        "article-title": "Robust visual tracking via multiple kernel boosting with afnity constraints",
+        "volume": "24",
+        "author": "yang",
+        "year": "2014",
+        "journal-title": "IEEE T-CSVT"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Multiple source data fusion via sparse representation for robust visual tracking",
+        "author": "wu",
+        "year": "2011",
+        "journal-title": "FUSION"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459183"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.381"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459169"
+      },
+      {
+        "key": "ref12",
+        "author": "gray",
+        "year": "2006",
+        "journal-title": "Toeplitz and circulant matrices A review"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.343"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Fast training of pose detectors in the fourier domain",
+        "author": "henriques",
+        "year": "2014",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10599-4_11"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511541087"
+      },
+      {
+        "key": "ref28",
+        "first-page": "2491",
+        "article-title": "SimpleMKL",
+        "volume": "9",
+        "author": "rakotomamonjy",
+        "year": "2008",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Extended lucas-kanade tracking",
+        "author": "oron",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.297"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref29",
+        "first-page": "131",
+        "article-title": "Regularized least-squares classification",
+        "author": "rifkin",
+        "year": "2003",
+        "journal-title": "Nato Science Series Sub Series III Computer and Systems Sciences"
+      },
+      {
+        "key": "ref5",
+        "article-title": "l2 regularization for learning kernels",
+        "author": "cortes",
+        "year": "2009",
+        "journal-title": "UAI"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2300479"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VISI.0000011205.11775.fd"
+      },
+      {
+        "key": "ref9",
+        "author": "fletcher",
+        "year": "1987",
+        "journal-title": "Practical Methods of Optimization"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10590-1_25"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bioinformatics/bth294"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.156"
+      },
+      {
+        "key": "ref24",
+        "author": "luenberger",
+        "year": "1973",
+        "journal-title": "Introduction to Linear and Nonlinear Programming"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.446"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_8"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01893414"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Santiago, Chile",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            13
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7407725/7410356/07410705.pdf?arnumber=7410705",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          23
+        ]
+      ],
+      "date-time": "2017-03-23T17:48:11Z",
+      "timestamp": 1490291291000
+    },
+    "score": 45.85629,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7410705/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "references-count": 37,
+    "URL": "https://doi.org/10.1109/iccv.2015.348",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    }
+  }
+}

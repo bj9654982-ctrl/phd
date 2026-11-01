@@ -1,0 +1,39 @@
+{
+  "number": 202,
+  "title": "Representation Learning for Visual Object Tracking by Masked Appearance Transfer",
+  "year": 2023,
+  "authors": [
+    "Haojie Zhao",
+    "Dong Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "自监督训练与表征迁移",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transfer_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transfer_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transfer_CVPR_2023_paper.pdf",
+      "bytes": 2985527,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\202_2023_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transf.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transfer_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transfer_CVPR_2023_paper.pdf",
+  "bytes": 2985527,
+  "sha256": "d1e90b2f2863cbdc22a7a0c06660989da5f2a3f1e0afab4d67cc77e14743a8b2",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Representation Learning for Visual Object Tracking by Masked Appearance Transfer",
+  "first_page_text": "Representation Learning for Visual Object Tracking\nby Masked Appearance Transfer\nHaojie Zhao1\nDong Wang1\nHuchuan Lu1,2*\n1Dalian University of Technology, China\n2Peng Cheng Laboratory, China\nhaojie zhao@mail.dlut.edu.cn\n{wdice,lhchuan}@dlut.edu.cn\nAbstract\nVisual representation plays an important role in visual\nobject tracking. However, few works study the tracking-\nspecified representation learning method. Most trackers\ndirectly use ImageNet pre-trained representations. In this\npaper, we propose masked appearance transfer, a simple\nbut effective representation learning method for tracking,\nbased on an encoder-decoder architecture. First, we en-\ncode the visual appearances of the template and search\nregion jointly, and then we decode them separately. Dur-\ning decoding, the original search region image is recon-\nstructed. However, for the template, we make the decoder\nreconstruct the target appearance within the search region.\nBy this target appearance transfer, the tracking-specified\nrepresentations are learned. We randomly mask out the\ninputs, thereby making the learned representations more dis-\ncriminative. For sufficient evaluation, we design a simple\nand lightweight tracker that can evaluate the representa-\ntion for both target localization and box regression. Exten-\nsive experiments show that the proposed method is effec-\ntive, and the learned representations can enable the simple\ntracker to obtain state-of-the-art performance on six datasets.\nhttps://github.com/difhnp/MAT\n1. Introduction\nVisual object tracking is a computer vision task that\nhighly depends on the quality of visual representation [38].\nOn this basis, deep representations are adopted for track-\ning and successfully boost the development of tracking al-\ngorithms in previous years. Unlike some primitive track-\ners (e.g., [10, 28, 37]) that use ready-made deep features,\nSiamFC [1] integrates a convolutional neural network (CNN)\ninto the tracking model and learns task-specified representa-\ntions by end-to-end tuning. From here on, end-to-end model\ntraining becomes a common practice in siamese-based track-\ning methods. The assumption of the siamese tracker is that\n*Corresponding author: Huchuan Lu, lhchuan@dlut.edu.cn\nEncoder\nDecoder\nImage\nImage\n(a) Masked autoencoder.\nEncoder\nDecoder\nDecoder\nSearch region\nSearch region\nTemplate\nAppearance in Search\nShare \nweights\n��\n��\n����\n�\n�\n(b) Masked appearance transfer.\nFigure 1. Comparison between the masked autoencoder [17] and\nour masked appearance transfer that uses a nontrivial learning\nobjective.\ndifferent visual appearances of the same target can be em-\nbedded to have similar representations, and tracking can be\nachieved by similarity matching. Based on this assumption,\nthe learning objective aims to push the representations of the\nsame target to be close to each other.\nAlthough we have a clear learning objective, research on\nthe effective representation learning methods for siamese\ntracking is still lacking. The common practice is to sim-\nply fine-tune the ImageNet [33] pre-trained representations.\nHowever, they are learned for classification rather than track-\ning. High ImageNet accuracy does not indicate good per-\nformance in visual object tracking [43]. Without good rep-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n18696\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

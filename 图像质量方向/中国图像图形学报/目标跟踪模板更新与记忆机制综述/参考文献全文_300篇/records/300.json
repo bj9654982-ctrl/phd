@@ -1,0 +1,39 @@
+{
+  "number": 300,
+  "title": "Is Tracking Really More Challenging in First Person Egocentric Vision?",
+  "year": 2025,
+  "authors": [
+    "Matteo Dunnhofer",
+    "Zaira Manigrasso",
+    "Christian Micheloni"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Dunnhofer_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision_ICCV_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Dunnhofer_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision_ICCV_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Dunnhofer_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision_ICCV_2025_paper.pdf",
+      "bytes": 6018641,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\300_2025_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Dunnhofer_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision_ICCV_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Dunnhofer_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision_ICCV_2025_paper.pdf",
+  "bytes": 6018641,
+  "sha256": "0479ff6a798686af4a8b002b525ca65f2c7b1495f1fcc692e9b74325e76c5a65",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Is Tracking Really More Challenging in First Person Egocentric Vision?",
+  "first_page_text": "Is Tracking really more challenging in First Person Egocentric Vision?\nMatteo Dunnhofer1,2\nZaira Manigrasso1\nChristian Micheloni1\n1University of Udine, Italy\n2York University, Canada\nFigure 1. We isolate the real impact of first person vision (FPV) in object tracking evaluation. (a) Previous benchmarks claimed\nthe challenges of tracking in FPV by comparing algorithm performance on third person vision (TPV) datasets having mismatched object\ncategories and contexts. This inconsistency makes it difficult to isolate the true impact of the FPV viewpoint. (b) This paper addresses this\nproblem by directly evaluating object tracking in synchronized FPV and TPV videos of the same human-object activity.\nAbstract\nVisual object tracking and segmentation are becoming fun-\ndamental tasks for understanding human activities in ego-\ncentric vision. Recent research has benchmarked state-of-\nthe-art methods and concluded that first person egocentric\nvision presents challenges compared to previously studied\ndomains. However, these claims are based on evaluations\nconducted across significantly different scenarios. Many of\nthe challenging characteristics attributed to egocentric vi-\nsion are also present in third person videos of human-object\nactivities. This raises a critical question: how much of the\nobserved performance drop stems from the unique first per-\nson viewpoint inherent to egocentric vision versus the do-\nmain of human-object activities? To address this question,\nwe introduce a new benchmark study designed to disentan-\ngle such factors. Our evaluation strategy enables a more\nprecise separation of challenges related to the first per-\nson perspective from those linked to the broader domain\nof human-object activity understanding. By doing so, we\nprovide deeper insights into the true sources of difficulty in\negocentric tracking and segmentation, facilitating more tar-\ngeted advancements on this task.\n1. Introduction\nRecent studies [6, 10, 49] have highlighted the importance\nof visual object tracking and segmentation [28, 43, 53] for\nunderstanding activities in egocentric first person vision\n(FPV). The instance-based localization of objects within 2D\negocentric video frames is an intermediate task for high-\nlevel vision-based assistive systems, including 3D object lo-\ncalization [17, 45, 61], episodic memory [15, 37], and hand-\nobject interaction understanding [6, 10, 14].\nDespite its promising applications, 2D visual object\ntracking remains an open problem in egocentric vision. This\nlimitation stems from the early stage of research in this do-\nmain, where the unique challenges of this problem are not\nyet fully understood. Indeed, recent benchmarking studies\n[6, 10, 49] scratched the surface of the problem by eval-\nuating generalistic state-of-the-art methodologies on a set\nof egocentric videos to assess their effectiveness. These\nstudies concluded that object tracking in FPV poses greater\nchallenges than the more general settings found in estab-\nlished benchmarks [13, 20, 28, 43, 55], and that current\ntracking models lack the necessary mechanisms to effec-\ntively handle these difficulties.\nA significant issue with these claims lies in the fact that\nthe supporting comparisons have been conducted in vastly\ndifferent domains, with limited alignment in terms of ob-\nject categories, motion patterns, interactions, and contex-\ntual characteristics. For example, the TREK-150 [10] and\nVISOR [6] benchmarks were introduced to evaluate vi-\nsual object tracking (VOT) and video object segmentation\n(VOS) algorithms exclusively within kitchen environments,\nwhereas the EgoTracks [49] benchmark, although cover-\ning a broader range of object categories and scenarios, still\nlacks alignment with the objects and contexts typically fea-\ntured in widely used benchmarks [13, 20, 28, 40, 43, 53].\nMany works in egocentric vision [10, 15, 16, 49] refer\nto these datasets as representations of third person vision\n(TPV) scenarios, where target objects are passively ob-\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n5879\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,49 @@
+{
+  "number": 217,
+  "title": "General Compression Framework for Efficient Transformer Object Tracking",
+  "year": 2025,
+  "authors": [
+    "Lingyi Hong",
+    "Jinglun Li",
+    "Xinyu Zhou",
+    "Shilin Yan",
+    "Pinxue Guo",
+    "Kaixun Jiang",
+    "Zhaoyu Chen",
+    "Shuyong Gao",
+    "Runze Li",
+    "Xingdong Sheng",
+    "Wei Zhang",
+    "Hong Lu",
+    "Wenqiang Zhang"
+  ],
+  "venue": "ICCV",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Hong_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking_ICCV_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking_ICCV_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking_ICCV_2025_paper.pdf",
+      "bytes": 897678,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\217_2025_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking_ICCV_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Hong_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking_ICCV_2025_paper.pdf",
+  "bytes": 897678,
+  "sha256": "1f86f4a5a4877e793e9df61c961f2ef4b7e740b08b58e7fe7fbd582f6fcc66fb",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "General Compression Framework for Efficient Transformer Object Tracking",
+  "first_page_text": "General Compression Framework for Efficient Transformer Object Tracking\nLingyi Hong1 Jinglun Li2 Xinyu Zhou1 Shilin Yan1 Pinxue Guo2 Kaixun Jiang2 Zhaoyu Chen2\nShuyong Gao1 Runze Li3 Xingdong Sheng3 Wei Zhang1* Hong Lu1* Wenqiang Zhang1,2*\n1 Shanghai Key Lab of Intelligent Information Processing,\nCollege of Computer Science and Artificial Intelligence, Fudan University\n2 College of Intelligent Robotics and Advanced Manufacturing, Fudan University\n3 Lenovo Research\nhonglyhly@gmail.com, {weizh, honglu, wqzhang}@fudan.edu.cn\nAbstract\nPrevious works have attempted to improve tracking efficiency\nthrough lightweight architecture design or knowledge dis-\ntillation from teacher models to compact student trackers.\nHowever, these solutions often sacrifice accuracy for speed\nto a great extent, and also have the problems of complex\ntraining process and structural limitations. Thus, we pro-\npose a general model compression framework for efficient\ntransformer object tracking, named CompressTracker, to re-\nduce model size while preserving tracking accuracy. Our ap-\nproach features a novel stage division strategy that segments\nthe transformer layers of the teacher model into distinct\nstages to break the limitation of model structure. Addition-\nally, we also design a unique replacement training technique\nthat randomly substitutes specific stages in the student model\nwith those from the teacher model, as opposed to training\nthe student model in isolation. Replacement training en-\nhances the student model’s ability to replicate the teacher\nmodel’s behavior and simplifies the training process. To\nfurther forcing student model to emulate teacher model, we\nincorporate prediction guidance and stage-wise feature mim-\nicking to provide additional supervision during the teacher\nmodel’s compression process. CompressTracker is struc-\nturally agnostic, making it compatible with any transformer\narchitecture. We conduct a series of experiment to verify the\neffectiveness and generalizability of our CompressTracker.\nOur CompressTracker-SUTrack, compressed from SUTrack,\nretains about 99% performance on LaSOT (72.2% AUC)\nwhile achieves 2.42× speed up. Code is available at here.\n1. Introduction\nVisual object tracking is tasked with continuously localiz-\ning a target object across video frames based on the initial\n*Corresponding Author\nbounding box in the first frame. Transformer-based trackers\nhave achieved promising performance on well-established\nbenchmarks, their deployment on resource-restricted device\nremains a significant challenge. Developing a strong tracker\nwith high efficiency is of great significance.\nPrevious works attempt to reduce model inference cost\nthrough lightweight tracker design or knowledge transfer\nfrom teacher to student models. However, these approaches\nface several limitations. (1) Inferior Accuracy. Certain\nworks propose lightweight tracking models [4, 6, 11, 21, 31]\nor employ neural architecture search (NAS) [47] often suf-\nfer from underfitting and inferior performance because of\nthe limited number of parameters. (2) Complex Training.\nSome works [15] transfers the knowledge from a teacher\ntracker to a student model, while effective, requiring com-\nplex multi-stage and time-consuming training procedures\nand resulting in suboptimal performance. (3) Structure\nLimitation. The model reduction paradigm in [15] severely\nrestricts the structure of student to be consistent with teacher.\nThus, we introduce CompressTracker, a novel and gen-\neral model compression framework to enhance the efficiency\nof transformer tracking models, which is built upon three\ninterconnected innovations. First, to address the structure\nlimitation, we introduce the stage division strategy. Current\ndominant trackers are one-stream models [4, 11, 15, 49] with\nsequential transformer encoder layers that refine temporal\nmatching features. Given this layer-wise refinement, it be-\ncomes a natural progression to consider the model not as\na single entity but as a series of interconnected stages and\nencourage student tracker to align teacher model at each\nstage. Stage division partitions the teacher model into dis-\ntinct stages that correspond to the layers of a simpler student\nmodel. This is achieved by dividing the teacher model into\na number of stages equivalent to the student model’s lay-\ners. Each stage in the student modellearns to replicate the\nfunctional behavior of its corresponding teacher stage. This\ndivision is not merely a structural alteration but a strategic\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13427\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,374 @@
+{
+  "number": 56,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Online Robust Non-negative Dictionary Learning for Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T07:42:23Z",
+      "timestamp": 1791272543795,
+      "version": "4.1.0"
+    },
+    "reference-count": 31,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2013.87",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2014-03-07T16:30:17Z",
+      "timestamp": 1394209817000
+    },
+    "page": "657-664",
+    "source": "Crossref",
+    "is-referenced-by-count": 143,
+    "title": [
+      "Online Robust Non-negative Dictionary Learning for Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Naiyan",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jingdong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dit-Yan",
+        "family": "Yeung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "first-page": "1257",
+        "article-title": "Minimum error bounded efficient l1 tracker with occlusion detection",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "17",
+        "first-page": "19",
+        "article-title": "Online learning for matrix factorization and sparse coding",
+        "volume": "11",
+        "author": "mairal",
+        "year": "2010",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "18",
+        "first-page": "1436",
+        "article-title": "Robust visual tracking using l1 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "15",
+        "first-page": "1269",
+        "article-title": "Visual tracking decomposition",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.60"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2063576.2063676"
+      },
+      {
+        "key": "11",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "12",
+        "first-page": "49",
+        "article-title": "P-N learning: Bootstrapping binary classifiers by structural constraints",
+        "author": "kalal",
+        "year": "2011",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "21",
+        "first-page": "556",
+        "article-title": "Algorithms for non-negative matrix factorization",
+        "author": "seung",
+        "year": "2001",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1007/s11263-007-0075-7",
+        "article-title": "Incremental learning for robust visual tracking",
+        "volume": "77",
+        "author": "ross",
+        "year": "2008",
+        "journal-title": "International Journal of Computer Vision"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "crossref",
+        "first-page": "267",
+        "DOI": "10.1111/j.2517-6161.1996.tb02080.x",
+        "article-title": "Regression shrinkage and selection via the lasso",
+        "volume": "58",
+        "author": "tibshirani",
+        "year": "1996",
+        "journal-title": "Journal of the Royal Statistical Society Series B (Methodological)"
+      },
+      {
+        "key": "23",
+        "first-page": "126",
+        "article-title": "A probabilistic approach to robust matrix factorization",
+        "author": "wang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "25",
+        "first-page": "1794",
+        "article-title": "Linear spatial pyramid matching using sparse coding for image classification",
+        "author": "yang",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "27",
+        "first-page": "864",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2012.10.006"
+      },
+      {
+        "key": "29",
+        "first-page": "470",
+        "article-title": "Low-rank sparse learning for robust visual tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/78.978374"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoms/1177703732"
+      },
+      {
+        "key": "1",
+        "doi-asserted-by": "crossref",
+        "first-page": "4311",
+        "DOI": "10.1109/TSP.2006.881199",
+        "article-title": "K-SVD: An algorithm for designing overcomplete dictionaries for sparse representation",
+        "volume": "54",
+        "author": "aharon",
+        "year": "2006",
+        "journal-title": "IEEE Transactions on Signal Processing"
+      },
+      {
+        "key": "30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2012.39"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4757-3437-9"
+      },
+      {
+        "key": "31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "4",
+        "first-page": "1830",
+        "article-title": "Real time robust L1 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/NNSP.2002.1030067"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      }
+    ],
+    "event": {
+      "name": "2013 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Sydney, Australia",
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            8
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2013 IEEE International Conference on Computer Vision"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6750807/6751100/06751191.pdf?arnumber=6751191",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          8
+        ]
+      ],
+      "date-time": "2019-08-08T03:57:09Z",
+      "timestamp": 1565236629000
+    },
+    "score": 53.609776,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6751191/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1109/iccv.2013.87",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    }
+  }
+}

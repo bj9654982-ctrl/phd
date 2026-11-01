@@ -1,0 +1,564 @@
+{
+  "number": 168,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "High-Performance Long-Term Tracking With Meta-Updater",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T16:24:09Z",
+      "timestamp": 1790353449263,
+      "version": "4.1.0"
+    },
+    "reference-count": 55,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2020-06-01T00:00:00Z",
+          "timestamp": 1590969600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2020-06-01T00:00:00Z",
+          "timestamp": 1590969600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2020-06-01T00:00:00Z",
+          "timestamp": 1590969600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr42600.2020.00633",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2020-08-05T21:20:05Z",
+      "timestamp": 1596662405000
+    },
+    "page": "6297-6306",
+    "source": "Crossref",
+    "is-referenced-by-count": 265,
+    "title": [
+      "High-Performance Long-Term Tracking With Meta-Updater"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Kenan",
+        "family": "Dai",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yunhua",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianhua",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huchuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyun",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Meta-tracker: Fast and robust online adaptation for visual object trackers",
+        "author": "park",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW.2019.00190"
+      },
+      {
+        "key": "ref32",
+        "article-title": "FCLT - A fully-correlational long-term tracker",
+        "author": "lukei",
+        "year": "0",
+        "journal-title": "ACCV"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2482905"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2017.11.007"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Learning multidomain convolutional neural networks for visual tracking",
+        "author": "nam",
+        "year": "0",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-20890-5_40"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Deep learning for visual tracking: A comprehensive survey",
+        "volume": "abs 1912 535",
+        "author": "marvasti-zadeh",
+        "year": "2019",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2019.2900577"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00626"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "0",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Acquisition of localization confidence for accurate object detection",
+        "author": "jiang",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Real-time MDNet",
+        "author": "jung",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00276"
+      },
+      {
+        "key": "ref23",
+        "article-title": "The sixth visual object tracking VOT2018 challenge results",
+        "author": "kristan",
+        "year": "0",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-11009-3_5"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2797062"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Learning regression and verification networks for long-term visual tracking",
+        "volume": "abs 1809 4320",
+        "author": "zhang",
+        "year": "2018",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.108"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref52",
+        "first-page": "355",
+        "article-title": "Structured siamese network for real-time visual tracking",
+        "author": "zhang",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00058"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-642-24797-2",
+        "author": "graves",
+        "year": "2012",
+        "journal-title": "Supervised Sequence Labelling with Recurrent Neural Networks"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00508"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Re2 EMA: Regularized and reinitialized exponential moving average for target model update in object tracking",
+        "author": "huang",
+        "year": "0",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref19",
+        "article-title": "GlobalTrack: A simple and strong baseline for long-term tracking",
+        "author": "huang",
+        "year": "0",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref4",
+        "author": "chen",
+        "year": "2019",
+        "journal-title": "MMDetection Open MMLab Detection Toolbox and Benchmark"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1195991"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00100"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00480"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2017.2781304"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00247"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Cooling-Shrinking Attack: Blinding the tracker with imperceptible noises",
+        "author": "yan",
+        "year": "0",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref42",
+        "article-title": "Long-term tracking in the wild: a benchmark",
+        "author": "valmadre",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.510"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2202677"
+      }
+    ],
+    "event": {
+      "name": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Seattle, WA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            6,
+            13
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2020,
+            6,
+            19
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9142308/9156271/09156764.pdf?arnumber=9156764",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          27
+        ]
+      ],
+      "date-time": "2022-06-27T15:44:34Z",
+      "timestamp": 1656344674000
+    },
+    "score": 51.509785,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9156764/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "references-count": 55,
+    "URL": "https://doi.org/10.1109/cvpr42600.2020.00633",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    }
+  }
+}

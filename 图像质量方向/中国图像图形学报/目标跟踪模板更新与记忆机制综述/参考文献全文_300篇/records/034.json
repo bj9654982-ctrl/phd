@@ -1,0 +1,39 @@
+{
+  "number": 34,
+  "title": "GOT-10k: a large high-diversity benchmark for generic object tracking in the wild",
+  "year": 2021,
+  "authors": [
+    "Huang L",
+    "Zhao X",
+    "Huang K"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "数据集与评价设计",
+  "priority": "P1 核心精读",
+  "original_source": "https://arxiv.org/abs/1810.11981",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1810.11981",
+      "final_url": "https://arxiv.org/pdf/1810.11981",
+      "bytes": 4272676,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\034_2021_GOT-10k__a_large_high-diversity_benchmark_for_generic_object_tracking_in_the_w.pdf",
+  "download_url": "https://arxiv.org/pdf/1810.11981",
+  "requested_url": "https://arxiv.org/pdf/1810.11981",
+  "bytes": 4272676,
+  "sha256": "f6dc9b0ee917491549c29d034893259933aff649f63bf973c7609264821a0c3c",
+  "version": "arXiv公开版本；可能与正式出版版不同",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "1\nGOT-10k: A Large High-Diversity Benchmark for\nGeneric Object Tracking in the Wild\nLianghua Huang, Xin Zhao, Member, IEEE, and Kaiqi Huang, Senior Member, IEEE\nAbstract—We introduce here a large tracking database that offers an unprecedentedly wide coverage of common moving objects in\nthe wild, called GOT-10k. Speciﬁcally, GOT-10k is built upon the backbone of WordNet structure [1] and it populates the majority of over\n560 classes of moving objects and 87 motion patterns, magnitudes wider than the most recent similar-scale counterparts [19], [20],\n[23], [26]. By releasing the large high-diversity database, we aim to provide a uniﬁed training and evaluation platform for the\ndevelopment of class-agnostic, generic purposed short-term trackers. The features of GOT-10k and the contributions of this paper are\nsummarized in the following: (1) GOT-10k offers over 10,000 video segments with more than 1.5 million manually labeled bounding\nboxes, enabling uniﬁed training and stable evaluation of deep trackers. (2) GOT-10k is by far the ﬁrst video trajectory dataset that uses\nthe semantic hierarchy of WordNet to guide class population, which ensures a comprehensive and relatively unbiased coverage of\ndiverse moving objects. (3) For the ﬁrst time, GOT-10k introduces the one-shot protocol for tracker evaluation, where the training and\ntest classes are zero-overlapped. The protocol avoids biased evaluation results towards familiar objects and it promotes generalization\nin tracker development. (4) GOT-10k offers additional labels such as motion classes and object visible ratios, facilitating the\ndevelopment of motion-aware and occlusion-aware trackers. (5) We conduct extensive tracking experiments with 39 typical tracking\nalgorithms and their variants on GOT-10k and analyze their results in this paper. (6) Finally, we develop a comprehensive platform for\nthe tracking community that offers full-featured evaluation toolkits, an online evaluation server, and a responsive leaderboard. The\nannotations of GOT-10k’s test data are kept private to avoid tuning parameters on it. The database, toolkits, evaluation server and\nbaseline results are available at http://got-10k.aitestunion.com.\nIndex Terms—Object tracking, benchmark dataset, performance evaluation.\n!\n1\nINTRODUCTION\nG\nENERIC object tracking refers to the task of sequentially\nlocating a moving object in a video, without accessing\nto the prior knowledge about the object (e.g., the object\nclass) as well as its surrounding environment [8], [12], [21].\nThe task is highly challenging not only because of the class-\nagnostic nature in its deﬁnition, but also due to the unpre-\ndictable appearance changes during tracking, such as occlu-\nsion, object deformation, and background distraction. In real\nlife, generic object tracking has a wide range of applications\nin diverse ﬁelds [44] such as in surveillance [36], augmented\nreality [42], biology [43] and robotics [41]. Moreover, generic\nobject tracking requires very few supervision during the\ntracking process. By exploring this, recent advances [31],\n[64] have further shown its potential in actively mining the\ntraining samples in unlabeled videos, paving the way for\nthe more automatic learning system.\nBy deﬁnition, a generic object tracker has two important\nqualities: (1) It applies to a wide range of object classes; and\n(2) It is class-agnostic, meaning the algorithm also works\nfor unseen classes of objects. However, such qualities have\n•\nL. Huang and X. Zhao are with the Center for Research on Intelligent\nSystem and Engineering, Institute of Automation, Chinese Academy\nof Sciences, Beijing 100190, China, and also with the University\nof Chinese Academy of Sciences, Beijing 100049, China. E-mail:\nhuanglianghua2017@ia.ac.cn, xzhao@nlpr.ia.ac.cn.\n•\nK. Huang is with the Center for Research on Intelligent System and\nEngineering and National Laboratory of Pattern Recognition, Institute\nof Automation, Chinese Academy of Sciences, Beijing 100190, China,\nand also with the University of Chinese Academy of Sciences, Beijing\n100049, China, and the CAS Center for Excellence in Brain Science and\nIntelligence Technology, 100190 (kqhuang@nlpr.ia.ac.cn).\nnot been fully explored in recent large-scale tracking bench-\nmarks [19], [20]. Table 1 compares current public tracking\ndatasets in terms of scale, diversity, experiment setting, and\nothers. We mainly compare our work with two recent large-\nscale datasets: LaSOT [20] and TrackingNet [19], since other\ndatasets are of small scales with no available training set.\nAlthough both datasets provide uniﬁed large training and\ntest data, their manually deﬁned object classes (21 and 70\nclasses, respectively) may not be representative enough for\ndiverse real-world moving objects. Besides, in both datasets,\nthe training and test object classes are fully overlapped\nwith close distribution, leading to biased evaluation results\ntowards familiar object classes, and the performance on\nthem could be hard to be generalized to a wide range of\nunseen objects.\nThis work presents a large uniﬁed tracking benchmark\nthat solves the above problems by (1) Using WordNet [1]\nas the backbone to guide a comprehensive and unbiased\npopulation of object classes, and (2) Following the one-shot\nprotocol to avoid biased evaluation results. We summarize\nthe contributions of this work in the following.\n•\nWe build a large-scale database named GOT-10k\nfor short-term generic object tracking, which collects\nover 10,000 video segments and manually anno-\ntates more than 1.5 million high-precision bounding\nboxes. The database enables uniﬁed training and fair\ncomparison of deep trackers. Representative screen-\nshots of GOT-10k are visualized in Figure 1.\n•\nGOT-10k populates 563 object classes and 87 motion\nforms from WordNet [1], offering magnitudes wider\narXiv:1810.11981v3  [cs.CV]  20 Nov 2019\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

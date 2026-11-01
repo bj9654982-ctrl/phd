@@ -1,0 +1,550 @@
+{
+  "number": 170,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "ROAM: Recurrently Optimizing Tracking Model",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2026-10-13T16:59:38Z",
+      "timestamp": 1791910778186,
+      "version": "4.3.4"
+    },
+    "reference-count": 53,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2020-06-01T00:00:00Z",
+          "timestamp": 1590969600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2020-06-01T00:00:00Z",
+          "timestamp": 1590969600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2020-06-01T00:00:00Z",
+          "timestamp": 1590969600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr42600.2020.00675",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          8,
+          5
+        ]
+      ],
+      "date-time": "2020-08-05T21:20:05Z",
+      "timestamp": 1596662405000
+    },
+    "page": "6717-6726",
+    "source": "Crossref",
+    "is-referenced-by-count": 122,
+    "title": [
+      "ROAM: Recurrently Optimizing Tracking Model"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Tianyu",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pengfei",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Runbo",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hua",
+        "family": "Chai",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antoni B.",
+        "family": "Chan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Meta Learning Shared Hierarchies",
+        "author": "schulman",
+        "year": "2018",
+        "journal-title": "ArXiv"
+      },
+      {
+        "key": "ref38",
+        "author": "schmidhuber",
+        "year": "1987",
+        "journal-title": "Evolutionary principles in self-referential learning on learning how to learn The meta-meta-meta&#x2026;-hook"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN.1992.287172"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Meta Networks",
+        "author": "munkhdalai",
+        "year": "0",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref30",
+        "article-title": "TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild",
+        "author": "müller",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2577031"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Optimization As a Model for Few-Shot Learning",
+        "author": "ravi",
+        "year": "0",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Automatic Differentiation in PyTorch",
+        "author": "paszke",
+        "year": "0",
+        "journal-title": "NeurIPS workshop"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Meta-Tracker: Fast and Robust Online Adaptation for Visual Object Trackers",
+        "author": "park",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Learning Gradient Descent: Better Generalization and Longer Horizons",
+        "author": "lv",
+        "year": "0",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Discriminative Correlation Filter with Channel and Spatial Reliability",
+        "author": "lukeži?",
+        "year": "0",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref2",
+        "article-title": "On the Optimization of a Synaptic Learning Rule",
+        "author": "bengio",
+        "year": "0",
+        "journal-title": "Preprints Conf Optimality in Artificial and Biological Neural Networks"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Learning to Learn by Gradient Descent by Gradient Descent",
+        "author": "andrychowicz",
+        "year": "0",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2017.230"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3065386"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01264-9_22"
+      },
+      {
+        "key": "ref25",
+        "first-page": "740",
+        "article-title": "Microsoft COCO: Common Objects in Context",
+        "author": "lin",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2929034"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Structured Siamese Network for Real-Time Visual Tracking",
+        "author": "zhang",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref53",
+        "article-title": "Distractor-aware Siamese Networks for Visual Object Tracking",
+        "author": "zhu",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Very Deep Convolutional Networks for Large-scale Image Recognition",
+        "author": "simonyan",
+        "year": "0",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks",
+        "author": "finn",
+        "year": "0",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Learning to Track at 100 FPS with Deep Regression Networks",
+        "author": "held",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref18",
+        "author": "kingma",
+        "year": "2014",
+        "journal-title": "Adam A method for stochastic optimization"
+      },
+      {
+        "key": "ref19",
+        "article-title": "The Visual Object Tracking VOT2016 Challenge Results",
+        "author": "kristan",
+        "year": "0",
+        "journal-title": "ECCV VOT Workshop"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Fully-Convolutional Siamese Networks for Object Tracking",
+        "author": "bertinetto",
+        "year": "0",
+        "journal-title": "ECCV VOT Workshop"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3115/v1/D14-1179"
+      },
+      {
+        "key": "ref5",
+        "article-title": "YouTube-BoundingBoxes: A Large High-Precision Human-Annotated Data Set for Object Detection in Video Esteban Real bear dog airplane zebra",
+        "author": "brain",
+        "year": "0",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00100"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Learning Dynamic Memory Networks for Object Tracking",
+        "author": "yang",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Learned Optimizers that Scale and Generalize",
+        "author": "wichrowska",
+        "year": "0",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00140"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2017.235"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00937"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      }
+    ],
+    "event": {
+      "name": "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Seattle, WA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            6,
+            13
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2020,
+            6,
+            19
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9142308/9156271/09156508.pdf?arnumber=9156508",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          27
+        ]
+      ],
+      "date-time": "2022-06-27T15:39:43Z",
+      "timestamp": 1656344383000
+    },
+    "score": 56.9769,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9156508/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    },
+    "references-count": 53,
+    "URL": "https://doi.org/10.1109/cvpr42600.2020.00675",
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          6
+        ]
+      ]
+    }
+  }
+}

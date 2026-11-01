@@ -1,0 +1,525 @@
+{
+  "number": 107,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Multi-cue Correlation Filters for Robust Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T16:25:28Z",
+      "timestamp": 1791303928019,
+      "version": "4.1.0"
+    },
+    "reference-count": 57,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2018.00509",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          17
+        ]
+      ],
+      "date-time": "2018-12-17T20:49:37Z",
+      "timestamp": 1545079777000
+    },
+    "page": "4844-4853",
+    "source": "Crossref",
+    "is-referenced-by-count": 405,
+    "title": [
+      "Multi-cue Correlation Filters for Robust Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ning",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wengang",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qi",
+        "family": "Tian",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richang",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Meng",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Houqiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2014"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.152"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.515"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298823"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.462"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Modeling and propagating cnns in a tree structure for visual tracking",
+        "author": "nam",
+        "year": "2016"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.467"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2482905"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299124"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref1",
+        "article-title": "A superior tracking approach: Building a strong tracker through fusion",
+        "author": "bailer",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref21",
+        "author": "kristan",
+        "year": "2016",
+        "journal-title": "The visual object tracking vot2016 challenge results"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Multihypothesis trajectory analysis for robust visual tracking",
+        "author": "lee",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref26",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2017.2686601"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.148"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Meem: robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.512"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.421"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Fast visual tracking via dense spatio-temporal context learning",
+        "author": "zhang",
+        "year": "2013",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2013.2277800"
+      },
+      {
+        "key": "ref52",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.159"
+      },
+      {
+        "key": "ref11",
+        "author": "danelljan",
+        "year": "2015",
+        "journal-title": "Convolutional features for correlation filter based visual tracking"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "Highspeed tracking with kernelized correlation filters",
+        "volume": "37",
+        "author": "henriques",
+        "year": "2015",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2016.2542699"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.513"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.468"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2009.2019809"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Reliable re-detection for longterm tracking",
+        "author": "wang",
+        "year": "2018",
+        "journal-title": "TCSVT"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref42",
+        "article-title": "Matconvnet: Convolutional neural networks for matlab",
+        "author": "vedaldi",
+        "year": "2014",
+        "journal-title": "ACM MM"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Ensemble-based tracking: Aggregating crowdsourced structured time series data",
+        "author": "wang",
+        "year": "2014",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.355"
+      }
+    ],
+    "event": {
+      "name": "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Salt Lake City, UT",
+      "start": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            18
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2018,
+            6,
+            23
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8576498/8578098/08578607.pdf?arnumber=8578607",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          27
+        ]
+      ],
+      "date-time": "2022-01-27T11:17:29Z",
+      "timestamp": 1643282249000
+    },
+    "score": 53.82069,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/8578607/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "references-count": 57,
+    "URL": "https://doi.org/10.1109/cvpr.2018.00509",
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  }
+}

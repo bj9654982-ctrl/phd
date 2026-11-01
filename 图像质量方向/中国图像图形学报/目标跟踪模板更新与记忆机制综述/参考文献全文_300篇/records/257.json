@@ -1,0 +1,40 @@
+{
+  "number": 257,
+  "title": "Robust Tracking against Adversarial Attacks",
+  "year": 2020,
+  "authors": [
+    "Shuai Jia",
+    "Chao Ma",
+    "Yibing Song",
+    "Xiaokang Yang"
+  ],
+  "venue": "ECCV",
+  "category": "对抗扰动与可靠性诊断",
+  "priority": "P3 背景与边界",
+  "original_source": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3150_ECCV_2020_paper.php",
+  "doi": "10.1007/978-3-030-58529-7_5",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640069.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640069.pdf",
+      "bytes": 12206319,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\257_2020_Robust_Tracking_against_Adversarial_Attacks.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640069.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123640069.pdf",
+  "bytes": 12206319,
+  "sha256": "c7708c4899059535490ea5952814832b3cbed83508345116c5f3f81bf914b4da",
+  "version": "会议官方开放版本",
+  "pages": 16,
+  "pdf_title": "",
+  "first_page_text": "Robust Tracking against Adversarial Attacks\nShuai Jia1, Chao Ma1⋆, Yibing Song2, and Xiaokang Yang1\n1 MoE Key Lab of Artiﬁcial Intelligence, AI Institute, Shanghai Jiao Tong University\n{jiashuai,chaoma,xkyang}@sjtu.edu.cn\n2 Tencent AI Lab\nyibingsong.cv@gmail.com\nAbstract. While deep convolutional neural networks (CNNs) are vul-\nnerable to adversarial attacks, considerably few eﬀorts have been paid\nto construct robust deep tracking algorithms against adversarial attacks.\nCurrent studies on adversarial attack and defense mainly reside in a sin-\ngle image. In this work, we ﬁrst attempt to generate adversarial examples\non top of video sequences to improve the tracking robustness against ad-\nversarial attacks. To this end, we take temporal motion into consideration\nwhen generating lightweight perturbations over the estimated tracking\nresults frame-by-frame. On one hand, we add the temporal perturba-\ntions into the original video sequences as adversarial examples to greatly\ndegrade the tracking performance. On the other hand, we sequentially\nestimate the perturbations from input sequences and learn to eliminate\ntheir eﬀect for performance restoration. We apply the proposed adver-\nsarial attack and defense approaches to state-of-the-art deep tracking al-\ngorithms. Extensive evaluations on the benchmark datasets demonstrate\nthat our defense method not only eliminates the large performance drops\ncaused by adversarial attacks, but also achieves additional performance\ngains when deep trackers are not under adversarial attacks. The source\ncode is available at https://github.com/joshuajss/RTAA.\nKeywords: Visual Tracking, Adversarial Attack\n1\nIntroduction\nRecent years have witnessed the success of CNNs for numerous computer vi-\nsion tasks. Along with the success, the problem of attacking CNN models using\nadversarial examples emerges recently. That is, small perturbations on input\nimages can lead the pretrained CNN models to complete failures. A number of\nadversarial attack methods inject perturbations into input images to degrade\nthe performance of CNNs on a wide range of vision tasks, such as image classi-\nﬁcation [35], object detection [43], semantic segmentation [42], and face recog-\nnition [6]. In view of the vulnerability of CNNs, the defense approaches [33,44]\naim to improve the robustness of CNNs against adversarial attacks. Despite the\nsigniﬁcant progress, current studies on adversarial attack and defense mainly\n⋆Corresponding author.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

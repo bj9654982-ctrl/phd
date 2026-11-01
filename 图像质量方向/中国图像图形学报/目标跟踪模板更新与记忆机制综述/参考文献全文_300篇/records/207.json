@@ -1,0 +1,38 @@
+{
+  "number": 207,
+  "title": "Parallel Tracking and Verifying: A Framework for Real-Time and High Accuracy Visual Tracking",
+  "year": 2017,
+  "authors": [
+    "Heng Fan",
+    "Haibin Ling"
+  ],
+  "venue": "ICCV",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Fan_Parallel_Tracking_and_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Fan_Parallel_Tracking_and_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Fan_Parallel_Tracking_and_ICCV_2017_paper.pdf",
+      "bytes": 1661595,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\207_2017_Parallel_Tracking_and_Verifying__A_Framework_for_Real-Time_and_High_Accuracy_V.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Fan_Parallel_Tracking_and_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Fan_Parallel_Tracking_and_ICCV_2017_paper.pdf",
+  "bytes": 1661595,
+  "sha256": "0920685f1f024bc17cbba1dca992bf43f0f63d8809b3f2a06c16ecbd288f04b9",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Parallel Tracking and Verifying: A Framework for Real-Time and High Accuracy Visual Tracking",
+  "first_page_text": "Parallel Tracking and Verifying: A Framework for Real-Time and High\nAccuracy Visual Tracking\nHeng Fan\nHaibin Ling∗\nMeitu HiScene Lab, HiScene Information Technologies, Shanghai, China\nDepartment of Computer and Information Sciences, Temple University, Philadelphia, PA USA\n{hengfan,hbling}@temple.edu\nAbstract\nBeing intensively studied, visual tracking has seen great\nrecent advances in either speed (e.g., with correlation ﬁl-\nters) or accuracy (e.g., with deep features). Real-time and\nhigh accuracy tracking algorithms, however, remain scarce.\nIn this paper we study the problem from a new perspective\nand present a novel parallel tracking and verifying (PTAV)\nframework, by taking advantage of the ubiquity of multi-\nthread techniques and borrowing from the success of paral-\nlel tracking and mapping in visual SLAM. Our PTAV frame-\nwork typically consists of two components, a tracker T and\na veriﬁer V, working in parallel on two separate threads.\nThe tracker T aims to provide a super real-time tracking\ninference and is expected to perform well most of the time;\nby contrast, the veriﬁer V checks the tracking results and\ncorrects T when needed. The key innovation is that, V does\nnot work on every frame but only upon the requests from\nT ; on the other end, T may adjust the tracking according\nto the feedback from V. With such collaboration, PTAV en-\njoys both the high efﬁciency provided by T and the strong\ndiscriminative power by V. In our extensive experiments on\npopular benchmarks including OTB2013, OTB2015, TC128\nand UAV20L, PTAV achieves the best tracking accuracy a-\nmong all real-time trackers, and in fact performs even bet-\nter than many deep learning based solutions. Moreover, as\na general framework, PTAV is very ﬂexible and has great\nrooms for improvement and generalization.\n1. Introduction\n1.1. Background\nVisual object tracking plays a crucial role in computer\nvision and has a variety of applications such as robotics, vi-\nsual surveillance, human-computer interaction and so forth\n[36, 41]. Despite great successes in recent decades, robust\n∗Corresponding author.\nreal-time\nFigure 1. Speed and accuracy plot of state-of-the-art visual track-\ners on OTB2013 [39]. For better illustration, only those trackers\nwith accuracy higher than 0.75 are reported. The proposed PTAV\nalgorithm achieves the best accuracy among all real-time trackers.\nvisual tracking still remains challenging due to many factors\nincluding object deformation, occlusion, rotation, illumina-\ntion change, pose variation, etc. An emerging trend toward\nimproving tracking accuracy is to use deep learning-based\ntechniques (e.g., [9,28,33,38]) for their strong discrimina-\ntive power, as shown in [33]. Such algorithms, unfortunate-\nly, often suffer from high computational burden and hardly\nrun in real-time (see Fig. 1).\nAlong a somewhat orthogonal direction, researchers\nhave been proposing efﬁcient visual trackers (e.g., [5,7,16,\n43]), represented by the series of trackers based on correla-\ntion ﬁlters. While easily running at real-time, these trackers\nare usually less robust than deep learning-based approaches.\nDespite the above mentioned progresses in either speed\nor accuracy, real-time high quality tracking algorithms re-\nmain scarce. A natural way is to seek a trade-off between\nspeed and accuracy, e.g., [3, 29]. In this paper we work to-\nward this goal, but from a novel perspective as following.\n1.2. Motivation\nOur key idea is to decompose the original tracking task\ninto two parallel but collaborative ones, one for fast tracking\nand the other for accurate veriﬁcation. Our work is inspired\nby the following observations or related works:\nMotivation 1. When tracking a target from visual input,\n5486\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

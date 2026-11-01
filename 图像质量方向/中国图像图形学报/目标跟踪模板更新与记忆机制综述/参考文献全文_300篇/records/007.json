@@ -1,0 +1,40 @@
+{
+  "number": 7,
+  "title": "Visual object tracking using adaptive correlation filters",
+  "year": 2010,
+  "authors": [
+    "Bolme D S",
+    "Beveridge J R",
+    "Draper B A",
+    "Lui Y M"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.cs.colostate.edu/~draper/papers/bolme_cvpr10.pdf",
+  "doi": "10.1109/CVPR.2010.5539960",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.cs.colostate.edu/~draper/papers/bolme_cvpr10.pdf",
+      "final_url": "https://www.cs.colostate.edu/~draper/papers/bolme_cvpr10.pdf",
+      "bytes": 3685667,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\007_2010_Visual_object_tracking_using_adaptive_correlation_filters.pdf",
+  "download_url": "https://www.cs.colostate.edu/~draper/papers/bolme_cvpr10.pdf",
+  "requested_url": "https://www.cs.colostate.edu/~draper/papers/bolme_cvpr10.pdf",
+  "bytes": 3685667,
+  "sha256": "57b08032124183e0878243dcfe917c0b02d41576d37c80eaad4d513a0914c320",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 10,
+  "pdf_title": "",
+  "first_page_text": "Visual Object Tracking using Adaptive Correlation Filters\nDavid S. Bolme\nJ. Ross Beveridge\nBruce A. Draper\nYui Man Lui\nComputer Science Department\nColorado State University\nFort Collins, CO 80521, USA\nbolme@cs.colostate.edu\nAbstract\nAlthough not commonly used, correlation ﬁlters can track\ncomplex objects through rotations, occlusions and other\ndistractions at over 20 times the rate of current state-of-\nthe-art techniques. The oldest and simplest correlation\nﬁlters use simple templates and generally fail when ap-\nplied to tracking. More modern approaches such as ASEF\nand UMACE perform better, but their training needs are\npoorly suited to tracking. Visual tracking requires robust\nﬁlters to be trained from a single frame and dynamically\nadapted as the appearance of the target object changes.\nThis paper presents a new type of correlation ﬁlter, a\nMinimum Output Sum of Squared Error (MOSSE) ﬁlter,\nwhich produces stable correlation ﬁlters when initialized\nusing a single frame. A tracker based upon MOSSE ﬁl-\nters is robust to variations in lighting, scale, pose, and\nnon-rigid deformations while operating at 669 frames per\nsecond. Occlusion is detected based upon the peak-to-\nsidelobe ratio, which enables the tracker to pause and re-\nsume where it left off when the object reappears.\nNote: This paper contains additional ﬁgures and con-\ntent that was excluded from CVPR 2010 to meet length\nrequirements.\n1\nIntroduction\nVisual tracking has many practical applications in video\nprocessing.\nWhen a target is located in one frame of\na video, it is often useful to track that object in subse-\nquent frames. Every frame in which the target is success-\nfully tracked provides more information about the identity\nand the activity of the target. Because tracking is easier\nthan detection, tracking algorithms can use fewer compu-\ntational resources than running an object detector on every\nframe.\nVisual tracking has received much attention in recent\nFigure 1: This ﬁgure shows the results of the MOSSE ﬁlter\nbased tracker on a challenging video sequence. This tracker has\nthe ability to quickly adapt to scale and rotation changes. It is\nalso capable of detecting tracking failure and recovering from\nocclusion.\nyears. A number of robust tracking strategies have been\nproposed that tolerate changes in target appearance and\ntrack targets through complex motions. Recent examples\ninclude: Incremental Visual Tracking (IVT) [17], Robust\nFragments-based Tracking (FragTrack) [1], Graph Based\nDiscriminative Learning (GBDL) [19], and Multiple In-\nstance Learning (MILTrack) [2].\nAlthough effective,\nthese techniques are not simple; they often include com-\nplex appearance models and/or optimization algorithms,\nand as result struggle to keep up with the 25 to 30 frames\nper second produced by many modern cameras (See Ta-\nble 1).\nIn this paper we investigate a simpler tracking strategy.\nThe targets appearance is modeled by adaptive correlation\nﬁlters, and tracking is performed via convolution. Naive\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

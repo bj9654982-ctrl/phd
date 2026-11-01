@@ -1,0 +1,40 @@
+{
+  "number": 223,
+  "title": "Adaptive and Background-Aware Vision Transformer for Real-Time UAV Tracking",
+  "year": 2023,
+  "authors": [
+    "Shuiwang Li",
+    "Yangxiang Yang",
+    "Dan Zeng",
+    "Xucheng Wang"
+  ],
+  "venue": "ICCV",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking_ICCV_2023_paper.pdf",
+      "bytes": 6529101,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\223_2023_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking_ICCV_2023_paper.pdf",
+  "bytes": 6529101,
+  "sha256": "35cde924f1b14eb4d9cd577ff1a2cca75f53f9fab27daee43e38117778e667a9",
+  "version": "会议官方开放版本",
+  "pages": 12,
+  "pdf_title": "Adaptive and Background-Aware Vision Transformer for Real-Time UAV Tracking",
+  "first_page_text": "Adaptive and Background-Aware Vision Transformer for Real-Time\nUAV Tracking\nShuiwang Li1, Yangxiang Yang1, Dan Zeng2,*, and Xucheng Wang1\n1College of Information Science and Engineering , Guilin University of Technology, China\n2Research Institue of Trustworthy Autonomous Systems,\nSouthern University of Science and Technology, China\nlishuiwang0721@163.com, xyyang317@163.com, zengd@sustech.edu.cn, xcwang@glut.edu.cn\nAbstract\nWhile discriminative correlation filters (DCF)-based\ntrackers prevail in UAV tracking for their favorable effi-\nciency, lightweight convolutional neural network (CNN)-\nbased trackers using filter pruning have also demonstrated\nremarkable efficiency and precision. However, the use of\npure vision transformer models (ViTs) for UAV tracking\nremains unexplored, which is a surprising finding given\nthat ViTs have been shown to produce better performance\nand greater efficiency than CNNs in image classification.\nIn this paper, we propose an efficient ViT-based track-\ning framework, Aba-ViTrack, for UAV tracking.\nIn our\nframework, feature learning and template-search coupling\nare integrated into an efficient one-stream ViT to avoid\nan extra heavy relation modeling module. The proposed\nAba-ViT exploits an adaptive and background-aware token\ncomputation method to reduce inference time.\nThis ap-\nproach adaptively discards tokens based on learned halt-\ning probabilities, which a priori are higher for background\ntokens than target ones.\nExtensive experiments on six\nUAV tracking benchmarks demonstrate that the proposed\nAba-ViTrack achieves state-of-the-art performance in UAV\ntracking. Code is available at https://github.com/\nxyyang317/Aba-ViTrack.\n1. Introduction\nUnmanned aerial vehicles (UAVs) have been employed\nin various applications, and recently, UAV tracking has\ngained considerable attention in visual tracking [37, 4, 66,\n67]. However, unlike general visual tracking, UAV track-\ning poses unique challenges. Common issues such as ex-\ntreme view angles, motion blur, and severe occlusion can\ndegrade tracking precision. Moreover, the limited battery\ncapacity, computing resources, and low power consumption\n*Corresponding author.\nFigure 1. Comparison on UAV123. Compared with DCF-based\nand CNN-based trackers, our efficient ViT-based tracker (Aba-\nTrack) sets a new record with 0.864 precision and still runs ef-\nficiently at around 180 fps.\nrequirements of UAVs impose stringent demands on effi-\nciency [5, 66, 67, 34]. Therefore, a good UAV tracker must\nachieve high precision while remaining high efficiency.\nAs shown in Fig. 1, UAV tracking methods can be\nbroadly divided into two categories: discriminative corre-\nlation filters (DCF)-based trackers and deep convolutional\nneural network (CNN)-based trackers. DCF-based track-\ners are favored because of their high efficiency derived\nfrom operations in the Fourier domain, but they usually\nachieve low tracking precision [37, 32, 36, 28].\nOn the\nother hand, CNN-based trackers can easily obtain high pre-\ncision, but are not suitable for high-efficiency demands. To\ncombat low efficiency, some lightweight CNN-based track-\ners are proposed for UAV tracking [5, 66, 67] that em-\nploy filter pruning to reduce the parameters of SiamFC++\n[70] based on Fisher information [67] or rank informa-\ntion [66, 41], resulting in significant improvements in both\nprecision and efficiency. Very recently, TCTrack [5] has\nbeen proposed to utilize temporal contexts to enhance UAV\ntracking. Different from existing CNN-based tracker, TC-\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13989\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

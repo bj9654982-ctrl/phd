@@ -1,0 +1,40 @@
+{
+  "number": 191,
+  "title": "ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe",
+  "year": 2024,
+  "authors": [
+    "Yifan Bai",
+    "Zeyang Zhao",
+    "Yihong Gong",
+    "Xing Wei"
+  ],
+  "venue": "CVPR",
+  "category": "自回归与生成式跟踪",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Bai_ARTrackV2_Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Bai_ARTrackV2_Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Bai_ARTrackV2_Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_CVPR_2024_paper.pdf",
+      "bytes": 6480508,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\191_2024_ARTrackV2__Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_Describe.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Bai_ARTrackV2_Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Bai_ARTrackV2_Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_CVPR_2024_paper.pdf",
+  "bytes": 6480508,
+  "sha256": "a73e65b2c9839b2eda9b6696e969304a51e87684f915250516a048f1198a301f",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe",
+  "first_page_text": "ARTrackV2: Prompting Autoregressive Tracker Where to Look and\nHow to Describe\nYifan Bai\nZeyang Zhao\nYihong Gong\nXing Wei*\nSchool of Software Engineering, Xi’an Jiaotong University\n{yfbai, zeyang}@stu.xjtu.edu.cn\n{ygong, weixing}@mail.xjtu.edu.cn\nhttps://ARTrackV2.github.io/\nAbstract\nWe present ARTrackV2, which integrates two pivotal as-\npects of tracking: determining where to look (localization)\nand how to describe (appearance analysis) the target ob-\nject across video frames. Building on the foundation of its\npredecessor, ARTrackV2 extends the concept by introduc-\ning a unified generative framework to “read out” object’s\ntrajectory and “retell” its appearance in an autoregressive\nmanner. This approach fosters a time-continuous method-\nology that models the joint evolution of motion and visual\nfeatures, guided by previous estimates. Furthermore, AR-\nTrackV2 stands out for its efficiency and simplicity, obviating\nthe less efficient intra-frame autoregression and hand-tuned\nparameters for appearance updates. Despite its simplicity,\nARTrackV2 achieves state-of-the-art performance on prevail-\ning benchmark datasets while demonstrating a remarkable\nefficiency improvement. In particular, ARTrackV2 achieves\nan AO score of 79. 5% on GOT-10k and an AUC of 86. 1%\non TrackingNet while being 3.6× faster than ARTrack.\n1. Introduction\nVisual object tracking [6,22,31,34,35,39,46], a corner-\nstone in the realm of computer vision, has seen transforma-\ntive advances over the past decade. Its applications span a\ndiverse array of fields, from autonomous vehicles to surveil-\nlance, and from augmented reality to human-computer inter-\naction. At its core, visual tracking involves the continuous\nlocalization of an object within a video sequence, typically\ninitiated from the first frame.\nIn this research area, previous approaches have mainly\nfocused on either trajectory estimation or appearance model-\n*Corresponding author: Xing Wei.\nAcknowledgements. This work was supported by the National Natural\nScience Foundation of China No. U21B2048, the Fundamental Research\nFunds for the Central Universities No. xxj032023020, and sponsored by\nthe CAAI-MindSpore Open Fund, developed on OpenI Community.\nInput Sequence\n(a) Sequence-to-sequence tracker (SeqTrack)\nSequence Prediction\n𝑥𝑚𝑖𝑛\n𝑡\n𝑦𝑚𝑖𝑛\n𝑡\n𝑥𝑚𝑎𝑥\n𝑡\n𝑦𝑚𝑎𝑥\n𝑡\n(b) Trajectory autoregression tracker (ARTrack)\n(c) Trajectory-appearance autoregression tracker (ARTrackV2)\n𝑧1\n𝑡\n𝑧2\n𝑡\n…     𝑧𝐿\n𝑡\nTrajectory-\nAppearance \nModel\nTrajectory \nModel\n𝑧1\n𝑡−1 𝑧2\n𝑡−1 …    𝑧𝐿\n𝑡−1\nAppearance Evolution\nSequence \nModel\nAppearance Prompts\n𝑥, 𝑦, 𝑤, ℎ, 𝑒𝑛𝑑\nTrajectory Prompts\nTrajectory Evolution\n𝑠𝑡𝑎𝑟𝑡, 𝑥, 𝑦, 𝑤, ℎ\nTemplate & Search Region\n69.9\n70.4\n71.6\n83.3\n84.2\n84.9\n38\n26\n94\nLaSOT AUC(%)\nTrackingNet AUC(%)\nFPS\n(d) Performance comparison\nSeqTrack\nARTrack\nARTrackV2\n𝑥𝑚𝑖𝑛\n𝑡−1 𝑦𝑚𝑖𝑛\n𝑡−1 𝑥𝑚𝑎𝑥\n𝑡−1 𝑦𝑚𝑎𝑥\n𝑡−1\n𝑥𝑚𝑖𝑛\n𝑡−2 𝑦𝑚𝑖𝑛\n𝑡−2 𝑥𝑚𝑎𝑥\n𝑡−2 𝑦𝑚𝑎𝑥\n𝑡−2\n𝑥𝑚𝑖𝑛\n𝑡\n𝑦𝑚𝑖𝑛\n𝑡\n𝑥𝑚𝑎𝑥\n𝑡\n𝑦𝑚𝑎𝑥\n𝑡\n𝑥𝑚𝑖𝑛\n𝑡−1 𝑦𝑚𝑖𝑛\n𝑡−1 𝑥𝑚𝑎𝑥\n𝑡−1 𝑦𝑚𝑎𝑥\n𝑡−1\n𝑥𝑚𝑖𝑛\n𝑡−2 𝑦𝑚𝑖𝑛\n𝑡−2 𝑥𝑚𝑎𝑥\n𝑡−2 𝑦𝑚𝑎𝑥\n𝑡−2\nTemplate & Search Region\nTemplate & Search Region\nTrajectory Evolution\nTrajectory Prompts\nFigure 1. Frameworks and performance comparison of trackers\nfollowing the sequence generation paradigm. (a) SeqTrack views\ntracking as sequence prediction. (b) ARTrack introduces trajectory\nevolution. (c) ARTrackV2 incorporates joint trajectory-appearance\nevolution. (d) Performance comparison.\ning. Traditional methods, such as the application of Kalman\nfilters [4, 8, 56] and Particle filters [2, 28], emphasize pre-\ndicting the object’s motion by leveraging historical states.\nIn contrast, modern learning-based methods aim to under-\nstand and track the visual features of the target object, often\nemploying a template-matching framework. However, these\napproaches typically adopt frame-level training strategies,\noverlooking the temporal dependencies across frames. Some\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19048\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

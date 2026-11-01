@@ -1,0 +1,58 @@
+{
+  "number": 31,
+  "title": "A benchmark and simulator for UAV tracking",
+  "year": 2016,
+  "authors": [
+    "Mueller M",
+    "Smith N",
+    "Ghanem B"
+  ],
+  "venue": "ECCV",
+  "category": "数据集与评价设计",
+  "priority": "P3 背景与边界",
+  "original_source": "https://ivul.kaust.edu.sa/benchmark-and-simulator-uav-tracking-simulator",
+  "doi": "10.1007/978-3-319-46448-0_27",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://matthias.pw/publication/benchmark",
+      "final_url": "https://matthias.pw/publication/benchmark",
+      "bytes": 17785,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://drive.google.com/file/d/1YDlCOWxH8HMPlmblJ2OvxFdSFecuiM3Z",
+      "error": "ConnectTimeout: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /file/d/1YDlCOWxH8HMPlmblJ2OvxFdSFecuiM3Z (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001D384CE74D0>, 'Connection to drive.google.com timed out. (connect timeout=15)'))"
+    },
+    {
+      "url": "https://ivul.kaust.edu.sa/benchmark-and-simulator-uav-tracking-dataset",
+      "final_url": "https://ivul.kaust.edu.sa/benchmark-and-simulator-uav-tracking-dataset",
+      "bytes": 36715,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://ivul.kaust.edu.sa/benchmark-and-simulator-uav-tracking-simulator",
+      "final_url": "https://ivul.kaust.edu.sa/benchmark-and-simulator-uav-tracking-simulator",
+      "bytes": 32549,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "not_pdf"
+    }
+  ],
+  "access_date": "2026-10-28",
+  "human_verification": "未核验",
+  "file": "PDF\\031_2016_A_benchmark_and_simulator_for_UAV_tracking.pdf",
+  "bytes": 8750857,
+  "sha256": "4b60ac8abd7019aed70339409790ad6d636f37c340005485ba1d03e34c1ffcc6",
+  "download_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46448-0_27.pdf",
+  "requested_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-46448-0_27.pdf",
+  "version": "出版方公开全文",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "A Benchmark and Simulator for UAV Tracking\nMatthias Mueller(B), Neil Smith, and Bernard Ghanem\nKing Abdullah University of Science and Technology (KAUST),\nThuwal, Saudi Arabia\n{matthias.mueller.2,neil.smith,bernard.ghanem}@kaust.edu.sa\nAbstract. In this paper, we propose a new aerial video dataset and\nbenchmark for low altitude UAV target tracking, as well as, a photo-\nrealistic UAV simulator that can be coupled with tracking methods. Our\nbenchmark provides the ﬁrst evaluation of many state-of-the-art and\npopular trackers on 123 new and fully annotated HD video sequences\ncaptured from a low-altitude aerial perspective. Among the compared\ntrackers, we determine which ones are the most suitable for UAV track-\ning both in terms of tracking accuracy and run-time. The simulator can\nbe used to evaluate tracking algorithms in real-time scenarios before they\nare deployed on a UAV “in the ﬁeld”, as well as, generate synthetic but\nphoto-realistic tracking datasets with automatic ground truth annota-\ntions to easily extend existing real-world datasets. Both the benchmark\nand simulator are made publicly available to the vision community on\nour website to further research in the area of object tracking from UAVs.\n(https://ivul.kaust.edu.sa/Pages/pub-benchmark-simulator-uav.aspx.).\nKeywords: UAV tracking · UAV simulator · Aerial object tracking\n1\nIntroduction\nVisual tracking remains a challenging problem despite several decades of progress\non this important topic. A broadly adopted evaluation paradigm for visual\ntracking algorithms is to test them on established video benchmarks such as\nOTB50 [42], OTB100 [41], VOT2014, VOT2015, TC128 (Temple Color) [26],\nand ALOV300++ [39]. Since the performance of a tracker is measured against\nthese benchmarks, it is critical that a holistic set of real-world scenarios and a\ndistribution of tracking nuisances (e.g. fast motion, illumination changes, scale\nchanges, occlusion, etc.) are properly represented in the annotated dataset. The\nbenchmark also plays a critical role in identifying future research directions in\nthe ﬁeld and how to design more robust algorithms. What is currently lacking\nin these well established benchmarks is a comprehensive set of annotated aerial\ndatasets that pose many challenges introduced by unmanned airborne ﬂight.\nEmpowering unmanned aerial vehicles (UAVs) with automated computer\nvision capabilities (e.g. tracking, object/activity recognition, etc.) is becoming\nElectronic supplementary material The online version of this chapter (doi:10.\n1007/978-3-319-46448-0 27) contains supplementary material, which is available to\nauthorized users.\nc\n⃝Springer International Publishing AG 2016\nB. Leibe et al. (Eds.): ECCV 2016, Part I, LNCS 9905, pp. 445–461, 2016.\nDOI: 10.1007/978-3-319-46448-0 27\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,1647 @@
+{
+  "number": 6,
+  "original_doi": "10.1016/j.asoc.2025.113140",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Visual object tracking: Review and challenges",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T16:45:36Z",
+      "timestamp": 1792169136525,
+      "version": "4.4.0"
+    },
+    "reference-count": 169,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2025-06-01T00:00:00Z",
+          "timestamp": 1748736000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U2433216"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "U2433216"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Applied Soft Computing"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.asoc.2025.113140",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2025-05-08T17:28:04Z",
+      "timestamp": 1746725284000
+    },
+    "page": "113140",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "special_numbering": "C",
+    "title": [
+      "Visual object tracking: Review and challenges"
+    ],
+    "prefix": "10.1016",
+    "volume": "177",
+    "author": [
+      {
+        "given": "Zeshi",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Caiping",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9909-0664",
+        "authenticated-orcid": false,
+        "given": "Shuai",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weiping",
+        "family": "Ding",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.asoc.2025.113140_b1",
+        "doi-asserted-by": "crossref",
+        "first-page": "926",
+        "DOI": "10.1007/s12555-010-0501-4",
+        "article-title": "Intelligent visual surveillance—a survey",
+        "volume": "8",
+        "author": "Kim",
+        "year": "2010",
+        "journal-title": "Int. J. Control. Autom. Syst."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asoc.2025.113140_b2",
+        "doi-asserted-by": "crossref",
+        "first-page": "660",
+        "DOI": "10.3390/math9060660",
+        "article-title": "A review of tracking and trajectory prediction methods for autonomous driving",
+        "volume": "9",
+        "author": "Leon",
+        "year": "2021",
+        "journal-title": "Mathematics"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.asoc.2025.113140_b3",
+        "doi-asserted-by": "crossref",
+        "first-page": "338",
+        "DOI": "10.3390/ijgi10050338",
+        "article-title": "Autonomous flight trajectory control system for drones in smart city traffic management",
+        "volume": "10",
+        "author": "Nguyen",
+        "year": "2021",
+        "journal-title": "ISPRS Int. J. Geo-Inf."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b4",
+        "series-title": "2019 4th Asia-Pacific Conference on Intelligent Robot Systems",
+        "first-page": "221",
+        "article-title": "Development of tank-based military robot and object tracker",
+        "author": "Budiharto",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b5",
+        "series-title": "2017 19th International Conference on Advanced Communication Technology",
+        "first-page": "883",
+        "article-title": "A comparative study on multi-object tracking methods for sports events",
+        "author": "Moon",
+        "year": "2017"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.asoc.2025.113140_b6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1921",
+        "DOI": "10.1109/TMI.2011.2158440",
+        "article-title": "Prediction based collaborative trackers (PCT): a robust and accurate approach toward 3D medical object tracking",
+        "volume": "30",
+        "author": "Yang",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Med. Imaging"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.asoc.2025.113140_b7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1064",
+        "DOI": "10.1109/TPAMI.2004.53",
+        "article-title": "Support vector tracking",
+        "volume": "26",
+        "author": "Avidan",
+        "year": "2004",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Ning, J. Yang, S. Jiang, L. Zhang, M.H. Yang, Object tracking via dual linear structured SVM and explicit feature map, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 4266–4274.",
+        "DOI": "10.1109/CVPR.2016.462"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b9",
+        "series-title": "2009 IEEE Conference on Computer Vision and Pattern Recognition",
+        "first-page": "983",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "Babenko",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b10",
+        "series-title": "2012 IEEE Conf. Computer Vision and Pattern Recognition",
+        "article-title": "Robust visual tracking via multi-task sparse learning",
+        "author": "Zhang",
+        "year": "2012"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b11",
+        "series-title": "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition",
+        "first-page": "2544",
+        "article-title": "Visual object tracking using adaptive correlation filters",
+        "author": "Bolme",
+        "year": "2010"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.asoc.2025.113140_b12",
+        "doi-asserted-by": "crossref",
+        "first-page": "7128",
+        "DOI": "10.1109/JIOT.2021.3077600",
+        "article-title": "Human short long-term cognitive memory mechanism for visual monitoring in IoT-assisted smart cities",
+        "volume": "9",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.asoc.2025.113140_b13",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1109/TFUZZ.2020.3006520",
+        "article-title": "Fuzzy detection aided real-time and robust visual tracking under complex environments",
+        "volume": "29",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Fuzzy Syst."
+      },
+      {
+        "issue": "01",
+        "key": "10.1016/j.asoc.2025.113140_b14",
+        "first-page": "1",
+        "article-title": "Survey on video object tracking algorithms based on deep learning",
+        "volume": "28",
+        "author": "Xu",
+        "year": "2019",
+        "journal-title": "J. Comput. Syst. Appl."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b15",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cviu.2022.103508",
+        "article-title": "Visual object tracking: A survey",
+        "volume": "222",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "Comput. Vis. Image Underst."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asoc.2025.113140_b16",
+        "first-page": "10",
+        "article-title": "Survey of target tracking algorithm based on siamese network structure",
+        "volume": "56",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Comput. Eng. Appl."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b17",
+        "article-title": "Attention is all you need",
+        "volume": "30",
+        "author": "Vaswani",
+        "year": "2017",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b18",
+        "series-title": "Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part I 16",
+        "first-page": "213",
+        "article-title": "End-to-end object detection with transformers",
+        "author": "Carion",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C.F.R. Chen, Q. Fan, R. Panda, Crossvit: Cross-attention multi-scale vision transformer for image classification, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 357–366.",
+        "DOI": "10.1109/ICCV48922.2021.00041"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Strudel, R. Garcia, I. Laptev, C. Schmid, Segmenter: Transformer for semantic segmentation, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 7262–7272.",
+        "DOI": "10.1109/ICCV48922.2021.00717"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Wu, J. Lim, M.H. Yang, Online object tracking: A benchmark, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2013, pp. 2411–2418.",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Fan, L. Lin, F. Yang, P. Chu, G. Deng, S. Yu, H. Bai, Y. Xu, C. Liao, H. Ling, Lasot: A high-quality benchmark for large-scale single object tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 5374–5383.",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b23",
+        "unstructured": "N. Artner, A Comparison of Mean Shift Tracking Methods, in: Proceedings of 12th Central European Seminar on Computer Graphics, April 2008, Budmerice, Slovakia, 2008, pp. 197–204."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b24",
+        "article-title": "Computer vision face tracking for use in a perceptual user interface",
+        "author": "Bradski",
+        "year": "1998",
+        "journal-title": "Intel Technol. J."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b25",
+        "series-title": "Computer Analysis of Images and Patterns: 11th International Conference, CAIP 2005, Versailles, France, September 5–8, 2005. Proceedings 11",
+        "first-page": "693",
+        "article-title": "Camshift-based tracking in joint color-spatial spaces",
+        "author": "Kwolek",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b26",
+        "series-title": "Advances in Swarm and Computational Intelligence: 6th International Conference, ICSI 2015 Held in Conjunction with the Second BRICS Congress, CCI 2015, Beijing, China, June 25-28, 2015, Proceedings, Part III 6",
+        "first-page": "155",
+        "article-title": "A multiple objects tracking method based on a combination of Camshift and object trajectory tracking",
+        "author": "Yuan",
+        "year": "2015"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.asoc.2025.113140_b27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1406",
+        "DOI": "10.3390/s16091406",
+        "article-title": "Onboard robust visual tracking for UAVs using a reliable global-local object model",
+        "volume": "16",
+        "author": "Fu",
+        "year": "2016",
+        "journal-title": "Sensors"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.asoc.2025.113140_b28",
+        "doi-asserted-by": "crossref",
+        "first-page": "739",
+        "DOI": "10.3390/s17040739",
+        "article-title": "Object tracking using local multiple features and a posterior probability measure",
+        "volume": "17",
+        "author": "Guo",
+        "year": "2017",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b29",
+        "series-title": "2011 International Conference on Consumer Electronics, Communications and Networks",
+        "first-page": "1423",
+        "article-title": "Moving object tracking system based on Camshift and Kalman filter",
+        "author": "Huang",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Ross, J. Lim, M.H. Yang, Adaptive probabilistic visual tracking with incremental subspace update, in: ECCV (2), 2004, 470482.",
+        "DOI": "10.1007/978-3-540-24671-8_37"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.asoc.2025.113140_b31",
+        "doi-asserted-by": "crossref",
+        "first-page": "787",
+        "DOI": "10.1016/j.imavis.2011.08.006",
+        "article-title": "Object tracking via appearance modeling and sparse representation",
+        "volume": "29",
+        "author": "Chen",
+        "year": "2011",
+        "journal-title": "Image Vis. Comput."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asoc.2025.113140_b32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2390",
+        "DOI": "10.1016/j.patcog.2011.12.004",
+        "article-title": "Robust visual tracking with structured sparse representation appearance model",
+        "volume": "45",
+        "author": "Bai",
+        "year": "2012",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b33",
+        "series-title": "2011 IEEE International Conference on Computer Vision Workshops",
+        "first-page": "1863",
+        "article-title": "Robust object tracking via online learning of adaptive appearance manifold",
+        "author": "Ding",
+        "year": "2011"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b34",
+        "series-title": "2009 IEEE 12th International Conference on Computer Vision",
+        "first-page": "1436",
+        "article-title": "Robust visual tracking using ℓ 1 minimization",
+        "author": "Mei",
+        "year": "2009"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.asoc.2025.113140_b35",
+        "doi-asserted-by": "crossref",
+        "first-page": "2182",
+        "DOI": "10.1109/TPAMI.2015.2511748",
+        "article-title": "Dissimilarity-based sparse subset selection",
+        "volume": "38",
+        "author": "Elhamifar",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b36",
+        "doi-asserted-by": "crossref",
+        "first-page": "42264",
+        "DOI": "10.1109/ACCESS.2018.2855703",
+        "article-title": "Multiple objects tracking with improved sparse representation and rank based dynamic estimation",
+        "volume": "6",
+        "author": "Yang",
+        "year": "2018",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b37",
+        "series-title": "2018 International Conference on Communication and Signal Processing",
+        "first-page": "0693",
+        "article-title": "Object tracking via boosted cascade of simple features and coarse and fine structural local sparse appearance models",
+        "author": "Ramya",
+        "year": "2018"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.asoc.2025.113140_b38",
+        "doi-asserted-by": "crossref",
+        "first-page": "4958",
+        "DOI": "10.1109/TIP.2018.2848465",
+        "article-title": "Robust object tracking via local sparse appearance model",
+        "volume": "27",
+        "author": "Nai",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b39",
+        "series-title": "Computer Vision–ECCV 2012: 12th European Conference on Computer Vision, Florence, Italy, October 7-13, 2012, Proceedings, Part IV 12",
+        "first-page": "702",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "Henriques",
+        "year": "2012"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.asoc.2025.113140_b40",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "volume": "37",
+        "author": "Henriques",
+        "year": "2014",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H.K. Galoogahi, T. Sim, S. Lucey, Multi-channel correlation filters, in: Proceedings of the IEEE International Conference on Computer Vision, 2013, pp. 3072–3079.",
+        "DOI": "10.1109/ICCV.2013.381"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Danelljan, F. Shahbaz Khan, M. Felsberg, J. Van de Weijer, Adaptive color attributes for real-time visual tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2014, pp. 1090–1097.",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Bertinetto, J. Valmadre, S. Golodetz, O. Miksik, P.H. Torr, Staple: Complementary learners for real-time tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 1401–1409.",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b44",
+        "doi-asserted-by": "crossref",
+        "first-page": "281",
+        "DOI": "10.1016/j.inffus.2023.02.005",
+        "article-title": "Visual tracking in complex scenes: A location fusion mechanism based on the combination of multiple visual cognition flows",
+        "volume": "96",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b45",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2022.108485",
+        "article-title": "SCSTCF: spatial-channel selection and temporal regularized correlation filters for visual tracking",
+        "volume": "118",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Danelljan, G. Häger, F.S. Khan, M. Felsberg, Accurate Scale Estimation for Robust Visual Tracking, in: British Machine Vision Conference, 2014, URL: https://api.semanticscholar.org/CorpusID:8304060.",
+        "DOI": "10.5244/C.28.65"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b47",
+        "series-title": "2015 IEEE International Conference on Computer Vision Workshop",
+        "first-page": "587",
+        "article-title": "Scalable kernel correlation filter with sparse feature integration",
+        "author": "Montero",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b48",
+        "series-title": "Computer Vision-ECCV 2014 Workshops: Zurich, Switzerland, September 6–7 and 12, 2014, Proceedings, Part II 13",
+        "first-page": "254",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "Li",
+        "year": "2015"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Danelljan, G. Hager, F. Shahbaz Khan, M. Felsberg, Learning spatially regularized correlation filters for visual tracking, in: Proceedings of the IEEE International Conference on Computer Vision, 2015, pp. 4310–4318.",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Li, C. Tian, W. Zuo, L. Zhang, M.H. Yang, Learning spatial-temporal regularized correlation filters for visual tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2018, pp. 4904–4913.",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H.K. Galoogahi, T. Sim, S. Lucey, Correlation filters with limited boundaries, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2015, pp. 4630–4638.",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H.K. Galoogahi, A. Fagg, S. Lucey, Learning background-aware correlation filters for visual tracking, in: Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 1135–1143.",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Mueller, N. Smith, B. Ghanem, Context-aware correlation filter tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017, pp. 1396–1404.",
+        "DOI": "10.1109/CVPR.2017.152"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Ma, X. Yang, C. Zhang, M.H. Yang, Long-term correlation tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2015, pp. 5388–5396.",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Danelljan, G. Bhat, F.S. Khan, M. Felsberg, Atom: Accurate tracking by overlap maximization, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 4660–4669.",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Jiang, R. Luo, J. Mao, T. Xiao, Y. Jiang, Acquisition of localization confidence for accurate object detection, in: Proceedings of the European Conference on Computer Vision, ECCV, 2018, pp. 784–799.",
+        "DOI": "10.1007/978-3-030-01264-9_48"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Bhat, M. Danelljan, L.V. Gool, R. Timofte, Learning discriminative model prediction for tracking, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019, pp. 6182–6191.",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Danelljan, L.V. Gool, R. Timofte, Probabilistic regression for visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 7183–7192.",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b59",
+        "series-title": "Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XXIII 16",
+        "first-page": "205",
+        "article-title": "Know your surroundings: Exploiting scene information for object tracking",
+        "author": "Bhat",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "C. Ma, J.B. Huang, X. Yang, M.H. Yang, Hierarchical convolutional features for visual tracking, in: Proceedings of the IEEE International Conference on Computer Vision, 2015, pp. 3074–3082.",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Wang, W. Ouyang, X. Wang, H. Lu, Visual tracking with fully convolutional networks, in: Proceedings of the IEEE International Conference on Computer Vision, 2015, pp. 3119–3127.",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Qi, S. Zhang, L. Qin, H. Yao, Q. Huang, J. Lim, M.H. Yang, Hedged deep tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 4303–4311.",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Danelljan, G. Hager, F. Shahbaz Khan, M. Felsberg, Convolutional features for correlation filter based visual tracking, in: Proceedings of the IEEE International Conference on Computer Vision Workshops, 2015, pp. 58–66.",
+        "DOI": "10.1109/ICCVW.2015.84"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b64",
+        "series-title": "Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11–14, 2016, Proceedings, Part V 14",
+        "first-page": "472",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "Danelljan",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b65",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Danelljan, G. Bhat, F. Shahbaz Khan, M. Felsberg, Eco: Efficient convolution operators for tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2017, pp. 6638–6646.",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Wang, W. Ouyang, X. Wang, H. Lu, Stct: Sequentially training convolutional networks for visual tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 1373–1381.",
+        "DOI": "10.1109/CVPR.2016.153"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b67",
+        "series-title": "Modeling and propagating cnns in a tree structure for visual tracking",
+        "author": "Nam",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Nam, B. Han, Learning multi-domain convolutional neural networks for visual tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 4293–4302.",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b69",
+        "series-title": "2007 IEEE 11th International Conference on Computer Vision",
+        "first-page": "1",
+        "article-title": "Co-tracking using semi-supervised support vector machines",
+        "author": "Tang",
+        "year": "2007"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.asoc.2025.113140_b70",
+        "doi-asserted-by": "crossref",
+        "first-page": "901",
+        "DOI": "10.1016/j.cviu.2010.04.002",
+        "article-title": "Online visual tracking with histograms and articulating blocks",
+        "volume": "114",
+        "author": "Nejhum",
+        "year": "2010",
+        "journal-title": "Comput. Vis. Image Underst."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.asoc.2025.113140_b71",
+        "doi-asserted-by": "crossref",
+        "first-page": "1409",
+        "DOI": "10.1109/TPAMI.2011.239",
+        "article-title": "Tracking-learning-detection",
+        "volume": "34",
+        "author": "Kalal",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.asoc.2025.113140_b72",
+        "doi-asserted-by": "crossref",
+        "first-page": "2096",
+        "DOI": "10.1109/TPAMI.2015.2509974",
+        "article-title": "Struck: Structured output tracking with kernels",
+        "volume": "38",
+        "author": "Hare",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b73",
+        "doi-asserted-by": "crossref",
+        "first-page": "2188",
+        "DOI": "10.1109/TMM.2021.3065580",
+        "article-title": "Human memory update strategy: a multi-layer template update mechanism for remote visual monitoring",
+        "volume": "23",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Multimed."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.asoc.2025.113140_b74",
+        "doi-asserted-by": "crossref",
+        "first-page": "3735",
+        "DOI": "10.1109/JIOT.2022.3142115",
+        "article-title": "Human inertial thinking strategy: A novel fuzzy reasoning mechanism for IoT-assisted visual monitoring",
+        "volume": "10",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b75",
+        "article-title": "Signature verification using a “siamese” time delay neural network",
+        "volume": "6",
+        "author": "Bromley",
+        "year": "1993",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b76",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Tao, E. Gavves, A.W. Smeulders, Siamese instance search for tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 1420–1429.",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b77",
+        "series-title": "Computer Vision–ECCV 2016 Workshops: Amsterdam, the Netherlands, October 8–10 and 15–16, 2016, Proceedings, Part II 14",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "Bertinetto",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Girshick, Fast r-cnn, in: Proceedings of the IEEE International Conference on Computer Vision, 2015, pp. 1440–1448.",
+        "DOI": "10.1109/ICCV.2015.169"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Li, J. Yan, W. Wu, Z. Zhu, X. Hu, High performance visual tracking with siamese region proposal network, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2018, pp. 8971–8980.",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b80",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Zhu, Q. Wang, B. Li, W. Wu, J. Yan, W. Hu, Distractor-aware siamese networks for visual object tracking, in: Proceedings of the European Conference on Computer Vision, ECCV, 2018, pp. 101–117.",
+        "DOI": "10.1007/978-3-030-01240-3_7"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b81",
+        "doi-asserted-by": "crossref",
+        "unstructured": "G. Wang, C. Luo, Z. Xiong, W. Zeng, Spm-tracker: Series-parallel matching for real-time visual object tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 3643–3652.",
+        "DOI": "10.1109/CVPR.2019.00376"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Fan, H. Ling, Siamese cascaded region proposal networks for real-time visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 7952–7961.",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b83",
+        "article-title": "Faster r-cnn: Towards real-time object detection with region proposal networks",
+        "volume": "28",
+        "author": "Ren",
+        "year": "2015",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Cai, N. Vasconcelos, Cascade r-cnn: Delving into high quality object detection, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2018, pp. 6154–6162.",
+        "DOI": "10.1109/CVPR.2018.00644"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Li, W. Wu, Q. Wang, F. Zhang, J. Xing, J. Yan, Siamrpn++: Evolution of siamese visual tracking with very deep networks, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 4282–4291.",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b86",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Zhang, H. Peng, Deeper and wider siamese networks for real-time visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 4591–4600.",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Wang, Z. Teng, J. Xing, J. Gao, W. Hu, S. Maybank, Learning attentions: residual attentional siamese network for high performance online visual tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2018, pp. 4854–4863.",
+        "DOI": "10.1109/CVPR.2018.00510"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Yu, Y. Xiong, W. Huang, M.R. Scott, Deformable siamese attention networks for visual object tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 6728–6737.",
+        "DOI": "10.1109/CVPR42600.2020.00676"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b89",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Du, P. Liu, W. Zhao, X. Tang, Correlation-guided attention for corner detection based visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 6836–6845.",
+        "DOI": "10.1109/CVPR42600.2020.00687"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b90",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Q. Guo, W. Feng, C. Zhou, R. Huang, L. Wan, S. Wang, Learning dynamic siamese network for visual object tracking, in: Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 1763–1771.",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b91",
+        "series-title": "Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XX",
+        "first-page": "378",
+        "article-title": "CLNet: A compact latent network for fast adjusting siamese trackers",
+        "author": "Dong",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b92",
+        "series-title": "Computer Vision–ECCV 2020: 16th European Conference, Glasgow, UK, August 23–28, 2020, Proceedings, Part XXII 16",
+        "first-page": "1",
+        "article-title": "Object tracking using spatio-temporal networks for future prediction location",
+        "author": "Liu",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b93",
+        "doi-asserted-by": "crossref",
+        "unstructured": "T. Yang, A.B. Chan, Learning dynamic memory networks for object tracking, in: Proceedings of the European Conference on Computer Vision, ECCV, 2018, pp. 152–167.",
+        "DOI": "10.1007/978-3-030-01240-3_10"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.asoc.2025.113140_b94",
+        "first-page": "360",
+        "article-title": "Visual tracking via dynamic memory networks",
+        "volume": "43",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b95",
+        "first-page": "12549",
+        "article-title": "Siamfc++: Towards robust and accurate visual tracking with target estimation guidelines",
+        "volume": "vol. 34",
+        "author": "Xu",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Guo, J. Wang, Y. Cui, Z. Wang, S. Chen, SiamCAR: Siamese fully convolutional classification and regression for visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 6269–6277.",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Chen, B. Zhong, G. Li, S. Zhang, R. Ji, Siamese box adaptive network for visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 6668–6677.",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b98",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Tian, C. Shen, H. Chen, T. He, Fcos: Fully convolutional one-stage object detection, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019, pp. 9627–9636.",
+        "DOI": "10.1109/ICCV.2019.00972"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Zhang, H. Peng, J. Fu, B. Li, W. Hu, Learning object-aware anchor-free networks for real-time object tracking, in: Proceedings of the European Conference on Computer Vision, Glasgow, USA, 2020, pp. 771–787.",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b100",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. He, C. Luo, X. Tian, W. Zeng, A twofold siamese network for real-time object tracking, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2018, pp. 4834–4843.",
+        "DOI": "10.1109/CVPR.2018.00508"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b101",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Dong, J. Shen, Triplet loss in siamese network for object tracking, in: Proceedings of the European Conference on Computer Vision, ECCV, 2018, pp. 459–474.",
+        "DOI": "10.1007/978-3-030-01261-8_28"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b102",
+        "article-title": "Efficient visual tracking based on fuzzy inference for intelligent transportation systems",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b103",
+        "doi-asserted-by": "crossref",
+        "first-page": "1541",
+        "DOI": "10.1109/TIP.2023.3246800",
+        "article-title": "Toward robust visual object tracking with independent target-agnostic detection and effective siamese cross-task interaction",
+        "volume": "32",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.asoc.2025.113140_b104",
+        "first-page": "3072",
+        "article-title": "Siammask: A framework for fast online object tracking and segmentation",
+        "volume": "45",
+        "author": "Hu",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b105",
+        "doi-asserted-by": "crossref",
+        "first-page": "606",
+        "DOI": "10.1016/j.ins.2022.12.082",
+        "article-title": "Siamese residual network for efficient visual tracking",
+        "volume": "624",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "Inform. Sci."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b106",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Wang, W. Zhou, J. Wang, H. Li, Transformer meets tracker: Exploiting temporal context for robust visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 1571–1580.",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b107",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Yu, M. Tang, L. Zheng, G. Zhu, J. Wang, H. Feng, X. Feng, H. Lu, High-performance discriminative tracking with transformers, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 9856–9865.",
+        "DOI": "10.1109/ICCV48922.2021.00971"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b108",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Chen, B. Yan, J. Zhu, D. Wang, X. Yang, H. Lu, Transformer tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 8126–8135.",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b109",
+        "series-title": "Trtr: Visual tracking with transformer",
+        "author": "Zhao",
+        "year": "2021"
+      },
+      {
+        "issue": "14",
+        "key": "10.1016/j.asoc.2025.113140_b110",
+        "doi-asserted-by": "crossref",
+        "first-page": "5219",
+        "DOI": "10.3390/s22145219",
+        "article-title": "Transformer feature enhancement network with template update for object tracking",
+        "volume": "22",
+        "author": "Hu",
+        "year": "2022",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b111",
+        "series-title": "Artificial Neural Networks and Machine Learning–ICANN 2022: 31st International Conference on Artificial Neural Networks, Bristol, UK, September 6–9, 2022, Proceedings, Part I",
+        "first-page": "85",
+        "article-title": "Correlation-based transformer tracking",
+        "author": "Zhong",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b112",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Yan, H. Peng, J. Fu, D. Wang, H. Lu, Learning spatio-temporal transformer for visual tracking, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 10448–10457.",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b113",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. He, X. Zhang, S. Ren, J. Sun, Deep residual learning for image recognition, in: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, 2016, pp. 770–778.",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b114",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Cao, Z. Huang, L. Pan, S. Zhang, Z. Liu, C. Fu, Tctrack: Temporal contexts for aerial tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 14798–14808.",
+        "DOI": "10.1109/CVPR52688.2022.01438"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b115",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Cao, C. Fu, J. Ye, B. Li, Y. Li, Hift: Hierarchical feature transformer for aerial tracking, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 15457–15466.",
+        "DOI": "10.1109/ICCV48922.2021.01517"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.asoc.2025.113140_b116",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1145/3065386",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "volume": "60",
+        "author": "Krizhevsky",
+        "year": "2017",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b117",
+        "doi-asserted-by": "crossref",
+        "unstructured": "D. Xing, N. Evangeliou, A. Tsoukalas, A. Tzes, Siamese transformer pyramid networks for real-time UAV tracking, in: Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2022, pp. 2139–2148.",
+        "DOI": "10.1109/WACV51458.2022.00196"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b118",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Song, J. Yu, Y.P.P. Chen, W. Yang, Transformer tracking with cyclic shifting window attention, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2022, pp. 8791–8800.",
+        "DOI": "10.1109/CVPR52688.2022.00859"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b119",
+        "series-title": "Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022, Proceedings, Part XXII",
+        "first-page": "146",
+        "article-title": "Aiatrack: Attention in attention for transformer visual tracking",
+        "author": "Gao",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b120",
+        "series-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b121",
+        "series-title": "Conditional positional encodings for vision transformers",
+        "author": "Chu",
+        "year": "2021"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b122",
+        "first-page": "15908",
+        "article-title": "Transformer in transformer",
+        "volume": "34",
+        "author": "Han",
+        "year": "2021",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b123",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Z. Liu, Y. Lin, Y. Cao, H. Hu, Y. Wei, Z. Zhang, S. Lin, B. Guo, Swin transformer: Hierarchical vision transformer using shifted windows, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 10012–10022.",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b124",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Wu, B. Xiao, N. Codella, M. Liu, X. Dai, L. Yuan, L. Zhang, Cvt: Introducing convolutions to vision transformers, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 22–31.",
+        "DOI": "10.1109/ICCV48922.2021.00009"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b125",
+        "doi-asserted-by": "crossref",
+        "unstructured": "F. Xie, C. Wang, G. Wang, W. Yang, W. Zeng, Learning tracking representations via dual-branch fully transformer networks, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2021, pp. 2688–2697.",
+        "DOI": "10.1109/ICCVW54120.2021.00303"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b126",
+        "first-page": "16743",
+        "article-title": "Swintrack: A simple and strong baseline for transformer tracking",
+        "volume": "35",
+        "author": "Lin",
+        "year": "2022",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b127",
+        "series-title": "SparseTT: Visual tracking with sparse transformers",
+        "author": "Fu",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b128",
+        "first-page": "773",
+        "article-title": "Target-aware tracking with long-term context attention",
+        "volume": "vol. 37",
+        "author": "He",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b129",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Cui, C. Jiang, L. Wang, G.M. Wu, End-to-end tracking with iterative mixed attention, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, New Orleans, LA, USA, 2022, pp. 18–24.",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b130",
+        "series-title": "Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022, Proceedings, Part XXII",
+        "first-page": "375",
+        "article-title": "Backbone is all your need: a simplified architecture for visual object tracking",
+        "author": "Chen",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b131",
+        "series-title": "Computer Vision–ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23–27, 2022, Proceedings, Part XXII",
+        "first-page": "341",
+        "article-title": "Joint feature learning and relation modeling for tracking: A one-stream framework",
+        "author": "Ye",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b132",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Y. Cai, J. Liu, J. Tang, G. Wu, Robust object modeling for visual tracking, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2023, pp. 9589–9600.",
+        "DOI": "10.1109/ICCV51070.2023.00879"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b133",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Chen, H. Peng, D. Wang, H. Lu, H. Hu, Seqtrack: Sequence to sequence learning for visual object tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023, pp. 14572–14581.",
+        "DOI": "10.1109/CVPR52729.2023.01400"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b134",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Wei, Y. Bai, Y. Zheng, D. Shi, Y. Gong, Autoregressive visual tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023, pp. 9697–9706.",
+        "DOI": "10.1109/CVPR52729.2023.00935"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b135",
+        "series-title": "ARTrackV2: Prompting autoregressive tracker where to look and how to describe",
+        "author": "Bai",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b136",
+        "series-title": "The Visual Object Tracking VOT2013 Challenge Results",
+        "author": "Kristan",
+        "year": "2013"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b137",
+        "series-title": "Computer Vision–ECCV 2016: 14th European Conference, Amsterdam, the Netherlands, October 11–14, 2016, Proceedings, Part I 14",
+        "first-page": "445",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "Mueller",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b138",
+        "doi-asserted-by": "crossref",
+        "unstructured": "M. Muller, A. Bibi, S. Giancola, S. Alsubaihi, B. Ghanem, Trackingnet: A large-scale dataset and benchmark for object tracking in the wild, in: Proceedings of the European Conference on Computer Vision, ECCV, 2018, pp. 300–317.",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.asoc.2025.113140_b139",
+        "doi-asserted-by": "crossref",
+        "first-page": "1562",
+        "DOI": "10.1109/TPAMI.2019.2957464",
+        "article-title": "Got-10k: A large high-diversity benchmark for generic object tracking in the wild",
+        "volume": "43",
+        "author": "Huang",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b140",
+        "doi-asserted-by": "crossref",
+        "unstructured": "H. Kiani Galoogahi, A. Fagg, C. Huang, D. Ramanan, S. Lucey, Need for speed: A benchmark for higher frame rate object tracking, in: Proceedings of the IEEE International Conference on Computer Vision, 2017, pp. 1125–1134.",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b141",
+        "doi-asserted-by": "crossref",
+        "unstructured": "J. Valmadre, L. Bertinetto, J.F. Henriques, R. Tao, A. Vedaldi, A.W. Smeulders, P.H. Torr, E. Gavves, Long-term tracking in the wild: A benchmark, in: Proceedings of the European Conference on Computer Vision, ECCV, 2018, pp. 670–685.",
+        "DOI": "10.1007/978-3-030-01219-9_41"
+      },
+      {
+        "issue": "9",
+        "key": "10.1016/j.asoc.2025.113140_b142",
+        "doi-asserted-by": "crossref",
+        "first-page": "1834",
+        "DOI": "10.1109/TPAMI.2014.2388226",
+        "article-title": "Object tracking benchmark",
+        "volume": "37",
+        "author": "Wu",
+        "year": "2015",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b143",
+        "doi-asserted-by": "crossref",
+        "first-page": "439",
+        "DOI": "10.1007/s11263-020-01387-y",
+        "article-title": "Lasot: A high-quality large-scale single object tracking benchmark",
+        "volume": "129",
+        "author": "Fan",
+        "year": "2021",
+        "journal-title": "Int. J. Comput. Vis."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b144",
+        "unstructured": "M. Kristan, R. Pflugfelder, A. Leonardis, J. Matas, L. Cehovin, G. Nebehay, T. Vojir, G. Fernandez, A. Lukezic, The visual object tracking vot2014 challenge results (2014), in: ICCV Workshops, 2014, pp. 564–586."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b145",
+        "unstructured": "M. Kristan, J. Matas, A. Leonardis, M. Felsberg, L. Cehovin, G. Fernandez, T. Vojir, G. Hager, G. Nebehay, R. Pflugfelder, The visual object tracking vot2015 challenge results, in: Proceedings of the IEEE International Conference on Computer Vision Workshops, 2015, pp. 1–23."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b146",
+        "series-title": "Computer Vision–ECCV 2016 Workshops: Amsterdam, the Netherlands, October 8–10 and 15–16, 2016, Proceedings, Part II",
+        "first-page": "777",
+        "article-title": "The visual object tracking VOT2016 challenge results",
+        "author": "Roffo",
+        "year": "2016"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b147",
+        "unstructured": "D. Mishra, J. Matas, The visual object tracking VOT2017 challenge results, in: Proceedings of the IEEE International Conference on Computer Vision, ICCV, Venice, Italy, 2017, pp. 22–29."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b148",
+        "unstructured": "M. Kristan, A. Leonardis, J. Matas, M. Felsberg, R. Pflugfelder, L. Čehovin Zajc, T. Vojir, G. Bhat, A. Lukezic, A. Eldesokey, et al., The sixth visual object tracking vot2018 challenge results, in: Proceedings of the European Conference on Computer Vision (ECCV) Workshops, 2018."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b149",
+        "unstructured": "M. Kristan, J. Matas, A. Leonardis, M. Felsberg, R. Pflugfelder, J.K. Kamarainen, L. Čehovin Zajc, O. Drbohlav, A. Lukezic, A. Berg, et al., The seventh visual object tracking vot2019 challenge results, in: Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, 2019."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b150",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B. Yan, H. Zhao, D. Wang, H. Lu, X. Yang, ‘Skimming-perusal’ tracking: A framework for real-time and robust long-term tracking, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2019, pp. 2385–2393.",
+        "DOI": "10.1109/ICCV.2019.00247"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b151",
+        "doi-asserted-by": "crossref",
+        "unstructured": "K. Dai, Y. Zhang, D. Wang, J. Li, H. Lu, X. Yang, High-performance long-term tracking with meta-updater, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020, pp. 6298–6307.",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b152",
+        "article-title": "SiamDMU: Siamese dual mask update network for visual object tracking",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Emerg. Top. Comput. Intell."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b153",
+        "series-title": "ODTrack: Online dense temporal token learning for visual tracking",
+        "author": "Zheng",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b154",
+        "series-title": "Long-term frame-event visual tracking: Benchmark dataset and baseline",
+        "author": "Wang",
+        "year": "2024"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b155",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2022.109912",
+        "article-title": "Feature distillation siamese networks for object tracking",
+        "volume": "132",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b156",
+        "doi-asserted-by": "crossref",
+        "unstructured": "P. Blatter, M. Kanakis, M. Danelljan, L. Van Gool, Efficient visual tracking with exemplar transformers, in: Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision, 2023, pp. 1571–1581.",
+        "DOI": "10.1109/WACV56688.2023.00162"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b157",
+        "article-title": "ZoomTrack: Target-aware non-uniform resizing for efficient visual tracking",
+        "volume": "36",
+        "author": "Kou",
+        "year": "2024",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b158",
+        "doi-asserted-by": "crossref",
+        "unstructured": "N. Wang, Y. Song, C. Ma, W. Zhou, W. Liu, H. Li, Unsupervised deep tracking, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019, pp. 1308–1317.",
+        "DOI": "10.1109/CVPR.2019.00140"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b159",
+        "article-title": "Self-supervised tracking via target-aware data synthesis",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b160",
+        "article-title": "A reliable sample selection strategy for weakly supervised visual tracking",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Reliab."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b161",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2024.111252",
+        "article-title": "Towards universal and sparse adversarial examples for visual object tracking",
+        "volume": "153",
+        "author": "Sheng",
+        "year": "2024",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.asoc.2025.113140_b162",
+        "doi-asserted-by": "crossref",
+        "first-page": "3866",
+        "DOI": "10.1109/LRA.2022.3146911",
+        "article-title": "Tracker meets night: A transformer enhancer for UAV tracking",
+        "volume": "7",
+        "author": "Ye",
+        "year": "2022",
+        "journal-title": "IEEE Robot. Autom. Lett."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b163",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2020.106490",
+        "article-title": "Target tracking strategy using deep deterministic policy gradient",
+        "volume": "95",
+        "author": "You",
+        "year": "2020",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b164",
+        "article-title": "Tracking a dynamic invading target by UAV in oilfield inspection via an improved bat algorithm",
+        "volume": "90",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b165",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.asoc.2022.109902",
+        "article-title": "Search and tracking strategy of autonomous surface underwater vehicle in oceanic eddies based on deep reinforcement learning",
+        "volume": "132",
+        "author": "Song",
+        "year": "2023",
+        "journal-title": "Appl. Soft Comput."
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b166",
+        "series-title": "Improving underwater visual tracking with a large scale dataset and image enhancement",
+        "author": "Alawode",
+        "year": "2023"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b167",
+        "doi-asserted-by": "crossref",
+        "unstructured": "L. Zhou, Z. Zhou, K. Mao, Z. He, Joint visual grounding and tracking with natural language specification, in: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023, pp. 23151–23160.",
+        "DOI": "10.1109/CVPR52729.2023.02217"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b168",
+        "doi-asserted-by": "crossref",
+        "unstructured": "X. Li, Y. Huang, Z. He, Y. Wang, H. Lu, M.H. Yang, CiteTracker: Correlating Image and Text for Visual Tracking, in: Proceedings of the IEEE/CVF International Conference on Computer Vision, 2023, pp. 9974–9983.",
+        "DOI": "10.1109/ICCV51070.2023.00915"
+      },
+      {
+        "key": "10.1016/j.asoc.2025.113140_b169",
+        "series-title": "Unifying visual and vision-language tracking via contrastive learning",
+        "author": "Ma",
+        "year": "2024"
+      }
+    ],
+    "container-title": [
+      "Applied Soft Computing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S156849462500451X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S156849462500451X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          5
+        ]
+      ],
+      "date-time": "2026-05-05T19:46:20Z",
+      "timestamp": 1778010380000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S156849462500451X"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "references-count": 169,
+    "alternative-id": [
+      "S156849462500451X"
+    ],
+    "URL": "https://doi.org/10.1016/j.asoc.2025.113140",
+    "relation": {},
+    "ISSN": [
+      "1568-4946"
+    ],
+    "issn-type": [
+      {
+        "value": "1568-4946",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Visual object tracking: Review and challenges",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Applied Soft Computing",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.asoc.2025.113140",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "113140"
+  }
+}

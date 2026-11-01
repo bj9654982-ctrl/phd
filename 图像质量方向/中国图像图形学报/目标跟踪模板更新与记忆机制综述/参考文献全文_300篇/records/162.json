@@ -1,0 +1,42 @@
+{
+  "number": 162,
+  "title": "Hyperparameter Optimization for Tracking With Continuous Deep Q-Learning",
+  "year": 2018,
+  "authors": [
+    "Xingping Dong",
+    "Jianbing Shen",
+    "Wenguan Wang",
+    "Yu Liu",
+    "Ling Shao",
+    "Fatih Porikli"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Hyperparameter_Optimization_for_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Hyperparameter_Optimization_for_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Hyperparameter_Optimization_for_CVPR_2018_paper.pdf",
+      "bytes": 1941928,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\162_2018_Hyperparameter_Optimization_for_Tracking_With_Continuous_Deep_Q-Learning.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Hyperparameter_Optimization_for_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Dong_Hyperparameter_Optimization_for_CVPR_2018_paper.pdf",
+  "bytes": 1941928,
+  "sha256": "bb27b1f73a16cf4abcec61f4c0dd7e67e96d4aa1aa25107c961a52646cf173fa",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Hyperparameter Optimization for Tracking With Continuous Deep Q-Learning",
+  "first_page_text": "Hyperparameter Optimization for Tracking with Continuous Deep Q-Learning\nXingping Dong 1, Jianbing Shen∗1,2, Wenguan Wang 1, Yu, Liu 1, Ling Shao 2,3, and Fatih Porikli 4\n1Beijing Lab of Intelligent Information Technology, School of Computer Science, Beijing Institute of Technology, China\n2Inception Institute of Artiﬁcial Intelligence, Abu Dhabi, UAE\n3School of Computing Sciences, University of East Anglia, Norwich NR4 7TJ, U.K.\n4Research School of Engineering, Australian National University, Australia\nAbstract\nHyperparameters are numerical presets whose values\nare assigned prior to the commencement of the learning\nprocess. Selecting appropriate hyperparameters is critical\nfor the accuracy of tracking algorithms, yet it is difﬁcult to\ndetermine their optimal values, in particular, adaptive ones\nfor each speciﬁc video sequence. Most hyperparameter op-\ntimization algorithms depend on searching a generic range\nand they are imposed blindly on all sequences. Here, we\npropose a novel hyperparameter optimization method that\ncan ﬁnd optimal hyperparameters for a given sequence us-\ning an action-prediction network leveraged on Continuous\nDeep Q-Learning. Since the common state-spaces for ob-\nject tracking tasks are signiﬁcantly more complex than the\nones in traditional control problems, existing Continuous\nDeep Q-Learning algorithms cannot be directly applied. To\novercome this challenge, we introduce an efﬁcient heuris-\ntic to accelerate the convergence behavior. We evaluate our\nmethod on several tracking benchmarks and demonstrate its\nsuperior performance1.\n1. Introduction\nRecent years witnessed a burst of object tracking solu-\ntions based on correlation ﬁlters and deep learning mod-\nels. After the pioneering work of Henriques et al. [19],\nthe kernelized correlation ﬁlter has evoked increasing at-\ntention in tracking applications thanks to its computation-\nal advantages, robust performance, and appealing theoreti-\n∗Corresponding author:\nJianbing Shen (shenjianbing@bit.edu.cn).\nThis work was supported in part by the Beijing Natural Science Foun-\ndation under Grant 4182056, the Australian Research Council’s Discovery\nProjects funding scheme under Grant DP150104645, the Fok Ying Tung\nEducation Foundation under Grant 141067, and the Specialized Fund for\nJoint Building Program of Beijing Municipal Education Commission.\n1Our\nsource\ncode\nis\navailable\nat\nhttps://github.com/\nshenjianbing/dqltracking.\nKCF\nSiamFc-3s\nSiam-py\nOurs\nFigure 1. Sample results of our hyperparameter optimization\nmethod on a real-time tracker: Siam-py [48]. By only optimiz-\ning the hyperparameters of Siam-py, we achieve a signiﬁcant im-\nprovement. For instance, our method improves the distance preci-\nsion [53] from 4.6% to an astounding score of 99.7% on Bolt (top\nrow). It also outperforms the original versions of KCF [19] and\nSiamFc-3s [3].\ncal framework. Many variants were devised to further im-\nprove its accuracy. For instance, Color Name [10] applies\nan alternative feature representation, DSST [9] estimates\nobject scale using a multi-scale correlation ﬁlter, and LCT\n[34] and MUSTer [20] attempt to recover the target after a\ncomplete occlusion. In parallel, contemporary deep learn-\ning models have also been incorporated in object tracking\ntasks. Some approaches focus on accuracy, including Deep-\nTrack [27, 28] and MDnet [37], which won the VOT 2015\n518\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

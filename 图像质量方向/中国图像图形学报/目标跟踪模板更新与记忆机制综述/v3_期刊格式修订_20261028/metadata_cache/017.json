@@ -1,0 +1,628 @@
+{
+  "number": 17,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          26
+        ]
+      ],
+      "date-time": "2026-10-26T03:21:59Z",
+      "timestamp": 1792984919233,
+      "version": "4.5.0"
+    },
+    "reference-count": 64,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012492",
+        "name": "Youth Innovation Promotion Association",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100012492",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr46437.2021.00162",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2021-11-02T17:56:02Z",
+      "timestamp": 1635875762000
+    },
+    "page": "1571-1580",
+    "source": "Crossref",
+    "is-referenced-by-count": 819,
+    "title": [
+      "Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ning",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wengang",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Houqiang",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "müller",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00716"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Deep regression tracking with shrinkage loss",
+        "author": "lu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Microsoft coco: Common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00146"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.152"
+      },
+      {
+        "key": "ref36",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "mueller",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.515"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref62",
+        "article-title": "Learning feature embeddings for discriminant model based tracking",
+        "author": "zheng",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref63",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00064"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Know your surroundings: Exploiting scene information for object tracking",
+        "author": "bhat",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV Workshops"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "volume": "37",
+        "author": "henriques",
+        "year": "2015",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.21"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Distilling the knowledge in a neural network",
+        "author": "hinton",
+        "year": "2015"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Got-10k: A large high-diversity benchmark for generic object tracking in the wild",
+        "author": "huang",
+        "year": "2018"
+      },
+      {
+        "key": "ref26",
+        "article-title": "The sixth visual object tracking vot2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "ECCV Workshops"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2014"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00140"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6899"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00676"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Learning dynamic memory networks for object tracking",
+        "author": "yang",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref57",
+        "article-title": "Siamfc++: Towards robust and accurate visual tracking with target estimation guidelines",
+        "author": "xu",
+        "year": "2020",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00813"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00510"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00509"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "first-page": "400",
+        "DOI": "10.1007/s11263-020-01357-4",
+        "article-title": "Unsupervised deep representation learning for real-time tracking",
+        "volume": "129",
+        "author": "wang",
+        "year": "2021",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.28.65"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Image transformer",
+        "author": "parmar",
+        "year": "2018",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "author": "devlin",
+        "year": "2018"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00478"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Unveiling the power of deep tracking",
+        "author": "bhat",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref6",
+        "article-title": "A simple framework for contrastive learning of visual representations",
+        "author": "chen",
+        "year": "2020"
+      },
+      {
+        "key": "ref5",
+        "article-title": "End-to-end object detection with transformers",
+        "author": "carion",
+        "year": "2020",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00376"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Attention is all you need",
+        "author": "vaswani",
+        "year": "2017",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Tracking by instance detection: A meta-learning approach",
+        "author": "wang",
+        "year": "2020",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Language models are unsupervised multitask learners",
+        "author": "radford",
+        "year": "2019",
+        "journal-title": "OpenAIRE blog"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref43",
+        "article-title": "End-to-end asr: from supervised to semi-supervised learning with modern architectures",
+        "author": "synnaeve",
+        "year": "2019"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            20
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9577055/9577056/09578157.pdf?arnumber=9578157",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          10
+        ]
+      ],
+      "date-time": "2022-05-10T11:47:53Z",
+      "timestamp": 1652183273000
+    },
+    "score": 68.96586,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9578157/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 64,
+    "URL": "https://doi.org/10.1109/cvpr46437.2021.00162",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    }
+  }
+}

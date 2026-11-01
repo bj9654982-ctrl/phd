@@ -1,0 +1,472 @@
+{
+  "number": 282,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "RMem: Restricted Memory Banks Improve Video Object Segmentation",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2026-10-02T04:06:55Z",
+      "timestamp": 1790914015388,
+      "version": "4.1.0"
+    },
+    "reference-count": 47,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52733.2024.01760",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2024-09-16T13:34:53Z",
+      "timestamp": 1726493693000
+    },
+    "page": "18602-18611",
+    "source": "Crossref",
+    "is-referenced-by-count": 38,
+    "title": [
+      "RMem: Restricted Memory Banks Improve Video Object Segmentation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Junbao",
+        "family": "Zhou",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Illinois Urbana-Champaign"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ziqi",
+        "family": "Pang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Illinois Urbana-Champaign"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yu-Xiong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Illinois Urbana-Champaign"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00303"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01797"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Using confidence bounds for exploitation-exploration tradeoffs",
+        "author": "Auer",
+        "year": "2002",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58536-5_46"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-15555-0_21"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.565"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00130"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00135"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19815-1_37"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00551"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Rethinking space-time networks with improved memory coverage for efficient video object segmentation",
+        "author": "Cheng",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.00304"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Scaling egocentric vision: The EPIC-KITCHENS dataset",
+        "author": "Damen",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref14",
+        "article-title": "EPIC-KITCHENS VISOR benchmark: Video segmentations and object relations",
+        "author": "Darkhalil",
+        "year": "2022",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01850"
+      },
+      {
+        "key": "ref16",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2021",
+        "journal-title": "ICLR"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00585"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01842"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01240"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01237-3_4"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Space-time correspondence as a contrastive random walk",
+        "author": "Jabri",
+        "year": "2020",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.273"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58607-2_43"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Video object segmentation with adaptive feature bank and uncertain-region refinement",
+        "author": "Liang",
+        "year": "2020",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2838670"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503250"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00770"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "ref31",
+        "article-title": "The 2017 DAVIS challenge on video object segmentation",
+        "author": "Pont-Tuset",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00743"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58542-6_38"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02187"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-011-0512-5"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Attention is all you need",
+        "author": "Vaswani",
+        "year": "2017",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.31.116"
+      },
+      {
+        "key": "ref38",
+        "article-title": "FeeIVOS: Fast end-to-end embedding learning for video object segmentation",
+        "author": "Voigtlaender",
+        "year": "2019",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00134"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01228-1_36"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01750"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00680"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Decoupling features in hi-erarchical propagation for video object segmentation",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58558-7_20"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Associating objects with transformers for video object segmentation",
+        "author": "Yang",
+        "year": "2021",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2021.3081597"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01869"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Seattle, WA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10654794/10654797/10655451.pdf?arnumber=10655451",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2024-09-20T02:09:06Z",
+      "timestamp": 1726798146000
+    },
+    "score": 72.55057,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10655451/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 47,
+    "URL": "https://doi.org/10.1109/cvpr52733.2024.01760",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    }
+  }
+}

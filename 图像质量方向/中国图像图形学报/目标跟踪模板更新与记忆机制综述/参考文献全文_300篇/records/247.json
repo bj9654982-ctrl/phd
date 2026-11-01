@@ -1,0 +1,47 @@
+{
+  "number": 247,
+  "title": "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning",
+  "year": 2024,
+  "authors": [
+    "Lingyi Hong",
+    "Shilin Yan",
+    "Renrui Zhang",
+    "Wanyun Li",
+    "Xinyu Zhou",
+    "Pinxue Guo",
+    "Kaixun Jiang",
+    "Yiting Chen",
+    "Jinglun Li",
+    "Zhaoyu Chen",
+    "Wenqiang Zhang"
+  ],
+  "venue": "CVPR",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Hong_OneTracker_Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficient_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hong_OneTracker_Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficient_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hong_OneTracker_Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficient_CVPR_2024_paper.pdf",
+      "bytes": 1527983,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\247_2024_OneTracker__Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficie.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hong_OneTracker_Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficient_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Hong_OneTracker_Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficient_CVPR_2024_paper.pdf",
+  "bytes": 1527983,
+  "sha256": "c0984ae41cc3a61df75741f83c52280ff3e6a825c19c612f59e29460e2665681",
+  "version": "会议官方开放版本",
+  "pages": 13,
+  "pdf_title": "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning",
+  "first_page_text": "OneTracker: Unifying Visual Object Tracking with\nFoundation Models and Efficient Tuning\nLingyi Hong1* Shilin Yan1* Renrui Zhang2,3 Wanyun Li1 Xinyu Zhou1 Pinxue Guo4\nKaixun Jiang4 Yiting Chen1 Jinglun Li4 Zhaoyu Chen4 Wenqiang Zhang1,5†\n1 Shanghai Key Lab of Intelligent Information Processing,\nSchool of Computer Science, Fudan University, Shanghai, China\n2 CUHK MMLab, 3 Shanghai Artificial Intelligence Laboratory\n4 Shanghai Engineering Research Center of AI & Robotics,\nAcademy for Engineering & Technology, Fudan University, Shanghai, China\n5 Engineering Research Center of AI & Robotics, Ministry of Education,\nAcademy for Engineering & Technology, Fudan University, Shanghai, China\nAbstract\nVisual object tracking aims to localize the target object of\neach frame based on its initial appearance in the first frame.\nDepending on the input modility, tracking tasks can be di-\nvided into RGB tracking and RGB+X (e.g. RGB+N, and\nRGB+D) tracking. Despite the different input modalities,\nthe core aspect of tracking is the temporal matching. Based\non this common ground, we present a general framework to\nunify various tracking tasks, termed as OneTracker. One-\nTracker first performs a large-scale pre-training on a RGB\ntracker called Foundation Tracker. This pretraining phase\nequips the Foundation Tracker with a stable ability to esti-\nmate the location of the target object. Then we regard other\nmodality information as prompt and build Prompt Tracker\nupon Foundation Tracker. Through freezing the Foundation\nTracker and only adjusting some additional trainable pa-\nrameters, Prompt Tracker inhibits the strong localization\nability from Foundation Tracker and achieves parameter-\nefficient finetuning on downstream RGB+X tracking tasks.\nTo evaluate the effectiveness of our general framework\nOneTracker, which is consisted of Foundation Tracker and\nPrompt Tracker, we conduct extensive experiments on 6\npopular tracking tasks across 11 benchmarks and our One-\nTracker outperforms other models and achieves state-of-\nthe-art performance.\n1. Introduction\nObject tracking [4, 13, 56, 91, 119, 120] is a foundation\nvisual task, that involves localizing a target object in each\n*Equal Contribution\n†Corresponding Author\nvideo frame based on the initial bounding box in the first\nframe. It has various applications, such as self-driving [10,\n36, 117], visual surveillance [81, 94], and video compres-\nsion [46].\nIn addition to the conventional RGB track-\ning (Figure 1 (a)), there are various downstream tracking\ntasks that incorporate additional information and boost per-\nformance, including RGB+N, RGB+M, and RGB+D/T/E\ntracking. In RGB+N tracking [28, 62, 89, 104], the natural\nlinguistic descriptions of target are additionally provided to\nexclude the interference of similar objects and enhance the\nlocalization. In RGB+M tracking [24, 41, 72, 95, 103], the\nmasks of the target in the first frame are offered instead\nof bounding boxes.\nIn RGB+D/T/E tracking, the depth,\nthermal, and event maps are utilized as an extra to handle\nwith the vulnerability of RGB trackers to complex scenar-\nios and improve the robustness. The goal of all these down-\nstream tasks is to localize the target with the assistance of\nmultimodal information. Thus, we unify them as a whole,\nterming them as RGB+X tracking (Figure 1 (b)). Despite\nthe diversity of tracking tasks, the core objective remains\nthe same: localizing the target in the search frame given\nits initial appearance, similar to the underlying principles of\nhuman attention mechanisms [8]. Cognitive scientists have\ndiscovered that the human vision system builds the corre-\nspondence or motion [2] on the temporal dimension [48]\nto determine the object’s position in the current frame [27],\nregardless of the form of additional modalities in various\ntracking tasks.\nCurrently, there is a prevailing trend where models are\ndesigned and trained for specific tasks using data from cer-\ntain domains, offering convenience and yielding competi-\ntive results on individual tasks. However, this design phi-\nlosophy presents certain challenges. (1) Independent mod-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19079\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

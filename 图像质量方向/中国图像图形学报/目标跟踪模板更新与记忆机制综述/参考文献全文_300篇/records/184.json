@@ -1,0 +1,41 @@
+{
+  "number": 184,
+  "title": "Foreground-Background Distribution Modeling Transformer for Visual Object Tracking",
+  "year": 2023,
+  "authors": [
+    "Dawei Yang",
+    "Jianfeng He",
+    "Yinchao Ma",
+    "Qianjin Yu",
+    "Tianzhu Zhang"
+  ],
+  "venue": "ICCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Yang_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Tracking_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+      "bytes": 5823757,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\184_2023_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Trac.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Yang_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+  "bytes": 5823757,
+  "sha256": "9e88180b569107e41a9dc4e27d8cb1c15328d6d9dc82f8462ed1a6209e19bd1d",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Foreground-Background Distribution Modeling Transformer for Visual Object Tracking",
+  "first_page_text": "Foreground-Background Distribution Modeling Transformer for Visual Object\nTracking\nDawei Yang1,*, Jianfeng He1,*, Yinchao Ma1, Qianjin Yu1, Tianzhu Zhang1,†\n1 University of Science and Technology of China\n{yangdawei,hejf,imyc,sa21010105}@mail.ustc.edu.cn, {tzzhang}@ustc.edu.cn\nAbstract\nVisual object tracking is a fundamental research topic\nwith a broad range of applications.\nBenefiting from the\nrapid development of Transformer, pure Transformer track-\ners have achieved great progress.\nHowever, the feature\nlearning of these Transformer-based trackers is easily dis-\nturbed by complex backgrounds. To address the above lim-\nitations, we propose a novel foreground-background distri-\nbution modeling transformer for visual object tracking (F-\nBDMTrack), including a fore-background agent learning\n(FBAL) module and a distribution-aware attention (DA2)\nmodule in a unified transformer architecture. The proposed\nF-BDMTrack enjoys several merits.\nFirst, the proposed\nFBAL module can effectively mine fore-background infor-\nmation with designed fore-background agents. Second, the\nDA2 module can suppress the incorrect interaction between\nforeground and background by modeling fore-background\ndistribution similarities. Finally, F-BDMTrack can extract\ndiscriminative features under ever-changing tracking sce-\nnarios for more accurate target state estimation. Extensive\nexperiments show that our F-BDMTrack outperforms previ-\nous state-of-the-art trackers on eight tracking benchmarks.\n1. Introduction\nVisual object tracking(VOT) aims to locate the position\nof a class-agnostic target in a video sequence given the tar-\nget in the first frame, which is a fundamental and essential\nresearch topic in computer vision. Due to its great appli-\ncation potential (such as video surveillance [9, 49, 9], anti-\nUAV tracking [64, 25, 29], and automatic driving [47, 41,\n15]), VOT has attracted substantial attention and has been\ndeveloped tremendously [56, 31, 17]. However, as a video\nprocessing task, visual object tracking still faces various\nchallenges including deformation, motion blur, and suscep-\ntibility to background interference [51, 27, 24].\n*Equal Contribution\n†Corresponding Author\nFigure 1. Response map comparisons among different attention\nmechanisms. Both (a) and (b) have incorrect similarities between\nthe target (green square patch) and background distractor (yellow\ntriangle patch) due to similar appearance, causing messy response\nmap. Differently, in our proposed DA2 module (c), the similarity\nbetween target and distractor is suppressed, since the similarity is\nobtained according to their fore-background distributions.\nTo deal with the above challenges, numerous approaches\nhave been proposed [23, 2, 3, 59, 10, 5, 62]. These meth-\nods can be generally divided into three main paradigms,\nincluding CNN-based [8, 52, 58, 35, 3, 13], hybrid CNN-\nTransformer [7, 59, 36, 50, 42], and pure Transformer\ntrackers [5, 62, 32, 57]. CNN-based trackers first extract\nfeatures from the template and search region separately\nthrough a shared convolutional neural network (CNN), and\nthen the target state is estimated by calculating cross-\ncorrelation [2, 58, 52] between features in template and\nsearch regions, or learning a discriminative correlation fil-\nter [12, 3, 13]. With the successful development of trans-\nformer in the computer vision field, an increasing number\nof hybrid CNN-Transformer trackers [7, 59, 42] have been\nproposed. These trackers also leverage CNN to extract fea-\ntures separately, but adopt transformer to realize the feature\ninteraction between the template and search region, which\ncan alleviate the loss of discriminative foreground informa-\ntion. However, for the above two paradigm trackers, there\nis no interaction between the template and the search re-\ngion when extracting features. These target-unaware feature\nextraction ways have limited target-background discrimina-\ntive power, especially when the target category is not seen\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n10117\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

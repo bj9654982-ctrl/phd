@@ -1,0 +1,41 @@
+{
+  "number": 86,
+  "title": "Visual Tracking Using Attention-Modulated Disintegration and Integration",
+  "year": 2016,
+  "authors": [
+    "Jongwon Choi",
+    "Hyung Jin Chang",
+    "Jiyeoup Jeong",
+    "Yiannis Demiris",
+    "Jin Young Choi"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Choi_Visual_Tracking_Using_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Choi_Visual_Tracking_Using_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Choi_Visual_Tracking_Using_CVPR_2016_paper.pdf",
+      "bytes": 1725995,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\086_2016_Visual_Tracking_Using_Attention-Modulated_Disintegration_and_Integration.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Choi_Visual_Tracking_Using_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Choi_Visual_Tracking_Using_CVPR_2016_paper.pdf",
+  "bytes": 1725995,
+  "sha256": "db08c26475fddc49ab2cb562d5e81973826463202fde1fb7c13e71bb01256090",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Visual Tracking Using Attention-Modulated Disintegration and Integration",
+  "first_page_text": "Visual Tracking Using Attention-Modulated Disintegration and Integration\nJongwon Choi1\nHyung Jin Chang2\nJiyeoup Jeong1\nYiannis Demiris2\nJin Young Choi1\n1ASRI, Dept. of Electrical and Computer Eng., Seoul National University, South Korea\n2Dept. of Electrical and Electronic Eng., Imperial College London, UK\njwchoi.pil@gmail.com {jy.jeong, jychoi}@snu.ac.kr {hj.chang, y.demiris}@imperial.ac.uk\nAbstract\nIn this paper, we present a novel attention-modulated vi-\nsual tracking algorithm that decomposes an object into mul-\ntiple cognitive units, and trains multiple elementary track-\ners in order to modulate the distribution of attention ac-\ncording to various feature and kernel types. In the integra-\ntion stage it recombines the units to memorize and recognize\nthe target object effectively. With respect to the elementary\ntrackers, we present a novel attentional feature-based cor-\nrelation ﬁlter (AtCF) that focuses on distinctive attentional\nfeatures. The effectiveness of the proposed algorithm is val-\nidated through experimental comparison with state-of-the-\nart methods on widely-used tracking benchmark datasets.\n1. Introduction\nWhen tracking objects, humans readily ﬁnd useful fea-\ntures to distinguish the tracking target from background\nclutter. The ability to ﬁnd useful features is one of the most\npowerful aspects of the human visual system. With this ro-\nbust visual system, humans are capable of adapting stably\nand rapidly to complex environments, even when encoun-\ntering background clutter or drastic changes of the target.\nOver the last 10 years, remarkable advances have been\nachieved in visual tracking research, as surveyed in [28,29].\nHowever, even with the advances in performance, the tech-\nnical level of the current visual tracking cannot achieve the\nperformance of the human visual system. Hence, current vi-\nsual tracking algorithms have much room for improvement\nvia a human-mimetic approach.\nIn this paper, we propose a structuralist cognitive model\nfor visual tracking (SCT). As shown in Fig. 1, the SCT\nis composed of two separate stages: disintegration and in-\ntegration. In the disintegration stage, the target is divided\ninto a number of small cognitive structural units, which are\nmemorized separately. Each unit includes a speciﬁc color or\na distinguishable target shape, and is trained by elementary\ntrackers with different types of kernel.\nIn the integration stage, an adequate combination of the\nDisintegration\nIntegration\nCognitive unit 1\nCognitive unit 2\nCognitive unit 3\nCognitive unit 4\nCognitive unit 5\nCognitive unit 6\nVarious Features\nMemory\nMemory\nCombination 1\nCombination 2\nCombination 3\nTiger\nTesting\nUpdating\nColor\nShape\nCombine\nFigure 1. Structuralist cognitive model for tracking (SCT). Our\nSCT model works with two stages: disintegration and integration.\nBy cooperating between the two stages, the target can be trained\nand found from the input image patch.\nstructural units is created and memorized to express the tar-\nget’s appearance. When encountering a target with chang-\ning appearance in diverse environments, the SCT utilizes all\nthe responses from the cognitive units memorized in the dis-\nintegration stage and then recognizes the target through the\nbest combination of cognitive units, referring to the memo-\nrized combinations.\nThrough disintegration and integration synergies, the\nSCT produces robust responses to complex inputs. When\nbackground clutter appears, the disintegration stage trains\nthe cognitive units to effectively distinguish the target from\nthe clutter. In addition, the best combination of the cogni-\ntive units is learned and memorized in the integration stage,\nwhich enlarges the discriminability between the clutter and\ntarget. If the target is deformed into a sudden change of ap-\npearance, the integration reduces the inﬂuence of the previ-\nously inﬂuential cognitive units and enlarges the inﬂuence\nof new appropriate units, which helps the SCT to adapt it-\nself rapidly to the change.\nWith respect to the elementary trackers, we propose\nan attentional feature-based correlation ﬁlter (AtCF). The\nAtCF focuses on the attentional features discriminated from\nthe background, which is motivated by the concentration\ncognition model of human [46]. Each AtCF consists of an\n14321\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

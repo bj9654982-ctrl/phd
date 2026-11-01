@@ -1,0 +1,38 @@
+{
+  "number": 65,
+  "title": "Multi-Forest Tracker: A Chameleon in Tracking",
+  "year": 2014,
+  "authors": [
+    "David J. Tan",
+    "Slobodan Ilic"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.pdf",
+      "bytes": 19596724,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\065_2014_Multi-Forest_Tracker__A_Chameleon_in_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.pdf",
+  "bytes": 19596724,
+  "sha256": "a2b268ddd0587176e47c9265298c7f37e7a13503ceb0d52135e5dc0459a01d9e",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Multi-Forest Tracker: A Chameleon in Tracking",
+  "first_page_text": "Multi-Forest Tracker: A Chameleon in Tracking\nDavid Joseph Tan\nTechnische Universit¨at M¨unchen\ntanda@in.tum.de\nSlobodan Ilic\nTechnische Universit¨at M¨unchen\nslobodan.ilic@in.tum.de\nAbstract\nIn this paper, we address the problem of object tracking\nin intensity images and depth data. We propose a generic\nframework that can be used either for tracking 2D tem-\nplates in intensity images or for tracking 3D objects in\ndepth images.\nTo overcome problems like partial occlu-\nsions, strong illumination changes and motion blur, that no-\ntoriously make energy minimization-based tracking meth-\nods get trapped in a local minimum, we propose a learning-\nbased method that is robust to all these problems. We use\nrandom forests to learn the relation between the parameters\nthat deﬁnes the object’s motion, and the changes they induce\non the image intensities or the point cloud of the template. It\nfollows that, to track the template when it moves, we use the\nchanges on the image intensities or point cloud to predict\nthe parameters of this motion. Our algorithm has an ex-\ntremely fast tracking performance running at less than 2 ms\nper frame, and is robust to partial occlusions. Moreover,\nit demonstrates robustness to strong illumination changes\nwhen tracking templates using intensity images, and robust-\nness in tracking 3D objects from arbitrary viewpoints even\nin the presence of motion blur that causes missing or erro-\nneous data in depth images. Extensive experimental eval-\nuation and comparison to the related approaches strongly\ndemonstrates the beneﬁts of our method.\n1. Introduction\nObject tracking either in 2D or 3D can be formulated us-\ning an energy minimization where it ﬁnds a set of parame-\nters by minimizing an objective function. It has widely been\nused through the work of Lucas and Kanade [15] for 2D\ntemplate tracking and through the ICP algorithm [5] for 3D\nobject tracking using point clouds. Both methods use a set\nof initial parameters and iteratively reﬁne them by minimiz-\ning an objective function to reach a set of optimum param-\neters. Thus, the choice of an optimizer and parametrization\nis crucial to avoid local minima and to converge quickly to\nthe optimum solution. However, factors, such as lighting\nchanges, partial occlusions and fast motions, typically lead\n(a) Intensity Image\n(b) Depth Image\nFigure 1. These images show tracking results from our two ex-\nperiments where we used our theoretical work to implement (a)\na 2D template tracking algorithm with intensity images as the in-\nput medium; and, (b) a 3D object tracking algorithm with depth\nimages as the input medium.\nthe energy-based minimization to fail and get trapped at a\nlocal minimum.\nContrary to this, learning-based approaches learn the re-\nlation between the parameters that deﬁne the relative move-\nment of a template and the data of the template described\nby this motion. Henceforth, when the template moves, the\nchange of the data on the template can predict the param-\neters of this movement. In this way, they are extremely\nfast and can jump over local minima. One of the promi-\nnent works in this ﬁeld is from Jurie and Dhome [13] where\nthey use linear regression to learn the relation between the\nchanges in warping parameters and the changes in image\nintensities on the template. Their work also shows the su-\nperiority of learning in contrast to its energy minimization\ncounterpart.\nTheoretically, we can modify the linear regression to\ntrack 3D templates on depth images by replacing the objec-\ntive function that involves 3D point clouds. Unfortunately,\nin practice, it does not work because the depth data from\nthe sensor is unstable. For example, if the depth camera is\nﬁlming a static environment, we observe a constant change\nin the depth values due to the amount of noise and missing\ndata especially at the object discontinuities. These values\nare different from the learned template and can be inter-\npreted as small occlusions that are spread over the template.\nTherefore, the algorithm for 3D object tracking requires the\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

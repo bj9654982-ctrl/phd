@@ -1,0 +1,38 @@
+{
+  "number": 277,
+  "title": "XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model",
+  "year": 2022,
+  "authors": [
+    "Ho Kei Cheng",
+    "Alexander G. Schwing"
+  ],
+  "venue": "ECCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/568_ECCV_2022_paper.php",
+  "doi": "10.1007/978-3-031-19815-1_37",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880633.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880633.pdf",
+      "bytes": 1836682,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\277_2022_XMem__Long-Term_Video_Object_Segmentation_with_an_Atkinson-Shiffrin_Memory_Mod.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880633.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136880633.pdf",
+  "bytes": 1836682,
+  "sha256": "a9cee34e9e7016d7f0c2e7279d3b5b6f9db7d154e6fef706b1e369328604a73b",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "XMem: Long-Term Video Object Segmentation\nwith an Atkinson-Shiffrin Memory Model\nHo Kei Cheng and Alexander G. Schwing\nUniversity of Illinois Urbana-Champaign\n{hokeikc2, aschwing}@illinois.edu\nFrame 0 (input)\nFrame 295\nFrame 460\nFrame 1285\nFrame 2327\nAbstract. We present XMem, a video object segmentation architec-\nture for long videos with unified feature memory stores inspired by the\nAtkinson-Shiffrin memory model. Prior work on video object segmenta-\ntion typically only uses one type of feature memory. For videos longer\nthan a minute, a single feature memory model tightly links memory\nconsumption and accuracy. In contrast, following the Atkinson-Shiffrin\nmodel, we develop an architecture that incorporates multiple indepen-\ndent yet deeply-connected feature memory stores: a rapidly updated sen-\nsory memory, a high-resolution working memory, and a compact thus\nsustained long-term memory. Crucially, we develop a memory potentia-\ntion algorithm that routinely consolidates actively used working memory\nelements into the long-term memory, which avoids memory explosion and\nminimizes performance decay for long-term prediction. Combined with a\nnew memory reading mechanism, XMem greatly exceeds state-of-the-art\nperformance on long-video datasets while being on par with state-of-the-\nart methods (that do not work on long videos) on short-video datasets.1\n1\nIntroduction\nVideo object segmentation (VOS) highlights specified target objects in a given\nvideo. Here, we focus on the semi-supervised setting where a first-frame annota-\ntion is provided by the user, and the method segments objects in all other frames\nas accurately as possible while preferably running in real-time, online, and while\nhaving a small memory footprint even when processing long videos.\nAs information has to be propagated from the given annotation to other\nvideo frames, most VOS methods employ a feature memory to store relevant\ndeep-net representations of an object. Online learning methods [3,49,42] use the\nweights of a network as their feature memory. This requires training at test-time,\nwhich slows down prediction. Recurrent methods propagate information often\nfrom the most recent frames, either via a mask [39] or via a hidden representa-\ntion [20,47]. These methods are prone to drifting and struggle with occlusions.\n1 Code is available at hkchengrex.github.io/XMem\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

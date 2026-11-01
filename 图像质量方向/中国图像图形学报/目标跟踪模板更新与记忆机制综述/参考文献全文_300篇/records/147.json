@@ -1,0 +1,42 @@
+{
+  "number": 147,
+  "title": "Saliency-Associated Object Tracking",
+  "year": 2021,
+  "authors": [
+    "Zikun Zhou",
+    "Wenjie Pei",
+    "Xin Li",
+    "Hongpeng Wang",
+    "Feng Zheng",
+    "Zhenyu He"
+  ],
+  "venue": "ICCV",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Saliency-Associated_Object_Tracking_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Saliency-Associated_Object_Tracking_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Saliency-Associated_Object_Tracking_ICCV_2021_paper.pdf",
+      "bytes": 2501282,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\147_2021_Saliency-Associated_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Saliency-Associated_Object_Tracking_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Saliency-Associated_Object_Tracking_ICCV_2021_paper.pdf",
+  "bytes": 2501282,
+  "sha256": "6dab6e660aae1c454c0d1c19058fbc8b05385f29fb500e3aba896a38a3ea7454",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Saliency-Associated Object Tracking",
+  "first_page_text": "Saliency-Associated Object Tracking\nZikun Zhou1, Wenjie Pei1,*, Xin Li2, Hongpeng Wang1,2, Feng Zheng3, and Zhenyu He1,*\n1Harbin Institute of Technology, Shenzhen\n2Peng Cheng Laboratory\n3Southern University of Science and Technology\nzhouzikunhit@gmail.com\nwenjiecoder@outlook.com\nxinlihitsz@gmail.com\nwanghp@hit.edu.cn\nzfeng02@gmail.com\nzhenyuhe@hit.edu.cn\nAbstract\nMost existing trackers based on deep learning perform\ntracking in a holistic strategy, which aims to learn deep rep-\nresentations of the whole target for localizing the target. It\nis arduous for such methods to track targets with various\nappearance variations. To address this limitation, another\ntype of methods adopts a part-based tracking strategy which\ndivides the target into equal patches and tracks all these\npatches in parallel. The target state is inferred by summa-\nrizing the tracking results of these patches. A potential lim-\nitation of such trackers is that not all patches are equally\ninformative for tracking. Some patches that are not discrim-\ninative may have adverse effects. In this paper, we propose\nto track the salient local parts of the target that are discrimi-\nnative for tracking. In particular, we propose a ﬁne-grained\nsaliency mining module to capture the local saliencies. Fur-\nther, we design a saliency-association modeling module to\nassociate the captured saliencies together to learn effective\ncorrelation representations between the exemplar and the\nsearch image for state estimation. Extensive experiments on\nﬁve diverse datasets demonstrate that the proposed method\nperforms favorably against state-of-the-art trackers.\n1. Introduction\nVisual object tracking aims to predict the target states\nin a tracking sequence given the initial state of the tar-\nget object in the ﬁrst sequence frame. It is a fundamental\nresearch topic in Computer Vision and has a wide range\nof applications including video surveillance, robotics, and\nmotion analysis. Although deep trackers [6, 36, 38, 44],\nwhich beneﬁt from excellent feature learning for images by\ndeep neural networks, have achieved great progress in re-\ncent years, tracking targets with various real-time appear-\nance variations, such as deformation, occlusion, and view-\npoint changes, etc., remains an extremely challenging task.\nA classical type of deep tracking approaches [2, 7, 25,\n49] performs tracking in a holistic strategy, which seeks to\n*Corresponding authors.\n#164\n#164\n#164\n#177\n#177\n#177\n#195\n#195\n#195\n#164\n#177\n#195\nPredicted boxes\nSaliencies\nOurs\nDW-Corr\nPG-Corr\n#164\n#195\n#177\nCorrelation features\nOurs\nDW-Corr\nPG-Corr\nFigure 1. Given a search image in a tracking sequence, our SAOT\nﬁrst captures local saliencies (yellow dots) of the target that\nare discriminative for tracking, and then associates the captured\nsaliencies together to learn precise correlations between the target\nexemplar and the search image for reﬂecting target states. Thus,\nour model can generate more precise correlation features than\nDW-Corr [25] (in the holistic tracking strategy) and PG-Corr [32]\n(in the part-based strategy), and accordingly predict more precise\nbounding boxes. The correlation features are visualized by aver-\naging all channels (red color indicates higher correlation). Larger-\nsize salient dots indicate higher saliency values.\nlearn a precise deep feature representation for the whole\ntarget object and then localize the target in the search im-\nage.\nA prominent example is the Siamese-based track-\ners [1, 25, 26, 29, 39], which learn deep representations\nfor both the target exemplar and the search image in the\nsame feature space by a Siamese neural network, and then\nperform target tracking by feature matching between them.\nSuch methods perform well in ordinary scenarios in which\nthe target keeps stable appearances close to the exemplar,\nbut struggle in the challenging scenarios where the target\nvaries substantially. This is because the global appearance\ngap between the target exemplar and the target state in the\nsearch image results in an inevitable tracking error. The\nonline learning trackers [8, 18, 38], which are another typi-\ncal type of methods, are designed to adapt to the appearance\n9866\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

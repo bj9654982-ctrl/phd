@@ -1,0 +1,41 @@
+{
+  "number": 106,
+  "title": "Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking",
+  "year": 2018,
+  "authors": [
+    "Feng Li",
+    "Cheng Tian",
+    "Wangmeng Zuo",
+    "Lei Zhang",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Li_Learning_Spatial-Temporal_Regularized_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Learning_Spatial-Temporal_Regularized_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Learning_Spatial-Temporal_Regularized_CVPR_2018_paper.pdf",
+      "bytes": 1530109,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\106_2018_Learning_Spatial-Temporal_Regularized_Correlation_Filters_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Learning_Spatial-Temporal_Regularized_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Learning_Spatial-Temporal_Regularized_CVPR_2018_paper.pdf",
+  "bytes": 1530109,
+  "sha256": "d8bb5cc01081808c7e5b6c98d2f6f4c755ef3c099d18dca2b4e18ab1881fdc47",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking",
+  "first_page_text": "Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking\nFeng Li1, Cheng Tian1, Wangmeng Zuo ∗1, Lei Zhang2, and Ming-Hsuan Yang3\n1School of Computer Science and Technology, Harbin Institute of Technology, China\n2Department of Computing, The Hong Kong Polytechnic University, China\n3School of Engineering, University of California, Merced, USA\nfengli_hit@hotmail.com, tcoperator@163.com, wmzuo@hit.edu.cn, csdzhang@comp.polyu.edu.hk,\nmhyang@ucmerced.edu\nAbstract\nDiscriminative Correlation Filters (DCF) are efﬁcient in\nvisual tracking but suffer from unwanted boundary effect-\ns. Spatially Regularized DCF (SRDCF) has been suggested\nto resolve this issue by enforcing spatial penalty on DCF\ncoefﬁcients, which, inevitably, improves the tracking per-\nformance at the price of increasing complexity. To tackle\nonline updating, SRDCF formulates its model on multiple\ntraining images, further adding difﬁculties in improving ef-\nﬁciency. In this work, by introducing temporal regulariza-\ntion to SRDCF with single sample, we present our spatial-\ntemporal regularized correlation ﬁlters (STRCF). The STR-\nCF formulation can not only serve as a reasonable approx-\nimation to SRDCF with multiple training samples, but also\nprovide a more robust appearance model than SRDCF in\nthe case of large appearance variations. Besides, it can\nbe efﬁciently solved via the alternating direction method of\nmultipliers (ADMM). By incorporating both temporal and\nspatial regularization, our STRCF can handle boundary ef-\nfects without much loss in efﬁciency and achieve superior\nperformance over SRDCF in terms of accuracy and speed.\nCompared with SRDCF, STRCF with hand-crafted features\nprovides a 5× speedup and achieves a gain of 5.4% and\n3.6% AUC score on OTB-2015 and Temple-Color, respec-\ntively. Moreover, STRCF with deep features also performs\nfavorably against state-of-the-art trackers and achieves an\nAUC score of 68.3% on OTB-2015.\n1. Introduction\nRecent years have witnessed the rapid advances of dis-\ncriminative correlation ﬁlters (DCFs) in visual tracking.\n∗Corresponding author.\nThis work is supported by NSFC grants (No.s 61671182 and\n61471146), NSF CAREER (No.\n1149783) and HK RGC GRF grant\n(PolyU 152240/15E).\n^dZ\u0012&\u0003;KƵƌƐͿ\n^Z\u0018\u0012&\n(a)\nSRDCF\nSRDCF(-M)\nSRDCF(-MS)\nKCF\nSTRCF (HOG)\nOTB-2015\n72.7\n69.3\n61.5\n55.5\n79.2\nTemple-Color\n62.8\n59.1\n51.6\n47.1\n67.8\nAvg.OP\n67.8\n64.2\n56.6\n51.3\n73.5\nAvg.FPS\n5.3\n7.6\n32.3\n167.4\n28.9\n(b)\nFigure 1: (a) The results of STRCF and SRDCF [13] on two\nvideos with occlusion and deformation. (b) A comparison of S-\nRDCF variants and STRCF using HOG in terms of mean OP (%)\nand speed (FPS) on OTB-2015 and Temple-Color. The best three\nresults are shown in red, blue and green fonts, respectively.\nBeneﬁted from the periodic assumption of training sam-\nples, the DCF can be learned very efﬁciently in the frequen-\ncy domain via fast Fourier transform (FFT). For example,\nthe tracking speed of the earliest DCF-based tracker, i.e.,\nMOSSE [4], can reach 700 frames per second (FPS). Along\nwith the introduction of feature representation [14, 28], non-\nlinear kernel [19], scale estimation [11, 23, 24], max-margin\nclassiﬁers [43], spatial regularization [13, 18], and continu-\nous convolution [15], DCF-based trackers have been great-\nly improved and signiﬁcantly advanced the state-of-the-art\ntracking accuracy. However, such performance improve-\n14904\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

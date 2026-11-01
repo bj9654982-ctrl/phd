@@ -1,0 +1,32 @@
+{
+  "number": 2,
+  "title": "Adaptive appearance modeling for video tracking: survey and evaluation",
+  "year": 2012,
+  "authors": [
+    "Salti S",
+    "Cavallaro A",
+    "Di Stefano L"
+  ],
+  "venue": "IEEE Transactions on Image Processing",
+  "category": "相关综述与研究定位",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.eecs.qmul.ac.uk/~andrea/papers/2012_TIP_AdaptiveModeling_Salti_Cavallaro_Distefano.pdf",
+  "doi": "10.1109/TIP.2012.2206035",
+  "status": "not_downloaded",
+  "attempts": [
+    {
+      "url": "http://www.eecs.qmul.ac.uk/~andrea/papers/2012_TIP_AdaptiveModeling_Salti_Cavallaro_Distefano.pdf",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://webspace.eecs.qmul.ac.uk/andrea"
+    },
+    {
+      "url": "https://cris.unibo.it/handle/11585/122804",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://cris.unibo.it/handle/11585/122804"
+    },
+    {
+      "url": "https://www.eecs.qmul.ac.uk/~andrea/papers/2012_TIP_AdaptiveModeling_Salti_Cavallaro_Distefano.pdf",
+      "error": "SSLError: HTTPSConnectionPool(host='www.eecs.qmul.ac.uk', port=443): Max retries exceeded with url: /~andrea/papers/2012_TIP_AdaptiveModeling_Salti_Cavallaro_Distefano.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)')))"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验"
+}

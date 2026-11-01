@@ -1,0 +1,44 @@
+{
+  "number": 280,
+  "title": "OneVOS: Unifying Video Object Segmentation with All-in-One Transformer Framework",
+  "year": 2024,
+  "authors": [
+    "Wanyun Li",
+    "Pinxue Guo",
+    "Xinyu Zhou",
+    "Lingyi Hong",
+    "Yangji He",
+    "Xiangyu Zheng",
+    "Wei Zhang",
+    "Wenqiang Zhang"
+  ],
+  "venue": "ECCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7505_ECCV_2024_paper.php",
+  "doi": "10.1007/978-3-031-73636-0_2",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07505.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07505.pdf",
+      "bytes": 1629388,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\280_2024_OneVOS__Unifying_Video_Object_Segmentation_with_All-in-One_Transformer_Framewo.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07505.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07505.pdf",
+  "bytes": 1629388,
+  "sha256": "f2b8e7b1456fd11ca71a538de73bb69484f14658cddf97f8bef7d0f66d5f3c13",
+  "version": "会议官方开放版本",
+  "pages": 19,
+  "pdf_title": "",
+  "first_page_text": "OneVOS: Unifying Video Object Segmentation\nwith All-in-One Transformer Framework\nWanyun Li1,∗, Pinxue Guo2,∗, Xinyu Zhou1, Lingyi Hong1, Yangji He1,\nXiangyu Zheng1, Wei Zhang1,†, and Wenqiang Zhang1,3,†\n1 Shanghai Key Lab of Intelligent Information Processing,\nSchool of Computer Science, Fudan University, Shanghai, China\n2 Shanghai Engineering Research Center of AI & Robotics,\nAcademy for Engineering & Technology, Fudan University, Shanghai, China\n3 Engineering Research Center of AI & Robotics, Ministry of Education,\nAcademy for Engineering & Technology, Fudan University, Shanghai, China\n{wyli22,pxguo21}@m.fudan.edu.cn, {weizh, wqzhang}@fudan.edu.cn\nAbstract. Contemporary Video Object Segmentation (VOS) approaches\ntypically consist stages of feature extraction, matching, memory man-\nagement, and multiple objects aggregation. Recent advanced models ei-\nther employ a discrete modeling for these components in a sequential\nmanner, or optimize a combined pipeline through substructure aggre-\ngation. However, these existing explicit staged approaches prevent the\nVOS framework from being optimized as a unified whole, leading to the\nlimited capacity and suboptimal performance in tackling complex videos.\nIn this paper, we propose OneVOS, a novel framework that unifies the\ncore components of VOS with All-in-One Transformer. Specifically, to\nunify all aforementioned modules into a vision transformer, we model\nall the features of frames, masks and memory for multiple objects as\ntransformer tokens, and integrally accomplish feature extraction, match-\ning and memory management of multiple objects through the flexible\nattention mechanism. Furthermore, a Unidirectional Hybrid Attention is\nproposed through a double decoupling of the original attention operation,\nto rectify semantic errors and ambiguities of stored tokens in OneVOS\nframework. Finally, to alleviate the storage burden and expedite infer-\nence, we propose the Dynamic Token Selector, which unveils the working\nmechanism of OneVOS and naturally leads to a more efficient version of\nOneVOS. Extensive experiments demonstrate the superiority of OneVOS,\nachieving state-of-the-art performance across 7 datasets, particularly ex-\ncelling in complex LVOS and MOSE datasets with 70.1% and 66.4% J&F\nscores, surpassing previous state-of-the-art methods by 4.2% and 7.0%,\nrespectively. Code is available at: https://github.com/L599wy/OneVOS.\n1\nIntroduction\nSemi-supervised Video Object Segmentation (VOS) [2, 22, 30, 37, 44, 45, 63, 64]\nis a fundamental task in video analysis [18, 19], aiming to consistently seg-\n* Equal contribution\n† Corresponding authors.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,41 @@
+{
+  "number": 170,
+  "title": "ROAM: Recurrently Optimizing Tracking Model",
+  "year": 2020,
+  "authors": [
+    "Tianyu Yang",
+    "Pengfei Xu",
+    "Runbo Hu",
+    "Hua Chai",
+    "Antoni B. Chan"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_ROAM_Recurrently_Optimizing_Tracking_Model_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_ROAM_Recurrently_Optimizing_Tracking_Model_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_ROAM_Recurrently_Optimizing_Tracking_Model_CVPR_2020_paper.pdf",
+      "bytes": 1953321,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\170_2020_ROAM__Recurrently_Optimizing_Tracking_Model.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_ROAM_Recurrently_Optimizing_Tracking_Model_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yang_ROAM_Recurrently_Optimizing_Tracking_Model_CVPR_2020_paper.pdf",
+  "bytes": 1953321,
+  "sha256": "090922a797e6b56cd925e94e27c0acfd7447cbd0d8eaa6d166a016127cf4b496",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "ROAM: Recurrently Optimizing Tracking Model",
+  "first_page_text": "ROAM: Recurrently Optimizing Tracking Model\nTianyu Yang1,2\nPengfei Xu3\nRunbo Hu3\nHua Chai3\nAntoni B. Chan2\n1 Tencent AI Lab\n2 City University of Hong Kong\n3 Didi Chuxing\nAbstract\nIn this paper, we design a tracking model consisting of\nresponse generation and bounding box regression, where\nthe ﬁrst component produces a heat map to indicate the\npresence of the object at different positions and the second\npart regresses the relative bounding box shifts to anchors\nmounted on sliding-window locations. Thanks to the resiz-\nable convolutional ﬁlters used in both components to adapt\nto the shape changes of objects, our tracking model does\nnot need to enumerate different sized anchors, thus saving\nmodel parameters. To effectively adapt the model to appear-\nance variations, we propose to ofﬂine train a recurrent neu-\nral optimizer to update tracking model in a meta-learning\nsetting, which can converge the model in a few gradient\nsteps. This improves the convergence speed of updating the\ntracking model while achieving better performance. We ex-\ntensively evaluate our trackers, ROAM and ROAM++, on\nthe OTB, VOT, LaSOT, GOT-10K and TrackingNet bench-\nmark and our methods perform favorably against state-of-\nthe-art algorithms.\n1. Introduction\nGeneric visual object tracking is the task of estimating\nthe bounding box of a target in a video sequence given only\nits initial position. Typically, the preliminary model learned\nfrom the ﬁrst frame needs to be updated continuously to\nadapt to the target’s appearance variations caused by rota-\ntion, illumination, occlusion, deformation, etc. However,\nit is challenging to optimize the initial learned model efﬁ-\nciently and effectively as tracking proceeds. Training sam-\nples for model updating are usually collected based on es-\ntimated bounding boxes, which could be inaccurate. Those\nsmall errors will accumulate over time, gradually resulting\nin model degradation.\nTo avoid model updating, which may introduce unre-\nliable training samples that ruin the model, several ap-\nproaches [4, 43] investigate tracking by only comparing the\nﬁrst frame with the subsequent frames, using a similarity\nfunction based on a learned discriminant and invariant deep\nSiamese feature embedding. However, training such a deep\nrepresentation is difﬁcult due to drastic appearance varia-\ntions that commonly emerge in long-term tracking. Other\nmethods either update the model via an exponential moving\naverage of templates [16, 44], which marginally improves\nthe performance, or optimize the model with hand-designed\nSGD methods [33, 41], which needs numerous iterations\nto converge thus preventing real-time speed. Limiting the\nnumber of SGD iterations can allow near real-time speeds,\nbut at the expense of poor quality model updates due to the\nloss function not being optimized sufﬁciently.\nIn recent years, much effort has been done on localizing\nthe object using robust online learned classiﬁer, while few\nattention is paid on designing accurate bounding box esti-\nmation. Most trackers simply resort to multi-scale search\nby assuming that the object aspect ratio does not change\nduring tracking, which is often violated in real world. Re-\ncently, SiamRPN [23] borrows the idea of region proposal\nnetworks [37] in object detection to decompose tracking\ntask into two branches: 1) classifying the target from the\nbackground, and 2) regressing the accurate bounding box\nbased with reference to anchor boxes mounted on different\npositions. As is shown on the VOT benchmarks [19, 20],\nSiamRPN achieves higher precision on bounding box esti-\nmation but suffers lower robustness compared with state-of-\nthe-art methods [8, 9, 26] due to no online model updating.\nFurthermore, SiamRPN mounts anchors with different as-\npect ratios on every spatial location of the feature map to\nhandle possible shape changes, which is redundant in both\ncomputation and storage.\nIn this paper, we propose a tracking framework which is\ncomposed of two modules: response generation and bound-\ning box regression, where the ﬁrst component produces a re-\nsponse map to indicate the possibility of covering the object\nfor anchor boxes mounted on sliding-window positions, and\nthe second part predicts bounding box shifts from the an-\nchors to get reﬁned rectangles. Instead of enumerating dif-\nferent aspect ratios of anchors as in SiamRPN, we propose\nto use only one sized anchor for each position and adapt\nit to shape changes by resizing its corresponding convolu-\ntional ﬁlter using bilinear interpolation, which saves model\nparameters and computing time. To effectively adapt the\ntracking model to appearance changes during tracking, we\npropose a recurrent model optimization method to learn a\nmore effective gradient descent that converges the model\nupdate in 1-2 steps, and generalizes better to future frames.\nThe key idea is to train a neural optimizer that can con-\n6718\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

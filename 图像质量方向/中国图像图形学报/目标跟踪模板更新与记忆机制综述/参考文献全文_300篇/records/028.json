@@ -1,0 +1,40 @@
+{
+  "number": 28,
+  "title": "Siam R-CNN: Visual Tracking by Re-Detection",
+  "year": 2020,
+  "authors": [
+    "Paul Voigtlaender",
+    "Jonathon Luiten",
+    "Philip H.S. Torr",
+    "Bastian Leibe"
+  ],
+  "venue": "CVPR",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Voigtlaender_Siam_R-CNN_Visual_Tracking_by_Re-Detection_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Voigtlaender_Siam_R-CNN_Visual_Tracking_by_Re-Detection_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Voigtlaender_Siam_R-CNN_Visual_Tracking_by_Re-Detection_CVPR_2020_paper.pdf",
+      "bytes": 2824391,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\028_2020_Siam_R-CNN__Visual_Tracking_by_Re-Detection.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Voigtlaender_Siam_R-CNN_Visual_Tracking_by_Re-Detection_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Voigtlaender_Siam_R-CNN_Visual_Tracking_by_Re-Detection_CVPR_2020_paper.pdf",
+  "bytes": 2824391,
+  "sha256": "a596f7a4f6924a9f22dc8c5bd80fae803f906ebcfbe52c0165e5834acaab0c2e",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Siam R-CNN: Visual Tracking by Re-Detection",
+  "first_page_text": "Siam R-CNN: Visual Tracking by Re-Detection\nPaul Voigtlaender1\nJonathon Luiten1,2,†\nPhilip H.S. Torr2\nBastian Leibe1\n1RWTH Aachen University\n2University of Oxford\n{voigtlaender,luiten,leibe}@vision.rwth-aachen.de\nphst@robots.ox.ac.uk\nAbstract\nWe present Siam R-CNN, a Siamese re-detection archi-\ntecture which unleashes the full power of two-stage ob-\nject detection approaches for visual object tracking. We\ncombine this with a novel tracklet-based dynamic program-\nming algorithm, which takes advantage of re-detections of\nboth the ﬁrst-frame template and previous-frame predic-\ntions, to model the full history of both the object to be\ntracked and potential distractor objects. This enables our\napproach to make better tracking decisions, as well as to\nre-detect tracked objects after long occlusion. Finally, we\npropose a novel hard example mining strategy to improve\nSiam R-CNN’s robustness to similar looking objects. Siam\nR-CNN achieves the current best performance on ten track-\ning benchmarks, with especially strong results for long-term\ntracking. We make our code and models available at www.\nvision.rwth-aachen.de/page/siamrcnn.\n1. Introduction\nWe approach Visual Object Tracking using the paradigm\nof Tracking by Re-Detection. We present a powerful novel\nre-detector, Siam R-CNN, an adaptation of Faster R-CNN\n[54] with a Siamese architecture, which re-detects a tem-\nplate object anywhere in an image by determining if a re-\ngion proposal is the same object as a template region, and\nregressing the bounding box for this object. Siam R-CNN is\nrobust against changes in object size and aspect ratio as the\nproposals are aligned to the same size, which is in contrast\nto the popular cross-correlation-based methods [38].\nTracking by re-detection has a long history, reaching\nback to the seminal work of Avidan [1] and Grabner et\nal. [21]. Re-detection is challenging due to the existence\nof distractor objects that are very similar to the template ob-\nject. In the past, the problem of distractors has mainly been\napproached by strong spatial priors from previous predic-\ntions [4, 38, 37], or by online adaptation [1, 21, 2, 56, 23,\n57, 32]. Both of these strategies are prone to drift.\nWe instead approach the problem of distractors by mak-\ning two novel contributions beyond our Siam R-CNN re-\n†Work performed both while at the RWTH Aachen University and on\na research visit at the University of Oxford.\nLong Term Visual \nObject Tracking\nLTB35\nVisual Object \nTracking\nOTB2015\nOurs\n     Best Competing Method\nLeft: UPDT, Center: SiamRPN++, Right: SiamMask\nGround \nTruth\nVideo Object \nSegmentation\nDAVIS 2016/2017\nFigure 1: Example results of Siam R-CNN on 3 different\ntracking tasks where it obtains new state-of-the-art results.\ndetector design. Firstly we introduce a novel hard example\nmining procedure which trains our re-detector speciﬁcally\nfor difﬁcult distractors. Secondly we propose a novel Track-\nlet Dynamic Programming Algorithm (TDPA) which simul-\ntaneously tracks all potential objects, including distractor\nobjects, by re-detecting all object candidate boxes from the\nprevious frame, and grouping boxes over time into tracklets\n(short object tracks). It then uses dynamic programming to\nselect the best object in the current timestep based on the\ncomplete history of all target object and distractor object\ntracklets. By explicitly modeling the motion and interac-\ntion of all potential objects and pooling similarity informa-\ntion from detections grouped into tracklets, Siam R-CNN\nis able to effectively perform long-term tracking, while be-\ning resistant to tracker drift, and being able to immediately\nre-detect objects after disappearance. Our TDPA requires\nonly a small set of new re-detections in each timestep, up-\ndating its tracking history iteratively online. This allows\nSiam R-CNN to run at 4.7 frames per second (FPS) and its\n6578\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

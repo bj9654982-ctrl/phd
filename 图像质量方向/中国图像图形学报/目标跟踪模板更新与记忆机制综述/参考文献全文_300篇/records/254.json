@@ -1,0 +1,44 @@
+{
+  "number": 254,
+  "title": "Tracking through Severe Occlusion via Event-Derived Transient Cues",
+  "year": 2026,
+  "authors": [
+    "Hao Dong",
+    "Yujin Liu",
+    "Haoyue Liu",
+    "Zhenyu Wang",
+    "Shihan Peng",
+    "Zhiwei Shi",
+    "Yi Chang",
+    "Luxin Yan"
+  ],
+  "venue": "CVPR",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Dong_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Dong_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Dong_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues_CVPR_2026_paper.pdf",
+      "bytes": 30553462,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\254_2026_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Dong_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Dong_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues_CVPR_2026_paper.pdf",
+  "bytes": 30553462,
+  "sha256": "e5de70feb0554394f7e7f3f75ff9f6faf3aa63b0bc1e0c48740845d917ab5529",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Tracking through Severe Occlusion via Event-Derived Transient Cues",
+  "first_page_text": "Tracking through Severe Occlusion via Event-Derived Transient Cues\nHao Dong, Yujin Liu, Haoyue Liu, Zhenyu Wang, Shihan Peng, Zhiwei Shi, Yi Chang*, Luxin Yan\nState Key Laboratory of Multispectral Information Intelligent Processing Technology\nSchool of Artificial Intelligence and Automation, Huazhong University of Science and Technology\n{donghao0205, yujinliu, liuhy, yichang, yanluxin}@hust.edu.cn\nAbstract\nTracking targets with high-speed and nonlinear motion\nunder occlusion remains challenging due to spatial appear-\nance deprivation and temporal trajectory fragmentation\ncaused by missing visual cues. Existing methods typically\neither dynamically update templates to maintain appear-\nance similarity or employ autoregressive models to predict\ntargets from historical trajectories. However, these methods\nare ineffective under severe occlusion owing to template\ncontamination and limited frame rates for complex motion.\nIn this work, we observe that occlusion inherently degrades\nthe spatial matching mechanism, highlighting the impor-\ntance of temporal cues. Meanwhile, event cameras with\nmicrosecond-level temporal resolution provide transient\ndynamic cues that facilitate modeling nonlinear motion. In\nlight of this, we propose EvoTrack, an occlusion-robust\ntracking framework via event-derived transient evolution,\nwhich comprises event-based motion autoregression and\ntarget-aware appearance matching. Specifically, for motion\nautoregression, the fine-grained timestamps of events nat-\nurally encode the target’s direction and speed, motivating\na bidirectional motion consistency that constrains inter-\nframe displacement prediction under nonlinear motion. For\nappearance matching, we adopt a Gaussian masking strat-\negy to simulate occlusion degradation, guiding the model\nto focus on target regions and learn invariant representa-\ntions. Furthermore, we build a pixel-aligned Frame-Event\ntracking dataset with higher spatial resolution and explicit\nocclusion labels. Extensive experiments demonstrate the\neffectiveness of EvoTrack in challenging occlusion scenes.\n1. Introduction\nVisual object tracking (VOT) seeks to localize arbitrary\ntargets across video frames given their initial state. Despite\nthe impressive advances of modern approaches [2, 7, 12,\n13, 18, 27, 54], achieving reliable tracking under occlusion\n*Corresponding author.\n(c) Trajectory-based autoregression\n(b) Appearance-based matching\nWhere to match ?\nSearch\nTemplate\nt-2\nt-1\nWhere to regress ?\n100% occ.\n100% occ. \nLinear motion is regressive. \n?\n?\n?\nSearch region\nt-1\nt-2\nt-3\nt\n(a) Problem of visual object tracking in occluded scenarios\nBefore occ.\nAfter occ.\nPartial occ.\nFull occ.\nCauses\nt-3\nt-2\nt-1\nt\nAppearance\ndeprivation\n50%\nocc.\n100%\nocc.\nNo\nocc.\nTrajectory\nfragmentation\nNo occ. (Linear)\nTarget trajectory\n(d) Event-based motion autoregression\n···\ntime\nx\ny\nAccurate\nDrifted\nFailed \nTracking state\nocc. = occlusion \nSearch region\nt-1\nt-2\nt-3\nt\ntransient cues\nprediction\n100% occ. \n50% occ. \nPredict under occlusion, rectify afterward.\non/off events \nrectification\nBefore & partial occ.\nFull occ.\nAfter occ.\nregression\nOut of region\n100% occ. (Linear)\n100% occ. (Nonlinear)\ndrift\nFigure 1. Illustration of three tracking paradigms. (a) Occlusion\ncauses spatial appearance deprivation and temporal trajectory\nfragmentation. (b) Appearance-based matching fails under severe\nocclusions as similarity collapses. (c) Trajectory-based autore-\ngression drifts under nonlinear motion during occlusion, hindering\nrectification afterward. (d) We explore event-based motion autore-\ngression, which leverages inter-frame motion to achieve precise\nprediction during occlusion and effective rectification afterward.\nremains a long-standing challenge, particularly for targets\nexhibiting nonlinear motion.\nFor example, agile drones\nmomentarily hidden by obstacles or fast-moving vehicles\ntemporarily occluded in traffic often cause catastrophic\ntracking failures. The fundamental difficulty arises from\ntwo coupled issues:\n(1) spatial appearance degradation\nthat destroys template–search similarity, and (2) temporal\ntrajectory interruption that complicates motion dynamics,\nas shown in Fig. 1(a). Tracking nonlinearly moving targets\nin occluded scenes remains a highly challenging problem.\nAn intuitive solution is to dynamically update the tem-\nplate [31] or construct template libraries [24] to preserve\nappearance similarity between the template and the search\nregion. However, such methods are prone to background\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n29526\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

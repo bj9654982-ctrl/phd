@@ -1,0 +1,41 @@
+{
+  "number": 110,
+  "title": "Learning Aberrance Repressed Correlation Filters for Real-Time UAV Tracking",
+  "year": 2019,
+  "authors": [
+    "Ziyuan Huang",
+    "Changhong Fu",
+    "Yiming Li",
+    "Fuling Lin",
+    "Peng Lu"
+  ],
+  "venue": "ICCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf",
+      "bytes": 2192579,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\110_2019_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.pdf",
+  "bytes": 2192579,
+  "sha256": "15b0bfb9c8a2921c4232c8e611518528999b1f431c9f150d09a40fd8cff3a7e0",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning Aberrance Repressed Correlation Filters for Real-Time UAV Tracking",
+  "first_page_text": "Learning Aberrance Repressed Correlation Filters for Real-Time UAV Tracking\nZiyuan Huang1, Changhong Fu2,∗, Yiming Li2, Fuling Lin2 and Peng Lu3\n1School of Automotive Studies, 2School of Mechanical Engineering, Tongji University, China\n3Adaptive Robotic Controls Lab, Hong Kong Polytechnic University, Hong Kong, China\ntjhuangziyuan@gmail.com, changhongfu@tongji.edu.cn, peng.lu@polyu.edu.hk\nAbstract\nTraditional framework of discriminative correlation ﬁl-\nters (DCF) is often subject to undesired boundary effects.\nSeveral approaches to enlarge search regions have been al-\nready proposed in the past years to make up for this short-\ncoming. However, with excessive background information,\nmore background noises are also introduced and the dis-\ncriminative ﬁlter is prone to learn from the ambiance rather\nthan the object.\nThis situation, along with appearance\nchanges of objects caused by full/partial occlusion, illumi-\nnation variation, and other reasons has made it more likely\nto have aberrances in the detection process, which could\nsubstantially degrade the credibility of its result. Therefore,\nin this work, a novel approach to repress the aberrances\nhappening during the detection process is proposed, i.e.,\naberrance repressed correlation ﬁlter (ARCF). By enforcing\nrestriction to the rate of alteration in response maps gener-\nated in the detection phase, the ARCF tracker can evidently\nsuppress aberrances and is thus more robust and accurate\nto track objects. Considerable experiments are conducted\non different UAV datasets to perform object tracking from\nan aerial view, i.e., UAV123, UAVDT, and DTB70, with 243\nchallenging image sequences containing over 90K frames\nto verify the performance of the ARCF tracker and it has\nproven itself to have outperformed other 20 state-of-the-art\ntrackers based on DCF and deep-based frameworks with\nsufﬁcient speed for real-time applications.\n1. Introduction\nVisual object tracking has been widely applied in numer-\nous ﬁelds, especially in unmanned aerial vehicle (UAV) ap-\nplications, where it has been used for target following [3],\nmid-air aircraft tracking [11] and aerial refueling [28]. Due\nto fast motion of both UAV and tracked object, occlusion,\ndeformation, illumination variation, and other challenges,\nrobust and accurate tracking has remained a demanding\ntask.\nIn recent years, discriminative correlation ﬁlter (DCF)\nAberrances\nAberrances repressed\nRestriction\n# 44\n# 45\n# 46\n# 47\n# 48\n# 44\n# 45\n# 46\n# 47\n# 48\nAberrance \nthat caused \nlost of object\nResponse map differences\nBACF\nARCF\n0.05\n0.04\n0.03\n0.02\n0.01\n0\n0.01\nFrame number\n0\n20\n40\n60\n80\n100\n120\n140\nFigure 1. Comparison between background-aware correlation ﬁl-\nter (BACF) and the proposed ARCF tracker. The central ﬁgure is\nto demonstrate the differences between previous response map and\ncurrent response map on group1 1 from UAV123@10fps. Sudden\nchanges of response maps indicate aberrances. When aberrances\ntake place, BACF is tend to lose track of the object while the pro-\nposed ARCF can repress aberrances so that this kind of drifting\ncan be avoided.\nhas contributed tremendously to the ﬁeld of visual track-\ning because of its high computational efﬁciency. It utilizes\na property of circulant matrices to carry out the otherwise\ncomplicated calculation in the frequency domain rather than\nin the spatial domain to raise computing speed. Unfortu-\nnately, utilization of this property creates artiﬁcial samples,\nleading to undesired boundary effects, which severely de-\ngrades tracking performances.\n2891\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

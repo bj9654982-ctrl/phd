@@ -1,0 +1,44 @@
+{
+  "number": 221,
+  "title": "UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking",
+  "year": 2026,
+  "authors": [
+    "Hao Wu",
+    "Xudong Wang",
+    "Jialiang Zhang",
+    "Junlong Tong",
+    "Xinghao Chen",
+    "Junyan Lin",
+    "Yunpu Ma",
+    "Xiaoyu Shen"
+  ],
+  "venue": "CVPR",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_UTPTrack_Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_UTPTrack_Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_UTPTrack_Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 3481094,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\221_2026_UTPTrack__Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_UTPTrack_Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_UTPTrack_Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 3481094,
+  "sha256": "367a60694fcb52ac868172f9c8f8fc0a38c65311abd89f6fca7a3d761e02dedc",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking",
+  "first_page_text": "UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking\nHao Wu1,2*\nXudong Wang1*\nJialiang Zhang1\nJunlong Tong1,2,3\nXinghao Chen1,4\nJunyan Lin1,4\nYunpu Ma5\nXiaoyu Shen1,2†\n1Institute of Digital Twin, Eastern Institute of Technology, Ningbo\n2Ningbo Key Laboratory of Spatial Intelligence and Digital Derivative\n3Shanghai Jiao Tong University\n4The Hong Kong Polytechnic University\n5Munich Center for Machine Learning, LMU Munich\nhaowu.ai.research@gmail.com\nxyshen@eitech.edu.cn\nAbstract\nOne-stream Transformer-based trackers achieve advanced\nperformance in visual object tracking but suffer from sig-\nnificant computational overhead that hinders real-time de-\nployment. While token pruning offers a path to efficiency,\nexisting methods are fragmented. They typically prune the\nsearch region, dynamic template, and static template in iso-\nlation, overlooking critical inter-component dependencies,\nwhich yields suboptimal pruning and degraded accuracy.\nTo address this, we introduce UTPTrack, a simple and Uni-\nfied Token Pruning framework that, for the first time, jointly\ncompresses all three components. UTPTrack employs an\nattention-guided, token type-aware strategy to holistically\nmodel redundancy, a design that seamlessly supports uni-\nfied tracking across multimodal and language-guided tasks\nwithin a single model. Extensive evaluations on 10 bench-\nmarks demonstrate that UTPTrack achieves a new state-\nof-the-art in the accuracy-efficiency trade-off for pruning-\nbased trackers, pruning 65.4% of vision tokens in RGB-\nbased tracking and 67.5% in unified tracking while preserv-\ning 99.7% and 100.5% of baseline performance, respec-\ntively. This strong performance across both RGB and mul-\ntimodal scenarios underlines its potential as a robust foun-\ndation for future research in efficient visual tracking. Code\nwill be released at https://github.com/EIT-NLP/UTPTrack.\n1. Introduction\nVisual Object Tracking (VOT) aims to estimate the position\nand shape of a target throughout a video sequence given its\ninitial state [3, 4, 45]. A typical tracker represents the target\nwith a static template (ST) from the first frame, optionally\n*Equal contribution.\n†Corresponding author.\nTasks\nPruning Targets\nRGB-Based\nSearch Region\n���\n3\n���\n���\n2\nTemplate\nStatic\nDynamic\n��� ���\n2  ���\n3\n��� ���\n2  ���\n3\nRGB-Depth\nUnified\nRGB-Event\nRGB-Thermal\nRGB-Language\nRGB-Based\nText\nFigure 1. UTPTrack supports RGB-based and unified tracking,\nprunes redundant tokens in the search region (SR), dynamic tem-\nplate (DT), and static template (ST) to improve efficiency, with r\nindicating the token retention ratio for each component.\nupdates a dynamic template (DT) to handle appearance vari-\nations, and localizes it within a cropped search region (SR)\nin subsequent frames [37, 43]. Owing to its dynamic nature,\nVOT requires strong spatio-temporal modeling [9, 16, 23].\nRecent advances in Transformer-based architectures have\nshown strong modeling capabilities and brought significant\nimprovements in tracking performance [4, 25, 38, 43].\nTransformer-based trackers generally categorized as\ntwo-stream or one-stream. Two-stream trackers [4, 5, 48]\nprocess the template and search region separately, allow-\ning template reuse and reducing inference cost.\nIn con-\ntrast, one-stream trackers [2, 7, 41, 45] jointly encode\nboth inputs within a unified Transformer, enabling richer\ntemplate–search interactions and stronger global feature\nrepresentations. While one-stream trackers have become\nthe dominant paradigm due to their superior performance,\nthey come with significant computational overhead: the\nquadratic complexity of Transformers, compounded by the\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n20963\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

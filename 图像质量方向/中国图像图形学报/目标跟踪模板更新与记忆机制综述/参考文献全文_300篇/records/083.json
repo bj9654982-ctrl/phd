@@ -1,0 +1,40 @@
+{
+  "number": 83,
+  "title": "Tracking-by-Segmentation With Online Gradient Boosting Decision Tree",
+  "year": 2015,
+  "authors": [
+    "Jeany Son",
+    "Ilchae Jung",
+    "Kayoung Park",
+    "Bohyung Han"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Son_Tracking-by-Segmentation_With_Online_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Son_Tracking-by-Segmentation_With_Online_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Son_Tracking-by-Segmentation_With_Online_ICCV_2015_paper.pdf",
+      "bytes": 2874709,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\083_2015_Tracking-by-Segmentation_With_Online_Gradient_Boosting_Decision_Tree.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Son_Tracking-by-Segmentation_With_Online_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Son_Tracking-by-Segmentation_With_Online_ICCV_2015_paper.pdf",
+  "bytes": 2874709,
+  "sha256": "ab63043ba25d9ff5436bfaf577bf3f72e7ceb52f34c5046eef2a54396fb33ea0",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Tracking-by-Segmentation With Online Gradient Boosting Decision Tree",
+  "first_page_text": "Tracking-by-Segmentation with Online Gradient Boosting Decision Tree\nJeany Son1,2\nIlchae Jung1,2\nKayoung Park2\nBohyung Han1,2\n1Dept. of Computer Science and Engineering and 2Computer Vision Lab., POSTECH, Korea\n{jeany,chey0313,kayoungpark,bhhan}@postech.ac.kr\nAbstract\nWe propose an online tracking algorithm that adaptively\nmodels target appearances based on an online gradient\nboosting decision tree. Our algorithm is particularly use-\nful for non-rigid and/or articulated objects since it handles\nvarious deformations of the target effectively by integrating\na classiﬁer operating on individual patches and provides\nsegmentation masks of the target as ﬁnal results. The pos-\nterior of the target state is propagated over time by particle\nﬁltering, where the likelihood is computed based mainly on\na patch-level conﬁdence map associated with a latent target\nstate corresponding to each sample. Once tracking is com-\npleted in each frame, our gradient boosting decision tree\nis updated to adapt new data in a recursive manner. For\neffective evaluation of segmentation-based tracking algo-\nrithms, we construct a new ground-truth that contains pixel-\nlevel annotation of segmentation mask.\nWe evaluate the\nperformance of our tracking algorithm based on the mea-\nsures for segmentation masks, where our algorithm illus-\ntrates outstanding accuracy compared to the state-of-the-\nart segmentation-based tracking methods.\n1. Introduction\nVisual tracking problem has been studied extensively\nand signiﬁcant progress has been made recently in terms of\ntracker performance and evaluation methodology. Tracking\nalgorithms typically deal with various challenges by adapt-\ning target appearances over time [13, 23, 26], reasoning oc-\nclusion [20], handling abrupt motion [21, 24], and/or man-\naging background clutter [6]. However, most of existing\nalgorithms are limited to producing bounding boxes as their\noutputs, and they often suffer from drifting problems when\nsubstantial non-rigid and articulated motions are involved in\na target. To overcome such limitations, part- or patch-based\ntracking algorithms [2, 14, 22] have been proposed, but they\nstill employ bounding boxes for target localization.\nWe believe that segmentation-based tracking is a natural\nsolution to handle non-rigid and deformable objects effec-\ntively. Hence, we propose a novel tracking-by-segmentation\nframework, which maintains target appearances based on\nsmall local patches and performs tracking by classifying the\npatches into the target or the background. A new online gra-\ndient boosting decision tree is integrated for classiﬁcation,\nwhere the loss function is minimized incrementally without\nofﬂine samples. We employ the distance to the object center\nas a feature in addition to ordinary visual features for clas-\nsiﬁcation, which turns out to improve performance substan-\ntially. Particle ﬁlter is adopted to propagate the posterior,\nwhere a segmentation mask is constructed for each latent\ntarget state corresponding to a sample. The ﬁnal tracking re-\nsult is given by the mask of the best sample. To evaluate our\ntracking algorithm, we construct new ground-truths of ex-\nisting datasets, which contain pixel-level label annotations\nand facilitate accurate tracking performance evaluation of\nsegmentation-based tracking algorithms.\nThere are several prior studies about segmentation-based\ntracking. Aeschliman et al. [1] propose pixel-level prob-\nabilistic models for joint target tracking and segmentation,\nbut this algorithm assumes a static camera environment sim-\nilar to a background subtraction. Another segmentation-\nbased tracking algorithm is proposed in a particle ﬁlter\nframework by applying GrabCut [27] to each sample for\nrobust observation [4], but the likelihood computation is\nbased on simple features such as color and gradient distri-\nbutions. A mid-level appearance structure, superpixel, is\nemployed to distinguish the target from background, where\ntarget state is obtained by computing Maximum a Posteri-\nori (MAP) based on a conﬁdence map of superpixels [28].\nHoughTrack [10] relies on an online Hough forest, where\npatch-based classiﬁcation and voting is performed to iden-\ntify the target area. PixelTrack [7] provides soft segmenta-\ntions of the target based on pixel-wise classiﬁcation. Re-\ncently, Hong et al. [17] propose a multiple quantization\ntechnique, which tracks the target by identifying the best\nconﬁguration across pixel, superpixel and bounding box\nlevels. These methods may have trouble to handle scale\nvariations effectively since the size of voting vector does\nnot adapt a target size [10, 7] and the algorithm is designed\nfor ﬁxed-size bounding boxes [17]. In addition, although\nall the above tracking algorithms can generate segmentation\n13056\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,512 @@
+{
+  "number": 116,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Siamese Instance Search for Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T00:40:51Z",
+      "timestamp": 1792024851099,
+      "version": "4.4.0"
+    },
+    "reference-count": 58,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2016.158",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2016-12-12T20:38:49Z",
+      "timestamp": 1481575129000
+    },
+    "page": "1420-1429",
+    "source": "Crossref",
+    "is-referenced-by-count": 965,
+    "title": [
+      "Siamese Instance Search for Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ran",
+        "family": "Tao",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Efstratios",
+        "family": "Gavves",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arnold W. M.",
+        "family": "Smeulders",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2015",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383453"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-006-7067-x"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Rectified linear units improve restricted boltzmann machines",
+        "author": "nair",
+        "year": "2010",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Robust visual tracking using 11 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.211"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383172"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Improving the fisher kernel for large-scale image classification",
+        "author": "perronnin",
+        "year": "2010",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.250"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299135"
+      },
+      {
+        "key": "ref29",
+        "article-title": "An iterative image registration technique with an application to stereo vision",
+        "author": "lucas",
+        "year": "1981",
+        "journal-title": "IJCAI"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1117/12.421129",
+        "article-title": "Template matching using fast normalized cross correlation",
+        "author": "briechle",
+        "year": "2001",
+        "journal-title": "Proceedings of the SPIE - Optical Pattern Recognition"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Hamming embedding and weak geometric consistency for large scale image search",
+        "author": "jégou",
+        "year": "2008",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Randomized visual phrases for object search",
+        "author": "jiang",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref21",
+        "author": "jia",
+        "year": "2014",
+        "journal-title": "Caffe Convolutional Architecture for Fast Feature Embedding"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.454"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Deeptrack: Learning discriminative feature representations by convolutional neural networks for visual tracking",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref50",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Online object tracking, learning and parsing with and-or graphs",
+        "author": "wu",
+        "year": "2015",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Edge boxes: Locating object proposals from edges",
+        "author": "zitnick",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref56",
+        "article-title": "Meem: Robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Visualizing and understanding convolutional networks",
+        "author": "zeiler",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Computing the stereo matching cost with a convolutional neural network",
+        "author": "žbontar",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299064"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.169"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.81"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2003.1238663"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126228"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Matchnet: Unifying feature and metric learning for patch-based matching",
+        "author": "han",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Hyper-columns for object segmentation and fine-grained localization",
+        "author": "hariharan",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-014-0729-1"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Online tracking by learning discriminative saliency map with convolutional neural network",
+        "author": "hong",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Enable scale and aspect ratio adaptability in visual tracking with detection proposals",
+        "author": "huang",
+        "year": "2015",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.143"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1142/S0218001493000339"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2000.854761"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.202"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.167"
+      },
+      {
+        "key": "ref7",
+        "volume": "3",
+        "author": "duda",
+        "year": "1973",
+        "journal-title": "Pattern Classification and Scene Analysis"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Learning a deep compact image representation for visual tracking",
+        "author": "wang",
+        "year": "2013",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Transfer learning based visual tracking with gaussian processes regression",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref46",
+        "article-title": "Image search with selective match kernels: aggregation across single and multiple images",
+        "author": "tolias",
+        "year": "2015",
+        "journal-title": "International Journal of Computer Vision"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.177"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.355"
+      },
+      {
+        "key": "ref47",
+        "author": "wang",
+        "year": "2015",
+        "journal-title": "Transferring Rich Feature Hierarchies for Robust Visual Tracking"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.220"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1442",
+        "DOI": "10.1109/TPAMI.2013.230",
+        "article-title": "Visual tracking: an experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298613"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.269"
+      }
+    ],
+    "event": {
+      "name": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Las Vegas, NV, USA",
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            30
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7776647/7780329/07780527.pdf?arnumber=7780527",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2019-09-16T08:54:11Z",
+      "timestamp": 1568624051000
+    },
+    "score": 42.333565,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7780527/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "references-count": 58,
+    "URL": "https://doi.org/10.1109/cvpr.2016.158",
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    }
+  }
+}

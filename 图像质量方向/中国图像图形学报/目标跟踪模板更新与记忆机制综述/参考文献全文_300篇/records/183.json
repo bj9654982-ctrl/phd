@@ -1,0 +1,43 @@
+{
+  "number": 183,
+  "title": "Unified Transformer Tracker for Object Tracking",
+  "year": 2022,
+  "authors": [
+    "Fan Ma",
+    "Mike Zheng Shou",
+    "Linchao Zhu",
+    "Haoqi Fan",
+    "Yilei Xu",
+    "Yi Yang",
+    "Zhicheng Yan"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Ma_Unified_Transformer_Tracker_for_Object_Tracking_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Unified_Transformer_Tracker_for_Object_Tracking_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Unified_Transformer_Tracker_for_Object_Tracking_CVPR_2022_paper.pdf",
+      "bytes": 1607653,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\183_2022_Unified_Transformer_Tracker_for_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Unified_Transformer_Tracker_for_Object_Tracking_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Ma_Unified_Transformer_Tracker_for_Object_Tracking_CVPR_2022_paper.pdf",
+  "bytes": 1607653,
+  "sha256": "879ae8d82fbb60545d0b70fdbfed0832ed7e1dc55bc531b35914ba4daa1d96ae",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Unified Transformer Tracker for Object Tracking",
+  "first_page_text": "Uniﬁed Transformer Tracker for Object Tracking\nFan Ma1,3* Mike Zheng Shou2 Linchao Zhu1\nHaoqi Fan3 Yilei Xu3 Yi Yang4 Zhicheng Yan3†\n1ReLER Lab, AAII, University of Technology Sydney\n2National University of Singapore\n3Meta AI\n4Zhejiang University\nAbstract\nAs an important area in computer vision, object track-\ning has formed two separate communities that respectively\nstudy Single Object Tracking (SOT) and Multiple Object\nTracking (MOT). However, current methods in one tracking\nscenario are not easily adapted to the other due to the diver-\ngent training datasets and tracking objects of both tasks. Al-\nthough UniTrack [45] demonstrates that a shared appear-\nance model with multiple heads can be used to tackle indi-\nvidual tracking tasks, it fails to exploit the large-scale track-\ning datasets for training and performs poorly on the single\nobject tracking. In this work, we present the Uniﬁed Trans-\nformer Tracker (UTT) to address tracking problems in dif-\nferent scenarios with one paradigm. A track transformer is\ndeveloped in our UTT to track the target in both SOT and\nMOT where the correlation between the target feature and\nthe tracking frame feature is exploited to localize the target.\nWe demonstrate that both SOT and MOT tasks can be solved\nwithin this framework, and the model can be simultaneously\nend-to-end trained by alternatively optimizing the SOT and\nMOT objectives on the datasets of individual tasks. Exten-\nsive experiments are conducted on several benchmarks with\na uniﬁed model trained on both SOT and MOT datasets.\n1. Introduction\nVisual object tracking is one of the fundamental com-\nputer vision tasks with numerous applications [10, 25, 40,\n55]. Unlike clearly deﬁned object classiﬁcation and detec-\ntion problems [18,19,46,50], object tracking is considered\nin different scenarios and can be categorized into two main\nparadigms 1) Single Object Tracking (SOT) is to track an\nannotated target from any object category in the ﬁrst frame\nthroughout a video [13, 25]; 2) Multiple Object Tracking\n(MOT) aims at estimating bounding boxes and identities of\nobjects in videos where categories of targets are known and\n*This work was done during Fan’s internship at Meta AI.\n†Correspondence author.\n627\u00035HVXOWV\n627\u0003\u0003\n8VHU\u00106SHFLILHG\n027\u0003\u0003\n'HWHFWRU\u0010VSHFLILHG\u0003\n027\u00035HVXOWV\n%DFNERQH\n%DFNERQH\n7UDFN\u00037UDQVIRUPHU\n7UDFNLQJ\u0003)UDPHV\n7DUJHW\u0003ER[\n&DWHJRU\\\n'DWDVHW\n627\n8VHU\u0010VSHFLILHG\n1RW\u0003OLPLWHG\n/D627\u000f\u0003*27\u0014\u0013N\u000f\u00037UDFNLQJ1HW\n027\n'HWHFWHG\n/LPLWHG\n&URZGKXPDQ\u000f\u0003027\u0014\u0019\n&RUUHODWLRQ\nFigure 1. Uniﬁed transformer tracker for both single object\ntracking (SOT) and multiple object tracking (MOT) task. The\ntarget box in SOT is speciﬁed in the ﬁrst frame while all boxes\nin reference frames are from the detection model in MOT. We use\none tracking model to predict target localization in tracking frames\nfor both tasks.\nobjects could appear or disappear [53,55]. Current methods\nin the tracking community solve individual tasks separately\nby training models on the individual datasets for either SOT\nor MOT.\nSiamese architecture is widely applied in SOT where\nvarious designs focus on improving the discriminative rep-\nresentation of objects [10,13,25,49]. For MOT, tracking by\ndetection is the most popular paradigm and achieves high-\nest tracking performance on several benchmarks [2,37,55].\nThis paradigm is not applicable for SOT as the model would\nfail to detect objects of unseen categories in SOT. Some\nMOT methods [24, 60] use the Siamese tracker in SOT [4]\nto predict the location of the targets in tracking frames and\nfuse the predicted boxes with the detection boxes to enhance\nthe detection results. However, these methods are not com-\npetitive to the tracking-by-detection methods in MOT. Al-\nbeit the Siamese trackers have been applied in both tracking\ntasks, none of these works are able to address two tracking\n8781\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.833,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

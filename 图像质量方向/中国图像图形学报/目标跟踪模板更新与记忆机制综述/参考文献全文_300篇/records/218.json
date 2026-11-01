@@ -1,0 +1,42 @@
+{
+  "number": 218,
+  "title": "An Efficient Token Compression Framework for Visual Object Tracking",
+  "year": 2026,
+  "authors": [
+    "Weijing Wu",
+    "Qihua Liang",
+    "Bineng Zhong",
+    "Haiying Xia",
+    "Zhiyi Mo",
+    "Shuxiang Song"
+  ],
+  "venue": "CVPR",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 2485647,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\218_2026_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 2485647,
+  "sha256": "18ee3ee1fedd717c9239feb101f2e6df07e2147ceccb363e3ff2e883c249b6db",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "An Efficient Token Compression Framework for Visual Object Tracking",
+  "first_page_text": "An Efficient Token Compression Framework for Visual Object Tracking\nWeijing Wu1,2,3, Qihua Liang1,2,3*, Bineng Zhong1,2,3*, Haiying Xia1,2,3,\nZhiyi Mo4, Shuxiang Song1,2,3\n1 Key Lab of Education Blockchain and Intelligent Technology, Ministry of Education,\nGuangxi Normal University, Guilin, 541004, China\n2 Guangxi Key Lab of Multi-Source Information Mining and Security,\nGuangxi Normal University, Guilin, 541004, China\n3 University Engineering Research Center of Educational Intelligent Technology,\nGuangxi Normal University, Guilin, 541004, China\n4 Guangxi Key Laboratory of Machine Vision and Intelligent Control,\nWuzhou University, Wuzhou 543002, China.\nwuweijing182@163.com, qhliang@gxnu.edu.cn, bnzhong@gxnu.edu.cn, xhy22@mailbox.gxnu.edu.cn\nAbstract\nRefining visual representations by eliminating their internal\nfeature-level redundancy is crucial for simultaneously op-\ntimizing the performance and computational cost of mod-\nels in visual tracking.\nTo enhance their performance,\nmany contemporary Transformer-based trackers leverage\na larger number of historical template frames to capture\nricher spatio-temporal cues. However, this strategy leads to\na massive number of input visual tokens. This creates two\ncritical issues: it imposes a quadratic computational bur-\nden and can also degrade the tracker’s overall performance.\nTo bridge this gap, we propose a compress-then-interact\ntracking framework, ETCTrack, that learns to efficiently\ncompress template tokens from historical template frames\ninto a robust target representation, moving beyond hand-\ncrafted rules. Our method first employs the Adaptive Token\nCompressor to dynamically construct compact yet highly\ndiscriminative template tokens by filtering out redundant\nvisual tokens. These refined template tokens are then pro-\ncessed by our Hierarchical Interaction Encoder to achieve\na deep, adaptive interaction with the search features. Re-\nfined search features ensure subsequent precise target lo-\ncalization. Experiments on seven benchmarks demonstrate\nthat our method outperforms current state-of-the-art track-\ners. ETCTrack-B224 reduces the number of template tokens\nby 60%, leading to a 21.4% reduction in MACs with only a\n0.4% drop in accuracy. The source code are available at\nhttps://github.com/PJD-WJ/ETCTrack.\n*Corresponding Author\n3\n73\n74\n75\n4\n5\n6\n73.4\n73.9\n74.4\n74.7\n72.9\n73.4\n73.7\n73.3\nw/o ATC Module\nwith ATC module\nThe Number of Template Frames\nWith Visual Redundancy\nVisual Redundancy Elimination\n(b)\n+1.4\nLaSOT AUC(%)\nLaSOT AUC(%)\nw/o ATC module\nMACs(G)\nPerformance\nToken Count\n21.4%\n0.4%\n60%\n(d)\n(c)\nEfficiency Gains from the ATC Module\n(a)\nFigure 1. (a) Comparison of AUC and MACs of recent SOTA\ntrackers. (b) Baseline models decline after the 5th frame due to vi-\nsual redundancy on LaSOT, but our ATC module overcomes this,\nenabling sustained performance gains with more frames. (c) Im-\npact of ATC module and template token count on LaSOT AUC(%).\n(d) Efficiency Gains from the ATC module.\n1. Introduction\nVisual tracking aims to locate a target throughout a video\nsequence using its initial state from the first frame as ref-\nerence. Siamese network-based trackers [3, 29, 52] rose to\nprominence by reframing tracking as an efficient similarity-\nlearning task between a template and a search region,\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n6857\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,43 @@
+{
+  "number": 283,
+  "title": "LiVOS: Light Video Object Segmentation with Gated Linear Matching",
+  "year": 2025,
+  "authors": [
+    "Qin Liu",
+    "Jianfeng Wang",
+    "Zhengyuan Yang",
+    "Linjie Li",
+    "Kevin Lin",
+    "Marc Niethammer",
+    "Lijuan Wang"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_LiVOS_Light_Video_Object_Segmentation_with_Gated_Linear_Matching_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_LiVOS_Light_Video_Object_Segmentation_with_Gated_Linear_Matching_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_LiVOS_Light_Video_Object_Segmentation_with_Gated_Linear_Matching_CVPR_2025_paper.pdf",
+      "bytes": 1688501,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\283_2025_LiVOS__Light_Video_Object_Segmentation_with_Gated_Linear_Matching.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_LiVOS_Light_Video_Object_Segmentation_with_Gated_Linear_Matching_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liu_LiVOS_Light_Video_Object_Segmentation_with_Gated_Linear_Matching_CVPR_2025_paper.pdf",
+  "bytes": 1688501,
+  "sha256": "5d46b0ae5939a127e99ff89c10ed9e3cb1ac7c950a2294f63afa69e5f0b85cd2",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "LiVOS: Light Video Object Segmentation with Gated Linear Matching",
+  "first_page_text": "LiVOS: Light Video Object Segmentation with Gated Linear Matching\nQin Liu1\nJianfeng Wang2\nZhengyuan Yang2\nLinjie Li2\nKevin Lin2\nMarc Niethammer1\nLijuan Wang2\n1UNC Chapel Hill\n2Microsoft\nhttps://github.com/uncbiag/LiVOS\nAbstract\nSemi-supervised video object segmentation (VOS) has\nbeen largely driven by space-time memory (STM) networks,\nwhich store past frame features in a spatiotemporal mem-\nory to segment the current frame via softmax attention.\nHowever, STM networks face memory limitations due to\nthe quadratic complexity of softmax matching, restricting\ntheir applicability as video length and resolution increase.\nTo address this, we propose LiVOS, a lightweight memory\nnetwork that employs linear matching via linear attention,\nreformulating memory matching into a recurrent process\nthat reduces the quadratic attention matrix to a constant-\nsize, spatiotemporal-agnostic 2D state. To enhance selec-\ntivity, we introduce gated linear matching, where a data-\ndependent gate matrix is multiplied with the state matrix\nto control what information to retain or discard. Exper-\niments on diverse benchmarks demonstrated the effective-\nness of our method. It achieved 64.8 J &F on MOSE and\n85.1 J &F on DAVIS, surpassing all non-STM methods and\nnarrowing the gap with STM-based approaches. For longer\nand higher-resolution videos, it matched STM-based meth-\nods with 53% less GPU memory and supports 4096p in-\nference on a 32G consumer-grade GPU–a previously cost-\nprohibitive capability–opening the door for long and high-\nresolution video foundation models.\n1. Introduction\nVideo object segmentation (VOS) involves separating spe-\ncific objects from the background in a sequence of video\nframes.\nIt plays a critical role in various real-world ap-\nplications, including robotics [41], video editing [28], and\nmedical imaging [45]. Based on the level of user input,\nVOS tasks are generally categorized into three settings:\nunsupervised, semi-supervised (or one-shot), and interac-\ntive [20]. In this work, we focus on the semi-supervised set-\nting, where the segmentation of the first frame is provided,\nand the model is required to propagate this segmentation\nacross subsequent frames.\nquery\nkeys\nvalues\nquery frame\nmemory frames \n(w/ masks)\nquery frame\nmemory frames \n(w/ masks)\nquery\nkeys\nvalues\ntranspose\ntranspose\nreadout\nreadout\naffinity matrix\n↑ Softmax matching \n↓ Linear matching \nstate matrix\nOut of Memory\nFigure 1.\nTop: Conceptual comparison of softmax vs.\nlinear\nmatching in video object segmentation. Bottom: Softmax match-\ning suffers from memory constraints due to its quadratic attention\ncomplexity, while linear matching achieves linear growth with a\nconstant-size state. Curves are based on results in Tab. 3.\nSemi-supervised VOS is primarily driven by space-time\nmemory (STM) networks [10, 12, 14, 36, 43], which store\npast frames and their segmentations as keys and values in\nthe memory bank to help segment the query frame. Seg-\nmentation occurs by matching each pixel in the query frame\nto all spatiotemporal pixels in the memory frames via soft-\nmax attention [49]. This softmax matching process is highly\ninefficient due to the large attention matrix with space and\ntime complexities of O(HW ×THW), where H and W in-\ndicate the spatial dimensions of an image and T is the num-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n8668\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,41 @@
+{
+  "number": 153,
+  "title": "Object Tracking via Dual Linear Structured SVM and Explicit Feature Map",
+  "year": 2016,
+  "authors": [
+    "Jifeng Ning",
+    "Jimei Yang",
+    "Shaojie Jiang",
+    "Lei Zhang",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Ning_Object_Tracking_via_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Ning_Object_Tracking_via_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Ning_Object_Tracking_via_CVPR_2016_paper.pdf",
+      "bytes": 1094899,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\153_2016_Object_Tracking_via_Dual_Linear_Structured_SVM_and_Explicit_Feature_Map.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Ning_Object_Tracking_via_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Ning_Object_Tracking_via_CVPR_2016_paper.pdf",
+  "bytes": 1094899,
+  "sha256": "09b7deee6271918dafda643328eb4ab097b89236a1dbac68076cd25325c050a4",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Object Tracking via Dual Linear Structured SVM and Explicit Feature Map",
+  "first_page_text": "Object Tracking via Dual Linear Structured SVM and Explicit Feature Map\nJifeng Ning1, Jimei Yang2, Shaojie Jiang1, Lei Zhang3 and Ming-Hsuan Yang4\n1College of Information Engineering, Northwest A&F University, China\n2Adobe Research, USA\n3Department of Computing, The Hong Kong Polytechnic University, China\n4Electrical Engineering and Computer Science, University of California at Merced, USA\njf ning@sina.com, jimyang@adobe.com, shaojiejiang@126.com\ncslzhang@comp.polyu.edu.hk,mhyang@ucmerced.edu\nAbstract\nStructured support vector machine (SSVM) based meth-\nods have demonstrated encouraging performance in recent\nobject tracking benchmarks. However, the complex and ex-\npensive optimization limits their deployment in real-world\napplications. In this paper, we present a simple yet efﬁ-\ncient dual linear SSVM (DLSSVM) algorithm to enable fast\nlearning and execution during tracking. By analyzing the\ndual variables, we propose a primal classiﬁer update for-\nmula where the learning step size is computed in closed\nform. This online learning method signiﬁcantly improves\nthe robustness of the proposed linear SSVM with lower com-\nputational cost. Second, we approximate the intersection\nkernel for feature representations with an explicit feature\nmap to further improve tracking performance. Finally, we\nextend the proposed DLSSVM tracker with multi-scale es-\ntimation to address the “drift” problem. Experimental re-\nsults on large benchmark datasets with 50 and 100 video\nsequences show that the proposed DLSSVM tracking algo-\nrithm achieves state-of-the-art performance.\n1. Introduction\nObject tracking aims to estimate the locations of a tar-\nget in an image sequence. It can be applied to numerous\ntasks such as human-computer interaction, trafﬁc monitor-\ning, action analysis and video surveillance [34, 5, 26]. The\nmain issue of object tracking is the incapability to account\nfor large appearance variations due to viewpoint changes,\nocclusions, deformations and fast motions.\nExisting object tracking algorithms can be broadly cat-\negorized as either generative or discriminative. Generative\ntracking algorithms [6, 22, 16, 17, 24] typically learn an ap-\npearance model to represent a target and use the model to\nsearch for interesting regions in the next frame with min-\nimal reconstruction error. Instead of constructing a model\nto represent the appearance of a target, discriminative ap-\nproaches [1, 2, 30, 3, 23, 11, 8, 33] consider the tracking\nproblem as a classiﬁcation or regression problem of ﬁnding\nthe decision boundary that best separates the target from the\nbackground. In recent years, the tracking-by-detection ap-\nproach has attracted more attention due to its strength to\ndeal with targets undergoing large appearance variations.\nNumerous classiﬁcation algorithms such as support vec-\ntor machines [1], boosting [2, 30], multiple instance learn-\ning [3] and random forests [23, 11] have been used in recent\ntracking-by-detection methods. However, the goal of binary\nclassiﬁers is not seamlessly aligned with the one of object\ntrackers due to the structured output space of tracking. To\novercome this problem, Hare et al. [8] propose a kernelized\nStructured SVM (Struck) for object tracking. The Struck\nmethod treats object tracking as a structured output pre-\ndiction problem that admits a consistent target representa-\ntion for both learning and detection. Especially, in a recent\ntracking benchmark studies [18, 31, 32], Struck [8] shows\nthe state-of-the-art performance.\nHowever, the high complexity of optimization and detec-\ntion processes for Struck [8] with nonlinear kernels limits\nits usage of high dimension features. It is critical to track-\ning performance because object representation with high\ndimensional features can model the target better than low\ndimensional ones.\nFor example, KCF [10] greatly out-\nperforms its original version CSK [9] by only replacing\nthe low dimensional image feature with high dimensional\nHOG feature. On the other hand, the primal SSVM can be\nlearned efﬁciently with linear kernels, which is very useful\nfor fast training and detection even if it uses high dimen-\nsional features to represent the target. However, existing\nsub-gradients methods [25, 21] are sensitive to the step size\nwhen applied to online tasks. Therefore, it is of great in-\nterest to design a proper SSVM tracking algorithm that can\nrun sufﬁciently fast with high dimensional features.\n4266\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

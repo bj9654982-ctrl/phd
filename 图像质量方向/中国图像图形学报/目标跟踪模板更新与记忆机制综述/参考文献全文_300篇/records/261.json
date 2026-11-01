@@ -1,0 +1,39 @@
+{
+  "number": 261,
+  "title": "Learning Video Object Segmentation With Visual Memory",
+  "year": 2017,
+  "authors": [
+    "Pavel Tokmakov",
+    "Karteek Alahari",
+    "Cordelia Schmid"
+  ],
+  "venue": "ICCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Tokmakov_Learning_Video_Object_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Tokmakov_Learning_Video_Object_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Tokmakov_Learning_Video_Object_ICCV_2017_paper.pdf",
+      "bytes": 2046236,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\261_2017_Learning_Video_Object_Segmentation_With_Visual_Memory.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Tokmakov_Learning_Video_Object_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Tokmakov_Learning_Video_Object_ICCV_2017_paper.pdf",
+  "bytes": 2046236,
+  "sha256": "bc63fa7cbe908a99c094a70b9dc028159cc08ab6eeb335a3194fd0cc61795fec",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning Video Object Segmentation With Visual Memory",
+  "first_page_text": "Learning Video Object Segmentation with Visual Memory\nPavel Tokmakov\nKarteek Alahari\nInria∗\nCordelia Schmid\nAbstract\nThis paper addresses the task of segmenting moving\nobjects in unconstrained videos.\nWe introduce a novel\ntwo-stream neural network with an explicit memory mod-\nule to achieve this. The two streams of the network en-\ncode spatial and temporal features in a video sequence re-\nspectively, while the memory module captures the evolu-\ntion of objects over time. The module to build a “visual\nmemory” in video, i.e., a joint representation of all the\nvideo frames, is realized with a convolutional recurrent unit\nlearned from a small number of training video sequences.\nGiven a video frame as input, our approach assigns each\npixel an object or background label based on the learned\nspatio-temporal features as well as the “visual memory”\nspeciﬁc to the video, acquired automatically without any\nmanually-annotated frames. The visual memory is imple-\nmented with convolutional gated recurrent units, which al-\nlows to propagate spatial information over time. We evalu-\nate our method extensively on two benchmarks, DAVIS and\nFreiburg-Berkeley motion segmentation datasets, and show\nstate-of-the-art results. For example, our approach outper-\nforms the top method on the DAVIS dataset by nearly 6%.\nWe also provide an extensive ablative analysis to investigate\nthe inﬂuence of each component in the proposed framework.\n1. Introduction\nVideo object segmentation is the task of extracting\nspatio-temporal regions that correspond to object(s) mov-\ning in at least one frame in the video sequence.\nThe\ntop-performing methods for this problem [11, 31] continue\nto rely on hand-crafted features and do not leverage a\nlearned video representation, despite the impressive results\nachieved by convolutional neural networks (CNN) for other\nvision tasks, e.g., image segmentation [35], object detec-\ntion [36]. Very recently, there have been attempts to build\nCNNs for video object segmentation [6, 23, 43]. They are\nindeed the ﬁrst to use deep learning methods for video seg-\nmentation, but suffer from various drawbacks. For exam-\nple, [6, 23] rely on a manually-segmented subset of frames\n(typically the ﬁrst frame of the video sequence) to guide the\n∗Univ. Grenoble Alpes, Inria, CNRS, Grenoble INP, LJK, 38000\nGrenoble, France.\nFigure 1. Sample results on the DAVIS dataset. Segmentations\nproduced by MP-Net [43] (left) and our approach (right), overlaid\non the video frame.\nsegmentation pipeline. Our previous work [43] relies solely\non optical ﬂow between pairs of frames to segment inde-\npendently moving objects in a video, making it susceptible\nto errors in ﬂow estimation. It also can not extract objects\nif they stop moving. Furthermore, none of these methods\nhas a mechanism to memorize relevant features of objects\nin a scene. In this paper, we propose a novel framework to\naddress these issues; see sample results in Figure 1.\nWe present a two-stream network with an explicit mem-\nory module for video object segmentation (see Figure 2).\nThe memory module is a convolutional gated recurrent unit\n(GRU) that encodes the spatio-temporal evolution of ob-\nject(s) in the input video sequence. This spatio-temporal\nrepresentation used in the memory module is extracted from\ntwo streams—the appearance stream which describes static\nfeatures of objects in the video, and the temporal stream\nwhich captures motion cues.\nThe appearance stream is the DeepLab network [7] pre-\ntrained on the PASCAL VOC segmentation dataset and op-\nerates on individual video frames. The temporal one is a\nmotion prediction network [43] pretrained on the synthetic\nFlyingThings3D dataset and takes optical ﬂow computed\nfrom pairs of frames as input, as shown in Figure 2. The two\nstreams provide complementary cues for object segmenta-\ntion.\nWith these spatio-temporal CNN features in hand,\nwe train the convolutional GRU component of the frame-\nwork to learn a visual memory representation of object(s)\nin the scene. Given a frame t from the video sequence as\n4481\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

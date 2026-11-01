@@ -1,0 +1,38 @@
+{
+  "number": 90,
+  "title": "Multi-Kernel Correlation Filter for Visual Tracking",
+  "year": 2015,
+  "authors": [
+    "Ming Tang",
+    "Jiayi Feng"
+  ],
+  "venue": "ICCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Tang_Multi-Kernel_Correlation_Filter_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Tang_Multi-Kernel_Correlation_Filter_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Tang_Multi-Kernel_Correlation_Filter_ICCV_2015_paper.pdf",
+      "bytes": 1312090,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\090_2015_Multi-Kernel_Correlation_Filter_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Tang_Multi-Kernel_Correlation_Filter_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Tang_Multi-Kernel_Correlation_Filter_ICCV_2015_paper.pdf",
+  "bytes": 1312090,
+  "sha256": "4332e2679ca26f8f5d6ad81c8af60339f7cdacb308f331fedab03a6d49fd5715",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Multi-Kernel Correlation Filter for Visual Tracking",
+  "first_page_text": "Multi-kernel Correlation Filter for Visual Tracking\nMing TANG and Jiayi FENG\nNational Lab of Pattern Recognition, Institute of Automation,\nChinese Academy of Sciences, Beijing 100190, China\n{tangm,jyfeng}@nlpr.ia.ac.cn ∗\nAbstract\nCorrelation ﬁlter based trackers are ranked top in terms\nof performances. Nevertheless, they only employ a single\nkernel at a time.\nIn this paper, we will derive a multi-\nkernel correlation ﬁlter (MKCF) based tracker which ful-\nly takes advantage of the invariance-discriminative power\nspectrums of various features to further improve the perfor-\nmance. Moreover, it may easily introduce location and rep-\nresentation errors to search several discrete scales for the\nproper one of the object bounding box, because normally\nthe discrete candidate scales are determined and the cor-\nresponding feature pyramid are generated ahead of search-\ning. In this paper, we will propose a novel and efﬁcient scale\nestimation method based on optimal bisection search and\nfast evaluation of features. Our scale estimation method is\nthe ﬁrst one that uses the truly minimal number of layers of\nfeature pyramid and avoids constructing the pyramid before\nsearching for proper scales.\n1. Introduction\nVisual object tracking is one of the most challenging\nproblems in computer vision [32, 18, 20, 26, 23]. To adapt\nto unpredictable variations of object appearance and back-\nground during tracking, one strategy is to select a single\nstrong feature that is robust to any variation.\nHowever,\nthis has been known to be difﬁcult [33, 11], especially for\nthe model-free tracking task in which no prior knowledge\nabout the target object is known except for the initial frame.\nTherefore, designing an efﬁcient scheme to combine several\ncomplementary features is a natural alternative.\nIn such a natural scheme, different features would cap-\nture different channels of target information and result in a\nbetter performance [35, 37, 21, 7]. Since any feature pos-\nsesses its own invariance and discriminative power, what re-\nally distinguishes one feature from another is its location at\n∗This work was supported by Natural Science Foundation of China.\nGrant No. 61375035.\nThe corresponding author of the paper is Ming TANG.\n#21\n#263\n#340\n#70\n#423\n#467\n#240\n#300\n#450\nFigure 1. Qualitative comparisons of our Multi-kernel Correla-\ntion Filter (MKCF) with state-of-the-art trackers, Struck [13],\nKCF [15], and CN2 [7] on 3 sequences [36]. The ﬁgure is best\nviewed in color.\nthe invariance-discriminative power spectrum [33]. And the\nlocation may vary for different types of variations. Com-\nplementary features should be selected in such a way that\nthey are not at the same location of the spectrum for the\nsame appearance variation. In other words, complementary\nfeatures must be at different spectrum locations under the\nsame variation, especially in long term tracking because the\nobject appearance and its local background may vary sub-\nstantially. Concatenation of several features into a single\nkernel space, however, may confuse their characteristics on\nthe invariance-discriminative power spectrums, and is not a\ngood choice. Consequently, a multiple kernel feature, i.e.,\na combination of several kernels, one for each feature, is a\nnatural choice.\nIn recent years, correlation ﬁlter based trackers have\nbeen proposed [4, 15, 7, 6, 16] and achieved top per-\nformance.\nBolme et al.[4] proposed a correlation ﬁlter\nbased tracker, called Minimum Output Sum of Squared Er-\nror (MOSSE), with classical signal processing techniques.\n3038\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

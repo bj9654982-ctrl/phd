@@ -1,0 +1,39 @@
+{
+  "number": 40,
+  "title": "Tracking-Learning-Detection",
+  "year": 2012,
+  "authors": [
+    "Zdenek Kalal",
+    "Krystian Mikolajczyk",
+    "Jiri Matas"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P1 核心精读",
+  "original_source": "https://doi.org/10.1109/TPAMI.2011.239",
+  "doi": "10.1109/TPAMI.2011.239",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://users.cs.duke.edu/~tomasi/public/ReadingGroup/Kalal%20et%20al%20PAMI%202012.pdf",
+      "final_url": "https://users.cs.duke.edu/~tomasi/public/ReadingGroup/Kalal%20et%20al%20PAMI%202012.pdf",
+      "bytes": 2766556,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\040_2012_Tracking-Learning-Detection.pdf",
+  "download_url": "https://users.cs.duke.edu/~tomasi/public/ReadingGroup/Kalal%20et%20al%20PAMI%202012.pdf",
+  "requested_url": "https://users.cs.duke.edu/~tomasi/public/ReadingGroup/Kalal%20et%20al%20PAMI%202012.pdf",
+  "bytes": 2766556,
+  "sha256": "20f1c26d746466a64e6508b4b89012cfe1e4b8fe284a3cc7f177161da38abd99",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 14,
+  "pdf_title": "untitled",
+  "first_page_text": "Tracking-Learning-Detection\nZdenek Kalal, Krystian Mikolajczyk, and Jiri Matas\nAbstract—This paper investigates long-term tracking of unknown objects in a video stream. The object is defined by its location and\nextent in a single frame. In every frame that follows, the task is to determine the object’s location and extent or indicate that the object is\nnot present. We propose a novel tracking framework (TLD) that explicitly decomposes the long-term tracking task into tracking,\nlearning, and detection. The tracker follows the object from frame to frame. The detector localizes all appearances that have been\nobserved so far and corrects the tracker if necessary. The learning estimates the detector’s errors and updates it to avoid these errors\nin the future. We study how to identify the detector’s errors and learn from them. We develop a novel learning method (P-N learning)\nwhich estimates the errors by a pair of “experts”: 1) P-expert estimates missed detections, and 2) N-expert estimates false alarms. The\nlearning process is modeled as a discrete dynamical system and the conditions under which the learning guarantees improvement are\nfound. We describe our real-time implementation of the TLD framework and the P-N learning. We carry out an extensive quantitative\nevaluation which shows a significant improvement over state-of-the-art approaches.\nIndex Terms—Long-term tracking, learning from video, bootstrapping, real time, semi-supervised learning.\nÇ\n1\nINTRODUCTION\nC\nONSIDER a video stream taken by a hand-held camera\ndepicting various objects moving in and out of the\ncamera’s field of view. Given a bounding box defining the\nobject of interest in a single frame, our goal is to\nautomatically determine the object’s bounding box or\nindicate that the object is not visible in every frame that\nfollows. The video stream is to be processed at frame rate\nand the process should run indefinitely long. We refer to\nthis task as long-term tracking and illustrate it in Fig. 1.\nTo enable long-term tracking, there are a number of\nproblems which need to be addressed. The key problem is the\ndetection of the object when it reappears in the camera’s field\nof view. This problem is aggravated by the fact that the object\nmay change its appearance, thus making the appearance\nfrom the initial frame irrelevant. Next, a successful long-term\ntracker should handle scale and illumination changes, back-\nground clutter, partial occlusions, and operate in real time.\nThe long-term tracking can be approached either from\ntracking or from detection perspectives. Tracking algo-\nrithms estimate the object motion. Trackers only require\ninitialization, are fast, and produce smooth trajectories. On\nthe other hand, they accumulate error during runtime\n(drift) and typically fail if the object disappears from the\ncamera view. Research in tracking aims at developing\nincreasingly robust trackers that track “longer.” The\npostfailure behavior is not directly addressed. Detection-\nbased algorithms estimate the object location in every frame\nindependently. Detectors do not drift and do not fail if the\nobject disappears from the camera view. However, they\nrequire an offline training stage and therefore cannot be\napplied to unknown objects.\nThe starting point of our research is the acceptance of the\nfact that neither tracking nor detection can solve the long-\nterm tracking task independently. However, if they operate\nsimultaneously, there is potential to benefit one from\nanother. A tracker can provide weakly labeled training\ndata for a detector and thus improve it during runtime. A\ndetector can reinitialize a tracker and thus minimize the\ntracking failures.\nThe first contribution of this paper is the design of a novel\nframework (TLD) that decomposes the long-term tracking\ntask into three subtasks: tracking, learning, and detection.\nEach subtask is addressed by a single component and the\ncomponents operate simultaneously. The tracker follows the\nobject from frame to frame. The detector localizes all\nappearances that have been observed so far and corrects\nthe tracker if necessary. The learning estimates detector’s\nerrors and updates it to avoid these errors in the future.\nWhile a wide range of trackers and detectors exist, we\nare not aware of any learning method that would be\nsuitable for the TLD framework. Such a learning method\nshould: 1) deal with arbitrarily complex video streams\nwhere the tracking failures are frequent, 2) never degrade\nthe detector if the video does not contain relevant\ninformation, and 3) operate in real time.\nTo tackle all these challenges, we rely on the various\ninformation sources contained in the video. Consider, for\ninstance, a single-patch denoting the object location in a\nsingle frame. This patch defines not only the appearance of\nthe object, but also determines the surrounding patches,\nwhich define the appearance of the background. When\ntracking the patch, one can discover different appearances\nof the same object as well as more appearances of the\nbackground. This is in contrast to standard machine\nIEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,\nVOL. 34,\nNO. 7,\nJULY 2012\n1409\n. Z. Kalal and K. Mikolajczyk are with the Centre for Vision, Speech, and\nSignal Processing, Faculty of Engineering and Physical Sciences,\nUniversity of Surrey, Guildford, Surrey GU2 7XH, United Kingdom.\nE-mail: zdenek.kalal@gmail.com, K.Mikolajczyk@surrey.ac.uk.\n. J. Matas is with the Center for Machine Perception, Department of\nCybernetics, Faculty of Electrical Engineering, Czech Technical Univer-\nsity, Karlovo namesti 13, 121 35 Praha 2, Czech Republic.\nE-mail: matas@cmp.felk.cvut.cz.\nManuscript received 10 Mar. 2011; revised 24 Aug. 2011; accepted 18 Oct.\n2011; published online 7 Dec. 2011.\nRecommended for acceptance by V. Pavlovic.\nFor information on obtaining reprints of this article, please send e-mail to:\ntpami@computer.org, and reference. IEEECS Log Number\nTPAMI-2011-03-0153.\nDigital Object Identifier no. 10.1109/TPAMI.2011.239.\n0162-8828/12/$31.00 ! 2012 IEEE\nPublished by the IEEE Computer Society\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

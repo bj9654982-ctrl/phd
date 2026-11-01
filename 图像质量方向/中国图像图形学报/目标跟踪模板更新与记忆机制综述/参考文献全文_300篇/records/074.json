@@ -1,0 +1,39 @@
+{
+  "number": 74,
+  "title": "In Defense of Color-Based Model-Free Tracking",
+  "year": 2015,
+  "authors": [
+    "Horst Possegger",
+    "Thomas Mauthner",
+    "Horst Bischof"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2015/html/Possegger_In_Defense_of_2015_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Possegger_In_Defense_of_2015_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Possegger_In_Defense_of_2015_CVPR_paper.pdf",
+      "bytes": 3170373,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\074_2015_In_Defense_of_Color-Based_Model-Free_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Possegger_In_Defense_of_2015_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Possegger_In_Defense_of_2015_CVPR_paper.pdf",
+  "bytes": 3170373,
+  "sha256": "b279a9f9689cb1290c212318f34f153791ae671157f5cd654731c76951e4d88c",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "In Defense of Color-Based Model-Free Tracking",
+  "first_page_text": "In Defense of Color-based Model-free Tracking\nHorst Possegger∗\nThomas Mauthner∗\nHorst Bischof\nInstitute for Computer Graphics and Vision, Graz University of Technology\n{possegger,mauthner,bischof}@icg.tugraz.at\nAbstract\nIn this paper, we address the problem of model-free on-\nline object tracking based on color representations. Accord-\ning to the ﬁndings of recent benchmark evaluations, such\ntrackers often tend to drift towards regions which exhibit a\nsimilar appearance compared to the object of interest. To\novercome this limitation, we propose an efﬁcient discrimi-\nnative object model which allows us to identify potentially\ndistracting regions in advance. Furthermore, we exploit this\nknowledge to adapt the object representation beforehand so\nthat distractors are suppressed and the risk of drifting is\nsigniﬁcantly reduced. We evaluate our approach on recent\nonline tracking benchmark datasets demonstrating state-of-\nthe-art results. In particular, our approach performs favor-\nably both in terms of accuracy and robustness compared\nto recent tracking algorithms. Moreover, the proposed ap-\nproach allows for an efﬁcient implementation to enable on-\nline object tracking in real-time.\n1. Introduction\nVisual object tracking is a fundamental task for a wide\nrange of computer vision applications. Domains such as\nvisual surveillance, robotics, human-computer interaction,\nand augmented reality require robust and reliable location\nestimates of a target throughout an image sequence. De-\nspite signiﬁcant progress in recent years, creating a generic\nobject tracker is still rather challenging due to real-world\nphenomena such as illumination changes, background clut-\nter, fast object motion changes, and occlusions.\nAlthough some application domains allow us to incor-\nporate strong assumptions about the target (e.g. pedestrian\ntracking [11, 36, 37, 40]), it is often desirable to build a\ngeneric tracker which can readily be used for arbitrary ob-\nject classes. Such model-free online trackers neither apply\npre-learned object models nor exploit class-speciﬁc prior\nknowledge. Instead, a representative object model must be\n∗Both authors contributed equally.\n#25\n#292\n#725\n#40\n#167\n#250\n#64\n#180\n#348\nFigure 1: Comparison of the proposed approach with the\nstate-of-the-art trackers ACT, DSST, and KCF. The exam-\nple frames show the VOT14 basketball, car, and polarbear\nsequences, respectively. Best viewed in color.\nlearned given a single input frame with a (possibly noisy)\ninitial object annotation, e.g. an axis-aligned bounding box.\nAmong earlier tracking approaches, color histograms\n(e.g. [12, 34, 35]) were a common method for appear-\nance description.\nHowever, over the last decade the re-\nsearch focus has shifted to trackers based on well engi-\nneered features such as HOG (e.g. [13, 23]), correlation ﬁl-\nters (e.g. [10, 22]), and more complex color features, such\nas color attributes [14]. Such trackers have been shown to\nachieve excellent performance on recent benchmark evalu-\nations (e.g. [27]), whereas trackers based on standard color\nmodels yield inferior performance.\nIn contrast to this development, we argue that trackers\nbased on standard color representations can still achieve\nstate-of-the-art performance.\nWe exploit the observation\nthat color-based trackers tend to drift towards nearby re-\ngions with similar appearance. Using an adaptive object\nmodel which is able to suppress such regions, we can sig-\nniﬁcantly reduce the drifting problem, yielding robust and\nreliable tracking results. Due to the favorable simplicity of\nour representation, it is well suited for time-critical applica-\ntions such as surveillance and robotics.\nOur contributions are as follows. We present a discrimi-\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

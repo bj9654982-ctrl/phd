@@ -1,0 +1,41 @@
+{
+  "number": 113,
+  "title": "Visual Tracking via Adaptive Spatially-Regularized Correlation Filters",
+  "year": 2019,
+  "authors": [
+    "Kenan Dai",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Chong Sun",
+    "Jianhua Li"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2019/html/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.pdf",
+      "bytes": 25018373,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\113_2019_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.pdf",
+  "bytes": 25018373,
+  "sha256": "6f3d2f97cfe0539928ecc59fec2d591784528a2bc5d03ac9381fb59ecf05fc7f",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Visual Tracking via Adaptive Spatially-Regularized Correlation Filters",
+  "first_page_text": "Visual Tracking via Adaptive Spatially-Regularized Correlation Filters\nKenan Dai1, Dong Wang1∗, Huchuan Lu1,2, Chong Sun1,3, Jianhua Li1\n1 School of Information and Communication Engineering, Dalian University of Technology, China\n2Peng Cheng Laboratory 3 Tencent Youtu Lab\ndkn2014@mail.dlut.edu.cn, {wdice,lhchuan}@dlut.edu.cn, waynecool@mail.dlut.edu.cn, jianhual@dlut.edu.cn\nAbstract\nIn this work, we propose a novel adaptive spatially-\nregularized correlation ﬁlters (ASRCF) model to simulta-\nneously optimize the ﬁlter coefﬁcients and the spatial reg-\nularization weight. First, this adaptive spatial regulariza-\ntion scheme could learn an effective spatial weight for a\nspeciﬁc object and its appearance variations, and therefore\nresult in more reliable ﬁlter coefﬁcients during the track-\ning process. Second, our ASRCF model can be effective-\nly optimized based on the alternating direction method of\nmultipliers, where each subproblem has the closed-from so-\nlution. Third, our tracker applies two kinds of CF models\nto estimate the location and scale respectively. The loca-\ntion CF model exploits ensembles of shallow and deep fea-\ntures to determine the optimal position accurately. The s-\ncale CF model works on multi-scale shallow features to es-\ntimate the optimal scale efﬁciently. Extensive experiments\non ﬁve recent benchmarks show that our tracker perform-\ns favorably against many state-of-the-art algorithms, with\nreal-time performance of 28fps.\n1. Introduction\nVisual tracking [36, 25, 24] is a fundamental computer\nvision problem and has many realistic applications includ-\ning video surveillance, behavior analysis, to name a few.\nAlthough many efforts have been done, it is still a tough\ntask to design a robust and efﬁcient tracker due to the difﬁ-\nculties from both foreground and background variations.\nRecently, tracking algorithms based on correlation ﬁlters\n(CF) have achieved top-ranked performance and drawn in-\ncreasing attentions. Usually, the CF-based trackers [18, 12,\n11, 15, 8] exploit large numbers of cyclically shifted sam-\nples for learning, and convert the correlation operations in\nthe spatial domain to the element-wise multiplications in the\nfrequency domain, thereby reducing the computation com-\nplexity and improving the tracking speed signiﬁcantly.\n∗Corresponding Author: Dr. Wang\n(a) SRDCF [11]\n(b) ASRCF\nFigure 1. The visualization of different spatial regularizations for\nthe (a) SRDCF [11] and (b) ASRCF methods. For SRDCF, the\nspatial regularization has a negative Gaussian shape, which is al-\nmost equal for different objects and ﬁxed during the tracking pro-\ncess. By contrast, our ASRCF method attempts to learn an adap-\ntive spatial regularization, which is ﬂexible for different objects in\ndifferent time. As shown in (b), the ASRCF model has learned an\neffective spatial regularization that provides a higher penalty on\nthe noise part and a lower penalty on the reliable part.\nHowever, there exist two major imperfections of the ear-\nlier CF-based methods. First, the circulant shifted sampling\nprocess always suffers from periodic repetitions on bound-\nary positions and makes the CF model be trained with a por-\ntion of unreal samples. This dilemma has been alleviated to\nsome extent with additional pre-deﬁned spatial constraints\non ﬁlter coefﬁcients [11, 15]. But these constraints are usu-\nally ﬁxed for different objects and not changed during the\ntracking process, which cannot fully exploit the diversity\ninformation of different objects in different time. Second,\nthe object localization and scale estimation are usually con-\nducted on the same feature space, which requires extract-\ning multi-scale feature maps during the tracking process.\nThis strategy signiﬁcantly increases the computational load\nand decreases the tracking speeds when the tracker exploits\nsome powerful and complicated features (such as features\nextracted from deep networks). That is why the top-ranked\nCF trackers often runs very slow (e.g., DeepSRDCF [10],\nC-COT [13], DRT [32] and RPCF [33]).\nIn this work, we develop a robust and efﬁcient CF-based\ntracker with two major efforts: adaptive spatial regulariza-\ntion and efﬁcient scale estimation. The contributions of this\n4670\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

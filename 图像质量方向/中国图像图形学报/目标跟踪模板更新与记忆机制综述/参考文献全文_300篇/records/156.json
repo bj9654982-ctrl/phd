@@ -1,0 +1,41 @@
+{
+  "number": 156,
+  "title": "Action-Decision Networks for Visual Tracking With Deep Reinforcement Learning",
+  "year": 2017,
+  "authors": [
+    "Sangdoo Yun",
+    "Jongwon Choi",
+    "Youngjoon Yoo",
+    "Kimin Yun",
+    "Jin Young Choi"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Yun_Action-Decision_Networks_for_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf",
+      "bytes": 2639173,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\156_2017_Action-Decision_Networks_for_Visual_Tracking_With_Deep_Reinforcement_Learning.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf",
+  "bytes": 2639173,
+  "sha256": "8e4237c3dbe5a6b5df2b76196b57fed729d73672f1c52bfa02592783e0825d14",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Action-Decision Networks for Visual Tracking With Deep Reinforcement Learning",
+  "first_page_text": "Action-Decision Networks for Visual Tracking with Deep Reinforcement\nLearning\nSangdoo Yun1 Jongwon Choi1 Youngjoon Yoo2 Kimin Yun3 and Jin Young Choi1\n1ASRI, Dept. of Electrical and Computer Eng., Seoul National University, South Korea\n2Graduate School of Convergence Science and Technology, Seoul National University, South Korea\n3Electronics and Telecommunications Research Institute (ETRI), South Korea\n{yunsd101, i0you200, jychoi}@snu.ac.kr, jwchoi.pil@gmail.com, kimin.yun@etri.re.kr\nAbstract\nThis paper proposes a novel tracker which is controlled\nby sequentially pursuing actions learned by deep reinforce-\nment learning. In contrast to the existing trackers using\ndeep networks, the proposed tracker is designed to achieve\na light computation as well as satisfactory tracking accu-\nracy in both location and scale. The deep network to con-\ntrol actions is pre-trained using various training sequences\nand ﬁne-tuned during tracking for online adaptation to\ntarget and background changes. The pre-training is done\nby utilizing deep reinforcement learning as well as super-\nvised learning. The use of reinforcement learning enables\neven partially labeled data to be successfully utilized for\nsemi-supervised learning. Through evaluation of the OTB\ndataset, the proposed tracker is validated to achieve a com-\npetitive performance that is three times faster than state-\nof-the-art, deep network–based trackers. The fast version of\nthe proposed method, which operates in real-time on GPU,\noutperforms the state-of-the-art real-time trackers.\n1. Introduction\nVisual tracking is one of the fundamental problems in\nthe computer vision ﬁeld. Finding the location of the tar-\nget object is difﬁcult because of several tracking obstacles\nsuch as motion blur, occlusion, illumination change, and\nbackground clutter. Conventional tracking methods [17, 42,\n7, 15, 13] follow target objects using a low-level hand-\ncrafted feature. Although they achieve computational efﬁ-\nciency and comparable tracking performance, they are still\nlimited in solving the above-mentioned obstacles because\nof their insufﬁcient feature representation.\nRecently, tracking methods [35, 14, 24] using convo-\nlutional neural networks (CNNs) have been proposed for\nrobust tracking and vastly improved tracking performance\nwith the help of rich feature representation. Several algo-\n…\n…\n…\n…\nFigure 1: The concept of the proposed visual tracking con-\ntrolled by sequential actions. The ﬁrst column shows the ini-\ntial location of the target, and the second and third columns\nshow the iterative action ﬂow to ﬁnd the target bounding\nbox in each frame. The sequential actions selected by the\nproposed method control the tracker to iteratively move the\ninitial bounding box (blue) to the target bounding box (red)\nin each frame.\nrithms [35, 14] utilize pre-trained CNNs on a large-scale\nclassiﬁcation dataset such as ImageNet [26]. However, due\nto the gap between classiﬁcation and tracking problem, the\npre-trained CNN is not sufﬁcient to solve the difﬁcult track-\ning issues. Nam et al. [24] proposed a tracking-by-detection\nalgorithm with CNNs trained with tracking video datasets\nsuch as [40, 20] and achieved the better performance com-\npared to the traditional trackers. However, this approach\nusually focuses on improving the ability to distinguish the\ntarget and background using the appearance model and may\nthus overlook the following problems: (1) inefﬁcient search\nalgorithms that explore the region of interest and select the\nbest candidate by matching with the tracking model, and (2)\nthe need for a large amount of labeled tracking sequences\nfor training and the inability to utilize unlabeled frames in a\nsemi-supervised case.\n12711\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

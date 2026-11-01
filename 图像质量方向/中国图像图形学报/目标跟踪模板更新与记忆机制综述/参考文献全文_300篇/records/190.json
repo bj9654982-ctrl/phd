@@ -1,0 +1,41 @@
+{
+  "number": 190,
+  "title": "SeqTrack: Sequence to Sequence Learning for Visual Object Tracking",
+  "year": 2023,
+  "authors": [
+    "Xin Chen",
+    "Houwen Peng",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Han Hu"
+  ],
+  "venue": "CVPR",
+  "category": "自回归与生成式跟踪",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_SeqTrack_Sequence_to_Sequence_Learning_for_Visual_Object_Tracking_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_SeqTrack_Sequence_to_Sequence_Learning_for_Visual_Object_Tracking_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_SeqTrack_Sequence_to_Sequence_Learning_for_Visual_Object_Tracking_CVPR_2023_paper.pdf",
+      "bytes": 1299087,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\190_2023_SeqTrack__Sequence_to_Sequence_Learning_for_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_SeqTrack_Sequence_to_Sequence_Learning_for_Visual_Object_Tracking_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Chen_SeqTrack_Sequence_to_Sequence_Learning_for_Visual_Object_Tracking_CVPR_2023_paper.pdf",
+  "bytes": 1299087,
+  "sha256": "434b4166b68a1f34dc5416af8a93bb02bb6121a16003d0c7b42aa3dd588963cd",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "SeqTrack: Sequence to Sequence Learning for Visual Object Tracking",
+  "first_page_text": "SeqTrack: Sequence to Sequence Learning for Visual Object Tracking\nXin Chen1, Houwen Peng2,†, Dong Wang1,†, Huchuan Lu1,3, Han Hu2\n1Dalian University of Technology\n2Microsoft Research\n3Peng Cheng Laboratory\nAbstract\nIn this paper, we present a new sequence-to-sequence\nlearning framework for visual tracking, dubbed SeqTrack.\nIt casts visual tracking as a sequence generation problem,\nwhich predicts object bounding boxes in an autoregres-\nsive fashion.\nThis is different from prior Siamese track-\ners and transformer trackers, which rely on designing com-\nplicated head networks, such as classification and regres-\nsion heads. SeqTrack only adopts a simple encoder-decoder\ntransformer architecture. The encoder extracts visual fea-\ntures with a bidirectional transformer, while the decoder\ngenerates a sequence of bounding box values autoregres-\nsively with a causal transformer.\nThe loss function is a\nplain cross-entropy. Such a sequence learning paradigm\nnot only simplifies tracking framework, but also achieves\ncompetitive performance on benchmarks. For instance, Se-\nqTrack gets 72.5% AUC on LaSOT, establishing a new state-\nof-the-art performance. Code and models are available at\nhttps://github.com/microsoft/VideoX.\n1. Introduction\nVisual object tracking is a fundamental task in computer\nvision. It aims to estimate the position of an arbitrary tar-\nget in a video sequence, given only its location in the ini-\ntial frame. Existing tracking approaches commonly adopt a\ndivide-and-conquer strategy, which decomposes the track-\ning problem into multiple subtasks, such as object scale es-\ntimation and center point localization. Each subtask is ad-\ndressed by a specific head network. For example, SiamRPN\n[27] and its follow-up works [3, 7, 48, 55, 58] adopt classi-\nfication heads for object localization and regression heads\nfor scale estimation, as sketched in Fig. 1(a). STARK [53]\nand transformer-based trackers [4,10,17,44] design corner\nhead networks to predict the bounding box corners of target\nobjects, as visualized in Fig. 1(b).\nSuch a divide-and-conquer strategy has demonstrated su-\nperior performance on tracking benchmarks and thereby be-\ncome the mainstream design in existing models. However,\n† Corresponding authors: Houwen Peng (houwen.peng@microsoft.com),\nDong Wang (wdice@dlut.edu.cn).\nBackbone\npositive negative\n(a) Trackers with classification and regression heads\nx y w h\nClassification\nRegression\nTemplate\n&\nSearch Region\nBackbone\nCorner \nPrediction\nCorner \nPrediction\n(b) Trackers with corner heads\nTemplate\n&\nSearch Region\n(c) Our sequence-to-sequence tracker (SeqTrack)\nTemplate & Search Region\nOutput Sequence\nx, y, w, h, end\nInput Sequence\nstart, x, y, w, h\nSequence\nModel\nBounding Box\nBounding Box\nFigure 1. Comparison of tracking frameworks. (a) The framework\nwith object classification head and bounding box regression head.\n(b) The framework with corner prediction heads. (c) Sequence-to-\nsequence tracking framework without complicated head networks.\ntwo deficiencies still exist. First, each subtask requires a\ncustomized head network, leading to a complicated track-\ning framework. Second, each head network requires one or\nmore learning loss functions, e.g., cross-entropy loss [7,27],\nℓ1 loss [7,27,53,55], generalized IoU loss [7,53,55], which\nmake the training difficult due to extra hyperparameters.\nTo address these issues, in this paper, we propose a new\nSequence-to-sequence Tracking (SeqTrack) framework, as\nshown in Fig. 1(c). By modeling tracking as a sequence\ngeneration task, SeqTrack gets rid of complicated head net-\nworks and redundant loss functions. It is based upon the\nintuition that if the model knows where the target object\nis, we could simply teach it how to read the bounding box\nout, rather than explicitly performing additional classifica-\ntion and regression using a divide-and-conquer strategy.\nTo this end, we convert the four values of a bounding\nbox into a sequence of discrete tokens and make the model\nto learn generating this sequence token-by-token. We adopt\na simple encoder-decoder transformer to model the gener-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n14572\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

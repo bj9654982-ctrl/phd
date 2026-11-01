@@ -1,0 +1,42 @@
+{
+  "number": 271,
+  "title": "Hierarchical Memory Matching Network for Video Object Segmentation",
+  "year": 2021,
+  "authors": [
+    "Hongje Seong",
+    "Seoung Wug Oh",
+    "Joon-Young Lee",
+    "Seongwon Lee",
+    "Suhyeon Lee",
+    "Euntai Kim"
+  ],
+  "venue": "ICCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Seong_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Seong_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Seong_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation_ICCV_2021_paper.pdf",
+      "bytes": 3985159,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\271_2021_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Seong_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Seong_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation_ICCV_2021_paper.pdf",
+  "bytes": 3985159,
+  "sha256": "61400dc8082c4ae083e8ba87058fd3594222026d71efdf2195af09b8b7baf589",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Hierarchical Memory Matching Network for Video Object Segmentation",
+  "first_page_text": "Hierarchical Memory Matching Network for Video Object Segmentation\nHongje Seong1\nSeoung Wug Oh2\nJoon-Young Lee2\nSeongwon Lee1\nSuhyeon Lee1\nEuntai Kim1,*\n1Yonsei University\n2Adobe Research\nAbstract\nWe present Hierarchical Memory Matching Network\n(HMMN) for semi-supervised video object segmentation.\nBased on a recent memory-based method [33], we pro-\npose two advanced memory read modules that enable us\nto perform memory reading in multiple scales while ex-\nploiting temporal smoothness. We first propose a kernel\nguided memory matching module that replaces the non-\nlocal dense memory read, commonly adopted in previous\nmemory-based methods. The module imposes the tempo-\nral smoothness constraint in the memory read, leading to\naccurate memory retrieval.\nMore importantly, we intro-\nduce a hierarchical memory matching scheme and propose\na top-k guided memory matching module in which mem-\nory read on a fine-scale is guided by that on a coarse-\nscale. With the module, we perform memory read in mul-\ntiple scales efficiently and leverage both high-level seman-\ntic and low-level fine-grained memory features to predict\ndetailed object masks. Our network achieves state-of-the-\nart performance on the validation sets of DAVIS 2016/2017\n(90.8% and 84.7%) and YouTube-VOS 2018/2019 (82.6%\nand 82.5%), and test-dev set of DAVIS 2017 (78.6%). The\nsource code and model are available online:\nhttps:\n//github.com/Hongje/HMMN.\n1. Introduction\nSemi-supervised video object segmentation (VOS) aims\nto predict the foreground object mask in every frame of a\nvideo given an object mask at the first frame. Recently,\nmemory-based VOS methods [33, 39, 27, 21, 22, 23] have\nachieved great success. A key idea of the memory-based\nmethods is matching densely between query (i.e., current\nframe) and memory (i.e., past frames with given or pre-\ndicted masks) to retrieve the memory at a pixel-level. Since\nthe camera’s field of view or objects in a video may move,\nspatio-temporal non-local and dense matching was per-\nformed to compute similarity for all matching possibilities.\nThere are two limitations of the existing memory-based\n*Corresponding author.\nMemory\nQuery\ndense matching\nres3\nres2\nconv1\nres4\nres3\nres2\nconv1\nres4\nMemory\ndense matching\nres3\nres2\nconv1\nres4\ndense matching\ndense matching\nQuery\nres3\nres2\nconv1\nres4\n(a)\n(b)\n(c)\n1/2\n1/4\n1/8\n1/16\n1/2\n1/4\n1/8\n1/16\ntop-𝑘𝑘guided sparse matching\ntop-𝑘𝑘guided sparse matching\nkernel guided dense matching\nQuery\nres3\nres2\nconv1\nres4\nMemory\nres3\nres2\nconv1\nres4\n1/2\n1/4\n1/8\n1/16\nFigure 1. Previous memory-based methods densely match image\nfeatures only at a coarse resolution, as shown in (a). To conduct the\nmemory reading at multiple scales, one can naively apply dense\nmatching at each scale (b), but it needs prohibitive computational\ncost and is not robust due to noisy low-level features. In our hi-\nerarchical memory matching architecture, shown in (c), fine-scale\nmatching is guided by coarse-scale matching, resulting in efficient\nand robust memory matching in multiple scales.\nmethods: temporal smoothness and fine-grained memory\ninformation. Temporal smoothness is one of the strong con-\nstraints that we can assume for the VOS task.\nPrevious\nVOS methods without memory often applied a local match-\ning [43, 50] or local refinement [34, 16, 32, 49, 13, 53]\nbetween two adjacent frames for temporal smoothness.\nHowever, in the memory-based method [33], the non-local\nmatching completely ignores the constraint and it raises the\nrisk of false matches (e.g., when multiple similar instances\nexist, see Fig. 3). Another weakness is the lack of fine-\ngrained memory information. In the memory-based meth-\nods, a query encoder only takes the current frame without\nany target information. Thus the memory matching is the\nonly source to get information of the target object mask.\nThe previous memory-based methods conduct the memory\nmatching only at the coarsest resolution, (e.g., 1/16 of the\ninput resolution [33]), as shown in Fig. 1 (a). At the low res-\nolution, while accurate matching is possible with high-level\n12889\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

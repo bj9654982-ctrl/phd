@@ -1,0 +1,38 @@
+{
+  "number": 204,
+  "title": "Self-Paced Learning for Long-Term Tracking",
+  "year": 2013,
+  "authors": [
+    "James S. Supancic III",
+    "Deva Ramanan"
+  ],
+  "venue": "CVPR",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2013/html/Supancic_III_Self-Paced_Learning_for_2013_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Supancic_III_Self-Paced_Learning_for_2013_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Supancic_III_Self-Paced_Learning_for_2013_CVPR_paper.pdf",
+      "bytes": 1705017,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\204_2013_Self-Paced_Learning_for_Long-Term_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Supancic_III_Self-Paced_Learning_for_2013_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Supancic_III_Self-Paced_Learning_for_2013_CVPR_paper.pdf",
+  "bytes": 1705017,
+  "sha256": "cef17b0c3af56208c4456d778d8b2dfcad211018a6213dcd95040bdb5c8d0ba6",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Self-Paced Learning for Long-Term Tracking",
+  "first_page_text": "Self-paced learning for long-term tracking\nJames Steven Supanˇciˇc III\nDeva Ramanan\nDept. of Computer Science @ University of California, Irvine\njsupanci@uci.edu dramanan@ics.uci.edu\nAbstract\nWe address the problem of long-term object tracking,\nwhere the object may become occluded or leave-the-view.\nIn this setting, we show that an accurate appearance model\nis considerably more effective than a strong motion model.\nWe develop simple but effective algorithms that alternate\nbetween tracking and learning a good appearance model\ngiven a track. We show that it is crucial to learn from the\n“right” frames, and use the formalism of self-paced cur-\nriculum learning to automatically select such frames. We\nleverage techniques from object detection for learning ac-\ncurate appearance-based templates, demonstrating the im-\nportance of using a large negative training set (typically\nnot used for tracking). We describe both an ofﬂine algo-\nrithm (that processes frames in batch) and a linear-time on-\nline (i.e. causal) algorithm that approaches real-time per-\nformance. Our models signiﬁcantly outperform prior art,\nreducing the average error on benchmark videos by a fac-\ntor of 4.\n1. Introduction\nObject tracking is a fundamental task in video process-\ning. Following much past work, we consider the scenario\nwhere one must track an unknown object, given a known\nbounding box in a single frame. We focus on long-term\ntracking, where the object may become occluded, signiﬁ-\ncantly change scale, and leave/re-enter the ﬁeld-of-view.\nOur approach builds on two key observations made by\npast work. The ﬁrst is the importance of learning an ap-\npearance model. We learn adaptive discriminative models\nthat implicitly encode the difference in appearance between\nthe object and the background. Such methods allow for\nthe construction of highly-tuned templates that are resistant\nto background clutter. However, a well-known danger of\nadaptively learning a template over time is the tendency to\ndrift [1]. Our main contribution is an algorithm that mini-\nmizes drift by carefully choosing which frames from which\nto learn, using the framework of self-paced learning [2, 3].\nThe second observation is the importance of detection,\nFigure 1.\nOur tracker uses self-paced learning to select reliable\nframes from which to extract additional training data as it pro-\ngresses (shown in red). We use such frames to deﬁne both positive\nexamples and a very-large set of negative examples (all windows\nthat do not overlap each positive). By re-learning a model with\nthis additional data, and re-tracking with that model, one can cor-\nrect the errors shown above. We show that it is crucial to revisit\nold frames when adding training data; in terms of self-paced learn-\ning, a concept (frame) that initially looks hard may become easy\nin hindsight.\nwhere an object template is globally scanned across the en-\ntire frame. This allows one to re-initialize lost tracks, but\nrequires detectors resistant to background clutter at all spa-\ntial regions, including those far away from the object. Most\nprior approaches learn a detector using a small set of neg-\natives. We show that using a large set of negatives signif-\nicantly improves performance, but also increases computa-\ntion. We address the latter issue through the use of solvers\nthat can be warm-started from previous solutions [4].\nSelf-paced learning:\nCurriculum learning is an ap-\nproach inspired by the teaching of students, where easy con-\ncepts (say, a model learned from un-occluded frames) are\ntaught before complex ones (a model learned from frames\nwith partial occlusions) [2].\nIn self-paced learning, the\nstudent learner must determine what is easy versus com-\nplex [3]. One natural application of such a strategy would\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.308\n2377\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.308\n2377\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.308\n2379\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

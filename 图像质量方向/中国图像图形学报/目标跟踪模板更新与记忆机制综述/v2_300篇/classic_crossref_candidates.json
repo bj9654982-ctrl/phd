@@ -1,0 +1,859 @@
+[
+  {
+    "query": "Kernel-Based Object Tracking",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Kernel-Based+Object+Tracking&rows=3&select=title%2Cauthor%2Cpublished%2Ccontainer-title%2Cvolume%2Cissue%2Cpage%2CDOI%2Ctype%2CURL"
+  },
+  {
+    "query": "Incremental Learning for Robust Visual Tracking",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Incremental+Learning+for+Robust+Visual+Tracking&rows=3&select=title%2Cauthor%2Cpublished%2Ccontainer-title%2Cvolume%2Cissue%2Cpage%2CDOI%2Ctype%2CURL"
+  },
+  {
+    "query": "CONDENSATION—Conditional Density Propagation for Visual Tracking",
+    "expected_year": 1998,
+    "results": [
+      {
+        "issue": "1",
+        "DOI": "10.1023/a:1008078328650",
+        "type": "journal-article",
+        "page": "5-28",
+        "title": [
+          "CONDENSATION—Conditional Density Propagation for Visual Tracking"
+        ],
+        "volume": "29",
+        "author": [
+          {
+            "given": "Michael",
+            "family": "Isard",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Blake",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "International Journal of Computer Vision"
+        ],
+        "URL": "https://doi.org/10.1023/a:1008078328650",
+        "published": {
+          "date-parts": [
+            [
+              1998,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "title": [
+          "Contour tracking by stochastic propagation of conditional density"
+        ],
+        "author": [
+          {
+            "given": "Michael",
+            "family": "Isard",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andrew",
+            "family": "Blake",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              1996
+            ]
+          ]
+        },
+        "container-title": [
+          "Lecture Notes in Computer Science",
+          "Computer Vision — ECCV '96"
+        ],
+        "page": "343-356",
+        "DOI": "10.1007/bfb0015549",
+        "type": "book-chapter",
+        "URL": "https://doi.org/10.1007/bfb0015549"
+      },
+      {
+        "issue": "11",
+        "DOI": "10.1109/tpami.2007.1111",
+        "type": "journal-article",
+        "page": "2030-2044",
+        "title": [
+          "BM³E : Discriminative Density Propagation for Visual Tracking"
+        ],
+        "volume": "29",
+        "author": [
+          {
+            "given": "Cristian",
+            "family": "Sminchisescu",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Atul",
+            "family": "Kanaujia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Dimitris N.",
+            "family": "Metaxas",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "URL": "https://doi.org/10.1109/tpami.2007.1111",
+        "published": {
+          "date-parts": [
+            [
+              2007,
+              11
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Tracking-Learning-Detection",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Tracking-Learning-Detection&rows=3&select=title%2Cauthor%2Cpublished%2Ccontainer-title%2Cvolume%2Cissue%2Cpage%2CDOI%2Ctype%2CURL"
+  },
+  {
+    "query": "Struck: Structured Output Tracking with Kernels",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Struck%3A+Structured+Output+Tracking+with+Kernels&rows=3&select=title%2Cauthor%2Cpublished%2Ccontainer-title%2Cvolume%2Cissue%2Cpage%2CDOI%2Ctype%2CURL"
+  },
+  {
+    "query": "Online Multiple Instance Learning for Robust Object Tracking",
+    "expected_year": 2011,
+    "results": [
+      {
+        "issue": "8",
+        "DOI": "10.1109/tpami.2010.226",
+        "type": "journal-article",
+        "page": "1619-1632",
+        "title": [
+          "Robust Object Tracking with Online Multiple Instance Learning"
+        ],
+        "volume": "33",
+        "author": [
+          {
+            "given": "B.",
+            "family": "Babenko",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "family": "Ming-Hsuan Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "S.",
+            "family": "Belongie",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "URL": "https://doi.org/10.1109/tpami.2010.226",
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              8
+            ]
+          ]
+        }
+      },
+      {
+        "title": [
+          "Robust object tracking via online multiple instance metric learning"
+        ],
+        "author": [
+          {
+            "family": "Min Yang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Caixia Zhang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Yuwei",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Mingtao Pei",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "family": "Yunde Jia",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              7
+            ]
+          ]
+        },
+        "container-title": [
+          "2013 IEEE International Conference on Multimedia and Expo Workshops (ICMEW)"
+        ],
+        "page": "1-4",
+        "DOI": "10.1109/icmew.2013.6618252",
+        "type": "proceedings-article",
+        "URL": "https://doi.org/10.1109/icmew.2013.6618252"
+      },
+      {
+        "DOI": "10.1016/j.future.2020.07.024",
+        "type": "journal-article",
+        "page": "298-303",
+        "title": [
+          "Learning multiple instance deep quality representation for robust object tracking"
+        ],
+        "volume": "113",
+        "author": [
+          {
+            "given": "Guan",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Jing",
+            "family": "Liu",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Wei",
+            "family": "Lo",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Chun-Ming",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "Future Generation Computer Systems"
+        ],
+        "URL": "https://doi.org/10.1016/j.future.2020.07.024",
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              12
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "MEEM: Robust Tracking via Multiple Experts Using Entropy Minimization",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=MEEM%3A+Robust+Tracking+via+Multiple+Experts+Using+Entropy+Minimization&rows=3&select=title%2Cauthor%2Cpublished%2Ccontainer-title%2Cvolume%2Cissue%2Cpage%2CDOI%2Ctype%2CURL"
+  },
+  {
+    "query": "Circulant Structure of Tracking-by-Detection with Kernels",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Circulant+Structure+of+Tracking-by-Detection+with+Kernels&rows=3&select=title%2Cauthor%2Cpublished%2Ccontainer-title%2Cvolume%2Cissue%2Cpage%2CDOI%2Ctype%2CURL"
+  },
+  {
+    "query": "Accurate Scale Estimation for Robust Visual Tracking",
+    "error": "429 Client Error: Too Many Requests for url: https://api.crossref.org/works?query.title=Accurate+Scale+Estimation+for+Robust+Visual+Tracking&rows=3&select=title%2Cauthor%2Cpublished%2Ccontainer-title%2Cvolume%2Cissue%2Cpage%2CDOI%2Ctype%2CURL"
+  },
+  {
+    "query": "SAM 2: Segment Anything in Images and Videos",
+    "expected_year": 2025,
+    "results": [
+      {
+        "issue": "4",
+        "DOI": "10.1109/tpami.2025.3646919",
+        "type": "journal-article",
+        "page": "4642-4656",
+        "title": [
+          "DC-SAM: In-Context Segment Anything in Images and Videos via Dual Consistency"
+        ],
+        "volume": "48",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0002-6955-6635",
+            "authenticated-orcid": false,
+            "given": "Mengshi",
+            "family": "Qi",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Pengfei",
+            "family": "Zhu",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-0550-8247",
+            "authenticated-orcid": false,
+            "given": "Xiangtai",
+            "family": "Li",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "Nanyang Technological University, Singapore"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0009-0008-3241-5821",
+            "authenticated-orcid": false,
+            "given": "Xiaoyang",
+            "family": "Bi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Lu",
+            "family": "Qi",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California Merced, Merced, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0002-7199-5047",
+            "authenticated-orcid": false,
+            "given": "Huadong",
+            "family": "Ma",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0003-4848-2304",
+            "authenticated-orcid": false,
+            "given": "Ming-Hsuan",
+            "family": "Yang",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "University of California Merced, Merced, CA, USA"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        ],
+        "URL": "https://doi.org/10.1109/tpami.2025.3646919",
+        "published": {
+          "date-parts": [
+            [
+              2026,
+              4
+            ]
+          ]
+        }
+      },
+      {
+        "title": [
+          "Segment Anything Model (SAM) to Segment lymphocyte from Blood Smear Images"
+        ],
+        "author": [
+          {
+            "given": "Ashwini P.",
+            "family": "Patil",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "CHRIST (Deemed to be University),Department of Computer Science"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Manjunatha",
+            "family": "Hiremath",
+            "sequence": "additional",
+            "affiliation": [
+              {
+                "name": "CHRIST (Deemed to be University),Department of Computer Science,Bengaluru,India"
+              }
+            ],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              27
+            ]
+          ]
+        },
+        "container-title": [
+          "2024 IEEE 3rd World Conference on Applied Intelligence and Computing (AIC)"
+        ],
+        "page": "1080-1084",
+        "DOI": "10.1109/aic61668.2024.10730867",
+        "type": "proceedings-article",
+        "URL": "https://doi.org/10.1109/aic61668.2024.10730867"
+      },
+      {
+        "issue": "IV",
+        "DOI": "10.47772/ijriss.2025.90400069",
+        "type": "journal-article",
+        "page": "911-928",
+        "title": [
+          "Segment Anything Model (SAM)"
+        ],
+        "volume": "IX",
+        "author": [
+          {
+            "given": "Elguerch Badr",
+            "family": "Dommane Hamza",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Ait Ameur Youssef",
+            "family": "Dikel Mohammed",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Abdelilah Ajhil",
+            "family": "Ilyass Raij",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "container-title": [
+          "International Journal of Research and Innovation in Social Science"
+        ],
+        "URL": "https://doi.org/10.47772/ijriss.2025.90400069",
+        "published": {
+          "date-parts": [
+            [
+              2025
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "query": "Beyond Correlation Filters: Learning Continuous Convolution Operators for Visual Tracking",
+    "expected_year": 2016,
+    "results": [
+      {
+        "title": [
+          "Beyond Correlation Filters: Learning Continuous Convolution Operators for Visual Tracking"
+        ],
+        "author": [
+          {
+            "given": "Martin",
+            "family": "Danelljan",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Andreas",
+            "family": "Robinson",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Fahad",
+            "family": "Shahbaz Khan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          },
+          {
+            "given": "Michael",
+            "family": "Felsberg",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016
+            ]
+          ]
+        },
+        "container-title": [
+          "Lecture Notes in Computer Science",
+          "Computer Vision – ECCV 2016"
+        ],
+        "page": "472-488",
+        "DOI": "10.1007/978-3-319-46454-1_29",
+        "type": "book-chapter",
+        "URL": "https://doi.org/10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "title": [
+          "Learning Convolution Operators for Visual Tracking"
+        ],
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-6144-9520",
+            "authenticated-orcid": false,
+            "given": "Martin",
+            "family": "Danelljan",
+            "sequence": "first",
+            "affiliation": [
+              {
+                "name": "Linköpings universitet, Datorseende"
+              },
+              {
+                "name": "Linköpings universitet, Tekniska fakulteten"
+              }
+            ],
+            "role": [
+              {
+                "vocabulary": "crossref",
+                "role": "author"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              11
+            ]
+          ]
+        },
+        "container-title": [
+          "Linköping Studies in Science and Technology. Dissertations"
+        ],
+        "DOI": "10.3384/diss.diva-147543",
+        "type": "monograph",
+        "URL": "https://doi.org/10.3384/diss.diva-147543"
+      },
+      {
+        "title": [
+          "DCCO: Towards Deformable Continuous Convolution Operators for Visual Tracking"
+        ],
+        "author": [
+          {
+            "given": "Joakim",
+            "family": "Johnander",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Martin",
+            "family": "Danelljan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Fahad Shahbaz",
+            "family": "Khan",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Michael",
+            "family": "Felsberg",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2017
+            ]
+          ]
+        },
+        "container-title": [
+          "Lecture Notes in Computer Science",
+          "Computer Analysis of Images and Patterns"
+        ],
+        "page": "55-67",
+        "DOI": "10.1007/978-3-319-64689-3_5",
+        "type": "book-chapter",
+        "URL": "https://doi.org/10.1007/978-3-319-64689-3_5"
+      }
+    ]
+  }
+]

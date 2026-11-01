@@ -1,0 +1,41 @@
+{
+  "number": 278,
+  "title": "Alignment Before Aggregation: Trajectory Memory Retrieval Network for Video Object Segmentation",
+  "year": 2023,
+  "authors": [
+    "Rui Sun",
+    "Yuan Wang",
+    "Huayu Mai",
+    "Tianzhu Zhang",
+    "Feng Wu"
+  ],
+  "venue": "ICCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Sun_Alignment_Before_Aggregation_Trajectory_Memory_Retrieval_Network_for_Video_Object_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Sun_Alignment_Before_Aggregation_Trajectory_Memory_Retrieval_Network_for_Video_Object_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Sun_Alignment_Before_Aggregation_Trajectory_Memory_Retrieval_Network_for_Video_Object_ICCV_2023_paper.pdf",
+      "bytes": 3198434,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\278_2023_Alignment_Before_Aggregation__Trajectory_Memory_Retrieval_Network_for_Video_Ob.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Sun_Alignment_Before_Aggregation_Trajectory_Memory_Retrieval_Network_for_Video_Object_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Sun_Alignment_Before_Aggregation_Trajectory_Memory_Retrieval_Network_for_Video_Object_ICCV_2023_paper.pdf",
+  "bytes": 3198434,
+  "sha256": "3a727a546e62af8587ab2600b0aaccbba0edef90cfeb4330a6add94d597717f9",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Alignment Before Aggregation: Trajectory Memory Retrieval Network for Video Object Segmentation",
+  "first_page_text": "Alignment Before Aggregation: Trajectory Memory Retrieval Network\nfor Video Object Segmentation\nRui Sun1*\nYuan Wang1∗\nHuayu Mai1\nTianzhu Zhang1,2,3†\nFeng Wu1,2\n1 University of Science and Technology of China\n2 Institute of Artificial Intelligence, Hefei Comprehensive National Science Center\n3Deep Space Exploration Lab\n{issunrui,wy2016,mai556}@mail.ustc.edu.cn, {tzzhang, fengwu}@ustc.edu.cn\nAbstract\nMemory-based methods in semi-supervised video object\nsegmentation task achieve competitive performance by per-\nforming dense matching between query and memory frames.\nHowever, most of the existing methods neglect the fact that\nvideos carry rich temporal information yet redundant spatial\ninformation. In this case, direct pixel-level global match-\ning will lead to ambiguous correspondences. In this work,\nwe reconcile the inherent tension of spatial and temporal\ninformation to retrieve memory frame information along the\nobject trajectory, and propose a novel and coherent Tra-\njectory Memory Retrieval Network (TMRN) to equip with\nthe trajectory information, including a spatial alignment\nmodule and a temporal aggregation module. The proposed\nTMRN enjoys several merits. First, TMRN is empowered\nto characterize the temporal correspondence which is in\nline with the nature of video in a data-driven manner. Sec-\nond, we elegantly customize the spatial alignment module\nby coupling SVD initialization with agent-level correlation\nfor representative agent construction and rectifying false\nmatches caused by direct pairwise pixel-level correlation,\nrespectively. Extensive experimental results on challeng-\ning benchmarks including DAVIS 2017 validation / test and\nYoutube-VOS 2018 / 2019 demonstrate that our TMRN, as\na general plugin module, achieves consistent improvements\nover several leading methods.\n1. Introduction\nSemi-supervised Video Object Segmentation (VOS) is\na fundamental task to perform pixel-wise classification of\na set of class-agnostic objects in video sequences. It has\nbeen widely applied to autonomous driving [61], video edit-\ning [31], augmented reality [30], etc. Since the object mask\n*Equal contribution\n†Corresponding author\nPixel\nSimilarity: 0.85 \nPixel\nSimilarity: 0.91 \n①\n②\n③\nAgent-level\nSimilarity\n0.15 \nAgent-level\nSimilarity\n0.95 \n①\n①\n②\n③\nReference points\nQuery foreground pixel\nMemory background pixel\nMemory foreground pixel\nMemory Frame\nQuery Frame\nMemory Frame\nQuery Frame\nPair-wise Pixel-level Correlation\nAgent-level Correlation\nMemory Frame\nMemory Frame\nMemory Frame\nQuery Frame\n(b) Agent-level Correlation in Spatial Alignment Module\n(a) Temporal Aggregation Module\n𝑝1\n𝑝2\n𝑝3\n𝑝3\n𝑝2\n𝑝1\nAligned Features\nTemporal Aggregation\n…\nSpatial\nAlignment\nSpatial\nAlignment\nSpatial\nAlignment\nFigure 1: Illustration of our motivation. (a) shows TMRN\nreconciles the inherent tension of spatial and temporal in-\nformation to retrieve memory frame information along the\nobject trajectory. (b) shows we carefully design a spatial\nalignment module through a set of representative reference\nfeatures (agents) to rectify direct pairwise pixel-level corre-\nlation caused by distractors with similar appearance.\nis only given in the first frame without any other prior in-\nformation assumptions, how to fully exploit limited and\nsemantic-agnostic information to perform accurate segmen-\ntation in the subsequent frames is thus extremely challenging.\nRecently, memory-based methods [56, 37, 7, 38, 32]\ndominate this field credited to their simplicity yet competi-\ntive performance. The core idea of the memory-based meth-\nods is to perform dense matching between query (i.e., cur-\nrent frame) and memory (i.e., past frames with given or\nsegmented masks), and to retrieve the constructed memory\nbank in a pixel-level manner. Despite their promising results,\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n1218\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,41 @@
+{
+  "number": 241,
+  "title": "Beyond Explicit Language: Plug-and-Play Visual-to-Linguistic Modeling Toward General Object Tracking",
+  "year": 2026,
+  "authors": [
+    "Kaiyang Lan",
+    "Ying Cui",
+    "Chenchen Jing",
+    "Jianwei Zheng",
+    "Dongyan Guo"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Lan_Beyond_Explicit_Language_Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_General_Object_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lan_Beyond_Explicit_Language_Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_General_Object_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lan_Beyond_Explicit_Language_Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_General_Object_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 4224069,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\241_2026_Beyond_Explicit_Language__Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_G.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lan_Beyond_Explicit_Language_Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_General_Object_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lan_Beyond_Explicit_Language_Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_General_Object_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 4224069,
+  "sha256": "17c630c51d149580e42e4fc22e281cd70af0b00806d4a3b6f839587160ed27e3",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Beyond Explicit Language: Plug-and-Play Visual-to-Linguistic Modeling Toward General Object Tracking",
+  "first_page_text": "Beyond Explicit Language: Plug-and-Play Visual-to-Linguistic Modeling\nToward General Object Tracking\nKaiyang Lan1,2†\nYing Cui1,2†\nChenchen Jing1,2\nJianwei Zheng1,2\nDongyan Guo1,2∗\n1 College of Computer Science and Technology, Zhejiang University of Technology\n2 Zhejiang Key Laboratory of Visual Information Intelligent Processing\nAbstract\nNatural language provides valuable auxiliary information\nfor enhancing visual object tracking. While existing vision-\nlanguage tracking methods explicitly leverage linguistic de-\nscriptions to aid tracking, they suffer from two critical lim-\nitations: the inability to dynamically adapt descriptions to\nthe moving target and changing context; and the strong de-\npendency on language input may cause failure when text is\nunavailable. To address the issues, we design a simple yet\neffective plug-and-play module that leverages linguistic as-\nsistance implicitly, without requiring explicit language in-\nput. The proposed textual inversion module converts visual\nfeatures from template and search regions into text tokens in\nthe CLIP text embedding space. It effectively inverts visual\nrepresentations into linguistic forms, integrating contex-\ntual information from the both template and search regions.\nThe linguistic cues are then injected into the visual feature\nspace via a multi-layer semantic injection mechanism. The\ndesign enhances the completeness of cross-modal feature\nrepresentations and the accuracy of inter-modal semantic\nalignment, thus enabling dynamically updated linguistic in-\nformation guidance for general object tracking. Extensive\nexperiments demonstrate the effectiveness of our proposed\nmethod. We integrate the proposed module into several ad-\nvanced trackers and evaluate on both visual and vision-\nlanguage tracking datasets, including MCITrack, DUTrack,\nand SeqTrack. By training only the newly introduced mod-\nule and the corresponding decoder, the proposed approach\nachieves significant performance gains with minimal com-\nputational overhead. Code will be made publicly available.\n1. Introduction\nVisual object tracking is a fundamental task in computer\nvision. It aims to continuously predict the position of a tar-\nget throughout a video sequence given only its initial state\n†These authors contributed equally to this work.\n∗Corresponding author: guodongyan@zjut.edu.cn\nModel\n“ white bear playing in the swimming pool ”\nModel\nImplicit\nDescription\nResult\n(a) Visual tracking. Failed due to similar appearance\n(b) Vision-languege tracking. Description offers wrong cues \n(c) Our method. Tracking with implicit description \nModel\nDescription\nGT\nPred\nGT\nPred\nFigure 1. Comparison of different tracking pipelines. (a) A vi-\nsual tracking pipeline relies on pure visual information on the left\nand a failure tracking example on the right. (b) A vision-language\ntracking pipeline relies on visual information and explicit natural\nlanguage description on the left and an example of bias between\nthe language description and the tracking object on the right. (c)\nOur proposed pipeline incorporates implicit description generation\nand semantic guidance for tracking.\nin the first frame. While traditional visual object trackers\n[2, 4, 15, 42, 44] rely solely on visual cues, they often strug-\ngle in challenging scenarios where visual information is in-\nsufficient or ambiguous. As illustrated in Fig. 1(a), track-\ning a specific sheep within a grouped herd is prone to fail-\nure due to high visual similarity among distractors. In such\ncases, additional textual guidance, such as a positional re-\nlationship description, can provide critical disambiguating\ninformation.\nNatural language contains rich and high-level semantic\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n42604\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

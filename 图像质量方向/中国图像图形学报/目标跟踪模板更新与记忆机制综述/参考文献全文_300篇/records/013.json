@@ -1,0 +1,41 @@
+{
+  "number": 13,
+  "title": "Learning the Model Update for Siamese Trackers",
+  "year": 2019,
+  "authors": [
+    "Lichao Zhang",
+    "Abel Gonzalez-Garcia",
+    "Joost van de Weijer",
+    "Martin Danelljan",
+    "Fahad Shahbaz Khan"
+  ],
+  "venue": "ICCV",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Learning_the_Model_Update_for_Siamese_Trackers_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Learning_the_Model_Update_for_Siamese_Trackers_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Learning_the_Model_Update_for_Siamese_Trackers_ICCV_2019_paper.pdf",
+      "bytes": 2147135,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\013_2019_Learning_the_Model_Update_for_Siamese_Trackers.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Learning_the_Model_Update_for_Siamese_Trackers_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhang_Learning_the_Model_Update_for_Siamese_Trackers_ICCV_2019_paper.pdf",
+  "bytes": 2147135,
+  "sha256": "2cf9d55e87783e147e29b38bd74cc90393b18e2c2de696c0b6245c1ec8e6e7b6",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning the Model Update for Siamese Trackers",
+  "first_page_text": "Learning the Model Update for Siamese Trackers\nLichao Zhang1, Abel Gonzalez-Garcia1, Joost van de Weijer1, Martin Danelljan2, Fahad Shahbaz Khan3,4\n1 Computer Vision Center, Universitat Autonoma de Barcelona, Spain\n2 Computer Vision Laboratory, ETH Z¨urich, Switzerland\n3 Inception Institute of Artiﬁcial Intelligence, UAE\n4 Computer Vision Laboratory, Link¨oping University, Sweden\n{lichao,agonzalez,joost}@cvc.uab.es, martin.danelljan@vision.ee.ethz.ch, fahad.khan@liu.se\nAbstract\nSiamese approaches address the visual tracking prob-\nlem by extracting an appearance template from the current\nframe, which is used to localize the target in the next frame.\nIn general, this template is linearly combined with the ac-\ncumulated template from the previous frame, resulting in\nan exponential decay of information over time. While such\nan approach to updating has led to improved results, its\nsimplicity limits the potential gain likely to be obtained by\nlearning to update. Therefore, we propose to replace the\nhandcrafted update function with a method which learns\nto update. We use a convolutional neural network, called\nUpdateNet, which given the initial template, the accumu-\nlated template and the template of the current frame aims\nto estimate the optimal template for the next frame. The\nUpdateNet is compact and can easily be integrated into\nexisting Siamese trackers. We demonstrate the generality\nof the proposed approach by applying it to two Siamese\ntrackers, SiamFC and DaSiamRPN. Extensive experiments\non VOT2016, VOT2018, LaSOT, and TrackingNet datasets\ndemonstrate that our UpdateNet effectively predicts the new\ntarget template, outperforming the standard linear update.\nOn the large-scale TrackingNet dataset, our UpdateNet im-\nproves the results of DaSiamRPN with an absolute gain\nof 3.9% in terms of success score. Code and models are\navailable at https://github.com/zhanglichao/\nupdatenet.\n1. Introduction\nGeneric visual object tracking is the task of predicting\nthe location of a target object in every frame of a video,\ngiven its initial location. Tracking is one of the fundamen-\ntal problems in computer vision, spanning a wide range\nof applications including video understanding [34], surveil-\nlance [12], and robotics [29]. It is a highly challenging task\nUpdateNet-SiamFC\nSiamFC\nGT\n#063\n#290\n#291\n#022\n#199\n#226\n#008\n#015\n#016\nFigure 1. Qualitative comparison between model updates. We\nlearn to update the model template using UpdateNet. When com-\nbined with Siamese trackers such as SiamFC [1], our learned\nupdating strategy can be effectively adapted to current circum-\nstances, unlike the simple linear update commonly used.\ndue to frequent appearance changes, various types of occlu-\nsions, the presence of distractor objects, and environmental\naspects such as motion blur or illumination changes.\nCurrently, there are two prevalent tracking paradigms:\nSiamese tracking methods [1, 27, 41, 50] and tracking-by-\ndetection methods [3, 7, 11, 19, 32, 47, 48]. In this work,\nwe consider Siamese trackers, since they provide competi-\ntive accuracy while achieving impressive computational ef-\nﬁciency. The basic principle of these trackers is to match\nan object appearance template with a corresponding feature\nrepresentation of the search region in the test frame. The\nfeatures for the object template and the search region are\nacquired through a deep neural network trained ofﬂine on a\nlarge dataset. Such a training strategy has shown to provide\nexcellent visual descriptors for the tracking task [1, 50].\nIn the original Siamese tracker [1], the object template\nis initialized in the ﬁrst frame and then kept ﬁxed during\nthe remainder of the video. However, appearance changes\nare often large and failing to update the template could\nlead to early failure of the tracker. In such scenarios, it is\n4010\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

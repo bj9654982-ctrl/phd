@@ -1,0 +1,572 @@
+{
+  "number": 175,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T16:26:23Z",
+      "timestamp": 1791303983521,
+      "version": "4.1.0"
+    },
+    "reference-count": 62,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52734.2025.01572",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          13
+        ]
+      ],
+      "date-time": "2025-08-13T17:26:42Z",
+      "timestamp": 1755106002000
+    },
+    "page": "16871-16881",
+    "source": "Crossref",
+    "is-referenced-by-count": 22,
+    "title": [
+      "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Wenrui",
+        "family": "Cai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Beihang University,State Key Laboratory of Virtual Reality Technology and Systems,Beijing,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qingjie",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beihang University,State Key Laboratory of Virtual Reality Technology and Systems,Beijing,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yunhong",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beihang University,State Key Laboratory of Virtual Reality Technology and Systems,Beijing,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.753"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr52733.2024.01802"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01822"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00879"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_22"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01400"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/lra.2024.3518305"
+      },
+      {
+        "key": "ref8",
+        "first-page": "6074",
+        "article-title": "Patch-level routing in mixture-of-experts is provably sample-efficient for convo-lutional neural networks",
+        "volume-title": "Proceedings of the 40th International Conference on Machine Learning",
+        "author": "Rabbani Chowdhury"
+      },
+      {
+        "key": "ref9",
+        "first-page": "4057",
+        "article-title": "Unified scaling laws for routed language models",
+        "volume-title": "International conference on machine learning",
+        "author": "Clark"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2024.acl-long.70"
+      },
+      {
+        "key": "ref12",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "volume-title": "ICLR",
+        "author": "Dosovitskiy"
+      },
+      {
+        "key": "ref13",
+        "first-page": "5547",
+        "article-title": "GLaM: Efficient scaling of language models with mixture-of-experts",
+        "volume-title": "Proceedings of the 39th International Conference on Machine Learning",
+        "author": "Du"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "issue": "120",
+        "key": "ref15",
+        "first-page": "1",
+        "article-title": "Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity",
+        "volume": "23",
+        "author": "Fedus",
+        "year": "2022",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01356"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2022/127"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-023-01891-x"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_9"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01792"
+      },
+      {
+        "key": "ref21",
+        "first-page": "4446",
+        "article-title": "Divert more attention to vision-language tracking",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "author": "Guo",
+        "year": "2022"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i1.25155"
+      },
+      {
+        "key": "ref23",
+        "first-page": "2790",
+        "article-title": "Parameter-efficient transfer learning for nlp",
+        "volume-title": "International conference on machine learning",
+        "author": "Houlsby"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Lora: Low-rank adaptation of large language models",
+        "volume-title": "The Tenth International Conference on Learning Representations, ICLR",
+        "author": "Hu"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tpami.2019.2957464"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01801"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1991.3.1.79"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19827-4_41"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00915"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2021.acllong.353"
+      },
+      {
+        "key": "ref32",
+        "first-page": "16743",
+        "article-title": "Swintrack: A simple and strong baseline for transformer tracking",
+        "volume": "35",
+        "author": "Lin",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-73232-4_17"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Decoupled weight decay regularization",
+        "volume-title": "7th International Conference on Learning Representations, ICLR",
+        "author": "Loshchilov"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3219819.3220007"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref39",
+        "first-page": "1",
+        "article-title": "Dinov2: Learning robust visual features without supervision",
+        "author": "Oquab",
+        "year": "2024",
+        "journal-title": "Transactions on Machine Learning Research Journal"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2020.emnlp-demos.7"
+      },
+      {
+        "key": "ref41",
+        "article-title": "From sparse to soft mixtures of experts",
+        "volume-title": "The Twelfth International Conference on Learning Representations, ICLR",
+        "author": "Puigcerver"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "ref43",
+        "first-page": "8583",
+        "article-title": "Scaling vision with sparse mixture of experts",
+        "volume-title": "Advances in Neural Information Processing Systems",
+        "author": "Riquelme",
+        "year": "2021"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Revisiting rgbt tracking benchmarks from the perspective of modality validity: A new benchmark, problem, and method",
+        "author": "Tang",
+        "year": "2024"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Hydralora: An asymmetric lora architecture for efficient fine-tuning",
+        "author": "Tian",
+        "year": "2024",
+        "journal-title": "Advances in Neural Information Processing Systems (NeurIPS)"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.1706.03762"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00632"
+      },
+      {
+        "key": "ref48",
+        "article-title": "A survey on data synthesis and augmentation for large language models",
+        "author": "Wang",
+        "year": "2024"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01355"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00024"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00935"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr52729.2023.01399"
+      },
+      {
+        "key": "ref53",
+        "article-title": "Mixture of lora experts",
+        "volume-title": "The Twelfth International Conference on Learning Representations, ICLR",
+        "author": "Wu"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00855"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr52733.2024.01826"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01471"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iccv51070.2023.00928"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iccv51070.2023.00015"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i7.28591"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-022-01653-1"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11091818/11091608/11093264.pdf?arnumber=11093264",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2025-08-14T07:30:39Z",
+      "timestamp": 1755156639000
+    },
+    "score": 81.7512,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11093264/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "references-count": 62,
+    "URL": "https://doi.org/10.1109/cvpr52734.2025.01572",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    }
+  }
+}

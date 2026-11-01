@@ -1,0 +1,429 @@
+{
+  "number": 85,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Visual Tracking with Fully Convolutional Networks",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T00:36:30Z",
+      "timestamp": 1792024590218,
+      "version": "4.4.0"
+    },
+    "reference-count": 41,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2015.357",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2016-02-19T18:23:49Z",
+      "timestamp": 1455906229000
+    },
+    "page": "3119-3127",
+    "source": "Crossref",
+    "is-referenced-by-count": 740,
+    "title": [
+      "Visual Tracking with Fully Convolutional Networks"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Lijun",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wanli",
+        "family": "Ouyang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaogang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huchuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298731"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Meem: Robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298938"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2202677"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2015.2462012"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2427518"
+      },
+      {
+        "key": "ref37",
+        "first-page": "1639",
+        "article-title": "Robust superpixel tracking",
+        "volume": "23",
+        "author": "yang",
+        "year": "2014",
+        "journal-title": "TIP"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Learning a deep compact image representation for visual tracking",
+        "author": "wang",
+        "year": "2013",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/LSP.2014.2369476"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2014.2313227"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "Highspeed tracking with kernelized correlation filters",
+        "volume": "37",
+        "author": "henriques",
+        "year": "2015",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Online tracking by learning discriminative saliency map with convolutional neural network",
+        "author": "hong",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2647868.2654889"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.726791"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Optimal brain damage",
+        "author": "lecun",
+        "year": "1989",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Robust online visual tracking with a single convolutional neural network",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ACCV"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Deeply learned face representations are sparse, selective, and robust",
+        "author": "sun",
+        "year": "2014",
+        "journal-title": "CoRR ab-s/1412 1265"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Imagenet: A large-scale hierarchical image database",
+        "author": "deng",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2014",
+        "journal-title": "CoRR abs/1409 1556"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Real time robust 11 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref6",
+        "first-page": "1610",
+        "article-title": "Human tracking using convolutional neural networks",
+        "volume": "21",
+        "author": "fan",
+        "year": "2010",
+        "journal-title": "TNN"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.445"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.81"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Transfer learning based visual tracking with gaussian processes regression",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10584-0_22"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCYB.2015.2466437"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.257"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Robust visual tracking using 11 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383177"
+      },
+      {
+        "key": "ref41",
+        "first-page": "1872",
+        "article-title": "Visual tracking via discriminative sparse similarity map",
+        "volume": "23",
+        "author": "zhuang",
+        "year": "2014",
+        "journal-title": "TIP"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298854"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Deep inside convolutional networks: Visualising image classification models and saliency maps",
+        "author": "simonyan",
+        "year": "2013",
+        "journal-title": "CoRR abs/1312 6034"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Santiago, Chile",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            13
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7407725/7410356/07410714.pdf?arnumber=7410714",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2017-06-24T02:21:29Z",
+      "timestamp": 1498270889000
+    },
+    "score": 40.441273,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7410714/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1109/iccv.2015.357",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    }
+  }
+}

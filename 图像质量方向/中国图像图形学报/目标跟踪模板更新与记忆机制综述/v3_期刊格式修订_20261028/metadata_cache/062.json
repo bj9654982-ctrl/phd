@@ -1,0 +1,398 @@
+{
+  "number": 62,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Tracking via Robust Multi-task Multi-view Joint Sparse Representation",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          14
+        ]
+      ],
+      "date-time": "2026-09-14T15:23:30Z",
+      "timestamp": 1789399410097,
+      "version": "build-2803163510"
+    },
+    "reference-count": 35,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2013.86",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2014-03-07T16:30:17Z",
+      "timestamp": 1394209817000
+    },
+    "page": "649-656",
+    "source": "Crossref",
+    "is-referenced-by-count": 120,
+    "title": [
+      "Tracking via Robust Multi-task Multi-view Joint Sparse Representation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Zhibin",
+        "family": "Hong",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xue",
+        "family": "Mei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danil",
+        "family": "Prokhorov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dacheng",
+        "family": "Tao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "doi-asserted-by": "crossref",
+        "first-page": "2259",
+        "DOI": "10.1109/TPAMI.2011.66",
+        "article-title": "Robust visual tracking and vehicle classification via sparse representation",
+        "volume": "33",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "17",
+        "first-page": "339",
+        "article-title": "Multi-task feature learning via efficient ?2,1-norm minimization",
+        "author": "liu",
+        "year": "2009",
+        "journal-title": "UAI Conf"
+      },
+      {
+        "key": "18",
+        "first-page": "2676",
+        "article-title": "Multiview hessian regularization for image annotation",
+        "volume": "22",
+        "author": "liu",
+        "year": "2013",
+        "journal-title": "TIP"
+      },
+      {
+        "key": "33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539967"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995483"
+      },
+      {
+        "key": "34",
+        "first-page": "864",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995730"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540231"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008078328650"
+      },
+      {
+        "key": "12",
+        "first-page": "1296",
+        "volume": "25",
+        "author": "jepson",
+        "year": "2003",
+        "journal-title": "Robust Online Appearance Models for Visual Tracking"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.70727"
+      },
+      {
+        "key": "20",
+        "first-page": "2661",
+        "article-title": "Efficient minimum error bounded particle resampling l1 tracker with occlusion detection",
+        "volume": "22",
+        "author": "mei",
+        "year": "2013",
+        "journal-title": "TIP"
+      },
+      {
+        "key": "22",
+        "article-title": "Gradient methods for minimizing composite objective function",
+        "volume": "76",
+        "author": "nesterov",
+        "year": "2007",
+        "journal-title": "Technical Report Universite? Catholique de Louvain Center for Operations Research and Econometrics (CORE)"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2002.1017623"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247895"
+      },
+      {
+        "key": "25",
+        "first-page": "425",
+        "article-title": "Learning multi-view neighborhood preserving projections",
+        "author": "quadrianto",
+        "year": "2011",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "27",
+        "first-page": "1635",
+        "article-title": "Enhanced local texture feature sets for face recognition under difficult lighting conditions",
+        "volume": "19",
+        "author": "tan",
+        "year": "2010",
+        "journal-title": "TIP"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.167"
+      },
+      {
+        "key": "29",
+        "first-page": "1438",
+        "article-title": "Multiview spectral embedding",
+        "volume": "40",
+        "author": "xia",
+        "year": "2010",
+        "journal-title": "IEEE TSMC-Part B"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDM.2009.128"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2007.4408955"
+      },
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "10",
+        "first-page": "513",
+        "article-title": "Dual-force metric learning for robust distracterresistant tracker",
+        "author": "hong",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "30",
+        "author": "xu",
+        "year": "2013",
+        "journal-title": "A Survey on Multi-view Learning"
+      },
+      {
+        "key": "7",
+        "first-page": "225",
+        "article-title": "A probabilistic approach to integrating multiple cues in visual tracking",
+        "author": "du",
+        "year": "2008",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "32",
+        "first-page": "28",
+        "article-title": "Visual tracking via adaptive tracker selection with multiple features",
+        "author": "yoon",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1195991"
+      },
+      {
+        "key": "31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.205"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2339530.2339672"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126228"
+      }
+    ],
+    "event": {
+      "name": "2013 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Sydney, Australia",
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            8
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2013 IEEE International Conference on Computer Vision"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6750807/6751100/06751190.pdf?arnumber=6751190",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2017-06-22T05:14:30Z",
+      "timestamp": 1498108470000
+    },
+    "score": 69.055374,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6751190/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "references-count": 35,
+    "URL": "https://doi.org/10.1109/iccv.2013.86",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    }
+  }
+}

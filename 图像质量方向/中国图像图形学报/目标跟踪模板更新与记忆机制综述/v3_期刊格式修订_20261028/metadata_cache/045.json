@@ -1,0 +1,696 @@
+{
+  "number": 45,
+  "original_doi": "10.1007/978-3-319-46454-1_29",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Beyond Correlation Filters: Learning Continuous Convolution Operators for Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T17:04:13Z",
+      "timestamp": 1792947853851,
+      "version": "4.5.0"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 48,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783319464534",
+        "type": "print"
+      },
+      {
+        "value": "9783319464541",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2016-01-01T00:00:00Z",
+          "timestamp": 1451606400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2016-01-01T00:00:00Z",
+          "timestamp": 1451606400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-319-46454-1_29",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          15
+        ]
+      ],
+      "date-time": "2016-09-15T05:15:09Z",
+      "timestamp": 1473916509000
+    },
+    "page": "472-488",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1135,
+    "title": [
+      "Beyond Correlation Filters: Learning Continuous Convolution Operators for Visual Tracking"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Martin",
+        "family": "Danelljan",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Robinson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fahad",
+        "family": "Shahbaz Khan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Felsberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "29_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Badino, H., Yamamoto, A., Kanade, T.: Visual odometry by multi-frame feature integration. In: ICCV Workshop (2013)",
+        "DOI": "10.1109/ICCVW.2013.37"
+      },
+      {
+        "issue": "3",
+        "key": "29_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "221",
+        "DOI": "10.1023/B:VISI.0000011205.11775.fd",
+        "volume": "56",
+        "author": "S Baker",
+        "year": "2004",
+        "unstructured": "Baker, S., Matthews, I.A.: Lucas-kanade 20 years on: a unifying framework. IJCV 56(3), 221–255 (2004)",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "29_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bertinetto, L., Valmadre, J., Golodetz, S., Miksik, O., Torr, P.H.S.: Staple: complementary learners for real-time tracking. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "29_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Boddeti, V.N., Kanade, T., Kumar, B.: Correlation filters for object alignment. In: CVPR (2013)",
+        "DOI": "10.1109/CVPR.2013.297"
+      },
+      {
+        "key": "29_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolme, D.S., Beveridge, J.R., Draper, B.A., Lui, Y.M.: Visual object tracking using adaptive correlation filters. In: CVPR (2010)",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "29_CR6",
+        "unstructured": "Bouguet, J.Y.: Pyramidal implementation of the lucas kanade feature tracker. Technical report Microprocessor Research Labs, Intel Corporation (2000)"
+      },
+      {
+        "key": "29_CR7",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "crossref",
+        "first-page": "611",
+        "DOI": "10.1007/978-3-642-33783-3_44",
+        "volume-title": "Computer Vision – ECCV 2012",
+        "author": "DJ Butler",
+        "year": "2012",
+        "unstructured": "Butler, D.J., Wulff, J., Stanley, G.B., Black, M.J.: A naturalistic open source movie for optical flow evaluation. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part VI. LNCS, vol. 7577, pp. 611–625. Springer, Heidelberg (2012)"
+      },
+      {
+        "key": "29_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cimpoi, M., Maji, S., Vedaldi, A.: Deep filter banks for texture recognition and segmentation. In: CVPR (2015)",
+        "DOI": "10.1109/CVPR.2015.7299007"
+      },
+      {
+        "key": "29_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Accurate scale estimation for robust visual tracking. In: BMVC (2014)",
+        "DOI": "10.5244/C.28.65"
+      },
+      {
+        "key": "29_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Convolutional features for correlation filter based visual tracking. In: ICCV Workshop (2015)",
+        "DOI": "10.1109/ICCVW.2015.84"
+      },
+      {
+        "key": "29_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Learning spatially regularized correlation filters for visual tracking. In: ICCV (2015)",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "29_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Häger, G., Shahbaz Khan, F., Felsberg, M.: Adaptive decontamination of the training set: a unified formulation for discriminative visual tracking. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.159"
+      },
+      {
+        "key": "29_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Shahbaz Khan, F., Felsberg, M., van de Weijer, J.: Adaptive color attributes for real-time visual tracking. In: CVPR (2014)",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "29_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Felsberg, M.: Enhanced distribution field tracking using channel representations. In: ICCV Workshop (2013)",
+        "DOI": "10.1109/ICCVW.2013.22"
+      },
+      {
+        "issue": "8",
+        "key": "29_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "1702",
+        "DOI": "10.1109/TPAMI.2014.2375215",
+        "volume": "37",
+        "author": "JA Fernandez",
+        "year": "2015",
+        "unstructured": "Fernandez, J.A., Boddeti, V.N., Rodriguez, A., Kumar, B.V.K.V.: Zero-aliasing correlation filters for object recognition. TPAMI 37(8), 1702–1715 (2015)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "issue": "4",
+        "key": "29_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "312",
+        "DOI": "10.1007/s100440050039",
+        "volume": "2",
+        "author": "A Fusiello",
+        "year": "1999",
+        "unstructured": "Fusiello, A., Trucco, E., Tommasini, T., Roberto, V.: Improving feature tracking with robust statistics. Pattern Anal. Appl. 2(4), 312–320 (1999)",
+        "journal-title": "Pattern Anal. Appl."
+      },
+      {
+        "key": "29_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galoogahi, H.K., Sim, T., Lucey, S.: Multi-channel correlation filters. In: ICCV (2013)",
+        "DOI": "10.1109/ICCV.2013.381"
+      },
+      {
+        "key": "29_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galoogahi, H.K., Sim, T., Lucey, S.: Correlation filters with limited boundaries. In: CVPR (2015)",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "29_CR19",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "188",
+        "DOI": "10.1007/978-3-319-10578-9_13",
+        "volume-title": "Computer Vision – ECCV 2014",
+        "author": "J Gao",
+        "year": "2014",
+        "unstructured": "Gao, J., Ling, H., Hu, W., Xing, J.: Transfer learning based visual tracking with gaussian processes regression. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014. LNCS, vol. 8691, pp. 188–203. Springer, Heidelberg (2014). doi: 10.1007/978-3-319-10578-9_13"
+      },
+      {
+        "key": "29_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gladh, S., Danelljan, M., Shahbaz Khan, F., Felsberg, M.: Deep motion features for visual tracking. In: ICPR (2016)",
+        "DOI": "10.1109/ICPR.2016.7899807"
+      },
+      {
+        "key": "29_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hare, S., Saffari, A., Torr, P.: Struck: structured output tracking with kernels. In: ICCV (2011)",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "29_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, S., Yang, Q., Lau, R., Wang, J., Yang, M.H.: Visual tracking via locality sensitive histograms. In: CVPR (2013)",
+        "DOI": "10.1109/CVPR.2013.314"
+      },
+      {
+        "key": "29_CR23",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "crossref",
+        "first-page": "702",
+        "DOI": "10.1007/978-3-642-33765-9_50",
+        "volume-title": "Computer Vision – ECCV 2012",
+        "author": "JF Henriques",
+        "year": "2012",
+        "unstructured": "Henriques, J.F., Caseiro, R., Martins, P., Batista, J.: Exploiting the circulant structure of tracking-by-detection with kernels. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part IV. LNCS, vol. 7575, pp. 702–715. Springer, Heidelberg (2012)"
+      },
+      {
+        "issue": "3",
+        "key": "29_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "volume": "37",
+        "author": "JF Henriques",
+        "year": "2015",
+        "unstructured": "Henriques, J.F., Caseiro, R., Martins, P., Batista, J.: High-speed tracking with kernelized correlation filters. TPAMI 37(3), 583–596 (2015)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "29_CR25",
+        "unstructured": "Jia, X., Lu, H., Yang, M.H.: Visual tracking via adaptive structural local sparse appearance model. In: CVPR (2012)"
+      },
+      {
+        "key": "29_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kalal, Z., Matas, J., Mikolajczyk, K.: P-N learning: bootstrapping binary classifiers by structural constraints. In: CVPR (2010)",
+        "DOI": "10.1109/CVPR.2010.5540231"
+      },
+      {
+        "key": "29_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Klein, G., Murray, D.: Parallel tracking and mapping for small AR workspaces. In: ISMAR (2007)",
+        "DOI": "10.1109/ISMAR.2007.4538852"
+      },
+      {
+        "key": "29_CR28",
+        "unstructured": "Kristan, M., Leonardis, A., Matas, J., Felsberg, M., Pflugfelder, R., Čehovin, L., Vojír, T., Häger, G., Lukězič, A., Fernández, G.: The visual object tracking VOT 2016 challenge results. In: ECCV Workshop (2016)"
+      },
+      {
+        "key": "29_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kristan, M., Matas, J., Leonardis, A., Felsberg, M., Čehovin, L., Fernández, G., Vojír, T., Nebehay, G., Pflugfelder, R., Häger, G.: The visual object tracking VOT 2015 challenge results. In: ICCV Workshop (2015)",
+        "DOI": "10.1007/978-3-319-16181-5_14"
+      },
+      {
+        "key": "29_CR30",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "191",
+        "DOI": "10.1007/978-3-319-16181-5_14",
+        "volume-title": "Computer Vision - ECCV 2014 Workshops",
+        "author": "M Kristan",
+        "year": "2015",
+        "unstructured": "Kristan, M., et al.: The visual object tracking VOT 2014 challenge results. In: Agapito, L., Bronstein, M.M., Rother, C. (eds.) ECCV 2014. LNCS, vol. 8926, pp. 191–217. Springer, Heidelberg (2015). doi: 10.1007/978-3-319-16181-5_14"
+      },
+      {
+        "key": "29_CR31",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "254",
+        "DOI": "10.1007/978-3-319-16181-5_18",
+        "volume-title": "Computer Vision - ECCV 2014 Workshops",
+        "author": "Y Li",
+        "year": "2015",
+        "unstructured": "Li, Y., Zhu, J.: A scale adaptive kernel correlation filter tracker with feature integration. In: Agapito, L., Bronstein, M.M., Rother, C. (eds.) ECCV 2014. LNCS, vol. 8926, pp. 254–265. Springer, Heidelberg (2015). doi: 10.1007/978-3-319-16181-5_18"
+      },
+      {
+        "issue": "12",
+        "key": "29_CR32",
+        "first-page": "5630",
+        "volume": "24",
+        "author": "P Liang",
+        "year": "2015",
+        "unstructured": "Liang, P., Blasch, E., Ling, H.: Encoding color information for visual tracking: algorithms and benchmark. TIP 24(12), 5630–5644 (2015)",
+        "journal-title": "TIP"
+      },
+      {
+        "key": "29_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, L., Shen, C., van den Hengel, A.: The treasure beneath convolutional layers: cross-convolutional-layer pooling for image classification. In: CVPR (2015)",
+        "DOI": "10.1109/CVPR.2015.7299107"
+      },
+      {
+        "key": "29_CR34",
+        "unstructured": "Lucas, B.D., Kanade, T.: An iterative image registration technique with an application to stereo vision. In: IJCAI (1981)"
+      },
+      {
+        "key": "29_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, C., Huang, J.B., Yang, X., Yang, M.H.: Hierarchical convolutional features for visual tracking. In: ICCV (2015)",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "29_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ma, C., Yang, X., Zhang, C., Yang, M.H.: Long-term correlation tracking. In: CVPR (2015)",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "29_CR37",
+        "volume-title": "Numerical Optimization",
+        "author": "J Nocedal",
+        "year": "2006",
+        "unstructured": "Nocedal, J., Wright, S.J.: Numerical Optimization, 2nd edn. Springer, New York (2006)",
+        "edition": "2"
+      },
+      {
+        "key": "29_CR38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oquab, M., Bottou, L., Laptev, I., Sivic, J.: Learning and transferring mid-level image representations using convolutional neural networks. In: CVPR (2014)",
+        "DOI": "10.1109/CVPR.2014.222"
+      },
+      {
+        "key": "29_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ovren, H., Forssén, P.: Gyroscope-based video stabilisation with auto-calibration. In: ICRA (2015)",
+        "DOI": "10.1109/ICRA.2015.7139474"
+      },
+      {
+        "key": "29_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Possegger, H., Mauthner, T., Bischof, H.: In defense of color-based model-free tracking. In: CVPR (2015)",
+        "DOI": "10.1109/CVPR.2015.7298823"
+      },
+      {
+        "key": "29_CR41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sevilla-Lara, L., Learned-Miller, E.G.: Distribution fields for tracking. In: CVPR (2012)",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "29_CR42",
+        "unstructured": "Shi, J., Tomasi, C.: Good features to track. In: CVPR (1994)"
+      },
+      {
+        "key": "29_CR43",
+        "unstructured": "Simonyan, K., Zisserman, A.: Very deep convolutional networks for large-scale image recognition. In: ICLR (2015)"
+      },
+      {
+        "key": "29_CR44",
+        "unstructured": "Tomasi, C., Kanade, T.: Detection and Tracking of Point Features. Technical report (1991)"
+      },
+      {
+        "key": "29_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Y., Lim, J., Yang, M.H.: Online object tracking: a benchmark. In: CVPR (2013)",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "issue": "9",
+        "key": "29_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "1834",
+        "DOI": "10.1109/TPAMI.2014.2388226",
+        "volume": "37",
+        "author": "Y Wu",
+        "year": "2015",
+        "unstructured": "Wu, Y., Lim, J., Yang, M.H.: Object tracking benchmark. TPAMI 37(9), 1834–1848 (2015)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "29_CR47",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1007/978-3-319-10599-4_13",
+        "volume-title": "Computer Vision – ECCV 2014",
+        "author": "J Zhang",
+        "year": "2014",
+        "unstructured": "Zhang, J., Ma, S., Sclaroff, S.: MEEM: robust tracking via multiple experts using entropy minimization. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014, Part VI. LNCS, vol. 8694, pp. 188–203. Springer, Heidelberg (2014)"
+      },
+      {
+        "key": "29_CR48",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "crossref",
+        "first-page": "675",
+        "DOI": "10.1007/978-3-319-16817-3_44",
+        "volume-title": "Computer Vision – ACCV 2014",
+        "author": "V Zografos",
+        "year": "2015",
+        "unstructured": "Zografos, V., Lenz, R., Ringaby, E., Felsberg, M., Nordberg, K.: Fast segmentation of sparse 3D point trajectories using group theoretical invariants. In: Cremers, D., Reid, I., Saito, H., Yang, M.-H. (eds.) ACCV 2014. LNCS, vol. 9006, pp. 675–691. Springer, Heidelberg (2015)"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2016"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-46454-1_29",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ],
+      "date-time": "2025-06-10T15:00:58Z",
+      "timestamp": 1749567658000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/978-3-319-46454-1_29"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783319464534",
+      "9783319464541"
+    ],
+    "references-count": 48,
+    "URL": "https://doi.org/10.1007/978-3-319-46454-1_29",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "16 September 2016",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ECCV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "European Conference on Computer Vision",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Amsterdam",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "The Netherlands",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2016",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "8 October 2016",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "16 October 2016",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "14",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "eccv2016",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "http://www.eccv2016.org/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "This content has been made available to all.",
+        "name": "free",
+        "label": "Free to read"
+      }
+    ]
+  }
+}

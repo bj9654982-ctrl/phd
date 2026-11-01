@@ -1,0 +1,38 @@
+{
+  "number": 287,
+  "title": "Finding the Best from the Second Bests - Inhibiting Subjective Bias in Evaluation of Visual Tracking Algorithms",
+  "year": 2013,
+  "authors": [
+    "Yu Pang",
+    "Haibin Ling"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Pang_Finding_the_Best_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Pang_Finding_the_Best_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Pang_Finding_the_Best_2013_ICCV_paper.pdf",
+      "bytes": 368693,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\287_2013_Finding_the_Best_from_the_Second_Bests_-_Inhibiting_Subjective_Bias_in_Evaluat.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Pang_Finding_the_Best_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Pang_Finding_the_Best_2013_ICCV_paper.pdf",
+  "bytes": 368693,
+  "sha256": "61c03f5efbb26cd2090d12134a3c766c22dff6b9d8e5357bba57ea8978d58109",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Finding the Best from the Second Bests - Inhibiting Subjective Bias in Evaluation of Visual Tracking Algorithms",
+  "first_page_text": "Finding the Best from the Second Bests – Inhibiting Subjective Bias in\nEvaluation of Visual Tracking Algorithms\nYu Pang\nHaibin Ling\nDepartment of Computer and Information Science, Temple University, Philadelphia, USA\n{yu.pang, hbling}@temple.edu\nAbstract\nEvaluating visual tracking algorithms, or “trackers” for\nshort, is of great importance in computer vision. However,\nit is hard to “fairly” compare trackers due to many param-\neters need to be tuned in the experimental conﬁgurations.\nOn the other hand, when introducing a new tracker, a re-\ncent trend is to validate it by comparing it with several ex-\nisting ones. Such an evaluation may have subjective biases\ntowards the new tracker which typically performs the best.\nThis is mainly due to the difﬁculty to optimally tune all its\ncompetitors and sometimes the selected testing sequences.\nBy contrast, little subjective bias exists towards the “sec-\nond best” ones1 in the contest. This observation inspires\nus with a novel perspective towards inhibiting subjective\nbias in evaluating trackers by analyzing the results between\nthe second bests. In particular, we ﬁrst collect all tracking\npapers published in major computer vision venues in re-\ncent years. From these papers, after ﬁltering out potential\nbiases in various aspects, we create a dataset containing\nmany records of comparison results between various visual\ntrackers. Using these records, we derive performance rank-\nings of the involved trackers by four different methods. The\nﬁrst two methods model the dataset as a graph and then\nderive the rankings over the graph, one by a rank aggrega-\ntion algorithm and the other by a PageRank-like solution.\nThe other two methods take the records as generated from\nsports contests and adopt widely used Elo’s and Glicko’s\nrating systems to derive the rankings. The experimental re-\nsults are presented and may serve as a reference for related\nresearch.\n1. Introduction\nAs an important topic in computer vision, visual tracking\nhas been a widely explored area attracting a great amount of\nresearch efforts. Over the decades, dozens of visual tracking\n1We treat all trackers other than the “best” as second best ones.\nTracker\nA\nB\nC (‘our previous’)\nD\nE (‘ours’)\nSeq. 1\n17.5\n56.7\n11.3\n10.5\n5.0\nSeq. 2\n7.0\n39.2\n8.5\n39.2\n6.1\nTable 1. Tracking evaluation results (in terms of average center lo-\ncation errors) from a mock paper using two sequences. Tracker E\nis newly proposed in the mock paper; C is from the authors’ pre-\nvious work; other trackers (A, B and D) were proposed in papers\nsharing no co-author with the mock paper.\nalgorithms, or trackers in short, have been developed and a\ngreat packs of public datasets are available alongside [73].\nEvaluation of these algorithms, though of great interest, re-\nmains a challenge due to the hardly avoidable biases. These\nbiases arise from many sources such as tracker parameters\n(e.g., number of particles), initialization, sequences used\netc. It is therefore hard to tune many different trackers for a\nfair comparison.\nSeveral evaluation frameworks have been proposed and\ntested during the last two decades, such as the Interna-\ntional Workshop on Visual Surveillance (VS), the Interna-\ntional Workshop on Performance Evaluation of Tracking\nand Surveillance (PETS) and the VIVID Tracking Evalu-\nation Website [14]. The basic idea is to test the trackers on\na lot of public datasets and evaluate the results using uni-\nformed metrics. The trackers are submitted by their authors\nand thus by assumption they are tuned optimally to win.\nThese evaluations are considered fair in general. However,\nmany state-of-the-art trackers have not been tested this way.\nA recent trend when introducing a new tracker is to val-\nidate it by comparing with several existing state-of-the-art\ntrackers. A byproduct of many such papers is the numer-\nous evaluations for various tracking algorithms. However,\nsuch papers often have subjective biases towards their pro-\nposed new trackers which typically perform the best in the\nevaluation. This is understandable and reasonable. On one\nhand, new trackers usually have some advantages that the\nauthors aim to highlight. On the other hand, it is non-trivial\nfor the paper authors to optimize all other trackers involved\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.346\n2784\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

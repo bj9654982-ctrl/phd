@@ -1,0 +1,42 @@
+{
+  "number": 210,
+  "title": "RTracker: Recoverable Tracking via PN Tree Structured Memory",
+  "year": 2024,
+  "authors": [
+    "Yuqing Huang",
+    "Xin Li",
+    "Zikun Zhou",
+    "Yaowei Wang",
+    "Zhenyu He",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_RTracker_Recoverable_Tracking_via_PN_Tree_Structured_Memory_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_RTracker_Recoverable_Tracking_via_PN_Tree_Structured_Memory_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_RTracker_Recoverable_Tracking_via_PN_Tree_Structured_Memory_CVPR_2024_paper.pdf",
+      "bytes": 4575510,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\210_2024_RTracker__Recoverable_Tracking_via_PN_Tree_Structured_Memory.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_RTracker_Recoverable_Tracking_via_PN_Tree_Structured_Memory_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Huang_RTracker_Recoverable_Tracking_via_PN_Tree_Structured_Memory_CVPR_2024_paper.pdf",
+  "bytes": 4575510,
+  "sha256": "9cb4ac389d2974d5eb538362130f043ff07070e4f9bcaf14312542431fa9ead3",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "RTracker: Recoverable Tracking via PN Tree Structured Memory",
+  "first_page_text": "RTracker: Recoverable Tracking via PN Tree Structured Memory\nYuqing Huang1,2, Xin Li2,∗, Zikun Zhou2, Yaowei Wang2, Zhenyu He1,∗, and Ming-Hsuan Yang3,4\n1Harbin Institute of Technology, Shenzhen\n2Peng Cheng Laboratory\n3UC Merced\n4Yonsei University\n{domaingreen2, xinlihitsz, zhouzikunhit, minghsuanyang}@gmail.com,\nwangyw@pcl.ac.cn, zhenyuhe@hit.edu.cn\nAbstract\nExisting tracking methods mainly focus on learning bet-\nter target representation or developing more robust pre-\ndiction models to improve tracking performance.\nWhile\ntracking performance has significantly improved, the target\nloss issue occurs frequently due to tracking failures, com-\nplete occlusion, or out-of-view situations. However, con-\nsiderably less attention is paid to the self-recovery issue\nof tracking methods, which is crucial for practical appli-\ncations. To this end, we propose a recoverable tracking\nframework, RTracker, that uses a tree-structured memory\nto dynamically associate a tracker and a detector to enable\nself-recovery ability. Specifically, we propose a Positive-\nNegative Tree-structured memory to chronologically store\nand maintain positive and negative target samples. Upon\nthe PN tree memory, we develop corresponding walking\nrules for determining the state of the target and define a\nset of control flows to unite the tracker and the detector in\ndifferent tracking scenarios. Our core idea is to use the\nsupport samples of positive and negative target categories\nto establish a relative distance-based criterion for a reli-\nable assessment of target loss. The favorable performance\nin comparison against the state-of-the-art methods on nu-\nmerous challenging benchmarks demonstrates the effective-\nness of the proposed algorithm. All the source code and\ntrained models will be released at https://github.\ncom/NorahGreen/RTracker.\n1. Introduction\nVisual object tracking aims to estimate the location and ex-\ntent of a target in a video sequence based on the bound-\ning box annotation of the target given in the initial frame,\nwhich is a fundamental vision task with a wide range of\napplications, such as surveillance and autonomous naviga-\ntion. The challenges in visual object tracking stem from\n∗corresponding author\nOut of View\nViewpoint Change\n#78\n#136\n#182\nFull Occlusion\nFull Occlusion\n#1\n#1030\n#1032\n#3829\n#3854\n#3881\n#3348\n#3372\n#3393\nTarget lost\nTarget visible\nTarget recovering\n—— RTracker —— MixViT —— SeqTrack ——OSTrack —— Ground-truth\nFigure 1. Performance on challenging sequences involving full\nocclusion, out-of-view, and viewpoint change. The proposed\nRTracker can accurately re-track the targets in these sequences af-\nter their reappearance.\nthe dramatic variations of the target (e.g. rotation, defor-\nmation, and fast motion) and the various influences from\nthe background (e.g. occlusion, illumination variation, and\nout-of-view) [35]. Existing tracking methods usually fo-\ncus on learning robust target representation [4, 6, 21–23]\nor developing robust prediction models [2, 20, 30, 31, 41]\nto handle these tracking challenges and prevent target loss.\nHowever, target loss, which can be caused by full occlu-\nsion, out-of-view, or tracking failure, is usually inevitable,\nespecially during long-term tracking in complex real-world\napplication scenarios. Currently, considerably less attention\nis paid to the issue of how to recover tracking from target\nloss, which is becoming a bottleneck limiting the practical\napplication of tracking algorithms.\nEnabling self-recovery capability in a tracking model\nis challenging since it first needs to accurately determine\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19038\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

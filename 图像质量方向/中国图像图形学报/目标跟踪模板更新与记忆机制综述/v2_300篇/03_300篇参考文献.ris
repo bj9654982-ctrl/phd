@@ -1,0 +1,4837 @@
+TY  - JOUR
+ID  - SOT001
+TI  - The template update problem
+AU  - Matthews I
+AU  - Ishikawa T
+AU  - Baker S
+PY  - 2004
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://publications.ri.cmu.edu/the-template-update-problem-2
+DO  - 10.1109/TPAMI.2004.16
+VL  - 26
+IS  - 6
+SP  - 810
+EP  - 815
+KW  - 更新策略与在线适应
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT002
+TI  - Adaptive appearance modeling for video tracking: survey and evaluation
+AU  - Salti S
+AU  - Cavallaro A
+AU  - Di Stefano L
+PY  - 2012
+T2  - IEEE Transactions on Image Processing
+UR  - https://www.eecs.qmul.ac.uk/~andrea/papers/2012_TIP_AdaptiveModeling_Salti_Cavallaro_Distefano.pdf
+DO  - 10.1109/TIP.2012.2206035
+VL  - 21
+IS  - 10
+SP  - 4334
+EP  - 4348
+KW  - 相关综述与研究定位
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT003
+TI  - Visual tracking: an experimental survey
+AU  - Smeulders A W M
+AU  - Chu D M
+AU  - Cucchiara R
+PY  - 2014
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://ivi.fnwi.uva.nl/isis/publications/bibtexbrowser.php?bib=all.bib&key=SmeuldersTPAMI2014
+DO  - 10.1109/TPAMI.2013.230
+VL  - 36
+IS  - 7
+SP  - 1442
+EP  - 1468
+KW  - 相关综述与研究定位
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT004
+TI  - 基于Transformer的视觉目标跟踪方法综述
+AU  - 孙子文
+AU  - 钱立志
+AU  - 杨传栋
+PY  - 2024
+T2  - 计算机应用
+UR  - https://www.joca.cn/CN/abstract/abstract26336.shtml
+DO  - 10.11772/j.issn.1001-9081.2023060796
+VL  - 44
+IS  - 5
+SP  - 1644
+EP  - 1654
+KW  - 相关综述与研究定位
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT005
+TI  - 单目标跟踪中的视觉智能评估技术综述
+AU  - 胡世宇
+AU  - 赵鑫
+AU  - 黄凯奇
+PY  - 2024
+T2  - 中国图象图形学报
+UR  - https://www.cjig.cn/zh/article/doi/10.11834/jig.230498/
+DO  - 10.11834/jig.230498
+VL  - 29
+IS  - 8
+SP  - 2269
+EP  - 2302
+KW  - 相关综述与研究定位
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT006
+TI  - Visual object tracking: review and challenges
+AU  - Chen Z
+AU  - Peng C
+AU  - Liu S
+AU  - Ding W
+PY  - 2025
+T2  - Applied Soft Computing
+UR  - https://www.sciencedirect.com/science/article/pii/S156849462500451X
+DO  - 10.1016/j.asoc.2025.113140
+VL  - 177
+SP  - 113140
+KW  - 相关综述与研究定位
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT007
+TI  - Visual object tracking using adaptive correlation filters
+AU  - Bolme D S
+AU  - Beveridge J R
+AU  - Draper B A
+AU  - Lui Y M
+PY  - 2010
+T2  - CVPR
+UR  - https://www.cs.colostate.edu/~draper/papers/bolme_cvpr10.pdf
+DO  - 10.1109/CVPR.2010.5539960
+KW  - 相关滤波与样本正则化
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT008
+TI  - High-speed tracking with kernelized correlation filters
+AU  - Henriques J F
+AU  - Caseiro R
+AU  - Martins P
+AU  - Batista J
+PY  - 2015
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://arxiv.org/abs/1404.7584
+DO  - 10.1109/TPAMI.2014.2345390
+VL  - 37
+IS  - 3
+SP  - 583
+EP  - 596
+KW  - 相关滤波与样本正则化
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT009
+TI  - Fully-convolutional Siamese networks for object tracking
+AU  - Bertinetto L
+AU  - Valmadre J
+AU  - Henriques J F
+PY  - 2016
+T2  - ECCV Workshops
+UR  - https://arxiv.org/abs/1606.09549
+KW  - 孪生匹配与目标条件化
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT010
+TI  - ECO: Efficient Convolution Operators for Tracking
+AU  - Martin Danelljan
+AU  - Goutam Bhat
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.html
+KW  - 相关滤波与样本正则化
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT011
+TI  - MUlti-Store Tracker (MUSTer): A Cognitive Psychology Inspired Approach to Object Tracking
+AU  - Zhibin Hong
+AU  - Zhe Chen
+AU  - Chaohui Wang
+AU  - Xue Mei
+AU  - Danil Prokhorov
+AU  - Dacheng Tao
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Hong_MUlti-Store_Tracker_MUSTer_2015_CVPR_paper.html
+KW  - 长时跟踪与记忆恢复
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT012
+TI  - Learning Dynamic Memory Networks for Object Tracking
+AU  - Yang
+AU  - Tianyu and Chan
+AU  - Antoni B.
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Tianyu_Yang_Learning_Dynamic_Memory_ECCV_2018_paper.php
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT013
+TI  - Learning the Model Update for Siamese Trackers
+AU  - Lichao Zhang
+AU  - Abel Gonzalez-Garcia
+AU  - Joost van de Weijer
+AU  - Martin Danelljan
+AU  - Fahad Shahbaz Khan
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Learning_the_Model_Update_for_Siamese_Trackers_ICCV_2019_paper.html
+KW  - 更新策略与在线适应
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT014
+TI  - Learning Discriminative Model Prediction for Tracking
+AU  - Goutam Bhat
+AU  - Martin Danelljan
+AU  - Luc Van Gool
+AU  - Radu Timofte
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Bhat_Learning_Discriminative_Model_Prediction_for_Tracking_ICCV_2019_paper.html
+KW  - 更新策略与在线适应
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT015
+TI  - Probabilistic Regression for Visual Tracking
+AU  - Martin Danelljan
+AU  - Luc Van Gool
+AU  - Radu Timofte
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Danelljan_Probabilistic_Regression_for_Visual_Tracking_CVPR_2020_paper.html
+KW  - 更新策略与在线适应
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT016
+TI  - Transformer Tracking
+AU  - Xin Chen
+AU  - Bin Yan
+AU  - Jiawen Zhu
+AU  - Dong Wang
+AU  - Xiaoyun Yang
+AU  - Huchuan Lu
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Transformer_Tracking_CVPR_2021_paper.html
+SP  - 8126
+EP  - 8135
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT017
+TI  - Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking
+AU  - Ning Wang
+AU  - Wengang Zhou
+AU  - Jie Wang
+AU  - Houqiang Li
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Transformer_Meets_Tracker_Exploiting_Temporal_Context_for_Robust_Visual_Tracking_CVPR_2021_paper.html
+SP  - 1571
+EP  - 1580
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT018
+TI  - Learning Spatio-Temporal Transformer for Visual Tracking
+AU  - Bin Yan
+AU  - Houwen Peng
+AU  - Jianlong Fu
+AU  - Dong Wang
+AU  - Huchuan Lu
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.html
+SP  - 10448
+EP  - 10457
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT019
+TI  - STMTrack: Template-Free Visual Tracking With Space-Time Memory Networks
+AU  - Zhihong Fu
+AU  - Qingjie Liu
+AU  - Zehua Fu
+AU  - Yunhong Wang
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Fu_STMTrack_Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks_CVPR_2021_paper.html
+SP  - 13774
+EP  - 13783
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT020
+TI  - MixFormer: End-to-End Tracking With Iterative Mixed Attention
+AU  - Yutao Cui
+AU  - Cheng Jiang
+AU  - Limin Wang
+AU  - Gangshan Wu
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Cui_MixFormer_End-to-End_Tracking_With_Iterative_Mixed_Attention_CVPR_2022_paper.html
+SP  - 13608
+EP  - 13618
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT021
+TI  - Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework
+AU  - Botao Ye
+AU  - Hong Chang
+AU  - Bingpeng Ma
+AU  - Shiguang Shan
+AU  - Xilin Chen
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/3964_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-20047-2_20
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT022
+TI  - Robust Object Modeling for Visual Tracking
+AU  - Yidong Cai
+AU  - Jie Liu
+AU  - Jie Tang
+AU  - Gangshan Wu
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Cai_Robust_Object_Modeling_for_Visual_Tracking_ICCV_2023_paper.html
+SP  - 9589
+EP  - 9600
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT023
+TI  - HIPTrack: Visual Tracking with Historical Prompts
+AU  - Wenrui Cai
+AU  - Qingjie Liu
+AU  - Yunhong Wang
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Cai_HIPTrack_Visual_Tracking_with_Historical_Prompts_CVPR_2024_paper.html
+SP  - 19258
+EP  - 19267
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT024
+TI  - ODTrack: online dense temporal token learning for visual tracking
+AU  - Zheng Y
+AU  - Zhong B
+AU  - Liang Q
+PY  - 2024
+T2  - AAAI
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/28591
+DO  - 10.1609/aaai.v38i7.28591
+VL  - 38
+IS  - 7
+SP  - 7588
+EP  - 7596
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT025
+TI  - UncTrack: reliable visual object tracking with uncertainty-aware prototype memory network
+AU  - Yao S
+AU  - Guo Y
+AU  - Yan Y
+PY  - 2025
+T2  - IEEE Transactions on Image Processing
+UR  - https://arxiv.org/abs/2503.12888
+DO  - 10.1109/TIP.2025.3559796
+VL  - 34
+SP  - 3533
+EP  - 3546
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT026
+TI  - Exploring enhanced contextual information for video-level object tracking
+AU  - Kang B
+AU  - Chen X
+AU  - Lai S
+PY  - 2025
+T2  - AAAI
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/32440
+DO  - 10.1609/aaai.v39i4.32440
+VL  - 39
+IS  - 4
+SP  - 4194
+EP  - 4202
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT027
+TI  - MUTrack: a memory-aware unified representation framework for visual tracking
+AU  - Wu W
+AU  - Liang Q
+AU  - Zhong B
+PY  - 2026
+T2  - AAAI
+UR  - https://ojs.aaai.org/index.php/AAAI/article/view/38052
+DO  - 10.1609/aaai.v40i13.38052
+VL  - 40
+IS  - 13
+SP  - 10772
+EP  - 10780
+KW  - 注意力与时序状态建模
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT028
+TI  - Siam R-CNN: Visual Tracking by Re-Detection
+AU  - Paul Voigtlaender
+AU  - Jonathon Luiten
+AU  - Philip H.S. Torr
+AU  - Bastian Leibe
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Voigtlaender_Siam_R-CNN_Visual_Tracking_by_Re-Detection_CVPR_2020_paper.html
+KW  - 长时跟踪与记忆恢复
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT029
+TI  - Learning Target Candidate Association To Keep Track of What Not To Track
+AU  - Christoph Mayer
+AU  - Martin Danelljan
+AU  - Danda Pani Paudel
+AU  - Luc Van Gool
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Mayer_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_ICCV_2021_paper.html
+SP  - 13444
+EP  - 13454
+KW  - 长时跟踪与记忆恢复
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT030
+TI  - Object tracking benchmark
+AU  - Wu Y
+AU  - Lim J
+AU  - Yang M H
+PY  - 2015
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf
+DO  - 10.1109/TPAMI.2014.2388226
+VL  - 37
+IS  - 9
+SP  - 1834
+EP  - 1848
+KW  - 数据集与评价设计
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT031
+TI  - A benchmark and simulator for UAV tracking
+AU  - Mueller M
+AU  - Smith N
+AU  - Ghanem B
+PY  - 2016
+T2  - ECCV
+UR  - https://ivul.kaust.edu.sa/benchmark-and-simulator-uav-tracking-simulator
+DO  - 10.1007/978-3-319-46448-0_27
+KW  - 数据集与评价设计
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT032
+TI  - TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild
+AU  - Muller
+AU  - Matthias and Bibi
+AU  - Adel and Giancola
+AU  - Silvio and Alsubaihi
+AU  - Salman and Ghanem
+AU  - Bernard
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.php
+KW  - 数据集与评价设计
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT033
+TI  - LaSOT: A High-Quality Benchmark for Large-Scale Single Object Tracking
+AU  - Heng Fan
+AU  - Liting Lin
+AU  - Fan Yang
+AU  - Peng Chu
+AU  - Ge Deng
+AU  - Sijia Yu
+AU  - Hexin Bai
+AU  - Yong Xu
+AU  - Chunyuan Liao
+AU  - Haibin Ling
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Fan_LaSOT_A_High-Quality_Benchmark_for_Large-Scale_Single_Object_Tracking_CVPR_2019_paper.html
+KW  - 数据集与评价设计
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT034
+TI  - GOT-10k: a large high-diversity benchmark for generic object tracking in the wild
+AU  - Huang L
+AU  - Zhao X
+AU  - Huang K
+PY  - 2021
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://arxiv.org/abs/1810.11981
+VL  - 43
+IS  - 5
+SP  - 1562
+EP  - 1577
+KW  - 数据集与评价设计
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT035
+TI  - A novel performance evaluation methodology for single-target trackers
+AU  - Kristan M
+AU  - Matas J
+AU  - Leonardis A
+PY  - 2016
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://arxiv.org/abs/1503.01313
+DO  - 10.1109/TPAMI.2016.2516982
+VL  - 38
+IS  - 11
+SP  - 2137
+EP  - 2155
+KW  - 数据集与评价设计
+N1  - v1 primary-source record retained; matched official proceedings metadata refreshed where available; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT036
+TI  - CONDENSATION—Conditional Density Propagation for Visual Tracking
+AU  - Michael Isard
+AU  - Andrew Blake
+PY  - 1998
+T2  - International Journal of Computer Vision
+UR  - https://doi.org/10.1023/A:1008078328650
+DO  - 10.1023/A:1008078328650
+VL  - 29
+IS  - 1
+SP  - 5
+EP  - 28
+KW  - 传统外观建模与局部可靠性
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT037
+TI  - Kernel-based object tracking
+AU  - D. Comaniciu
+AU  - V. Ramesh
+AU  - P. Meer
+PY  - 2003
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://doi.org/10.1109/TPAMI.2003.1195991
+DO  - 10.1109/TPAMI.2003.1195991
+VL  - 25
+IS  - 5
+SP  - 564
+EP  - 577
+KW  - 传统外观建模与局部可靠性
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT038
+TI  - Incremental Learning for Robust Visual Tracking
+AU  - David A. Ross
+AU  - Jongwoo Lim
+AU  - Ruei-Sung Lin
+AU  - Ming-Hsuan Yang
+PY  - 2008
+T2  - International Journal of Computer Vision
+UR  - https://doi.org/10.1007/s11263-007-0075-7
+DO  - 10.1007/s11263-007-0075-7
+VL  - 77
+IS  - 1-3
+SP  - 125
+EP  - 141
+KW  - 更新策略与在线适应
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT039
+TI  - Robust Object Tracking with Online Multiple Instance Learning
+AU  - B. Babenko
+AU  - Ming-Hsuan Yang
+AU  - S. Belongie
+PY  - 2011
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://doi.org/10.1109/TPAMI.2010.226
+DO  - 10.1109/TPAMI.2010.226
+VL  - 33
+IS  - 8
+SP  - 1619
+EP  - 1632
+KW  - 更新策略与在线适应
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT040
+TI  - Tracking-Learning-Detection
+AU  - Zdenek Kalal
+AU  - Krystian Mikolajczyk
+AU  - Jiri Matas
+PY  - 2012
+T2  - IEEE Transactions on Pattern Analysis and Machine Intelligence
+UR  - https://doi.org/10.1109/TPAMI.2011.239
+DO  - 10.1109/TPAMI.2011.239
+VL  - 34
+IS  - 7
+SP  - 1409
+EP  - 1422
+KW  - 长时跟踪与记忆恢复
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT041
+TI  - Struck: Structured output tracking with kernels
+AU  - Sam Hare
+AU  - Amir Saffari
+AU  - Philip H. S. Torr
+PY  - 2011
+T2  - 2011 International Conference on Computer Vision
+UR  - https://doi.org/10.1109/ICCV.2011.6126251
+DO  - 10.1109/ICCV.2011.6126251
+SP  - 263
+EP  - 270
+KW  - 更新策略与在线适应
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT042
+TI  - Exploiting the Circulant Structure of Tracking-by-Detection with Kernels
+AU  - João F. Henriques
+AU  - Rui Caseiro
+AU  - Pedro Martins
+AU  - Jorge Batista
+PY  - 2012
+T2  - Computer Vision - ECCV 2012
+UR  - https://doi.org/10.1007/978-3-642-33765-9_50
+DO  - 10.1007/978-3-642-33765-9_50
+SP  - 702
+EP  - 715
+KW  - 相关滤波与样本正则化
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT043
+TI  - MEEM: Robust Tracking via Multiple Experts Using Entropy Minimization
+AU  - Jianming Zhang
+AU  - Shugao Ma
+AU  - Stan Sclaroff
+PY  - 2014
+T2  - Computer Vision - ECCV 2014
+UR  - https://doi.org/10.1007/978-3-319-10599-4_13
+DO  - 10.1007/978-3-319-10599-4_13
+SP  - 188
+EP  - 203
+KW  - 长时跟踪与记忆恢复
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT044
+TI  - Accurate Scale Estimation for Robust Visual Tracking
+AU  - Martin Danelljan
+AU  - Gustav Häger
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+PY  - 2014
+T2  - Proceedings of the British Machine Vision Conference 2014
+UR  - https://doi.org/10.5244/C.28.65
+DO  - 10.5244/C.28.65
+SP  - 65.1
+EP  - 65.11
+KW  - 相关滤波与样本正则化
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT045
+TI  - Beyond Correlation Filters: Learning Continuous Convolution Operators for Visual Tracking
+AU  - Martin Danelljan
+AU  - Andreas Robinson
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+PY  - 2016
+T2  - Computer Vision - ECCV 2016
+UR  - https://doi.org/10.1007/978-3-319-46454-1_29
+DO  - 10.1007/978-3-319-46454-1_29
+SP  - 472
+EP  - 488
+KW  - 相关滤波与样本正则化
+N1  - publisher-registered DOI metadata; key mechanisms checked against cited primary papers; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT046
+TI  - SAM 2: Segment Anything in Images and Videos
+AU  - Nikhila Ravi
+AU  - Valentin Gabeur
+AU  - Yuan-Ting Hu
+AU  - Ronghang Hu
+AU  - Chaitanya Ryali
+AU  - Tengyu Ma
+AU  - Haitham Khedr
+AU  - Roman Rädle
+AU  - Chloe Rolland
+AU  - Laura Gustafson
+AU  - Eric Mintun
+AU  - Junting Pan
+AU  - Kalyan Vasudev Alwala
+AU  - Nicolas Carion
+AU  - Chao-Yuan Wu
+AU  - Ross Girshick
+AU  - Piotr Dollár
+AU  - Christoph Feichtenhofer
+PY  - 2025
+T2  - ICLR
+UR  - https://openreview.net/forum?id=Ha6RTeWMd0
+KW  - 视频分割中的可迁移记忆机制
+N1  - official conference paper and OpenReview record; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT047
+TI  - 多模态视觉跟踪方法综述
+AU  - 李成龙
+AU  - 鹿安东
+AU  - 刘磊
+AU  - 汤进
+PY  - 2023
+T2  - 中国图象图形学报
+UR  - https://www.cjig.cn/zh/article/doi/10.11834/jig.220578/
+DO  - 10.11834/jig.220578
+VL  - 28
+IS  - 1
+SP  - 37
+EP  - 56
+KW  - 多模态历史与统一跟踪
+N1  - official journal bibliographic record and abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT048
+TI  - 基于深度学习的视觉单目标跟踪综述
+AU  - 张长弓
+AU  - 杨海涛
+AU  - 王晋宇
+AU  - 冯博迪
+AU  - 李高源
+AU  - 高宇歌
+PY  - 2021
+T2  - 计算机应用研究
+UR  - https://www.arocmag.cn/abs/2021.03.0036
+DO  - 10.19734/j.issn.1001-3695.2021.03.0036
+VL  - 38
+IS  - 10
+SP  - 2888
+EP  - 2895
+KW  - 相关综述与研究定位
+N1  - official journal bibliographic record and abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - JOUR
+ID  - SOT049
+TI  - 融合上下文感知注意力的Transformer目标跟踪方法
+AU  - 徐晗
+AU  - 董仕豪
+AU  - 张家伟
+AU  - 郑钰辉
+PY  - 2025
+T2  - 中国图象图形学报
+UR  - https://www.cjig.cn/zh/article/doi/10.11834/jig.240084/
+DO  - 10.11834/jig.240084
+VL  - 30
+IS  - 1
+SP  - 212
+EP  - 224
+KW  - 注意力与时序状态建模
+N1  - official journal bibliographic record and abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT050
+TI  - MixFormerV2: Efficient Fully Transformer Tracking
+AU  - Yutao Cui
+AU  - Tianhui Song
+AU  - Gangshan Wu
+AU  - Limin Wang
+PY  - 2023
+T2  - Advances in Neural Information Processing Systems
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/b7870bd43b2d133a1ed95582ae5d82a4-Abstract-Conference.html
+DO  - 10.52202/075280-2561
+VL  - 36
+SP  - 58736
+EP  - 58751
+KW  - 高效跟踪与资源预算
+N1  - official proceedings BibTeX and abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT051
+TI  - Reading Relevant Feature from Global Representation Memory for Visual Object Tracking
+AU  - Xinyu Zhou
+AU  - Pinxue Guo
+AU  - Lingyi Hong
+AU  - Jinglun Li
+AU  - Wei Zhang
+AU  - Weifeng Ge
+AU  - Wenqiang Zhang
+PY  - 2023
+T2  - Advances in Neural Information Processing Systems
+UR  - https://papers.nips.cc/paper_files/paper/2023/hash/2349293cb1bf2ce36d5c566f660f957e-Abstract-Conference.html
+DO  - 10.52202/075280-0476
+VL  - 36
+SP  - 10814
+EP  - 10827
+KW  - 注意力与时序状态建模
+N1  - official proceedings BibTeX and abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT052
+TI  - Constructing Adaptive Complex Cells for Robust Visual Tracking
+AU  - Dapeng Chen
+AU  - Zejian Yuan
+AU  - Yang Wu
+AU  - Geng Zhang
+AU  - Nanning Zheng
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT053
+TI  - Initialization-Insensitive Visual Tracking through Voting with Salient Local Features
+AU  - Kwang Moo Yi
+AU  - Hawook Jeong
+AU  - Byeongho Heo
+AU  - Hyung Jin Chang
+AU  - Jin Young Choi
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT054
+TI  - Least Soft-Threshold Squares Tracking
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Ming-Hsuan Yang
+PY  - 2013
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2013/html/Wang_Least_Soft-Threshold_Squares_2013_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT055
+TI  - Minimum Uncertainty Gap for Robust Visual Tracking
+AU  - Junseok Kwon
+AU  - Kyoung Mu Lee
+PY  - 2013
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2013/html/Kwon_Minimum_Uncertainty_Gap_2013_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT056
+TI  - Online Robust Non-negative Dictionary Learning for Visual Tracking
+AU  - Naiyan Wang
+AU  - Jingdong Wang
+AU  - Dit-Yan Yeung
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Wang_Online_Robust_Non-negative_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT057
+TI  - Orderless Tracking through Model-Averaged Posterior Estimation
+AU  - Seunghoon Hong
+AU  - Suha Kwak
+AU  - Bohyung Han
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Hong_Orderless_Tracking_through_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT058
+TI  - Part-Based Visual Tracking with Online Latent Structural Learning
+AU  - Rui Yao
+AU  - Qinfeng Shi
+AU  - Chunhua Shen
+AU  - Yanning Zhang
+AU  - Anton van den Hengel
+PY  - 2013
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2013/html/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT059
+TI  - PixelTrack: A Fast Adaptive Algorithm for Tracking Non-rigid Objects
+AU  - Stefan Duffner
+AU  - Christophe Garcia
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Duffner_PixelTrack_A_Fast_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT060
+TI  - Randomized Ensemble Tracking
+AU  - Qinxun Bai
+AU  - Zheng Wu
+AU  - Stan Sclaroff
+AU  - Margrit Betke
+AU  - Camille Monnier
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT061
+TI  - Robust Object Tracking with Online Multi-lifespan Dictionary Learning
+AU  - Junliang Xing
+AU  - Jin Gao
+AU  - Bing Li
+AU  - Weiming Hu
+AU  - Shuicheng Yan
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Xing_Robust_Object_Tracking_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT062
+TI  - Tracking via Robust Multi-task Multi-view Joint Sparse Representation
+AU  - Zhibin Hong
+AU  - Xue Mei
+AU  - Danil Prokhorov
+AU  - Dacheng Tao
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Hong_Tracking_via_Robust_2013_ICCV_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT063
+TI  - Visual Tracking via Locality Sensitive Histograms
+AU  - Shengfeng He
+AU  - Qingxiong Yang
+AU  - Rynson W.H. Lau
+AU  - Jiang Wang
+AU  - Ming-Hsuan Yang
+PY  - 2013
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2013/html/He_Visual_Tracking_via_2013_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT064
+TI  - Multi-Cue Visual Tracking Using Robust Feature-Level Fusion Based on Joint Sparse Representation
+AU  - Xiangyuan Lan
+AU  - Andy J. Ma
+AU  - Pong C. Yuen
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT065
+TI  - Multi-Forest Tracker: A Chameleon in Tracking
+AU  - David J. Tan
+AU  - Slobodan Ilic
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT066
+TI  - Online Object Tracking, Learning and Parsing with And-Or Graphs
+AU  - Yang Lu
+AU  - Tianfu Wu
+AU  - Song Chun Zhu
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Lu_Online_Object_Tracking_2014_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT067
+TI  - Partial Occlusion Handling for Visual Tracking via Robust Part Matching
+AU  - Tianzhu Zhang
+AU  - Kui Jia
+AU  - Changsheng Xu
+AU  - Yi Ma
+AU  - Narendra Ahuja
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT068
+TI  - Unifying Spatial and Attribute Selection for Distracter-Resilient Tracking
+AU  - Nan Jiang
+AU  - Ying Wu
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Jiang_Unifying_Spatial_and_2014_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT069
+TI  - Visual Tracking Using Pertinent Patch Selection and Masking
+AU  - Dae-Youn Lee
+AU  - Jae-Young Sim
+AU  - Chang-Su Kim
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Lee_Visual_Tracking_Using_2014_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT070
+TI  - Visual Tracking via Probability Continuous Outlier Model
+AU  - Dong Wang
+AU  - Huchuan Lu
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Wang_Visual_Tracking_via_2014_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT071
+TI  - Discriminative Low-Rank Tracking
+AU  - Yao Sui
+AU  - Yafei Tang
+AU  - Li Zhang
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Sui_Discriminative_Low-Rank_Tracking_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT072
+TI  - Exploring Causal Relationships in Visual Object Tracking
+AU  - Karel Lebeda
+AU  - Simon Hadfield
+AU  - Richard Bowden
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Lebeda_Exploring_Causal_Relationships_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT073
+TI  - Hierarchical Convolutional Features for Visual Tracking
+AU  - Chao Ma
+AU  - Jia-Bin Huang
+AU  - Xiaokang Yang
+AU  - Ming-Hsuan Yang
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT074
+TI  - In Defense of Color-Based Model-Free Tracking
+AU  - Horst Possegger
+AU  - Thomas Mauthner
+AU  - Horst Bischof
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Possegger_In_Defense_of_2015_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT075
+TI  - JOTS: Joint Online Tracking and Segmentation
+AU  - Longyin Wen
+AU  - Dawei Du
+AU  - Zhen Lei
+AU  - Stan Z. Li
+AU  - Ming-Hsuan Yang
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Wen_JOTS_Joint_Online_2015_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT076
+TI  - Local Subspace Collaborative Tracking
+AU  - Lin Ma
+AU  - Xiaoqin Zhang
+AU  - Weiming Hu
+AU  - Junliang Xing
+AU  - Jiwen Lu
+AU  - Jie Zhou
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Ma_Local_Subspace_Collaborative_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT077
+TI  - Multihypothesis Trajectory Analysis for Robust Visual Tracking
+AU  - Dae-Youn Lee
+AU  - Jae-Young Sim
+AU  - Chang-Su Kim
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Lee_Multihypothesis_Trajectory_Analysis_2015_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT078
+TI  - Online Object Tracking With Proposal Selection
+AU  - Yang Hua
+AU  - Karteek Alahari
+AU  - Cordelia Schmid
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Hua_Online_Object_Tracking_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT079
+TI  - Reliable Patch Trackers: Robust Visual Tracking by Exploiting Reliable Patches
+AU  - Yang Li
+AU  - Jianke Zhu
+AU  - Steven C.H. Hoi
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Li_Reliable_Patch_Trackers_2015_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT080
+TI  - Single Target Tracking Using Adaptive Clustered Decision Trees and Dynamic Multi-Level Appearance Models
+AU  - Jingjing Xiao
+AU  - Rustam Stolkin
+AU  - Ales Leonardis
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Xiao_Single_Target_Tracking_2015_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT081
+TI  - SOWP: Spatially Ordered and Weighted Patch Descriptor for Visual Tracking
+AU  - Han-Ul Kim
+AU  - Dae-Youn Lee
+AU  - Jae-Young Sim
+AU  - Chang-Su Kim
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Kim_SOWP_Spatially_Ordered_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT082
+TI  - Structural Sparse Tracking
+AU  - Tianzhu Zhang
+AU  - Si Liu
+AU  - Changsheng Xu
+AU  - Shuicheng Yan
+AU  - Bernard Ghanem
+AU  - Narendra Ahuja
+AU  - Ming-Hsuan Yang
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Zhang_Structural_Sparse_Tracking_2015_CVPR_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT083
+TI  - Tracking-by-Segmentation With Online Gradient Boosting Decision Tree
+AU  - Jeany Son
+AU  - Ilchae Jung
+AU  - Kayoung Park
+AU  - Bohyung Han
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Son_Tracking-by-Segmentation_With_Online_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT084
+TI  - TRIC-track: Tracking by Regression With Incrementally Learned Cascades
+AU  - Xiaomeng Wang
+AU  - Michel Valstar
+AU  - Brais Martinez
+AU  - Muhammad Haris Khan
+AU  - Tony Pridmore
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Wang_TRIC-track_Tracking_by_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT085
+TI  - Visual Tracking With Fully Convolutional Networks
+AU  - Lijun Wang
+AU  - Wanli Ouyang
+AU  - Xiaogang Wang
+AU  - Huchuan Lu
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Wang_Visual_Tracking_With_ICCV_2015_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT086
+TI  - Visual Tracking Using Attention-Modulated Disintegration and Integration
+AU  - Jongwon Choi
+AU  - Hyung Jin Chang
+AU  - Jiyeoup Jeong
+AU  - Yiannis Demiris
+AU  - Jin Young Choi
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Choi_Visual_Tracking_Using_CVPR_2016_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT087
+TI  - Robust Object Tracking Based on Temporal and Spatial Deep Networks
+AU  - Zhu Teng
+AU  - Junliang Xing
+AU  - Qiang Wang
+AU  - Congyan Lang
+AU  - Songhe Feng
+AU  - Yi Jin
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Teng_Robust_Object_Tracking_ICCV_2017_paper.html
+KW  - 传统外观建模与局部可靠性
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT088
+TI  - Adaptive Color Attributes for Real-Time Visual Tracking
+AU  - Martin Danelljan
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+AU  - Joost van de Weijer
+PY  - 2014
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2014/html/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT089
+TI  - Learning Spatially Regularized Correlation Filters for Visual Tracking
+AU  - Martin Danelljan
+AU  - Gustav Hager
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Danelljan_Learning_Spatially_Regularized_ICCV_2015_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT090
+TI  - Multi-Kernel Correlation Filter for Visual Tracking
+AU  - Ming Tang
+AU  - Jiayi Feng
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Tang_Multi-Kernel_Correlation_Filter_ICCV_2015_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT091
+TI  - Real-Time Part-Based Visual Tracking via Adaptive Correlation Filters
+AU  - Ting Liu
+AU  - Gang Wang
+AU  - Qingxiong Yang
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Liu_Real-Time_Part-Based_Visual_2015_CVPR_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT092
+TI  - Adaptive Decontamination of the Training Set: A Unified Formulation for Discriminative Visual Tracking
+AU  - Martin Danelljan
+AU  - Gustav Hager
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Danelljan_Adaptive_Decontamination_of_CVPR_2016_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT093
+TI  - In Defense of Sparse Tracking: Circulant Sparse Tracker
+AU  - Tianzhu Zhang
+AU  - Adel Bibi
+AU  - Bernard Ghanem
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Zhang_In_Defense_of_CVPR_2016_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT094
+TI  - Staple: Complementary Learners for Real-Time Tracking
+AU  - Luca Bertinetto
+AU  - Jack Valmadre
+AU  - Stuart Golodetz
+AU  - Ondrej Miksik
+AU  - Philip H. S. Torr
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Bertinetto_Staple_Complementary_Learners_CVPR_2016_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT095
+TI  - Structural Correlation Filter for Robust Visual Tracking
+AU  - Si Liu
+AU  - Tianzhu Zhang
+AU  - Xiaochun Cao
+AU  - Changsheng Xu
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_Structural_Correlation_Filter_CVPR_2016_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT096
+TI  - Attentional Correlation Filter Network for Adaptive Visual Tracking
+AU  - Jongwon Choi
+AU  - Hyung Jin Chang
+AU  - Sangdoo Yun
+AU  - Tobias Fischer
+AU  - Yiannis Demiris
+AU  - Jin Young Choi
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT097
+TI  - Context-Aware Correlation Filter Tracking
+AU  - Matthias Mueller
+AU  - Neil Smith
+AU  - Bernard Ghanem
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Mueller_Context-Aware_Correlation_Filter_CVPR_2017_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT098
+TI  - CREST: Convolutional Residual Learning for Visual Tracking
+AU  - Yibing Song
+AU  - Chao Ma
+AU  - Lijun Gong
+AU  - Jiawei Zhang
+AU  - Rynson W. H. Lau
+AU  - Ming-Hsuan Yang
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Song_CREST_Convolutional_Residual_ICCV_2017_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT099
+TI  - End-To-End Representation Learning for Correlation Filter Based Tracking
+AU  - Jack Valmadre
+AU  - Luca Bertinetto
+AU  - Joao Henriques
+AU  - Andrea Vedaldi
+AU  - Philip H. S. Torr
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT100
+TI  - Large Margin Object Tracking With Circulant Feature Maps
+AU  - Mengmeng Wang
+AU  - Yong Liu
+AU  - Zeyi Huang
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Wang_Large_Margin_Object_CVPR_2017_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT101
+TI  - Learning Background-Aware Correlation Filters for Visual Tracking
+AU  - Hamed Kiani Galoogahi
+AU  - Ashton Fagg
+AU  - Simon Lucey
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT102
+TI  - Correlation Tracking via Joint Discrimination and Reliability Learning
+AU  - Chong Sun
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Ming-Hsuan Yang
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Sun_Correlation_Tracking_via_CVPR_2018_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT103
+TI  - High-Speed Tracking With Multi-Kernel Correlation Filters
+AU  - Ming Tang
+AU  - Bin Yu
+AU  - Fan Zhang
+AU  - Jinqiao Wang
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Tang_High-Speed_Tracking_With_CVPR_2018_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT104
+TI  - Joint Representation and Truncated Inference Learning for Correlation Filter based Tracking
+AU  - Yao
+AU  - Yingjie and Wu
+AU  - Xiaohe and Zhang
+AU  - Lei and Shan
+AU  - Shiguang and Zuo
+AU  - Wangmeng
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Yingjie_Yao_Joint_Representation_and_ECCV_2018_paper.php
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT105
+TI  - Learning Spatial-Aware Regressions for Visual Tracking
+AU  - Chong Sun
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Ming-Hsuan Yang
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Sun_Learning_Spatial-Aware_Regressions_CVPR_2018_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT106
+TI  - Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking
+AU  - Feng Li
+AU  - Cheng Tian
+AU  - Wangmeng Zuo
+AU  - Lei Zhang
+AU  - Ming-Hsuan Yang
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Li_Learning_Spatial-Temporal_Regularized_CVPR_2018_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT107
+TI  - Multi-Cue Correlation Filters for Robust Visual Tracking
+AU  - Ning Wang
+AU  - Wengang Zhou
+AU  - Qi Tian
+AU  - Richang Hong
+AU  - Meng Wang
+AU  - Houqiang Li
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Multi-Cue_Correlation_Filters_CVPR_2018_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT108
+TI  - Visual Tracking via Spatially Aligned Correlation Filters Network
+AU  - Zhang
+AU  - Mengdan and Wang
+AU  - Qiang and Xing
+AU  - Junliang and Gao
+AU  - Jin and Peng
+AU  - Peixi and Hu
+AU  - Weiming and Maybank
+AU  - Steve
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/mengdan_zhang_Visual_Tracking_via_ECCV_2018_paper.php
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT109
+TI  - Joint Group Feature Selection and Discriminative Filter Learning for Robust Visual Object Tracking
+AU  - Tianyang Xu
+AU  - Zhen-Hua Feng
+AU  - Xiao-Jun Wu
+AU  - Josef Kittler
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Xu_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_ICCV_2019_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT110
+TI  - Learning Aberrance Repressed Correlation Filters for Real-Time UAV Tracking
+AU  - Ziyuan Huang
+AU  - Changhong Fu
+AU  - Yiming Li
+AU  - Fuling Lin
+AU  - Peng Lu
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT111
+TI  - Object Tracking by Reconstruction With View-Specific Discriminative Correlation Filters
+AU  - Ugur Kart
+AU  - Alan Lukezic
+AU  - Matej Kristan
+AU  - Joni-Kristian Kamarainen
+AU  - Jiri Matas
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Kart_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlation_Filters_CVPR_2019_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT112
+TI  - ROI Pooled Correlation Filters for Visual Tracking
+AU  - Yuxuan Sun
+AU  - Chong Sun
+AU  - Dong Wang
+AU  - You He
+AU  - Huchuan Lu
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_ROI_Pooled_Correlation_Filters_for_Visual_Tracking_CVPR_2019_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT113
+TI  - Visual Tracking via Adaptive Spatially-Regularized Correlation Filters
+AU  - Kenan Dai
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Chong Sun
+AU  - Jianhua Li
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT114
+TI  - AutoTrack: Towards High-Performance Visual Tracking for UAV With Automatic Spatio-Temporal Regularization
+AU  - Yiming Li
+AU  - Changhong Fu
+AU  - Fangqiang Ding
+AU  - Ziyuan Huang
+AU  - Geng Lu
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.html
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT115
+TI  - Learning Feature Embeddings for Discriminant Model based Tracking
+AU  - Linyu Zheng
+AU  - Ming Tang
+AU  - Yingying Chen
+AU  - Jinqiao Wang
+AU  - Hanqing Lu
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2460_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58555-6_45
+KW  - 相关滤波与样本正则化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT116
+TI  - Siamese Instance Search for Tracking
+AU  - Ran Tao
+AU  - Efstratios Gavves
+AU  - Arnold W.M. Smeulders
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Tao_Siamese_Instance_Search_CVPR_2016_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT117
+TI  - A Twofold Siamese Network for Real-Time Object Tracking
+AU  - Anfeng He
+AU  - Chong Luo
+AU  - Xinmei Tian
+AU  - Wenjun Zeng
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/He_A_Twofold_Siamese_CVPR_2018_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT118
+TI  - Deep Regression Tracking with Shrinkage Loss
+AU  - Lu
+AU  - Xiankai and Ma
+AU  - Chao and Ni
+AU  - Bingbing and Yang
+AU  - Xiaokang and Reid
+AU  - Ian and Yang
+AU  - Ming-Hsuan
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Xiankai_Lu_Deep_Regression_Tracking_ECCV_2018_paper.php
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT119
+TI  - Distractor-aware Siamese Networks for Visual Object Tracking
+AU  - Zhu
+AU  - Zheng and Wang
+AU  - Qiang and Li
+AU  - Bo and Wu
+AU  - Wei and Yan
+AU  - Junjie and Hu
+AU  - Weiming
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Zheng_Zhu_Distractor-aware_Siamese_Networks_ECCV_2018_paper.php
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT120
+TI  - High Performance Visual Tracking With Siamese Region Proposal Network
+AU  - Bo Li
+AU  - Junjie Yan
+AU  - Wei Wu
+AU  - Zheng Zhu
+AU  - Xiaolin Hu
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT121
+TI  - Learning Attentions: Residual Attentional Siamese Network for High Performance Online Visual Tracking
+AU  - Qiang Wang
+AU  - Zhu Teng
+AU  - Junliang Xing
+AU  - Jin Gao
+AU  - Weiming Hu
+AU  - Stephen Maybank
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Learning_Attentions_Residual_CVPR_2018_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT122
+TI  - SINT++: Robust Visual Tracking via Adversarial Positive Instance Generation
+AU  - Xiao Wang
+AU  - Chenglong Li
+AU  - Bin Luo
+AU  - Jin Tang
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_SINT_Robust_Visual_CVPR_2018_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT123
+TI  - Triplet Loss in Siamese Network for Object Tracking
+AU  - Dong
+AU  - Xingping and Shen
+AU  - Jianbing
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Xingping_Dong_Triplet_Loss_with_ECCV_2018_paper.php
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT124
+TI  - Unveiling the Power of Deep Tracking
+AU  - Bhat
+AU  - Goutam and Johnander
+AU  - Joakim and Danelljan
+AU  - Martin and Shahbaz Khan
+AU  - Fahad and Felsberg
+AU  - Michael
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Goutam_Bhat_Unveiling_the_Power_ECCV_2018_paper.php
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT125
+TI  - VITAL: VIsual Tracking via Adversarial Learning
+AU  - Yibing Song
+AU  - Chao Ma
+AU  - Xiaohe Wu
+AU  - Lijun Gong
+AU  - Linchao Bao
+AU  - Wangmeng Zuo
+AU  - Chunhua Shen
+AU  - Rynson W.H. Lau
+AU  - Ming-Hsuan Yang
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Song_VITAL_VIsual_Tracking_CVPR_2018_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT126
+TI  - Deeper and Wider Siamese Networks for Real-Time Visual Tracking
+AU  - Zhipeng Zhang
+AU  - Houwen Peng
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deeper_and_Wider_Siamese_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT127
+TI  - Fast Online Object Tracking and Segmentation: A Unifying Approach
+AU  - Qiang Wang
+AU  - Li Zhang
+AU  - Luca Bertinetto
+AU  - Weiming Hu
+AU  - Philip H.S. Torr
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Fast_Online_Object_Tracking_and_Segmentation_A_Unifying_Approach_CVPR_2019_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT128
+TI  - Siamese Cascaded Region Proposal Networks for Real-Time Visual Tracking
+AU  - Heng Fan
+AU  - Haibin Ling
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT129
+TI  - SiamRPN++: Evolution of Siamese Visual Tracking With Very Deep Networks
+AU  - Bo Li
+AU  - Wei Wu
+AU  - Qiang Wang
+AU  - Fangyi Zhang
+AU  - Junliang Xing
+AU  - Junjie Yan
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Li_SiamRPN_Evolution_of_Siamese_Visual_Tracking_With_Very_Deep_Networks_CVPR_2019_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT130
+TI  - SPM-Tracker: Series-Parallel Matching for Real-Time Visual Object Tracking
+AU  - Guangting Wang
+AU  - Chong Luo
+AU  - Zhiwei Xiong
+AU  - Wenjun Zeng
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_SPM-Tracker_Series-Parallel_Matching_for_Real-Time_Visual_Object_Tracking_CVPR_2019_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT131
+TI  - Target-Aware Deep Tracking
+AU  - Xin Li
+AU  - Chao Ma
+AU  - Baoyuan Wu
+AU  - Zhenyu He
+AU  - Ming-Hsuan Yang
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Target-Aware_Deep_Tracking_CVPR_2019_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT132
+TI  - CLNet: A Compact Latent Network for Fast Adjusting Siamese Trackers
+AU  - Xingping Dong
+AU  - Jianbing Shen
+AU  - Ling Shao
+AU  - Fatih Porikli
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3485_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58565-5_23
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT133
+TI  - D3S - A Discriminative Single Shot Segmentation Tracker
+AU  - Alan Lukezic
+AU  - Jiri Matas
+AU  - Matej Kristan
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Lukezic_D3S_-_A_Discriminative_Single_Shot_Segmentation_Tracker_CVPR_2020_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT134
+TI  - Deformable Siamese Attention Networks for Visual Object Tracking
+AU  - Yuechen Yu
+AU  - Yilei Xiong
+AU  - Weilin Huang
+AU  - Matthew R. Scott
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Yu_Deformable_Siamese_Attention_Networks_for_Visual_Object_Tracking_CVPR_2020_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT135
+TI  - Ocean: Object-aware Anchor-free Tracking
+AU  - Zhipeng Zhang
+AU  - Houwen Peng
+AU  - Jianlong Fu Bing Li
+AU  - Weiming Hu
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3872_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58589-1_46
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT136
+TI  - PG-Net: Pixel to Global Matching Network for Visual Tracking
+AU  - Bingyan Liao
+AU  - Chenye Wang
+AU  - Yayun Wang
+AU  - Yaonong Wang
+AU  - Jun Yin
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4097_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58542-6_26
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT137
+TI  - SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking
+AU  - Dongyan Guo
+AU  - Jun Wang
+AU  - Ying Cui
+AU  - Zhenhua Wang
+AU  - Shengyong Chen
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Guo_SiamCAR_Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_Tracking_CVPR_2020_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT138
+TI  - Siamese Box Adaptive Network for Visual Tracking
+AU  - Zedu Chen
+AU  - Bineng Zhong
+AU  - Guorong Li
+AU  - Shengping Zhang
+AU  - Rongrong Ji
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Siamese_Box_Adaptive_Network_for_Visual_Tracking_CVPR_2020_paper.html
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT139
+TI  - Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation
+AU  - Bin Yan
+AU  - Xinyu Zhang
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Xiaoyun Yang
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.html
+SP  - 5289
+EP  - 5298
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT140
+TI  - CapsuleRRT: Relationships-Aware Regression Tracking via Capsules
+AU  - Ding Ma
+AU  - Xiangqian Wu
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Ma_CapsuleRRT_Relationships-Aware_Regression_Tracking_via_Capsules_CVPR_2021_paper.html
+SP  - 10948
+EP  - 10957
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT141
+TI  - Distractor-Aware Fast Tracking via Dynamic Convolutions and MOT Philosophy
+AU  - Zikai Zhang
+AU  - Bineng Zhong
+AU  - Shengping Zhang
+AU  - Zhenjun Tang
+AU  - Xin Liu
+AU  - Zhaoxiang Zhang
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Zhang_Distractor-Aware_Fast_Tracking_via_Dynamic_Convolutions_and_MOT_Philosophy_CVPR_2021_paper.html
+SP  - 1024
+EP  - 1033
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT142
+TI  - Graph Attention Tracking
+AU  - Dongyan Guo
+AU  - Yanyan Shao
+AU  - Ying Cui
+AU  - Zhenhua Wang
+AU  - Liyan Zhang
+AU  - Chunhua Shen
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Guo_Graph_Attention_Tracking_CVPR_2021_paper.html
+SP  - 9543
+EP  - 9552
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT143
+TI  - Learn To Match: Automatic Matching Network Design for Visual Tracking
+AU  - Zhipeng Zhang
+AU  - Yihao Liu
+AU  - Xiao Wang
+AU  - Bing Li
+AU  - Weiming Hu
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Learn_To_Match_Automatic_Matching_Network_Design_for_Visual_Tracking_ICCV_2021_paper.html
+SP  - 13339
+EP  - 13348
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT144
+TI  - Learning To Filter: Siamese Relation Network for Robust Tracking
+AU  - Siyuan Cheng
+AU  - Bineng Zhong
+AU  - Guorong Li
+AU  - Xin Liu
+AU  - Zhenjun Tang
+AU  - Xianxian Li
+AU  - Jing Wang
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Cheng_Learning_To_Filter_Siamese_Relation_Network_for_Robust_Tracking_CVPR_2021_paper.html
+SP  - 4421
+EP  - 4431
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT145
+TI  - Learning To Fuse Asymmetric Feature Maps in Siamese Trackers
+AU  - Wencheng Han
+AU  - Xingping Dong
+AU  - Fahad Shahbaz Khan
+AU  - Ling Shao
+AU  - Jianbing Shen
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.html
+SP  - 16570
+EP  - 16580
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT146
+TI  - Rotation Equivariant Siamese Networks for Tracking
+AU  - Deepak K. Gupta
+AU  - Devanshu Arya
+AU  - Efstratios Gavves
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Gupta_Rotation_Equivariant_Siamese_Networks_for_Tracking_CVPR_2021_paper.html
+SP  - 12362
+EP  - 12371
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT147
+TI  - Saliency-Associated Object Tracking
+AU  - Zikun Zhou
+AU  - Wenjie Pei
+AU  - Xin Li
+AU  - Hongpeng Wang
+AU  - Feng Zheng
+AU  - Zhenyu He
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Saliency-Associated_Object_Tracking_ICCV_2021_paper.html
+SP  - 9866
+EP  - 9875
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT148
+TI  - Correlation-Aware Deep Tracking
+AU  - Fei Xie
+AU  - Chunyu Wang
+AU  - Guangting Wang
+AU  - Yue Cao
+AU  - Wankou Yang
+AU  - Wenjun Zeng
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Xie_Correlation-Aware_Deep_Tracking_CVPR_2022_paper.html
+SP  - 8751
+EP  - 8760
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT149
+TI  - Ranking-Based Siamese Visual Tracking
+AU  - Feng Tang
+AU  - Qiang Ling
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Tang_Ranking-Based_Siamese_Visual_Tracking_CVPR_2022_paper.html
+SP  - 8741
+EP  - 8750
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT150
+TI  - Robust Visual Tracking by Segmentation
+AU  - Matthieu Paul
+AU  - Martin Danelljan
+AU  - Christoph Mayer
+AU  - Luc Van Gool
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5585_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-20047-2_33
+KW  - 孪生匹配与目标条件化
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT151
+TI  - Hedged Deep Tracking
+AU  - Yuankai Qi
+AU  - Shengping Zhang
+AU  - Lei Qin
+AU  - Hongxun Yao
+AU  - Qingming Huang
+AU  - Jongwoo Lim
+AU  - Ming-Hsuan Yang
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Qi_Hedged_Deep_Tracking_CVPR_2016_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT152
+TI  - Learning Multi-Domain Convolutional Neural Networks for Visual Tracking
+AU  - Hyeonseob Nam
+AU  - Bohyung Han
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT153
+TI  - Object Tracking via Dual Linear Structured SVM and Explicit Feature Map
+AU  - Jifeng Ning
+AU  - Jimei Yang
+AU  - Shaojie Jiang
+AU  - Lei Zhang
+AU  - Ming-Hsuan Yang
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Ning_Object_Tracking_via_CVPR_2016_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT154
+TI  - Recurrently Target-Attending Tracking
+AU  - Zhen Cui
+AU  - Shengtao Xiao
+AU  - Jiashi Feng
+AU  - Shuicheng Yan
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Cui_Recurrently_Target-Attending_Tracking_CVPR_2016_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT155
+TI  - STCT: Sequentially Training Convolutional Networks for Visual Tracking
+AU  - Lijun Wang
+AU  - Wanli Ouyang
+AU  - Xiaogang Wang
+AU  - Huchuan Lu
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Wang_STCT_Sequentially_Training_CVPR_2016_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT156
+TI  - Action-Decision Networks for Visual Tracking With Deep Reinforcement Learning
+AU  - Sangdoo Yun
+AU  - Jongwon Choi
+AU  - Youngjoon Yoo
+AU  - Kimin Yun
+AU  - Jin Young Choi
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Yun_Action-Decision_Networks_for_CVPR_2017_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT157
+TI  - BranchOut: Regularization for Online Ensemble Tracking With Convolutional Neural Networks
+AU  - Bohyung Han
+AU  - Jack Sim
+AU  - Hartwig Adam
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Han_BranchOut_Regularization_for_CVPR_2017_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT158
+TI  - Learning Dynamic Siamese Network for Visual Object Tracking
+AU  - Qing Guo
+AU  - Wei Feng
+AU  - Ce Zhou
+AU  - Rui Huang
+AU  - Liang Wan
+AU  - Song Wang
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT159
+TI  - Learning Policies for Adaptive Tracking With Deep Feature Cascades
+AU  - Chen Huang
+AU  - Simon Lucey
+AU  - Deva Ramanan
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Huang_Learning_Policies_for_ICCV_2017_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT160
+TI  - Tracking as Online Decision-Making: Learning a Policy From Streaming Videos With Reinforcement Learning
+AU  - James Supancic
+AU  - III
+AU  - Deva Ramanan
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Supancic_Tracking_as_Online_ICCV_2017_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT161
+TI  - Deep Reinforcement Learning with Iterative Shift for Visual Tracking
+AU  - Ren
+AU  - Liangliang and Yuan
+AU  - Xin and Lu
+AU  - Jiwen and Yang
+AU  - Ming and Zhou
+AU  - Jie
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Liangliang_Ren_Deep_Reinforcement_Learning_ECCV_2018_paper.php
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT162
+TI  - Hyperparameter Optimization for Tracking With Continuous Deep Q-Learning
+AU  - Xingping Dong
+AU  - Jianbing Shen
+AU  - Wenguan Wang
+AU  - Yu Liu
+AU  - Ling Shao
+AU  - Fatih Porikli
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Hyperparameter_Optimization_for_CVPR_2018_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT163
+TI  - Meta-Tracker: Fast and Robust Online Adaptation for Visual Object Trackers
+AU  - Park
+AU  - Eunbyung and Berg
+AU  - Alexander C.
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Eunbyung_Park_Meta-Tracker_Fast_and_ECCV_2018_paper.php
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT164
+TI  - Real-time 'Actor-Critic' Tracking
+AU  - Chen
+AU  - Boyu and Wang
+AU  - Dong and Li
+AU  - Peixia and Wang
+AU  - Shuang and Lu
+AU  - Huchuan
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Boyu_Chen_Real-time_Actor-Critic_Tracking_ECCV_2018_paper.php
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT165
+TI  - ATOM: Accurate Tracking by Overlap Maximization
+AU  - Martin Danelljan
+AU  - Goutam Bhat
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT166
+TI  - Deep Meta Learning for Real-Time Target-Aware Visual Tracking
+AU  - Janghoon Choi
+AU  - Junseok Kwon
+AU  - Kyoung Mu Lee
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking_ICCV_2019_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT167
+TI  - GradNet: Gradient-Guided Network for Visual Object Tracking
+AU  - Peixia Li
+AU  - Boyu Chen
+AU  - Wanli Ouyang
+AU  - Dong Wang
+AU  - Xiaoyun Yang
+AU  - Huchuan Lu
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Li_GradNet_Gradient-Guided_Network_for_Visual_Object_Tracking_ICCV_2019_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT168
+TI  - High-Performance Long-Term Tracking With Meta-Updater
+AU  - Kenan Dai
+AU  - Yunhua Zhang
+AU  - Dong Wang
+AU  - Jianhua Li
+AU  - Huchuan Lu
+AU  - Xiaoyun Yang
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT169
+TI  - Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking
+AU  - Jin Gao
+AU  - Weiming Hu
+AU  - Yan Lu
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Gao_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking_CVPR_2020_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT170
+TI  - ROAM: Recurrently Optimizing Tracking Model
+AU  - Tianyu Yang
+AU  - Pengfei Xu
+AU  - Runbo Hu
+AU  - Hua Chai
+AU  - Antoni B. Chan
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_ROAM_Recurrently_Optimizing_Tracking_Model_CVPR_2020_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT171
+TI  - Tracking by Instance Detection: A Meta-Learning Approach
+AU  - Guangting Wang
+AU  - Chong Luo
+AU  - Xiaoyan Sun
+AU  - Zhiwei Xiong
+AU  - Wenjun Zeng
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Tracking_by_Instance_Detection_A_Meta-Learning_Approach_CVPR_2020_paper.html
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT172
+TI  - Towards Sequence-Level Training for Visual Tracking
+AU  - Minji Kim
+AU  - Seungkwan Lee
+AU  - Jungseul Ok
+AU  - Bohyung Han
+AU  - Minsu Cho
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/5099_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-20047-2_31
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT173
+TI  - Transforming Model Prediction for Tracking
+AU  - Christoph Mayer
+AU  - Martin Danelljan
+AU  - Goutam Bhat
+AU  - Matthieu Paul
+AU  - Danda Pani Paudel
+AU  - Fisher Yu
+AU  - Luc Van Gool
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Mayer_Transforming_Model_Prediction_for_Tracking_CVPR_2022_paper.html
+SP  - 8731
+EP  - 8740
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT174
+TI  - Tracking Meets LoRA: Faster Training, Larger Model, Stronger Performance
+AU  - Liting Lin
+AU  - Heng Fan
+AU  - Zhipeng Zhang
+AU  - Yaowei Wang
+AU  - Yong Xu
+AU  - Haibin Ling
+PY  - 2024
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/113_ECCV_2024_paper.php
+DO  - 10.1007/978-3-031-73232-4_17
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT175
+TI  - SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking
+AU  - Wenrui Cai
+AU  - Qingjie Liu
+AU  - Yunhong Wang
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Cai_SPMTrack_Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Experts_for_Scalable_CVPR_2025_paper.html
+SP  - 16871
+EP  - 16881
+KW  - 更新策略与在线适应
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT176
+TI  - Correlation-Guided Attention for Corner Detection Based Visual Tracking
+AU  - Fei Du
+AU  - Peng Liu
+AU  - Wei Zhao
+AU  - Xianglong Tang
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Du_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking_CVPR_2020_paper.html
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT177
+TI  - HiFT: Hierarchical Feature Transformer for Aerial Tracking
+AU  - Ziang Cao
+AU  - Changhong Fu
+AU  - Junjie Ye
+AU  - Bowen Li
+AU  - Yiming Li
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Cao_HiFT_Hierarchical_Feature_Transformer_for_Aerial_Tracking_ICCV_2021_paper.html
+SP  - 15457
+EP  - 15466
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT178
+TI  - High-Performance Discriminative Tracking With Transformers
+AU  - Bin Yu
+AU  - Ming Tang
+AU  - Linyu Zheng
+AU  - Guibo Zhu
+AU  - Jinqiao Wang
+AU  - Hao Feng
+AU  - Xuetao Feng
+AU  - Hanqing Lu
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Yu_High-Performance_Discriminative_Tracking_With_Transformers_ICCV_2021_paper.html
+SP  - 9856
+EP  - 9865
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT179
+TI  - AiATrack: Attention in Attention for Transformer Visual Tracking
+AU  - Shenyuan Gao
+AU  - Chunluan Zhou
+AU  - Chao Ma
+AU  - Xinggang Wang
+AU  - Junsong Yuan
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1951_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-20047-2_9
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT180
+TI  - Backbone Is All Your Need: A Simplified Architecture for Visual Object Tracking
+AU  - Boyu Chen
+AU  - Peixia Li
+AU  - Lei Bai
+AU  - Lei Qiao
+AU  - Qiuhong Shen
+AU  - Bo Li
+AU  - Weihao Gan
+AU  - Wei Wu
+AU  - Wanli Ouyang
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4252_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-20047-2_22
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT181
+TI  - Hierarchical Feature Embedding for Visual Tracking
+AU  - Zhixiong Pi
+AU  - Weitao Wan
+AU  - Chong Sun
+AU  - Changxin Gao
+AU  - Nong Sang
+AU  - Chen Li
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4400_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-20047-2_25
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT182
+TI  - Transformer Tracking With Cyclic Shifting Window Attention
+AU  - Zikai Song
+AU  - Junqing Yu
+AU  - Yi-Ping Phoebe Chen
+AU  - Wei Yang
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Song_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention_CVPR_2022_paper.html
+SP  - 8791
+EP  - 8800
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT183
+TI  - Unified Transformer Tracker for Object Tracking
+AU  - Fan Ma
+AU  - Mike Zheng Shou
+AU  - Linchao Zhu
+AU  - Haoqi Fan
+AU  - Yilei Xu
+AU  - Yi Yang
+AU  - Zhicheng Yan
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Ma_Unified_Transformer_Tracker_for_Object_Tracking_CVPR_2022_paper.html
+SP  - 8781
+EP  - 8790
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT184
+TI  - Foreground-Background Distribution Modeling Transformer for Visual Object Tracking
+AU  - Dawei Yang
+AU  - Jianfeng He
+AU  - Yinchao Ma
+AU  - Qianjin Yu
+AU  - Tianzhu Zhang
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Yang_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Tracking_ICCV_2023_paper.html
+SP  - 10117
+EP  - 10127
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT185
+TI  - Generalized Relation Modeling for Transformer Tracking
+AU  - Shenyuan Gao
+AU  - Chunluan Zhou
+AU  - Jun Zhang
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.html
+SP  - 18686
+EP  - 18695
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT186
+TI  - VideoTrack: Learning To Track Objects via Video Transformer
+AU  - Fei Xie
+AU  - Lei Chu
+AU  - Jiahao Li
+AU  - Yan Lu
+AU  - Chao Ma
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Xie_VideoTrack_Learning_To_Track_Objects_via_Video_Transformer_CVPR_2023_paper.html
+SP  - 22826
+EP  - 22835
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT187
+TI  - Autoregressive Queries for Adaptive Tracking with Spatio-Temporal Transformers
+AU  - Jinxia Xie
+AU  - Bineng Zhong
+AU  - Zhiyi Mo
+AU  - Shengping Zhang
+AU  - Liangtao Shi
+AU  - Shuxiang Song
+AU  - Rongrong Ji
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Xie_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers_CVPR_2024_paper.html
+SP  - 19300
+EP  - 19309
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT188
+TI  - Drift-Resilient Temporal Priors for Visual Tracking
+AU  - Yuqing Huang
+AU  - Liting Lin
+AU  - Weijun Zhuang
+AU  - Zhenyu He
+AU  - Xin Li
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Drift-Resilient_Temporal_Priors_for_Visual_Tracking_CVPR_2026_paper.html
+SP  - 6847
+EP  - 6856
+KW  - 注意力与时序状态建模
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT189
+TI  - Autoregressive Visual Tracking
+AU  - Xing Wei
+AU  - Yifan Bai
+AU  - Yongchao Zheng
+AU  - Dahu Shi
+AU  - Yihong Gong
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Wei_Autoregressive_Visual_Tracking_CVPR_2023_paper.html
+SP  - 9697
+EP  - 9706
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT190
+TI  - SeqTrack: Sequence to Sequence Learning for Visual Object Tracking
+AU  - Xin Chen
+AU  - Houwen Peng
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Han Hu
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Chen_SeqTrack_Sequence_to_Sequence_Learning_for_Visual_Object_Tracking_CVPR_2023_paper.html
+SP  - 14572
+EP  - 14581
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT191
+TI  - ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe
+AU  - Yifan Bai
+AU  - Zeyang Zhao
+AU  - Yihong Gong
+AU  - Xing Wei
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Bai_ARTrackV2_Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_CVPR_2024_paper.html
+SP  - 19048
+EP  - 19057
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT192
+TI  - DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking
+AU  - Fei Xie
+AU  - Zhongdao Wang
+AU  - Chao Ma
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html
+SP  - 19113
+EP  - 19124
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT193
+TI  - Autoregressive Sequential Pretraining for Visual Tracking
+AU  - Shiyi Liang
+AU  - Yifan Bai
+AU  - Yihong Gong
+AU  - Xing Wei
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Liang_Autoregressive_Sequential_Pretraining_for_Visual_Tracking_CVPR_2025_paper.html
+SP  - 7254
+EP  - 7264
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT194
+TI  - DreamTrack: Dreaming the Future for Multimodal Visual Object Tracking
+AU  - Mingzhe Guo
+AU  - Weiping Tan
+AU  - Wenyu Ran
+AU  - Liping Jing
+AU  - Zhipeng Zhang
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.html
+SP  - 7201
+EP  - 7210
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT195
+TI  - Adaptive Capacity Autoregressive Visual Tracking
+AU  - Tong Lin
+AU  - Yifan Bai
+AU  - Shiyi Liang
+AU  - Ruigang Niu
+AU  - Xing Wei
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.html
+SP  - 13574
+EP  - 13583
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT196
+TI  - TGTrack: Temporal Generative Learning for Unified Single Object Tracking
+AU  - Wanting Geng
+AU  - Xin Chen
+AU  - Chuanyu Sun
+AU  - Jie Zhao
+AU  - Ben Kang
+AU  - Dong Wang
+AU  - Huchuan Lu
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.html
+SP  - 28134
+EP  - 28144
+KW  - 自回归与生成式跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT197
+TI  - Unsupervised Deep Tracking
+AU  - Ning Wang
+AU  - Yibing Song
+AU  - Chao Ma
+AU  - Wengang Zhou
+AU  - Wei Liu
+AU  - Houqiang Li
+PY  - 2019
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Unsupervised_Deep_Tracking_CVPR_2019_paper.html
+KW  - 自监督训练与表征迁移
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT198
+TI  - Learning To Track Objects From Unlabeled Videos
+AU  - Jilai Zheng
+AU  - Chao Ma
+AU  - Houwen Peng
+AU  - Xiaokang Yang
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Zheng_Learning_To_Track_Objects_From_Unlabeled_Videos_ICCV_2021_paper.html
+SP  - 13546
+EP  - 13555
+KW  - 自监督训练与表征迁移
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT199
+TI  - Progressive Unsupervised Learning for Visual Object Tracking
+AU  - Qiangqiang Wu
+AU  - Jia Wan
+AU  - Antoni B. Chan
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Wu_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking_CVPR_2021_paper.html
+SP  - 2993
+EP  - 3002
+KW  - 自监督训练与表征迁移
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT200
+TI  - Unsupervised Learning of Accurate Siamese Tracking
+AU  - Qiuhong Shen
+AU  - Lei Qiao
+AU  - Jinyang Guo
+AU  - Peixia Li
+AU  - Xin Li
+AU  - Bo Li
+AU  - Weitao Feng
+AU  - Weihao Gan
+AU  - Wei Wu
+AU  - Wanli Ouyang
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Shen_Unsupervised_Learning_of_Accurate_Siamese_Tracking_CVPR_2022_paper.html
+SP  - 8101
+EP  - 8110
+KW  - 自监督训练与表征迁移
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT201
+TI  - DropMAE: Masked Autoencoders With Spatial-Attention Dropout for Tracking Tasks
+AU  - Qiangqiang Wu
+AU  - Tianyu Yang
+AU  - Ziquan Liu
+AU  - Baoyuan Wu
+AU  - Ying Shan
+AU  - Antoni B. Chan
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.html
+SP  - 14561
+EP  - 14571
+KW  - 自监督训练与表征迁移
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT202
+TI  - Representation Learning for Visual Object Tracking by Masked Appearance Transfer
+AU  - Haojie Zhao
+AU  - Dong Wang
+AU  - Huchuan Lu
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transfer_CVPR_2023_paper.html
+SP  - 18696
+EP  - 18705
+KW  - 自监督训练与表征迁移
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT203
+TI  - Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning
+AU  - Yaozong Zheng
+AU  - Qihua Liang
+AU  - Bineng Zhong
+AU  - Shuimu Zeng
+AU  - Yuanliang Xue
+AU  - Ning Li
+AU  - Shuxiang Song
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning_CVPR_2026_paper.html
+SP  - 35197
+EP  - 35206
+KW  - 自监督训练与表征迁移
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT204
+TI  - Self-Paced Learning for Long-Term Tracking
+AU  - James S. Supancic III
+AU  - Deva Ramanan
+PY  - 2013
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2013/html/Supancic_III_Self-Paced_Learning_for_2013_CVPR_paper.html
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT205
+TI  - Long-Term Correlation Tracking
+AU  - Chao Ma
+AU  - Xiaokang Yang
+AU  - Chongyang Zhang
+AU  - Ming-Hsuan Yang
+PY  - 2015
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2015/html/Ma_Long-Term_Correlation_Tracking_2015_CVPR_paper.html
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT206
+TI  - Beyond Local Search: Tracking Objects Everywhere With Instance-Specific Proposals
+AU  - Gao Zhu
+AU  - Fatih Porikli
+AU  - Hongdong Li
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Zhu_Beyond_Local_Search_CVPR_2016_paper.html
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT207
+TI  - Parallel Tracking and Verifying: A Framework for Real-Time and High Accuracy Visual Tracking
+AU  - Heng Fan
+AU  - Haibin Ling
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Fan_Parallel_Tracking_and_ICCV_2017_paper.html
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT208
+TI  - 'Skimming-Perusal' Tracking: A Framework for Real-Time and Robust Long-Term Tracking
+AU  - Bin Yan
+AU  - Haojie Zhao
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Xiaoyun Yang
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Skimming-Perusal_Tracking_A_Framework_for_Real-Time_and_Robust_Long-Term_Tracking_ICCV_2019_paper.html
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT209
+TI  - Know Your Surroundings: Exploiting Scene Information for Object Tracking
+AU  - Goutam Bhat
+AU  - Martin Danelljan
+AU  - Luc Van Gool
+AU  - Radu Timofte
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4297_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58592-1_13
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT210
+TI  - RTracker: Recoverable Tracking via PN Tree Structured Memory
+AU  - Yuqing Huang
+AU  - Xin Li
+AU  - Zikun Zhou
+AU  - Yaowei Wang
+AU  - Zhenyu He
+AU  - Ming-Hsuan Yang
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Huang_RTracker_Recoverable_Tracking_via_PN_Tree_Structured_Memory_CVPR_2024_paper.html
+SP  - 19038
+EP  - 19047
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT211
+TI  - A Distractor-Aware Memory for Visual Object Tracking with SAM2
+AU  - Jovana Videnovic
+AU  - Alan Lukezic
+AU  - Matej Kristan
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Videnovic_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2_CVPR_2025_paper.html
+SP  - 24255
+EP  - 24264
+KW  - 长时跟踪与记忆恢复
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT212
+TI  - Context-Aware Deep Feature Compression for High-Speed Visual Tracking
+AU  - Jongwon Choi
+AU  - Hyung Jin Chang
+AU  - Tobias Fischer
+AU  - Sangdoo Yun
+AU  - Kyuewang Lee
+AU  - Jiyeoup Jeong
+AU  - Yiannis Demiris
+AU  - Jin Young Choi
+PY  - 2018
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2018/html/Choi_Context-Aware_Deep_Feature_CVPR_2018_paper.html
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT213
+TI  - LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search
+AU  - Bin Yan
+AU  - Houwen Peng
+AU  - Kan Wu
+AU  - Dong Wang
+AU  - Jianlong Fu
+AU  - Huchuan Lu
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Yan_LightTrack_Finding_Lightweight_Neural_Networks_for_Object_Tracking_via_One-Shot_CVPR_2021_paper.html
+SP  - 15180
+EP  - 15189
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT214
+TI  - FEAR: Fast, Efficient, Accurate and Robust Visual Tracker
+AU  - Vasyl Borsuk
+AU  - Roman Vei
+AU  - Orest Kupyn
+AU  - Tetiana Martyniuk
+AU  - Igor Krashenyi
+AU  - Jiři Matas
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6990_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-20047-2_37
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT215
+TI  - Exploring Lightweight Hierarchical Vision Transformers for Efficient Visual Tracking
+AU  - Ben Kang
+AU  - Xin Chen
+AU  - Dong Wang
+AU  - Houwen Peng
+AU  - Huchuan Lu
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Kang_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tracking_ICCV_2023_paper.html
+SP  - 9612
+EP  - 9621
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT216
+TI  - Exploring the Feature Extraction and Relation Modeling For Light-Weight Transformer Tracking
+AU  - Jikai Zheng
+AU  - Mingjiang Liang
+AU  - Shaoli Huang
+AU  - Jifeng Ning
+PY  - 2024
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/4168_ECCV_2024_paper.php
+DO  - 10.1007/978-3-031-73397-0_7
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT217
+TI  - General Compression Framework for Efficient Transformer Object Tracking
+AU  - Lingyi Hong
+AU  - Jinglun Li
+AU  - Xinyu Zhou
+AU  - Shilin Yan
+AU  - Pinxue Guo
+AU  - Kaixun Jiang
+AU  - Zhaoyu Chen
+AU  - Shuyong Gao
+AU  - Runze Li
+AU  - Xingdong Sheng
+AU  - Wei Zhang
+AU  - Hong Lu
+AU  - Wenqiang Zhang
+PY  - 2025
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Hong_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking_ICCV_2025_paper.html
+SP  - 13427
+EP  - 13437
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT218
+TI  - An Efficient Token Compression Framework for Visual Object Tracking
+AU  - Weijing Wu
+AU  - Qihua Liang
+AU  - Bineng Zhong
+AU  - Haiying Xia
+AU  - Zhiyi Mo
+AU  - Shuxiang Song
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.html
+SP  - 6857
+EP  - 6867
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT219
+TI  - SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking
+AU  - Qiuyang Zhang
+AU  - Jiujun Cheng
+AU  - Qichao Mao
+AU  - Cong Liu
+AU  - Yu Fang
+AU  - Yuhong Li
+AU  - Mengying Ge
+AU  - Shangce Gao
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.html
+SP  - 6802
+EP  - 6811
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT220
+TI  - UETrack: A Unified and Efficient Framework for Single Object Tracking
+AU  - Ben Kang
+AU  - Jie Zhao
+AU  - Xin Chen
+AU  - Wanting Geng
+AU  - Bin Zhang
+AU  - Lu Zhang
+AU  - Dong Wang
+AU  - Huchuan Lu
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Kang_UETrack_A_Unified_and_Efficient_Framework_for_Single_Object_Tracking_CVPR_2026_paper.html
+SP  - 20890
+EP  - 20901
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT221
+TI  - UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking
+AU  - Hao Wu
+AU  - Xudong Wang
+AU  - Jialiang Zhang
+AU  - Junlong Tong
+AU  - Xinghao Chen
+AU  - Junyan Lin
+AU  - Yunpu Ma
+AU  - Xiaoyu Shen
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Wu_UTPTrack_Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking_CVPR_2026_paper.html
+SP  - 20963
+EP  - 20972
+KW  - 高效跟踪与资源预算
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT222
+TI  - Unsupervised Domain Adaptation for Nighttime Aerial Tracking
+AU  - Junjie Ye
+AU  - Changhong Fu
+AU  - Guangze Zheng
+AU  - Danda Pani Paudel
+AU  - Guang Chen
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Ye_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking_CVPR_2022_paper.html
+SP  - 8896
+EP  - 8905
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT223
+TI  - Adaptive and Background-Aware Vision Transformer for Real-Time UAV Tracking
+AU  - Shuiwang Li
+AU  - Yangxiang Yang
+AU  - Dan Zeng
+AU  - Xucheng Wang
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Li_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking_ICCV_2023_paper.html
+SP  - 13989
+EP  - 14000
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT224
+TI  - PVT++: A Simple End-to-End Latency-Aware Visual Tracking Framework
+AU  - Bowen Li
+AU  - Ziyuan Huang
+AU  - Junjie Ye
+AU  - Yiming Li
+AU  - Sebastian Scherer
+AU  - Hang Zhao
+AU  - Changhong Fu
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Li_PVT_A_Simple_End-to-End_Latency-Aware_Visual_Tracking_Framework_ICCV_2023_paper.html
+SP  - 10006
+EP  - 10016
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT225
+TI  - Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking
+AU  - You Wu
+AU  - Xucheng Wang
+AU  - Xiangyang Yang
+AU  - Mengyuan Liu
+AU  - Dan Zeng
+AU  - Hengzhou Ye
+AU  - Shuiwang Li
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking_CVPR_2025_paper.html
+SP  - 17103
+EP  - 17113
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT226
+TI  - Similarity-Guided Layer-Adaptive Vision Transformer for UAV Tracking
+AU  - Chaocan Xue
+AU  - Bineng Zhong
+AU  - Qihua Liang
+AU  - Yaozong Zheng
+AU  - Ning Li
+AU  - Yuanliang Xue
+AU  - Shuxiang Song
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Xue_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking_CVPR_2025_paper.html
+SP  - 6730
+EP  - 6740
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT227
+TI  - UMDATrack: Unified Multi-Domain Adaptive Tracking Under Adverse Weather Conditions
+AU  - Siyuan Yao
+AU  - Rui Zhu
+AU  - Ziqi Wang
+AU  - Wenqi Ren
+AU  - Yanyang Yan
+AU  - Xiaochun Cao
+PY  - 2025
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Yao_UMDATrack_Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Conditions_ICCV_2025_paper.html
+SP  - 6466
+EP  - 6475
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT228
+TI  - Dual-branch Distilled Transformer for Efficient Asymmetric UAV Tracking
+AU  - Hongtao Yang
+AU  - Bineng Zhong
+AU  - Qihua Liang
+AU  - Yaozong Zheng
+AU  - Xiantao Hu
+AU  - Yuanliang Xue
+AU  - Shuxiang Song
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking_CVPR_2026_paper.html
+SP  - 13615
+EP  - 13625
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT229
+TI  - Rethinking Occlusion Modeling for UAV Tracking
+AU  - Jian Zhang
+AU  - Xincheng Yu
+AU  - Yi Lin
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Rethinking_Occlusion_Modeling_for_UAV_Tracking_CVPR_2026_paper.html
+SP  - 13563
+EP  - 13573
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT230
+TI  - Toward Low-Cost yet Effective Temporal Learning for UAV Tracking
+AU  - Chaocan Xue
+AU  - Qihua Liang
+AU  - Bineng Zhong
+AU  - Yanting Zu
+AU  - Yuanliang Xue
+AU  - Haiying Xia
+AU  - Shuxiang Song
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Xue_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking_CVPR_2026_paper.html
+SP  - 42538
+EP  - 42548
+KW  - 无人机与退化观测
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT231
+TI  - Tracking by Natural Language Specification
+AU  - Zhenyang Li
+AU  - Ran Tao
+AU  - Efstratios Gavves
+AU  - Cees G. M. Snoek
+AU  - Arnold W.M. Smeulders
+PY  - 2017
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2017/html/Li_Tracking_by_Natural_CVPR_2017_paper.html
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT232
+TI  - Siamese Natural Language Tracker: Tracking by Natural Language Descriptions With Siamese Trackers
+AU  - Qi Feng
+AU  - Vitaly Ablavsky
+AU  - Qinxun Bai
+AU  - Stan Sclaroff
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.html
+SP  - 5851
+EP  - 5860
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT233
+TI  - Towards More Flexible and Accurate Object Tracking With Natural Language: Algorithms and Benchmark
+AU  - Xiao Wang
+AU  - Xiujun Shu
+AU  - Zhipeng Zhang
+AU  - Bo Jiang
+AU  - Yaowei Wang
+AU  - Yonghong Tian
+AU  - Feng Wu
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language_CVPR_2021_paper.html
+SP  - 13763
+EP  - 13773
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT234
+TI  - CiteTracker: Correlating Image and Text for Visual Tracking
+AU  - Xin Li
+AU  - Yuqing Huang
+AU  - Zhenyu He
+AU  - Yaowei Wang
+AU  - Huchuan Lu
+AU  - Ming-Hsuan Yang
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Li_CiteTracker_Correlating_Image_and_Text_for_Visual_Tracking_ICCV_2023_paper.html
+SP  - 9974
+EP  - 9983
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT235
+TI  - Joint Visual Grounding and Tracking With Natural Language Specification
+AU  - Li Zhou
+AU  - Zikun Zhou
+AU  - Kaige Mao
+AU  - Zhenyu He
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification_CVPR_2023_paper.html
+SP  - 23151
+EP  - 23160
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT236
+TI  - Tracking by Natural Language Specification with Long Short-term Context Decoupling
+AU  - Ding Ma
+AU  - Xiangqian Wu
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Ma_Tracking_by_Natural_Language_Specification_with_Long_Short-term_Context_Decoupling_ICCV_2023_paper.html
+SP  - 14012
+EP  - 14021
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT237
+TI  - Context-Aware Integration of Language and Visual References for Natural Language Tracking
+AU  - Yanyan Shao
+AU  - Shuting He
+AU  - Qi Ye
+AU  - Yuchao Feng
+AU  - Wenhan Luo
+AU  - Jiming Chen
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Shao_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Language_CVPR_2024_paper.html
+SP  - 19208
+EP  - 19217
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT238
+TI  - ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking
+AU  - Xiaokun Feng
+AU  - Shiyu Hu
+AU  - Xuchen Li
+AU  - Dailing Zhang
+AU  - Meiqi Wu
+AU  - Jing Zhang
+AU  - Xiaotang Chen
+AU  - Kaiqi Huang
+PY  - 2025
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.html
+SP  - 19850
+EP  - 19861
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT239
+TI  - Dynamic Updates for Language Adaptation in Visual-Language Tracking
+AU  - Xiaohai Li
+AU  - Bineng Zhong
+AU  - Qihua Liang
+AU  - Zhiyi Mo
+AU  - Jian Nong
+AU  - Shuxiang Song
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Li_Dynamic_Updates_for_Language_Adaptation_in_Visual-Language_Tracking_CVPR_2025_paper.html
+SP  - 19165
+EP  - 19174
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT240
+TI  - MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking
+AU  - Xinqi Liu
+AU  - Li Zhou
+AU  - Zikun Zhou
+AU  - Jianqiu Chen
+AU  - Zhenyu He
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.html
+SP  - 8731
+EP  - 8741
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT241
+TI  - Beyond Explicit Language: Plug-and-Play Visual-to-Linguistic Modeling Toward General Object Tracking
+AU  - Kaiyang Lan
+AU  - Ying Cui
+AU  - Chenchen Jing
+AU  - Jianwei Zheng
+AU  - Dongyan Guo
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Lan_Beyond_Explicit_Language_Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_General_Object_Tracking_CVPR_2026_paper.html
+SP  - 42604
+EP  - 42614
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT242
+TI  - Learning to Track Instance from Single Nature Language Description
+AU  - Yaozong Zheng
+AU  - Bineng Zhong
+AU  - Qihua Liang
+AU  - Shuimu Zeng
+AU  - Haiying Xia
+AU  - Shuxiang Song
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_Learning_to_Track_Instance_from_Single_Nature_Language_Description_CVPR_2026_paper.html
+SP  - 20922
+EP  - 20931
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT243
+TI  - MVLM: Template-Free Tracking via Vision-Language Margin Confidence and Memory-Gated Tracking
+AU  - Dae-Hyeon Park
+AU  - Mina Baek
+AU  - Jeong-Hun Ha
+AU  - Chan-Seop Park
+AU  - Jamshidjon Ganiev
+AU  - Seung-Hwan Bae
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.html
+SP  - 35156
+EP  - 35165
+KW  - 语言条件与语义更新
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT244
+TI  - Object Tracking by Jointly Exploiting Frame and Event Domain
+AU  - Jiqing Zhang
+AU  - Xin Yang
+AU  - Yingkai Fu
+AU  - Xiaopeng Wei
+AU  - Baocai Yin
+AU  - Bo Dong
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain_ICCV_2021_paper.html
+SP  - 13043
+EP  - 13052
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT245
+TI  - Bridging Search Region Interaction With Template for RGB-T Tracking
+AU  - Tianrui Hui
+AU  - Zizheng Xun
+AU  - Fengguang Peng
+AU  - Junshi Huang
+AU  - Xiaoming Wei
+AU  - Xiaolin Wei
+AU  - Jiao Dai
+AU  - Jizhong Han
+AU  - Si Liu
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.html
+SP  - 13630
+EP  - 13639
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT246
+TI  - Visual Prompt Multi-Modal Tracking
+AU  - Jiawen Zhu
+AU  - Simiao Lai
+AU  - Xin Chen
+AU  - Dong Wang
+AU  - Huchuan Lu
+PY  - 2023
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2023/html/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.html
+SP  - 9516
+EP  - 9526
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT247
+TI  - OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning
+AU  - Lingyi Hong
+AU  - Shilin Yan
+AU  - Renrui Zhang
+AU  - Wanyun Li
+AU  - Xinyu Zhou
+AU  - Pinxue Guo
+AU  - Kaixun Jiang
+AU  - Yiting Chen
+AU  - Jinglun Li
+AU  - Zhaoyu Chen
+AU  - Wenqiang Zhang
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Hong_OneTracker_Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficient_CVPR_2024_paper.html
+SP  - 19079
+EP  - 19091
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT248
+TI  - SDSTrack: Self-Distillation Symmetric Adapter Learning for Multi-Modal Visual Object Tracking
+AU  - Xiaojun Hou
+AU  - Jiazheng Xing
+AU  - Yijie Qian
+AU  - Yaowei Guo
+AU  - Shuo Xin
+AU  - Junhao Chen
+AU  - Kai Tang
+AU  - Mengmeng Wang
+AU  - Zhengkai Jiang
+AU  - Liang Liu
+AU  - Yong Liu
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Hou_SDSTrack_Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_Object_Tracking_CVPR_2024_paper.html
+SP  - 26551
+EP  - 26561
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT249
+TI  - Single-Model and Any-Modality for Video Object Tracking
+AU  - Zongwei Wu
+AU  - Jilai Zheng
+AU  - Xiangxuan Ren
+AU  - Florin-Alexandru Vasluianu
+AU  - Chao Ma
+AU  - Danda Pani Paudel
+AU  - Luc Van Gool
+AU  - Radu Timofte
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Single-Model_and_Any-Modality_for_Video_Object_Tracking_CVPR_2024_paper.html
+SP  - 19156
+EP  - 19166
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT250
+TI  - Exploring Historical Information for RGBE Visual Tracking with Mamba
+AU  - Chuanyu Sun
+AU  - Jiqing Zhang
+AU  - Yang Wang
+AU  - Huilin Ge
+AU  - Qianchen Xia
+AU  - Baocai Yin
+AU  - Xin Yang
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba_CVPR_2025_paper.html
+SP  - 6500
+EP  - 6509
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT251
+TI  - PURA: Parameter Update-Recovery Test-Time Adaption for RGB-T Tracking
+AU  - Zekai Shao
+AU  - Yufan Hu
+AU  - Bin Fan
+AU  - Hongmin Liu
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Shao_PURA_Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking_CVPR_2025_paper.html
+SP  - 22089
+EP  - 22098
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT252
+TI  - What You Have is What You Track: Adaptive and Robust Multimodal Tracking
+AU  - Yuedong Tan
+AU  - Jiawei Shao
+AU  - Eduard Zamfir
+AU  - Ruanjun Li
+AU  - Zhaochong An
+AU  - Chao Ma
+AU  - Danda Paudel
+AU  - Luc Van Gool
+AU  - Radu Timofte
+AU  - Zongwei Wu
+PY  - 2025
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Tan_What_You_Have_is_What_You_Track_Adaptive_and_Robust_ICCV_2025_paper.html
+SP  - 3455
+EP  - 3465
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT253
+TI  - XTrack: Multimodal Training Boosts RGB-X Video Object Trackers
+AU  - Yuedong Tan
+AU  - Zongwei Wu
+AU  - Yuqian Fu
+AU  - Zhuyun Zhou
+AU  - Guolei Sun
+AU  - Eduard Zamfir
+AU  - Chao Ma
+AU  - Danda Paudel
+AU  - Luc Van Gool
+AU  - Radu Timofte
+PY  - 2025
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Tan_XTrack_Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers_ICCV_2025_paper.html
+SP  - 5734
+EP  - 5744
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT254
+TI  - Tracking through Severe Occlusion via Event-Derived Transient Cues
+AU  - Hao Dong
+AU  - Yujin Liu
+AU  - Haoyue Liu
+AU  - Zhenyu Wang
+AU  - Shihan Peng
+AU  - Zhiwei Shi
+AU  - Yi Chang
+AU  - Luxin Yan
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Dong_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues_CVPR_2026_paper.html
+SP  - 29526
+EP  - 29536
+KW  - 多模态历史与统一跟踪
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT255
+TI  - Physical Adversarial Textures That Fool Visual Object Tracking
+AU  - Rey Reza Wiyatno
+AU  - Anqi Xu
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Wiyatno_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking_ICCV_2019_paper.html
+KW  - 对抗扰动与可靠性诊断
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT256
+TI  - Cooling-Shrinking Attack: Blinding the Tracker With Imperceptible Noises
+AU  - Bin Yan
+AU  - Dong Wang
+AU  - Huchuan Lu
+AU  - Xiaoyun Yang
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.html
+KW  - 对抗扰动与可靠性诊断
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT257
+TI  - Robust Tracking against Adversarial Attacks
+AU  - Shuai Jia
+AU  - Chao Ma
+AU  - Yibing Song
+AU  - Xiaokang Yang
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/3150_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58529-7_5
+KW  - 对抗扰动与可靠性诊断
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT258
+TI  - IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking
+AU  - Shuai Jia
+AU  - Yibing Song
+AU  - Chao Ma
+AU  - Xiaokang Yang
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Jia_IoU_Attack_Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visual_CVPR_2021_paper.html
+SP  - 6709
+EP  - 6718
+KW  - 对抗扰动与可靠性诊断
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT259
+TI  - Learning To Adversarially Blur Visual Object Tracking
+AU  - Qing Guo
+AU  - Ziyi Cheng
+AU  - Felix Juefei-Xu
+AU  - Lei Ma
+AU  - Xiaofei Xie
+AU  - Yang Liu
+AU  - Jianjun Zhao
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.html
+SP  - 10839
+EP  - 10848
+KW  - 对抗扰动与可靠性诊断
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT260
+TI  - Enhancing Tracking Robustness with Auxiliary Adversarial Defense Networks
+AU  - Zhewei Wu
+AU  - Ruilong Yu
+AU  - Qihe Liu
+AU  - Shuying Cheng
+AU  - Shilin Qiu
+AU  - Shijie Zhou
+PY  - 2024
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/6271_ECCV_2024_paper.php
+DO  - 10.1007/978-3-031-72952-2_12
+KW  - 对抗扰动与可靠性诊断
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT261
+TI  - Learning Video Object Segmentation With Visual Memory
+AU  - Pavel Tokmakov
+AU  - Karteek Alahari
+AU  - Cordelia Schmid
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Tokmakov_Learning_Video_Object_ICCV_2017_paper.html
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT262
+TI  - Video Object Segmentation Using Space-Time Memory Networks
+AU  - Seoung Wug Oh
+AU  - Joon-Young Lee
+AU  - Ning Xu
+AU  - Seon Joo Kim
+PY  - 2019
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_ICCV_2019/html/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.html
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT263
+TI  - Fast Template Matching and Update for Video Object Tracking and Segmentation
+AU  - Mingjie Sun
+AU  - Jimin Xiao
+AU  - Eng Gee Lim
+AU  - Bingfeng Zhang
+AU  - Yao Zhao
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Sun_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_CVPR_2020_paper.html
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT264
+TI  - Fast Video Object Segmentation With Temporal Aggregation Network and Dynamic Template Matching
+AU  - Xuhua Huang
+AU  - Jiarui Xu
+AU  - Yu-Wing Tai
+AU  - Chi-Keung Tang
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Huang_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_CVPR_2020_paper.html
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT265
+TI  - Kernelized Memory Network for Video Object Segmentation
+AU  - Hongje Seong
+AU  - Junhyuk Hyun
+AU  - Euntai Kim
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4152_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58542-6_38
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT266
+TI  - Learning Fast and Robust Target Models for Video Object Segmentation
+AU  - Andreas Robinson
+AU  - Felix Jaremo Lawin
+AU  - Martin Danelljan
+AU  - Fahad Shahbaz Khan
+AU  - Michael Felsberg
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Robinson_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation_CVPR_2020_paper.html
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT267
+TI  - MAST: A Memory-Augmented Self-Supervised Tracker
+AU  - Zihang Lai
+AU  - Erika Lu
+AU  - Weidi Xie
+PY  - 2020
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_CVPR_2020/html/Lai_MAST_A_Memory-Augmented_Self-Supervised_Tracker_CVPR_2020_paper.html
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT268
+TI  - Memory Selection Network for Video Propagation
+AU  - Ruizheng Wu
+AU  - Huaijia Lin
+AU  - Xiaojuan Qi
+AU  - Jiaya Jia
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2319_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58555-6_11
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT269
+TI  - Video Object Segmentation with Episodic Graph Memory Networks
+AU  - Xiankai Lu
+AU  - Wenguan Wang
+AU  - Martin Danelljan
+AU  - Tianfei Zhou
+AU  - Jianbing Shen
+AU  - Luc Van Gool
+PY  - 2020
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/1062_ECCV_2020_paper.php
+DO  - 10.1007/978-3-030-58580-8_39
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT270
+TI  - Efficient Regional Memory Network for Video Object Segmentation
+AU  - Haozhe Xie
+AU  - Hongxun Yao
+AU  - Shangchen Zhou
+AU  - Shengping Zhang
+AU  - Wenxiu Sun
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Xie_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation_CVPR_2021_paper.html
+SP  - 1286
+EP  - 1295
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT271
+TI  - Hierarchical Memory Matching Network for Video Object Segmentation
+AU  - Hongje Seong
+AU  - Seoung Wug Oh
+AU  - Joon-Young Lee
+AU  - Seongwon Lee
+AU  - Suhyeon Lee
+AU  - Euntai Kim
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Seong_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation_ICCV_2021_paper.html
+SP  - 12889
+EP  - 12898
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT272
+TI  - Learning Position and Target Consistency for Memory-Based Video Object Segmentation
+AU  - Li Hu
+AU  - Peng Zhang
+AU  - Bang Zhang
+AU  - Pan Pan
+AU  - Yinghui Xu
+AU  - Rong Jin
+PY  - 2021
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2021/html/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.html
+SP  - 4144
+EP  - 4154
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT273
+TI  - Video Object Segmentation With Dynamic Memory Networks and Adaptive Object Alignment
+AU  - Shuxian Liang
+AU  - Xu Shen
+AU  - Jianqiang Huang
+AU  - Xian-Sheng Hua
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.html
+SP  - 8065
+EP  - 8074
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT274
+TI  - Learning Quality-Aware Dynamic Memory for Video Object Segmentation
+AU  - Yong Liu
+AU  - Ran Yu
+AU  - Fei Yin
+AU  - Xinyuan Zhao
+AU  - Wei Zhao
+AU  - Weihao Xia
+AU  - Yujiu Yang
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4636_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-19818-2_27
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT275
+TI  - Recurrent Dynamic Embedding for Video Object Segmentation
+AU  - Mingxing Li
+AU  - Li Hu
+AU  - Zhiwei Xiong
+AU  - Bang Zhang
+AU  - Pan Pan
+AU  - Dong Liu
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Li_Recurrent_Dynamic_Embedding_for_Video_Object_Segmentation_CVPR_2022_paper.html
+SP  - 1332
+EP  - 1341
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT276
+TI  - SWEM: Towards Real-Time Video Object Segmentation With Sequential Weighted Expectation-Maximization
+AU  - Zhihui Lin
+AU  - Tianyu Yang
+AU  - Maomao Li
+AU  - Ziyu Wang
+AU  - Chun Yuan
+AU  - Wenhao Jiang
+AU  - Wei Liu
+PY  - 2022
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2022/html/Lin_SWEM_Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Expectation-Maximization_CVPR_2022_paper.html
+SP  - 1362
+EP  - 1372
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT277
+TI  - XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model
+AU  - Ho Kei Cheng
+AU  - Alexander G. Schwing
+PY  - 2022
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/568_ECCV_2022_paper.php
+DO  - 10.1007/978-3-031-19815-1_37
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT278
+TI  - Alignment Before Aggregation: Trajectory Memory Retrieval Network for Video Object Segmentation
+AU  - Rui Sun
+AU  - Yuan Wang
+AU  - Huayu Mai
+AU  - Tianzhu Zhang
+AU  - Feng Wu
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Sun_Alignment_Before_Aggregation_Trajectory_Memory_Retrieval_Network_for_Video_Object_ICCV_2023_paper.html
+SP  - 1218
+EP  - 1228
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT279
+TI  - Scalable Video Object Segmentation with Simplified Framework
+AU  - Qiangqiang Wu
+AU  - Tianyu Yang
+AU  - Wei Wu
+AU  - Antoni B. Chan
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Scalable_Video_Object_Segmentation_with_Simplified_Framework_ICCV_2023_paper.html
+SP  - 13879
+EP  - 13889
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT280
+TI  - OneVOS: Unifying Video Object Segmentation with All-in-One Transformer Framework
+AU  - Wanyun Li
+AU  - Pinxue Guo
+AU  - Xinyu Zhou
+AU  - Lingyi Hong
+AU  - Yangji He
+AU  - Xiangyu Zheng
+AU  - Wei Zhang
+AU  - Wenqiang Zhang
+PY  - 2024
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7505_ECCV_2024_paper.php
+DO  - 10.1007/978-3-031-73636-0_2
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT281
+TI  - Putting the Object Back into Video Object Segmentation
+AU  - Ho Kei Cheng
+AU  - Seoung Wug Oh
+AU  - Brian Price
+AU  - Joon-Young Lee
+AU  - Alexander Schwing
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Cheng_Putting_the_Object_Back_into_Video_Object_Segmentation_CVPR_2024_paper.html
+SP  - 3151
+EP  - 3161
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT282
+TI  - RMem: Restricted Memory Banks Improve Video Object Segmentation
+AU  - Junbao Zhou
+AU  - Ziqi Pang
+AU  - Yu-Xiong Wang
+PY  - 2024
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_RMem_Restricted_Memory_Banks_Improve_Video_Object_Segmentation_CVPR_2024_paper.html
+SP  - 18602
+EP  - 18611
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT283
+TI  - LiVOS: Light Video Object Segmentation with Gated Linear Matching
+AU  - Qin Liu
+AU  - Jianfeng Wang
+AU  - Zhengyuan Yang
+AU  - Linjie Li
+AU  - Kevin Lin
+AU  - Marc Niethammer
+AU  - Lijuan Wang
+PY  - 2025
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2025/html/Liu_LiVOS_Light_Video_Object_Segmentation_with_Gated_Linear_Matching_CVPR_2025_paper.html
+SP  - 8668
+EP  - 8678
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT284
+TI  - SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree
+AU  - Shuangrui Ding
+AU  - Rui Qian
+AU  - Xiaoyi Dong
+AU  - Pan Zhang
+AU  - Yuhang Zang
+AU  - Yuhang Cao
+AU  - Yuwei Guo
+AU  - Dahua Lin
+AU  - Jiaqi Wang
+PY  - 2025
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Ding_SAM2Long_Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_ICCV_2025_paper.html
+SP  - 13614
+EP  - 13624
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT285
+TI  - Efficient Video Object Segmentation and Tracking with Recurrent Dynamic Submodel
+AU  - Weidong Tang
+AU  - Zhiyuan Liang
+AU  - Xinyan Wan
+AU  - Chen Zhu
+AU  - Zhaopan Xu
+AU  - Pengfei Zhou
+AU  - Yan Song
+AU  - Yang You
+AU  - Wangbo Zhao
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Efficient_Video_Object_Segmentation_and_Tracking_with_Recurrent_Dynamic_Submodel_CVPR_2026_paper.html
+SP  - 20912
+EP  - 20921
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT286
+TI  - Robust Promptable Video Object Segmentation
+AU  - Sohyun Lee
+AU  - Yeho Gwon
+AU  - Lukas Hoyer
+AU  - Konrad Schindler
+AU  - Christos Sakaridis
+AU  - Suha Kwak
+PY  - 2026
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content/CVPR2026/html/Lee_Robust_Promptable_Video_Object_Segmentation_CVPR_2026_paper.html
+SP  - 39838
+EP  - 39847
+KW  - 视频分割中的可迁移记忆机制
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT287
+TI  - Finding the Best from the Second Bests - Inhibiting Subjective Bias in Evaluation of Visual Tracking Algorithms
+AU  - Yu Pang
+AU  - Haibin Ling
+PY  - 2013
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2013/html/Pang_Finding_the_Best_2013_ICCV_paper.html
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT288
+TI  - Understanding and Diagnosing Visual Tracking Systems
+AU  - Naiyan Wang
+AU  - Jianping Shi
+AU  - Dit-Yan Yeung
+AU  - Jiaya Jia
+PY  - 2015
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2015/html/Wang_Understanding_and_Diagnosing_ICCV_2015_paper.html
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT289
+TI  - A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation
+AU  - Federico Perazzi
+AU  - Jordi Pont-Tuset
+AU  - Brian McWilliams
+AU  - Luc Van Gool
+AU  - Markus Gross
+AU  - Alexander Sorkine-Hornung
+PY  - 2016
+T2  - CVPR
+UR  - https://openaccess.thecvf.com/content_cvpr_2016/html/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.html
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT290
+TI  - Beyond Standard Benchmarks: Parameterizing Performance Evaluation in Visual Object Tracking
+AU  - Luka Cehovin Zajc
+AU  - Alan Lukezic
+AU  - Ales Leonardis
+AU  - Matej Kristan
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Zajc_Beyond_Standard_Benchmarks_ICCV_2017_paper.html
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT291
+TI  - Need for Speed: A Benchmark for Higher Frame Rate Object Tracking
+AU  - Hamed Kiani Galoogahi
+AU  - Ashton Fagg
+AU  - Chen Huang
+AU  - Deva Ramanan
+AU  - Simon Lucey
+PY  - 2017
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content_iccv_2017/html/Galoogahi_Need_for_Speed_ICCV_2017_paper.html
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT292
+TI  - Long-term Tracking in the Wild: a Benchmark
+AU  - Valmadre
+AU  - Jack and Bertinetto
+AU  - Luca and Henriques
+AU  - Joao F. and Tao
+AU  - Ran and Vedaldi
+AU  - Andrea and Smeulders
+AU  - Arnold W.M. and Torr
+AU  - Philip H.S. and Gavves
+AU  - Efstratios
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Efstratios_Gavves_Long-term_Tracking_in_ECCV_2018_paper.php
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT293
+TI  - The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking
+AU  - Du
+AU  - Dawei and Qi
+AU  - Yuankai and Yu
+AU  - Hongyang and Yang
+AU  - Yifan and Duan
+AU  - Kaiwen and Li
+AU  - Guorong and Zhang
+AU  - Weigang and Huang
+AU  - Qingming and Tian
+AU  - Qi
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.php
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT294
+TI  - YouTube-VOS: Sequence-to-Sequence Video Object Segmentation
+AU  - Xu
+AU  - Ning and Yang
+AU  - Linjie and Fan
+AU  - Yuchen and Yang
+AU  - Jianchao and Yue
+AU  - Dingcheng and Liang
+AU  - Yuchen and Price
+AU  - Brian and Cohen
+AU  - Scott and Huang
+AU  - Thomas
+PY  - 2018
+T2  - ECCV
+UR  - https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.php
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT295
+TI  - Transparent Object Tracking Benchmark
+AU  - Heng Fan
+AU  - Halady Akhilesha Miththanthaya
+AU  - Harshit
+AU  - Siranjiv Ramana Rajan
+AU  - Xiaoqiong Liu
+AU  - Zhilin Zou
+AU  - Yuewei Lin
+AU  - Haibin Ling
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Fan_Transparent_Object_Tracking_Benchmark_ICCV_2021_paper.html
+SP  - 10734
+EP  - 10743
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT296
+TI  - Video Annotation for Visual Tracking via Selection and Refinement
+AU  - Kenan Dai
+AU  - Jie Zhao
+AU  - Lijun Wang
+AU  - Dong Wang
+AU  - Jianhua Li
+AU  - Huchuan Lu
+AU  - Xuesheng Qian
+AU  - Xiaoyun Yang
+PY  - 2021
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2021/html/Dai_Video_Annotation_for_Visual_Tracking_via_Selection_and_Refinement_ICCV_2021_paper.html
+SP  - 10296
+EP  - 10305
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT297
+TI  - 360VOT: A New Benchmark Dataset for Omnidirectional Visual Object Tracking
+AU  - Huajian Huang
+AU  - Yinzhe Xu
+AU  - Yingshu Chen
+AU  - Sai-Kit Yeung
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Huang_360VOT_A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking_ICCV_2023_paper.html
+SP  - 20566
+EP  - 20576
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT298
+TI  - LVOS: A Benchmark for Long-term Video Object Segmentation
+AU  - Lingyi Hong
+AU  - Wenchao Chen
+AU  - Zhongying Liu
+AU  - Wei Zhang
+AU  - Pinxue Guo
+AU  - Zhaoyu Chen
+AU  - Wenqiang Zhang
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Hong_LVOS_A_Benchmark_for_Long-term_Video_Object_Segmentation_ICCV_2023_paper.html
+SP  - 13480
+EP  - 13492
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT299
+TI  - MOSE: A New Dataset for Video Object Segmentation in Complex Scenes
+AU  - Henghui Ding
+AU  - Chang Liu
+AU  - Shuting He
+AU  - Xudong Jiang
+AU  - Philip H.S. Torr
+AU  - Song Bai
+PY  - 2023
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2023/html/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.html
+SP  - 20224
+EP  - 20234
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 
+
+TY  - CONF
+ID  - SOT300
+TI  - Is Tracking Really More Challenging in First Person Egocentric Vision?
+AU  - Matteo Dunnhofer
+AU  - Zaira Manigrasso
+AU  - Christian Micheloni
+PY  - 2025
+T2  - ICCV
+UR  - https://openaccess.thecvf.com/content/ICCV2025/html/Dunnhofer_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision_ICCV_2025_paper.html
+SP  - 5879
+EP  - 5889
+KW  - 数据集与评价设计
+N1  - official metadata + abstract; 未标记为全文精读；元数据核对与阅读完成度分别记录
+ER  - 

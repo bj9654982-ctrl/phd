@@ -1,0 +1,44 @@
+{
+  "number": 212,
+  "title": "Context-Aware Deep Feature Compression for High-Speed Visual Tracking",
+  "year": 2018,
+  "authors": [
+    "Jongwon Choi",
+    "Hyung Jin Chang",
+    "Tobias Fischer",
+    "Sangdoo Yun",
+    "Kyuewang Lee",
+    "Jiyeoup Jeong",
+    "Yiannis Demiris",
+    "Jin Young Choi"
+  ],
+  "venue": "CVPR",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Choi_Context-Aware_Deep_Feature_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_Context-Aware_Deep_Feature_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_Context-Aware_Deep_Feature_CVPR_2018_paper.pdf",
+      "bytes": 1407664,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\212_2018_Context-Aware_Deep_Feature_Compression_for_High-Speed_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_Context-Aware_Deep_Feature_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Choi_Context-Aware_Deep_Feature_CVPR_2018_paper.pdf",
+  "bytes": 1407664,
+  "sha256": "4cd7895e124a0414dec115f0f5c5696afa216382ed300593f0aebd397c8e7958",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Context-Aware Deep Feature Compression for High-Speed Visual Tracking",
+  "first_page_text": "Context-aware Deep Feature Compression for High-speed Visual Tracking\nJongwon Choi1\nHyung Jin Chang2,3\nTobias Fischer2\nSangdoo Yun1,4\nKyuewang Lee1\nJiyeoup Jeong1\nYiannis Demiris2\nJin Young Choi1\n1ASRI, ECE., Seoul National University\n2Personal Robotics Lab., EEE., Imperial College London\n3School of Computer Science, University of Birmingham\n4Clova AI Research, NAVER Corp.\njwchoi.pil@gmail.com, {hj.chang,t.fischer,y.demiris}@imperial.ac.uk, {yunsd101,kyuewang,jy.jeong,jychoi}@snu.ac.kr\nAbstract\nWe propose a new context-aware correlation ﬁlter based\ntracking framework to achieve both high computational\nspeed and state-of-the-art performance among real-time\ntrackers. The major contribution to the high computational\nspeed lies in the proposed deep feature compression that\nis achieved by a context-aware scheme utilizing multiple\nexpert auto-encoders; a context in our framework refers\nto the coarse category of the tracking target according to\nappearance patterns. In the pre-training phase, one expert\nauto-encoder is trained per category. In the tracking phase,\nthe best expert auto-encoder is selected for a given target,\nand only this auto-encoder is used. To achieve high tracking\nperformance with the compressed feature map, we intro-\nduce extrinsic denoising processes and a new orthogonality\nloss term for pre-training and ﬁne-tuning of the expert auto-\nencoders. We validate the proposed context-aware frame-\nwork through a number of experiments, where our method\nachieves a comparable performance to state-of-the-art track-\ners which cannot run in real-time, while running at a signiﬁ-\ncantly fast speed of over 100 fps.\n1. Introduction\nThe performance of visual trackers has vastly improved\nwith the advances of deep learning research. Recently, two\ndifferent groups for deep learning based tracking have\nemerged. The ﬁrst group consists of online trackers which\nrely on continuous ﬁne-tuning of the network to learn the\nchanging appearance of the target [25,30,35,36,40]. While\nthese trackers result in high accuracy and robustness, their\ncomputational speed is insufﬁcient to fulﬁl the real-time\nrequirement of online tracking. The second group is com-\nposed of correlation ﬁlter based trackers utilising raw deep\nconvolutional features [6,7,10,22,27]. However, these fea-\ntures are designed to represent general objects contained\nin large datasets such as ImageNet [28] and therefore are\nof high dimensionality. As the computational time for the\n140\n120\n100\n80\n60\n40\n20\n0\n74\nComputational Speed (fps)\nTracking Performance (%)\nTRACA (Proposed)\nLCT (CVPR2015)\nACFN (CVPR2017)\nC-COT (CVPR2016)\nADNet (CVPR2017)\nSCT (CVPR2016)\nSiamFC (ECCVw2016)\nD-SRDCF (ICCV2015)\nFCNT (ICCV2015)\nMUSTer (CVPR2015)\nMEEM (ECCV2014)\nDSST (TPAMI2017)\nKCF (TPAMI2015)\nReal-time\nReal-time Trackers\nNon Real-time Trackers\nECO (CVPR2017)\nProposed\n76\n78\n80\n82\n84\n86\n88\n90\n92\n94\nFigure 1. Comparison of computational efﬁciency. This plot\ncompares the performance and computational speed of the proposed\ntracker (TRACA) with previous state-of-the-art trackers using the\nCVPR2013 dataset [37]. TRACA shows comparable performance\nwith the best performing non real-time trackers, while running at a\nfast speed of over 100 fps.\ncorrelation ﬁlters increases with the feature dimensionality,\ntrackers within the second group do not satisfy the real-time\nrequirement of online tracking either.\nIn this work, we propose a correlation ﬁlter based tracker\nusing context-aware compression of raw deep features,\nwhich reduces computational time, thus increasing speed.\nThis is motivated by the observation that a lower dimen-\nsional feature map can sufﬁciently represent the single target\nobject which is in contrast to the classiﬁcation and detec-\ntion tasks using large datasets that cover numerous object\ncategories. Compression of high dimensional features into\na low dimensional feature map is performed using autoen-\ncoders [11,24,32,39]. More speciﬁcally, we employ multiple\nauto-encoders whereby each auto-encoder specialises in a\nspeciﬁc category of objects; these are referred to as expert\nauto-encoders. We introduce an unsupervised approach to\nﬁnd the categories by clustering the training samples ac-\ncording to contextual information, and subsequently train\n479\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

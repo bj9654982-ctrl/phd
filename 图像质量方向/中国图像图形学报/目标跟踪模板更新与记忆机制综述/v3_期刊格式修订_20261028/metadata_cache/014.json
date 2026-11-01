@@ -1,0 +1,509 @@
+{
+  "number": 14,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Learning Discriminative Model Prediction for Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T01:26:34Z",
+      "timestamp": 1792805194594,
+      "version": "4.5.0"
+    },
+    "reference-count": 45,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2019.00628",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2020-02-28T05:27:52Z",
+      "timestamp": 1582867672000
+    },
+    "page": "6181-6190",
+    "source": "Crossref",
+    "is-referenced-by-count": 1263,
+    "title": [
+      "Learning Discriminative Model Prediction for Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Goutam",
+        "family": "Bhat",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin",
+        "family": "Danelljan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luc",
+        "family": "Van Gool",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Radu",
+        "family": "Timofte",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4615-5529-2"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Faster R-CNN: towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref32",
+        "article-title": "optimization as a model for few-shot learning",
+        "author": "ravi",
+        "year": "2017",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Meta-tracker: Fast and robust online adaptation for visual object trackers",
+        "author": "park",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref30",
+        "author": "nocedal",
+        "year": "2006",
+        "journal-title": "Numerical Optimization"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00058"
+      },
+      {
+        "key": "ref36",
+        "article-title": "An introduction to the conjugate gradient method without the agonizing pain",
+        "author": "shewchuk",
+        "year": "1994",
+        "journal-title": "Technical Report"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1992.4.1.131"
+      },
+      {
+        "key": "ref34",
+        "author": "schmidhuber",
+        "year": "1987",
+        "journal-title": "Evolutionary principles in self-referential learning on learning now to learn The meta-meta-meta&#x2026;-hook"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Lasot: A high-quality benchmark for large-scale single object tracking",
+        "volume": "abs 1809 7845",
+        "author": "fan",
+        "year": "2018",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+        "author": "finn",
+        "year": "2017",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "volume": "37",
+        "author": "henriques",
+        "year": "2015",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Got-10k: A large high-diversity benchmark for generic object tracking in the wild",
+        "author": "huang",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv 1810 10053"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Acquisition of localization confidence for accurate object detection",
+        "author": "jiang",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2014",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCNN.1992.287172"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref27",
+        "first-page": "2554",
+        "article-title": "Meta networks",
+        "volume": "70",
+        "author": "munkhdalai",
+        "year": "2017",
+        "journal-title": "Machine Learning Research"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Unveiling the power of deep tracking",
+        "author": "bhat",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Deep meta learning for real-time visual tracking based on target-specific feature space",
+        "volume": "abs 1712 9153",
+        "author": "choi",
+        "year": "2017",
+        "journal-title": "CoRR"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Learning feed-forward ones-hot learners",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref20",
+        "article-title": "The sixth visual object tracking vot2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "ECCV workshop"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Siamrpn ++: Evolution of siamese visual tracking with very deep networks",
+        "author": "li",
+        "year": "2019",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00510"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Microsoft COCO: common objects in context",
+        "author": "lin",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_34"
+      },
+      {
+        "key": "ref26",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "müller",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Learning adaptive discriminative correlation filters via temporal consistency preserving spatial feature selection for robust visual tracking",
+        "author": "xu",
+        "year": "2018",
+        "journal-title": "CoRR abs/1807 11348"
+      },
+      {
+        "key": "ref25",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "mueller",
+        "year": "2016",
+        "journal-title": "ECCV"
+      }
+    ],
+    "event": {
+      "name": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Seoul, Korea (South)",
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            2
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2019 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8972782/9008105/09010649.pdf?arnumber=9010649",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2022-07-17T17:52:36Z",
+      "timestamp": 1658080356000
+    },
+    "score": 37.09067,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9010649/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 45,
+    "URL": "https://doi.org/10.1109/iccv.2019.00628",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  }
+}

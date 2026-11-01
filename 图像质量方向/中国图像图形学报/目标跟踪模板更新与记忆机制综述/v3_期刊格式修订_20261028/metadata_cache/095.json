@@ -1,0 +1,414 @@
+{
+  "number": 95,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Structural Correlation Filter for Robust Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T18:22:37Z",
+      "timestamp": 1790360557726,
+      "version": "4.1.0"
+    },
+    "reference-count": 41,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2016.467",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          13
+        ]
+      ],
+      "date-time": "2016-12-13T01:38:49Z",
+      "timestamp": 1481593129000
+    },
+    "page": "4312-4320",
+    "source": "Crossref",
+    "is-referenced-by-count": 133,
+    "title": [
+      "Structural Correlation Filter for Robust Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Si",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianzhu",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaochun",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Changsheng",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298610"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-014-0738-0"
+      },
+      {
+        "key": "ref33",
+        "first-page": "127",
+        "article-title": "Fast visual tracking via dense spatio-temporal context learning",
+        "volume": "8693",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref32",
+        "article-title": "MEEM: Robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.306"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.164"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Robust visual tracking via multi-task sparse learning",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Low-rank sparse learning for robust visual tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126228"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2602633"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.32"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298632"
+      },
+      {
+        "key": "ref28",
+        "first-page": "1442",
+        "article-title": "Visual tracking: an experimental survey",
+        "volume": "36",
+        "author": "smeulder",
+        "year": "2013",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Real time robust $l_{1}$ tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000016"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "crossref",
+        "first-page": "941",
+        "DOI": "10.1109/TPAMI.2012.145",
+        "article-title": "Robust visual tracking using an adaptive coupled-layer visual model",
+        "volume": "35",
+        "author": "?ehovin",
+        "year": "2013",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.144"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Transfer learning based visual tracking with gaussian process regression",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "ref20",
+        "author": "liris",
+        "year": "2014",
+        "journal-title": "The Visual Object Tracking VOT2014 Challenge Results"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299124"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.346"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247895"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2206035"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      }
+    ],
+    "event": {
+      "name": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Las Vegas, NV, USA",
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            30
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7776647/7780329/07780836.pdf?arnumber=7780836",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2019-09-16T12:51:15Z",
+      "timestamp": 1568638275000
+    },
+    "score": 44.49153,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7780836/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1109/cvpr.2016.467",
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    }
+  }
+}

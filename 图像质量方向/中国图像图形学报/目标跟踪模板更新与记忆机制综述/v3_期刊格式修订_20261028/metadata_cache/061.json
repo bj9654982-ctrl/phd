@@ -1,0 +1,364 @@
+{
+  "number": 61,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Robust Object Tracking with Online Multi-lifespan Dictionary Learning",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T16:37:07Z",
+      "timestamp": 1792946227916,
+      "version": "4.5.0"
+    },
+    "reference-count": 28,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2013.88",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2014-03-07T16:30:17Z",
+      "timestamp": 1394209817000
+    },
+    "page": "665-672",
+    "source": "Crossref",
+    "is-referenced-by-count": 49,
+    "title": [
+      "Robust Object Tracking with Online Multi-lifespan Dictionary Learning"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Junliang",
+        "family": "Xing",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jin",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weiming",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuicheng",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "article-title": "Robust visual tracking using-1 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.156"
+      },
+      {
+        "key": "18",
+        "first-page": "19",
+        "article-title": "Online learning for matrix factorization and sparse coding",
+        "volume": "11",
+        "author": "mairal",
+        "year": "2010",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1728",
+        "DOI": "10.1109/TPAMI.2008.73",
+        "article-title": "Tracking in low frame rate video: A cascade particle filter with discriminative observers of different life spans",
+        "volume": "30",
+        "author": "li",
+        "year": "2008",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "16",
+        "article-title": "Sparse representation for face recognition based on discriminative low-rank dictionary learning",
+        "author": "ma",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "13",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "14",
+        "article-title": "Visual tracking decomposition",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008078328650"
+      },
+      {
+        "key": "21",
+        "author": "press",
+        "year": "2007",
+        "journal-title": "Numerical Recipes The Art of Scientific Computing (3rd Edition)"
+      },
+      {
+        "key": "20",
+        "article-title": "Minimum error bounded efficient-1 tracker with occlusion detection",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2010.939537"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSP.2009.2016257"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "26",
+        "article-title": "Low-rank sparse learning for robust visual tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "28",
+        "article-title": "Robust object tracking via sparsitybased collaborative model",
+        "author": "zhong",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSP.2006.881199"
+      },
+      {
+        "key": "10",
+        "first-page": "1245",
+        "article-title": "Hough-based tracking of nonrigid objects",
+        "volume": "117",
+        "author": "godec",
+        "year": "2013",
+        "journal-title": "CVIU"
+      },
+      {
+        "key": "1",
+        "article-title": "Robust fragments-based tracking using the integral histogram",
+        "author": "adam",
+        "year": "2006",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1195991"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1007939232436"
+      },
+      {
+        "key": "5",
+        "article-title": "Real time robust-1 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "9",
+        "first-page": "407",
+        "volume": "32",
+        "author": "efron",
+        "year": "2004",
+        "journal-title": "Least Angle Regression Annals of Statistics"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/089976603762552951"
+      }
+    ],
+    "event": {
+      "name": "2013 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Sydney, Australia",
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            8
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2013 IEEE International Conference on Computer Vision"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6750807/6751100/06751192.pdf?arnumber=6751192",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2017-06-22T05:14:30Z",
+      "timestamp": 1498108470000
+    },
+    "score": 57.550934,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6751192/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1109/iccv.2013.88",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    }
+  }
+}

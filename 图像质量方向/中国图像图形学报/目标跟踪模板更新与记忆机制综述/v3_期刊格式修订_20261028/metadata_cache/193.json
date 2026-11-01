@@ -1,0 +1,622 @@
+{
+  "number": 193,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Autoregressive Sequential Pretraining for Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          2
+        ]
+      ],
+      "date-time": "2026-10-02T04:06:57Z",
+      "timestamp": 1790914017580,
+      "version": "4.1.0"
+    },
+    "reference-count": 71,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012226",
+        "name": "Fundamental Research Funds for the Central Universities",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100012226",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52734.2025.00680",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          13
+        ]
+      ],
+      "date-time": "2025-08-13T17:26:42Z",
+      "timestamp": 1755106002000
+    },
+    "page": "7254-7264",
+    "source": "Crossref",
+    "is-referenced-by-count": 14,
+    "title": [
+      "Autoregressive Sequential Pretraining for Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Shiyi",
+        "family": "Liang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Xi&#x2019;an Jiaotong University,School of Software Engineering"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yifan",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi&#x2019;an Jiaotong University,School of Software Engineering"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yihong",
+        "family": "Gong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi&#x2019;an Jiaotong University,School of Software Engineering"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xing",
+        "family": "Wei",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Xi&#x2019;an Jiaotong University,School of Software Engineering"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01802"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01216-8_30"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Language models are few-shot learners",
+        "author": "B Brown",
+        "year": "2020"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01822"
+      },
+      {
+        "key": "ref7",
+        "article-title": "A short note about kinetics-600",
+        "author": "Carreira",
+        "year": "2018"
+      },
+      {
+        "key": "ref8",
+        "article-title": "A short note on the kinetics-700 human action dataset",
+        "author": "Carreira",
+        "year": "2019"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_22"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Generative pre-training from pixels",
+        "volume-title": "ICML",
+        "author": "Chen"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Pix2seq: A language modeling framework for object detection",
+        "volume-title": "ICLR",
+        "author": "Chen"
+      },
+      {
+        "key": "ref12",
+        "article-title": "A unified sequence interface for vision tasks",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01400"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Mixformerv2: Efficient fully transformer tracking",
+        "author": "Cui",
+        "year": "2023",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2024.3349519"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref21",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "volume-title": "ICLR",
+        "author": "Dosovitskiy"
+      },
+      {
+        "key": "ref22",
+        "article-title": "The llama 3 herd of models",
+        "author": "Dubey",
+        "year": "2024"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00814"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-020-01387-y"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_9"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01792"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Siou loss: More powerful learning for bounding box regression",
+        "author": "Gevorgyan",
+        "year": "2022"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Siamese masked autoencoders",
+        "author": "Gupta",
+        "year": "2023"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00975"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i1.25155"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Denoising diffusion probabilistic models",
+        "volume-title": "NIPS",
+        "author": "Ho"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2022.3212594"
+      },
+      {
+        "key": "ref37",
+        "article-title": "The kinetics human action video dataset",
+        "author": "Kay",
+        "year": "2017"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_31"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00626"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Swintrack: A simple and strong baseline for transformer tracking",
+        "author": "Lin",
+        "year": "2022",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52734.2025.00141"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.515"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Vast-track: Vast category visual object tracking",
+        "author": "Peng",
+        "year": "2024"
+      },
+      {
+        "key": "ref50",
+        "author": "Radford",
+        "year": "2018",
+        "journal-title": "Improving language understanding by generative pre-training"
+      },
+      {
+        "key": "ref51",
+        "article-title": "Language models are unsupervised multitask learners",
+        "author": "Radford",
+        "year": "2019",
+        "journal-title": "OpenAI blog"
+      },
+      {
+        "key": "ref52",
+        "article-title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "author": "Raffel",
+        "year": "2020",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00859"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i2.25327"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Llama 2: Open foundation and fine-tuned chat models",
+        "author": "Touvron",
+        "year": "2023"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00632"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00935"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01399"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01808"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01826"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_10"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00675"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00355"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i7.28591"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_7"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11091818/11091608/11094102.pdf?arnumber=11094102",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2025-08-14T07:43:34Z",
+      "timestamp": 1755157414000
+    },
+    "score": 49.583874,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11094102/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "references-count": 71,
+    "URL": "https://doi.org/10.1109/cvpr52734.2025.00680",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    }
+  }
+}

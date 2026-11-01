@@ -1,0 +1,41 @@
+{
+  "number": 195,
+  "title": "Adaptive Capacity Autoregressive Visual Tracking",
+  "year": 2026,
+  "authors": [
+    "Tong Lin",
+    "Yifan Bai",
+    "Shiyi Liang",
+    "Ruigang Niu",
+    "Xing Wei"
+  ],
+  "venue": "CVPR",
+  "category": "自回归与生成式跟踪",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 3145409,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\195_2026_Adaptive_Capacity_Autoregressive_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 3145409,
+  "sha256": "9ba885b7d43f8d88f70c0f82588933f6b4a49c8ba33cd4862e6bb41721367d73",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Adaptive Capacity Autoregressive Visual Tracking",
+  "first_page_text": "Adaptive Capacity Autoregressive Visual Tracking\nTong Lin1∗\nYifan Bai2∗‡\nShiyi Liang1\nRuigang Niu2\nXing Wei1†\n1School of Software Engineering, Xi’an Jiaotong University\n2DAMO Academy, Alibaba Group\n{lintong1220, sy liang2023}@stu.xjtu.edu.cn\n{baiyifan.byf, niuruigang.nrg}@alibaba-inc.com\nweixing@mail.xjtu.edu.cn\nAbstract\nWe present ARTrack-AC, a new step in the autoregres-\nsive tracking paradigm that introduces adaptive capacity\ninference to achieve both temporal consistency and dy-\nnamic efficiency. While existing autoregressive trackers pre-\ndict object states sequentially with fixed inference capac-\nity, they fail to accommodate the fluctuating temporal dif-\nficulty of real videos. ARTrack-AC addresses this limita-\ntion by equipping the tracker with the ability to modulate\nits inference capacity over time.\nA diffusion-based tra-\njectory estimator anticipates the stability of upcoming seg-\nments, guiding a controller to switch between an accurate\n(high-capacity) and an efficient (low-capacity) mode while\nmaintaining autoregressive consistency. This system-level\nautoregression extends conventional sequence modeling be-\nyond “what to predict” toward “how to predict,” forming\na self-regulated tracking process that aligns inference cost\nwith temporal complexity. Despite its simplicity, ARTrack-\nAC achieves state-of-the-art accuracy–speed trade-off on\nmajor benchmarks—66.7% AUC on LaSOT and 47.5%\nAUC on LaSOText—running 2.9× faster than its predeces-\nsor. Source code is available at: https://github.com/MIV-\nXJTU/ARTrackAC.git.\n1. Introduction\nVisual object tracking [5, 18, 28, 35, 40, 41, 43, 48] is a\ncornerstone problem in computer vision, requiring contin-\nuous target localization under dynamic appearance changes\nand frequent occlusions—all while meeting real-time con-\nstraints. These real-time demands have intensified the need\nfor efficient tracking [6, 19, 38], where the objective is to in-\ncrease throughput and lower computational overhead while\nmaintaining reliable performance in challenging scenarios.\nIn recent years, autoregressive (AR) tracking has\nemerged as a powerful paradigm that formulates tracking as\nsequence modeling [1, 10, 29, 42]: each prediction depends\n∗Equal Contribution.\n† Corresponding Author.\n‡ Project Lead.\n(b) Fixed Low Capacity (FARTrack)\nInference Latency\nSequential\nDrifting \nPrediction\n∆\n×\n𝑡0\n𝑡1\n𝑡𝑛+1\n×\n(a) Fixed High Capacity (ARTrackOT)\nInference Latency\n𝑡0\nSequential\n𝑡1\n𝑡𝑛+1\nRedundant \nComputation\n√\n√\n√\nInference Latency\nParallel\nBalanced \nInference\n(c) Adaptive Capacity (ARTrack-AC)\n𝑡1\n𝑡𝑛+1\n𝑡0\n√\n√\n√\nc𝑎𝑝𝑎𝑐𝑖𝑡𝑦 𝑣𝑠 𝑡𝑖𝑚𝑒\nTemporal Difficulty\nc𝑎𝑝𝑎𝑐𝑖𝑡𝑦 𝑣𝑠 𝑡𝑖𝑚𝑒\nTemporal Difficulty\nc𝑎𝑝𝑎𝑐𝑖𝑡𝑦 𝑣𝑠 𝑡𝑖𝑚𝑒\nTemporal Difficulty\n(d) Performance comparison\nLaSOT AUC(%)\nLaSOText AUC(%)\nFPS\nARTrack-AC\nARTrackOT\nFARTrack\n69.4\n60.2\n66.7\n47.5\n41.7\n49.2\n65\n210\n191\nFigure 1. Tracking paradigms and performance comparison.\n(a) Accurate-oriented tracker: Fixed high capacity, robust yet re-\ndundant, strictly sequential inference with high inference latency.\n(b) Efficient-oriented tracker: Fixed low capacity, fast but less\nrobust, also sequential with low latency. (c) Adaptive capacity\ntracker: Dynamically adjusts inference capacity, performs par-\nallel inference on stable segments, achieving a balanced accu-\nracy–speed trade-off. (d) Performance comparison.\non the model’s own previous outputs rather than solely\non the current frame. This formulation establishes consis-\ntent train-test objectives, naturally encodes temporal depen-\ndency, and unifies tracking and prediction within a single\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13574\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

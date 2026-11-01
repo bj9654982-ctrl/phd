@@ -1,0 +1,38 @@
+{
+  "number": 59,
+  "title": "PixelTrack: A Fast Adaptive Algorithm for Tracking Non-rigid Objects",
+  "year": 2013,
+  "authors": [
+    "Stefan Duffner",
+    "Christophe Garcia"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Duffner_PixelTrack_A_Fast_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Duffner_PixelTrack_A_Fast_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Duffner_PixelTrack_A_Fast_2013_ICCV_paper.pdf",
+      "bytes": 1385937,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\059_2013_PixelTrack__A_Fast_Adaptive_Algorithm_for_Tracking_Non-rigid_Objects.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Duffner_PixelTrack_A_Fast_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Duffner_PixelTrack_A_Fast_2013_ICCV_paper.pdf",
+  "bytes": 1385937,
+  "sha256": "f296b636c2ed60ea1b87ec481ed34dbf6bb57c3ebf4e79a9f075ba423e47749c",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "PixelTrack: A Fast Adaptive Algorithm for Tracking Non-rigid Objects",
+  "first_page_text": "PixelTrack: a fast adaptive algorithm for tracking non-rigid objects\nStefan Duffner and Christophe Garcia\nUniversit´e de Lyon, CNRS\nINSA-Lyon, LIRIS, UMR5205, F-69621, France\nstefan.duffner@liris.cnrs.fr, christophe.garcia@liris.cnrs.fr\nAbstract\nIn this paper, we present a novel algorithm for fast track-\ning of generic objects in videos. The algorithm uses two\ncomponents: a detector that makes use of the generalised\nHough transform with pixel-based descriptors, and a prob-\nabilistic segmentation method based on global models for\nforeground and background. These components are used\nfor tracking in a combined way, and they adapt each other\nin a co-training manner. Through effective model adapta-\ntion and segmentation, the algorithm is able to track ob-\njects that undergo rigid and non-rigid deformations and\nconsiderable shape and appearance variations. The pro-\nposed tracking method has been thoroughly evaluated on\nchallenging standard videos, and outperforms state-of-the-\nart tracking methods designed for the same task. Finally,\nthe proposed models allow for an extremely efﬁcient imple-\nmentation, and thus tracking is very fast.\n1. Introduction\nGiven a video stream, tracking arbitrary objects that are\nnon-rigid, moving or static, rotating and deforming, par-\ntially occluded, under changing illumination and without\nany prior knowledge is a challenging task.\nThis uncon-\nstrained tracking problem where the object model is ini-\ntialised from a bounding box in the ﬁrst video frame and\ncontinuously adapted has been increasingly addressed in the\nliterature in the past years. When no prior knowledge about\nthe object’s shape and appearance is available, one of the\nmain difﬁculties is to incrementally learn a robust model\nfrom consecutive video frames. This model should gen-\neralise to new unseen appearances and avoid drift, i.e. the\ngradual inclusion of background appearance, which can ul-\ntimately lead to tracking failure.\nOur method addresses these issues with an adaptive ap-\nproach combining a detector based on pixel-based descrip-\ntors and a probabilistic segmentation framework.\n1.1. Related Work\nEarlier works [21, 11, 32, 30, 41, 18] on visual ob-\nject tracking mostly consider a bounding box (or some\nother simple geometric model) representation of the ob-\nject to track, and often a global appearance model is used.\nThese classical methods are very robust to some degree\nof appearance change and local deformations (as in face\ntracking), and also allow for a fast implementation. How-\never, for tracking non-rigid objects that undergo a large\namount of deformation and appearance variation, e.g. due\nto occlusions or illumination changes, these approaches are\nless suitable. Although some algorithms effectively cope\nwith object deformations by tracking their contour (e.g.\n[31, 42, 10]), most of them require the object to be moving\nor need prior shape knowledge [12]. Others, describe an ob-\nject by a relatively dense set of keypoints that are matched\nin each frame [26, 19] to track the object. However, these\nmethods have mostly been applied to relatively rigid ob-\njects.\nMany existing methods, follow a tracking-by-detection\napproach, where a discriminative model of the object to\ntrack is built and updated “online”, i.e. during the tracking,\nin order to adapt to possible appearance changes. For ex-\nample, Adam et al. [1] use a patch-based appearance model\nwith integral histograms of colour and intensity. The dy-\nnamic patch template conﬁguration allows to model spatial\nstructure and to be robust to partial occlusions. Grabner et\nal. [16] proposed an Online Adaboost (OAB) learning algo-\nrithm that dynamically selects weak classiﬁers that discrim-\ninate between the object image region and the background.\nLater, they extended this method to a semi-supervised algo-\nrithm [17] that uses a ﬁxed (or adaptive [39]) prior model to\navoid drift and an online boosting framework learning with\nunlabelled data. Babenko et al. [4] presented another online\nmethod based on Multiple Instance Learning (MIL), where\nthe positive training examples are bags of image patches\ncontaining at least one positive (object) image patch. Be-\nsides boosting algorithms, Online Random Forests have\nbeen proposed for adaptive visual object tracking [36, 37],\nwhere randomised trees are incrementally grown to clas-\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.308\n2480\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.308\n2480\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,38 @@
+{
+  "number": 152,
+  "title": "Learning Multi-Domain Convolutional Neural Networks for Visual Tracking",
+  "year": 2016,
+  "authors": [
+    "Hyeonseob Nam",
+    "Bohyung Han"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.pdf",
+      "bytes": 2452558,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\152_2016_Learning_Multi-Domain_Convolutional_Neural_Networks_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.pdf",
+  "bytes": 2452558,
+  "sha256": "32efe12f2fae514c2ffb6fe676bd815277f2e69f8633fbe5d17134026d023a2c",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning Multi-Domain Convolutional Neural Networks for Visual Tracking",
+  "first_page_text": "Learning Multi-Domain Convolutional Neural Networks for Visual Tracking\nHyeonseob Nam\nBohyung Han\nDept. of Computer Science and Engineering, POSTECH, Korea\n{namhs09, bhhan}@postech.ac.kr\nAbstract\nWe propose a novel visual tracking algorithm based on\nthe representations from a discriminatively trained Convo-\nlutional Neural Network (CNN). Our algorithm pretrains\na CNN using a large set of videos with tracking ground-\ntruths to obtain a generic target representation. Our net-\nwork is composed of shared layers and multiple branches\nof domain-speciﬁc layers, where domains correspond to in-\ndividual training sequences and each branch is responsible\nfor binary classiﬁcation to identify target in each domain.\nWe train each domain in the network iteratively to obtain\ngeneric target representations in the shared layers. When\ntracking a target in a new sequence, we construct a new net-\nwork by combining the shared layers in the pretrained CNN\nwith a new binary classiﬁcation layer, which is updated on-\nline. Online tracking is performed by evaluating the candi-\ndate windows randomly sampled around the previous target\nstate. The proposed algorithm illustrates outstanding per-\nformance in existing tracking benchmarks.\n1. Introduction\nConvolutional Neural Networks (CNNs) have recently\nbeen applied to various computer vision tasks such as im-\nage classiﬁcation [4, 28, 37], semantic segmentation [19,\n31, 33], object detection [12], and many others [34, 40, 41].\nSuch great success of CNNs is mostly attributed to their\noutstanding performance in representing visual data. Vi-\nsual tracking, however, has been less affected by these pop-\nular trends since it is difﬁcult to collect a large amount of\ntraining data for video processing applications and train-\ning algorithms specialized for visual tracking are not avail-\nable yet, while the approaches based on low-level handcraft\nfeatures still work well in practice [5, 17, 21, 47]. Sev-\neral recent tracking algorithms [20, 44] have addressed the\ndata deﬁciency issue by transferring pretrained CNNs on\na large-scale classiﬁcation dataset such as ImageNet [36].\nAlthough these methods may be sufﬁcient to obtain generic\nfeature representations, its effectiveness in terms of track-\ning is limited due to the fundamental inconsistency between\nclassiﬁcation and tracking problems, i.e., predicting object\nclass labels versus locating targets of arbitrary classes.\nTo fully exploit the representation power of CNNs in vi-\nsual tracking, it is desirable to train them on large-scale data\nspecialized for visual tracking, which cover a wide range\nof variations in the combination of target and background.\nHowever, it is truly challenging to learn a uniﬁed represen-\ntation based on the video sequences that have completely\ndifferent characteristics. Note that individual sequences in-\nvolve different types of targets whose class labels, moving\npatterns, and appearances are different, and tracking algo-\nrithms suffer from sequence-speciﬁc challenges including\nocclusion, deformation, lighting condition change, motion\nblur, etc. Training CNNs is even more difﬁcult since the\nsame kind of objects can be considered as a target in a se-\nquence and as a background object in another. Due to such\nvariations and inconsistencies across sequences, we believe\nthat the ordinary learning methods based on the standard\nclassiﬁcation task are not appropriate, and another approach\nto capture sequence-independent information should be in-\ncorporated for better representation.\nMotivated by this fact, we propose a novel CNN archi-\ntecture, referred to as Multi-Domain Network (MDNet), to\nlearn the shared representation of targets from multiple an-\nnotated video sequences for tracking, where each video is\nregarded as a separate domain. The proposed network has\nseparate branches of domain-speciﬁc layers for binary clas-\nsiﬁcation at the end of the network, and shares the common\ninformation captured from all sequences in the preceding\nlayers for generic representation learning. Each domain in\nMDNet is trained separately and iteratively while the shared\nlayers are updated in every iteration. By employing this\nstrategy, we separate domain-independent information from\ndomain-speciﬁc one and learn generic feature representa-\ntions for visual tracking. Another interesting aspect of our\narchitecture is that we design the CNN with a small number\nof layers compared to the networks for classiﬁcation tasks\nsuch as AlexNet [28] and VGG nets [4, 37].\nWe also propose an effective online tracking framework\nbased on the representations learned by MDNet. When a\ntest sequence is given, all the existing branches of binary\n4293\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

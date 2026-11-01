@@ -1,0 +1,40 @@
+{
+  "number": 176,
+  "title": "Correlation-Guided Attention for Corner Detection Based Visual Tracking",
+  "year": 2020,
+  "authors": [
+    "Fei Du",
+    "Peng Liu",
+    "Wei Zhao",
+    "Xianglong Tang"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Du_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Du_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Du_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking_CVPR_2020_paper.pdf",
+      "bytes": 694900,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\176_2020_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Du_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Du_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking_CVPR_2020_paper.pdf",
+  "bytes": 694900,
+  "sha256": "b2b7ce5f43ca62378dc8f040ae615bd5c1f870a06b33bb25caa348759f52348b",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Correlation-Guided Attention for Corner Detection Based Visual Tracking",
+  "first_page_text": "Correlation-Guided Attention for Corner Detection Based Visual Tracking\nFei Du\nPeng Liu\nWei Zhao ∗\nXianglong Tang\nSchool of Computer Science and Technology, Harbin Institute of Technology, China\n{feiaxyt, pengliu, zhaowei, tangxl}@hit.edu.cn\nAbstract\nAccurate bounding box estimation has recently attract-\ned much attention in the tracking community because tra-\nditional multi-scale search strategies cannot estimate tight\nbounding boxes in many challenging scenarios involving\nchanges to the target. A tracker capable of detecting target\ncorners can ﬂexibly adapt to such changes, but existing cor-\nner detection based tracking methods have not achieved ad-\nequate success. We analyze the reasons for their failure and\npropose a state-of-the-art tracker that performs correlation-\nguided attentional corner detection in two stages. First, a\nregion of interest (RoI) is obtained by employing an efﬁcient\nSiamese network to distinguish the target from the back-\nground.\nSecond, a pixel-wise correlation-guided spatial\nattention module and a channel-wise correlation-guided\nchannel attention module exploit the relationship between\nthe target template and the RoI to highlight corner regions\nand enhance features of the RoI for corner detection. The\ncorrelation-guided attention modules improve the accura-\ncy of corner detection, thus enabling accurate bounding\nbox estimation. When trained on large-scale datasets us-\ning a novel RoI augmentation strategy, the performance of\nthe proposed tracker, running at a high speed of 70 FPS, is\ncomparable with that of state-of-the-art trackers in meeting\nﬁve challenging performance benchmarks.\n1. Introduction\nVisual object tracking is one of the fundamental prob-\nlems in computer vision, and it has attracted increasing at-\ntention in recent years. The goal of object tracking is to\nlocate a target at any point in a video based on the state\nof the target in the ﬁrst frame. The ability to do this on-\nline would have multiple applications in human-computer\ninteractions, video surveillance, and unmanned control sys-\ntems. Although signiﬁcant progress has been made, fac-\ntors such as occlusion, deformation, and scale variation still\npose formidable challenges.\n∗Corresponding author\nA tracker is normally required both to locate the target\nrobustly and to estimate its state (frequently represented by\na bounding box) accurately. Most trackers focus on tar-\nget location through the construction of robust classiﬁers,\nignoring target-state estimation. As a result, most track-\ners cannot handle severe target deformation, because they\nrely on a multi-scale search strategy [25, 7] to obtain the\nbounding box. Estimating the bounding box would solve\nthis problem, and a number of ways to do this have been\nproposed, including the linear regression model [32], the re-\ngion proposal network (RPN) [24], and the intersection over\nunion (IoU) overlap prediction network [6]. As a bounding\nbox is determined by its top-left and bottom-right corner-\ns, one straightforward way to estimate it is to predict the\ncoordinates of these two points. GOTURN [15] directly es-\ntimates the corner coordinates using a fully connected net-\nwork. SATIN [12] employs a corner pooling strategy [22]\nin a Siamese network [1] to predict heatmaps and location\noffsets for target corners. By detecting corners, the tracker\ncan ﬂexibly adapt to deformations and scale changes in the\ntarget. However, approaches based on corner detection have\nnot yet achieved a level of performance comparable to that\nof the other state-of-the-art trackers [46, 23, 6].\nExisting corner detection-based tracking methods have\nseveral limitations. First, methods that directly detect cor-\nners are complicated by the need to resolve ambiguities: ob-\njects in the background also have corners, and the tracker\nmay have difﬁculty distinguishing them from the corners of\nthe target being tracked. Second, existing methods do not\neffectively explore the relationship between the template\nand the test image. As the target is unknown beforehand,\ntemplate appearance information is often integrated into the\ntest image representations through an integration compo-\nnent. In recent Siamese trackers [1, 37], a cross-correlation\noperation is used to calculate similarity between the tem-\nplate and the test image. The target center is located by ﬁnd-\ning the maximum response. However, spatial information\nabout the corners is not explicitly encoded in the correla-\ntion results. Third, existing methods do not beneﬁt from the\npowerful representation capacities of deeper networks (like\nResNet [14]), using either a shallow backbone network [15]\n6836\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

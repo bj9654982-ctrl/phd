@@ -1,0 +1,435 @@
+{
+  "number": 96,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Attentional Correlation Filter Network for Adaptive Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          4
+        ]
+      ],
+      "date-time": "2026-04-04T11:58:54Z",
+      "timestamp": 1775303934883,
+      "version": "3.50.1"
+    },
+    "reference-count": 42,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2017.513",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2017-11-09T16:50:33Z",
+      "timestamp": 1510246233000
+    },
+    "page": "4828-4837",
+    "source": "Crossref",
+    "is-referenced-by-count": 248,
+    "title": [
+      "Attentional Correlation Filter Network for Adaptive Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Jongwon",
+        "family": "Choi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hyung Jin",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Sangdoo",
+        "family": "Yun",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Tobias",
+        "family": "Fischer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yiannis",
+        "family": "Demiris",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jin Young",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "1442",
+        "DOI": "10.1109/TPAMI.2013.230",
+        "article-title": "Visual tracking: An experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "IEEE Trans on PAMI"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "ref37",
+        "first-page": "1439",
+        "article-title": "Use of the zero norm with linear models and kernel methods",
+        "volume": "3",
+        "author": "weston",
+        "year": "2003",
+        "journal-title": "J Mach Learn Res"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.153"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7551/mitpress/9780262015417.001.0001"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s12021-013-9200-7"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2011.07.024"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.robot.2006.02.003"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1658349.1658355"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrn3476"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuron.2016.03.020"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2509974"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1997.9.8.1735"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nn.4061"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature14422"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.468"
+      },
+      {
+        "key": "ref6",
+        "first-page": "58",
+        "article-title": "Convolutional features for correlation filter based visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ICCV Workshop"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2609928"
+      },
+      {
+        "key": "ref8",
+        "first-page": "472",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref9",
+        "first-page": "327",
+        "article-title": "Imitation as a dual-route process featuring predictive and learning components: a biologically-plausible computational model",
+        "author": "demiris",
+        "year": "2002",
+        "journal-title": "Imitation in Animals and Artifacts"
+      },
+      {
+        "key": "ref1",
+        "author": "abadi",
+        "year": "2015",
+        "journal-title": "TensorFlow Large-Scale Machine Learning on Heterogeneous Systems"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Adam: A Method for Stochastic Optimization",
+        "author": "kingma",
+        "year": "2015",
+        "journal-title": "International Conference on Learning Representations"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-16181-5_14"
+      },
+      {
+        "key": "ref21",
+        "first-page": "1",
+        "article-title": "The Visual Object Tracking VOT2015 Challenge Results",
+        "author": "kristan",
+        "year": "2015",
+        "journal-title": "ICCV Workshops"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10599-4_13"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-35289-8_3"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.148"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_54"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2487837"
+      }
+    ],
+    "event": {
+      "name": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Honolulu, HI",
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            21
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            26
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8097368/8099483/08099996.pdf?arnumber=8099996",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2019-10-05T19:15:13Z",
+      "timestamp": 1570302913000
+    },
+    "score": 51.904274,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/8099996/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "references-count": 42,
+    "URL": "https://doi.org/10.1109/cvpr.2017.513",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    }
+  }
+}

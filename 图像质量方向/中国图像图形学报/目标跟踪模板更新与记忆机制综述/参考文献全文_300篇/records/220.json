@@ -1,0 +1,44 @@
+{
+  "number": 220,
+  "title": "UETrack: A Unified and Efficient Framework for Single Object Tracking",
+  "year": 2026,
+  "authors": [
+    "Ben Kang",
+    "Jie Zhao",
+    "Xin Chen",
+    "Wanting Geng",
+    "Bin Zhang",
+    "Lu Zhang",
+    "Dong Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Kang_UETrack_A_Unified_and_Efficient_Framework_for_Single_Object_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kang_UETrack_A_Unified_and_Efficient_Framework_for_Single_Object_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kang_UETrack_A_Unified_and_Efficient_Framework_for_Single_Object_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 1590045,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\220_2026_UETrack__A_Unified_and_Efficient_Framework_for_Single_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kang_UETrack_A_Unified_and_Efficient_Framework_for_Single_Object_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Kang_UETrack_A_Unified_and_Efficient_Framework_for_Single_Object_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 1590045,
+  "sha256": "75f99f44066a690b36f38e7f64d5d5d9cbb72a681cc0d73b7ed5574845bf70e1",
+  "version": "会议官方开放版本",
+  "pages": 12,
+  "pdf_title": "UETrack: A Unified and Efficient Framework for Single Object Tracking",
+  "first_page_text": "UETrack: A Unified and Efficient Framework for Single Object Tracking\nBen Kang1, Jie Zhao1,∗, Xin Chen2, Wanting Geng1, Bin Zhang1, Lu Zhang1, Dong Wang1, Huchuan Lu1\n1Dalian University of Technology\n2City University of Hong Kong\n{kangben, gengwanting, binzhang}@mail.dlut.edu.cn, xche32@cityu.edu.hk\nluzhangdut@gmail.com, {zj982853200, wdice, lhchuan}@dlut.edu.cn\nAbstract\nWith growing real-world demands, efficient tracking has re-\nceived increasing attention. However, most existing meth-\nods are limited to RGB inputs and struggle in multi-\nmodal scenarios.\nMoreover, current multi-modal track-\ning approaches typically use complex designs, making\nthem too heavy and slow for resource-constrained deploy-\nment. To tackle these limitations, we propose UETrack,\nan efficient framework for single object tracking.\nUE-\nTrack demonstrates high practicality and versatility, effi-\nciently handling multiple modalities including RGB, Depth,\nThermal, Event, and Language, and addresses the gap\nin efficient multi-modal tracking.\nIt introduces two key\ncomponents:\na Token-Pooling-based Mixture-of-Experts\nmechanism that enhances modeling capacity through fea-\nture aggregation and expert specialization, and a Target-\naware Adaptive Distillation strategy that selectively per-\nforms distillation based on sample characteristics, reduc-\ning redundant supervision and improving performance.\nExtensive experiments on 12 benchmarks across 3 hard-\nware platforms show that UETrack achieves a superior\nspeed–accuracy trade-off compared to previous methods.\nFor instance, UETrack-B achieves 69.2% AUC on LaSOT\nand runs at 163/56/60 FPS on GPU/CPU/AGX, demon-\nstrating strong practicality and versatility. Code is avail-\nable at https://github.com/kangben258/UETrack.\n1. Introduction\nSingle Object Tracking (SOT) is a fundamental task in com-\nputer vision that aims to continuously locate a specified tar-\nget in a video. Recently, efficient trackers have gained in-\ncreasing attention due to their higher practicality compared\nwith mainstream trackers [1, 18, 20, 22, 34, 53, 76, 88, 100].\nHowever, most existing efficient trackers [19, 41, 99] are\nrestricted to RGB-only scenarios, and little effort has been\n∗Corresponding author.\n \n  \n  \n  \n  \n  \n  \n  \n                                \n    \n   \n    \n    \n    \n    \n   \n         \n                                           \n         \n         \n         \n         \n            \n    \n         \n             \n     \n     \n           \n       \n       \n      \n          \n      \n              \n                      \n                 \nReal-time line\n1.8×faster\n2.8% higher\nUETrack-T\nUETrack-S\nUETrack-B\n（a）UETrack vs. efficient and multi-modal trackers\n（b）Comparison of speed-accuracy trade-offs\nMixFormerV2-S\n2.3% higher\nD\nT\nE\nL\nDepth\nThermal\nEvent\nLanguage\nEfficient \nTracker\nMulti-Modal \nTracker\nUETrack\nUnified & Efficient\nEfficient Deployment\nD\nT\nE\nL\nLimited to \nRGB\nHeavy for \nDeployment\nUnified Framework\nFigure 1. UETrack vs. Other Trackers. (a) compares UETrack\nwith current efficient and multi-modal trackers; (b) presents a\ncomparison of speed-accuracy trade-offs on the Jetson AGX.\ndevoted to efficient multi-modal tracking. In complex real-\nworld environments, a single modality is often insufficient.\nTo enhance robustness, additional modalities such as depth,\nthermal, or event data are needed. Although several stud-\nies [14, 36, 37] have explored multi-modal tracking, the het-\nerogeneity among modalities makes it challenging to effec-\ntively capture complementary information and shared rep-\nresentations. Consequently, existing methods often depend\non complex designs and large model structures, resulting\nin high computational cost and latency that hinder their de-\nployment in real-world applications. These limitations raise\na key question: Can we design an efficient multi-modal\ntracking model suitable for real-world scenarios?\nTo address the above issues, we propose an efficient SOT\nframework named UETrack. As shown in Figure 1(a), UE-\nTrack adopts a lightweight architecture and supports mul-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n20890\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

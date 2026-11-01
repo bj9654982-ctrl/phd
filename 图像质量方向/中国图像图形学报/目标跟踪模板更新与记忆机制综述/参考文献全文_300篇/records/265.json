@@ -1,0 +1,39 @@
+{
+  "number": 265,
+  "title": "Kernelized Memory Network for Video Object Segmentation",
+  "year": 2020,
+  "authors": [
+    "Hongje Seong",
+    "Junhyuk Hyun",
+    "Euntai Kim"
+  ],
+  "venue": "ECCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4152_ECCV_2020_paper.php",
+  "doi": "10.1007/978-3-030-58542-6_38",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670630.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670630.pdf",
+      "bytes": 9688108,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\265_2020_Kernelized_Memory_Network_for_Video_Object_Segmentation.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670630.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123670630.pdf",
+  "bytes": 9688108,
+  "sha256": "7ec798ce83e12fe00c0b8812b4f2cf875c49a8ff8aaf62815a6200e7a26e365d",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Kernelized Memory Network for Video Object\nSegmentation\nHongje Seong, Junhyuk Hyun, and Euntai Kim⋆\nSchool of Electrical and Electronic Engineering, Yonsei University, Seoul, Korea\n{hjseong,jhhyun,etkim}@yonsei.ac.kr\nAbstract. Semi-supervised video object segmentation (VOS) is a task\nthat involves predicting a target object in a video when the ground truth\nsegmentation mask of the target object is given in the ﬁrst frame. Re-\ncently, space-time memory networks (STM) have received signiﬁcant at-\ntention as a promising solution for semi-supervised VOS. However, an\nimportant point is overlooked when applying STM to VOS. The solu-\ntion (STM) is non-local, but the problem (VOS) is predominantly local.\nTo solve the mismatch between STM and VOS, we propose a kernelized\nmemory network (KMN). Before being trained on real videos, our KMN\nis pre-trained on static images, as in previous works. Unlike in previ-\nous works, we use the Hide-and-Seek strategy in pre-training to obtain\nthe best possible results in handling occlusions and segment boundary\nextraction. The proposed KMN surpasses the state-of-the-art on stan-\ndard benchmarks by a signiﬁcant margin (+5% on DAVIS 2017 test-dev\nset). In addition, the runtime of KMN is 0.12 seconds per frame on the\nDAVIS 2016 validation set, and the KMN rarely requires extra compu-\ntation, when compared with STM.\nKeywords: Video object segmentation, Memory network, Gaussian ker-\nnel, Hide-and-Seek\n1\nIntroduction\nVideo object segmentation (VOS) is a task that involves tracking target ob-\njects at the pixel level in a video. It is one of the most challenging problems in\ncomputer vision. VOS can be divided into two categories: semi-supervised VOS\nand unsupervised VOS. In semi-supervised VOS, the ground truth (GT) seg-\nmentation mask is provided in the ﬁrst frame, and the segmentation mask must\nbe predicted for the subsequent frames. In unsupervised VOS, however, no GT\nsegmentation mask is provided, and the task is to ﬁnd and segment the salient\nobject in the video. In this paper, we consider semi-supervised VOS.\nSpace-time memory networks (STM) [30] have recently received signiﬁcant\nattention as a promising solution for semi-supervised VOS. The basic idea behind\nthe application of STM to VOS is to use the intermediate frames between the\nﬁrst frame and the current frame. In STM, the current frame is considered to be\n⋆Corresponding author.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

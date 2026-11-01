@@ -1,0 +1,352 @@
+{
+  "number": 77,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Multihypothesis trajectory analysis for robust visual tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T16:46:20Z",
+      "timestamp": 1792169180507,
+      "version": "4.4.0"
+    },
+    "reference-count": 32,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2015.7299144",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2015-10-15T18:42:06Z",
+      "timestamp": 1444934526000
+    },
+    "page": "5088-5096",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Multihypothesis trajectory analysis for robust visual tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "family": "Dae-Youn Lee",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Jae-Young Sim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Chang-Su Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref31",
+        "first-page": "188",
+        "article-title": "MEEM: Robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref12",
+        "first-page": "172",
+        "article-title": "Occlusion and motion reasoning foycpr long-term tracking",
+        "author": "hua",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref13",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVP R"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540231"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref16",
+        "first-page": "1269",
+        "author": "won",
+        "year": "2010",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref17",
+        "first-page": "1195",
+        "article-title": "Tracking by sampling trackers",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.161"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2004.1315198"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref4",
+        "first-page": "170",
+        "article-title": "A superior tracking approach: Building a strong tracker through fusion",
+        "author": "bailer",
+        "year": "0",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2007.4408956"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref6",
+        "first-page": "146",
+        "article-title": "Sequence labelling SVMs trained in one pass",
+        "author": "bordes",
+        "year": "2008",
+        "journal-title": "ECML-PKDD"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2011.07.024"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1273496.1273508"
+      },
+      {
+        "key": "ref8",
+        "first-page": "1258",
+        "article-title": "Histogram-based pre filtering for luminance and chrominance compensation of multiview video",
+        "volume": "18",
+        "author": "fecker",
+        "year": "2008",
+        "journal-title": "TCSVT"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "ref9",
+        "first-page": "1122",
+        "article-title": "Symbiotic tracker ensemble toward a unified tracking framework",
+        "volume": "24",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "TCSVT"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2508037.2508039"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.443"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2007.4408954"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.308"
+      },
+      {
+        "key": "ref26",
+        "first-page": "1323",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2013.2263281"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Boston, MA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7293313/7298593/07299144.pdf?arnumber=7299144",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2017-03-24T17:16:43Z",
+      "timestamp": 1490375803000
+    },
+    "score": 51.207886,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7299144/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1109/cvpr.2015.7299144",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    }
+  }
+}

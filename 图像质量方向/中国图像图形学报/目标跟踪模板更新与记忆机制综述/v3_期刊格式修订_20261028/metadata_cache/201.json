@@ -1,0 +1,847 @@
+{
+  "number": 201,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2026-10-20T16:53:33Z",
+      "timestamp": 1792515213156,
+      "version": "4.5.0"
+    },
+    "reference-count": 104,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2023-06-01T00:00:00Z",
+          "timestamp": 1685577600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52729.2023.01399",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2023-08-22T13:30:52Z",
+      "timestamp": 1692711052000
+    },
+    "page": "14561-14571",
+    "source": "Crossref",
+    "is-referenced-by-count": 191,
+    "title": [
+      "DropMAE: Masked Autoencoders with Spatial-Attention Dropout for Tracking Tasks"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Qiangqiang",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "City University of Hong Kong,Department of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianyu",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "International Digital Economy Academy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ziquan",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "City University of Hong Kong,Department of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Baoyuan",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Data Science, The Chinese University of Hong Kong,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ying",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tencent AI Lab"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antoni B.",
+        "family": "Chan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "City University of Hong Kong,Department of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00175"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Beit: Bert pre-training of image transformers",
+        "author": "Bao",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref4",
+        "first-page": "6182",
+        "article-title": "Lean-ring discriminative model prediction for tracking",
+        "volume-title": "ICCV",
+        "author": "Bhat",
+        "year": "2019"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58536-5_46"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Language models are few-shot learners",
+        "volume-title": "NeurIPS",
+        "author": "Brown",
+        "year": "2020"
+      },
+      {
+        "key": "ref7",
+        "article-title": "Parametric instance classification for unsuper-vised visual feature learning",
+        "volume-title": "NeurIPS",
+        "author": "Cao",
+        "year": "2020"
+      },
+      {
+        "key": "ref8",
+        "article-title": "A short note about kinetics-600",
+        "author": "Carreira",
+        "year": "2018",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref9",
+        "article-title": "A short note on the kinetics700 human action dataset",
+        "author": "Carreira",
+        "year": "2019",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Back-bone is all your need: A simplified architecture for visual object tracking",
+        "volume-title": "ECCV",
+        "author": "Chen",
+        "year": "2022"
+      },
+      {
+        "key": "ref11",
+        "article-title": "A simple frame-work for contrastive learning of visual representations",
+        "volume-title": "ICML",
+        "author": "Chen",
+        "year": "2020"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00950"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19815-1_37"
+      },
+      {
+        "key": "ref15",
+        "first-page": "11781",
+        "article-title": "Rethinking spacetime networks with improved memory coverage for efficient video object segmentation",
+        "volume-title": "NeurIPS",
+        "author": "Cheng",
+        "year": "2021"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00774"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Language models are few-shot learners",
+        "volume-title": "NAACL",
+        "author": "Devlin",
+        "year": "2019"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01261-8_28"
+      },
+      {
+        "key": "ref24",
+        "article-title": "An image is worth 16×16 words: Transformers for image recognition at scale",
+        "volume-title": "ICLR",
+        "author": "Dosovitskiy",
+        "year": "2021"
+      },
+      {
+        "key": "ref25",
+        "first-page": "766",
+        "article-title": "Discriminative unsupervised feature learning with convolutional neural networks",
+        "volume-title": "NeurIPS",
+        "author": "Dosovitskiy",
+        "year": "2014"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00585"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-020-01387-y"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.l812.06148"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Masked autoen-coders as spatiotemporal learners",
+        "author": "Feichtenhofer",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_9"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Unsupervised representation learning by predicting image rotations",
+        "author": "Gidaris",
+        "year": "2018",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00975"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01237-3_4"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref40",
+        "article-title": "The kinetics human action video dataset",
+        "author": "Kay",
+        "year": "2017",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33016706"
+      },
+      {
+        "key": "ref44",
+        "article-title": "An informative tracking benchmark",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20077-9_17"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3240508.3240709"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2021.3103601"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Swintrack: A simple and strong baseline for transformer tracking",
+        "author": "Lin",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00142"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICASSP43922.2022.9747821"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00716"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.515"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Gool. ideo object segmentation without temporal information",
+        "volume-title": "TPAMI",
+        "author": "Maninis",
+        "year": "2018"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01319"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2901464"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46466-4_5"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_33"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_25"
+      },
+      {
+        "key": "ref64",
+        "article-title": "The 2017 davis challenge on video object segmentation",
+        "author": "Pont-Tuset",
+        "year": "2017",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref65",
+        "article-title": "Learning transferable visual models from natural language supervision",
+        "volume-title": "ICML",
+        "author": "Radford",
+        "year": "2021"
+      },
+      {
+        "key": "ref66",
+        "article-title": "Imagenet-21k pretraining for the masses",
+        "author": "Ridnik",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00743"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref69",
+        "article-title": "Unsupervised learning of video representations using lstms",
+        "volume-title": "ICML",
+        "author": "Srivastava",
+        "year": "2015"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref71",
+        "article-title": "Videomae: Masked autoencoders are data-efficient learners for self-supervised video pre-training",
+        "author": "Tong",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref72",
+        "article-title": "Training data-efficient image transformers distillation through attention",
+        "volume-title": "ICML",
+        "author": "Touvron",
+        "year": "2021"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00114"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref75",
+        "article-title": "Generating videos with scene dynamics",
+        "volume-title": "NeurIPS",
+        "author": "Vondrick",
+        "year": "2016"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00511"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01355"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00408"
+      },
+      {
+        "key": "ref81",
+        "article-title": "Do different tracking tasks require different appearance models?",
+        "volume-title": "NeurIPS",
+        "author": "Wang",
+        "year": "2021"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICME51207.2021.9428441"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00301"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-20873-8_8"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00393"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00855"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01641"
+      },
+      {
+        "key": "ref89",
+        "first-page": "9653",
+        "article-title": "Sim-mim: A simple framework for masked image modeling",
+        "volume-title": "CVPR",
+        "author": "Xie",
+        "year": "2022"
+      },
+      {
+        "key": "ref90",
+        "article-title": "Youtube-vos: A large-scale video object segmentation benchmark",
+        "author": "Xu",
+        "year": "2018",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19803-8_43"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_10"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00675"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58558-7_20"
+      },
+      {
+        "key": "ref96",
+        "first-page": "2491",
+        "article-title": "Associating objects with transformers for video object segmentation",
+        "volume-title": "NeurIPS",
+        "author": "Yang",
+        "year": "2021"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref98",
+        "article-title": "Uast: Uncertainty-aware siamese tracking",
+        "volume-title": "ICML",
+        "author": "Zhang",
+        "year": "2022"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref100",
+        "article-title": "Image Colorization",
+        "volume-title": "ECCV",
+        "author": "Zhang",
+        "year": "2016"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00698"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01309"
+      },
+      {
+        "key": "ref103",
+        "article-title": "Deeper and wider siamese networks for raal-time visual tracking",
+        "volume-title": "CVPR",
+        "author": "Zhang",
+        "year": "2017"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Vancouver, BC, Canada",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            17
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            24
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10203037/10203050/10203159.pdf?arnumber=10203159",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2024-03-01T12:14:33Z",
+      "timestamp": 1709295273000
+    },
+    "score": 74.014046,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10203159/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    },
+    "references-count": 104,
+    "URL": "https://doi.org/10.1109/cvpr52729.2023.01399",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6
+        ]
+      ]
+    }
+  }
+}

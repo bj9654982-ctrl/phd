@@ -1,0 +1,42 @@
+{
+  "number": 76,
+  "title": "Local Subspace Collaborative Tracking",
+  "year": 2015,
+  "authors": [
+    "Lin Ma",
+    "Xiaoqin Zhang",
+    "Weiming Hu",
+    "Junliang Xing",
+    "Jiwen Lu",
+    "Jie Zhou"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Ma_Local_Subspace_Collaborative_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Local_Subspace_Collaborative_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Local_Subspace_Collaborative_ICCV_2015_paper.pdf",
+      "bytes": 2117929,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\076_2015_Local_Subspace_Collaborative_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Local_Subspace_Collaborative_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Ma_Local_Subspace_Collaborative_ICCV_2015_paper.pdf",
+  "bytes": 2117929,
+  "sha256": "db0b2f4bdf85cc2e7dc70dde38adeeab6f85b1d00f88544e4987c9865e38e219",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Local Subspace Collaborative Tracking",
+  "first_page_text": "Local Subspace Collaborative Tracking\nLin Ma1,3, Xiaoqin Zhang2, Weiming Hu1, Junliang Xing1, Jiwen Lu3 and Jie Zhou3\n1. NLPR, Institute of Automation, Chinese Academy of Sciences, China\n2. College of Mathematics and Information Science, Wenzhou University, China\n3. Department of Automation, Tsinghua University, China\nAbstract\nSubspace models have been widely used for appearance\nbased object tracking. Most existing subspace based track-\ners employ a linear subspace to represent object appear-\nances, which are not accurate enough to model large varia-\ntions of objects. To address this, this paper presents a local\nsubspace collaborative tracking method for robust visual\ntracking, where multiple linear and nonlinear subspaces are\nlearned to better model the nonlinear relationship of object\nappearances. First, we retain a set of key samples and com-\npute a set of local subspaces for each key sample. Then,\nwe construct a hypersphere to represent the local nonlin-\near subspace for each key sample. The hypersphere of one\nkey sample passes the local key samples and also is tan-\ngent to the local linear subspace of the speciﬁc key sample.\nIn this way, we are able to represent the nonlinear distri-\nbution of the key samples and also approximate the local\nlinear subspace near the speciﬁc key sample, so that local\ndistributions of the samples can be represented more accu-\nrately. Experimental results on challenging video sequences\ndemonstrate the effectiveness of our method.\n1. Introduction\nVisual object tracking plays an important role in many\nvision applications such as video surveillance and motion\nanalysis. To build up robust trackers, many feature repre-\nsentation methods have been proposed to model the appear-\nance of objects [4, 3, 31, 19, 10]. Generally, the appear-\nance of objects is complex and may present different dis-\ntributions. Subspace analysis is an effective technique to\nmodel object appearance and has been successfully applied\nto visual tracking. Principal component analysis (PCA) is\none representative subspace method, which assumes sam-\nples distribute linearly and aims to learn a low-dimensional\nsubspace by maximizing the variance of samples [22]. In\nvisual tracking, objects usually vary across time and PCA\ncannot be directly employed to model object appearance.\n1\n2 3 4\n5\n6 7 8 9\n10\nFigure 1. hypersphere. (a) hypersphere (green circles) of 2D\n(blue) points. Line 2 and Line 9 passing points 2 and 9 are lo-\ncal linear subspaces about point 2 and 9 respectively. The hyper\nspheres are tangent to the local linear subspaces (1D). As the ﬁgure\nshows, the hypersphere is able to represent the local point distri-\nbutions more accurately than the local linear subspace. (b) Local\nnonlinear subspace of a key sample (at the origin). The object\nis divided into four object parts, i.e. left, right, bottom and top.\nHere, we show the key samples of the left object part. For clar-\nity, we show the 1D sphere (green circle) in 2D linear subspace\n(the two axes). The blue points represent the object appearances.\nThe nonlinear distribution of the key samples is approximated with\nthe hypersphere. The sphere passes the key samples and is tan-\ngent to the main axis (axis 0) approximately. As the ﬁgure shows,\nwhen the object experiences pose variation, the samples are dis-\ntributed on a nonlinear hypersphere approximately. Thus, with\nhypersphere, we can represent the object appearance distribution\nmore accurately. Also, by making the hypersphere tangent to the\ncorresponding axis, the local linear subspace can be approximated\nby the hypersphere.\nTo address this, the incremental PCA method is proposed to\nupdate the linear subspace incrementally so that the model\ncan well adapt to the varying appearance during tracking\n[17].\nLinear subspace is less likely to over-ﬁt samples, but eas-\nily fails to represent the real sample distribution. To resolve\nthe nonlinear distribution problem, kernel based methods\nhave been proposed [21, 2]. While nonlinearities can be ad-\n14301\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,39 @@
+{
+  "number": 211,
+  "title": "A Distractor-Aware Memory for Visual Object Tracking with SAM2",
+  "year": 2025,
+  "authors": [
+    "Jovana Videnovic",
+    "Alan Lukezic",
+    "Matej Kristan"
+  ],
+  "venue": "CVPR",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Videnovic_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Videnovic_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Videnovic_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2_CVPR_2025_paper.pdf",
+      "bytes": 3374474,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\211_2025_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Videnovic_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Videnovic_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2_CVPR_2025_paper.pdf",
+  "bytes": 3374474,
+  "sha256": "48a7d8a00ce7f0b6c441541653d70d1839a7d4f39ddefb04c78c1b0fd9a62fc2",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "A Distractor-Aware Memory for Visual Object Tracking with SAM2",
+  "first_page_text": "A Distractor-Aware Memory for Visual Object Tracking with SAM2\nJovana Videnovic∗, Alan Lukezic∗, Matej Kristan\nFaculty of Computer and Information Science, University of Ljubljana, Slovenia\njovanavidenovic10@gmail.com, {alan.lukezic, matej.kristan}@fri.uni-lj.si\nAbstract\nMemory-based trackers are video object segmentation\nmethods that form the target model by concatenating re-\ncently tracked frames into a memory buffer and localize\nthe target by attending the current image to the buffered\nframes. While already achieving top performance on many\nbenchmarks, it was the recent release of SAM2 that placed\nmemory-based trackers into focus of the visual object track-\ning community. Nevertheless, modern trackers still strug-\ngle in the presence of distractors. We argue that a more\nsophisticated memory model is required, and propose a\nnew distractor-aware memory model for SAM2 and an\nintrospection-based update strategy that jointly addresses\nthe segmentation accuracy as well as tracking robustness.\nThe resulting tracker is denoted as DAM4SAM. We also\npropose a new distractor-distilled DiDi dataset to study the\ndistractor problem better. DAM4SAM outperforms SAM2.1\nand related SAM memory extensions on seven benchmarks\nand sets a solid new state-of-the-art on six of them. The\ncode and the new dataset are available on https://\ngithub.com/jovanavidenovic/DAM4SAM.\n1. Introduction\nGeneral visual object tracking is a classical computer vision\nproblem that considers the localization of an arbitrary target\nin the video, given a single supervised training example in\nthe first frame. The major source of tracking failures are so-\ncalled distractors, i.e., image regions that are difficult to dis-\ntinguish from the tracked object, given the available target\nmodel (see Figure 1). These can be nearby objects similar\nto the tracked target (external distractors) or similar regions\non the object when tracking only a part of the object (inter-\nnal distractors). When the target leaves and re-enters the\nfield of view, the external distractors become particularly\nchallenging.\nVarious approaches have been proposed to reduce the vi-\n∗The authors contributed equally.\n0.673\n0.692\n0.753\nMS_AOT\nSAM2.1\nDAM4SAM\nVOT2022: EAO\n+9%\n+3%\n+12%\nPredicted mask \nAlternaƟve mask\nVOT2022\nwinner\nTarget\nt\nt+T\nDistractor detected!\nTarget\nSAM2.1      and DAM4SAM     : Performance in presence of distractors\nSAM2 output introspecƟon \nFigure 1. DAM4SAM distractor-aware memory (DAM) update\nis triggered by the divergence between the predicted and the al-\nternative masks (top left). This resolves the visual ambiguity and\nincreases tracking robustness (bottom). DAM leads to a signif-\nicant performance boost, setting a new state-of-the-art result on\nVOT2022 (top-right).\nsual ambiguity caused by distractors. These include learn-\ning discriminative features [2, 5, 6, 10, 43] or explicitly\nmodeling the foreground-background by dedicated mod-\nules [9, 28, 29, 50]. An emerging paradigm, already po-\nsitioned at the top of the major benchmarks [23–25], are\nmemory-based frameworks, which localize the target by\npixel association with the past tracked frames [8, 47, 51].\nThe memory-based methods construct the target model\nby concatenating sequences of entire images with the seg-\nmented target, thus implicitly encoding the present distrac-\ntors. Zhou et. al [51] argue that the visual redundancy in\nthe large memory leads to reduced localization capability\ndue to the nature of cross-attention. They show that lim-\niting the memory to the most recent frames and tempo-\nrally time-stamping them in fact improves tracking. This\nparadigm was further verified by the recent tracking foun-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n24255\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

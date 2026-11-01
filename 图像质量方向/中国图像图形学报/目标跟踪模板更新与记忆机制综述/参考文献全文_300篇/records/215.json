@@ -1,0 +1,41 @@
+{
+  "number": 215,
+  "title": "Exploring Lightweight Hierarchical Vision Transformers for Efficient Visual Tracking",
+  "year": 2023,
+  "authors": [
+    "Ben Kang",
+    "Xin Chen",
+    "Dong Wang",
+    "Houwen Peng",
+    "Huchuan Lu"
+  ],
+  "venue": "ICCV",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Kang_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tracking_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Kang_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tracking_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Kang_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tracking_ICCV_2023_paper.pdf",
+      "bytes": 4324062,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\215_2023_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tr.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Kang_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tracking_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Kang_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tracking_ICCV_2023_paper.pdf",
+  "bytes": 4324062,
+  "sha256": "61aabc55b78cfb49e2056f138394bfc39ee200fff7da223b93ee0061213ad05c",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Exploring Lightweight Hierarchical Vision Transformers for Efficient Visual Tracking",
+  "first_page_text": "Exploring Lightweight Hierarchical Vision Transformers\nfor Efﬁcient Visual Tracking\nBen Kang1,∗\nXin Chen1,∗\nDong Wang1,†\nHouwen Peng2,†\nHuchuan Lu1\n1 School of Information and Communication Engineering, Dalian University of Technology\n2 Microsoft Research\nAbstract\nTransformer-based visual trackers have demonstrated\nsigniﬁcant progress owing to their superior modeling ca-\npabilities. However, existing trackers are hampered by low\nspeed, limiting their applicability on devices with limited\ncomputational power. To alleviate this problem, we propose\nHiT, a new family of efﬁcient tracking models that can run\nat high speed on different devices while retaining high per-\nformance. The central idea of HiT is the Bridge Module,\nwhich bridges the gap between modern lightweight trans-\nformers and the tracking framework. The Bridge Module in-\ncorporates the high-level information of deep features into\nthe shallow large-resolution features. In this way, it pro-\nduces better features for the tracking head. We also pro-\npose a novel dual-image position encoding technique that\nsimultaneously encodes the position information of both\nthe search region and template images.\nThe HiT model\nachieves promising speed with competitive performance.\nFor instance, it runs at 61 frames per second (fps) on the\nNvidia Jetson AGX edge device. Furthermore, HiT attains\n64.6% AUC on the LaSOT benchmark, surpassing all pre-\nvious efﬁcient trackers. Code and models are available at\nhttps://github.com/kangben258/HiT.\n1. Introduction\nVisual object tracking is a fundamental task in com-\nputer vision, which aims to track an arbitrary object given\nits initial state in a video sequence. In recent years, with\nthe development of deep neural networks [25, 20, 39, 42],\ntracking has made signiﬁcant progress. In particular, the\nutilization of transformers [42] has played a pivotal role\nin the development of several high-performance track-\ners [8, 50, 43, 53, 10, 52, 7].\nUnfortunately, much of\nthe research [27, 2, 8] has concentrated solely on achiev-\ning high performance without considering tracking speed.\n∗Equal contribution.\n† Corresponding authors: Dong Wang (wdice@dlut.edu.cn), Houwen\nPeng (houwen.peng@microsoft.com).\nNon-real-time\nReal-time\n4.7灤faster\nFigure 1: Comparison of our HiT with other trackers on La-\nSOT in terms of speed (horizontal axis) on the edge AI plat-\nform of Nvidia Jetson AGX Xavier and success rate (AUC)\n(vertical axis). Following the VOT real-time setting [23],\nwe set the real-time line at 20 fps. Our HiT achieves the\nbest real-time result, surpassing other efﬁcient trackers.\nWhile these trackers may achieve real-time speed on pow-\nerful GPUs, they lack competitiveness and advantages on\nresource-limited devices. For instance, TransT [8], which\nis a high-performance tracker, only achieves a speed of 5\nframes per second (fps) on the Intel Core i9-9900K CPU\nand 13 fps on the Nvidia Jetson AGX. Consequently, a high-\nperformance tracker with fast speed is critical.\nThe one-stream structure has gained popularity in track-\ning applications [52, 5, 48, 10]. This structure performs\nfeature extraction and feature fusion jointly, leveraging the\ncapabilities of the backbone network [14] that has been\npre-trained for image classiﬁcation. In our work, we also\nadopt the one-stream architecture, leveraging a pre-trained\nlightweight transformer backbone network. However, there\nexists a substantial gap between the tracking ﬁeld and the\nimage classiﬁcation ﬁeld. In the image classiﬁcation ﬁeld,\nlightweight networks [18, 33, 47] frequently incorporate\na hierarchical architecture with high-stride downsampling\nto decrease computational expenses. However, large-stride\ndownsampling often leads to a loss of critical information,\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n9612\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.889,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,41 @@
+{
+  "number": 99,
+  "title": "End-To-End Representation Learning for Correlation Filter Based Tracking",
+  "year": 2017,
+  "authors": [
+    "Jack Valmadre",
+    "Luca Bertinetto",
+    "Joao Henriques",
+    "Andrea Vedaldi",
+    "Philip H. S. Torr"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.pdf",
+      "bytes": 543364,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\099_2017_End-To-End_Representation_Learning_for_Correlation_Filter_Based_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.pdf",
+  "bytes": 543364,
+  "sha256": "3c593fc01ca7bce2c0ba3ea132f5ef3ed66a1dd8aa8a6e26ffd6c7bc1a684932",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "End-To-End Representation Learning for Correlation Filter Based Tracking",
+  "first_page_text": "End-to-end representation learning for Correlation Filter based tracking\nJack Valmadre∗\nLuca Bertinetto∗\nJo˜ao Henriques\nAndrea Vedaldi\nPhilip H. S. Torr\nUniversity of Oxford\n{name.surname}@eng.ox.ac.uk\nTraining image: 255x255x3\nTest image: 255x255x3\n17x17x32\n49x49x32\nCorrelation \nFilter\nCrop\n★\n33x33x1\nCNN\nCNN\n49x49x32\nFigure 1: Overview of the proposed network architecture, CFNet. It is an asymmetric Siamese network: after applying the\nsame convolutional feature transform to both input images, the “training image” is used to learn a linear template, which is\nthen applied to search the “test image” by cross-correlation.\nAbstract\nThe Correlation Filter is an algorithm that trains a linear\ntemplate to discriminate between images and their transla-\ntions. It is well suited to object tracking because its formu-\nlation in the Fourier domain provides a fast solution, en-\nabling the detector to be re-trained once per frame. Pre-\nvious works that use the Correlation Filter, however, have\nadopted features that were either manually designed or\ntrained for a different task. This work is the ﬁrst to over-\ncome this limitation by interpreting the Correlation Filter\nlearner, which has a closed-form solution, as a differen-\ntiable layer in a deep neural network. This enables learning\ndeep features that are tightly coupled to the Correlation Fil-\nter. Experiments illustrate that our method has the impor-\ntant practical beneﬁt of allowing lightweight architectures\nto achieve state-of-the-art performance at high framerates.\n1. Introduction\nDeep neural networks are a powerful tool for learn-\ning image representations in computer vision applications.\nHowever, training deep networks online, in order to capture\npreviously unseen object classes from one or few examples,\n∗Equal ﬁrst authorship.\nis challenging. This problem emerges naturally in appli-\ncations such as visual object tracking, where the goal is to\nre-detect an object over a video with the sole supervision of\na bounding box at the beginning of the sequence. The main\nchallenge is the lack of a-priori knowledge of the target ob-\nject, which can be of any class.\nThe simplest approach is to disregard the lack of a-priori\nknowledge and adapt a pre-trained deep convolutional neu-\nral network (CNN) to the target, for example by using\nstochastic gradient descent (SGD), the workhorse of deep\nnetwork optimization [31, 25, 35]. The extremely limited\ntraining data and large number of parameters make this a\ndifﬁcult learning problem. Furthermore, SGD is quite ex-\npensive for online adaptation [31, 25].\nA possible answer to these shortcomings is to have no\nonline adaptation of the network. Recent works have fo-\ncused on learning deep embeddings that can be used as uni-\nversal object descriptors [3, 12, 28, 17, 5]. These methods\nuse a Siamese CNN, trained ofﬂine to discriminate whether\ntwo image patches contain the same object or not. The idea\nis that a powerful embedding will allow the detection (and\nthus tracking) of objects via similarity, bypassing the online\nlearning problem. However, using a ﬁxed metric to compare\nappearance prevents the learning algorithm from exploiting\nany video-speciﬁc cues that could be helpful for discrimi-\nnation.\nAn alternative strategy is to use instead an online learn-\n2805\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

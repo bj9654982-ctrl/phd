@@ -1,0 +1,43 @@
+{
+  "number": 225,
+  "title": "Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking",
+  "year": 2025,
+  "authors": [
+    "You Wu",
+    "Xucheng Wang",
+    "Xiangyang Yang",
+    "Mengyuan Liu",
+    "Dan Zeng",
+    "Hengzhou Ye",
+    "Shuiwang Li"
+  ],
+  "venue": "CVPR",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking_CVPR_2025_paper.pdf",
+      "bytes": 7720542,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\225_2025_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Wu_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking_CVPR_2025_paper.pdf",
+  "bytes": 7720542,
+  "sha256": "b5087dfe88af15238f24257bbb70d8b5f9450bc95cf5db498b07f2ba630c835d",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking",
+  "first_page_text": "Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking\nYou Wu1†, Xucheng Wang2†, Xiangyang Yang1, Mengyuan Liu1, Dan Zeng3,\nHengzhou Ye1, Shuiwang Li1∗\n1College of Computer Science and Engineering, Guilin University of Technology, China\n2School of Computer Science, Fudan University, Shanghai, China\n3School of Artificial Intelligence, Sun Yat-sen University, Zhuhai, China\nwuyou@glut.edu.cn, xcwang317@glut.edu.cn, xyyang317@163.com, mengyuaner1122@foxmail.com\nzengd8@mail.sysu.edu.cn, yehengzhou@glut.edu.cn, lishuiwang0721@163.com\nAbstract\nSingle-stream architectures using Vision Transformer (ViT)\nbackbones show great potential for real-time UAV track-\ning recently. However, frequent occlusions from obstacles\nlike buildings and trees expose a major drawback: these\nmodels often lack strategies to handle occlusions effec-\ntively. New methods are needed to enhance the occlusion\nresilience of single-stream ViT models in aerial tracking. In\nthis work, we propose to learn Occlusion-Robust Represen-\ntations (ORR) based on ViTs for UAV tracking by enforc-\ning an invariance of the feature representation of a target\nwith respect to random masking operations modeled by a\nspatial Cox process. Hopefully, this random masking ap-\nproximately simulates target occlusions, thereby enabling\nus to learn ViTs that are robust to target occlusion for UAV\ntracking. This framework is termed ORTrack. Additionally,\nto facilitate real-time applications, we propose an Adap-\ntive Feature-Based Knowledge Distillation (AFKD) method\nto create a more compact tracker, which adaptively mim-\nics the behavior of the teacher model ORTrack according to\nthe task’s difficulty. This student model, dubbed ORTrack-\nD, retains much of ORTrack’s performance while offering\nhigher efficiency. Extensive experiments on multiple bench-\nmarks validate the effectiveness of our method, demonstrat-\ning its state-of-the-art performance. Codes is available at\nhttps://github.com/wuyou3474/ORTrack.\n1. Introduction\nUnmanned aerial vehicles (UAVs) are leveraged in a\nplethora of applications, with increasing emphasis on UAV\ntracking [4, 43, 46, 49, 52, 79, 84]. This form of tracking\nposes an exclusive set of challenges such as tricky view-\ning angles, motion blur, severe occlusions, and the need for\n† Equal contribution.\n∗Corresponding authors.\nFigure 1.\nCompared to SOTA UAV trackers on UAVDT, our\nORTrack-DeiT sets a new record with 83.4% precision and a speed\nof 236 FPS. Our ORTrack-D-DeiT strikes a better trade-off with\n82.5% precision and a speed of about 313 FPS.\nefficiency due to UAVs’ restricted battery life and compu-\ntational resources [5, 41, 80, 83]. Consequently, design-\ning an effective UAV tracker requires a delicate balance be-\ntween precision and efficiency. It needs to ensure accuracy\nwhile being conscious of the UAV’s energy and computa-\ntional constraints.\nIn recent years, there has been a notable shift from dis-\ncriminative correlation filters (DCF)-based methods, be-\ncause of their unsatisfactory robustness, towards DL-based\napproaches, particularly with the adoption of single-stream\narchitectures that integrate feature extraction and fusion via\npre-trained Vision Transformer (ViT) backbone networks.\nThis single-stream paradigm has proven highly effective in\ngeneric visual tracking, as evidenced by the success of re-\ncent methods such as OSTrack [91], SimTrack [8], Mix-\nformer [13], and DropMAE [82]. Building on these ad-\nvancements, Aba-VTrack [44] introduces a lightweight DL-\nbased tracker within this framework, employing an adap-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n17103\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

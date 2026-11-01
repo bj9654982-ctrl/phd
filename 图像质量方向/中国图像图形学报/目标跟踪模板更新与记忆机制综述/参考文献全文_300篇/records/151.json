@@ -1,0 +1,43 @@
+{
+  "number": 151,
+  "title": "Hedged Deep Tracking",
+  "year": 2016,
+  "authors": [
+    "Yuankai Qi",
+    "Shengping Zhang",
+    "Lei Qin",
+    "Hongxun Yao",
+    "Qingming Huang",
+    "Jongwoo Lim",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Qi_Hedged_Deep_Tracking_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Qi_Hedged_Deep_Tracking_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Qi_Hedged_Deep_Tracking_CVPR_2016_paper.pdf",
+      "bytes": 1718581,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\151_2016_Hedged_Deep_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Qi_Hedged_Deep_Tracking_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Qi_Hedged_Deep_Tracking_CVPR_2016_paper.pdf",
+  "bytes": 1718581,
+  "sha256": "b798c00555cb4ea4a9f147d70f3e001ee53b78ddde331d8bddb84d0060db79a4",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Hedged Deep Tracking",
+  "first_page_text": "Hedged Deep Tracking\nYuankai Qi† Shengping Zhang† Lei Qin♭Hongxun Yao† Qingming Huang†,♮Jongwoo Lim⋄Ming-Hsuan Yang§\n†Harbin Institute of Technology ♭Institute of Computing Technology, Chinese Academy of Sciences\n♮University of Chinese Academy of Sciences ⋄Hanyang University §University of California at Merced\nqykshr@gmail.com\ns.zhang@hit.edu.cn\nqinlei@ict.ac.cn\nh.yao@hit.edu.cn\nqmhuang@jdl.ac.cn\njlim@hanyang.ac.kr\nmhyang@ucmerced.edu\nAbstract\nIn recent years, several methods have been developed to\nutilize hierarchical features learned from a deep convolu-\ntional neural network (CNN) for visual tracking. However,\nas features from a certain CNN layer characterize an ob-\nject of interest from only one aspect or one level, the per-\nformance of such trackers trained with features from one\nlayer (usually the second to last layer) can be further im-\nproved. In this paper, we propose a novel CNN based track-\ning framework, which takes full advantage of features from\ndifferent CNN layers and uses an adaptive Hedge method\nto hedge several CNN based trackers into a single stronger\none. Extensive experiments on a benchmark dataset of 100\nchallenging image sequences demonstrate the effectiveness\nof the proposed algorithm compared to several state-of-the-\nart trackers.\n1. Introduction\nVisual tracking has become a topic of increasing inter-\nest over the past couple of decades due to its importance\nin numerous applications, such as intelligent video surveil-\nlance, vehicle navigation, and human-computer interaction.\nDespite signiﬁcant efforts put into developing algorithm-\ns [20, 22, 14, 36, 9, 38, 32, 37, 39, 35] and benchmark e-\nvaluations [34, 27] for visual tracking, it is still a challeng-\ning task due to complicated interfering factors like heavy\nillumination changes, shape deformation, partial and ful-\nl occlusion, large scale variations, in-plane and out-of-plane\nrotations, and fast motion, to name a few.\nMost existing tracking approaches focus on either de-\nsigning effective decision models [13, 12, 16, 40] or ex-\ntracting robust features [6, 24, 41, 1]. Recently, inspired by\nthe success of deep convolutional neural networks (CNNs)\nin object recognition and detection [26, 15, 21, 11], several\nCNN based trackers [30, 18, 9, 25] have been developed.\nEmpirical studies using a large object tracking benchmark\nshow that the performance of CNN based trackers surpasses\nFigure 1. Tracking results of using CNN features from different\nconvolutional layers on a representative frame of four sequences\nwith diverse challenges. The best tracking results are obtained\nusing layers 12, 16, 10, and 10 on four sequences, respectively.\nthat of hand-crafted features such as HOG [6], SIFT [24],\nand color histogram [28, 1].\nDespite achieving state-of-the-art performance, existing\nCNN based trackers still have some limitations. Most of\nthese methods represent target objects only using features\nfrom very last layers (e.g., fully-connected layers) of C-\nNNs, which capture rich category-level semantic informa-\ntion, and therefore are useful for object classiﬁcation. How-\never, features from last layers are not optimal for visual\ntracking as they do not capture spatial details of the tracked\ntarget. These details, captured by ﬁrst layers, are crucial\nto visual tracking, as they allow for accurate localization of\ntargets, as shown in the last two rows of Figure 1. On the\nother hand, as features from ﬁrst layers are more generic\nthan discriminative as ones from last layers, methods based\non features from ﬁrst layers are likely to fail in challeng-\ning scenarios, as shown in the ﬁrst two rows of Figure 1.\nTo achieve better tracking performances, it is imperative to\ncombine features from different layers to best represent and\n4303\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

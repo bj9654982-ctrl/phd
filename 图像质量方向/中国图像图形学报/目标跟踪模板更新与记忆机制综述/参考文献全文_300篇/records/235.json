@@ -1,0 +1,40 @@
+{
+  "number": 235,
+  "title": "Joint Visual Grounding and Tracking With Natural Language Specification",
+  "year": 2023,
+  "authors": [
+    "Li Zhou",
+    "Zikun Zhou",
+    "Kaige Mao",
+    "Zhenyu He"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification_CVPR_2023_paper.pdf",
+      "bytes": 4652200,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\235_2023_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhou_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification_CVPR_2023_paper.pdf",
+  "bytes": 4652200,
+  "sha256": "f03812c164740cdba71884c0e097b7576623ca2281cc4f3a97a1d932117d81a5",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Joint Visual Grounding and Tracking With Natural Language Specification",
+  "first_page_text": "Joint Visual Grounding and Tracking with Natural Language Specification\nLi Zhou1, Zikun Zhou2,1*, Kaige Mao1, and Zhenyu He1,*\n1Harbin Institute of Technology, Shenzhen\n2Peng Cheng Laboratory\nlizhou.hit@gmail.com\nzhouzikunhit@gmail.com\nmaokaige.hit@gmail.com\nzhenyuhe@hit.edu.cn\nAbstract\nTracking by natural language specification aims to lo-\ncate the referred target in a sequence based on the nat-\nural language description. Existing algorithms solve this\nissue in two steps, visual grounding and tracking, and ac-\ncordingly deploy the separated grounding model and track-\ning model to implement these two steps, respectively. Such\na separated framework overlooks the link between visual\ngrounding and tracking, which is that the natural language\ndescriptions provide global semantic cues for localizing the\ntarget for both two steps. Besides, the separated frame-\nwork can hardly be trained end-to-end. To handle these\nissues, we propose a joint visual grounding and tracking\nframework, which reformulates grounding and tracking as\na unified task: localizing the referred target based on the\ngiven visual-language references. Specifically, we propose\na multi-source relation modeling module to effectively build\nthe relation between the visual-language references and the\ntest image. In addition, we design a temporal modeling\nmodule to provide a temporal clue with the guidance of\nthe global semantic information for our model, which ef-\nfectively improves the adaptability to the appearance vari-\nations of the target.\nExtensive experimental results on\nTNL2K, LaSOT, OTB99, and RefCOCOg demonstrate that\nour method performs favorably against state-of-the-art al-\ngorithms for both tracking and grounding. Code is avail-\nable at https://github.com/lizhou-cs/JointNLT.\n1. Introduction\nTracking by natural language specification [18] is a task\naiming to locate the target in every frame of a sequence ac-\ncording to the state specified by the natural language. Com-\npared with the classical tracking task [25, 33, 34, 41] using\na bounding box to specify the target of interest, tracking\nby natural language specification provides a novel human-\nmachine interaction manner for visual tracking. In addition,\nthe natural language specification also has two advantages\n∗Corresponding authors: Zikun Zhou and Zhenyu He.\nGrounding\n Model\nTracking\n Model\nCrop\nVisual Grounding\nObject Tracking\n(a) Separated visual grounding and tracking framework\nVisual Grounding\nObject Tracking\n(b) Joint visual grounding and tracking framework\nGrounding Frame\nTemplate\nSearch Frame\n“zebra running on the \ngrass with a black horse”\nGrounding Frame\nTemplate\nSearch  Frame\n“zebra running on the \ngrass with a black horse”\n“zebra running on the \ngrass with a black horse”\nJoint Grounding \n&\nTracking Model\nJoint Grounding \n&\nTracking Model\nFigure 1. Illustration of two different frameworks for tracking by\nnatural language specification. (a) The separated visual ground-\ning and tracking framework, which consists of two independent\nmodels for visual grounding and tracking, respectively. (b) The\nproposed joint visual grounding and tracking framework, which\nemploys a single model for both visual grounding and tracking.\nfor the tracking task compared to the bounding box specifi-\ncation. First, the bounding box only provides a static repre-\nsentation of the target state, while the natural language can\ndescribe the variation of the target for the long term. Sec-\nond, the bounding box contains no direct semantics about\nthe target and even results in ambiguity [32], but the natural\nlanguage can provide clear semantics of the target used for\nassisting the tracker to recognize the target. In spite of the\nabove merits, tracking by natural language specification has\nnot been fully explored.\nMost existing solutions [17,18,32,39] for this task could\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n23151\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

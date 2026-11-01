@@ -1,0 +1,39 @@
+{
+  "number": 77,
+  "title": "Multihypothesis Trajectory Analysis for Robust Visual Tracking",
+  "year": 2015,
+  "authors": [
+    "Dae-Youn Lee",
+    "Jae-Young Sim",
+    "Chang-Su Kim"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2015/html/Lee_Multihypothesis_Trajectory_Analysis_2015_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Lee_Multihypothesis_Trajectory_Analysis_2015_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Lee_Multihypothesis_Trajectory_Analysis_2015_CVPR_paper.pdf",
+      "bytes": 2243243,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\077_2015_Multihypothesis_Trajectory_Analysis_for_Robust_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Lee_Multihypothesis_Trajectory_Analysis_2015_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Lee_Multihypothesis_Trajectory_Analysis_2015_CVPR_paper.pdf",
+  "bytes": 2243243,
+  "sha256": "eaf2d321bc52b454fde9f49d03b72265662ca517a281da0bab672a47719898e8",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Multihypothesis Trajectory Analysis for Robust Visual Tracking",
+  "first_page_text": "Multihypothesis Trajectory Analysis for Robust Visual Tracking\nDae-Youn Lee†, Jae-Young Sim‡, and Chang-Su Kim†\n†School of Electrical Engineering, Korea University, Seoul, Korea\n‡School of Electrical and Computer Engineering,\nUlsan National Institute of Science and Technology, Ulsan, Korea\ndaeyounlee@mcl.korea.ac.kr, jysim@unist.ac.kr, changsukim@korea.ac.kr\nAbstract\nThe notion of multihypothesis trajectory analysis (MTA)\nfor robust visual tracking is proposed in this work. We em-\nploy multiple component trackers using texture, color, and\nillumination invariant features, respectively. Each compo-\nnent tracker traces a target object forwardly and then back-\nwardly over a time interval. By analyzing the pair of the\nforward and backward trajectories, we measure the robust-\nness of the component tracker. To this end, we extract the\ngeometry similarity, the cyclic weight, and the appearance\nsimilarity from the forward and backward trajectories. We\nselect the optimal component tracker to yield the maximum\nrobustness score, and use its forward trajectory as the ﬁ-\nnal tracking result. Experimental results show that the pro-\nposed MTA tracker improves the robustness and the accu-\nracy of tracking, outperforming the state-of-the-art trackers\non a recent benchmark dataset.\n1. Introduction\nFor decades, numerous visual tracking algorithms have\nbeen proposed [30, 29, 20]. Most tracking algorithms ex-\nperience a drift problem due to various reasons, including\nnon-discriminative feature descriptors, occlusions, and sud-\nden illumination changes. For more robust tracking, recent\ntracking algorithms attempt to overcome such interferences.\nSince a certain feature type may fail to distinguish a tar-\nget object from its background depending on input video\nsequences, multiple trackers using different features can be\ncombined adaptively to achieve robust tracking [19, 24, 16,\n17]. More speciﬁcally, the tracked positions of multiple\ntrackers are compared and processed to yield an overall es-\ntimated position. Then, all the trackers are updated using\nthe information at the estimated position. However, if the\nmultiple-tracker algorithm loses the position of a target ob-\nject in a frame because of any interruption, the tracking er-\nror may propagate to future frames.\nRecently, tracking systems with memory [23, 21, 31],\nwhich can reﬁne past trajectories or appearance models of a\ntracker, have been proposed to suppress the error propaga-\ntion. In the long-term trackers in [23, 21], most probable po-\nsitions of a target object are memorized in each frame, and\nthen the trajectory of the target object is estimated by dy-\nnamic programming, which considers both the conﬁdence\nof each position and the temporal relation between posi-\ntions in consecutive frames. Also, in [31], several appear-\nance models from past frames are recorded and processed\nto yield a proper appearance model and reduce tracking er-\nrors. However, these trackers with memory employ ﬁxed\nfeature descriptors, which cannot effectively separate a tar-\nget object from its background in some sequences. There-\nfore, they still yield inaccurate tracking results depending\non the feature selection.\nIn this paper, we propose a novel multihypothesis track-\ning algorithm, which combines the concept of the ‘track-\ning using multiple trackers’ with that of the ‘tracking with\nmemory.’ We employ three forward trackers using differ-\nent features, which are based on texture information, color\ninformation, and illumination invariant information, respec-\ntively. From frame t −τ to frame t, each forward tracker\ntraces a target object independently of the other trackers.\nThen, at frame t, each backward tracker is initialized at\nthe estimated position of the corresponding forward tracker,\nand then computes a backward trajectory in a time-reversed\nmanner. To select the best tracking result among the three\nforward trackers, we calculate their robustness scores. To\nthis end, we extract the geometric similarity, the cyclic\nweight, and the appearance similarity from each pair of\nthe forward and backward trajectories. After selecting the\nbest forward trajectory, the appearance models of all for-\nward trackers revert to the previous conditions at frame\nt −τ, and are updated using the bounding boxes along the\nselected forward trajectory. When all forward trajectories\nhave low geometric and appearance similarities in consec-\nutive frames, the forward trackers are not updated and the\nsearch range is increased for next frames. The main contri-\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

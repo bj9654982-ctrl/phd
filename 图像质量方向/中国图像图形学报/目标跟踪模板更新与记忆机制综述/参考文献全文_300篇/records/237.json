@@ -1,0 +1,42 @@
+{
+  "number": 237,
+  "title": "Context-Aware Integration of Language and Visual References for Natural Language Tracking",
+  "year": 2024,
+  "authors": [
+    "Yanyan Shao",
+    "Shuting He",
+    "Qi Ye",
+    "Yuchao Feng",
+    "Wenhan Luo",
+    "Jiming Chen"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Shao_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Language_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Shao_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Language_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Shao_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Language_CVPR_2024_paper.pdf",
+      "bytes": 4225548,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\237_2024_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Langua.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Shao_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Language_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Shao_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Language_CVPR_2024_paper.pdf",
+  "bytes": 4225548,
+  "sha256": "a11aad277511e7da8348fcd1924907173ad6f367d2ef1c8a576724e7f20e9302",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Context-Aware Integration of Language and Visual References for Natural Language Tracking",
+  "first_page_text": "Context-Aware Integration of Language and Visual References for Natural\nLanguage Tracking\nYanyan Shao1\nShuting He2\nQi Ye 3*\nYuchao Feng1\nWenhan Luo4\nJiming Chen1,3\n1 Zhejiang University of Technology\n2 Nanyang Technological University\n3 Zhejiang University\n4 The Hong Kong University of Science and Technology\n{shaoyanyan,fyc}@zjut.edu.cn, shuting.he@ntu.edu.sg, {qi.ye,cjm}@zju.edu.cn, whluo@ust.hk\nAbstract\nTracking by natural language specification (TNL) aims\nto consistently localize a target in a video sequence\ngiven a linguistic description in the initial frame. Exist-\ning methodologies perform language-based and template-\nbased matching for target reasoning separately and merge\nthe matching results from two sources, which suffer from\ntracking drift when language and visual templates miss-\nalign with the dynamic target state and ambiguity in the\nlater merging stage. To tackle the issues, we propose a joint\nmulti-modal tracking framework with 1) a prompt mod-\nulation module to leverage the complementarity between\ntemporal visual templates and language expressions, en-\nabling precise and context-aware appearance and linguistic\ncues, and 2) a unified target decoding module to integrate\nthe multi-modal reference cues and executes the integrated\nqueries on the search image to predict the target location in\nan end-to-end manner directly. This design ensures spatio-\ntemporal consistency by leveraging historical visual infor-\nmation and introduces an integrated solution, generating\npredictions in a single step.\nExtensive experiments con-\nducted on TNL2K, OTB-Lang, LaSOT, and RefCOCOg val-\nidate the efficacy of our proposed approach. The results\ndemonstrate competitive performance against state-of-the-\nart methods for both tracking and grounding. Code is avail-\nable at https://github.com/twotwo2/QueryNLT\n1. Introduction\nTracking by natural language specification (TNL) aims\nto localize the target object in a video sequence based on\na given language description on the initial frame. It offers\na more user-friendly interaction to specify the target object\ncompared to traditional tracking-by-bounding-box methods\n[2, 9, 15, 37], which has a wide range of applications in\nvideo surveillance, robotics, and autonomous vehicles.\n*Corresponding author\nVideo sequence\n(c) Unified reference matching\nAmbiguity: white bird? \non the left?\n“NL”\ngrounding\n(a) Language-based matching\nSearch image\n(b) Appearance-based matching\nAmbiguity: white bird?\n yellow bird?\ntracking\nGrounded \ntarget\n· · ·\nTime\n�= �\n�= �\nNatural language \ndescription:\n“white bird on the left”\nwhite bird\non the left \nDeterministic: \nwhite bird！\nmulti-modal\nmatching\nObject\nvector\n· · ·\n�= �\nAggregate\nInteract\nSearch image\nSearch image\n“NL”\nHistorical \nresult\nFigure 1. Given a video sequence, the tracking object is charac-\nterized as “white bird on the left” of the initial frame. Existing\ntwo-step approaches separately perform language-search match-\ning (a) and appearance-search matching (b). However, “on the\nleft” which is inconsistent with the current target and the back-\nground contained in the grounded target may confuse the identi-\nfication of the target. In contrast, our QueryNLT (c) forms a dy-\nnamic and context-aware query for target localization by integrat-\ning visual and language references. (Zoom in for a better view).\nPrevious research efforts [5, 6, 18, 30, 35] generally di-\nvide language-guided tracking into two fundamental sub-\ntasks: visual grounding and visual tracking. These stud-\nies initially localize the target object solely based on the\ngiven language description, i.e. visual grounding, and the\ngrounded target serves as the visual template to establish\ncorrespondence with the search image, i.e. visual track-\ning. The final results are derived through the amalgamation\nof the outcomes obtained from both visual grounding and\nvisual tracking. Despite the significant success, these ap-\nproaches typically process the language and template inde-\npendently until merging their matching results, which may\nlead to ambiguity in target identification. As illustrated in\nFig. 1(a), due to the target’s movement, the initially pro-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19208\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

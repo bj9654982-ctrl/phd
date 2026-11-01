@@ -1,0 +1,39 @@
+{
+  "number": 169,
+  "title": "Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking",
+  "year": 2020,
+  "authors": [
+    "Jin Gao",
+    "Weiming Hu",
+    "Yan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Gao_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Gao_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Gao_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "bytes": 813766,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\169_2020_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Gao_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Gao_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "bytes": 813766,
+  "sha256": "c6f9253c6b9a376afd5ae31579093b70ef22a8174e261c8663312963c5b3df47",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking",
+  "first_page_text": "Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking\nJin Gao1,2\nWeiming Hu1,2\nYan Lu3\n1NLPR, Institute of Automation, CAS\n2University of Chinese Academy of Sciences\n3Microsoft Research\n{jin.gao, wmhu}@nlpr.ia.ac.cn\nyanlu@microsoft.com\nAbstract\nOnline learning is crucial to robust visual object track-\ning as it can provide high discrimination power in the pres-\nence of background distractors.\nHowever, there are two\ncontradictory factors affecting its successful deployment on\nthe real visual tracking platform: the discrimination issue\ndue to the challenges in vanilla gradient descent, which\ndoes not guarantee good convergence; the robustness is-\nsue due to over-ﬁtting resulting from excessive update with\nlimited memory size (the oldest samples are discarded).\nDespite many dedicated techniques proposed to some-\nhow treat those issues, in this paper we take a new way to\nstrike a compromise between them based on the recursive\nleast-squares estimation (LSE) algorithm. After connect-\ning each fully-connected layer with LSE separately via nor-\nmal equations, we further propose an improved mini-batch\nstochastic gradient descent algorithm for fully-connected\nnetwork learning with memory retention in a recursive fash-\nion. This characteristic can spontaneously reduce the risk\nof over-ﬁtting resulting from catastrophic forgetting in ex-\ncessive online learning. Meanwhile, it can effectively im-\nprove convergence though the cost function is computed\nover all the training samples that the algorithm has ever\nseen. We realize this recursive LSE-aided online learning\ntechnique in the state-of-the-art RT-MDNet tracker, and the\nconsistent improvements on four challenging benchmarks\nprove its efﬁciency without additional ofﬂine training and\ntoo much tedious work on parameter adjusting.\n1. Introduction\nOnline learning basically aims at updating the predictor\nfor future data at each step when a continuous stream of data\nbecomes available in a sequential order. Sometimes it needs\ndynamically adapting to new patterns in the stream when\nthe data itself changes from time to time. Since it is just\nright for visual tracking, a number of interesting pioneering\nworks (e.g. [31, 1, 12, 41, 6, 26, 17, 7, 4, 5]) that use variants\nof fundamental online learning methods for visual tracking\nare published during the past several years.\nIn contrast to the typical supervised learning tasks train-\ning static models with ﬁxed volumes of data, e.g. image\nclassiﬁcation [34] and object detection [14], the online up-\ndated dynamic tracking models need to have ﬂexibility in\ntackling the different distortions of the object appearance\nover time (e.g. intrinsic object scale and pose variations, and\nvariations caused by extrinsic illumination change, camera\nmotion, occlusion and background clutter). This ability is\nknown as robustness. Nevertheless, a good tracker also need\nto strike a compromise between its robustness ability and\ninstance-level discrimination power in case of background\ndistractors, because these two requirements are sometimes\ncontradictory and hard to be fulﬁlled at the same time [36].\nBy design, some earlier online trackers [6, 26, 17] face\nchallenges in meeting those two demands. On one hand,\nsince the standard gradient descent or its momentum-based\nstochastic twin [30] is applied in online updating the target\nclassiﬁcation model, it may cause a discrimination issue due\nto the convergence challenges stemming from the learning\nrate selection, model initialization, non-convex cost func-\ntion, and so on [32].\nAnother key factor is the limited\noptimization iteration number allowed in the update stage\nfor the sake of tracking speed.\nOn the other hand, de-\nspite the beneﬁts of improved instance-level discrimination\npower with frequent update, the excessive update with lim-\nited memory size (the oldest samples are discarded) may re-\nsult in over-ﬁtting to recent training samples, deteriorating\nthe robustness.\nRecently, there have been many dedicated techniques\nproposed to treat the above two issues more or less. For\ninstance, the Conjugate Gradient method [33] is widely ap-\nplied to efﬁciently solve normal equations derived from dis-\ncriminative correlation ﬁlter (DCF) learning function [7, 4],\nor more generally the positive deﬁnite quadratic func-\ntion [5], leading to improved convergence while online\nlearning. Some other works [28, 21] concentrate on the of-\nﬂine training stage and exploit some one-shot/meta learning\nmethods in this stage to provide a robust model initialization\nto account for the convergence challenges in online track-\ning stage. To relieve suffering from over-ﬁtting to recent\ntraining samples, or even corrupted samples, some track-\n7386\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

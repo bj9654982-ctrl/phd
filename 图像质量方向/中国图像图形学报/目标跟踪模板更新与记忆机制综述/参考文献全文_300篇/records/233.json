@@ -1,0 +1,43 @@
+{
+  "number": 233,
+  "title": "Towards More Flexible and Accurate Object Tracking With Natural Language: Algorithms and Benchmark",
+  "year": 2021,
+  "authors": [
+    "Xiao Wang",
+    "Xiujun Shu",
+    "Zhipeng Zhang",
+    "Bo Jiang",
+    "Yaowei Wang",
+    "Yonghong Tian",
+    "Feng Wu"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language_CVPR_2021_paper.pdf",
+      "bytes": 5595365,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\233_2021_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language__Algo.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language_CVPR_2021_paper.pdf",
+  "bytes": 5595365,
+  "sha256": "8e4676f1de54e38f45abc163649be21d719296f12b98e04b5e76d3f68a98abda",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Towards More Flexible and Accurate Object Tracking With Natural Language: Algorithms and Benchmark",
+  "first_page_text": "Towards More Flexible and Accurate Object Tracking with Natural Language:\nAlgorithms and Benchmark\nXiao Wang1*, Xiujun Shu2,1∗, Zhipeng Zhang3, Bo Jiang4, Yaowei Wang1, Yonghong Tian1,5, Feng Wu1,6\n1Peng Cheng Laboratory, Shenzhen, China\n2School of Electronic and Computer Engineering, Peking University, Shenzhen, China\n3NLPR, Institute of Automation, Chinese Academy of Sciences\n4School of Computer Science and Technology, Anhui University, Hefei, China\n5Department of Computer Science and Technology, Peking University, Beijing, China\n6University of Science and Technology of China, Hefei, China\nhttps://sites.google.com/view/langtrackbenchmark/\nAbstract\nTracking by natural language speciﬁcation is a new ris-\ning research topic that aims at locating the target object in\nthe video sequence based on its language description. Com-\npared with traditional bounding box (BBox) based tracking,\nthis setting guides object tracking with high-level seman-\ntic information, addresses the ambiguity of BBox, and links\nlocal and global search organically together. Those ben-\neﬁts may bring more ﬂexible, robust and accurate track-\ning performance in practical scenarios.\nHowever, exist-\ning natural language initialized trackers are developed and\ncompared on benchmark datasets proposed for tracking-\nby-BBox, which can’t reﬂect the true power of tracking-\nby-language. In this work, we propose a new benchmark\nspeciﬁcally dedicated to the tracking-by-language, includ-\ning a large scale dataset, strong and diverse baseline meth-\nods. Speciﬁcally, we collect 2k video sequences (contains\na total of 1,244,340 frames, 663 words) and split 1300/700\nfor the train/testing respectively. We densely annotate one\nsentence in English and corresponding bounding boxes of\nthe target object for each video. We also introduce two new\nchallenges into TNL2K for the object tracking task, i.e., ad-\nversarial samples and modality switch. A strong baseline\nmethod based on an adaptive local-global-search scheme\nis proposed for future works to compare. We believe this\nbenchmark will greatly boost related researches on natural\nlanguage guided tracking.\n*The ﬁrst two authors contribute equally to this work.\nYaowei\nWang is the corresponding author. Email: {wangx03, shuxj, wangyw,\ntianyh}@pcl.ac.cn,\nzhangzhipeng2017@ia.ac.cn,\njiangbo@ahu.edu.cn,\nfengwu@ustc.edu.cn.\n1. Introduction\nSingle object tracking is one of the most important tasks\nin computer vision and it has been widely used in many\napplications such as video surveillance, robotics, and au-\ntonomous vehicles. Usually, they initialize the target object\nin the ﬁrst frame with a bounding box (BBox), as shown in\nFig. 1 (a), and adjust the BBox along with the movement of\nthe target object. Most of the existing single object track-\ners [20–22,53,55,66] are developed based on this setting1,\nand many benchmark datasets [15,23,37,42,50,57,58] are\nproposed for this task.\nAlthough these trackers have been adopted in many ap-\nplications, however, the setting of tracking-by-BBox still\nsuffers from the following issues. (1) The target object in\nthe ﬁrst frame with a BBox is inconvenient to initialize in\npractical scenarios. In another word, the initialization limits\nthe wide applications of existing BBox initialized trackers.\n(2) The initialized BBox may be not optimal for the repre-\nsentation of target object which may lead to ambiguity. As\nshown in Fig. 1 (a), the tracker may be confused to track\nthe bike or lower body of the pedestrian. Similar views can\nalso be found in [17, 36, 54, 64]. (3) Current BBox-based\ntrackers may perform poorly when facing abrupt appear-\nance variation of the target object, like face/cloth changing\nor species variation in Fig. 1 (b). Because the appearance\nfeature initialized in the ﬁrst frame and the object in the\ntracking procedure are vastly different. Only one sample\ninitialized in the ﬁrst frame is not enough to handle these\nchallenging scenarios. These observations all inspire us to\nbegin to think about how can we conduct tracking in a more\napplicable and accurate way?\n1https : / / github . com / wangxiao5791509 / Single _\nObject_Tracking_Paper_List\n113763\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

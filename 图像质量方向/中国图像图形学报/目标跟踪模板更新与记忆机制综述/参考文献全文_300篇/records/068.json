@@ -1,0 +1,38 @@
+{
+  "number": 68,
+  "title": "Unifying Spatial and Attribute Selection for Distracter-Resilient Tracking",
+  "year": 2014,
+  "authors": [
+    "Nan Jiang",
+    "Ying Wu"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Jiang_Unifying_Spatial_and_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Jiang_Unifying_Spatial_and_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Jiang_Unifying_Spatial_and_2014_CVPR_paper.pdf",
+      "bytes": 1390368,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\068_2014_Unifying_Spatial_and_Attribute_Selection_for_Distracter-Resilient_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Jiang_Unifying_Spatial_and_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Jiang_Unifying_Spatial_and_2014_CVPR_paper.pdf",
+  "bytes": 1390368,
+  "sha256": "3f9392daafcb2f5cbd9425b8061cc50dd05b69b552634e37fbc8f581d3e019f0",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Unifying Spatial and Attribute Selection for Distracter-Resilient Tracking",
+  "first_page_text": "Unifying Spatial and Attribute Selection for Distracter-resilient Tracking\nNan Jiang\nNorthwestern University\nHuazhong University of Sci. & Tech.\nEvanston, IL, USA.\nWuhan, Hubei, P. R. China.\nnan.jiang@northwestern.edu\nYing Wu\nNorthwestern University\nEvanston, IL, USA.\nyingwu@northwestern.edu\nAbstract\nVisual distracters are detrimental and generally very d-\nifﬁcult to handle in target tracking, because they generate\nfalse positive candidates for target matching. The resilience\nof region-based matching to the distracters depends not on-\nly on the matching metric, but also on the characteristics of\nthe target region to be matched. The two tasks, i.e., learning\nthe best metric and selecting the distracter-resilient target\nregions, actually correspond to the attribute selection and\nspatial selection processes in the human visual perception.\nThis paper presents an initial attempt to unify the modeling\nof these two tasks for an effective solution, based on the in-\ntroduction of a new quantity called Soft Visual Margin. As\na function of both matching metric and spatial location, it\nmeasures the discrimination between the target and its spa-\ntial distracters, and characterizes the reliability of match-\ning. Different from other formulations of margin, this new\nquantity is analytical and is insensitive to noisy data. This\npaper presents a novel method to jointly determine the best\nspatial location and the optimal metric. Based on that, a\nsolid distracter-resilient region tracker is designed, and its\neffectiveness is validated and demonstrated through exten-\nsive experiments.\n1. Introduction\nThe key in visual target tracking is to perform accurate\nidentiﬁcation of the target in the incoming image frames.\nThis can be done by matching candidate regions with the\ngiven target region. Tracking fails when there are no good\nmatches or the good ones turn out to be false positive match-\nes. In the former case, the target may disappear or be oc-\ncluded; while in the latter case, the tracker is confused by\nthe non-target candidates that appear very similar to the tar-\nget, namely the visual distracters or distracters for short.\nThe distracters can be induced by cluttered backgrounds,\nsurrounding crowds, or camouﬂage. Distracters are detri-\nmental and generally difﬁcult to handle.\nAn example is\nshown in Fig. 1, where other horses persistently generate\nFigure 1. This paper handles visual distracters. This paper shows that the\nuniﬁcation of attribute selection (via metric learning) and spatial selection\n(via optimal region placement) is able to robustly separate the true target\nand the distracters.\nfalse positives to the target highlighted in the yellow box,\nand easily fail the tracker. This paper is concerns on han-\ndling such scenarios with distracters.\nIn fact, the handling of visual distracters is closely re-\nlated to three critical factors in region matching: visual\nfeatures, matching metric and tracking region placement.\nVisual features represent the matching subjects, and have\nbeen extensively studied in the past several decades. Vari-\nous methods have been used in tracking, e.g., local invari-\nance [17], shape [14], region appearances [8], local statis-\ntics [6], or even some level of recognition [2]. This pa-\nper does not focus on speciﬁc features, but assumes abstract\nfeatures without losing generality. It is common in practice\nthat features are matched based on a pre-deﬁned criterion or\nmetric, e.g., the Euclidean metric or Bhattacharyya metric.\nRecent studies [15, 16] have shown that learning an adap-\ntive metric can be beneﬁcial to discriminate the true target\nfrom the distracters. The third factor is the placement of the\ntracking region [10]. The tracking region (or attentional re-\ngion [9]) is the actual region used for matching, while the\ndelineated target region is the rough user input for appoint-\ning the target. Simply using such rough delineated region\nfor matching leads to an interesting phenomenon: under a\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

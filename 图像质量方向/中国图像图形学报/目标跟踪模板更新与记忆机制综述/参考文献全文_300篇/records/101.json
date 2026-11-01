@@ -1,0 +1,39 @@
+{
+  "number": 101,
+  "title": "Learning Background-Aware Correlation Filters for Visual Tracking",
+  "year": 2017,
+  "authors": [
+    "Hamed Kiani Galoogahi",
+    "Ashton Fagg",
+    "Simon Lucey"
+  ],
+  "venue": "ICCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.pdf",
+      "bytes": 1865147,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\101_2017_Learning_Background-Aware_Correlation_Filters_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.pdf",
+  "bytes": 1865147,
+  "sha256": "2d4e1b584b9bc4e7f22db0d85c4a0ed4323bc6ace3b9eb30f6d748d1809b001e",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Learning Background-Aware Correlation Filters for Visual Tracking",
+  "first_page_text": "Learning Background-Aware Correlation Filters for Visual Tracking\nHamed Kiani Galoogahi1, Ashton Fagg2 and Simon Lucey1\n1Robotics Institute, Carnegie Mellon University\n2SAIVT Lab, Queensland University of Technology\nhamedk@andrew.cmu.edu\nashton@fagg.id.au\nslucey@cs.cmu.edu\nAbstract\nCorrelation Filters (CFs) have recently demonstrated ex-\ncellent performance in terms of rapidly tracking objects\nunder challenging photometric and geometric variations.\nThe strength of the approach comes from its ability to ef-\nﬁciently learn - on the ﬂy - how the object is changing\nover time. A fundamental drawback to CFs, however, is\nthat the background of the target is not modeled over time\nwhich can result in suboptimal performance. Recent track-\ning algorithms have suggested to resolve this drawback by\neither learning CFs from more discriminative deep fea-\ntures (e.g. DeepSRDCF [9] and CCOT [11]) or learning\ncomplex deep trackers (e.g. MDNet [28] and FCNT [33]).\nWhile such methods have been shown to work well, they\nsuffer from high complexity: extracting deep features or\napplying deep tracking frameworks is very computation-\nally expensive.\nThis limits the real-time performance of\nsuch methods, even on high-end GPUs.\nThis work pro-\nposes a Background-Aware CF based on hand-crafted fea-\ntures (HOG [6]) that can efﬁciently model how both the\nforeground and background of the object varies over time.\nOur approach, like conventional CFs, is extremely compu-\ntationally efﬁcient- and extensive experiments over multi-\nple tracking benchmarks demonstrate the superior accuracy\nand real-time performance of our method compared to the\nstate-of-the-art trackers.\n1. Introduction\nCorrelation Filters (CFs) have been a widely used frame-\nwork for visual object tracking [23, 37, 10, 13], due to\ntheir superior computation and fair robustness to photomet-\nric and geometric variations. CF trackers can learn and de-\ntect quickly in the frequency domain [20], the most notable\nexample being the MOSSE tracker with the tracking speed\nof ⇠700 frames per second [3]. Furthermore, these track-\ners learn “on-the-ﬂy”. The approach quickly models how\nan object varies visually over time by updating the tracker\nwhen the next frames become available. Such per frame\n,\n,\n(a)\n(b)\nFigure 1. (a) Traditional CFs discard the background patches, and\ninstead learn from shifted patches of the cropped target. This may\nresult to suboptimal results.\n(b) The BACF, however, exploits\nall background patches as negative examples for learning a ﬁlter\nwhich is more discriminative to background clutter.\nadaptation offers robust tracking under challenging circum-\nstances such as motion blur, scaling and lighting variation.\nLearning CF trackers in the frequency domain, however,\ncomes at the high cost of learning from circular shifted ex-\namples of the foreground target. These shifted patches are\nimplicitly generated through the circulant property of cor-\nrelation in the frequency domain and are used as negative\nexamples for training the ﬁlter [20]. All shifted patches are\nplagued by circular boundary effects and are not truly rep-\nresentative of negative patches in real-world scenes [17].\nThese boundary effects have been shown to have a dras-\ntic impact on tracking performance, due to a number of\nfactors. First, learning from limited shifted patches may\nlead to training an over-ﬁtted ﬁlter which is not well-\ngeneralized to rapid visual deformation e.g. caused by fast\nmotion [10]. Second, the lack of real negative training ex-\namples can drastically degrade the robustness of such track-\ners against cluttered background, and as a result, increase\nthe risk of tracking drift speciﬁcally when the target and\nbackground display similar visual cues. Third, discarding\nbackground information from the learning process may re-\nduce the tracker’s ability to distinguish the target from oc-\nclusion patches. This limits the potential of such trackers to\nre-detect after an occlusion or out-of-plane movement [10].\nRecently, two methods were proposed to address the dis-\n11135\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

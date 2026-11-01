@@ -1,0 +1,893 @@
+{
+  "number": 280,
+  "original_doi": "10.1007/978-3-031-73636-0_2",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "OneVOS: Unifying Video Object Segmentation with All-in-One Transformer Framework",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2026-06-06T16:53:57Z",
+      "timestamp": 1780764837148,
+      "version": "3.54.1"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 70,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783031736353",
+        "type": "print"
+      },
+      {
+        "value": "9783031736360",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2024-11-05T00:00:00Z",
+          "timestamp": 1730764800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              11,
+              5
+            ]
+          ],
+          "date-time": "2024-11-05T00:00:00Z",
+          "timestamp": 1730764800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-73636-0_2",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2024-11-04T15:02:39Z",
+      "timestamp": 1730732559000
+    },
+    "page": "20-40",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "OneVOS: Unifying Video Object Segmentation with All-in-One Transformer Framework"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Wanyun",
+        "family": "Li",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pinxue",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinyu",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lingyi",
+        "family": "Hong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yangji",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangyu",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenqiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2_CR1",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "777",
+        "DOI": "10.1007/978-3-030-58536-5_46",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "G Bhat",
+        "year": "2020",
+        "unstructured": "Bhat, G., et al.: Learning what to learn for video object segmentation. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020, Part II. LNCS, vol. 12347, pp. 777–794. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58536-5_46"
+      },
+      {
+        "key": "2_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caelles, S., Maninis, K.K., Pont-Tuset, J., Leal-Taixé, L., Cremers, D., Van Gool, L.: One-shot video object segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 221–230 (2017)",
+        "DOI": "10.1109/CVPR.2017.565"
+      },
+      {
+        "key": "2_CR3",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "375",
+        "DOI": "10.1007/978-3-031-20047-2_22",
+        "volume-title": "Computer Vision – ECCV 2022",
+        "author": "B Chen",
+        "year": "2022",
+        "unstructured": "Chen, B., et al.: Backbone is all your need: a simplified architecture for visual object tracking. In: Avidan, S., Brostow, G., Cissé, M., Farinella, G.M., Hassner, T. (eds.) ECCV 2022. LNCS, vol. 13682, pp. 375–392. Springer, Cham (2022). https://doi.org/10.1007/978-3-031-20047-2_22"
+      },
+      {
+        "key": "2_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, X., Li, Z., Yuan, Y., Yu, G., Shen, J., Qi, D.: State-aware tracker for real-time video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 9384–9393 (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00940"
+      },
+      {
+        "key": "2_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, X., Yan, B., Zhu, J., Wang, D., Yang, X., Lu, H.: Transformer tracking. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 8126–8135 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "2_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Y., Pont-Tuset, J., Montes, A., Van Gool, L.: Blazingly fast video object segmentation with pixel-wise metric learning. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 1189–1198 (2018)",
+        "DOI": "10.1109/CVPR.2018.00130"
+      },
+      {
+        "key": "2_CR7",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "640",
+        "DOI": "10.1007/978-3-031-19815-1_37",
+        "volume-title": "Computer Vision – ECCV 2022",
+        "author": "HK Cheng",
+        "year": "2022",
+        "unstructured": "Cheng, H.K., Schwing, A.G.: XMem: long-term video object segmentation with an Atkinson-Shiffrin memory model. In: Avidan, S., Brostow, G., Cissé, M., Farinella, G.M., Hassner, T. (eds.) ECCV 2022. LNCS, vol. 13688, pp. 640–658. Springer, Cham (2022). https://doi.org/10.1007/978-3-031-19815-1_37"
+      },
+      {
+        "key": "2_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng, H.K., Tai, Y.W., Tang, C.K.: Modular interactive video object segmentation: interaction-to-mask, propagation and difference-aware fusion. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 5559–5568 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00551"
+      },
+      {
+        "key": "2_CR9",
+        "first-page": "11781",
+        "volume": "34",
+        "author": "HK Cheng",
+        "year": "2021",
+        "unstructured": "Cheng, H.K., Tai, Y.W., Tang, C.K.: Rethinking space-time networks with improved memory coverage for efficient video object segmentation. Adv. Neural. Inf. Process. Syst. 34, 11781–11794 (2021)",
+        "journal-title": "Adv. Neural. Inf. Process. Syst."
+      },
+      {
+        "key": "2_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cheng, J., Tsai, Y.H., Hung, W.C., Wang, S., Yang, M.H.: Fast and accurate online video object segmentation via tracking parts. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 7415–7424 (2018)",
+        "DOI": "10.1109/CVPR.2018.00774"
+      },
+      {
+        "issue": "3",
+        "key": "2_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "569",
+        "DOI": "10.1109/TPAMI.2014.2345401",
+        "volume": "37",
+        "author": "MM Cheng",
+        "year": "2014",
+        "unstructured": "Cheng, M.M., Mitra, N.J., Huang, X., Torr, P.H., Hu, S.M.: Global contrast based salient region detection. IEEE Trans. Pattern Anal. Mach. Intell. 37(3), 569–582 (2014)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "2_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cui, Y., Jiang, C., Wang, L., Wu, G.: MixFormer: end-to-end tracking with iterative mixed attention. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 13608–13618 (2022)",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "2_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, J., Dong, W., Socher, R., Li, L.J., Li, K., Fei-Fei, L.: ImageNet: a large-scale hierarchical image database. In: 2009 IEEE Conference on Computer Vision and Pattern Recognition, pp. 248–255. IEEE (2009)",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "2_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ding, H., Liu, C., He, S., Jiang, X., Torr, P.H., Bai, S.: MOSE: a new dataset for video object segmentation in complex scenes. arXiv preprint arXiv:2302.01872 (2023)",
+        "DOI": "10.1109/ICCV51070.2023.01850"
+      },
+      {
+        "key": "2_CR15",
+        "unstructured": "Dosovitskiy, A., et al.: An image is worth 16$$\\times $$16 words: transformers for image recognition at scale. arXiv preprint arXiv:2010.11929 (2020)"
+      },
+      {
+        "key": "2_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duke, B., Ahmed, A., Wolf, C., Aarabi, P., Taylor, G.W.: SSTVOS: sparse spatiotemporal transformers for video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 5912–5921 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00585"
+      },
+      {
+        "key": "2_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "303",
+        "DOI": "10.1007/s11263-009-0275-4",
+        "volume": "88",
+        "author": "M Everingham",
+        "year": "2010",
+        "unstructured": "Everingham, M., Van Gool, L., Williams, C.K., Winn, J., Zisserman, A.: The pascal visual object classes (VOC) challenge. Int. J. Comput. Vision 88, 303–338 (2010)",
+        "journal-title": "Int. J. Comput. Vision"
+      },
+      {
+        "key": "2_CR18",
+        "unstructured": "Fang, R., et al.: InstructSeq: unifying vision tasks with instruction-conditioned multi-modal sequence generation. arXiv preprint arXiv:2311.18835 (2023)"
+      },
+      {
+        "key": "2_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gao, J., et al.: Coarse-to-fine amodal segmentation with shape prior. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 1262–1271 (2023)",
+        "DOI": "10.1109/ICCV51070.2023.00122"
+      },
+      {
+        "key": "2_CR20",
+        "unstructured": "Gao, P., Ma, T., Li, H., Lin, Z., Dai, J., Qiao, Y.: ConvMAE: masked convolution meets masked autoencoders. arXiv preprint arXiv:2205.03892 (2022)"
+      },
+      {
+        "key": "2_CR21",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "146",
+        "DOI": "10.1007/978-3-031-20047-2_9",
+        "volume-title": "Computer Vision – ECCV 2022",
+        "author": "S Gao",
+        "year": "2022",
+        "unstructured": "Gao, S., Zhou, C., Ma, C., Wang, X., Yuan, J.: AiATrack: attention in attention for transformer visual tracking. In: Avidan, S., Brostow, G., Cissé, M., Farinella, G.M., Hassner, T. (eds.) ECCV 2022. LNCS, vol. 13682, pp. 146–164. Springer, Cham (2022). https://doi.org/10.1007/978-3-031-20047-2_9"
+      },
+      {
+        "key": "2_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, P., et al.: ClickVOS: click video object segmentation. arXiv preprint arXiv:2403.06130 (2024)",
+        "DOI": "10.1109/TCSVT.2025.3599005"
+      },
+      {
+        "key": "2_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "7063",
+        "DOI": "10.1109/TIP.2022.3219230",
+        "volume": "31",
+        "author": "P Guo",
+        "year": "2022",
+        "unstructured": "Guo, P., Zhang, W., Li, X., Zhang, W.: Adaptive online mutual learning bi-decoders for video object segmentation. IEEE Trans. Image Process. 31, 7063–7077 (2022)",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "key": "2_CR24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hariharan, B., Arbeláez, P., Bourdev, L., Maji, S., Malik, J.: Semantic contours from inverse detectors. In: 2011 International Conference on Computer Vision, pp. 991–998. IEEE (2011)",
+        "DOI": "10.1109/ICCV.2011.6126343"
+      },
+      {
+        "key": "2_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Chen, X., Xie, S., Li, Y., Dollár, P., Girshick, R.: Masked autoencoders are scalable vision learners. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 16000–16009 (2022)",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "2_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hong, L., et al.: LVOS: a benchmark for long-term video object segmentation. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 13480–13492 (2023)",
+        "DOI": "10.1109/ICCV51070.2023.01240"
+      },
+      {
+        "key": "2_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hong, L., et al.: OneTracker: unifying visual object tracking with foundation models and efficient tuning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 19079–19091 (2024)",
+        "DOI": "10.1109/CVPR52733.2024.01805"
+      },
+      {
+        "key": "2_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "1057",
+        "DOI": "10.1109/TIP.2021.3137660",
+        "volume": "31",
+        "author": "L Hong",
+        "year": "2021",
+        "unstructured": "Hong, L., Zhang, W., Chen, L., Zhang, W., Fan, J.: Adaptive selection of reference frames for video object segmentation. IEEE Trans. Image Process. 31, 1057–1071 (2021)",
+        "journal-title": "IEEE Trans. Image Process."
+      },
+      {
+        "key": "2_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, P., Wang, G., Kong, X., Kuen, J., Tan, Y.P.: Motion-guided cascaded refinement network for video object segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 1400–1409 (2018)",
+        "DOI": "10.1109/CVPR.2018.00152"
+      },
+      {
+        "key": "2_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, Y.T., Huang, J.B., Schwing, A.G.: VideoMatch: Matching based video object segmentation. In: Proceedings of the European conference on computer vision (ECCV), pp. 54–70 (2018)",
+        "DOI": "10.1007/978-3-030-01237-3_4"
+      },
+      {
+        "key": "2_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, X., Xu, J., Tai, Y.W., Tang, C.K.: Fast video object segmentation with temporal aggregation network and dynamic template matching. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 8879–8889 (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00890"
+      },
+      {
+        "key": "2_CR32",
+        "unstructured": "Jang, E., Gu, S., Poole, B.: Categorical reparameterization with gumbel-softmax. arXiv preprint arXiv:1611.01144 (2016)"
+      },
+      {
+        "key": "2_CR33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Johnander, J., Danelljan, M., Brissman, E., Khan, F.S., Felsberg, M.: A generative appearance model for end-to-end video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 8953–8962 (2019)",
+        "DOI": "10.1109/CVPR.2019.00916"
+      },
+      {
+        "issue": "9",
+        "key": "2_CR34",
+        "doi-asserted-by": "publisher",
+        "first-page": "1175",
+        "DOI": "10.1007/s11263-019-01164-6",
+        "volume": "127",
+        "author": "A Khoreva",
+        "year": "2019",
+        "unstructured": "Khoreva, A., Benenson, R., Ilg, E., Brox, T., Schiele, B.: Lucid data dreaming for video object segmentation. Int. J. Comput. Vision 127(9), 1175–1197 (2019)",
+        "journal-title": "Int. J. Comput. Vision"
+      },
+      {
+        "key": "2_CR35",
+        "unstructured": "Kristan, M., et al.: The sixth visual object tracking vot2018 challenge results. In: Proceedings of the European Conference on Computer Vision (ECCV) Workshops (2018)"
+      },
+      {
+        "key": "2_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, M., Hu, L., Xiong, Z., Zhang, B., Pan, P., Liu, D.: Recurrent dynamic embedding for video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 1332–1341 (2022)",
+        "DOI": "10.1109/CVPR52688.2022.00139"
+      },
+      {
+        "key": "2_CR37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, W., Fan, J., Guo, P., Hong, L., Zhang, W.: HFVOS: history-future integrated dynamic memory for video object segmentation. IEEE Trans. Circuits Syst. Video Technol. (2024)",
+        "DOI": "10.1109/TCSVT.2024.3404469"
+      },
+      {
+        "key": "2_CR38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, X., Loy, C.C.: Video object segmentation with joint re-identification and attention-aware mask propagation. In: Proceedings of the European Conference on Computer Vision (ECCV), pp. 90–105 (2018)",
+        "DOI": "10.1007/978-3-030-01219-9_6"
+      },
+      {
+        "key": "2_CR39",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "740",
+        "DOI": "10.1007/978-3-319-10602-1_48",
+        "volume-title": "Computer Vision – ECCV 2014",
+        "author": "T-Y Lin",
+        "year": "2014",
+        "unstructured": "Lin, T.-Y., et al.: Microsoft COCO: common objects in context. In: Fleet, D., Pajdla, T., Schiele, B., Tuytelaars, T. (eds.) ECCV 2014, Part V. LNCS, vol. 8693, pp. 740–755. Springer, Cham (2014). https://doi.org/10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "2_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, Z., et al.: SWEM: towards real-time video object segmentation with sequential weighted expectation-maximization. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 1362–1372 (2022)",
+        "DOI": "10.1109/CVPR52688.2022.00142"
+      },
+      {
+        "key": "2_CR41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., et al.: Swin transformer: hierarchical vision transformer using shifted windows. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 10012–10022 (2021)",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "issue": "6",
+        "key": "2_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "1515",
+        "DOI": "10.1109/TPAMI.2018.2838670",
+        "volume": "41",
+        "author": "KK Maninis",
+        "year": "2018",
+        "unstructured": "Maninis, K.K., et al.: Video object segmentation without temporal information. IEEE Trans. Pattern Anal. Mach. Intell. 41(6), 1515–1530 (2018)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "2_CR43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nowozin, S.: Optimal decisions from probabilistic models: the intersection-over-union case. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 548–555 (2014)",
+        "DOI": "10.1109/CVPR.2014.77"
+      },
+      {
+        "key": "2_CR44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oh, S.W., Lee, J.Y., Sunkavalli, K., Kim, S.J.: Fast video object segmentation by reference-guided mask propagation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 7376–7385 (2018)",
+        "DOI": "10.1109/CVPR.2018.00770"
+      },
+      {
+        "key": "2_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oh, S.W., Lee, J.Y., Xu, N., Kim, S.J.: Video object segmentation using space-time memory networks. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 9226–9235 (2019)",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "2_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perazzi, F., Khoreva, A., Benenson, R., Schiele, B., Sorkine-Hornung, A.: Learning video object segmentation from static images. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2663–2672 (2017)",
+        "DOI": "10.1109/CVPR.2017.372"
+      },
+      {
+        "key": "2_CR47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perazzi, F., Pont-Tuset, J., McWilliams, B., Van Gool, L., Gross, M., Sorkine-Hornung, A.: A benchmark dataset and evaluation methodology for video object segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 724–732 (2016)",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "2_CR48",
+        "unstructured": "Pont-Tuset, J., Perazzi, F., Caelles, S., Arbeláez, P., Sorkine-Hornung, A., Van Gool, L.: The 2017 DAVIS challenge on video object segmentation. arXiv preprint arXiv:1704.00675 (2017)"
+      },
+      {
+        "key": "2_CR49",
+        "first-page": "13937",
+        "volume": "34",
+        "author": "Y Rao",
+        "year": "2021",
+        "unstructured": "Rao, Y., Zhao, W., Liu, B., Lu, J., Zhou, J., Hsieh, C.J.: DynamicViT: efficient vision transformers with dynamic token sparsification. Adv. Neural. Inf. Process. Syst. 34, 13937–13949 (2021)",
+        "journal-title": "Adv. Neural. Inf. Process. Syst."
+      },
+      {
+        "key": "2_CR50",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "629",
+        "DOI": "10.1007/978-3-030-58542-6_38",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "H Seong",
+        "year": "2020",
+        "unstructured": "Seong, H., Hyun, J., Kim, E.: Kernelized memory network for video object segmentation. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12367, pp. 629–645. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58542-6_38"
+      },
+      {
+        "key": "2_CR51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seong, H., Oh, S.W., Lee, J.Y., Lee, S., Lee, S., Kim, E.: Hierarchical memory matching network for video object segmentation. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 12889–12898 (2021)",
+        "DOI": "10.1109/ICCV48922.2021.01265"
+      },
+      {
+        "issue": "4",
+        "key": "2_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "717",
+        "DOI": "10.1109/TPAMI.2015.2465960",
+        "volume": "38",
+        "author": "J Shi",
+        "year": "2015",
+        "unstructured": "Shi, J., Yan, Q., Xu, L., Jia, J.: Hierarchical image saliency detection on extended CSSD. IEEE Trans. Pattern Anal. Mach. Intell. 38(4), 717–729 (2015)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "2_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Chai, Y., Schroff, F., Adam, H., Leibe, B., Chen, L.C.: FEELVOS: fast end-to-end embedding learning for video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 9481–9490 (2019)",
+        "DOI": "10.1109/CVPR.2019.00971"
+      },
+      {
+        "key": "2_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Leibe, B.: Online adaptation of convolutional neural networks for video object segmentation. arXiv preprint arXiv:1706.09364 (2017)",
+        "DOI": "10.5244/C.31.116"
+      },
+      {
+        "key": "2_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, H., Jiang, X., Ren, H., Hu, Y., Bai, S.: SwiftNet: real-time video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 1296–1305 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00135"
+      },
+      {
+        "key": "2_CR56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, J., et al.: Look before you match: Instance understanding matters in video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 2268–2278 (2023)",
+        "DOI": "10.1109/CVPR52729.2023.00225"
+      },
+      {
+        "issue": "4",
+        "key": "2_CR57",
+        "doi-asserted-by": "publisher",
+        "first-page": "985",
+        "DOI": "10.1109/TPAMI.2018.2819173",
+        "volume": "41",
+        "author": "W Wang",
+        "year": "2018",
+        "unstructured": "Wang, W., Shen, J., Porikli, F., Yang, R.: Semi-supervised video object segmentation with super-trajectories. IEEE Trans. Pattern Anal. Mach. Intell. 41(4), 985–998 (2018)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "2_CR58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Q., Yang, T., Liu, Z., Wu, B., Shan, Y., Chan, A.B.: DropMAE: masked autoencoders with spatial-attention dropout for tracking tasks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 14561–14571 (2023)",
+        "DOI": "10.1109/CVPR52729.2023.01399"
+      },
+      {
+        "key": "2_CR59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Q., Yang, T., Wu, W., Chan, A.B.: Scalable video object segmentation with simplified framework. In: Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 13879–13889 (2023)",
+        "DOI": "10.1109/ICCV51070.2023.01276"
+      },
+      {
+        "key": "2_CR60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xiao, H., Feng, J., Lin, G., Liu, Y., Zhang, M.: MoNet: deep motion exploitation for video object segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 1140–1148 (2018)",
+        "DOI": "10.1109/CVPR.2018.00125"
+      },
+      {
+        "key": "2_CR61",
+        "unstructured": "Xu, N., et al.: YouTube-VOS: a large-scale video object segmentation benchmark. arXiv preprint arXiv:1809.03327 (2018)"
+      },
+      {
+        "key": "2_CR62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, S., Liu, D., Bao, L., Liu, W., Zhou, P.: MHP-VOS: multiple hypotheses propagation for video object segmentation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 314–323 (2019)",
+        "DOI": "10.1109/CVPR.2019.00040"
+      },
+      {
+        "key": "2_CR63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, S., Xu, X., Hong, L., Chen, W., Zhang, W., Zhang, W.: PanoVOS: bridging non-panoramic and panoramic views with transformer for video segmentation. arXiv preprint arXiv:2309.12303 (2023)",
+        "DOI": "10.1007/978-3-031-72673-6_19"
+      },
+      {
+        "key": "2_CR64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, S., et al.: Referred by multi-modality: a unified temporal transformer for video object segmentation. In: Proceedings of the AAAI Conference on Artificial Intelligence, vol. 38, pp. 6449–6457 (2024)",
+        "DOI": "10.1609/aaai.v38i6.28465"
+      },
+      {
+        "key": "2_CR65",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "332",
+        "DOI": "10.1007/978-3-030-58558-7_20",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "Z Yang",
+        "year": "2020",
+        "unstructured": "Yang, Z., Wei, Y., Yang, Y.: Collaborative video object segmentation by foreground-background integration. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12350, pp. 332–348. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58558-7_20"
+      },
+      {
+        "key": "2_CR66",
+        "unstructured": "Yang, Z., Wei, Y., Yang, Y.: Associating objects with transformers for video object segmentation. In: Advances in Neural Information Processing Systems (NeurIPS) (2021)"
+      },
+      {
+        "issue": "9",
+        "key": "2_CR67",
+        "first-page": "4701",
+        "volume": "44",
+        "author": "Z Yang",
+        "year": "2021",
+        "unstructured": "Yang, Z., Wei, Y., Yang, Y.: Collaborative video object segmentation by multi-scale foreground-background integration. IEEE Trans. Pattern Anal. Mach. Intell. 44(9), 4701–4712 (2021)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "2_CR68",
+        "unstructured": "Yang, Z., Yang, Y.: Decoupling features in hierarchical propagation for video object segmentation. In: Advances in Neural Information Processing Systems (NeurIPS) (2022)"
+      },
+      {
+        "key": "2_CR69",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "341",
+        "DOI": "10.1007/978-3-031-20047-2_20",
+        "volume-title": "Computer Vision – ECCV 2022",
+        "author": "B Ye",
+        "year": "2022",
+        "unstructured": "Ye, B., Chang, H., Ma, B., Shan, S., Chen, X.: Joint feature learning and relation modeling for tracking: a one-stream framework. In: Avidan, S., Brostow, G., Cissé, M., Farinella, G.M., Hassner, T. (eds.) ECCV 2022. LNCS, vol. 13682, pp. 341–357. Springer, Cham (2022). https://doi.org/10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "2_CR70",
+        "unstructured": "Zhou, X., et al.: Reading relevant feature from global representation memory for visual object tracking. In: Advances in Neural Information Processing Systems, vol. 36 (2024)"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2024"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-73636-0_2",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          16
+        ]
+      ],
+      "date-time": "2025-12-16T13:28:54Z",
+      "timestamp": 1765891734000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/10.1007/978-3-031-73636-0_2"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783031736353",
+      "9783031736360"
+    ],
+    "references-count": 70,
+    "URL": "https://doi.org/10.1007/978-3-031-73636-0_2",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "5 November 2024",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ECCV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "European Conference on Computer Vision",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Milan",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Italy",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2024",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "29 September 2024",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "4 October 2024",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "18",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "eccv2024",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://eccv2024.ecva.net/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      }
+    ]
+  }
+}

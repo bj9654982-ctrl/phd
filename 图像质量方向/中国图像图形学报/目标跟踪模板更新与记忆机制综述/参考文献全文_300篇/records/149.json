@@ -1,0 +1,38 @@
+{
+  "number": 149,
+  "title": "Ranking-Based Siamese Visual Tracking",
+  "year": 2022,
+  "authors": [
+    "Feng Tang",
+    "Qiang Ling"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Tang_Ranking-Based_Siamese_Visual_Tracking_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Tang_Ranking-Based_Siamese_Visual_Tracking_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Tang_Ranking-Based_Siamese_Visual_Tracking_CVPR_2022_paper.pdf",
+      "bytes": 2048338,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\149_2022_Ranking-Based_Siamese_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Tang_Ranking-Based_Siamese_Visual_Tracking_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Tang_Ranking-Based_Siamese_Visual_Tracking_CVPR_2022_paper.pdf",
+  "bytes": 2048338,
+  "sha256": "eed6dc52826be87397cd0f94b8d8edf643d1f94c208d5a9baddb9cadecda29a0",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Ranking-Based Siamese Visual Tracking",
+  "first_page_text": "Ranking-Based Siamese Visual Tracking\nFeng Tang1,2 Qiang Ling1∗\n1 Department of Automation, University of Science and Technology of China, China\n2Institute of Artiﬁcial Intelligence, Hefei Comprehensive National Science Center, China\ntang0420@mail.ustc.edu.cn, qling@ustc.edu.cn\nAbstract\nCurrent Siamese-based trackers mainly formulate the vi-\nsual tracking into two independent subtasks, including clas-\nsiﬁcation and localization.\nThey learn the classiﬁcation\nsubnetwork by processing each sample separately and ne-\nglect the relationship among positive and negative samples.\nMoreover, such tracking paradigm takes only the classiﬁca-\ntion conﬁdence of proposals for the ﬁnal prediction, which\nmay yield the misalignment between classiﬁcation and lo-\ncalization. To resolve these issues, this paper proposes a\nranking-based optimization algorithm to explore the rela-\ntionship among different proposals. To this end, we intro-\nduce two ranking losses, including the classiﬁcation one\nand the IoU-guided one, as optimization constraints. The\nclassiﬁcation ranking loss can ensure that positive sam-\nples rank higher than hard negative ones, i.e., distractors,\nso that the trackers can select the foreground samples suc-\ncessfully without being fooled by the distractors. The IoU-\nguided ranking loss aims to align classiﬁcation conﬁdence\nscores with the Intersection over Union(IoU) of the corre-\nsponding localization prediction for positive samples, en-\nabling the well-localized prediction to be represented by\nhigh classiﬁcation conﬁdence. Speciﬁcally, the proposed t-\nwo ranking losses are compatible with most Siamese track-\ners and incur no additional computation for inference. Ex-\ntensive experiments on seven tracking benchmarks, includ-\ning OTB100, UAV123, TC128, VOT2016, NFS30, GOT-\n10k and LaSOT, demonstrate the effectiveness of the pro-\nposed ranking-based optimization algorithm. The code and\nraw results are available at https://github.com/\nsansanfree/RBO.\n1. Introduction\nVisual object tracking aims to estimate the location in-\nformation of an arbitrary target in each frame of a video\nsequence. In most situations, only the initial target infor-\n∗Corresponding Author.\n1\n0.6\n0.8\n0.4\n0.2\n0\nRank\nEasy Negative Samples\nHard  Negative Samples\nPositive Samples\n1\n0.95\n0.9\nRank\n0.82\n0.9\n0.75\n0.8\n0.78\nIoU:\n(a)  Classification Ranking \n(b) IoU-guided Ranking \nFigure 1. Illustration of the proposed two ranking losses. The clas-\nsiﬁcation loss enables positive samples to rank higher than hard\nnegative samples, aiming to suppress the classiﬁcation conﬁdence\nof distractors. The IoU ranking loss aims to align classiﬁcation\nwith localization, i.e., that the samples with larger IoUs are ex-\npected to gain higher classiﬁcation conﬁdence scores.\nmation is provided for trackers, then trackers are required\nto model the target appearance in the next frames. Since\ntarget-speciﬁc information is only available at test-time, the\ntarget model cannot be obtained via ofﬂine network train-\ning.\nRecently, many researchers exploit how to take the pow-\ner of deep learning technology to solve the tracking task.\nSiamese network is one of the most popular deep learning\nparadigm. As pioneer work, SiamFC [1] formulates visual\ntracking into a deep target matching problem. To be spe-\nciﬁc, SiamFC consists of two branches, i.e., target template\nand search region. Its former branch is used to model the\ntarget as a ﬁxed exemplar and the later branch processes\nthe possible regions. SiamFC inspires many later tracker-\ns [26,27,46,50] that are built upon the Siamese network ar-\nchitecture and can achieve state-of-the-art performance. A-\nmong them, SiamRPN introduces region proposal network-\ns(RPN) consisting of a classiﬁcation head for foreground-\nbackground discrimination and a regression head for an-\nchor reﬁnement. SiamRPN++ [26] and SiamFC++ [50] un-\nleash the capability of deeper backbone networks, such as\nResNet [21] and GoogleNet [37], to enhance feature rep-\nresentation. Inspired by anchor-free object detectors like\nFCOS [39] and CornerNet [25], many anchor-free tracker-\n8741\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,327 @@
+{
+  "number": 41,
+  "original_doi": "10.1109/ICCV.2011.6126251",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Struck: Structured output tracking with kernels",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T20:00:36Z",
+      "timestamp": 1792958436918,
+      "version": "4.5.0"
+    },
+    "reference-count": 23,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2011.6126251",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          1,
+          31
+        ]
+      ],
+      "date-time": "2012-01-31T21:40:48Z",
+      "timestamp": 1328046048000
+    },
+    "page": "263-270",
+    "source": "Crossref",
+    "is-referenced-by-count": 1294,
+    "title": [
+      "Struck: Structured output tracking with kernels"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Sam",
+        "family": "Hare",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amir",
+        "family": "Saffari",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philip H. S.",
+        "family": "Torr",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459183"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2003.1238366"
+      },
+      {
+        "key": "17",
+        "first-page": "3",
+        "article-title": "Robust multi-view boosting with priors",
+        "volume": "2",
+        "author": "saffari",
+        "year": "2010",
+        "journal-title": "Proc ECCV"
+      },
+      {
+        "key": "23",
+        "first-page": "3",
+        "article-title": "Online semi-supervised multiple-instance boosting",
+        "volume": "2",
+        "author": "zeisl",
+        "year": "2010",
+        "journal-title": "Proc CVPR"
+      },
+      {
+        "key": "18",
+        "first-page": "1453",
+        "article-title": "Large margin methods for structured and interdependent output variables",
+        "volume": "6",
+        "author": "tsochantaridis",
+        "year": "2005",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "15",
+        "first-page": "185",
+        "volume": "4",
+        "author": "platt",
+        "year": "1999",
+        "journal-title": "Fast Training of Support Vector Machines using Sequential Minimal Optimization"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539937"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457451"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540136"
+      },
+      {
+        "key": "11",
+        "first-page": "3",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "volume": "2",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "Proc ECCV"
+      },
+      {
+        "key": "12",
+        "first-page": "6",
+        "article-title": "MIForests: Multiple-instance learning with randomized trees",
+        "author": "leistner",
+        "year": "2010",
+        "journal-title": "Proc ECCV"
+      },
+      {
+        "key": "21",
+        "first-page": "5",
+        "article-title": "Multi-class pegasos on a budget",
+        "volume": "2",
+        "author": "wang",
+        "year": "2010",
+        "journal-title": "Proc ICML"
+      },
+      {
+        "key": "3",
+        "first-page": "6",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "volume": "2",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "Proc CVPR"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VISI.0000013087.49260.fb"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "7",
+        "first-page": "5",
+        "article-title": "Online classification on a budget",
+        "volume": "2",
+        "author": "crammer",
+        "year": "2003",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "6",
+        "first-page": "5",
+        "article-title": "Sequence labelling SVMs trained in one pass",
+        "volume": "2",
+        "author": "bordes",
+        "year": "2008",
+        "journal-title": "Proc ECML-PKDD"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1273496.1273508"
+      },
+      {
+        "key": "4",
+        "first-page": "4",
+        "article-title": "Learning to localize objects with structured output regression",
+        "volume": "2",
+        "author": "blaschko",
+        "year": "2008",
+        "journal-title": "Proc ECCV"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459169"
+      },
+      {
+        "key": "8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.167"
+      }
+    ],
+    "event": {
+      "name": "2011 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Barcelona, Spain",
+      "start": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            6
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2011,
+            11,
+            13
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2011 International Conference on Computer Vision"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/6118259/6126217/06126251.pdf?arnumber=6126251",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          21
+        ]
+      ],
+      "date-time": "2017-03-21T14:27:35Z",
+      "timestamp": 1490106455000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6126251/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          11
+        ]
+      ]
+    },
+    "references-count": 23,
+    "URL": "https://doi.org/10.1109/iccv.2011.6126251",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          11
+        ]
+      ]
+    }
+  }
+}

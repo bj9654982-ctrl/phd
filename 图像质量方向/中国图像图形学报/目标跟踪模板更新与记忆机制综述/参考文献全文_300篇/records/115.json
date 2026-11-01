@@ -1,0 +1,41 @@
+{
+  "number": 115,
+  "title": "Learning Feature Embeddings for Discriminant Model based Tracking",
+  "year": 2020,
+  "authors": [
+    "Linyu Zheng",
+    "Ming Tang",
+    "Yingying Chen",
+    "Jinqiao Wang",
+    "Hanqing Lu"
+  ],
+  "venue": "ECCV",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/2460_ECCV_2020_paper.php",
+  "doi": "10.1007/978-3-030-58555-6_45",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600749.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600749.pdf",
+      "bytes": 461342,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\115_2020_Learning_Feature_Embeddings_for_Discriminant_Model_based_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600749.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600749.pdf",
+  "bytes": 461342,
+  "sha256": "8bba5e1c5f8d0f201b1c2ce27d9bf3b9c34d384e00ecaac582f3cac9e69542c4",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Learning Feature Embeddings\nfor Discriminant Model based Tracking\nLinyu Zheng1,2, Ming Tang1,3, Yingying Chen1,2,4, Jinqiao Wang1,2,4, and\nHanqing Lu1,2\n1 National Laboratory of Pattern Recognition, Institute of Automation,\nChinese Academy of Sciences, Beijing 100190, China\n2 School of Artiﬁcial Intelligence, University of Chinese Academy of Sciences,\nBeijing 100049, China\n3 Shenzhen Inﬁnova Limited\n4 ObjectEye Inc.\n{linyu.zheng, tangm, yingying.chen, jqwang, luhq}@nlpr.ia.ac.cn\nAbstract. After observing that the features used in most online dis-\ncriminatively trained trackers are not optimal, in this paper, we propose\na novel and eﬀective architecture to learn optimal feature embeddings\nfor online discriminative tracking. Our method, called DCFST, integrates\nthe solver of a discriminant model that is diﬀerentiable and has a closed-\nform solution into convolutional neural networks. Then, the resulting\nnetwork can be trained in an end-to-end way, obtaining optimal feature\nembeddings for the discriminant model-based tracker. As an instance,\nwe apply the popular ridge regression model in this work to demonstrate\nthe power of DCFST. Extensive experiments on six public benchmarks,\nOTB2015, NFS, GOT10k, TrackingNet, VOT2018, and VOT2019, show\nthat our approach is eﬃcient and generalizes well to class-agnostic target\nobjects in online tracking, thus achieves state-of-the-art accuracy, while\nrunning beyond the real-time speed. Code will be made available.\n1\nIntroduction\nVisual object tracking is one of the fundamental problems in computer vision.\nGiven the initial state of a target object in the ﬁrst frame, the goal of tracking\nis to estimate the states of the target in the subsequent frames [45, 50, 49]. De-\nspite the signiﬁcant progress in recent years, visual tracking remains challenging\nbecause the tracker has to learn a robust appearance model from very limited\nonline training samples to resist many extremely challenging interferences, such\nas large appearance variation and heavy background clutters. In general, the\nkey problem of visual tracking is how to construct a tracker which can not only\ntolerate the appearance variation of the target, but also exclude the background\ninterference, while keeping the running speed that is as high as possible.\nThere has been signiﬁcant progress in deep convolutional neural network-\ns (CNNs) based trackers in recent years. From a technical standpoint, existing\nstate-of-the-art CNNs-based trackers mainly fall into two categories. (1) The one\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,45 @@
+{
+  "number": 180,
+  "title": "Backbone Is All Your Need: A Simplified Architecture for Visual Object Tracking",
+  "year": 2022,
+  "authors": [
+    "Boyu Chen",
+    "Peixia Li",
+    "Lei Bai",
+    "Lei Qiao",
+    "Qiuhong Shen",
+    "Bo Li",
+    "Weihao Gan",
+    "Wei Wu",
+    "Wanli Ouyang"
+  ],
+  "venue": "ECCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4252_ECCV_2022_paper.php",
+  "doi": "10.1007/978-3-031-20047-2_22",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820366.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820366.pdf",
+      "bytes": 1544273,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\180_2022_Backbone_Is_All_Your_Need__A_Simplified_Architecture_for_Visual_Object_Trackin.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820366.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820366.pdf",
+  "bytes": 1544273,
+  "sha256": "14afdb683487bd234dce67f0c58c3f9dd24e98f5652ebe88c821aa6e5f9bd442",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Backbone is All Your Need: A Simplified\nArchitecture for Visual Object Tracking\nBoyu Chen1,∗, Peixia Li1,∗, Lei Bai2,† , Lei Qiao3, Qiuhong Shen3, Bo Li3,\nWeihao Gan3, Wei Wu3, Wanli Ouyang2,1\n1 The University of Sydney, SenseTime Computer Vision Group, Australia\n2 Shanghai AI Laboratory, Shanghai, China\n3 SenseTime, China\n(∗) equal contribution; (†) corresponding author\nbailei@pjlab.org.cn\nAbstract. Exploiting a general-purpose neural architecture to replace\nhand-wired designs or inductive biases has recently drawn extensive in-\nterest. However, existing tracking approaches rely on customized sub-\nmodules and need prior knowledge for architecture selection, hinder-\ning the development of tracking in a more general system. This paper\npresents a Simplified Tracking architecture (SimTrack) by leveraging a\ntransformer backbone for joint feature extraction and interaction. Un-\nlike existing Siamese trackers, we serialize the input images and concate-\nnate them directly before the one-branch backbone. Feature interaction\nin the backbone helps to remove well-designed interaction modules and\nproduce a more efficient and effective framework. To reduce the informa-\ntion loss from down-sampling in vision transformers, we further propose\na foveal window strategy, providing more diverse input patches with ac-\nceptable computational costs. Our SimTrack improves the baseline with\n2.5%/2.6% AUC gains on LaSOT/TNL2K and gets results competitive\nwith other specialized tracking algorithms without bells and whistles.\nThe source codes are available at https://github.com/LPXTT/SimTrack.\n1\nIntroduction\nVisual Object Tracking (VOT) [11,52,7,29] aims to localize the specified\ntarget in a video, which is a fundamental yet challenging task in computer\nvision. Siamese network is a representative paradigm in visual object track-\ning [1,27,26,51], which usually consists of a Siamese backbone for feature extrac-\ntion, an interactive head (e.g., naive correlation [1]) for modeling the relationship\nbetween the exemplar and search, and a predictor for generating the target local-\nization. Recently, transformer [9,44,51] has been introduced as a more powerful\ninteractive head to Siamese-based trackers for providing information interaction,\nas shown in Fig. 1(a), and pushes the accuracy to a new level.\nWhile effective, these transformer heads are highly customized and metic-\nulously designed, making it difficult to incorporate them into a more general\nsystem or generalize to a wide variety of intelligence tasks. On the other hand,\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

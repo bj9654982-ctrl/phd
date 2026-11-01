@@ -1,0 +1,340 @@
+{
+  "number": 75,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "JOTS: Joint Online Tracking and Segmentation",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T10:00:04Z",
+      "timestamp": 1791194404000,
+      "version": "4.1.0"
+    },
+    "reference-count": 28,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2015.7298835",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2015-10-15T18:42:06Z",
+      "timestamp": 1444934526000
+    },
+    "page": "2226-2234",
+    "source": "Crossref",
+    "is-referenced-by-count": 83,
+    "title": [
+      "JOTS: Joint Online Tracking and Segmentation"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Longyin",
+        "family": "Wen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Dawei Du",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhen",
+        "family": "Lei",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stan Z.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming-Hsuan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-011-0437-z"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.308"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126228"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539893"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540073"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10599-4_11"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126471"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2005.20"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.273"
+      },
+      {
+        "key": "ref19",
+        "first-page": "670",
+        "article-title": "Maximum weight cliques with mutex constraints for video object segmentation",
+        "author": "ma",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2013.11.004"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.969114"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.87"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247893"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2014.2364919"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.143"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.267"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.27"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539810"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459276"
+      },
+      {
+        "key": "ref1",
+        "article-title": "SLIC Superpixels",
+        "author": "achanta",
+        "year": "2010",
+        "journal-title": "Technical Report"
+      },
+      {
+        "key": "ref20",
+        "first-page": "1",
+        "article-title": "Fast object segmentation in unconstraint video",
+        "author": "papazoglou",
+        "year": "2013",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383177"
+      },
+      {
+        "key": "ref21",
+        "first-page": "268",
+        "author": "reina",
+        "year": "2010",
+        "journal-title": "Multiple hypothesis video segmentation from superpixel flows ECCV?10"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.24.56"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1015706.1015720"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TMM.2011.2177078"
+      },
+      {
+        "key": "ref25",
+        "first-page": "1323",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "ICCV"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Boston, MA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7293313/7298593/07298835.pdf?arnumber=7298835",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2017-03-24T17:54:00Z",
+      "timestamp": 1490378040000
+    },
+    "score": 49.267036,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7298835/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1109/cvpr.2015.7298835",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    }
+  }
+}

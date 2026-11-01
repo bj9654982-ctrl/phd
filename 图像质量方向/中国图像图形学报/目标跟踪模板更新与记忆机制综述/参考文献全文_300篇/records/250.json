@@ -1,0 +1,43 @@
+{
+  "number": 250,
+  "title": "Exploring Historical Information for RGBE Visual Tracking with Mamba",
+  "year": 2025,
+  "authors": [
+    "Chuanyu Sun",
+    "Jiqing Zhang",
+    "Yang Wang",
+    "Huilin Ge",
+    "Qianchen Xia",
+    "Baocai Yin",
+    "Xin Yang"
+  ],
+  "venue": "CVPR",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba_CVPR_2025_paper.pdf",
+      "bytes": 9717686,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\250_2025_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Sun_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba_CVPR_2025_paper.pdf",
+  "bytes": 9717686,
+  "sha256": "f1b1292c3018ecdd37469853c73ce21d7474ac33a8c286014488aac8fa1e7d04",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Exploring Historical Information for RGBE Visual Tracking with Mamba",
+  "first_page_text": "Exploring Historical Information for RGBE Visual Tracking with Mamba\nChuanyu Sun1*, Jiqing Zhang2*, Yang Wang1, Huilin Ge3†, Qianchen Xia4†, Baocai Yin1,5†, Xin Yang1†\n1Key Laboratory of Social Computing and Cognitive Intelligence, Dalian University of Technology\n2Dalian Maritime University\n3Jiangsu University of Science and Technology\n4The Future Laboratory,Tsinghua University, Beijing, China\n5Beijing University of Technology\nAbstract\nCombining the advantages of conventional and event\ncameras for robust visual tracing has drawn extensive inter-\nest. However, existing tracking approaches heavily engage\nin complex cross-modal fusion modules, leading to higher\ncomputational complexity and training challenges. Besides,\nthese methods generally ignore the effective integration of\nhistorical information, which is crucial to grasping the\nchange in the target’s appearance and motion trends. Given\nthe recent advancements in Mamba’s long-range model-\ning and linear complexity, we explore its potential in ad-\ndressing the above issues in RGBE tracking tasks. Specif-\nically, we first propose an efficient fusion module based\non Mamba, which utilizes a simple gate-based interaction\nscheme to achieve effective modality-selective fusion. This\nmodule can be seamlessly integrated into the encoding layer\nof prevalent Transformer-based backbones. Moreover, we\nfurther present a novel historical decoder that leverages\nMamba’s advanced long sequence modeling to effectively\ncapture the target appearance changes with autoregressive\nqueries. Extensive experiments show that our proposed ap-\nproach achieves state-of-the-art performance on multiple\nchallenging short-term and long-term RGBE benchmarks.\nBesides, the effectiveness of each key Mamba-based com-\nponent of our approach is evidenced by our thorough abla-\ntion study.Code will be released at: https://github.\ncom/scy0712/MamTrack\n1. Introduction\nVisual object tracking (VOT) is a fundamental task in com-\nputer vision[21–23, 30, 46] that focuses on estimating the\nposition and shape of a target within video sequences based\non its initial state [1, 3, 5, 17, 35, 36, 38, 47].Owing to the\nadvantages of high temporal resolution and dynamic range\noffered by event cameras [33, 34, 40], there has been a\n*Equal contribution.\n†Corresponding author.\nFigure 1. Overview of MamTrack and its two main components:\n(i) Multimodal Encoder is responsible for extracting and fusing\nfeatures from RGB and event modalities; (ii) Historical Decoder\nis utilized to mine the temporal information of target appearance\nchanges.\ngrowing trend of integrating them with conventional RGB\ncameras for robust visual tracking tasks [10, 28, 32, 41–\n43, 48]. These RGBE multimodal approaches can signif-\nicantly enhance tracking performance in challenging con-\nditions, such as fast motion and limited illumination. Al-\nthough being effective, the above multimodal methods ex-\npend a substantial amount of labor on developing overly\nintricate fusion algorithms. For example, FENet [41] em-\nploys a total of 8 self-attention and 4 complex cross-domain\nattention operations to integrate event and frame features\nat various levels. Implementing these sophisticated strate-\ngies will significantly increase the computational complex-\nity and challenge of the training.\nMoreover, the complex fusion designs make existing\nRGBE methods usually overlook the mining and applica-\ntion of historical temporal information, which is crucial for\ntracking as it captures changes in the target’s state. Sev-\neral RGB-only trackers [1, 4, 38] have been developed to\nupdate appearance information by replacing or fusing the\ntemplates. Occasionally, these straightforward methods in-\neffectively filter out unreliable updated templates and thus\ncompromise the performance. To address this issue, some\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n6500\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

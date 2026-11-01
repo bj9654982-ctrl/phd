@@ -1,0 +1,379 @@
+{
+  "number": 42,
+  "original_doi": "10.1007/978-3-642-33765-9_50",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T20:00:41Z",
+      "timestamp": 1792958441062,
+      "version": "4.5.0"
+    },
+    "publisher-location": "Berlin, Heidelberg",
+    "reference-count": 23,
+    "publisher": "Springer Berlin Heidelberg",
+    "isbn-type": [
+      {
+        "value": "9783642337642",
+        "type": "print"
+      },
+      {
+        "value": "9783642337659",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2012,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2012-01-01T00:00:00Z",
+          "timestamp": 1325376000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-642-33765-9_50",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          9,
+          26
+        ]
+      ],
+      "date-time": "2012-09-26T08:07:02Z",
+      "timestamp": 1348646822000
+    },
+    "page": "702-715",
+    "source": "Crossref",
+    "is-referenced-by-count": 1344,
+    "title": [
+      "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "João F.",
+        "family": "Henriques",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rui",
+        "family": "Caseiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pedro",
+        "family": "Martins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jorge",
+        "family": "Batista",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "reference": [
+      {
+        "key": "50_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Henriques, J.F., Caseiro, R., Batista, J.: Globally optimal solution to multi-object tracking with merged measurements. In: ICCV (2011)",
+        "DOI": "10.1109/ICCV.2011.6126532"
+      },
+      {
+        "key": "50_CR2",
+        "series-title": "LNCS",
+        "first-page": "343",
+        "volume-title": "ECCV 2012, Part II",
+        "author": "A.R. Zamir",
+        "year": "2012",
+        "unstructured": "Zamir, A.R., Dehghan, A., Shah, M.: GMCP-Tracker: Global Multi-object Tracking Using Generalized Minimum Clique Graphs. In: Fitzgibbon, A., Lazebnik, S., Perona, P., Sato, Y., Schmid, C. (eds.) ECCV 2012, Part II. LNCS, vol. 7573, pp. 343–356. Springer, Heidelberg (2012)"
+      },
+      {
+        "issue": "8",
+        "key": "50_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "1619",
+        "DOI": "10.1109/TPAMI.2010.226",
+        "volume": "33",
+        "author": "B. Babenko",
+        "year": "2011",
+        "unstructured": "Babenko, B., Yang, M.-H., Belongie, S.: Robust object tracking with online multiple instance learning. TPAMI 33(8), 1619–1632 (2011)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "50_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hare, S., Saffari, A., Torr, P.: Struck: Structured output tracking with kernels. In: ICCV (2011)",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "issue": "8",
+        "key": "50_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "1064",
+        "DOI": "10.1109/TPAMI.2004.53",
+        "volume": "26",
+        "author": "S. Avidan",
+        "year": "2004",
+        "unstructured": "Avidan, S.: Support vector tracking. TPAMI 26(8), 1064–1072 (2004)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "50_CR6",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "234",
+        "DOI": "10.1007/978-3-540-88682-2_19",
+        "volume-title": "Computer Vision – ECCV 2008",
+        "author": "H. Grabner",
+        "year": "2008",
+        "unstructured": "Grabner, H., Leistner, C., Bischof, H.: Semi-supervised On-Line Boosting for Robust Tracking. In: Forsyth, D., Torr, P., Zisserman, A. (eds.) ECCV 2008, Part I. LNCS, vol. 5302, pp. 234–247. Springer, Heidelberg (2008)"
+      },
+      {
+        "key": "50_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saffari, A., Leistner, C., Santner, J., Godec, M., Bischof, H.: On-line random forests. In: 3rd IEEE ICCV Workshop on On-line Computer Vision (2009)",
+        "DOI": "10.1109/ICCVW.2009.5457447"
+      },
+      {
+        "issue": "4",
+        "key": "50_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.1145/1177352.1177355",
+        "volume": "38",
+        "author": "A. Yilmaz",
+        "year": "2006",
+        "unstructured": "Yilmaz, A., Javed, O., Shah, M.: Object tracking: A survey. ACM Computing Surveys 38(4), 13–58 (2006)",
+        "journal-title": "ACM Computing Surveys"
+      },
+      {
+        "issue": "18",
+        "key": "50_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "3823",
+        "DOI": "10.1016/j.neucom.2011.07.024",
+        "volume": "74",
+        "author": "H. Yang",
+        "year": "2011",
+        "unstructured": "Yang, H., Shao, L., Zheng, F., Wang, L., Song, Z.: Recent advances and trends in visual tracking: A review. Neurocomputing 74(18), 3823–3831 (2011)",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "50_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lampert, C.H., Blaschko, M.B., Hofmann, T.: Beyond sliding windows: Object localization by efficient subwindow search. In: CVPR (2008)",
+        "DOI": "10.1109/CVPR.2008.4587586"
+      },
+      {
+        "key": "50_CR11",
+        "unstructured": "Alexe, B., Petrescu, V., Ferrari, V.: Exploiting spatial overlap to efficiently compute appearance distances between image windows. In: NIPS (2011)"
+      },
+      {
+        "key": "50_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolme, D.S., Beveridge, J.R., Draper, B.A., Lui, Y.M.: Visual object tracking using adaptive correlation filters. In: CVPR (2010)",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "50_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Vedaldi, A., Gulshan, V., Varma, M., Zisserman, A.: Multiple kernels for object detection. In: ICCV (2009)",
+        "DOI": "10.1109/ICCV.2009.5459183"
+      },
+      {
+        "key": "50_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Harzallah, H., Jurie, F., Schmid, C.: Combining efficient object localization and image classification. In: ICCV (2009)",
+        "DOI": "10.1109/ICCV.2009.5459257"
+      },
+      {
+        "key": "50_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolme, D.S., Draper, B.A., Beveridge, J.R.: Average of synthetic exact filters. In: CVPR (2009)",
+        "DOI": "10.1109/CVPRW.2009.5206701"
+      },
+      {
+        "key": "50_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patnaik, R., Casasent, D.: Fast FFT-based distortion-invariant kernel filters for general object recognition. In: Proceedings of SPIE, vol. 7252 (2009)",
+        "DOI": "10.1117/12.805411"
+      },
+      {
+        "key": "50_CR17",
+        "first-page": "131",
+        "volume": "190",
+        "author": "R. Rifkin",
+        "year": "2003",
+        "unstructured": "Rifkin, R., Yeo, G., Poggio, T.: Regularized least-squares classification. Nato Science Series Sub Series III: Computer and Systems Sciences 190, 131–154 (2003)",
+        "journal-title": "Nato Science Series Sub Series III: Computer and Systems Sciences"
+      },
+      {
+        "key": "50_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Schölkopf, B., Smola, A.J.: Learning with kernels: Support vector machines, regularization, optimization, and beyond. MIT Press (2002)",
+        "DOI": "10.7551/mitpress/4175.001.0001"
+      },
+      {
+        "key": "50_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gray, R.M.: Toeplitz and Circulant Matrices: A Review. Now Publishers (2006)",
+        "DOI": "10.1561/9781933019680"
+      },
+      {
+        "key": "50_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Patnaik, R.: Distortion-invariant kernel correlation filters for general object recognition. PhD thesis, Carnegie Mellon University (2009)",
+        "DOI": "10.1117/12.805411"
+      },
+      {
+        "key": "50_CR21",
+        "unstructured": "González, R.C., Woods, R.E.: Digital image processing. Prentice Hall (2008)"
+      },
+      {
+        "issue": "1-3",
+        "key": "50_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "125",
+        "DOI": "10.1007/s11263-007-0075-7",
+        "volume": "77",
+        "author": "D.A. Ross",
+        "year": "2007",
+        "unstructured": "Ross, D.A., Lim, J., Lin, R.-S., Yang, M.-H.: Incremental learning for robust visual tracking. IJCV 77(1-3), 125–141 (2007)",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "50_CR23",
+        "unstructured": "Adam, A., Rivlin, E., Shimshoni, I.: Robust fragments-based tracking using the integral histogram. In: CVPR (2006)"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2012"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-3-642-33765-9_50",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2025-04-09T14:10:37Z",
+      "timestamp": 1744207837000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/978-3-642-33765-9_50"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783642337642",
+      "9783642337659"
+    ],
+    "references-count": 23,
+    "URL": "https://doi.org/10.1007/978-3-642-33765-9_50",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,963 @@
+{
+  "number": 192,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T02:29:17Z",
+      "timestamp": 1792808957253,
+      "version": "4.5.0"
+    },
+    "reference-count": 120,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "NSFC",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62322113,62376156"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62322113,62376156"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012226",
+        "name": "Fundamental Research Funds for the Central Universities",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100012226",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52733.2024.01808",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2024-09-16T17:34:53Z",
+      "timestamp": 1726508093000
+    },
+    "page": "19113-19124",
+    "source": "Crossref",
+    "is-referenced-by-count": 52,
+    "title": [
+      "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Fei",
+        "family": "Xie",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "AI Institute, Shanghai Jiao Tong University,MoE Key Lab of Artificial Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhongdao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Huawei Noah&#x0027;s Ark Lab"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chao",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "AI Institute, Shanghai Jiao Tong University,MoE Key Lab of Artificial Intelligence"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "article-title": "Segdiff: Image segmentation with diffusion proba-bilistic models",
+        "author": "Amit",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Structured denoising diffu-sion models in discrete state-spaces",
+        "author": "Austin",
+        "year": "2021",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01767"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Label-efficient se-mantic segmentation with diffusion models",
+        "author": "Baranchuk",
+        "year": "2022",
+        "journal-title": "ICLR"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW56347.2022.00462"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00879"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58452-8_13"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_22"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Dif-fusiondet: Diffusion model for object detection",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Analog bits: Generating discrete data using diffusion models with self-conditioning",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref13",
+        "article-title": "A generalist framework for panoptic seg-mentation of images and videos",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Seqtrack: Sequence to sequence learning for vi-sual object tracking",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Diffusion models beat gans on image synthesis",
+        "author": "Dhariwal",
+        "year": "2021",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref21",
+        "article-title": "An im-age is worth 16x16 words: Transformers for image recog-nition at scale",
+        "author": "Dosovitskiy",
+        "year": "2021",
+        "journal-title": "ICLR"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Siamese cascaded region pro-posal networks for real-time visual tracking",
+        "author": "Fan",
+        "year": "2019",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Frido: Feature pyra-mid diffusion for complex scene image synthesis",
+        "author": "Fan",
+        "year": "2022",
+        "journal-title": "ArXiv"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00855"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01356"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01792"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Diffuseq: Sequence to sequence text gen-eration with diffusion models",
+        "author": "Gong",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Diffusion models as plug-and-play pri-ors",
+        "author": "Graikos",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01043"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00630"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Flexible diffusion modeling of long videos",
+        "author": "Harvey",
+        "year": "2022",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.322"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref36",
+        "article-title": "High-speed tracking with kernelized correlation fil-ters",
+        "author": "Henriques",
+        "year": "2008",
+        "journal-title": "ICVS"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Denoising dif-fusion probabilistic models",
+        "author": "Ho",
+        "year": "2020",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Video dif-fusion models",
+        "author": "Ho",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref39",
+        "article-title": "Got-10k: A large high-diversity benchmark for generic object tracking in the wild",
+        "author": "Huang",
+        "year": "2018",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503161.3547855"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Diffusion probabilistic models for graph-structured prediction",
+        "author": "Jang",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01987"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Diffusion adver-sarial representation learning for self-supervised vessel seg-mentation",
+        "author": "Kim",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_31"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Guided-tts 2: A diffusion model for high-quality adaptive text-to-speech with untranscribed data",
+        "author": "Kim",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00963"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00371"
+      },
+      {
+        "key": "ref48",
+        "article-title": "The tenth visual object tracking vot2022 challenge results",
+        "author": "Kristan",
+        "year": "2022",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Imagenet classification with deep convolutional neural net-works",
+        "author": "Krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.21437/Interspeech.2022-10045"
+      },
+      {
+        "key": "ref51",
+        "article-title": "High performance visual tracking with siamese region pro-posal network",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00146"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Generalized focal loss: Learning qualified and distributed bounding boxes for dense object detection",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Diffusion-lm im-proves controllable text generation",
+        "author": "Li",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref56",
+        "article-title": "Swin-track: A simple and strong baseline for transformer tracking",
+        "author": "Lin",
+        "year": "2022",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref59",
+        "article-title": "Decoupled weight decay regularization",
+        "author": "Loshchilov",
+        "year": "2017",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00858"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-68238-5_43"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00071"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01319"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00853"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref68",
+        "article-title": "Improved denoising diffusion probabilistic models",
+        "author": "Nichol",
+        "year": "2021",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref69",
+        "article-title": "GLIDE: Towards photo-realistic image generation and editing with text-guided dif-fusion models",
+        "author": "Nichol",
+        "year": "2022",
+        "journal-title": "PMLR"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i2.25287"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_33"
+      },
+      {
+        "key": "ref72",
+        "article-title": "Grad-tts: A diffusion probabilistic model for text-to-speech",
+        "author": "Popov",
+        "year": "2021",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref73",
+        "article-title": "Hierarchical text-conditional image generation with clip latents",
+        "author": "Ramesh",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref74",
+        "article-title": "You only look once: Unified, real-time object de-tection",
+        "author": "Redmon",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref75",
+        "article-title": "Faster r-cnn:Towards real-time object detection with re-gion proposal networks",
+        "author": "Ren",
+        "year": "2015",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref76",
+        "article-title": "Generalized in-tersection over union: A metric and a loss for bounding box regression",
+        "author": "Rezatofighi",
+        "year": "2019",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref77",
+        "article-title": "Dreambooth: Fine tuning text-to-image diffusion models for subject-driven generation",
+        "author": "Ruiz",
+        "year": "2022",
+        "journal-title": "ArXiv"
+      },
+      {
+        "key": "ref78",
+        "article-title": "Photorealistic text-to-image diffusion models with deep language understanding",
+        "author": "Saharia",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2022.3204461"
+      },
+      {
+        "key": "ref80",
+        "article-title": "Distilled siamese networks for visual tracking",
+        "author": "Shen",
+        "year": "2021",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref81",
+        "article-title": "Make-a-video: Text-to-video generation without text-video data",
+        "author": "Singer",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref82",
+        "article-title": "Deep unsupervised learning using nonequilibrium thermodynamics",
+        "author": "Sohl-Dickstein",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref83",
+        "article-title": "Denoising diffusion implicit models",
+        "author": "Song",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref84",
+        "article-title": "Denoising diffusion implicit models",
+        "author": "Song",
+        "year": "2021",
+        "journal-title": "ICLR"
+      },
+      {
+        "key": "ref85",
+        "article-title": "Generative modeling by es-timating gradients of the data distribution",
+        "volume": "32",
+        "author": "Song",
+        "year": "2019",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref86",
+        "article-title": "Improved techniques for training score-based generative models",
+        "author": "Song",
+        "year": "2020",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00859"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "ref89",
+        "article-title": "Editts: Score-based editing for controllable text-to-speech",
+        "author": "Tae",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00972"
+      },
+      {
+        "key": "ref91",
+        "article-title": "Attention is all you need",
+        "author": "Vaswani",
+        "year": "2017",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00376"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00632"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "ref96",
+        "article-title": "Learning attentions: residual attentional siamese network for high performance online vi-sual tracking",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00061"
+      },
+      {
+        "key": "ref98",
+        "first-page": "13763",
+        "article-title": "Towards more flexi-ble and accurate object tracking with natural language: Al-gorithms and benchmark",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref99",
+        "article-title": "Diffusion models for implicit image segmentation ensembles",
+        "author": "Wolleb",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00009"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01399"
+      },
+      {
+        "key": "ref102",
+        "article-title": "Itôtts and itôwave: Linear stochastic differential equation is all you need for audio generation",
+        "author": "Wu",
+        "year": "2021",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02186"
+      },
+      {
+        "key": "ref104",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00935"
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00525"
+      },
+      {
+        "key": "ref108",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19803-8_43"
+      },
+      {
+        "key": "ref109",
+        "article-title": "Diffsound: Dis-crete diffusion model for text-to-sound generation",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref110",
+        "article-title": "Dif-fusion probabilistic modeling for video generation",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref111",
+        "article-title": "Learning dynamic mem-ory networks for object tracking",
+        "author": "Yang",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00975"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2964284.2967274"
+      },
+      {
+        "key": "ref115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref116",
+        "article-title": "Motiondif-fuse: Text-driven human motion generation with diffusion model",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00472"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      },
+      {
+        "key": "ref119",
+        "article-title": "Learn to match: Automatic matching net-work design for visual tracking",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref120",
+        "article-title": "Ob-jects as points",
+        "author": "Zhou",
+        "year": "2019",
+        "journal-title": "arXiv"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Seattle, WA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10654794/10654797/10658605.pdf?arnumber=10658605",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          21
+        ]
+      ],
+      "date-time": "2024-09-21T05:59:35Z",
+      "timestamp": 1726898375000
+    },
+    "score": 62.819466,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10658605/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 120,
+    "URL": "https://doi.org/10.1109/cvpr52733.2024.01808",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    }
+  }
+}

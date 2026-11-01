@@ -1,0 +1,40 @@
+{
+  "number": 273,
+  "title": "Video Object Segmentation With Dynamic Memory Networks and Adaptive Object Alignment",
+  "year": 2021,
+  "authors": [
+    "Shuxian Liang",
+    "Xu Shen",
+    "Jianqiang Huang",
+    "Xian-Sheng Hua"
+  ],
+  "venue": "ICCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.pdf",
+      "bytes": 1073345,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\273_2021_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_Ali.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.pdf",
+  "bytes": 1073345,
+  "sha256": "bf10c47d30f7a5b6f874400ee424d3402cec324e29d270bde72b8600550e7a83",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Video Object Segmentation With Dynamic Memory Networks and Adaptive Object Alignment",
+  "first_page_text": "Video Object Segmentation with Dynamic Memory Networks and Adaptive\nObject Alignment\nShuxian Liang1, 2∗, Xu Shen2, Jianqiang Huang2, Xian-Sheng Hua2†\n1 State Key Lab of CAD&CG, Zhejiang University, 2 DAMO Academy, Alibaba Group\nshuxian.lsx@zju.edu.cn, {shenxu.sx,jianqiang.hjq,xiansheng.hxs}@alibaba-inc.com\nAbstract\nIn this paper, we propose a novel solution for object-\nmatching based semi-supervised video object segmentation,\nwhere the target object masks in the ﬁrst frame are pro-\nvided. Existing object-matching based methods focus on\nthe matching between the raw object features of the current\nframe and the ﬁrst/previous frames. However, two issues\nare still not solved by these object-matching based meth-\nods. As the appearance of the video object changes drasti-\ncally over time, 1) unseen parts/details of the object present\nin the current frame, resulting in incomplete annotation in\nthe ﬁrst annotated frame (e.g. view/scale changes). 2) even\nfor the seen parts/details of the object in the current frame,\ntheir positions change relatively (e.g. pose changes/camera\nmotion), leading to a misalignment for the object match-\ning. To obtain the complete information of the target ob-\nject, we propose a novel object-based dynamic memory net-\nwork that exploits visual contents of all the past frames. To\nsolve the misalignment problem caused by position changes\nof visual contents, we propose an adaptive object align-\nment module by incorporating a region translation function\nthat aligns object proposals towards templates in the feature\nspace. Our method achieves state-of-the-art results on lat-\nest benchmark datasets DAVIS 2017 (J of 81.4% and F of\n87.5% on the validation set) and YouTube-VOS (the overall\nscore of 82.7% on the validation set) with a very efﬁcient\ninference time (0.16 second/frame on DAVIS 2017 valida-\ntion set). Code is available at: https://github.com/\nliang4sx/DMN-AOA.\n1. Introduction\nSemi-supervised video object segmentation (VOS) is a\ntask that distinguishes target objects from their background\nat the pixel level in a video, where ground-truth masks of\n∗This work was done when the author was visiting Alibaba as a re-\nsearch intern.\n†Corresponding author.\nfirst frame\nView\nintermediate frame\ncurrent frame\ntemplate\ncorrespondence w/ alignment correspondence w/o alignment\nScale\nPose\nMotion\nMisalignment\nIncomplete Annotations\nFigure 1. Two issues for the object matching based VOS. In the\ntop two cases, corresponding parts (in red) of the query object do\nnot present in the ﬁrst frame because of view/scale changes. The\nbottom two cases show the misalignment problem caused by pose\nchanges and camera motion. Our method solve these issues by ex-\nploiting object-speciﬁc memories and aligning objects adaptively.\nobjects are provided in the ﬁrst frame. The task is then to\npredict the segmentation masks from the rest video frames.\nOne of the main challenges of VOS is that the appearances\nof the target object can change drastically across frames due\nto object movements, camera movements and occlusions.\nFor the semi-supervised video object segmentation commu-\nnity, the pixel matching based VOS (PVOS) and the object\nmatching based VOS (OVOS) are investigated in parallel\nas two research topics. PVOS methods predict based on\ncross-frame pixel correlations (e.g. [7, 20, 28, 35]). OVOS\nmethods predict by correlating proposal objects of the cur-\nrent frame with template objects of historical frames (e.g.\n[4, 11, 29, 36]).\nExisting OVOS methods focus on the matching be-\ntween the raw object features of the proposals in the cur-\nrent frame and the templates in the ﬁrst/previous frames\n8065\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

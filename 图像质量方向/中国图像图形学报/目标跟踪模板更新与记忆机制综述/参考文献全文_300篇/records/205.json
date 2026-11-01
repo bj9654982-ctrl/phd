@@ -1,0 +1,40 @@
+{
+  "number": 205,
+  "title": "Long-Term Correlation Tracking",
+  "year": 2015,
+  "authors": [
+    "Chao Ma",
+    "Xiaokang Yang",
+    "Chongyang Zhang",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2015/html/Ma_Long-Term_Correlation_Tracking_2015_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Ma_Long-Term_Correlation_Tracking_2015_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Ma_Long-Term_Correlation_Tracking_2015_CVPR_paper.pdf",
+      "bytes": 5334352,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\205_2015_Long-Term_Correlation_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Ma_Long-Term_Correlation_Tracking_2015_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2015/papers/Ma_Long-Term_Correlation_Tracking_2015_CVPR_paper.pdf",
+  "bytes": 5334352,
+  "sha256": "c1b7231ce25c71a873d3845497cd45bbafc5a53a7e90e332a7fcf6f40b18c6e5",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Long-Term Correlation Tracking",
+  "first_page_text": "Long-term Correlation Tracking\nChao Ma1,2, Xiaokang Yang1, Chongyang Zhang1, and Ming-Hsuan Yang2\n1Shanghai Jiao Tong University\n2University of California at Merced\n{chaoma,xkyang,sunny zhang}@sjtu.edu.cn, mhyang@ucmerced.edu\nAbstract\nIn this paper, we address the problem of long-term vi-\nsual tracking where the target objects undergo signiﬁcant\nappearance variation due to deformation, abrupt motion,\nheavy occlusion and out-of-view.\nIn this setting, we de-\ncompose the task of tracking into translation and scale es-\ntimation of objects. We show that the correlation between\ntemporal context considerably improves the accuracy and\nreliability for translation estimation, and it is effective to\nlearn discriminative correlation ﬁlters from the most conﬁ-\ndent frames to estimate the scale change. In addition, we\ntrain an online random fern classiﬁer to re-detect objects\nin case of tracking failure. Extensive experimental results\non large-scale benchmark datasets show that the proposed\nalgorithm performs favorably against state-of-the-art meth-\nods in terms of efﬁciency, accuracy, and robustness.\n1. Introduction\nObject tracking is one of the most fundamental problems\nin computer vision with numerous applications. A typical\nscenario of visual tracking is to track an unknown object\ninitialized by a bounding box in subsequent image frames.\nIn this paper, we focus on the problem of long-term visual\ntracking, where target objects undergo signiﬁcant appear-\nance change due to deformation, abrupt motion, heavy oc-\nclusion and out-of-view.\nOur approach builds on two major observations based\non prior work. First, there is little change between two con-\nsecutive frames as the time interval is small (less than 0.04\nsecond)1 and the context around the target remains possibly\nunchanged even if the object is heavily occluded. Hence,\nit is important to model the temporal relationship of ap-\npearance consisting of a target object and its context. We\ndevelop a kernel ridge regression method based on correla-\ntion ﬁlters to encode the appearance template consisting of a\ntarget object and its surrounding context. The adaptive tem-\nplates constructed by the proposed features are resistant to\n1Most videos have more than 25 frames per second.\n#210\n×\n#230\n#350\n#380\nSTC\nStruck\nKCF\nTLD\nOurs\nFigure 1. Comparisons of our approach with state-of-the-art track-\ners in challenging situations of fast motion, signiﬁcant deforma-\ntion and long-term occlusion on the Lemming sequence [24]. Our\ntracker takes temporal context into account for translation estima-\ntion, and performs robustly to abrupt motion and signiﬁcant de-\nformation in the 230th frame than the Struck [9] and TLD [14]\nmethods. Our tracker is more effective in re-detecting the target in\nthe 380th frame after long-term occlusion than the KCF [11] and\nSTC [28] methods with the use of an online detector.\nheavy occlusion, fast motion, and large deformation. This\nmethod differs signiﬁcantly from existing correlation ﬁlters\nbased tracking algorithms, which are prone to drifting in\nlong-term tracking. Figure 1 shows one example where the\nproposed algorithm performs well against the KCF [11] and\nSTC [28] methods. Our main contribution is an algorithm\nthat efﬁciently models the temporal context information us-\ning correlation ﬁlters for long-term visual tracking.\nSecond, it is critical to enhance the detection module of a\nlong-term tracker to (i) estimate the scale change and (ii) re-\ndetect the object in case of tracking failure when long-term\nocclusion or out-of-view occurs. For scale estimation, we\ntrain another correlation ﬁlter for a target from the most re-\nliable frames. We use the histogram of orientation gradients\n(HOG) [4] as features to construct a multi-scale target pyra-\nmid and search for the optimal scale exhaustively. For ob-\nject re-detection, we do not apply the target correlation ﬁlter\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

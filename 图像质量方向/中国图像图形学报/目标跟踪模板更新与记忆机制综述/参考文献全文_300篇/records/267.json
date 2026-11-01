@@ -1,0 +1,39 @@
+{
+  "number": 267,
+  "title": "MAST: A Memory-Augmented Self-Supervised Tracker",
+  "year": 2020,
+  "authors": [
+    "Zihang Lai",
+    "Erika Lu",
+    "Weidi Xie"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Lai_MAST_A_Memory-Augmented_Self-Supervised_Tracker_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Lai_MAST_A_Memory-Augmented_Self-Supervised_Tracker_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Lai_MAST_A_Memory-Augmented_Self-Supervised_Tracker_CVPR_2020_paper.pdf",
+      "bytes": 4703731,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\267_2020_MAST__A_Memory-Augmented_Self-Supervised_Tracker.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Lai_MAST_A_Memory-Augmented_Self-Supervised_Tracker_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Lai_MAST_A_Memory-Augmented_Self-Supervised_Tracker_CVPR_2020_paper.pdf",
+  "bytes": 4703731,
+  "sha256": "f40fb32858e68872fedecaf1bb9c4013480a5e5a3430a757c13e83184cd6fdda",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "MAST: A Memory-Augmented Self-Supervised Tracker",
+  "first_page_text": "MAST: A Memory-Augmented Self-Supervised Tracker\nZihang Lai\nErika Lu\nWeidi Xie\nVisual Geometry Group, Department of Engineering Science\nUniversity of Oxford\n{zlai, erika, weidi}@robots.ox.ac.uk\nAbstract\nRecent interest in self-supervised dense tracking has\nyielded rapid progress, but performance still remains far\nfrom supervised methods.\nWe propose a dense tracking\nmodel trained on videos without any annotations that sur-\npasses previous self-supervised methods on existing bench-\nmarks by a signiﬁcant margin (+15%), and achieves per-\nformance comparable to supervised methods. In this pa-\nper, we ﬁrst reassess the traditional choices used for self-\nsupervised training and reconstruction loss by conduct-\ning thorough experiments that ﬁnally elucidate the optimal\nchoices. Second, we further improve on existing methods by\naugmenting our architecture with a crucial memory compo-\nnent. Third, we benchmark on large-scale semi-supervised\nvideo object segmentation (aka. dense tracking), and pro-\npose a new metric: generalizability. Our ﬁrst two contribu-\ntions yield a self-supervised network that for the ﬁrst time\nis competitive with supervised methods on standard evalu-\nation metrics of dense tracking. When measuring general-\nizability, we show self-supervised approaches are actually\nsuperior to the majority of supervised methods. We believe\nthis new generalizability metric can better capture the real-\nworld use-cases for dense tracking, and will spur new in-\nterest in this research direction. Code will be released at\nhttps://github.com/zlai0/MAST.\n1. Introduction\nAlthough the working mechanisms of the human visual\nsystem remain somewhat obscure at the level of neurophys-\niology, it is a consensus that tracking objects is a funda-\nmental ability that a baby starts developing at two to three\nmonths of age [5, 34, 58]. Similarly, in computer vision sys-\ntems, tracking plays key roles in many applications ranging\nfrom autonomous driving to video surveillance.\nGiven arbitrary objects deﬁned in the ﬁrst frame, a track-\ning algorithm aims to relocate the same object through-\nout the entire video sequence. In the literature, tracking\ncan be cast into two categories: the ﬁrst is Visual Object\nTracking (VOT) [35], where the goal is to relocalize objects\n10\n0\n10\n1\n10\n2\n10\n3\n10\n4\n10\n5\n10\n6\n10\n7\nNumber of pixel-level annotations (log-scale)\n30\n40\n50\n60\n70\n80\n90\nDAVIS-2017 J & F (Mean)\nVideo Colorization\nCycleTime\nCorrFlow\nmgPFF\nPReMVOS\nOSVOS\nOnAVOS\nOSVOS-S\nDyeNet\nRGMP\nOSMN\nFAVOS\nFEELVOS\nCINM\nRANet\nVOSwL\nAGAME\nRVOS\nSiamMask\nOurs\nFigure 1: Comparison with other recent works on the DAVIS-2017 bench-\nmarks, i.e. dense tracking or semi-supervised video segmentation given the\nﬁrst frame annotation. The proposed approach signiﬁcantly outperforms\nother self-supervised approaches, and is even comparable to those trained\nwith heavy supervision on ImageNet, COCO, Pascal, DAVIS, Youtube-\nVOS. In the x-axis, we only count pixel-wise segmentation.\nNotation:\nCINM [3],\nOSVOS [6],\nFAVOS [8],\nAGAME [28],\nVOSwL [31], mgPFF [33], CorrFlow [37], DyeNet [39], PReMVOS [41].\nOSVOS-S [42], RGMP [44], RVOS [54], FEELVOS [56], OnAVOS [57],\nVideo Colorization [59], SiamMask [61], CycleTime [64], RANet [65],\nOSMN [73],\nwith bounding boxes throughout the video; the other aims\nfor more ﬁne-grained tracking, i.e. relocalize the objects\nwith pixel-level segmentation masks, also known as Semi-\nsupervised Video Object Segmentation (Semi-VOS) [48].\nIn this paper, we focus on the latter case, and will refer to it\ninterchangeably with dense tracking from here on.\nIn order to train such dense tracking systems, most re-\ncent approaches rely on supervised training with extensive\nhuman annotations (see Figure 1). For instance, an Ima-\ngeNet [10] pre-trained ResNet [18] is typically adopted as a\nfeature encoder, and further ﬁne-tuned on images or video\nframes annotated with ﬁne-grained, pixelwise segmenta-\ntion masks, e.g. COCO [40], Pascal [13], DAVIS [48] and\nYouTube-VOS [71]. Despite their success, this top-down\ntraining scheme seems counter-intuitive when considering\nthe development of the human visual system, as infants can\ntrack and follow slow-moving objects before they are able\nto map objects to semantic meanings. With this evidence, it\nis unlikely the case that humans develop their tracking abil-\n16479\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

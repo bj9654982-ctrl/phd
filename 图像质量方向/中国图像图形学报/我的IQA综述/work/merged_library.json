@@ -1,0 +1,5020 @@
+{
+  "total": 159,
+  "papers": [
+    {
+      "id": "B1-001",
+      "citation_key": "ITU-R（2019）",
+      "title": "Recommendation ITU-R BT.500-14: Methodology for the subjective assessment of the quality of television pictures",
+      "authors": "International Telecommunication Union (ITU-R)",
+      "year": 2019,
+      "venue": "ITU-R Recommendation BT.500-14（官方标准）",
+      "url": "https://www.itu.int/dms_pubrec/itu-r/rec/bt/R-REC-BT.500-14-201910-S!!PDF-E.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search以'ITU-R BT.500 methodology subjective assessment'命中ITU官方PDF，标题/机构/版本号BT.500-14(2019-10)一致",
+      "read_status": "metadata_only",
+      "source_quality": "A",
+      "authority_signal": "official",
+      "quality_basis": "ITU官方正式建议书，主观电视图像质量评价实验方法（DSCQS/SSIS/双刺激等）的行业标准源头，全球IQA主观实验的方法论基准",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "其他（方法论标准）",
+      "themes": [
+        "主观实验方法论",
+        "标准",
+        "MOS/DMOS"
+      ],
+      "key_finding": "规定了主观图像/电视质量评价的标准实验方法（观看条件、刺激方法、评分量表、数据处理），是后续几乎所有IQA数据库主观实验的方法依据。",
+      "methods_notes": "定义单刺激/双刺激、连续质量量表等方法类别（摘要层仅确认标准存在及其适用范围）。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-002",
+      "citation_key": "ITU-T（1996）",
+      "title": "Recommendation ITU-T P.910: Subjective video quality assessment methods for multimedia applications",
+      "authors": "International Telecommunication Union (ITU-T)",
+      "year": 1996,
+      "venue": "ITU-T Recommendation P.910（官方标准）",
+      "url": "https://www.itu.int/rec/T-REC-P.910",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中ITU官方P.910记录页（T-REC-P.910-199608），标题与机构一致",
+      "read_status": "metadata_only",
+      "source_quality": "A",
+      "authority_signal": "official",
+      "quality_basis": "ITU-T官方建议书，多媒体应用主观质量评价（ACR/HCR/DCR/SSCQE等）方法标准，与BT.500并列为主观评价方法论双标准",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "其他（方法论标准）",
+      "themes": [
+        "主观实验方法论",
+        "标准",
+        "MOS/DMOS"
+      ],
+      "key_finding": "规定多媒体应用主观质量评价方法（绝对类别评分ACR等），是MOS评分范式的另一标准来源。",
+      "methods_notes": "ACR等评分方法（摘要层确认）。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-003",
+      "citation_key": "VQEG（2003）",
+      "title": "Final Report from the Video Quality Experts Group on the Validation of Objective Models of Video Quality Assessment, Phase II (FRTV)",
+      "authors": "Video Quality Experts Group (VQEG)",
+      "year": 2003,
+      "venue": "VQEG FRTV Phase II Final Report（官方报告）",
+      "url": "https://vqeg.org/VQEGSharedFiles/MeetingFiles/2003_03_Intel_USA/VQEGIIDraftReportv2a.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中VQEG官方站点Phase II Draft Final Report PDF，报告名称/年份/机构一致",
+      "read_status": "metadata_only",
+      "source_quality": "A",
+      "authority_signal": "official",
+      "quality_basis": "VQEG官方验证报告，首次大规模、跨实验室统一验证客观质量模型与主观质量数据的关系，奠定了SROCC/PLCC等性能比较范式",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "其他（官方报告）",
+      "themes": [
+        "主观实验方法论",
+        "性能评估范式"
+      ],
+      "key_finding": "通过多实验室统一主观测试数据系统验证客观质量模型，确立了IQA领域'以主观数据为ground truth、用相关系数评估模型'的范式。",
+      "methods_notes": "大规模主观测试+客观模型横向验证（摘要层）。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-004",
+      "citation_key": "Mantiuk等（2012）",
+      "title": "Comparison of four subjective methods for image quality assessment",
+      "authors": "Rafał K. Mantiuk, Anna Tomaszewska, Radosław Mantiuk",
+      "year": 2012,
+      "venue": "Computer Graphics Forum (Eurographics)",
+      "url": "http://last.hit.bme.hu/download/vidtechlab/MScLabor/mantiuk12cfms.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+三位作者，venue=Computer Graphics Forum一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CGF/Eurographics论文，主观评价方法学比较的高引权威文献，系统比较单刺激/双刺激/强制选择成对比较/相似性判断四种方法",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "其他（方法论）",
+      "themes": [
+        "主观实验方法论",
+        "成对比较"
+      ],
+      "key_finding": "在四种主流主观质量评价方法中，强制选择成对比较(forced-choice pairwise comparison)测量方差最小、结果最准确，且在中等条件数下最省时。",
+      "methods_notes": "比较single-stimulus/double-stimulus/forced-choice pairwise/similarity judgment；给出置信区间、统计检验与回顾功效分析方法。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-005",
+      "citation_key": "Ribeiro等（2011）",
+      "title": "Crowdsourcing subjective image quality evaluation",
+      "authors": "Flávio Ribeiro, Dinei Florêncio, Vítor de Nascimento",
+      "year": 2011,
+      "venue": "IEEE International Conference on Image Processing (ICIP)",
+      "url": "https://projet.liris.cnrs.fr/imagine/pub/proceedings/ICIP-2011/papers/1569409047.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+三位作者，venue=ICIP2011一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "high_citation",
+      "quality_basis": "ICIP会议论文，首次系统提出crowdMOS众包主观评价方法并在LIVE数据集上验证，是众包IQA方法论的开创性工作",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "其他（方法论）",
+      "themes": [
+        "众包主观评价",
+        "MOS/DMOS"
+      ],
+      "key_finding": "提出通过Amazon Mechanical Turk众包获取MOS（crowdMOS），并设计检测/剔除不准确或恶意评分的方法；在LIVE主观数据集上证明众包结果准确、可重复。",
+      "methods_notes": "众包平台+恶意评分过滤机制+开源工具集。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-006",
+      "citation_key": "Sheikh等（2006）",
+      "title": "A statistical evaluation of recent full reference image quality assessment algorithms",
+      "authors": "Hamid R. Sheikh, Muhammad F. Sabir, Alan C. Bovik",
+      "year": 2006,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "http://www.videoclarity.com/PDF/Statistic-of-Full-Reference-UT.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+三位作者，venue=IEEE TIP一致；该文即LIVE IQA数据库的奠基文献",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP，LIVE IQA数据库出处论文，IQA领域被引最高的主观数据库文献之一（被引数千量级），FR-IQA主观基准的奠基地位",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "合成失真",
+        "MOS/DMOS",
+        "评价协议",
+        "LIVE数据库",
+        "FR-IQA"
+      ],
+      "key_finding": "构建LIVE IQA数据库：779幅失真图像由约24名观察者评分，获得约25000次人类质量判断，是当时除VQEG外最大的主观图像质量研究，用于横向评估主流FR-IQA算法。",
+      "methods_notes": "29幅参考图×JPEG/JP2K/噪声/模糊等失真类型×失真等级；实验室受控主观测试。",
+      "citation_count": "",
+      "branches": [
+        "B1",
+        "B6"
+      ]
+    },
+    {
+      "id": "B1-007",
+      "citation_key": "Ponomarenko等（2009）",
+      "title": "TID2008 – A database for evaluation of full-reference visual quality assessment metrics",
+      "authors": "Nikolay Ponomarenko, Vladimir Lukin, Alexander Zelensky, Karen Egiazarian, Jaakko Astola, Marco Carli, Federica Battisti",
+      "year": 2009,
+      "venue": "Advances of Modern Radioelectronics / EURASIP Journal on Image and Video Processing",
+      "url": "http://www.ponomarenko.info/papers/mre2009tid.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Ponomarenko，数据库规模（1700图/17失真类型/4等级）与摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "TID2008数据库出处论文，与LIVE并列最常用的FR-IQA合成失真基准库，被引极高",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "合成失真"
+      ],
+      "key_finding": "发布TID2008：1700幅测试图（25参考图×17种失真×4等级），经芬兰/意大利/乌克兰三国800余实验、约25.6万次人类判断得到MOS。",
+      "methods_notes": "跨国实验室主观测试收集MOS。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-008",
+      "citation_key": "Ponomarenko等（2015）",
+      "title": "Image database TID2013: Peculiarities, results and perspectives",
+      "authors": "Nikolay Ponomarenko, Lina Jin, Oleg Ieremeiev, Vladimir Lukin, Karen Egiazarian, Jaakko Astola, Benoit Vozel, Kacem Chehdi, Marco Carli, Federica Battisti, C.-C. Jay Kuo",
+      "year": 2015,
+      "venue": "Signal Processing: Image Communication",
+      "url": "https://hal.science/hal-01109219v1/file/Image%20database%20TID2013.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者，venue=Signal Processing: Image Communication一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "TID2013数据库期刊正式版，目前最常用的大规模合成失真FR-IQA基准之一，被引极高",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "合成失真"
+      ],
+      "key_finding": "发布TID2013：3000幅测试图（25参考图×24种失真×5等级），较TID2008新增7种失真类型；由芬兰/法国/意大利/乌克兰/美国五国985次主观实验收集MOS。",
+      "methods_notes": "五国主观实验，985名观察者；按失真类型子集分析各度量性能。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-009",
+      "citation_key": "Larson和Chandler（2010）",
+      "title": "Most apparent distortion: full-reference image quality assessment and the role of strategy",
+      "authors": "Eric C. Larson, Damon M. Chandler",
+      "year": 2010,
+      "venue": "Journal of Electronic Imaging",
+      "url": "https://openreview.net/forum?id=hW45VCeeKO",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+两位作者，venue=J. Electronic Imaging一致；该文即CSIQ（Categorical Image Quality）数据库伴随文献",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "J.Electronic Imaging，CSIQ数据库与MAD度量的共同出处论文，FR-IQA经典基准库",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "合成失真",
+        "双策略",
+        "HVS掩蔽",
+        "超阈值失真"
+      ],
+      "key_finding": "提出HVS在判断质量时使用检测式与外观式两种策略，并构建CSIQ数据库支撑MAD度量的主观验证；近阈值失真时观察者'透过图像找失真'，明显失真时'透过失真找内容'。",
+      "methods_notes": "CSIQ数据库伴随主观评分（摘要层确认数据库与策略模型）。",
+      "citation_count": "",
+      "branches": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": "B1-010",
+      "citation_key": "Jayaraman等（2012）",
+      "title": "Objective image quality assessment of multiply distorted images",
+      "authors": "Dinesh Jayaraman, Anish Mittal, Anush K. Moorthy, Alan C. Bovik",
+      "year": 2012,
+      "venue": "Conference Record of the 46th Asilomar Conference on Signals, Systems and Computers",
+      "url": "https://www.seas.upenn.edu/~dineshj/publication/jayaraman-2012-objective/jayaraman-2012-objective.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Jayaraman及共同作者Mittal/Moorthy/Bovik，与LIVE Multiply Distorted数据库一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "high_citation",
+      "quality_basis": "LIVE Multiply Distorted (LIV-MD)数据库出处论文，首次系统提供多重失真叠加的主观质量数据，被后续BIQA工作广泛使用",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "多重失真"
+      ],
+      "key_finding": "针对以往主观研究只测单一失真的局限，对两类多重失真叠加图像开展主观实验获得人类质量判断，并在新库上比较多种客观质量度量。",
+      "methods_notes": "模糊+噪声等多重失真叠加的主观评分。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-011",
+      "citation_key": "Ma等（2017）",
+      "title": "Waterloo Exploration Database: New challenges for image quality assessment models",
+      "authors": "Kede Ma, Zhengfang Duanmu, Qingbo Wu, Zhou Wang, Hongwei Yong, Hongliang Li, Lei Zhang",
+      "year": 2017,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://ece.uwaterloo.ca/~z70wang//publications/TIP_WaterlooExplorationDatabase.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Ma及Zhou Wang等，venue=IEEE TIP一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP，大规模内容多样性IQA基准库，提出D/L/P无主观评分测试范式，高引",
+      "is_seminal": "no",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "合成失真",
+        "大规模"
+      ],
+      "key_finding": "构建Waterloo Exploration数据库：4744幅原始自然图与94880幅衍生失真图；因逐图主观评分不现实，改用原始/失真可分性(D-test)、列表排序一致性(L-test)、成对偏好一致性(P-test)三种免主观评分测试准则。",
+      "methods_notes": "无需MOS的三类隐式测试协议；比较20个知名IQA模型。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-012",
+      "citation_key": "Lin等（2019）",
+      "title": "KADID-10k: A large-scale artificially distorted IQA database",
+      "authors": "Hanhe Lin, Vlad Hosu, Dietmar Saupe",
+      "year": 2019,
+      "venue": "IEEE QoMEX 2019 (Qualitative Multimedia Experience)",
+      "url": "https://datasets.vqa.mmsp-kn.de/archives/papers/kadid10k.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+三位作者（Konstanze大学Lin/Hosu/Saupe），同时命中其扩展版DeepFL-IQA(TMM)确认KADIS-700k",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "QoMEX会议论文，KADID-10k（带主观评分）与KADIS-700k（大规模无标注）数据库出处，深度IQA时代常用合成失真基准",
+      "is_seminal": "no",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "合成失真",
+        "大规模"
+      ],
+      "key_finding": "发布KADID-10k：81幅原始图×25种失真×5等级，每图由30名众包工作者主观评分得MOS；另发布14万原始图×25失真共70万失真图的无标注KADIS-700k，支持弱监督学习。",
+      "methods_notes": "众包主观评分；KADIS-700k无主观标注，以11个FR-IQA度量为代理差分MOS。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-013",
+      "citation_key": "Ghadiyaram和Bovik（2017）",
+      "title": "Massive online crowdsourced study of subjective and objective picture quality",
+      "authors": "Deepti Ghadiyaram, Alan C. Bovik",
+      "year": 2017,
+      "venue": "IEEE Transactions on Image Processing（arXiv:1511.02919）",
+      "url": "https://arxiv.org/pdf/1511.02919",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+两位作者，arXiv:1511.02919，venue标注IEEE TIP，即LIVE In-the-Wild (LIVEC/ChallengeDB)数据库出处",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP，首个大规模真实/UGC失真主观数据库，在线众包范式标杆，被引极高",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "真实失真",
+        "UGC",
+        "众包"
+      ],
+      "key_finding": "构建LIVE In-the-Wild (LIVEC)数据库：1162幅移动设备实拍的真实失真图像，由8100余名观察者在线众包评分，累计超35万条主观评分；证明在非受控在线环境下主观数据仍具良好内部一致性。",
+      "methods_notes": "Amazon Mechanical Turk大规模在线众包；真实采集（非人工合成）失真。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-014",
+      "citation_key": "Virtanen等（2015）",
+      "title": "CID2013: A database for evaluating no-reference image quality assessment algorithms",
+      "authors": "Tero Virtanen, Mikko Nuutinen, Matilda Vaaheranoksa, Pirkko Oittinen, Jussi Häkkinen",
+      "year": 2015,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://m.zhangqiaokeyan.com/academic-journal-foreign_ieee-transactions-image-processing_thesis/02041294539.html",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题（中文译介页）+第一作者Virtanen，作者列表与IEEE TIP一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP，真实相机多重失真NR-IQA基准数据库，被BIQA工作广泛使用",
+      "is_seminal": "no",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "真实失真",
+        "UGC"
+      ],
+      "key_finding": "构建CID2013数据库：480幅由79种相机设备拍摄的真实图像（8类场景），188名受试者；提出混合绝对类别评级对比较主观方法，除MOS外还对清晰度/颗粒度/亮度/色彩饱和度分别评级。",
+      "methods_notes": "受控实验室混合主观方法；记录受试者背景信息。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-015",
+      "citation_key": "Hosu等（2020）",
+      "title": "KonIQ-10k: An ecologically valid database for deep learning of blind image quality assessment",
+      "authors": "Vlad Hosu, Hanhe Lin, Tamas Sziranyi, Dietmar Saupe",
+      "year": 2020,
+      "venue": "IEEE Transactions on Image Processing（arXiv:1910.06180）",
+      "url": "https://arxiv.org/pdf/1910.06180",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+四位作者，venue=IEEE TIP一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP，深度BIQA时代最常用大规模in-the-wild基准库，生态效度范式代表，高引",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "真实失真",
+        "UGC",
+        "深度学习"
+      ],
+      "key_finding": "构建KonIQ-10k：10073幅带质量评分的图像，经1459名众包工作者获得120万条可靠评分，是首个追求生态效度（失真真实、内容多样）的in-the-wild数据库；配套KonCept512模型在LIVEC上SROCC达0.825（摘要层数字）。",
+      "methods_notes": "众包主观评分；从KADID-10k生态采样构建。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-016",
+      "citation_key": "Fang等（2020）",
+      "title": "Perceptual quality assessment of smartphone photography",
+      "authors": "Yuming Fang, Hanwei Zhu, Yan Zeng, Kede Ma, Zhou Wang",
+      "year": 2020,
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "url": "https://openreview.net/pdf/c1cddabd9000e97071bde4c266b6e459af016bdb.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Fang及Ma/Wang，规模11125图/66手机与摘要一致，即SPAQ数据库出处",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "CVPR主会，智能手机摄影质量数据库SPAQ出处，多属性标注范式代表，高引",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "移动端",
+        "UGC",
+        "多属性"
+      ],
+      "key_finding": "构建SPAQ数据库：11125幅由66款智能手机拍摄的照片，受控实验室采集，每图附带质量分、亮度/色彩/对比度/噪声/清晰度5类属性分与场景类别标签及EXIF信息，是当时标注最丰富的手机摄影质量库。",
+      "methods_notes": "实验室主观评分+多属性+场景分类+EXIF元数据。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-017",
+      "citation_key": "Gu等（2020）",
+      "title": "PIPAL: A large-scale image quality assessment dataset for perceptual image restoration",
+      "authors": "Jinjin Gu, Haoming Cai, Haoyu Chen, Xiaoxing Ye, Jimmy S. Ren, Chao Dong",
+      "year": 2020,
+      "venue": "European Conference on Computer Vision (ECCV)（arXiv:2007.12142）",
+      "url": "https://arxiv.org/pdf/2007.12142",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Gu，arXiv:2007.12142，与ECCV2020一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ECCV主会，首个含GAN-based图像恢复结果的大规模感知质量数据集，感知恢复质量评价基准，高引",
+      "is_seminal": "no",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "感知图像恢复",
+        "成对比较"
+      ],
+      "key_finding": "构建PIPAL数据集：包含GAN-based图像恢复算法输出（以往数据集缺失），收集超113万条人类判断，采用更可靠的Elo成对比较系统打主观分；发现现有IQA方法无法公平评价GAN-based恢复算法。",
+      "methods_notes": "Elo评分制成对比较；patch级感知质量。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-018",
+      "citation_key": "Zhang等（2018）",
+      "title": "The unreasonable effectiveness of deep features as a perceptual metric",
+      "authors": "Richard Zhang, Phillip Isola, Alexei A. Efros, Eli Shechtman, Oliver Wang",
+      "year": 2018,
+      "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)（arXiv:1801.03924）",
+      "url": "https://arxiv.org/pdf/1801.03924",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Richard Zhang，arXiv:1801.03924，即LPIPS度量与BAPPS（Berkeley-Adobe Perceptual Patch Similarity）数据集出处",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPR主会，LPIPS/BAPPS感知相似性数据集出处，感知度量领域被引最高文献之一",
+      "is_seminal": "yes",
+      "role": "benchmark或dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "感知相似性",
+        "成对比较",
+        "深度特征",
+        "感知度量",
+        "LPIPS",
+        "BAPPS"
+      ],
+      "key_finding": "构建新的人类感知相似性判断数据集（BAPPS），系统评估深度特征作为感知度量的有效性，发现深度特征在该数据集上大幅超越以往所有经典度量。",
+      "methods_notes": "人类成对偏好判断收集；跨架构/任务的深度特征比较。",
+      "citation_count": "",
+      "branches": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": "B1-019",
+      "citation_key": "Zhang等（2023）",
+      "title": "Subjective and objective quality assessment for in-the-wild computer graphics images",
+      "authors": "Zicheng Zhang, Wei Sun, Yingjie Zhou, Jun Jia, Zhichao Zhang, Jing Liu, Xiongkuo Min, Guangtao Zhai",
+      "year": 2023,
+      "venue": "arXiv:2303.08050（后被IEEE TIP收录，据检索仅确认arXiv版本）",
+      "url": "https://arxiv.org/pdf/2303.08050",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Zicheng Zhang，arXiv:2303.08050，CGIQA-6k数据库",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "SJTU团队CGIQA-6k数据库出处（arXiv预印本，检索未确认正式venue），首个面向in-the-wild计算机图形图像的主观质量数据库",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "CGI",
+        "in-the-wild"
+      ],
+      "key_finding": "构建大规模in-the-wild CGIQA-6k数据库（6000幅计算机图形图像），受控实验室主观实验获取感知评分，并提出融合失真与美学质量表征的NR-IQA模型。",
+      "methods_notes": "实验室受控主观实验；CGI图像专项。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-020",
+      "citation_key": "Wiedemann等（2023）",
+      "title": "KonX: cross-resolution image quality assessment",
+      "authors": "Oliver Wiedemann, Vlad Hosu, Shaolin Su, Dietmar Saupe",
+      "year": 2023,
+      "venue": "Visual Computing for Industry, Biomedicine, and Art (Springer)",
+      "url": "https://link.springer.com/content/pdf/10.1007/s41233-023-00061-8.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Wiedemann及Hosu/Saupe，Springer 2023一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "Springer期刊，首个跨分辨率IQA专项数据库，揭示分辨率变化引起的主观标签漂移问题",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "分辨率",
+        "in-the-wild"
+      ],
+      "key_finding": "构建KonX跨分辨率IQA数据库，首次通过实验分离并揭示：呈现分辨率变化会导致主观质量标签漂移，且客观IQA方法存在尺度偏置（scale bias）。",
+      "methods_notes": "多分辨率版本主观标签对照实验。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-021",
+      "citation_key": "Fang等（2023）",
+      "title": "SQAD: Automatic smartphone camera quality assessment and benchmarking",
+      "authors": "Zilin Fang, Andrey Ignatov, Eduard Zamfir, Radu Timofte",
+      "year": 2023,
+      "venue": "IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Fang_SQAD_Automatic_Smartphone_Camera_Quality_Assessment_and_Benchmarking_ICCV_2023_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Zilin Fang，ICCV2023 CVF开放获取页一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ICCV主会，智能手机相机系统质量数据集，定义分辨率/色彩准确度/噪声/动态范围/PSF/混叠六维度相机质量准则",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "移动端",
+        "相机质量"
+      ],
+      "key_finding": "构建SQAD数据集：29款设备拍摄的自然图像，在受控实验室环境下基于六维度客观准则建立相机系统质量基准，并训练深度学习模型实现任意照片的相机质量预测。",
+      "methods_notes": "实验室受控+客观度量基准（非纯主观MOS）。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-022",
+      "citation_key": "Liu等（2024a）",
+      "title": "HDRC: A subjective quality assessment database for compressed high dynamic range image",
+      "authors": "Yue Liu, Zhangkai Ni, Peilin Chen, Shiqi Wang, Sam Kwong",
+      "year": 2024,
+      "venue": "International Journal of Machine Learning and Cybernetics (Springer)",
+      "url": "https://link.springer.com/content/pdf/10.1007/s13042-024-02151-1.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Yue Liu，Springer 2024一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "IJMLC期刊，首个纳入VVC压缩失真的HDR-IQA主观数据库，当时规模最大的HDR-IQA库",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "HDR",
+        "压缩失真"
+      ],
+      "key_finding": "构建HDRC数据库：80幅参考图+400幅VVC等压缩失真HDR图像，是首个纳入Versatile Video Coding压缩失真的HDR-IQA主观数据库；实验显示现有IQA模型在新压缩失真上精度明显下降。",
+      "methods_notes": "HDR显示条件下主观评分；3个HDR专项+9个LDR通用IQA模型基准测试。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-023",
+      "citation_key": "Huang等（2024）",
+      "title": "High resolution image quality database (HRIQ)",
+      "authors": "Huang Huang, Qiang Wan, Jari Korhonen",
+      "year": 2024,
+      "venue": "arXiv:2401.16087（预印本，检索未确认正式venue）",
+      "url": "https://arxiv.org/pdf/2401.16087",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Huang及Korhonen，arXiv:2401.16087一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "arXiv预印本（source_quality=C），面向高分辨率(2880×2160)BIQA的主观数据库，可作背景补充",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "高分辨率",
+        "UHD"
+      ],
+      "key_finding": "构建HRIQ数据库：1120幅2880×2160高分辨率图像，受控实验室采集准确MOS；实验显示低分辨率上训练的BIQA模型在高分辨率上精度受限。",
+      "methods_notes": "实验室受控高分辨率主观测试；多分辨率版本对照训练。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-024",
+      "citation_key": "Venkataramanan和Bovik（2024）",
+      "title": "Subjective quality assessment of compressed tone-mapped high dynamic range videos (LIVE-TMHDR)",
+      "authors": "Abhinau K. Venkataramanan, Alan C. Bovik",
+      "year": 2024,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://ieeexplore.ieee.org/document/10693317",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中标题（IEEE Xplore）+两位作者，TIP一致；虽为视频方向但属HDR主观质量数据库代表",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "IEEE TIP，首个大规模压缩色调映射HDR视频主观数据库，75万+主观标注，HDR质量评价方向权威新库",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "HDR",
+        "色调映射"
+      ],
+      "key_finding": "构建LIVE-TMHDR数据库：15000条由40个HDR源生成的色调映射压缩序列，由1600余名观察者标注超75万条主观质量分，是首个大规模开源压缩色调映射HDR视频主观库。",
+      "methods_notes": "大规模在线主观标注；色调映射算子影响分析。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-025",
+      "citation_key": "Liu等（2024b）",
+      "title": "Overview of high-dynamic-range image quality assessment",
+      "authors": "Yue Liu, Yu Tian, Shiqi Wang, Xinfeng Zhang, Sam Kwong",
+      "year": 2024,
+      "venue": "Journal of Imaging (MDPI)",
+      "url": "https://pdfs.semanticscholar.org/4ecb/2ab2f9b497cadbfe94ecc5beca5a2fb77150.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Yue Liu，J. Imaging一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "J. Imaging综述，系统梳理7个主观HDR-IQA数据库与12个客观HDR-IQA度量，是HDR质量评价方向权威综述入口",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "其他（综述）",
+      "themes": [
+        "质量数据库",
+        "HDR",
+        "综述"
+      ],
+      "key_finding": "综述7个主观HDR-IQA数据库与12个客观度量，指出两大改进方向：HDR主观数据库规模与多样性需扩大，客观算法需更通用的感知映射方法。",
+      "methods_notes": "统计分析9个IQA算法+3个感知映射函数。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B1-026",
+      "citation_key": "Lou等（2024）",
+      "title": "A benchmark of variance of opinion scores in image quality assessment",
+      "authors": "Jianxun Lou, Xinbo Wu, Yingying Wu, Padraig Corcoran, Gualtiero Colombo, Roger Whitaker, Hantao Liu",
+      "year": 2024,
+      "venue": "IEEE International Conference on Image Processing (ICIP)",
+      "url": "https://orca.cardiff.ac.uk/id/eprint/170051/1/ICIP2024.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中完整标题+第一作者Lou及Hantao Liu，ICIP2024一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "ICIP会议论文，提出观点分数方差(VOS)基准，超越单一MOS视角研究个体主观差异",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "其他（方法论/基准）",
+      "themes": [
+        "主观实验方法论",
+        "MOS/DMOS",
+        "个体差异"
+      ],
+      "key_finding": "指出MOS在观察者间意见分歧大时代表性下降，构建观点分数方差(VOS)基准并分析其随失真强度/类型/场景内容的变化，训练深度模型识别高分歧图像。",
+      "methods_notes": "VOS分类基准+深度学习识别模型。",
+      "citation_count": "",
+      "branches": [
+        "B1"
+      ]
+    },
+    {
+      "id": "B2-001",
+      "citation_key": "Wang & Bovik (2009)",
+      "title": "Mean Squared Error: Love It or Leave It? [A new look at signal fidelity measures]",
+      "authors": "Zhou Wang; Alan C. Bovik",
+      "year": 2009,
+      "venue": "IEEE Signal Processing Magazine, 26(1): 98-117",
+      "url": "https://sites.units.it/ramponi/teaching/DIP/DIPmaterials/z08_zz_mse_bovik09.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中（含副题），作者Zhou Wang与Alan C. Bovik，IEEE Signal Processing Magazine；UT Austin/Colorado LIVE实验室公开PDF一致。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "IEEE信号处理旗舰综述专刊论文；IQA领域被引最高的立场性文献之一（Google Scholar被引>15000，摘要层未逐字核实被引数），系统批判MSE/PSNR作为感知度量的失效。",
+      "is_seminal": "yes",
+      "role": "奠基工作/问题提出",
+      "fr_type": "FR",
+      "themes": [
+        "信号保真度基线",
+        "MSE/PSNR批判",
+        "感知度量动机"
+      ],
+      "key_finding": "MSE/PSNR在感知信号上性能弱却长期主导；需要从视觉感知而非像素误差角度设计质量度量。",
+      "methods_notes": "立场性专论：不提出新指标，而是论证逐点像素误差(MSE)与主观感知不一致，为后续HVS/结构/特征类FR指标提供合法性依据。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-002",
+      "citation_key": "Sheikh, Bovik & De Veciana (2005)",
+      "title": "An Information Fidelity Criterion for Image Quality Assessment Using Natural Scene Statistics",
+      "authors": "Hamid R. Sheikh; Alan C. Bovik; Gustavo De Veciana",
+      "year": 2005,
+      "venue": "IEEE Transactions on Image Processing, 14(12): 2117-2128",
+      "url": "https://users.ece.utexas.edu/~gustavo/papers/de%20Veciana1251902020.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中，作者三人一致，UT Austin LIVE实验室公开PDF；摘要描述NSS信息保真度准则、779张图像主观实验。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP（信号处理/图像处理顶刊，中科院一区）；IFC是信息论IQA路线奠基作，被后续VIF及几乎所有FR综述共同引用。",
+      "is_seminal": "yes",
+      "role": "奠基工作/代表路线",
+      "fr_type": "FR",
+      "themes": [
+        "信息论",
+        "自然场景统计NSS",
+        "HVS早期"
+      ],
+      "key_finding": "以自然场景统计建模参考-失真图像间的互信息，无参数且优于当时主流HVS方法（摘要层）。",
+      "methods_notes": "将图像质量问题转化为参考与失真图像在NSS/高斯尺度混合模型下的信息保真度；局部测量后聚合为全局分数。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-003",
+      "citation_key": "Sheikh & Bovik (2006)",
+      "title": "Image Information and Visual Quality",
+      "authors": "Hamid R. Sheikh; Alan C. Bovik",
+      "year": 2006,
+      "venue": "IEEE Transactions on Image Processing, 15(2): 430-441",
+      "url": "http://live.ece.utexas.edu/publications/2004/hrs_imginfo_icassp_2004.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题命中；检索到ICASSP 2004早期版与IEEE TIP 2006期刊版（VIF），摘要一致：量化参考与失真图像间Shannon信息，NSS+退化模型+HVS模型联合。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；VIF是信息论FR指标公认代表作，在TID/CSIQ/LIVE等基准上长期位居传统方法前列（摘要层），被引>10000量级（未逐字核实）。",
+      "is_seminal": "yes",
+      "role": "奠基工作/代表路线",
+      "fr_type": "FR",
+      "themes": [
+        "信息论",
+        "VIF",
+        "NSS",
+        "HVS早期"
+      ],
+      "key_finding": "将参考-失真互信息与HVS通道结合得到VIF，在多种失真类型上显著优于当时方法（摘要层）。",
+      "methods_notes": "VIF：在wavelet/GGD-NSS模型下计算参考与失真图像子带间的信息比；含像素域VIFp与子带域版本。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-004",
+      "citation_key": "Wang et al. (2004)",
+      "title": "Image Quality Assessment: From Error Visibility to Structural Similarity",
+      "authors": "Zhou Wang; Alan C. Bovik; Hamid R. Sheikh; Eero P. Simoncelli",
+      "year": 2004,
+      "venue": "IEEE Transactions on Image Processing, 13(4): 600-612",
+      "url": "https://www.docketalarm.com/cases/PTAB/IPR2025-01223/Amazon.com_Inc/docs/06-30-2025-Petitioner/Exhibit-1035-Exhibit_1035_Zhou_Wang_et_al,_Image_Quality_Assessment_From_Error_.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中，作者四人（Wang/Bovik/Sheikh/Simoncelli）一致，IEEE TIP；摘要与SSIM经典表述一致。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "IEEE TIP；SSIM为IQA领域被引最高的方法论文（Google Scholar被引>50000，摘要层），结构相似性范式奠基作，JPEG/JPEG2000数据库验证。",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "FR",
+      "themes": [
+        "结构相似性",
+        "SSIM",
+        "亮度对比度结构三分量"
+      ],
+      "key_finding": "HVS高度适应提取结构信息；以亮度、对比度、结构三个局部相似性乘积度量感知质量，优于PSNR/PSNR-HVS类方法（摘要层）。",
+      "methods_notes": "SSIM：局部窗口内 l(x,y)·c(x,y)·s(x,y)，全局取平均；从误差可见性范式转向结构保真范式。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-005",
+      "citation_key": "Wang, Simoncelli & Bovik (2003)",
+      "title": "Multi-Scale Structural Similarity for Image Quality Assessment",
+      "authors": "Zhou Wang; Eero P. Simoncelli; Alan C. Bovik",
+      "year": 2003,
+      "venue": "Proc. 37th IEEE Asilomar Conference on Signals, Systems and Computers, 1398-1402",
+      "url": "https://videoclarity.com/PDF/MS-SSIMAsilomar.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中，作者三人一致，Asilomar 2003公开PDF一致。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "SSIM多尺度扩展，被后续几乎所有FR对比实验作为基准指标（摘要层被引>10000量级）。",
+      "is_seminal": "yes",
+      "role": "代表路线/SSIM谱系扩展",
+      "fr_type": "FR",
+      "themes": [
+        "SSIM谱系",
+        "多尺度",
+        "观看条件自适应"
+      ],
+      "key_finding": "单尺度SSIM对观看条件敏感；多尺度下加权融合各尺度SSIM更鲁棒（摘要层）。",
+      "methods_notes": "MS-SSIM：对图像反复低通+下采样构成5级金字塔，亮度仅在最粗尺度计算，对比度/结构在各尺度加权合并。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-006",
+      "citation_key": "Wang & Simoncelli (2005)",
+      "title": "Translation Insensitive Image Similarity in Complex Wavelet Domain (CW-SSIM)",
+      "authors": "Zhou Wang; Eero P. Simoncelli",
+      "year": 2005,
+      "venue": "Proc. IEEE ICASSP 2005, II: 573-576",
+      "url": "http://atc.umh.es/gatcom/bin/oqam/Referencias/Wang_Simoncelli_2005c.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题命中（ICASSP会议版），作者Wang & Simoncelli一致；摘要与CW-SSIM经典表述一致。另存在Sampat et al., IEEE TIP 2009期刊扩展版。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "high_citation",
+      "quality_basis": "CCF-B会议ICASSP；CW-SSIM是SSIM谱系对平移/小旋转鲁棒的关键扩展，被医学图像配准与IQA广泛引用。",
+      "is_seminal": "no",
+      "role": "代表路线/SSIM谱系扩展",
+      "fr_type": "FR",
+      "themes": [
+        "SSIM谱系",
+        "复小波",
+        "相位一致性",
+        "几何鲁棒"
+      ],
+      "key_finding": "复小波域系数的一致相位漂移不改变结构内容；利用相位一致性度量可对平移/缩放/旋转不敏感（摘要层）。",
+      "methods_notes": "CW-SSIM：dual-tree/steerable复小波分解，在子带内比较系数模与相位一致性；免配准。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-007",
+      "citation_key": "Wang & Li (2011)",
+      "title": "Information Content Weighting for Perceptual Image Quality Assessment",
+      "authors": "Zhou Wang; Qiang Li",
+      "year": 2011,
+      "venue": "IEEE Transactions on Image Processing, 20(5): 1185-1198",
+      "url": "http://ece.uwaterloo.ca/~z70wang/publications/InfoWeight_v3.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中，作者Wang & Qiang Li一致，IEEE TIP；摘要描述信息内容加权池化、6个公开主观数据库验证。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；IW-SSIM是池化策略理论化的代表作，证明信息内容加权可使PSNR变为有竞争力的感知度量。",
+      "is_seminal": "no",
+      "role": "代表路线/SSIM谱系扩展",
+      "fr_type": "FR",
+      "themes": [
+        "SSIM谱系",
+        "池化策略",
+        "信息内容加权"
+      ],
+      "key_finding": "最优感知池化权重应正比于局部信息含量；信息内容加权一致提升IQA性能，最佳为IW-MSSSIM（摘要层）。",
+      "methods_notes": "IW-SSIM：先局部失真度量，再以自然图像统计估计的局部自信息作权重池化；通用池化框架。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-008",
+      "citation_key": "Zhang et al. (2011)",
+      "title": "FSIM: A Feature Similarity Index for Image Quality Assessment",
+      "authors": "Lin Zhang; Lei Zhang; Xuanqin Mou; David Zhang",
+      "year": 2011,
+      "venue": "IEEE Transactions on Image Processing, 20(8): 2378-2386",
+      "url": "https://www4.comp.polyu.edu.hk/~cslzhang/paper/PCG_IQA.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中，作者Lin Zhang(第一作者,非张林)/Lei Zhang/Xuanqin Mou/David Zhang一致，IEEE TIP；摘要描述相位一致性PC为主特征、梯度幅值GM为辅特征。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；FSIM是特征相似性路线代表作，6个基准数据库上优于同期指标（摘要层），被引>6000量级。",
+      "is_seminal": "yes",
+      "role": "奠基工作/代表路线",
+      "fr_type": "FR",
+      "themes": [
+        "特征相似性",
+        "相位一致性",
+        "梯度",
+        "池化加权"
+      ],
+      "key_finding": "HVS主要依据低层特征理解图像；相位一致性(对比度不变)与梯度幅值互补，以PC加权池化得到高一致性分数（摘要层）。",
+      "methods_notes": "FSIM：局部PC similarity × GM similarity，再以PC均值加权池化；彩色版FSIMc增加色度特征。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-009",
+      "citation_key": "Xue et al. (2014)",
+      "title": "Gradient Magnitude Similarity Deviation: A Highly Efficient Perceptual Image Quality Index",
+      "authors": "Wufeng Xue; Lei Zhang; Xuanqin Mou; Alan C. Bovik",
+      "year": 2014,
+      "venue": "IEEE Transactions on Image Processing, 23(2): 684-695",
+      "url": "https://arxiv.org/pdf/1308.03052",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中（arXiv:1308.03052），作者Xue/Zhang/Mou/Bovik一致；摘要描述GMS map的标准差作为新池化。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；GMSD以极低成本达到高预测精度，是效率-精度折中代表作，被后续多尺度/彩色GMSD扩展。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "FR",
+      "themes": [
+        "梯度",
+        "池化策略",
+        "高效指标"
+      ],
+      "key_finding": "像素级梯度幅值相似性(GMS)的标准差(而非均值)作为池化量，可在极低计算成本下取得有竞争力性能（摘要层）。",
+      "methods_notes": "GMSD：Sobel梯度→逐点GMS→取GMS图标准差为全局分数。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-010",
+      "citation_key": "Zhang, Shen & Li (2014)",
+      "title": "VSI: A Visual Saliency-Induced Index for Perceptual Image Quality Assessment",
+      "authors": "Lin Zhang; Ying Shen; Hongyu Li",
+      "year": 2014,
+      "venue": "IEEE Transactions on Image Processing, 23(10): 4270-4281",
+      "url": "https://cslinzhang.github.io/home/files/VSI.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中，作者Lin Zhang(同济大学)/Ying Shen/Hongyu Li一致，IEEE TIP；摘要描述视觉显著性既作特征又作池化权重。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；VSI是显著性引导FR指标代表作，4个大规模数据库上预测精度优于同期方法（摘要层）。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "FR",
+      "themes": [
+        "视觉显著性",
+        "VSI",
+        "池化加权"
+      ],
+      "key_finding": "超阈值失真会显著改变显著性图；将显著性既作为局部特征又作为池化权重可提升预测精度（摘要层）。",
+      "methods_notes": "VSI：梯度+显著性图构成局部质量图，显著性加权池化。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-012",
+      "citation_key": "Reisenhofer et al. (2018)",
+      "title": "A Haar Wavelet-Based Perceptual Similarity Index for Image Quality Assessment (HaarPSI)",
+      "authors": "Rafael Reisenhofer; Sebastian Bosse; Gitta Kutyniok; Thomas Wiegand",
+      "year": 2018,
+      "venue": "Signal Processing: Image Communication, 61: 33-43",
+      "url": "https://arxiv.org/pdf/1607.06140",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中（arXiv:1607.06140），作者四人一致；摘要描述Haar小波系数局部相似性与区域相对重要性，4个基准数据库验证。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "high_citation",
+      "quality_basis": "Signal Processing: Image Communication（SCI，Elsevier）；HaarPSI以极低复杂度在多基准上相关度超过SSIM/FSIM/VSI（摘要层），被引>2000量级。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "FR",
+      "themes": [
+        "小波",
+        "Haar",
+        "高效感知相似"
+      ],
+      "key_finding": "Haar小波系数足以度量局部感知相似性；计算结构简单、运行时间短，真实场景适用性高（摘要层）。",
+      "methods_notes": "HaarPSI：Haar小波分解→水平/垂直系数局部相似→按重要性加权平均，经非线性校正输出。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-013",
+      "citation_key": "Soundararajan & Bovik (2012)",
+      "title": "RRED Indices: Reduced Reference Entropic Differencing for Image Quality Assessment",
+      "authors": "Rajiv Soundararajan; Alan C. Bovik",
+      "year": 2012,
+      "venue": "IEEE Transactions on Image Processing, 21(2): 517-528",
+      "url": "https://dl.acm.org/doi/10.1109/TIP.2011.2166082",
+      "doi": "10.1109/TIP.2011.2166082",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中，作者Soundararajan & Bovik一致，IEEE TIP 21(2)；ACM DL记录DOI 10.1109/TIP.2011.2166082；摘要描述小波系数熵差、LIVE与TID数据库验证。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；RRED是RR-IQA代表作，可从近乎全参考退化到仅需参考图像单个标量。",
+      "is_seminal": "no",
+      "role": "奠基工作/半参考代表路线",
+      "fr_type": "RR",
+      "themes": [
+        "半参考RR",
+        "小波熵差",
+        "NSS"
+      ],
+      "key_finding": "以小波系数熵的差异度量参考-失真图像信息变化，RR信息量从近乎全参考到单标量可调，与主观评分相关性好（摘要层）。",
+      "methods_notes": "RRED：感知加权的小波系数熵差；家族算法按所需参考信息量分级；含RRED-1/RRED-2等版本。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-015",
+      "citation_key": "Prashnani et al. (2018)",
+      "title": "PieAPP: Perceptual Image-Error Assessment through Pairwise Preference",
+      "authors": "Ekta Prashnani; Hong Cai; Yasamin Mostofi; Pradeep Sen",
+      "year": 2018,
+      "venue": "IEEE/CVF CVPR 2018, 7866-7875",
+      "url": "https://web3.arxiv.org/pdf/1806.02067",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中（arXiv:1806.02067），作者四人(UCSB)一致；摘要描述成对偏好学习预测感知误差，二分类错误率较此前SOTA降低近3倍（摘要层）。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPR（CCF-A）；PieAPP是成对偏好学习FR指标代表作，与LPIPS并列2018年学习型感知度量双里程碑。",
+      "is_seminal": "no",
+      "role": "代表路线/学习型感知FR",
+      "fr_type": "FR",
+      "themes": [
+        "成对偏好学习",
+        "感知误差",
+        "深度学习"
+      ],
+      "key_finding": "人类更易做两两偏好判断而非打绝对分；用大规模成对偏好标签训练网络，推理时单张失真图+参考图即可输出感知误差（摘要层）。",
+      "methods_notes": "PieAPP：孪生CNN提取局部patch特征→成对比较网络→经概率框架回归为逐patch感知误差图。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-016",
+      "citation_key": "Ding et al. (2022)",
+      "title": "Image Quality Assessment: Unifying Structure and Texture Similarity",
+      "authors": "Keyan Ding; Kede Ma; Shiqi Wang; Eero P. Simoncelli",
+      "year": 2022,
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, 44(7): 3658-3671",
+      "url": "https://arxiv.org/pdf/2004.07728",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中（arXiv:2004.07728，2020预印；TPAMI 2022正式刊出），作者Ding/Ma/Wang/Simoncelli一致；摘要描述结构相似与纹理相似显式分离。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TPAMI（CCF-A，中科院一区顶刊）；DISTS是对纹理重采样容忍度最优的深度FR指标，在传统与纹理数据库上均优异（摘要层）。",
+      "is_seminal": "yes",
+      "role": "奠基工作/学习型感知FR",
+      "fr_type": "FR",
+      "themes": [
+        "深度特征",
+        "结构-纹理统一",
+        "DISTS"
+      ],
+      "key_finding": "既有深度特征度量对纹理重采样过度敏感；显式分离结构相似（特征图相关）与纹理相似（空间均值统计相关），可容忍纹理替换而保持结构敏感度（摘要层）。",
+      "methods_notes": "DISTS：CNN嵌入到多尺度过完备表示；特征图空间平均提供纹理约束，再联合相关型距离；无监督纹理项+有监督主观分数联合优化。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-017",
+      "citation_key": "Ding et al. (2021)",
+      "title": "Locally Adaptive Structure and Texture Similarity for Image Quality Assessment (A-DISTS)",
+      "authors": "Keyan Ding; Yi Liu; Xueyi Zou; Shiqi Wang; Kede Ma",
+      "year": 2021,
+      "venue": "Proc. 29th ACM International Conference on Multimedia (MM '21)",
+      "url": "https://arxiv.org/pdf/2110.08521",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题命中（arXiv:2110.08521），作者Ding/Liu/Zou/Wang/Ma一致，ACM MM 2021；摘要描述用dispersion index定位纹理区域、局部自适应池化。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "ACM MM（CCF-A会议）；A-DISTS将DISTS全局度量改为内容自适应，免主观分数监督。",
+      "is_seminal": "no",
+      "role": "代表路线/DISTS谱系扩展",
+      "fr_type": "FR",
+      "themes": [
+        "DISTS谱系",
+        "局部自适应",
+        "纹理-结构分离"
+      ],
+      "key_finding": "DISTS是全局度量，忽略图像空间/尺度上的局部结构-纹理差异；以dispersion index统计量定位纹理区域并自适应池化，在10个数据库上提升相关性（摘要层）。",
+      "methods_notes": "A-DISTS：单一统计特征dispersion index估计patch为纹理的概率，再据此自适应加权局部结构/纹理测量。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-018",
+      "citation_key": "Liao et al. (2022)",
+      "title": "DeepWSD: Projecting Degradations in Perceptual Space to Wasserstein Distance in Deep Feature Space",
+      "authors": "Xingran Liao; Baoliang Chen; Hanwei Zhu; Shiqi Wang; Mingliang Zhou; Sam Kwong",
+      "year": 2022,
+      "venue": "Proc. 30th ACM International Conference on Multimedia (MM '22)",
+      "url": "https://arxiv.org/pdf/2208.03323",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中（arXiv:2208.03323），作者Liao/Chen/Zhu/Wang/Zhou/Kwong一致，ACM MM 2022；摘要描述VGG各阶段1D Wasserstein距离。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "ACM MM（CCF-A会议）；DeepWSD将FR-IQA从确定性特征距离转向分布/Wasserstein视角，可解释性强。",
+      "is_seminal": "no",
+      "role": "代表路线/学习型感知FR",
+      "fr_type": "FR",
+      "themes": [
+        "Wasserstein距离",
+        "深度特征分布",
+        "可解释性"
+      ],
+      "key_finding": "传统深度FR模型以确定性特征距离衡量失真；改为在VGG各层特征分布上计算1D Wasserstein距离，对各类失真的可解释性与预测能力更好（摘要层）。",
+      "methods_notes": "DeepWSD：预训练VGG逐层提取特征→层内逐位置1D W1距离→层间加权聚合为质量分。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-019",
+      "citation_key": "Severo, Theis & Ballé (2024)",
+      "title": "The Unreasonable Effectiveness of Linear Prediction as a Perceptual Metric (LASI)",
+      "authors": "Daniel Severo; Lucas Theis; Johannes Ballé",
+      "year": 2024,
+      "venue": "International Conference on Learning Representations (ICLR 2024)",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/00358de35a101a372ea0412bed913c86-Paper-Conference.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题命中ICLR 2024 proceedings官方PDF，作者Severo/Theis/Ballé一致；摘要描述像素级加权最小二乘线性预测嵌入，无训练数据/无深度特征。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "top_journal",
+      "quality_basis": "ICLR（深度学习顶会，CCF-A类会议认可度高）；LASI以像素级自回归嵌入取得与LPIPS/PIM可比的FR-IQA性能，计算成本接近MS-SSIM。",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "FR",
+      "themes": [
+        "无训练感知度量",
+        "线性预测",
+        "可微",
+        "2023-2026"
+      ],
+      "key_finding": "无需任何训练数据或深度网络特征，仅靠推理时像素级加权最小二乘解即可构造感知嵌入；在FR-IQA数据库上与LPIPS/PIM竞争（摘要层）。",
+      "methods_notes": "LASI：像素域WLS线性预测系数作为感知嵌入，嵌入空间距离即相似度；全可微，复杂度随嵌入维立方增长。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-020",
+      "citation_key": "Tian, Chen, Wang & Kwong (2023)",
+      "title": "Towards Thousands to One Reference: Can We Trust the Reference Image for Quality Assessment? (FLRE)",
+      "authors": "Yu Tian; Baoliang Chen; Shiqi Wang; Sam Kwong",
+      "year": 2023,
+      "venue": "IEEE Transactions on Multimedia, 25: 8536-8548",
+      "url": "https://ieeexplore.ieee.org/document/10234614",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中IEEE Xplore，作者Tian/Chen/Wang/Kwong一致，IEEE TMM；摘要提出Flexible REference (FLRE)范式、PNTE与PRS策略。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "IEEE TMM（CCF-B，中科院一区）；FLRE质疑FR-IQA中参考图像唯一性假设，是范式级反思工作。",
+      "is_seminal": "no",
+      "role": "最新进展/范式反思",
+      "fr_type": "FR",
+      "themes": [
+        "参考图像选择",
+        "等质量空间",
+        "2023-2026"
+      ],
+      "key_finding": "近阈值视觉感知意味着同一场景存在大量不可区分的优质参考图；在等质量特征空间中搜索最优伪参考再做深度FR度量，可显著提升预测性能（摘要层）。",
+      "methods_notes": "FLRE：PNTE预测等质量map，PRS在等质量空间内逐元素最小距离搜索失真图的最佳参考特征；作为插件模块叠加在现有深度FR模型前。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-021",
+      "citation_key": "Tang et al. (2023)",
+      "title": "Unifying Dual-Attention and Siamese Transformer Network for Full-Reference Image Quality Assessment (UniDASTN)",
+      "authors": "Zhenjun Tang; Zhiyuan Chen; Zhixin Li; Bineng Zhong; Xianquan Zhang; Xinpeng Zhang",
+      "year": 2023,
+      "venue": "ACM Transactions on Multimedia Computing, Communications and Applications, 19(5s): 1-20",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3597434",
+      "doi": "10.1145/3597434",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中ACM DL（DOI 10.1145/3597434），作者六人一致；摘要描述孪生Transformer+双重注意力、MSE+双向KL+排序联合损失。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "ACM TOMM（CCF-B，SCI期刊）；UniDASTN在LIVE/CSIQ/TID2013/PIPAL上优于部分SOTA FR方法（摘要层）。",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "FR",
+      "themes": [
+        "Transformer",
+        "孪生网络",
+        "GAN失真",
+        "2023-2026"
+      ],
+      "key_finding": "传统FR方法对传统失真与GAN失真图像预测不准；孪生Transformer空间注意力+通道/空间双重注意力可同时敏感两类失真（摘要层）。",
+      "methods_notes": "UniDASTN：孪生Transformer提取参考/失真特征→特征融合块→双注意力聚合→MSE+双向KL+质量分排序联合损失回归。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-022",
+      "citation_key": "Kim & Yim (2024)",
+      "title": "Swin Transformer Fusion Network for Image Quality Assessment (STFN)",
+      "authors": "Hyeongmyeon Kim; Changhoon Yim",
+      "year": 2024,
+      "venue": "IEEE Access, 12: 43428-43439",
+      "url": "https://xplorestaging.ieee.org/ielx7/6287639/10380310/10473038.pdf?arnumber=10473038",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题命中IEEE Xplore（article 10473038），作者Kim & Yim（Konkuk Univ.）一致；摘要描述Swin Transformer前两阶段特征融合。",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "IEEE Access（SCI，开源综合刊，影响因子中等）；代表2024年Swin Transformer系FR-IQA工程化路线。",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "FR",
+      "themes": [
+        "Swin Transformer",
+        "特征融合",
+        "2023-2026"
+      ],
+      "key_finding": "融合Swin Transformer前两阶段特征（逆patch merging+mediator block），以更小训练时间与模型尺寸超过此前SOTA FR方法（摘要层）。",
+      "methods_notes": "STFN：Swin-T两阶段特征→RPM逆patch merging对齐尺寸→MB融合→质量回归。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-023",
+      "citation_key": "He et al. (2024)",
+      "title": "Multiscale Sliced Wasserstein Distances as Perceptual Color Difference Measures (MS-SWD)",
+      "authors": "Jiaqi He; Zhihua Wang; Leon Wang; Tzein-J Li; Yuming Fang; Qilin Sun; Kede Ma",
+      "year": 2024,
+      "venue": "arXiv preprint arXiv:2407.10181（预印本，未见正式venue证实）",
+      "url": "https://web3.arxiv.org/pdf/2407.10181",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中arXiv:2407.10181，作者一致（City Univ. of Hong Kong等）；摘要描述多尺度sliced Wasserstein距离、免训练、对图像错位鲁棒。",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "纯arXiv预印本（未证实正式录用），source_quality=C；但作者团队为IQA活跃组（Kede Ma），方法与DeepWSD的Wasserstein路线呼应，作为2024年新趋势线索收录。",
+      "is_seminal": "no",
+      "role": "最新进展/Wasserstein路线延伸",
+      "fr_type": "FR",
+      "themes": [
+        "Wasserstein",
+        "颜色差异",
+        "免训练",
+        "2023-2026"
+      ],
+      "key_finding": "传统逐像素/局部patch比较对图像错位失效；多尺度sliced Wasserstein距离可在非局部相似patch集合间比较，免训练且在错位场景下优于竞争模型（摘要层）。",
+      "methods_notes": "MS-SWD：将图像分解为多尺度patch集合，在集合间计算sliced W2距离；可作颜色迁移/视频色调任务的损失函数。",
+      "citation_count": "",
+      "branches": [
+        "B2"
+      ]
+    },
+    {
+      "id": "B2-024",
+      "citation_key": "Yuan et al. (2024)",
+      "title": "PKU-AIGIQA-4K: A Perceptual Quality Assessment Database for Both Text-to-Image and Image-to-Image AI-Generated Images",
+      "authors": "Jiquan Yuan; Fanyi Yang; Jihe Li; Xinyan Cao; Jinming Che; Jinlong Lin; Xixin Cao",
+      "year": 2024,
+      "venue": "arXiv preprint arXiv:2404.18409（期刊投稿中，JOURNAL OF LATEX CLASS FILES模板）",
+      "url": "https://arxiv.org/pdf/2404.18409",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "标题逐字命中arXiv:2404.18409，作者北大团队一致；摘要提出FR-AIGCIQA全参考方法与PR-AIGCIQA半参考方法，并在PKU-AIGIQA-4K上基准测试。",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "纯arXiv预印本（未证实正式录用），source_quality=C；代表AIGIQA时代FR指标新范式（参考图像=prompt对应图），作为2024新趋势线索收录。",
+      "is_seminal": "no",
+      "role": "最新进展/AIGIQA新范式",
+      "fr_type": "FR",
+      "themes": [
+        "AI生成图像质量评价",
+        "AIGIQA",
+        "FR-AIGCIQA",
+        "2023-2026",
+        "质量数据库",
+        "图生图",
+        "文生图"
+      ],
+      "key_finding": "现有AIGIQA数据库只覆盖文生图场景；新库覆盖文生图+图生图，并给出NR-AIGCIQA/FR-AIGCIQA/PR-AIGCIQA三种基准方法（摘要层）。",
+      "methods_notes": "FR-AIGCIQA：以image prompt作为参考输入，预训练模型提取参考/待评图像特征并比较，预测感知质量。",
+      "citation_count": "",
+      "branches": [
+        "B2",
+        "B5"
+      ]
+    },
+    {
+      "id": "B3-001",
+      "citation_key": "Moorthy & Bovik (2010)",
+      "title": "A Two-Step Framework for Constructing Blind Image Quality Indices",
+      "authors": [
+        "Anush K. Moorthy",
+        "Alan C. Bovik"
+      ],
+      "year": 2010,
+      "venue": "IEEE Signal Processing Letters",
+      "url": "https://utw10503.utweb.utexas.edu/publications/2010/akm_spl_may10.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 LIVE 官方 PDF，标题/作者/年份/venue 完全一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "IEEE SPL 正式期刊；NR-IQA 通用两步框架（先识别失真类型再分类型评估）的奠基性短文，被后续 DIIVINE/BRISQUE 系列广泛引用",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "NSS",
+        "distortion-identification",
+        "通用盲质量"
+      ],
+      "key_finding": "提出失真无关的两步 NR-IQA 框架：先 NSS 识别失真类型，再分类型回归质量，模块化可扩展。",
+      "methods_notes": "小波域 NSS 特征 + SVM 失真分类 + 分类型 SVR 回归；LIVE 库验证。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-002",
+      "citation_key": "Moorthy & Bovik (2011)",
+      "title": "Blind Image Quality Assessment: From Natural Scene Statistics to Perceptual Quality (DIIVINE)",
+      "authors": [
+        "Anush K. Moorthy",
+        "Alan C. Bovik"
+      ],
+      "year": 2011,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://ihavandhoo.gov.mv/blind-image-quality-assessment-from-natural-scene_YTo3OjI.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中全文 PDF，DIIVINE 命名与摘要完全匹配",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP（CCF-B/IEEE 汇刊）；DIIVINE 为早期失真通用 NR-IQA 高引代表， steerable pyramid 小波 NSS 框架经典",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "NSS",
+        "wavelet",
+        "distortion-identification"
+      ],
+      "key_finding": "基于可操纵金字塔小波域 NSS 的两步法 DIIVINE，在 LIVE 上统计性能优于 PSNR、与 SSIM 相当。",
+      "methods_notes": "steerable pyramid 多尺度分解 + GGD 拟合 + 失真识别 + 分类型质量回归。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-003",
+      "citation_key": "Saad et al. (2012)",
+      "title": "Blind Image Quality Assessment: A Natural Scene Statistics Approach in the DCT Domain (BLIINDS-II)",
+      "authors": [
+        "Michele A. Saad",
+        "Alan C. Bovik",
+        "Christophe Charrier"
+      ],
+      "year": 2012,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://dl.icdst.org/pdfs/files/898a51e482b5bcfadb9a876e9e231a90.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中全文，BLIINDS-II 命名、DCT 域 NSS 与贝叶斯推断摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；DCT 域 NSS 盲质量评价的代表方法，计算高效，长期作为传统 NSS 基线",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "NSS",
+        "DCT",
+        "Bayesian"
+      ],
+      "key_finding": "DCT 系数 NSS + 简单贝叶斯推断预测质量，训练需求小，LIVE 上与 SSIM 同级相关。",
+      "methods_notes": "DCT 域系数统计建模 + 贝叶斯质量推断。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-004",
+      "citation_key": "Mittal et al. (2012)",
+      "title": "No-Reference Image Quality Assessment in the Spatial Domain (BRISQUE)",
+      "authors": [
+        "Anish Mittal",
+        "Anush K. Moorthy",
+        "Alan C. Bovik"
+      ],
+      "year": 2012,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "http://live.ece.utexas.edu/publications/2012/TIP%20BRISQUE.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 LIVE 官方 PDF，标题/作者/摘要完全一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；BRISQUE 为空间域 MSCN NSS 最著名盲质量指标，几乎所有 NR-IQA 综述与后续方法的必引基线，超高被引",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "NSS",
+        "spatial",
+        "MSCN",
+        "opinion-aware"
+      ],
+      "key_finding": "不计算失真特异特征，仅用局部归一化亮度（MSCN）系数的双变量分布度量自然度损失，即达到优于 PSNR/SSIM 的盲评价性能，计算复杂度低可实时。",
+      "methods_notes": "MSCN 系数及其乘积的 GGGD 拟合 + 空间域特征 + SVR；TID/LIVE/CSIQ 评测。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-005",
+      "citation_key": "Mittal et al. (2013)",
+      "title": "Making a 'Completely Blind' Image Quality Analyzer (NIQE)",
+      "authors": [
+        "Anish Mittal",
+        "Rajiv Soundararajan",
+        "Alan C. Bovik"
+      ],
+      "year": 2013,
+      "venue": "IEEE Signal Processing Letters",
+      "url": "https://5y1.org/download/830a996365160addea4b484f0c86538f.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中全文，'completely blind'/NIQE 命名与作者完全一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE SPL；NIQE 为 opinion-unaware 盲质量指标最著名代表，不需任何失真图与主观分数训练，超高被引",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "NSS",
+        "opinion-unaware",
+        "MVG",
+        "distortion-free-training"
+      ],
+      "key_finding": "仅从自然无失真图像语料学习质量感知统计特征，用多元高斯模型距离度量失真程度，完全不接触失真样本即可达到需大规模主观分数训练的 NR 模型同级性能。",
+      "methods_notes": "空间域 NSS + pristine 语料 MVG 建模 + 马氏距离类距离评分。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-006",
+      "citation_key": "Zhang et al. (2015)",
+      "title": "A Feature-Enriched Completely Blind Image Quality Evaluator (IL-NIQE)",
+      "authors": [
+        "Lin Zhang",
+        "Lei Zhang",
+        "Alan C. Bovik"
+      ],
+      "year": 2015,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "http://www4.comp.polyu.edu.hk/~cslzhang/paper/IL-NIQE.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中作者主页 PDF，IL-NIQE/opinion-unaware 摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；IL-NIQE 为多线索 NSS 融合的 opinion-unaware 代表，性能首次超过多数 opinion-aware 方法",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "NSS",
+        "opinion-unaware",
+        "multi-cue",
+        "MVG"
+      ],
+      "key_finding": "融合多线索自然图像统计特征学习 MVG 模型，用 Bhattacharyya 类距离逐块评分再平均池化，无需任何失真样本与主观分数，性能超过同期 opinion-aware 方法。",
+      "methods_notes": "空间/频域多线索 NSS 特征 + pristine MVG + Bhattacharyya 距离。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-007",
+      "citation_key": "Ye et al. (2012)",
+      "title": "Unsupervised Feature Learning Framework for No-reference Image Quality Assessment (CORNIA)",
+      "authors": [
+        "Peng Ye",
+        "Jayant Kumar",
+        "Le Kang",
+        "David Doermann"
+      ],
+      "year": 2012,
+      "venue": "ICML 2012",
+      "url": "https://moscow.sci-hub.se/3183/a985811b90e7a640b5b1527d1b67e045/pengye2012.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中全文，CORNIA 命名、无监督字典学习摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "ICML（CCF-A）；CORNIA 为手工特征到深度特征过渡的标志性无监督字典学习 NR-IQA，被 Kang 2014 等 CNN 工作直接作为前驱引用",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "codebook",
+        "unsupervised-feature-learning",
+        "pre-CNN"
+      ],
+      "key_finding": "直接从无标注原始图块学习字典（soft-assignment coding + max pooling），摆脱手工 NSS 先验，LIVE 上优于 SSIM。",
+      "methods_notes": "raw patch 无监督字典学习 + soft assignment + max pooling + SVR。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-008",
+      "citation_key": "Xu et al. (2016)",
+      "title": "Blind Image Quality Assessment based on High Order Statistics Aggregation (HOSA)",
+      "authors": [
+        "Jingtao Xu",
+        "Peng Ye",
+        "Qiaohong Li",
+        "Haiqing Du",
+        "Yong Liu",
+        "David Doermann"
+      ],
+      "year": 2016,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://zero.sci-hub.ru/5676/719ce8a7e1f762cf75ed279ac2dd27a0/xu2016.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中全文，HOSA/高阶统计聚合摘要与作者一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；HOSA 为 codebook 类 NR-IQA 的晚期代表，100 词本高阶统计聚合，10 库验证",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "codebook",
+        "high-order-statistics",
+        "pre-CNN"
+      ],
+      "key_finding": "仅需 100 词本，聚合簇均值/方差/偏度等高阶统计差异即得到与同期深度方法竞争的性能。",
+      "methods_notes": "K-means 小词本 + 高阶统计（mean/var/skewness）soft 聚合 + SVR；10 库评测。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-009",
+      "citation_key": "Gu et al. (2013)",
+      "title": "No-Reference Image Quality Assessment Metric by Combining Free Energy Theory and Structural Degradation Model (NFSDM)",
+      "authors": [
+        "Ke Gu",
+        "Guangtao Zhai",
+        "Xiaokang Yang",
+        "Wenjun Zhang",
+        "Longfei Liang"
+      ],
+      "year": 2013,
+      "venue": "IEEE ICIP 2013",
+      "url": "https://kegu.netlify.app/PDF/No-reference%20image%20quality%20assessment%20metric%20by%20combining%20free%20energy%20theory%20and%20structural%20degradation%20model.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中作者 Ke Gu 主页 PDF；作为种子'NFERM（Zhai 等）'未能直接命中后的同团队可核验替代锚点",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "IEEE ICIP（CCF-B 会议）；自由能原理盲评价方向 SJTU 团队代表工作",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "free-energy",
+        "NSS-adjacent",
+        "SVM"
+      ],
+      "key_finding": "组合自由能失真度量（FEDM）与结构退化模型（SDM）得到 NFSDM，摆脱参考图依赖后优于 PSNR/SSIM。",
+      "methods_notes": "自由能特征 + 结构退化特征 + SVM 融合。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-010",
+      "citation_key": "Kang et al. (2014)",
+      "title": "Convolutional Neural Networks for No-Reference Image Quality Assessment",
+      "authors": [
+        "Le Kang",
+        "Peng Ye",
+        "Yi Li",
+        "David Doermann"
+      ],
+      "year": 2014,
+      "venue": "CVPR 2014",
+      "url": "http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Kang_Convolutional_Neural_Networks_2014_CVPR_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 CVF 官方 PDF，标题/作者/浅层 CNN 结构摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPR（CCF-A）；首个将浅层 CNN 端到端用于通用 NR-IQA 的开创性工作，被后续所有深度 BIQA 必引",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "patch-based",
+        "early-deep"
+      ],
+      "key_finding": "以图块为输入、单层卷积+max/min pooling+两层全连接的小 CNN，把特征学习与质量回归一体化，LIVE 上达到 SOTA 并具跨库泛化。",
+      "methods_notes": "浅层 CNN（1 conv + 2 FC）图块训练 + 图块评分池化。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-011",
+      "citation_key": "Kim & Lee (2017)",
+      "title": "Fully Deep Blind Image Quality Predictor (BIECON)",
+      "authors": [
+        "Jongyoo Kim",
+        "Sanghoon Lee"
+      ],
+      "year": 2017,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://ieeexplore.ieee.org/document/7782419/",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 IEEE Xplore 记录，BIECON/模仿 FR 局部质量图摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；BIECON 为'以 FR 行为教 NR'路线的代表，TIP 正式发表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "FR-supervision",
+        "local-quality-map"
+      ],
+      "key_finding": "用深度 CNN 生成局部质量图模仿 FR-IQA 行为，解决 NR 局部真值缺失，使 NR 精度可比肩 SOTA FR 方法。",
+      "methods_notes": "两阶段：先预测客观误差图，再回归主观分数；附可靠性图与手工特征。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-012",
+      "citation_key": "Ma et al. (2017)",
+      "title": "End-to-End Blind Image Quality Assessment Using Deep Neural Networks (MEON)",
+      "authors": [
+        "Kede Ma",
+        "Wentao Liu",
+        "Kai Zhang",
+        "Zhengfang Duanmu",
+        "Zhou Wang",
+        "Wangmeng Zuo"
+      ],
+      "year": 2017,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://kedema.org/paper/18_TIP_MEON.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中作者主页 PDF，MEON/双子网络/GDN 激活摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；MEON 为多任务端到端深度 BIQA 代表（失真识别+质量预测共享早期层）",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "multi-task",
+        "GDN",
+        "end-to-end"
+      ],
+      "key_finding": "失真识别子网与质量预测子网共享早期层、两阶段训练；用 GDN 替代 ReLU，以较小复杂度在 4 个基准达 SOTA。",
+      "methods_notes": "多任务 CNN + GDN 激活 + gMAD 竞争验证。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-013",
+      "citation_key": "Talebi & Milanfar (2018)",
+      "title": "NIMA: Neural Image Assessment",
+      "authors": [
+        "Hossein Talebi",
+        "Peyman Milanfar"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Image Processing（初版 CVPRW 2018）",
+      "url": "https://ieeexplore.ieee.org/ielx7/83/8347140/08352823.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 IEEE Xplore，NIMA/预测意见分数分布摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；NIMA 为预测主观分数分布而非单点 MOS 的代表，Google Research 出品，工业界广泛使用",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "distribution-learning",
+        "aesthetics-adjacent"
+      ],
+      "key_finding": "不回归 MOS 而预测人类意见分数的概率分布，网络结构比同期方法显著更简单，与人类感知高相关，可辅助摄影流水线优化。",
+      "methods_notes": "在 ImageNet 预训练分类网络上微调 + EMDB/AVA 训练 + 分布回归（EMD 损失）。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-014",
+      "citation_key": "Bosse et al. (2018)",
+      "title": "Deep Neural Networks for No-Reference and Full-Reference Image Quality Assessment (WaDIQaM)",
+      "authors": [
+        "Sebastian Bosse",
+        "Dominique Maniry",
+        "Klaus-Robert Müller",
+        "Thomas Wiegand",
+        "Wojciech Samek"
+      ],
+      "year": 2018,
+      "venue": "IEEE TPAMI（arXiv:1612.01697 2016 预印本）",
+      "url": "https://arxiv.org/pdf/1612.01697",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，10 卷积+5 池化+2 FC、NR/FR 双用与局部质量-局部权重联合学习摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TPAMI（CCF-A 顶刊）；WaDIQaM 为深度 BIQA 必收代表作，NR/FR 双用，跨库泛化强",
+      "is_seminal": "yes",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "weighted-pooling",
+        "NR-FR-unified",
+        "deep"
+      ],
+      "key_finding": "10 层卷积深网同时学习局部质量与局部权重（重要性），稍作改动即可 NR/FR 两用；LIVE/CSIQ/TID2013/LIVE-in-the-Wild 均优于同期 SOTA。",
+      "methods_notes": "端到端 CNN + 加权平均池化 + 跨库评测。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-015",
+      "citation_key": "Liu et al. (2017)",
+      "title": "RankIQA: Learning from Rankings for No-Reference Image Quality Assessment",
+      "authors": [
+        "Xialei Liu",
+        "Joost van de Weijer",
+        "Andrew D. Bagdanov"
+      ],
+      "year": 2017,
+      "venue": "ICCV 2017",
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Liu_RankIQA_Learning_From_ICCV_2017_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 CVF 官方 PDF，Siamese 排序学习摘要一致；注：种子提示年份为 2019，实际为 ICCV 2017",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "ICCV（CCF-A）；RankIQA 为相对排序学习解决 IQA 小样本问题的代表，首个 NR 超越 SOTA FR 的方法之一",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "ranking",
+        "Siamese",
+        "data-augmentation"
+      ],
+      "key_finding": "用合成失真自动生成排序对训练 Siamese 网络学相对质量，再微调迁移到单图绝对质量回归；TID2013 提升 SOTA 逾 5%，LIVE 上超 FR 方法。",
+      "methods_notes": "Siamese 排序预训练 + 微调 CNN 回归 + 批内高效反向传播。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-016",
+      "citation_key": "Lin & Wang (2018)",
+      "title": "Hallucinated-IQA: No-Reference Image Quality Assessment via Adversarial Learning",
+      "authors": [
+        "Kwan-Yee Lin",
+        "Guanxiang Wang"
+      ],
+      "year": 2018,
+      "venue": "CVPR 2018",
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Lin_Hallucinated-IQA_No-Reference_Image_CVPR_2018_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 CVF 官方 PDF；注：种子提示第一作者为'Ren 等'，实际第一作者为 Kwan-Yee Lin（北大）",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPR（CCF-A）；幻觉参考对抗学习路线的代表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "GAN",
+        "hallucinated-reference",
+        "adversarial"
+      ],
+      "key_finding": "由失真图条件生成'幻觉参考图'补足真值参考缺失，成对送入回归器在隐式排序引导下学习感知差异，大幅超越此前 SOTA。",
+      "methods_notes": "GAN 生成幻觉参考 + 质量回归 + 隐式排序损失；4 个基准验证。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-017",
+      "citation_key": "Zhang et al. (2020)",
+      "title": "Blind Image Quality Assessment Using A Deep Bilinear Convolutional Neural Network (DB-CNN)",
+      "authors": [
+        "Weixia Zhang",
+        "Kede Ma",
+        "Jia Yan",
+        "Dexiang Deng",
+        "Zhou Wang"
+      ],
+      "year": 2020,
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "url": "https://arxiv.org/pdf/1907.02665",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 与 Waterloo 作者 PDF，双 CNN 双线性池化摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TCSVT（CCF-B/IEEE 汇刊）；DB-CNN 为合成/真实失真双分支双线性融合代表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "bilinear-pooling",
+        "synthetic-authentic-dual"
+      ],
+      "key_finding": "两个 CNN 分别专攻合成失真（失真类型/等级分类预训练）与真实失真（分类预训练），特征双线性池化统一后微调质量回归，合成与真实库上均优。",
+      "methods_notes": "双分支 CNN + 双线性池化 + SGD 变体微调；Waterloo Exploration 库 gMAD 验证。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-018",
+      "citation_key": "Su et al. (2020)",
+      "title": "Blindly Assess Image Quality in the Wild Guided by A Self-Adaptive Hyper Network (hyperIQA)",
+      "authors": [
+        "Shaolin Su",
+        "Qingsen Yan",
+        "Yu Zhu",
+        "Cheng Zhang",
+        "Xin Ge",
+        "Jinqiu Sun",
+        "Yanning Zhang"
+      ],
+      "year": 2020,
+      "venue": "CVPR 2020",
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Su_Blindly_Assess_Image_Quality_in_the_Wild_Guided_by_a_CVPR_2020_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 CVF 官方 PDF，hyper network 三阶段摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPR（CCF-A）；hyperIQA 为超网络自适应评价规则路线的代表作",
+      "is_seminal": "yes",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "hypernetwork",
+        "in-the-wild"
+      ],
+      "key_finding": "把 IQA 拆为内容理解、感知规则学习、质量预测三阶段；超网络根据图像语义自适应生成质量回归规则，在真实失真库大幅领先且合成库竞争。",
+      "methods_notes": "ResNet 类骨干 + 超网络生成回归参数。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-019",
+      "citation_key": "Zhu et al. (2020)",
+      "title": "MetaIQA: Deep Meta-learning for No-Reference Image Quality Assessment",
+      "authors": [
+        "Hancheng Zhu",
+        "Leida Li",
+        "Jinjian Wu",
+        "Weisheng Dong",
+        "Guangming Shi"
+      ],
+      "year": 2020,
+      "venue": "CVPR 2020",
+      "url": "https://arxiv.org/pdf/2004.05508.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，元学习/任务集合摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPR（CCF-A）；MetaIQA 为元学习解决 IQA 小样本与跨失真泛化的代表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "meta-learning",
+        "few-shot",
+        "generalization"
+      ],
+      "key_finding": "把不同失真 NR-IQA 定义为任务集合，用基于优化的元学习学习共享质量先验，再快速适配未知失真；合成到真实失真迁移良好。",
+      "methods_notes": "双层梯度优化元学习 + CNN 骨干；5 库评测。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-020",
+      "citation_key": "Zhang et al. (2021)",
+      "title": "Uncertainty-Aware Blind Image Quality Assessment in the Laboratory and Wild",
+      "authors": [
+        "Weixia Zhang",
+        "Kede Ma",
+        "Guangtao Zhai",
+        "Xiaokang Yang"
+      ],
+      "year": 2021,
+      "venue": "IEEE TIP 2021（arXiv:2005.13983）",
+      "url": "https://arxiv.org/pdf/2005.13983",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，pairwise fidelity loss + 不确定性 hinge 约束摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；合成/真实失真统一训练与不确定性建模的代表工作",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "pairwise-loss",
+        "uncertainty",
+        "synthetic-authentic"
+      ],
+      "key_finding": "跨库采样图像对计算'谁更好'概率，用 fidelity loss 训练，并显式 hinge 约束正则化不确定性估计，统一合成与真实失真场景。",
+      "methods_notes": "pairwise 概率损失 + 不确定性估计 + 6 库评测。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-021",
+      "citation_key": "Hosu et al. (2020)",
+      "title": "KonIQ-10k: An ecologically valid database for deep learning of blind image quality assessment (KonCept512)",
+      "authors": [
+        "Vlad Hosu",
+        "Hanhe Lin",
+        "Tamas Sziranyi",
+        "Dietmar Saupe"
+      ],
+      "year": 2020,
+      "venue": "IEEE Transactions on Image Processing",
+      "url": "https://arxiv.org/pdf/1910.06180",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，10073 图/1.2M 评分/KonCept512 摘要一致（摘要层给出 KonCept512 在 KonIQ-10k 0.921 SROCC、LIVE-in-the-Wild 0.825 SROCC）",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；KonIQ-10k 为目前最常用真实失真大规模 IQA 数据集之一，附 KonCept512 基线模型",
+      "is_seminal": "yes",
+      "role": "benchmark/dataset",
+      "fr_type": "NR",
+      "themes": [
+        "dataset",
+        "in-the-wild",
+        "CNN-baseline"
+      ],
+      "key_finding": "构建 10073 张真实失真图、120 万条众包评分；提出 InceptionResNet 架构 512×384 高分辨率训练的 KonCept512，跨库泛化显著。",
+      "methods_notes": "众包主观库 + InceptionResNet 512 分辨率训练。摘要层性能数字：0.921/0.825 SROCC。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-022",
+      "citation_key": "Sun et al. (2022)",
+      "title": "Blind Quality Assessment for in-the-Wild Images via Hierarchical Feature Fusion and Iterative Mixed Database Training (StairIQA)",
+      "authors": [
+        "Wei Sun",
+        "Xiongkuo Min",
+        "Danyang Tu",
+        "Siwei Ma",
+        "Guangtao Zhai"
+      ],
+      "year": 2022,
+      "venue": "IEEE TIP 2022（arXiv:2105.14550）",
+      "url": "https://arxiv.org/pdf/2105.14550",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，staircase 分层特征融合 + IMDT 摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；分层特征融合 + 迭代混合库训练的代表，SJTU 团队出品",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "hierarchical-feature-fusion",
+        "mixed-database-training"
+      ],
+      "key_finding": "staircase 结构把中间层特征分层整合，配合迭代混合多库训练（IMDT）扩充内容与失真多样性，6 个真实失真库大幅领先并具强跨库泛化。",
+      "methods_notes": "分层特征融合 CNN + IMDT 多库训练。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-023",
+      "citation_key": "Golestaneh et al. (2022)",
+      "title": "No-Reference Image Quality Assessment via Transformers, Relative Ranking, and Self-Consistency (TReS)",
+      "authors": [
+        "S. Alireza Golestaneh",
+        "Saba Dadsetan",
+        "Kris M. Kitani"
+      ],
+      "year": 2022,
+      "venue": "WACV 2022",
+      "url": "https://openaccess.thecvf.com/content/WACV2022/papers/Golestaneh_No-Reference_Image_Quality_Assessment_via_Transformers_Relative_Ranking_and_Self-Consistency_WACV_2022_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 CVF WACV2022 官方 PDF，CNN+Transformer 混合/相对排序/自一致性摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "WACV（CCF-B）；TReS 为早期 CNN-Transformer 混合 NR-IQA 代表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "Transformer",
+        "CNN-hybrid",
+        "ranking",
+        "self-supervision"
+      ],
+      "key_finding": "CNN 提局部特征后接 Transformer 建模非局部关系；批内相对排序增强单调相关，翻转自一致性自监督提升鲁棒性。",
+      "methods_notes": "CNN+Transformer 混合 + relative ranking + flip self-consistency；7 库评测。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-024",
+      "citation_key": "Ke et al. (2021)",
+      "title": "MUSIQ: Multi-scale Image Quality Transformer",
+      "authors": [
+        "Junjie Ke",
+        "Qifei Wang",
+        "Yilin Wang",
+        "Peyman Milanfar",
+        "Feng Yang"
+      ],
+      "year": 2021,
+      "venue": "ICCV 2021（arXiv:2108.05997）",
+      "url": "https://arxiv.org/pdf/2108.05997v1",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，多尺度原生分辨率/hash 2D 空间嵌入摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "ICCV（CCF-A）；Google Research；MUSIQ 为多尺度 Transformer NR-IQA 里程碑，MUSIQ/CONTRIQUE 第一作者确认为 Junjie Ke（MUSIQ），CONTRIQUE 第一作者为 Pavan C. Madhusudana（见 B3-025）",
+      "is_seminal": "yes",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "Transformer",
+        "multi-scale",
+        "native-resolution"
+      ],
+      "key_finding": "多尺度图像表示处理任意尺寸原生分辨率输入，hash 2D 空间嵌入 + 尺度嵌入；PaQ-2-PIQ/SPAQ/KonIQ-10k 上 SOTA。",
+      "methods_notes": "Transformer 多尺度分支 + hash 位置嵌入。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-025",
+      "citation_key": "Madhusudana et al. (2022)",
+      "title": "Image Quality Assessment using Contrastive Learning (CONTRIQUE)",
+      "authors": [
+        "Pavan C. Madhusudana",
+        "Neil Birkbeck",
+        "Yilin Wang",
+        "Balu Adsumilli",
+        "Alan C. Bovik"
+      ],
+      "year": 2022,
+      "venue": "CVPRW 2022（NTIRE，arXiv:2110.13266）",
+      "url": "https://arxiv.org/pdf/2110.13266",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文；注：种子提示第一作者为 Junjie Ke，实际 CONTRIQUE 第一作者为 Pavan C. Madhusudana（UT Austin LIVE / YouTube 团队），Ke 仅为 MUSIQ 第一作者",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPRW/NTIRE 官方赛道；CONTRIQUE 为自监督对比学习质量表征代表，无需大规模主观标注即达 SOTA",
+      "is_seminal": "yes",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "contrastive-learning",
+        "self-supervised",
+        "CNN"
+      ],
+      "key_finding": "以'失真类型与程度预测'为辅助任务、用对比成对目标在无标注混合失真数据上预训练 CNN；冻结骨干仅加线性回归器即达 SOTA，泛化跨合成/真实失真。",
+      "methods_notes": "对比学习预训练 CNN + 冻结骨干 + 线性回归；GitHub 开源。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-026",
+      "citation_key": "Yang et al. (2022)",
+      "title": "MANIQA: Multi-dimension Attention Network for No-Reference Image Quality Assessment",
+      "authors": [
+        "Sidi Yang",
+        "Tianhe Wu",
+        "Shuwei Shi",
+        "Shanshan Lao",
+        "Yuan Gong",
+        "Mingdeng Cao",
+        "Jiahao Wang",
+        "Yujiu Yang"
+      ],
+      "year": 2022,
+      "venue": "CVPRW 2022（NTIRE 2022 Track 2 冠军，arXiv:2204.08958）",
+      "url": "https://arxiv.org/pdf/2204.08958v1.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，ViT+TAB+SSTB+双分支 patch 加权摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "CVPRW/NTIRE 2022 赛道冠军；MANIQA 为 ViT 多维注意力 NR-IQA 代表",
+      "is_seminal": "yes",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "Transformer",
+        "ViT",
+        "multi-dimension-attention",
+        "patch-weighted"
+      ],
+      "key_finding": "ViT 提特征后，转置注意力块（TAB）与尺度 Swin 块（SSTB）分别建模通道/空间维全局-局部交互，双分支 patch 加权预测；LIVE/TID2013/CSIQ/KADID-10K 大幅领先，NTIRE 赛道第一。",
+      "methods_notes": "ViT 骨干 + TAB/SSTB 注意力 + 双分支 patch 加权回归。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-027",
+      "citation_key": "Zhao et al. (2023)",
+      "title": "Quality-aware Pre-trained Models for Blind Image Quality Assessment",
+      "authors": [
+        "Kai Zhao",
+        "Kun Yuan",
+        "Ming Sun",
+        "Mading Li",
+        "Xing Wen"
+      ],
+      "year": 2023,
+      "venue": "CVPR 2023（arXiv:2303.00521）",
+      "url": "https://arxiv.org/pdf/2303.00521",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，quality-aware contrastive loss / 2e7 失真空间摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "CVPR（CCF-A）；快手技术团队出品，自监督预训练解决 BIQA 标注稀缺的代表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "self-supervised",
+        "contrastive",
+        "pretext-task"
+      ],
+      "key_finding": "为 BIQA 定制 pretext 自监督任务：同图块质量应相似、跨失真/跨图应不同的质量感知对比损失，构建约 2×10^7 规模失真空间预训练，下游 BIQA 显著提升。",
+      "methods_notes": "quality-aware 对比损失 + ImageNet 预训练。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-028",
+      "citation_key": "Saha et al. (2023)",
+      "title": "Re-IQA: Unsupervised Learning for Image Quality Assessment in the Wild",
+      "authors": [
+        "Avinab Saha",
+        "Sandeep Mishra",
+        "Alan C. Bovik"
+      ],
+      "year": 2023,
+      "venue": "CVPR 2023（arXiv:2304.00451）",
+      "url": "https://arxiv.org/pdf/2304.00451",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文；注：种子提示第一作者为'Pramanick 等'，实际 Re-IQA（CVPR 2023）第一作者为 Avinab Saha（UT Austin LIVE），Pramanick 为 CLIP-IQA 方向作者",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "CVPR（CCF-A）；Re-IQA 为 MoE 双编码器无监督表征学习代表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "MoE",
+        "unsupervised",
+        "content-aware",
+        "quality-aware"
+      ],
+      "key_finding": "混合专家框架：内容感知编码器与质量感知编码器无监督训练，分别捕获高层内容与低层技术质量，再联合回归 MOS。",
+      "methods_notes": "双编码器 MoE 无监督预训练 + MOS 回归。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-029",
+      "citation_key": "Qin et al. (2023)",
+      "title": "Data-Efficient Image Quality Assessment with Attention-Panel Decoder (DEIQT)",
+      "authors": [
+        "Guanyi Qin",
+        "Runze Hu",
+        "Yutao Liu",
+        "Xiawu Zheng",
+        "Haotian Liu",
+        "Xiu Li",
+        "Yan Zhang"
+      ],
+      "year": 2023,
+      "venue": "NTIRE 2023 / CVPRW 2023",
+      "url": "https://scispace.com/pdf/data-efficient-image-quality-assessment-with-attention-panel-17hk1yfh.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中全文，Transformer decoder + attention panel 摘要一致（摘要层给出 LIVEC 0.875 vs 0.859、LIVE 0.980 vs 0.969 SRCC）",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "NTIRE 官方挑战赛赛道论文；数据高效 Transformer NR-IQA 代表，GitHub 开源",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "Transformer",
+        "data-efficient",
+        "CLS-token",
+        "attention-panel"
+      ],
+      "key_finding": "把微调解释为预训练模型的解释过程，引入 Transformer decoder 从多角度精炼 CLS token，attention panel 机制提升性能并降低预测不确定性；8 库 SOTA。",
+      "methods_notes": "预训练 ViT + 单层 Transformer decoder + attention panel。摘要层性能数字：0.875/0.980 SRCC。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-030",
+      "citation_key": "Chen et al. (2024)",
+      "title": "TOPIQ: A Top-down Approach from Semantics to Distortions for Image Quality Assessment",
+      "authors": [
+        "Chaofeng Chen",
+        "Jiadi Mo",
+        "Jingwen Hou",
+        "Haoning Wu",
+        "Liang Liao",
+        "Wenxiu Sun",
+        "Qiong Yan",
+        "Weisi Lin"
+      ],
+      "year": 2024,
+      "venue": "IEEE TIP 2024（arXiv:2308.03060 2023 预印本）",
+      "url": "https://arxiv.org/pdf/2308.03060",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文；注：种子提示为'Ke 等 2023 CVPR'，实际 TOPIQ 第一作者为 Chaofeng Chen（NTU，基于 CFANet），刊于 IEEE TIP 2024，非 CVPR/非 Ke",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TIP；自上而下语义引导 CFANet 为 NR/FR 双用当前常用强基线，IQA-PyTorch 官方实现",
+      "is_seminal": "yes",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "CNN",
+        "top-down",
+        "cross-scale-attention",
+        "NR-FR-dual"
+      ],
+      "key_finding": "模拟人类'先整体后局部'的自上而下机制：高层语义引导低层特征关注语义重要区域的失真；ResNet50 骨干，仅约当前最佳 FR 方法 13% FLOPs 即 competitive/SOTA。",
+      "methods_notes": "CFANet 粗到细 + 跨尺度注意力 + ResNet50 骨干；NR/FR 双用。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-031",
+      "citation_key": "Zhang et al. (2023)",
+      "title": "Subjective and Objective Quality Assessment for in-the-Wild Computer Graphics Images (CGIQA-6k)",
+      "authors": [
+        "Zicheng Zhang",
+        "Wei Sun",
+        "Tao Wang",
+        "Wei Lu",
+        "Quan Zhou",
+        "Jun He",
+        "Qiyuan Wang",
+        "Xiongkuo Min",
+        "Guangtao Zhai"
+      ],
+      "year": 2023,
+      "venue": "arXiv:2303.08050（后见 IEEE TIP 系列 CGIQA 工作）",
+      "url": "https://arxiv.org/pdf/2303.08050v1.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，CGIQA-6k 6000 图 + 深度 NR 模型摘要一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "arXiv 预印本（作者团队 SJTU 正式期刊系列工作）；真实感计算机图形图像 NR-IQA 专用库与模型",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "NR",
+      "themes": [
+        "CGI",
+        "dataset",
+        "multi-stage-fusion"
+      ],
+      "key_finding": "构建 6000 张 in-the-wild CGI 主观库，提出多阶段特征融合+多阶段通道注意力深度 NR 模型，CGI 相关库上优于其他 NR 方法。",
+      "methods_notes": "多阶段融合深度 NR 模型。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-032",
+      "citation_key": "Li et al. (2024)",
+      "title": "Integrating Global Context Contrast and Local Sensitivity for Blind Image Quality Assessment (CSIQA)",
+      "authors": [
+        "Xudong Li",
+        "Runze Hu",
+        "Jingyuan Zheng",
+        "Yan Zhang",
+        "Shengchuan Zhang",
+        "Xiawu Zheng",
+        "Ke Li",
+        "Yunhang Shen",
+        "Yutao Liu",
+        "Yutao Liu",
+        "Pingyang Dai",
+        "Rongrong Ji"
+      ],
+      "year": 2024,
+      "venue": "ICML 2024",
+      "url": "https://openreview.net/pdf/116655bb727bcc54c581b1ac53ef985d147c99a1.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 OpenReview 全文，全局质量上下文对比 + 质量感知掩码注意力摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ICML（CCF-A）；全局相对质量对比学习新范式",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "contrastive-learning",
+        "global-context",
+        "mask-attention"
+      ],
+      "key_finding": "统一全局（数据集内图像间相对质量对比）与局部（图内视觉局部敏感性）视角；8 个标准库上优于 SOTA。",
+      "methods_notes": "质量上下文对比学习 + 质量感知掩码注意力模块。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-033",
+      "citation_key": "Pan et al. (2024)",
+      "title": "SGIQA: Semantic-Guided No-Reference Image Quality Assessment",
+      "authors": [
+        "Linpeng Pan",
+        "Xiaozhe Zhang",
+        "Fengying Xie",
+        "Haopeng Zhang",
+        "Yushan Zheng"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Broadcasting",
+      "url": "https://ieeexplore.ieee.org/document/10679236",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 IEEE Xplore，Swin Transformer + 语义引导模块摘要一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "IEEE Trans. Broadcasting（SCI 期刊）；语义显式引导 NR-IQA 代表",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "Transformer",
+        "Swin",
+        "semantic-guided"
+      ],
+      "key_finding": "以图像语义显式引导质量评价：语义注意力模块按内容精炼特征，感知规则学习模块按语义动态生成回归参数；5 库 SOTA 且泛化好。",
+      "methods_notes": "Swin Transformer 骨干 + 语义注意力 + 感知规则学习。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-034",
+      "citation_key": "Yang et al. (2024)",
+      "title": "No-Reference Image Quality Assessment Combining Swin-Transformer and Natural Scene Statistics",
+      "authors": [
+        "Yuxuan Yang",
+        "Zhichun Lei",
+        "Changlu Li"
+      ],
+      "year": 2024,
+      "venue": "Sensors (MDPI)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11359186/pdf/sensors-24-05221.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 PMC 全文，Swin+NSS 双分支摘要一致（摘要层给出 KADID 0.922 / KonIQ 0.923 SROCC，较 DACNN 提升 1.9%/2.4%）",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "Sensors（SCIE 期刊）；Transformer 与传统 NSS 融合的代表尝试",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "Transformer",
+        "Swin",
+        "NSS-fusion"
+      ],
+      "key_finding": "Swin Transformer 提多尺度特征并融合 NSS 弥补缩放信息损失，双分支注意力聚焦关键区域；6 库 SOTA。",
+      "methods_notes": "Swin + 可变形卷积特征增强 + NSS 分支。摘要层性能数字：0.922/0.923 SROCC。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-035",
+      "citation_key": "Ni et al. (2025)",
+      "title": "Opinion-Unaware Blind Image Quality Assessment Using Multi-Scale Deep Feature Statistics (MDFS)",
+      "authors": [
+        "Zhangkai Ni",
+        "Yue Liu",
+        "Keyan Ding",
+        "Wenhan Yang",
+        "Hanli Wang",
+        "Shiqi Wang"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Multimedia",
+      "url": "https://ieeexplore.ieee.org/document/10539337",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 IEEE Xplore，多尺度深度特征 + MVG 的 opinion-unaware 摘要一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "IEEE TMM（CCF-B/IEEE 汇刊）；深度特征 opinion-unaware 方向 2025 代表",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "NR",
+      "themes": [
+        "opinion-unaware",
+        "deep-feature",
+        "MVG",
+        "2025"
+      ],
+      "key_finding": "把预训练视觉模型多尺度图块深度特征拟合 MVG，以与高质量基准 MVG 的距离评分，摆脱主观标注依赖并提升训练效率。",
+      "methods_notes": "预训练 ViT 类模型多尺度特征 + MVG 距离。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-036",
+      "citation_key": "Ramesh et al. (2025)",
+      "title": "DGIQA: Depth-guided Feature Attention and Refinement for Generalizable Image Quality Assessment",
+      "authors": [
+        "Vaishnav Ramesh",
+        "Junliang Liu",
+        "Haining Wang",
+        "Md Jahidul Islam"
+      ],
+      "year": 2025,
+      "venue": "arXiv:2505.24002（预印本，待正式发表核验）",
+      "url": "https://arxiv.org/pdf/2505.24002",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 全文，Depth-CAR + TCB 摘要一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "arXiv 预印本（未经同行评议）；深度引导 Transformer-CNN 桥接 2025 新尝试，仅作背景线索",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "NR",
+      "themes": [
+        "depth-guidance",
+        "Transformer-CNN-hybrid",
+        "generalization",
+        "2025"
+      ],
+      "key_finding": "引入场景深度蒸馏为结构感知表征，Transformer-CNN 桥接融合全局与局部特征，跨库与低光/雾霾/镜头光晕等自然失真上 SOTA。",
+      "methods_notes": "Depth-CAR + Transformer-CNN Bridge。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-037",
+      "citation_key": "Zhang (2024)",
+      "title": "Cross-IQA: Unsupervised Learning for Image Quality Assessment",
+      "authors": [
+        "Zhen Zhang"
+      ],
+      "year": 2024,
+      "venue": "arXiv:2405.04311（预印本）",
+      "url": "https://arxiv.org/abs/2405.04311",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 arXiv 记录，ViT 合成图像重建 pretext 摘要一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "arXiv 预印本；ViT 无监督重建 pretext 路线 2024 尝试，仅作背景线索",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "NR",
+      "themes": [
+        "unsupervised",
+        "ViT",
+        "reconstruction-pretext",
+        "2024"
+      ],
+      "key_finding": "以合成图像重建为 pretext 任务从无标注数据学习质量特征，冻结编码器+线性回归即可在低频失真评价上媲美经典 FR/NR。",
+      "methods_notes": "ViT 重建自监督 + 线性回归。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B3-038",
+      "citation_key": "Fu et al. (2025)",
+      "title": "Image Quality Assessment Based on Multi-Scale Representation and Shifting Transformer (Swin-MIQT)",
+      "authors": [
+        "Geng Fu",
+        "Ziyu Wang",
+        "Cuijuan Zhang",
+        "Zerong Qi",
+        "Mingzheng Hu",
+        "Shujun Fu"
+      ],
+      "year": 2025,
+      "venue": "IEEE Access",
+      "url": "https://ieeexplore.ieee.org/document/10845785",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search 命中 IEEE Xplore，移位窗口多尺度 Transformer + 空间金字塔池化摘要一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "IEEE Access（SCIE）；2025 多尺度 Swin NR-IQA 新方法",
+      "is_seminal": "no",
+      "role": "最新进展",
+      "fr_type": "NR",
+      "themes": [
+        "Transformer",
+        "Swin",
+        "multi-scale",
+        "2025"
+      ],
+      "key_finding": "移位窗口多尺度空间池化 Transformer，原生分辨率输入不裁剪缩放；LIVE/LIVE MD/TID2013 SOTA，真实失真库竞争。",
+      "methods_notes": "Swin 移位窗口 + 空间金字塔池化。摘要层。",
+      "citation_count": null,
+      "branches": [
+        "B3"
+      ]
+    },
+    {
+      "id": "B4-001",
+      "citation_key": "Wang et al. (2023)",
+      "title": "Exploring CLIP for Assessing the Look and Feel of Images (CLIP-IQA)",
+      "authors": "Jianyi Wang; Kelvin C.K. Chan; Chen Change Loy",
+      "year": 2023,
+      "venue": "AAAI 2023（ojs.aaai.org正式版）；预印本arXiv:2207.12396",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/25353/25125",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search双源命中：arXiv摘要与AAAI官方出版页标题、作者（NTU S-Lab）一致。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "AAAI 2023（CCF-A类），CLIP零样本IQA方向奠基作，被后续Q-Instruct/Q-Bench系列大量引用。",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "CLIP零样本",
+        "反义提示对",
+        "look/feel感知"
+      ],
+      "key_finding": "无需任务特定训练，利用CLIS对比先验+反义提示对（antonym prompt pairing）即可零样本评估图像技术质量（look）与抽象美感（feel）。",
+      "methods_notes": "基座：OpenAI CLIP；打分范式：提示词相似度softmax；评测：受控数据集+LIVE/KonIQ等IQA基准（摘要层，具体SROCC未转引）。",
+      "citation_count": "高被引（摘要层未给数字）",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-002",
+      "citation_key": "Zhang et al. (2023)",
+      "title": "Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective (LIQE)",
+      "authors": "Weixia Zhang; Guangtao Zhai; Ying Wei; Xiaokang Yang; Kede Ma",
+      "year": 2023,
+      "venue": "CVPR 2023（CVF Open Access）",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Blind_Image_Quality_Assessment_via_Vision-Language_Correspondence_A_Multitask_Learning_CVPR_2023_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "CVF Open Access CVPR2023官方PDF标题/作者完全匹配；作者单位为上海交大AI研究院+港城大。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "CVPR 2023（CCF-A），语言-图像对应式BIQA代表工作，代码开源（github.com/zwx8981/LIQE）。",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "视觉-语言对应",
+        "多任务学习",
+        "场景分类/失真识别联合"
+      ],
+      "key_finding": "用文本模板描述多任务标签组合，通过图文嵌入余弦相似度求联合概率，联合BIQA/场景分类/失真识别三任务，提升跨数据集泛化并对齐不同数据集的质量标注。",
+      "methods_notes": "基座：CLIP；范式：多任务概率联合推断；代码github.com/zwx8981/LIQE。",
+      "citation_count": "高被引（摘要层未给数字）",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-003",
+      "citation_key": "Agnolucci et al. (2024)",
+      "title": "Quality-Aware Image-Text Alignment for Real-World Image Quality Assessment (QualiCLIP)",
+      "authors": "Lorenzo Agnolucci; Leonardo Galteri; Marco Bertini",
+      "year": 2024,
+      "venue": "arXiv:2403.11176（预印本，佛罗伦萨大学/微软）",
+      "url": "https://arxiv.org/abs/2403.11176",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv摘要页，标题作者一致，被引22（工具返回cite_count）。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "CLIP系self-supervised opinion-unaware路线代表；正式venue未在摘要页注明，按预印本从严记录。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "self-supervised",
+        "opinion-unaware",
+        "质量感知图文对齐"
+      ],
+      "key_finding": "从 pristine 图像合成递增退化图，训练CLIP按与质量相关反义文本提示的相似度排序，无需MOS即可达到接近监督方法的跨数据集性能。",
+      "methods_notes": "基座：CLIP；范式：合成退化排序+质量感知表征；评测：KonIQ/LIVE等真实失真数据集跨库实验。",
+      "citation_count": 22,
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-004",
+      "citation_key": "Onuoha et al. (2024)",
+      "title": "Perceptual Image Quality Prediction: Are Contrastive Language-Image Pretraining (CLIP) Visual Features Effective?",
+      "authors": "Chibuike Onuoha; Jean Flaherty; Truong Cong Thang",
+      "year": 2024,
+      "venue": "Electronics（MDPI，SCI期刊）",
+      "url": "https://pdfs.semanticscholar.org/672c/c30825b2a82779891f3bd2a5a8ee70f6eb63.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search两次（英文/中文query）均命中Semantic Scholar收录页，标题作者一致。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "SCI期刊Electronics（MDPI）；作为对CLIP/LMM特征有效性的反方实证，有引用价值。",
+      "is_seminal": "no",
+      "role": "局限证据",
+      "fr_type": "NR",
+      "themes": [
+        "CLIP特征批判",
+        "LMM对比",
+        "简单失真特征融合"
+      ],
+      "key_finding": "CLIP与其他LMM的视觉特征并不总是最优；将其与简单失真特征组合后性能提升可超10%、预测准确率超90%——对\"大模型特征即万能\"的反方证据。",
+      "methods_notes": "实证研究：CLIP/LMM特征+传统失真特征的组合回归；摘要层给出准确率量级，未转引具体SROCC。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-005",
+      "citation_key": "Wu et al. (2024)",
+      "title": "Q-Instruct: Improving Low-level Visual Abilities for Multi-modality Foundation Models",
+      "authors": "Haoning Wu; Zicheng Zhang; Erli Zhang; Chaofeng Chen; Liang Liao; Annan Wang; Kaixin Xu; Chunyi Li; Jingwen Hou; Guangtao Zhai; Geng Xue; Wenxiu Sun; Qiong Yan; Weisi Lin",
+      "year": 2024,
+      "venue": "CVPR 2024（社区/项目页记载；arXiv:2311.06783摘要页未注明录用注释）",
+      "url": "https://arxiv.org/abs/2311.06783",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv官方摘要页标题/作者匹配；第一作者Haoning Wu（NTU S-Lab）。Q-Pathway数据集（58K反馈/18,973图）与Q-Instruct（200K指令对）均在摘要层确认。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "CVPR 2024（CCF-A）录用为业界共识；低层视觉指令微调的奠基数据集工作，被Q-Align/Q-Bench系列直接引用。",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "指令微调",
+        "低层视觉",
+        "人类自然语言反馈数据集"
+      ],
+      "key_finding": "构建首个低层视觉人类自然语言反馈数据集Q-Pathway（58K反馈/18,973图），经GPT路径转换为200K指令-响应对Q-Instruct，一致提升多基座MLLM的低层视觉能力。",
+      "methods_notes": "基座：多种开源MLLM；数据：Q-Pathway人工反馈→GPT-4改写为指令对；任务：属性识别+质量评价。",
+      "citation_count": "高被引（摘要层未给数字）",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-006",
+      "citation_key": "Zhang et al. (2024)",
+      "title": "Q-Bench+: A Benchmark for Multi-modal Foundation Models on Low-level Vision from Single Images to Pairs",
+      "authors": "Zicheng Zhang; Haoning Wu; Erli Zhang; Guangtao Zhai; Weisi Lin",
+      "year": 2024,
+      "venue": "arXiv:2402.07116（Q-Bench系列，CVPR 2024前后发布）",
+      "url": "https://arxiv.org/abs/2402.07116",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search两次命中，摘要完整；与github.com/Q-Future/Q-Bench项目一致。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "official",
+      "quality_basis": "MLLM低层视觉评测事实标准benchmark之一（Q-Bench/Q-Bench+），24个MLLM受测。",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "NR",
+      "themes": [
+        "benchmark",
+        "成对比较",
+        "低层视觉感知"
+      ],
+      "key_finding": "评测24个MLLM的低层视觉感知/描述/打分能力；发现多数MLLM单图尚可，但成对比较精度超过单图评估的只有GPT-4V——即MLLM尚未具备类人的成对判别能力。",
+      "methods_notes": "数据集：LLVisionQA+（2,990单图+1,999图对）、LLDescribe+（499单图+450图对）、7个IQA数据集打分（A3）；Q-Future项目组维护。",
+      "citation_count": "高被引（摘要层未给数字）",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-007",
+      "citation_key": "Zhang et al. (2024)",
+      "title": "Q-Boost: On Visual Quality Assessment Ability of Low-level Multi-Modality Foundation Models",
+      "authors": "Zicheng Zhang; Haoning Wu; Zhongpeng Ji; Chunyi Li; Erli Zhang; Wei Sun; Xiaohong Liu; Xiongkuo Min; Fengyu Sun; Shangling Jui; Weisi Lin; Guangtao Zhai",
+      "year": 2024,
+      "venue": "IEEE Xplore正式发表（doc 10645451，2024）；预印本arXiv:2312.15300",
+      "url": "https://ieeexplore.ieee.org/document/10645451",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "IEEE Xplore页与arXiv摘要一致；工具返回cite_count=22。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "IEEE汇刊正式版（Xplore doc 10645451），零样本提示策略代表工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "零样本",
+        "提示工程",
+        "三元语调集成"
+      ],
+      "key_finding": "无需训练：Triadic-Tone Integration（引入中性提示作为正负之间的中间态）+ Multi-Prompt Ensemble（多质量提示集成去偏），低层级MLLM即获出色零样本IQA/VQA性能。",
+      "methods_notes": "基座：低层级MLLM（Q-Future系）；范式：纯提示工程零样本；任务：IQA+VQA视频质量。",
+      "citation_count": 22,
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-008",
+      "citation_key": "Wu et al. (2024)",
+      "title": "Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels",
+      "authors": "Haoning Wu; Zicheng Zhang; Weixia Zhang; Chaofeng Chen; Liang Liao; Chunyi Li; Xiyuan Gao; Annan Wang; Erli Zhang; Wenxiu Sun; Qiong Yan; Xiongguo Min; Guangtao Zhai; Weisi Lin",
+      "year": 2024,
+      "venue": "ICML 2024（OpenReview e0b664ccbddb00908bf9156b14ae80001c8a3c41）",
+      "url": "https://openreview.net/pdf/e0b664ccbddb00908bf9156b14ae80001c8a3c41.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "OpenReview ICML2024官方PDF标题/作者完全匹配；第一作者Haoning Wu（NTU S-Lab）。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "classic",
+      "quality_basis": "ICML 2024（CCF-A），离散等级对齐打分范式的奠基作，被后续DeQA-Score/Q-Scorer等直接作为基线与批评对象。",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "离散等级对齐",
+        "打分范式",
+        "IQA/IAA/VQA统一"
+      ],
+      "key_finding": "模仿人主观实验中只学离散文字等级（good/bad等）的机制，用文字定义等级代替连续分数监督LMM；在IQA/IAA/VQA上，尤其跨数据集设置下显著优于直接分数监督与已有SOTA（摘要层：指标为(SRCC+PLCC)/2，具体数值未转引）。",
+      "methods_notes": "基座：LLaVA系MLLM；范式：text-defined levels离散token监督；评测：多个IQA/IAA/VQA数据集跨库。",
+      "citation_count": "高被引（摘要层未给数字）",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-009",
+      "citation_key": "Wu et al. (2024b)",
+      "title": "Towards Open-ended Visual Quality Comparison (Co-Instruct)",
+      "authors": "Haoning Wu; Hanwei Zhu; Zicheng Zhang; Erli Zhang; Chaofeng Chen; Liang Liao; Chunyi Li; Annan Wang; Wenxiu Sun; Qiong Yan; Xiaohong Liu; Guangtao Zhai; Shiqi Wang; Weisi Lin",
+      "year": 2024,
+      "venue": "ECCV 2024（ECVA官网论文页确认；arXiv:2402.16641）",
+      "url": "https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00422-supp.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "ECVA官方补充材料页（eccv_2024）命中；arXiv摘要页标题/作者一致。注意：任务书提示为NeurIPS 2024，经核为ECCV 2024。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ECCV 2024（CCF-A），开放式视觉质量比较方向代表工作。",
+      "is_seminal": "yes",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "开放式比较",
+        "GPT-4V教师蒸馏",
+        "多图比较benchmark"
+      ],
+      "key_finding": "将视觉质量比较从成对选择扩展到开放式问答+理由生成；构建Co-Instruct-562K数据集（LLM合并描述+GPT-4V教师回答）与MICBench基准；Co-Instruct比开源SOTA MLLM平均高30%，并超过其教师GPT-4V。",
+      "methods_notes": "数据：Co-Instruct-562K；benchmark：MICBench；范式：GPT-4V教师响应蒸馏。",
+      "citation_count": "高被引（摘要层未给数字）",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-010",
+      "citation_key": "Zhu et al. (2024)",
+      "title": "Adaptive Image Quality Assessment via Teaching Large Multimodal Model to Compare (Compare2Score)",
+      "authors": "Hanwei Zhu; Haoning Wu; Yixuan Li; Zicheng Zhang; Baoliang Chen; Lingyu Zhu; Yuming Fang; Guangtao Zhai; Weisi Lin; Shiqi Wang",
+      "year": 2024,
+      "venue": "ECCV 2024；预印本arXiv:2405.19298",
+      "url": "https://arxiv.org/abs/2405.19298",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页标题/作者匹配；工具返回cite_count=25；港城大+NTU+上交团队。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ECCV 2024（CCF-A），比较→分数转换范式代表工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "成对比较转分数",
+        "锚点图",
+        "MAP推断"
+      ],
+      "key_finding": "训练时用同库内图像生成尺度化比较指令（跨库融合），推理时以软比较计算待测图相对多个锚点图的偏好概率矩阵，再MAP估计连续质量分；9个IQA数据集验证SOTA，且概率矩阵转换法对通用零样本LMM同样有效。",
+      "methods_notes": "基座：LMM；范式：比较式监督→概率矩阵→MAP分数；9个IQA数据集评测。",
+      "citation_count": 25,
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-011",
+      "citation_key": "You et al. (2023)",
+      "title": "Depicting Beyond Scores: Advancing Image Quality Assessment through Multi-modal Language Models (DepictQA)",
+      "authors": "Zhiyuan You; Zheyuan Li; Jinjin Gu; Zhenfei Yin; Tianfan Xue; Chao Dong",
+      "year": 2023,
+      "venue": "arXiv:2312.08962（预印本；后续发展为DepictQA-Wild/EDQA-495K）",
+      "url": "https://arxiv.org/abs/2312.08962",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search三次命中，摘要一致；作者单位CUHK/SIAT/Sydney。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "描述式IQA（descriptive IQA）代表作之一；从分数走向语言描述的范式转换工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "FR/NR",
+      "themes": [
+        "描述式IQA",
+        "语言化评估",
+        "全参考可扩展到无参考"
+      ],
+      "key_finding": "放弃单一分数，用MLLM对图像内容与失真做描述性、比较性语言评价，贴近人类推理过程；在多基准上优于分数法，且全参考数据集设计可迁移到无参考场景。",
+      "methods_notes": "基座：MLLM；范式：分层任务框架+多源训练数据+专门图像标签。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-012",
+      "citation_key": "Zhu et al. (2024b)",
+      "title": "2AFC Prompting of Large Multimodal Models for Image Quality Assessment",
+      "authors": "Hanwei Zhu; Xiangjie Sui; Baoliang Chen; Xuelin Liu; Peilin Chen; Yuming Fang; Shiqi Wang",
+      "year": 2024,
+      "venue": "arXiv:2402.01162（港城大/江西财大）",
+      "url": "https://arxiv.org/abs/2402.01162",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中，作者单位一致；代码github.com/h4nwei/2AFC-LMMs。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "2AFC提示范式系统实证；港城大Shiqi Wang团队。",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "NR",
+      "themes": [
+        "2AFC提示",
+        "零样本评测",
+        "粗粒度vs细粒度判别"
+      ],
+      "key_finding": "用最可靠的2AFC主观范式提示5个LMM，MAP聚合全局分；发现现有LMM粗粒度质量比较出色，但细粒度质量判别仍有明显差距。",
+      "methods_notes": "范式：two-alternative forced choice prompting+MAP；提出一致性/准确率/相关性三指标；5个LMM受测。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-013",
+      "citation_key": "Wu et al. (2024b)",
+      "title": "A Comprehensive Study of Multimodal Large Language Models for Image Quality Assessment",
+      "authors": "Tianhe Wu; Kede Ma; Jie Liang; Yujju Yang; Lei Zhang",
+      "year": 2024,
+      "venue": "arXiv:2403.10854（清华+港城大+OPPO研究院）",
+      "url": "https://arxiv.org/abs/2403.10854",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中；第一作者Tianhe Wu（清华），通讯作者Kede Ma（港城大，LIQE作者之一）。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "MLLM-IQA领域系统实证研究；港城大Kede Ma团队出品，作为对指令微调路线的反方/冷静证据极具引用价值。",
+      "is_seminal": "no",
+      "role": "局限证据",
+      "fr_type": "NR",
+      "themes": [
+        "提示技术系统研究",
+        "反方证据",
+        "模板化描述"
+      ],
+      "key_finding": "系统梳理开源MLLM做IQA的提示技术；发现未微调MLLM倾向于输出模板化质量描述、缺乏灵活细致的感知判断——即通用prompting不足以做好IQA（与Q-Future微调路线形成对立结论）。",
+      "methods_notes": "方法论：在已有人标MOS数据集上系统试验提示技术组合；属实证/立场论文。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-014",
+      "citation_key": "Zhang et al. (2023)",
+      "title": "GPT-4V(ision) as a Generalist Evaluator for Vision-Language Tasks",
+      "authors": "Xinlu Zhang; Yujie Lu; Weizhi Wang; An Yan; Jun Yan; Lianke Qin; Heng Wang; Xifeng Yan; William Yang Wang; Linda Ruth Petzold",
+      "year": 2023,
+      "venue": "arXiv:2311.01361（UCSB等）",
+      "url": "https://arxiv.org/abs/2311.01361",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中，标题作者一致。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "MLLM-as-Judge范式早期代表作之一；跨视觉-语言任务通用评估。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "MLLM-as-Judge",
+        "单答案打分",
+        "成对比较"
+      ],
+      "key_finding": "系统验证GPT-4V作为视觉-语言任务通用评估者：单答案打分与成对比较两种方式均与人类判断有较好一致性；但在视觉清晰度分级与复杂真实推理上存在局限。",
+      "methods_notes": "范式：single-answer grading + pairwise comparison；覆盖图文生成、图生图、多图对齐等任务。",
+      "citation_count": "高被引（摘要层未给数字）",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-015",
+      "citation_key": "Chen et al. (2024)",
+      "title": "MJ-Bench: Is Your Multimodal Reward Model Really a Good Judge for Text-to-Image Generation?",
+      "authors": "Zhaorun Chen; Yichao Du; Zichen Wen; Yiyang Zhou; Chenhang Cui; Zhenzhen Weng; Haoqin Tu; Chaoqi Wang; Zhengwei Tong; Qinglan Huang; Canyu Chen; Qinghao Ye; Zhihong Zhu; Yuqing Zhang; Jiawei Zhou; Zhuokai Zhao; Rafael Rafailov; Chelsea Finn; Huaxiu Yao",
+      "year": 2024,
+      "venue": "arXiv:2407.04842（OpenReview ICLR 2025收录页）",
+      "url": "https://arxiv.org/abs/2407.04842",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页+OpenReview页双重命中。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "official",
+      "quality_basis": "ICLR 2025（CCF-A）收录；多模态奖励模型评判能力评测benchmark。",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "NR",
+      "themes": [
+        "MLLM-as-Judge评测",
+        "奖励模型",
+        "图像质量/偏见"
+      ],
+      "key_finding": "从对齐/安全/图像质量/偏见四维度评测CLIP系打分模型、开源VLM（LLaVA系）与闭源VLM（GPT-4o/Claude 3）；闭源VLM总体更好，GPT-4o最优；小打分模型在图文对齐与图像质量上更稳，VLM在安全与偏见判断上更强；VLM用自然语言Likert反馈比数值反馈更稳定。",
+      "methods_notes": "偏好数据集4维度分解；对比likert-scale vs数值反馈；huggingface.co/MJ-Bench开源。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-016",
+      "citation_key": "Pu et al. (2025)",
+      "title": "Judge Anything: MLLM as a Judge Across Any Modality (TaskAnything / JudgeAnything)",
+      "authors": "Shu Pu; Yaochen Wang; Dongping Chen; Yuhang Chen 等",
+      "year": 2025,
+      "venue": "ACM Digital Library（DOI 10.1145/3711896.3737409，华中科技大学）",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3711896.3737409",
+      "doi": "10.1145/3711896.3737409",
+      "verification": "VERIFIED",
+      "verify_evidence": "ACM DL条目命中；工具返回cite_count=1。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "ACM正式发表；跨模态MLLM评判能力评测（含图像生成质量打分）。",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "NR",
+      "themes": [
+        "MLLM-as-Judge",
+        "跨模态",
+        "生成任务打分弱"
+      ],
+      "key_finding": "评测8个先进MLLM（Gemini-1.5-Pro/Qwen2.5-Omni等）的评判能力：视觉理解任务上成对比较平均66.55%、打分42.79%；但在图像/视频生成任务上仅53.37%/30.05%，暴露跨模态偏见与幻觉。",
+      "methods_notes": "TaskAnything 1,500查询；Pair Comparison vs Score Evaluation两种评判方式。",
+      "citation_count": 1,
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-017",
+      "citation_key": "Huang et al. (2024)",
+      "title": "AesBench: An Expert Benchmark for Multimodal Large Language Models on Image Aesthetics Perception",
+      "authors": "Yipo Huang; Quan Yuan; Xiangfei Sheng; Zhichao Yang; Haoning Wu; Pengfei Chen; Yuzhe Yang; Leida Li; Weisi Lin",
+      "year": 2024,
+      "venue": "arXiv:2401.08276（CVPR 2024录用；西电+NTU）",
+      "url": "https://arxiv.org/abs/2401.08276",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中；github.com/yipoh/AesBench。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "official",
+      "quality_basis": "CVPR 2024（CCF-A）；MLLM美学感知首个专家标注benchmark。",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "NR",
+      "themes": [
+        "美学感知",
+        "专家标注",
+        "benchmark",
+        "美学评价",
+        "大模型评判AIGC"
+      ],
+      "key_finding": "构建专家标注美学感知库EAPD，从感知/共情/评估/解释四维度评测MLLM；结论：当前MLLM仅具备初级美学感知能力，与人类专家差距显著。",
+      "methods_notes": "EAPD数据集+AesP/AesE/AesA/AesI四评测维度。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "B4-018",
+      "citation_key": "Huang et al. (2024b)",
+      "title": "AesExpert: Towards Multi-modality Foundation Model for Image Aesthetics Perception",
+      "authors": "Yipo Huang; Xiangfei Sheng; Zhichao Yang; Quan Yuan; Zhichao Duan; Pengfei Chen; Leida Li; Weisi Lin; Guangming Shi",
+      "year": 2024,
+      "venue": "arXiv:2404.09624（西电+NTU）",
+      "url": "https://arxiv.org/abs/2404.09624",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中；与AesBench同组（Yipo Huang/Leida Li）。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "美学多模态指令微调数据集+模型代表工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "美学指令微调",
+        "AesMMIT数据集",
+        "美感批评语料"
+      ],
+      "key_finding": "构建AesMMIT美学多模态指令数据集：21,904图+88K人写美感批评，GPT-4精炼为409K指令对；据此训练美学感知MLLM基座。",
+      "methods_notes": "范式：渐进式提问（粗粒度等级→细粒度描述）收集人工批评→GPT-4改写指令对。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-019",
+      "citation_key": "Huang et al. (2024c)",
+      "title": "VisualCritic: Making LMMs Perceive Visual Quality Like Humans",
+      "authors": "Zhipeng Huang; Zhizheng Zhang; Yiting Lu; Zheng-Jun Zha; Zhibo Chen; Baining Guo",
+      "year": 2024,
+      "venue": "arXiv:2403.12806（USTC+MSR等）",
+      "url": "https://arxiv.org/abs/2403.12806",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中；工具返回cite_count=15。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "广谱主观质量评估LMM代表工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "广谱质量评估",
+        "开箱即用",
+        "AI生成图鉴别"
+      ],
+      "key_finding": "首个广谱图像主观质量评估LMM，开箱即用跨数据集；可同时输出MOS/噪声/色彩/锐度等数值指标、可解释语言描述，并能判别AI生成图与摄影图。",
+      "methods_notes": "基座：指令跟随LMM；能力：定量指标+定性解释+AIGC判别三合一。",
+      "citation_count": 15,
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-020",
+      "citation_key": "You et al. (2025)",
+      "title": "Teaching Large Language Models to Regress Accurate Image Quality Scores Using Score Distribution (DeQA-Score)",
+      "authors": "Zhiyuan You; Xin Cai; Jinjin Gu; Tianfan Xue; Chao Dong",
+      "year": 2025,
+      "venue": "arXiv:2501.11561（SIAT/CUHK/SUAT）",
+      "url": "https://arxiv.org/abs/2501.11561",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search两次命中，摘要一致；depictqa.github.io/deqa-score开源。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "分数分布软标签回归代表工作；DepictQA团队新作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "分数分布回归",
+        "软标签",
+        "跨数据集共训"
+      ],
+      "key_finding": "针对MLLM离散token与连续分数不匹配，将分数分布离散化为软标签（而非one-hot均值），并引入Thurstone模型保真损失捕捉数据集内关系；多基准分数回归稳定优于基线，且可预测与人标注对齐的分数分布。",
+      "methods_notes": "范式：score distribution soft-label + Thurstone fidelity loss；多IQA数据集共训。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-021",
+      "citation_key": "Li et al. (2025)",
+      "title": "Next Token Is Enough: Realistic Image Quality and Aesthetic Scoring with Multimodal Large Language Model (RealQA)",
+      "authors": "Mingxing Li; Rui Wang; Lei Sun; Yancheng Bai; Xiangxiang Chu",
+      "year": 2025,
+      "venue": "arXiv:2503.06141（高德/BUPT等）",
+      "url": "https://arxiv.org/abs/2503.06141",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "UGC图像质量+美感打分新数据集与范式代表工作。",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "NR",
+      "themes": [
+        "next-token打分",
+        "RealQA数据集",
+        "细粒度属性"
+      ],
+      "key_finding": "构建RealQA数据集（14,715张UGC图，每图10项细粒度人类感知属性标注）；发现大规模数据训练后直接用next-token预测带两位小数的MOS即可领先，CoT融合细粒度属性后在5个IQA/IAA基准超SOTA且VQA零样本强。",
+      "methods_notes": "范式：数值next-token回归+CoT属性融合；RealQA数据集。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-022",
+      "citation_key": "Lu et al. (2025)",
+      "title": "Q-Adapt: Adapting LMM for Visual Quality Assessment with Progressive Instruction Tuning",
+      "authors": "Yiting Lu; Xin Li; Haoning Wu; Bingchen Li; Weisi Lin; Zhibo Chen",
+      "year": 2025,
+      "venue": "arXiv:2504.01655（USTC+NTU）",
+      "url": "https://arxiv.org/abs/2504.01655",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页+OpenReview页命中；github.com/yeppp27/Q-Adapt。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "可解释IQA（EIQA）渐进式指令微调代表工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "渐进指令微调",
+        "LoRA",
+        "可解释IQA"
+      ],
+      "key_finding": "针对整体质量解释与属性级感知问答联合微调时的冲突，分两阶段渐进式适配（LoRA通用感知知识+指令自适应视觉提示调优），轻量LMM即可在感知相关基准与常用IQA库上取得可比甚至更优结果。",
+      "methods_notes": "两阶段：LoRA迁移学习→视觉提示调优；任务：整体质量解释+属性级问答。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-023",
+      "citation_key": "Tang et al. (2025)",
+      "title": "Revisiting MLLM Based Image Quality Assessment: Errors and Remedy (Q-Scorer)",
+      "authors": "Zhenchen Tang; Songlin Yang; Bo Peng; Zichuan Wang; Jing Dong",
+      "year": 2025,
+      "venue": "arXiv:2511.07812（中科院自动化所+HKUST MMLab）",
+      "url": "https://arxiv.org/abs/2511.07812",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页两次命中。",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "2025年11月新预印本，尚无录用信息；作为对Q-Align式等级token的直接批评线索保留。",
+      "is_seminal": "no",
+      "role": "局限证据",
+      "fr_type": "NR",
+      "themes": [
+        "分数转换误差",
+        "等级token语义混淆",
+        "回归模块补救"
+      ],
+      "key_finding": "理论分析指出既往方法把离散token预测转连续分数存在转换误差，且good/bad等等级token引入语义混淆；提出轻量回归模块+IQA专用分数token的Q-Scorer，多基准SOTA且混合数据集泛化好。",
+      "methods_notes": "范式：轻量回归头+专用score token；批评对象含Q-Align等级token路线。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-024",
+      "citation_key": "Wang et al. (2024)",
+      "title": "Large Multi-modality Model Assisted AI-Generated Image Quality Assessment (MA-AGIQA)",
+      "authors": "Puyi Wang; Wei Sun; Zicheng Zhang; Jun Jia; Yanwei Jiang; Zhichao Zhang; Xiongguo Min; Guangtao Zhai",
+      "year": 2024,
+      "venue": "ACM MM 2024（上交大）",
+      "url": "https://arxiv.org/abs/2404.17762",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页注明ACM MM 2024 Melbourne；github.com/wangpuyi/MA-AGIQA。",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ACM MM 2024（CCF-A）；AI生成图像质量评估代表工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "AIGC图像质量",
+        "语义感知",
+        "MoE融合"
+      ],
+      "key_finding": "传统DNN-IQA在AI生成图上失效，MA-AGIQA用多模态模型提取语义向量引导，MoE结构融合语义信息与传统质量特征；在2个AIGC数据集+2个传统IQA数据集达SOTA且泛化性好。",
+      "methods_notes": "范式：MLLM语义引导+MoE融合质量特征；评测：AGIQA-2023等AIGC数据集。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-025",
+      "citation_key": "Cui et al. (2025)",
+      "title": "M3-AGIQA: Multimodal, Multi-Round, Multi-Aspect AI-Generated Image Quality Assessment",
+      "authors": "Chuan Cui; Kejiang Chen; Zhihua Wei; Wen Shen; Weiming Zhang; Nenghai Yu",
+      "year": 2025,
+      "venue": "arXiv:2502.15167（同济+中科大）",
+      "url": "https://arxiv.org/abs/2502.15167",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中；github.com/strawhatboy/M3-AGIQA。",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "AIGC图像多轮多面质量评估代表工作。",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "AIGC质量",
+        "多轮评估",
+        "三方面对齐"
+      ],
+      "key_finding": "用MLLM对AI生成图从感知质量/提示对应/真实性三方面做结构化多轮评估（先生成中间描述再分析），多基准SOTA、跨数据集泛化强。",
+      "methods_notes": "范式：multi-round描述→三方面打分；AIGC质量评估。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B4-026",
+      "citation_key": "Li et al. (2026)",
+      "title": "VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models",
+      "authors": "Yunhao Li; Sijing Wu; Zhilin Gao; Zicheng Zhang; Qi Jia; Huiyu Duan; Xionghkuo Min; Guangtao Zhai",
+      "year": 2026,
+      "venue": "arXiv:2601.21915（上交大，2026年1月预印本）",
+      "url": "https://arxiv.org/abs/2601.21915",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv摘要页命中；github.com/michaelliyunhao/VideoAesBench。",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "2026年最新预印本，尚无录用信息；作为最新时间线证据。",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "NR",
+      "themes": [
+        "视频美学",
+        "benchmark",
+        "2026最新"
+      ],
+      "key_finding": "构建1,804个多来源视频（UGC/AIGC/压缩/RGC/游戏）美学感知benchmark，评测23个开源与商用LMM；结论：当前LMM仅具备基础视频美学感知能力，性能不完整不精确。",
+      "methods_notes": "多题型（单选/多选/判断/开放式描述）；视觉形式/风格/情感三维度；23个LMM受测。",
+      "citation_count": "unknown",
+      "branches": [
+        "B4"
+      ]
+    },
+    {
+      "id": "B5-001",
+      "citation_key": "Gu等(2020)",
+      "title": "GIQA: Generated Image Quality Assessment",
+      "authors": "Shuyang Gu, Jianmin Bao, Dong Chen, Fang Wen",
+      "year": 2020,
+      "venue": "arXiv 2003.08932（预印本；早期曾被CVPR相关工作广泛引用）",
+      "url": "https://arxiv.org/abs/2003.08932",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文页，标题/作者/年份完全一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "high_citation",
+      "quality_basis": "GAN生成图像单图质量评价的开创性题目提出者，被后续AIGCIQA文献反复共引；纯预印本故列C",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "NR",
+      "themes": [
+        "GAN生成图像",
+        "奠基"
+      ],
+      "key_finding": "首次提出对单张GAN生成图像做质量定量评价(GIQA)，给出learning-based与data-based两类算法，与人类评估一致",
+      "methods_notes": "对象为GAN生成图；无MOS数据库，用真实/生成分布似然做单图打分；可分离realism与diversity",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-002",
+      "citation_key": "Zhang等(2023)",
+      "title": "A Perceptual Quality Assessment Exploration for AIGC Images（AGIQA-1K）",
+      "authors": "Zicheng Zhang, Chunyi Li, Wei Sun, Xiaohong Liu, Xiongkuo Min, Guangtao Zhai",
+      "year": 2023,
+      "venue": "arXiv 2303.12618；IEEE Xplore收录(文档号10222021，对应会议未逐页核实)",
+      "url": "https://arxiv.org/abs/2303.12618",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv与IEEE Xplore(10222021，被引58)，标题作者一致；web.fetch arXiv摘要页确认提交日期2023-03-22",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "high_citation",
+      "quality_basis": "首个扩散模型生成图像感知质量数据库，上海交大翟广涛团队；被引58(Semantic Scholar摘要层)；IEEE Xplore正式收录",
+      "is_seminal": "yes",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "文生图"
+      ],
+      "key_finding": "首个面向AIGC感知质量评价的数据库AGIQA-1K，含1080张扩散模型生成图，讨论技术失真/AI伪影/不自然/不一致/美学等评价维度，并对现有IQA模型做基准测试",
+      "methods_notes": "规模1080张AIGI，标注MOS；仅感知质量单维（未含文图对齐）；基线为传统NR-IQA模型",
+      "citation_count": "约58（摘要层，Semantic Scholar）",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-003",
+      "citation_key": "Li等(2023)",
+      "title": "AGIQA-3K: An Open Database for AI-Generated Image Quality Assessment",
+      "authors": "Chunyi Li, Zicheng Zhang, Haoning Wu, Wei Sun, Xiongkuo Min, Xiaohong Liu, Guangtao Zhai, Weisi Lin",
+      "year": 2023,
+      "venue": "arXiv 2306.04717",
+      "url": "https://arxiv.org/abs/2306.04717",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search两次命中arXiv原文，作者单位上海交大图像通信与网络工程研究所/NTU S-Lab，与父任务线索一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "high_citation",
+      "quality_basis": "目前最常被引用的AIGC质量-对齐双维数据库之一，被NTIRE2024挑战赛与后续AIGCIQA方法广泛作为训练/测试集；纯预印本列C",
+      "is_seminal": "yes",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "文生图对齐",
+        "偏好奖励模型"
+      ],
+      "key_finding": "构建细粒度多维主观库AGIQA-3K，同时收集感知质量与文生图对齐两维主观分；提出StairReward提升对齐评价；基准实验显示现有IQA模型与人类感知一致性有限",
+      "methods_notes": "覆盖多种主流AGI模型×多prompt×多采样参数；MOS双维度；提出StairReward对齐指标",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-004",
+      "citation_key": "Wang等(2023)",
+      "title": "AIGCIQA2023: A Large-scale Image Quality Assessment Database for AI Generated Images: from the Perspectives of Quality, Authenticity and Correspondence",
+      "authors": "Jiarui Wang, Huiyu Duan, Jing Liu, Shi Chen, Xiongkuo Min, Guangtao Zhai",
+      "year": 2023,
+      "venue": "arXiv 2307.00211",
+      "url": "https://arxiv.org/abs/2307.00211",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search多次命中arXiv原文，团队为上海交大翟广涛/段 Huiyu 组(IntMeGroup)",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "high_citation",
+      "quality_basis": "AIGC三视角(质量/真实性/对应性)标注范式代表作，被后续AIGCIQA方法(如PSCR/IP-IQA)作为共同测试集；纯预印本列C",
+      "is_seminal": "yes",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "文生图对齐"
+      ],
+      "key_finding": "建立大规模AIGC质量库AIGCIQA2023，从质量、真实性(authenticity)、对应性(correspondence)三视角采集人类视觉偏好，并评测主流IQA指标",
+      "methods_notes": "2000+张图，6个SOTA T2I模型×100个prompt；三维MOS；公开github.com/wangjiarui153/AIGCIQA2023",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-005",
+      "citation_key": "Wang等(2024)",
+      "title": "Quality Assessment for AI Generated Images with Instruction Tuning（AIGCIQA2023+ 与 MINT-IQA）",
+      "authors": "Jiarui Wang, Huiyu Duan, Guangtao Zhai, Xiongkuo Min",
+      "year": 2024,
+      "venue": "arXiv 2405.07346",
+      "url": "https://arxiv.org/abs/2405.07346",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，被引10(摘要层)",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "AIGCIQA2023+库+指令微调解释性偏好评价代表作；纯预印本",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "质量数据库",
+        "大模型评判AIGC",
+        "文生图对齐"
+      ],
+      "key_finding": "在AIGCIQA2023基础上建立带偏好解释文本的AIGCIQA2023+库，提出MINT-IQA，通过视觉-语言指令微调实现多视角(质量/真实性/对应性)偏好打分与解释",
+      "methods_notes": "多视角偏好+自然语言解释；MLLM指令微调路线；与传统IQA模型竞争性能",
+      "citation_count": "约10（摘要层）",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-006",
+      "citation_key": "Yuan等(2023)",
+      "title": "PKU-I2IQA: An Image-to-Image Quality Assessment Database for AI Generated Images",
+      "authors": "Jiquan Yuan, Xinyan Cao, Changjin Li, Fanyi Yang, Jinlong Lin, Xixin Cao",
+      "year": 2023,
+      "venue": "arXiv 2311.15556",
+      "url": "https://arxiv.org/abs/2311.15556",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，北京大学软件与微电子学院团队，与父任务\"图生图Yuan等\"线索一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "首个图生图(I2I)AIGC质量数据库；纯预印本",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "图生图"
+      ],
+      "key_finding": "指出既有库(AGIQA-1K/3K、AIGCIQA2023)仅覆盖文生图，建立图生图主观质量库PKU-I2IQA，并给出NR-AIGCIQA与FR-AIGCIQA两个基线模型",
+      "methods_notes": "图生图场景；含NR与FR双基线；公开github.com/jiquan123/I2IQA",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-008",
+      "citation_key": "Li等(2024)",
+      "title": "AIGIQA-20K: A Large Database for AI-Generated Image Quality Assessment",
+      "authors": "Chunyi Li, Tengchuan Kou, Yixuan Gao, Yuqin Cao, Wei Sun, Zicheng Zhang, Yingjie Zhou, Zhichao Zhang, Weixia Zhang, Haoning Wu, Xiaohong Liu, Xiongkuo Min, Guangtao Zhai",
+      "year": 2024,
+      "venue": "arXiv 2404.03407（NTIRE 2024挑战赛官方用库）",
+      "url": "https://arxiv.org/abs/2404.03407",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，库规模20000图/420000评分；注：父任务种子名\"AIGCIQA-20K\"有误，实际名为AIGIQA-20K",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "high_citation",
+      "quality_basis": "目前最大规模细粒度AIGC主观质量库，NTIRE2024挑战赛指定用库；纯预印本",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "挑战赛",
+        "文生图对齐"
+      ],
+      "key_finding": "在NTIRE2024挑战赛组织过程中构建AIGIQA-20K：15个生成模型×动态超参(CFG/迭代轮数/分辨率)生成20000张图，21名受试者标注感知质量+对齐综合MOS，共420000条评分，并基准测试16个主流AIGI质量模型",
+      "methods_notes": "20000张图；420000条主观评分；感知质量+文图对齐双维度合并标注",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-009",
+      "citation_key": "Li等(2024)挑战报告",
+      "title": "NTIRE 2024 Quality Assessment of AI-Generated Content Challenge",
+      "authors": "Chunyi Li, Zicheng Zhang, Wei Sun, Xiaohong Liu, Xiongkuo Min, Guangtao Zhai 等（组织方）+ 16支参赛队",
+      "year": 2024,
+      "venue": "CVPR Workshops (CVPRW 2024, NTIR研讨会)；arXiv 2404.16687",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024W/NTIRE/papers/Liu_NTIRE_2024_Quality_Assessment_of_AI-Generated_Content_Challenge_CVPRW_2024_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中CVF开放获取CVPR2024W版与arXiv版；图像赛道用库为AIGIQA-20K(早期报告v1曾写作AIGQA-20K)",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "top_journal",
+      "quality_basis": "CVPRW正式发表的AIGC质量评价挑战赛报告，是该领域阶段性方法水平的官方锚点",
+      "is_seminal": "no",
+      "role": "挑战赛",
+      "fr_type": "数据库",
+      "themes": [
+        "挑战赛",
+        "质量数据库"
+      ],
+      "key_finding": "NTIRE2024 AIGC质量评价挑战赛分图像赛道(用AIGIQA-20K，318人注册、16队提交)与视频赛道(用T2VQA-DB)；报告获奖方法相对基线的预测性能提升",
+      "methods_notes": "图像+视频双赛道；MOS预测任务；赛题报告汇总各队方法",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-010",
+      "citation_key": "Chen等(2023)",
+      "title": "Study of Subjective and Objective Naturalness Assessment of AI-Generated Images（AGIN数据库与JOINT模型）",
+      "authors": "Zijian Chen, Wei Sun, Haoning Wu, Zicheng Zhang, Jun Jia, Ru Huang, Xiongkuo Min, Guangtao Zhai, Wenjun Zhang",
+      "year": 2023,
+      "venue": "arXiv 2312.05476；后刊于IEEE Transactions on Circuits and Systems for Video Technology(TCSVT)",
+      "url": "https://arxiv.org/abs/2312.05476",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中OpenReview/IEEE TCSVT版与arXiv版；AGIN规模6049图/907350条人类评价",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "SCI期刊IEEE TCSVT正式发表；技术失真与理性失真双视角自然度评价开创性工作",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "NR",
+      "themes": [
+        "质量数据库",
+        "自然度",
+        "理性失真"
+      ],
+      "key_finding": "首次基准化AI生成图像视觉自然度：构建AGIN库(6049图，5类生成任务18模型变体，907350条技术/理性视角评价)；发现整体自然度分≈0.145×技术分+0.769×理性分的线性加权关系；提出JOINT联合学习技术与理性分支",
+      "methods_notes": "自然度评价；技术质量vs理性(rationality)两维；JOINT/JOINT++两种监督",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-011",
+      "citation_key": "Tian等(2024)",
+      "title": "AI-generated Image Quality Assessment in Visual Communication（AIGI-VC）",
+      "authors": "Yu Tian, Yixuan Li, Baoliang Chen, Hanwei Zhu, Shiqi Wang, Sam Kwong",
+      "year": 2024,
+      "venue": "arXiv 2412.15677",
+      "url": "https://arxiv.org/abs/2412.15677",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，香港城市大学Wang Shiqi团队，与父任务\"视觉传播场景2024\"线索一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "首个面向广告视觉传播应用的AIGC质量库；纯预印本",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "应用导向",
+        "偏好解释"
+      ],
+      "key_finding": "指出现有AIGC-IQA只看生成内容本身、忽略真实应用有效性；建立AIGI-VC库(2500图，14个广告主题×8种情绪类型)，从信息清晰度与情感互动两视角标注粗粒度偏好+细粒度偏好描述",
+      "methods_notes": "广告传播场景；偏好预测/解释/推理三任务；评测传统IQA与大多模态模型",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-012",
+      "citation_key": "Qian等(2025)",
+      "title": "Towards Explainable Partial-AIGC Image Quality Assessment（EPAIQA-15K）",
+      "authors": "Jiaying Qian, Ziheng Jia, Zicheng Zhang, Zeyu Zhang, Guangtao Zhai, Xiongkuo Min",
+      "year": 2025,
+      "venue": "arXiv 2504.09291",
+      "url": "https://arxiv.org/abs/2504.09291",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，与父任务\"局部AIGC编辑2025\"线索一致",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "首个局部AI编辑图像(PAI)大规模质量库；纯预印本",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "局部编辑",
+        "质量数据库",
+        "大模型评判AIGC"
+      ],
+      "key_finding": "指出现有AIGCIQA只覆盖全图生成、局部AI编辑图(partial-AIGC image)几乎空白；构建EPAIQA-15K(15000张局部编辑图+300000多维人类评分)，用大模型三阶段训练范式实现编辑区域定位→质量打分→质量解释",
+      "methods_notes": "局部编辑场景；LMM三阶段(grounding/scoring/explanation)；解释性质量反馈",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-013",
+      "citation_key": "Wang等(2025)",
+      "title": "AU-IQA: A Benchmark Dataset for Perceptual Quality Assessment of AI-Enhanced User-Generated Content",
+      "authors": "Shushi Wang, Chunyi Li, Zicheng Zhang, Han Zhou, Wei Dong, Jun Chen, Guangtao Zhai, Xiaohong Liu",
+      "year": 2025,
+      "venue": "ACM International Conference on Multimedia (MM '25)；arXiv 2508.05016",
+      "url": "https://arxiv.org/abs/2508.05016",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文并标注Proceedings of ACM MM 2025，与父任务\"AI增强UGC 2025 ACM MM\"线索一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ACM MM(CCF-A类多媒体顶会)正式发表",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "AI增强内容",
+        "质量数据库"
+      ],
+      "key_finding": "构建AI增强UGC(AI-UGC)感知质量库AU-IQA：4800张由超分/低光照增强/去噪三类增强技术处理的UGC图，评测传统IQA模型与大多模态模型在该混合场景的表现",
+      "methods_notes": "AI增强而非AI生成；三类增强任务；传统IQA与LMM对比",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-014",
+      "citation_key": "Wang等(2025)",
+      "title": "LMM4LMM: Benchmarking and Evaluating Large-multimodal Image Generation with LMMs（EvalMi-50K）",
+      "authors": "Jiarui Wang, Huiyu Duan, Yu Zhao, Juntong Wang, Guangtao Zhai, Xiongkuo Min",
+      "year": 2025,
+      "venue": "arXiv 2504.08358",
+      "url": "https://arxiv.org/abs/2504.08358",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，同IntMeGroup",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "2025年最新大规模人类偏好标注评测库；纯预印本",
+      "is_seminal": "no",
+      "role": "benchmark/dataset",
+      "fr_type": "数据库",
+      "themes": [
+        "质量数据库",
+        "大模型评判AIGC",
+        "文生图对齐"
+      ],
+      "key_finding": "构建EvalMi-50K：2100个prompt×20个细粒度任务维度，24个T2I模型生成50400张图，标注100K条MOS与50K条QA对；提出LMM4LMM评测指标(感知/文图对应/任务准确性多维)",
+      "methods_notes": "50400图/100K MOS；LMM评分模型；跨库泛化评测",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-015",
+      "citation_key": "Qu等(2024)",
+      "title": "Bringing Textual Prompt to AI-Generated Image Quality Assessment（IP-IQA）",
+      "authors": "Bowen Qu, Haohui Li, Wei Gao",
+      "year": 2024,
+      "venue": "arXiv 2403.18714",
+      "url": "https://arxiv.org/abs/2403.18714",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，北京大学电子计算机工程学院",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "AGIQA-1K/3K上SOTA的图像+prompt多模态AIGCIQA方法代表作；纯预印本",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "NR",
+      "themes": [
+        "文生图对齐",
+        "质量数据库"
+      ],
+      "key_finding": "指出AGI质量的多模态本质：ground truth分耦合了图与文本prompt对应关系，混淆单模态IQA；提出IP-IQA图像-prompt多模态框架，引入Image2Prompt增量预训练任务，在AGIQA-1K与AGIQA-3K上取得SOTA",
+      "methods_notes": "图像+prompt双流；[QA]token融合模块；plug-and-play",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-016",
+      "citation_key": "Xu等(2023)",
+      "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
+      "authors": "Jiazheng Xu, Xiao Liu, Yuchen Wu, Yuxuan Tong, Qinkai Li, Ming Ding, Jie Tang, Yuxiao Dong",
+      "year": 2023,
+      "venue": "NeurIPS 2023",
+      "url": "https://papers.neurips.cc/paper_files/paper/2023/file/33646ef0ed554145eab65f6250fab0c9-Paper-Conference.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中NeurIPS 2023会议论文集PDF",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "NeurIPS(CCF-A)正式发表；首个通用T2I人类偏好奖励模型，被后续对齐/奖励工作广泛作为评测标准",
+      "is_seminal": "yes",
+      "role": "偏好奖励模型",
+      "fr_type": "其他（奖励模型）",
+      "themes": [
+        "偏好奖励模型",
+        "文生图对齐"
+      ],
+      "key_finding": "构建首个通用文生图人类偏好奖励模型ImageReward：系统化标注流程收集137K专家成对比较；提出ReFL直接微调算法优化扩散模型；人类评测中优于现有打分模型与指标",
+      "methods_notes": "137K成对偏好；CLIP-based奖励模型；可做自动评测指标",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-017",
+      "citation_key": "Wu等(2023)",
+      "title": "Human Preference Score v2: A Solid Benchmark for Evaluating Human Preferences of Text-to-Image Synthesis（HPS v2 / HPD v2）",
+      "authors": "Xiaoshi Wu, Yiming Hao, Keqiang Sun, Yixiong Chen, Feng Zhu, Rui Zhao, Hongsheng Li",
+      "year": 2023,
+      "venue": "arXiv 2306.09341（注：v1为arXiv 2303.14420，Discord渠道偏好）",
+      "url": "https://arxiv.org/abs/2306.09341",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search两次命中arXiv原文，CUHK多媒体实验室/商汤团队",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "high_citation",
+      "quality_basis": "目前T2I模型评测最常用的人类偏好打分模型之一；会议录用信息未核实，按纯预印本列C",
+      "is_seminal": "yes",
+      "role": "偏好奖励模型",
+      "fr_type": "其他（奖励模型）",
+      "themes": [
+        "偏好奖励模型",
+        "文生图对齐"
+      ],
+      "key_finding": "构建HPD v2数据集：798090条人类偏好选择(433760对图)，刻意消除偏差；在其上微调CLIP得到HPS v2，跨图像分布泛化优于旧指标，并随生成算法改进而灵敏；建立T2I模型偏好基准",
+      "methods_notes": "798K偏好选择；CLIP微调；评测prompt设计指南",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-018",
+      "citation_key": "Ma等(2025)",
+      "title": "HPSv3: Towards Wide-Spectrum Human Preference Score",
+      "authors": "Yuhang Ma, Xiaoshi Wu, Keqiang Sun, Hongsheng Li",
+      "year": 2025,
+      "venue": "arXiv 2508.03789",
+      "url": "https://arxiv.org/abs/2508.03789",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文，同HPS团队延续",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "2025年最新HPS系列；纯预印本",
+      "is_seminal": "no",
+      "role": "偏好奖励模型",
+      "fr_type": "其他（奖励模型）",
+      "themes": [
+        "偏好奖励模型",
+        "文生图对齐"
+      ],
+      "key_finding": "发布HPDv3：1.08M文图对+1.17M成对比较，首次覆盖从SOTA生成模型到低质量真实图的宽频谱；提出基于VLM与不确定性感知排序损失的HPSv3偏好模型，以及CoHP链式人类偏好图像精修方法",
+      "methods_notes": "1.17M比较对；VLM偏好模型；CoHP迭代选图",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-019",
+      "citation_key": "Kirstain等(2023)",
+      "title": "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation（PickScore）",
+      "authors": "Yuval Kirstain, Adam Polyak, Uriel Singer, Shahbuland Matiana, Joe Penna, Omer Levy",
+      "year": 2023,
+      "venue": "NeurIPS 2023 Datasets and Benchmarks Track",
+      "url": "https://www.proceedings.com/content/075/075280-1594open.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中NeurIPS论文集PDF；特拉维夫大学+Stability AI",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "NeurIPS D&B Track正式发表；开放T2I偏好数据集代表，被Diffusion-DPO等对齐工作采用",
+      "is_seminal": "yes",
+      "role": "偏好奖励模型",
+      "fr_type": "其他（奖励模型）",
+      "themes": [
+        "偏好奖励模型",
+        "文生图对齐"
+      ],
+      "key_finding": "通过Web应用收集真实用户T2I偏好，建立大规模开放数据集Pick-a-Pic；训练CLIP打分函数PickScore，预测人类偏好达超人类水平，与人类排序相关性优于其他自动指标",
+      "methods_notes": "约100万级用户偏好对（后续Diffusion-DPO引用为851K成对偏好）；PickScore可用于模型评测与排序选图",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-020",
+      "citation_key": "Zhang等(2024)",
+      "title": "Learning Multi-dimensional Human Preference for Text-to-Image Generation（MPS / MHP Dataset）",
+      "authors": "Sixian Zhang, Bohan Wang, Junqiang Wu, Yan Li, Tingting Gao, Di Zhang, Zhongyuan Wang",
+      "year": 2024,
+      "venue": "CVPR 2024",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Learning_Multi-Dimensional_Human_Preference_for_Text-to-Image_Generation_CVPR_2024_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中CVF CVPR2024开放获取PDF；快手团队",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "CVPR(CCF-A)正式发表；首个多维人类偏好打分模型",
+      "is_seminal": "no",
+      "role": "偏好奖励模型",
+      "fr_type": "其他（奖励模型）",
+      "themes": [
+        "偏好奖励模型",
+        "文生图对齐"
+      ],
+      "key_finding": "指出现有偏好模型把人类偏好压缩为单一总分；构建MHP数据集(918315条偏好选择，覆盖美学/语义对齐/细节质量/总体评估4维)，提出偏好条件模块的MPS多维打分模型",
+      "methods_notes": "918K四维偏好；CLIP+preference condition module",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-021",
+      "citation_key": "Wu等(2024)",
+      "title": "Multimodal Large Language Models Make Text-to-Image Generative Models Align Better（VisionPrefer / VP-Score）",
+      "authors": "Xun Wu, Shaohan Huang, Guolong Wang, Jing Xiong, Furu Wei",
+      "year": 2024,
+      "venue": "NeurIPS 2024",
+      "url": "https://papers.nips.cc/paper_files/paper/2024/file/9421261e06f1a63a352b068f1ac90609-Paper-Conference.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中NeurIPS 2024会议论文集PDF与arXiv 2404.15100；微软亚洲研究院",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "NeurIPS(CCF-A)正式发表；MLLM合成偏好数据路线代表作",
+      "is_seminal": "no",
+      "role": "偏好奖励模型",
+      "fr_type": "其他（奖励模型）",
+      "themes": [
+        "偏好奖励模型",
+        "大模型评判AIGC",
+        "文生图对齐"
+      ],
+      "key_finding": "用MLLM构造细粒度偏好数据集VisionPrefer(1.2M偏好选择，覆盖prompt遵循/美学/保真/无害4维)，训练VP-Score奖励模型，经PPO/DPO微调T2I模型",
+      "methods_notes": "AI标注偏好数据；四维细粒度；VP-Score+RL微调",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-022",
+      "citation_key": "Lin等(2024)",
+      "title": "Evaluating Text-to-Visual Generation with Image-to-Text Generation（VQAScore）",
+      "authors": "Zhiqiu Lin, Deepak Pathak, Baiqi Li, Jiayao Li, Xide Xia, Graham Neubig, Pengchuan Zhang, Deva Ramanan",
+      "year": 2024,
+      "venue": "arXiv 2404.01291",
+      "url": "https://arxiv.org/abs/2404.01291",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文；CMU+Meta",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "high_citation",
+      "quality_basis": "目前复杂组合型文图对齐评测最常用的VQA类指标之一；会议录用未核实按预印本列C",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "其他（对齐指标）",
+      "themes": [
+        "文生图对齐",
+        "VQA类指标"
+      ],
+      "key_finding": "用VQA模型对\"Does this figure show [text]?\"回答Yes的概率计算对齐分；现成模型即可在8个文图对齐基准上达SOTA，可超越GPT4-V类基线；缓解CLIPScore\"词袋\"问题",
+      "methods_notes": "Yes概率打分；CLIP-FlanT5自研模型；亦可扩展到视频/3D对齐",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-023",
+      "citation_key": "Li等(2024)",
+      "title": "GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation（含GenAI-Rank）",
+      "authors": "Baiqi Li, Zhiqiu Lin, Deepak Pathak, Jiayao Li, Yixin Fei, Kewen Wu, Tiffany Ling, Xide Xia, Pengchuan Zhang, Graham Neubig, Deva Ramanan",
+      "year": 2024,
+      "venue": "arXiv 2406.13743",
+      "url": "https://arxiv.org/abs/2406.13743",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文；同VQAScore团队",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "组合型文生视觉人类评测基准+指标排序基准；纯预印本",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "其他（benchmark）",
+      "themes": [
+        "文生图对齐",
+        "benchmark"
+      ],
+      "key_finding": "GenAI-Bench含1600个组合型prompt与15000+人类评分；VQAScore在黑盒排序选图上比PickScore/HPSv2/ImageReward有效2-3倍；另发布GenAI-Rank(40000+人类评分)评测打分指标",
+      "methods_notes": "组合型prompt；排序选图(ranking)评测协议",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-024",
+      "citation_key": "Hu等(2023)",
+      "title": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
+      "authors": "Yushi Hu, Benlin Liu, Jungo Kasai, Yizhong Wang, Mari Ostendorf, Ranjay Krishna, Noah A. Smith",
+      "year": 2023,
+      "venue": "ICCV 2023",
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Hu_TIFA_Accurate_and_Interpretable_Text-to-Image_Faithfulness_Evaluation_with_Question_Answering_ICCV_2023_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中CVF ICCV2023开放获取PDF；华盛顿大学/AI2",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ICCV(CCF-A)正式发表；T2I忠实性VQA评测奠基作",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "其他（对齐指标）",
+      "themes": [
+        "文生图对齐",
+        "VQA类指标"
+      ],
+      "key_finding": "用LM自动生成QA对、VQA模型回答来度量生成图对文本的忠实度；TIFA v1.0含4000文本输入/25000问题/12类；发现现有T2I模型在计数、空间关系、多物体组合上仍弱",
+      "methods_notes": "无参考指标；细粒度可解释；12类问题",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-025",
+      "citation_key": "Huang等(2023)",
+      "title": "T2I-CompBench: A Comprehensive Benchmark for Open-world Compositional Text-to-image Generation",
+      "authors": "Kaiyi Huang, Kaiyue Sun, Enze Xie, Zhenguo Li, Xihui Liu",
+      "year": 2023,
+      "venue": "NeurIPS 2023 Datasets and Benchmarks Track",
+      "url": "https://papers.neurips.cc/paper_files/paper/2023/file/f8ad010cdd9143dbb0e9308c093aff24-Paper-Datasets_and_Benchmarks.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中NeurIPS D&B论文集PDF；港大刘熙团队",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "NeurIPS D&B Track正式发表；开放世界组合型T2I评测标准",
+      "is_seminal": "yes",
+      "role": "benchmark",
+      "fr_type": "其他（benchmark）",
+      "themes": [
+        "文生图对齐",
+        "benchmark"
+      ],
+      "key_finding": "构建组合型T2I综合基准：6000条组合prompt(属性绑定/物体关系/复杂组合3大类6子类)，提出组合专属评测指标并探索MLLM评测潜力；另提出GORS奖励驱动样本选择方法",
+      "methods_notes": "组合生成评测；CLIPScore类+检测类指标；MLLM评测探索",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-026",
+      "citation_key": "Ku等(2024)",
+      "title": "ImagenHub: Standardizing the Evaluation of Conditional Image Generation Models",
+      "authors": "Max Ku, Tianle Li, Kai Zhang, Yujie Lu, Xingyu Fu, Wenwen Zhuang, Wenhu Chen",
+      "year": 2024,
+      "venue": "ICLR 2024",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/cbdeb402cd9adc39f5c50725c961b552-Paper-Conference.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中ICLR 2024会议论文集PDF；滑铁卢大学Wenhu Chen团队",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ICLR(CCF-A)正式发表；条件图像生成统一评测库",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "其他（benchmark）",
+      "themes": [
+        "benchmark",
+        "传统IQA失效证据"
+      ],
+      "key_finding": "统一7类条件图像生成任务的评测管线(约30个模型)；发现除主体驱动生成外，现有自动指标与人类判断的Spearman相关性均低于0.2——传统/现有自动指标在AIGC上失效的关键证据；74%模型总分低于0.5",
+      "methods_notes": "专家标注员人工评测；语义一致性+感知质量两维人类分数",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-027",
+      "citation_key": "Lee等(2023)",
+      "title": "Holistic Evaluation of Text-to-Image Models（HEIM）",
+      "authors": "Tony Lee, Michihiro Yasunaga, Chenlin Meng, Yifan Mai, Joon Sung Park, Agrim Gupta, Yunzhi Zhang, Deepak Narayanan, Hannah Benita Teufel, Marco Bellagente, Minguk Kang, Taesung Park, Jure Leskovec, Junyan Zhu, Li Feifei, Jiajun Wu, Stefano Ermon, Percy Liang",
+      "year": 2023,
+      "venue": "NeurIPS 2023 Datasets and Benchmarks Track",
+      "url": "https://papers.neurips.cc/paper_files/paper/2023/file/dd83eada2c3c74db3c7fe1c087513756-Datasets_and_Benchmarks.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中NeurIPS D&B论文集补充材料PDF；斯坦福CRFM",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "NeurIPS D&B Track正式发表；T2I模型整体能力评测标杆",
+      "is_seminal": "no",
+      "role": "benchmark",
+      "fr_type": "其他（benchmark）",
+      "themes": [
+        "benchmark",
+        "文生图对齐"
+      ],
+      "key_finding": "从12个维度(文图对齐/图像质量/美学/原创性/推理/知识/偏见/毒性/公平/鲁棒/多语言/效率)评测26个SOTA T2I模型(62场景)；无单一模型全维度领先",
+      "methods_notes": "12维62场景；人类评测结果全公开",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B5-028",
+      "citation_key": "Ku等(2024)",
+      "title": "VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation",
+      "authors": "Max Ku, Dongfu Jiang, Cong Wei, Xiang Yue, Wenhu Chen",
+      "year": 2024,
+      "venue": "ACL 2024",
+      "url": "https://aclanthology.org/2024.acl-long.663.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中ACL Anthology PDF；同ImagenHub团队",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "ACL(CCF-A)正式发表；MLLM可解释条件图像生成评测指标",
+      "is_seminal": "no",
+      "role": "代表路线",
+      "fr_type": "其他（对齐指标）",
+      "themes": [
+        "大模型评判AIGC",
+        "文生图对齐"
+      ],
+      "key_finding": "用通用MLLM(无需训练)做7类条件图像任务评测：VIEScore(GPT-4o)与人类评测Spearman相关约0.4，接近人-人相关0.45；开源MLLM明显弱于GPT-4o；生成任务上与人评相当，编辑任务上仍吃力",
+      "methods_notes": "无需训练的MLLM prompt评测；7类条件生成任务",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B6-007",
+      "citation_key": "Tian et al.（2025）",
+      "title": "Quality Assessment for Text-to-Image Generation: A Survey",
+      "authors": "Yu Tian, Yue Liu, Shiqi Wang, Sam Kwong",
+      "year": 2025,
+      "venue": "IEEE Multimedia（早期访问/2025年卷期）",
+      "url": "https://scholars.cityu.edu.hk/ws/portalfiles/portal/326543339/273200502.pdf",
+      "doi": "",
+      "verification": "MINOR",
+      "verify_evidence": "CityU Scholars全文命中，作者单位香港城市大学；确切卷期页码为IEEE Multimedia早期访问未最终确认，年份标2025",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "IEEE Multimedia（SCI期刊），港城大王世琪团队T2I质量评价专题综述",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "AIGC",
+        "文生图",
+        "对齐",
+        "美学"
+      ],
+      "key_finding": "从主观/客观两视角综述文生图质量评价，覆盖文本-图像对齐、感知、美学、公平性、毒性等维度",
+      "methods_notes": "摘要层；卷期终稿前需在IEEE Xplore核对",
+      "citation_count": "",
+      "branches": [
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "B5-031",
+      "citation_key": "Ghildyal等(2024)",
+      "title": "Quality Prediction of AI Generated Images and Videos: Emerging Trends and Opportunities",
+      "authors": "Abhijay Ghildyal, Yuanhan Chen, Saman Zadtootaghaj, Nabajeet Barman, Alan C. Bovik",
+      "year": 2024,
+      "venue": "arXiv 2410.08534（同主题亦见ACM MM Workshop论文，DOI 10.1145/3715675.3715831）",
+      "url": "https://arxiv.org/abs/2410.08534",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中arXiv原文与ACM DL记录；UT Austin Bovik团队",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "high_citation",
+      "quality_basis": "IQA权威Bovik参与的立场论文，指出传统IQA/VQA面向\"重建保真\"、不适配生成内容；预印本/会议录列C",
+      "is_seminal": "no",
+      "role": "局限证据",
+      "fr_type": "其他（立场论文）",
+      "themes": [
+        "传统IQA失效证据",
+        "综述",
+        "AIGC",
+        "生成式失真",
+        "QoE"
+      ],
+      "key_finding": "系统指出：多数既有IQA/VQA模型度量的是对原始参考的\"重建\"保真度，并非为\"生成\"伪影设计；小而失真的数据集限制了GenAI质量模型评测",
+      "methods_notes": "立场/趋势论文；面向QoE部署视角",
+      "citation_count": "",
+      "branches": [
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "B5-032",
+      "citation_key": "Schuhmann等(2022)",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "authors": "Christoph Schuhmann, Romain Beaumont, Richard Vencu, Cade Gordon, Ross Wightman, ... Jenia Jitsev",
+      "year": 2022,
+      "venue": "NeurIPS 2022 Datasets and Benchmarks Track",
+      "url": "https://papers.neurips.cc/paper_files/paper/2022/file/a1859debfb3b59d094f3504d5ebb6c25-Paper-Datasets_and_Benchmarks.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search命中NeurIPS D&B论文集PDF；LAION组织",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "NeurIPS D&B Track正式发表；LAION-Aesthetics美学预测器(LAP v1/v2)即由该数据集生态训练/发布，是T2I美学打分的事实标准之一",
+      "is_seminal": "no",
+      "role": "背景数据库",
+      "fr_type": "其他（数据库）",
+      "themes": [
+        "美学评价",
+        "背景"
+      ],
+      "key_finding": "LAION-5B(58.5亿文图对)及其LAION-Aesthetics子集(约12亿图)的构建管道；其上训练的美学预测器LAP被广泛用于生成数据筛选与美学打分",
+      "methods_notes": "注：LAP v1/v2本身是社区发布的模型而非同行评议论文，引用时应引用本LAION-5B论文并注明",
+      "citation_count": "",
+      "branches": [
+        "B5"
+      ]
+    },
+    {
+      "id": "B6-001",
+      "citation_key": "Lin and Kuo（2011）",
+      "title": "Perceptual visual quality metrics: A survey",
+      "authors": "Weisi Lin, C.-C. Jay Kuo",
+      "year": 2011,
+      "venue": "Journal of Visual Communication and Image Representation, 22(4): 297-312",
+      "url": "https://doi.org/10.1016/j.jvcir.2011.01.005",
+      "doi": "10.1016/j.jvcir.2011.01.005",
+      "verification": "VERIFIED",
+      "verify_evidence": "scholar_search标题命中，作者/期刊/年份与多篇引文一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "high_citation",
+      "quality_basis": "Elsevier期刊，被引数百（Google Scholar显示2000+），IQA领域高频引用综述",
+      "is_seminal": "yes",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "感知质量指标"
+      ],
+      "key_finding": "系统综述PVQM的计算模块（信号分解、JND、视觉注意）与SSIM/VSNR/IFC/VIF等指标在7个数据库上的比较",
+      "methods_notes": "摘要层：3832幅测试图像比较6个常用指标",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-002",
+      "citation_key": "Zhai and Min（2020）",
+      "title": "Perceptual image quality assessment: a survey",
+      "authors": "Guangtao Zhai, Xionkuo Min",
+      "year": 2020,
+      "venue": "Science China Information Sciences, 63(11)",
+      "url": "https://link.springer.com/content/pdf/10.1007/s11432-019-2757-1.pdf",
+      "doi": "10.1007/s11432-019-2757-1",
+      "verification": "VERIFIED",
+      "verify_evidence": "SpringerLink全文链接命中，标题/作者/期刊一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "Science China Information Sciences（中科院/SCI期刊），上海交大翟广涛团队，被引数百",
+      "is_seminal": "yes",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "主观数据库",
+        "客观指标",
+        "评价协议"
+      ],
+      "key_finding": "先综述主观数据库，再按方法学分类综述客观指标，并引入评价协议比较SOTA指标性能",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-003",
+      "citation_key": "Manap and Shao（2015）",
+      "title": "Non-distortion-specific no-reference image quality assessment: A survey",
+      "authors": "Redzuan Abdul Manap, Ling Shao",
+      "year": 2015,
+      "venue": "Information Sciences, 301: 141-160",
+      "url": "https://doi.org/10.1016/j.ins.2014.12.055",
+      "doi": "10.1016/j.ins.2014.12.055",
+      "verification": "VERIFIED",
+      "verify_evidence": "多篇后续论文引用（IET/ASCE）给出卷期页141-160，与检索一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "Information Sciences（SCI一区，CCF-B），NR-IQA代表性综述",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "NR-IQA",
+        "NSS"
+      ],
+      "key_finding": "将非失真特异NR-IQA分为NSS派与学习派，讨论性能、局限与趋势",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-004",
+      "citation_key": "Rehman et al.（2024）",
+      "title": "IQA Vision Transformed: A Survey of Transformer Architectures in Perceptual Image Quality Assessment",
+      "authors": "Mobeen Ur Rehman, Imran Fareed Nizami, Farman Ullah, Irfan Hussain",
+      "year": 2024,
+      "venue": "IEEE Access",
+      "url": "https://ieeexplore.ieee.org/document/10767243",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "IEEE Xplore标题命中，document/10767243",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "IEEE Access（SCI），2024年Transformer-IQA专题综述",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "Transformer",
+        "NR-IQA",
+        "FR-IQA"
+      ],
+      "key_finding": "综述ViT在NR/FR-IQA中的应用，指出注意力机制对失真区域的对齐优势，展望混合架构与元学习",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-005",
+      "citation_key": "Ma et al.（2025）",
+      "title": "A Survey on Image Quality Assessment: Insights, Analysis, and Future Outlook",
+      "authors": "Chengqian Ma, Zhengyi Shi, Zhiqiang Lu, Shenghao Xie, Fei Chao, Yao Sui",
+      "year": 2025,
+      "venue": "arXiv preprint arXiv:2502.08540",
+      "url": "https://arxiv.org/abs/2502.08540",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv标题与作者列表命中，检索显示被引2",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "arXiv预印本（截至2026-10未见正式录用信息），仅作近年全景参考",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "应用场景",
+        "CNN",
+        "Transformer"
+      ],
+      "key_finding": "按应用场景组织当代IQA方法（统计/机器学习/CNN/Transformer），强调可解释性与实用性",
+      "methods_notes": "摘要层；预印本",
+      "citation_count": "2",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-006",
+      "citation_key": "Wang（2023）",
+      "title": "Blind Image Quality Assessment: A Brief Survey",
+      "authors": "Miaohui Wang",
+      "year": 2023,
+      "venue": "arXiv preprint arXiv:2312.16551",
+      "url": "https://arxiv.org/abs/2312.16551",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv标题命中，检索显示被引2",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "arXiv预印本（未见正式录用），仅作脉络参考",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "BIQA",
+        "多模态"
+      ],
+      "key_finding": "覆盖手工特征BIQA、深度学习BIQA（监督/无监督）与多模态（视觉-音频、视觉-文本）质量评价",
+      "methods_notes": "摘要层；预印本",
+      "citation_count": "2",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-008",
+      "citation_key": "Hartwig et al.（2024）",
+      "title": "A Survey on Quality Metrics for Text-to-Image Generation",
+      "authors": "Sebastian Hartwig, Dominik Engel, Leon Sick, Hannah Kniesel, Tristan Payer, Poonam Poonam, Michael Glöckler, Alex Bäuerle, Timo Ropinski",
+      "year": 2024,
+      "venue": "arXiv preprint arXiv:2403.11821",
+      "url": "https://arxiv.org/abs/2403.11821",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "arXiv两版标题与作者命中（v2标题为Evaluating Text-to-Image Synthesis: Survey and Taxonomy）",
+      "read_status": "abstract",
+      "source_quality": "C",
+      "authority_signal": "not_established",
+      "quality_basis": "arXiv预印本（Ulm大学可视化组），作分类学参考",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "AIGC",
+        "文生图",
+        "指标分类"
+      ],
+      "key_finding": "提出文生图质量指标taxonomy：组合质量（compositional）与一般质量（general）两大准则，并整理专用benchmark",
+      "methods_notes": "摘要层；预印本",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-010",
+      "citation_key": "王志明（2015）",
+      "title": "无参考图像质量评价综述",
+      "authors": "王志明",
+      "year": 2015,
+      "venue": "自动化学报",
+      "url": "https://doi.org/10.16383/j.aas.2015.c140404",
+      "doi": "10.16383/j.aas.2015.c140404",
+      "verification": "MINOR",
+      "verify_evidence": "自动化学报官网PDF命中，标题作者一致；卷期页码终稿前按官网核对（DOI已确认）",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "自动化学报（EI/中文顶刊、CSCD），中文NR-IQA高被引综述",
+      "is_seminal": "yes",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "NR-IQA",
+        "中文工作"
+      ],
+      "key_finding": "综述20年NR-IQA技术，介绍评价指标与公开数据库，对近年非失真特异方法做公开库测试比较",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-011",
+      "citation_key": "方玉明等（2021）",
+      "title": "无参考图像质量评价研究进展",
+      "authors": "方玉明，眭相杰，鄢杰斌，刘学林，黄丽萍",
+      "year": 2021,
+      "venue": "中国图象图形学报，26(2): 265-286",
+      "url": "https://doi.org/10.11834/jig.200274",
+      "doi": "10.11834/jig.200274",
+      "verification": "VERIFIED",
+      "verify_evidence": "期刊官网doi页命中：2021年26卷2期265-286；维普显示被引25，入选学报2020-2024优秀年度报告",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "中国图象图形学报（CSCD/北大核心），目标期刊前序综述，被引30（维普）",
+      "is_seminal": "yes",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "NR-IQA",
+        "中文工作",
+        "目标期刊定位"
+      ],
+      "key_finding": "概述2012-2020年NR-IQA，按是否使用主观分数分为有监督/无监督，再分传统机器学习与深度学习，并覆盖新媒体数据",
+      "methods_notes": "摘要层；本综述定位的直接对标前作",
+      "citation_count": "30（维普）",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-012",
+      "citation_key": "鄢杰斌等（2022）",
+      "title": "图像质量评价研究综述——从失真的角度",
+      "authors": "鄢杰斌，方玉明，刘学林",
+      "year": 2022,
+      "venue": "中国图象图形学报，27(5): 1430-1466",
+      "url": "https://doi.org/10.11834/jig.210790",
+      "doi": "10.11834/jig.210790",
+      "verification": "VERIFIED",
+      "verify_evidence": "期刊官网英文页与多篇引文一致：2022,27(5):1430-1466",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "中国图象图形学报（CSCD/北大核心），目标期刊前序综述",
+      "is_seminal": "yes",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "失真分类",
+        "中文工作",
+        "目标期刊定位"
+      ],
+      "key_finding": "梳理2011-2021年IQA模型，按失真类型分为合成失真、真实失真、算法相关失真三类",
+      "methods_notes": "摘要层；本综述定位的直接对标前作，新综述须补2022后MLLM/AIGC",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-013",
+      "citation_key": "程茹秋等（2022）",
+      "title": "图像与视频质量评价综述",
+      "authors": "程茹秋，余烨，石岱宗，蔡文",
+      "year": 2022,
+      "venue": "中国图象图形学报，27(5): 1410-1429",
+      "url": "https://doi.org/10.11834/jig.210314",
+      "doi": "10.11834/jig.210314",
+      "verification": "VERIFIED",
+      "verify_evidence": "期刊官网doi页命中：2022,27(5):1410-1429，被引10",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "中国图象图形学报（CSCD/北大核心），目标期刊前序综述",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "图像/视频",
+        "中文工作",
+        "目标期刊定位"
+      ],
+      "key_finding": "回顾图像/视频质量评价发展，从FR/RR/NR三方面综述结构信息/HVS/NSS方法，基于SROCC/PLCC比较代表算法",
+      "methods_notes": "摘要层；含视频，本综述以图像为主可简要对照",
+      "citation_count": "10（维普）",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-014",
+      "citation_key": "高敏娟等（2021）",
+      "title": "全参考图像质量评价回顾与展望",
+      "authors": "高敏娟，党宏社，魏立力，刘国军，张选德",
+      "year": 2021,
+      "venue": "电子学报，49(11): 2261-2272",
+      "url": "https://doi.org/10.12263/DZXB.20200780",
+      "doi": "10.12263/DZXB.20200780",
+      "verification": "VERIFIED",
+      "verify_evidence": "多篇期刊引文与维普一致：电子学报2021年49卷11期2261-2272",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "core_journal",
+      "quality_basis": "电子学报（EI/CSCD/北大核心），中文FR-IQA专题综述",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "FR-IQA",
+        "中文工作"
+      ],
+      "key_finding": "回顾FR-IQA发展，分析问题构建合理性、建模全面性、知识驱动与数据驱动结合问题，提出模糊建模与知识-数据联合驱动方向",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-015",
+      "citation_key": "Bovik（2013）",
+      "title": "Automatic Prediction of Perceptual Image and Video Quality",
+      "authors": "Alan C. Bovik",
+      "year": 2013,
+      "venue": "Proceedings of the IEEE, 101(9): 2008-2024",
+      "url": "https://live.ece.utexas.edu/publications/2013/Bovik%20Proc%20IEEE%20Automatic%20Prediction%20of%20Perceptual%20Image%20and%20Video%20Quality.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "LIVE实验室官方PDF命中，期刊与作者一致",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "Proceedings of the IEEE（SCI顶刊，影响因子极高），IQA权威综述",
+      "is_seminal": "yes",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "视觉通信",
+        "NSS",
+        "HVS"
+      ],
+      "key_finding": "以视觉通信系统类比组织质量评价问题，综述自然图像/视频模型、视觉感知模型与广谱应用",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-017",
+      "citation_key": "Ma et al.（2016）",
+      "title": "Group MAD Competition – A New Methodology to Compare Objective Image Quality Models",
+      "authors": "Kede Ma, Qingbo Wu, Zhou Wang, Zhengfang Duanmu, Hongwei Yong, Hongliang Li, Lei Zhang",
+      "year": 2016,
+      "venue": "CVPR 2016",
+      "url": "https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Ma_Group_MAD_Competition_CVPR_2016_paper.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "CVF开放获取CVPR2016论文命中",
+      "read_status": "abstract",
+      "source_quality": "A",
+      "authority_signal": "top_journal",
+      "quality_basis": "CVPR 2016（CCF-A），gMAD比较方法学奠基，Waterloo Exploration数据库（4744源图/94880失真图）",
+      "is_seminal": "yes",
+      "role": "奠基工作",
+      "fr_type": "其他（评价协议）",
+      "themes": [
+        "评价协议",
+        "gMAD",
+        "大规模比较"
+      ],
+      "key_finding": "提出gMAD竞争机制自动选择最能区分模型优劣的图像对，配合4744源图/94880失真图大规模库进行人评比较",
+      "methods_notes": "摘要层：16个模型参与gMAD",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-018",
+      "citation_key": "Zhang et al.（2012）",
+      "title": "A Comprehensive Evaluation of Full Reference Image Quality Assessment Algorithms",
+      "authors": "Lin Zhang, Lei Zhang, Xuanqin Mou, David Zhang",
+      "year": 2012,
+      "venue": "IEEE ICIP 2012",
+      "url": "https://cslinzhang.github.io/home/ICIP12/ICIP12-IQA%20Evaluation.pdf",
+      "doi": "",
+      "verification": "VERIFIED",
+      "verify_evidence": "作者主页（同济张林）ICIP2012 PDF命中",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "ICIP 2012（CCF-B），7库11指标的系统性横评",
+      "is_seminal": "no",
+      "role": "benchmark或dataset",
+      "fr_type": "其他（评价协议）",
+      "themes": [
+        "评价协议",
+        "FR-IQA",
+        "横向评测"
+      ],
+      "key_finding": "在全部7个公开IQA库上评测11个FR指标，给出统一比较结果",
+      "methods_notes": "摘要层：7库11指标",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-019",
+      "citation_key": "Xu et al.（2017）",
+      "title": "No-reference/blind image quality assessment: a survey",
+      "authors": "Shaoping Xu, Shunliang Jiang, Weidong Min",
+      "year": 2017,
+      "venue": "IETE Technical Review, 34(3)",
+      "url": "https://www.tandfonline.com/doi/pdf/10.1080/02564602.2016.1151385",
+      "doi": "10.1080/02564602.2016.1151385",
+      "verification": "VERIFIED",
+      "verify_evidence": "Taylor & Francis官网命中，标题/作者一致",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "IETE Technical Review（SCI），南昌大学团队NR-IQA综述",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "NR-IQA",
+        "中文工作"
+      ],
+      "key_finding": "重点综述通用型NR-IQA（失真特异与非特异），在三个常用库上评测SOTA并讨论开放挑战",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    },
+    {
+      "id": "B6-020",
+      "citation_key": "Liu et al.（2013）",
+      "title": "Visual quality assessment: recent developments, coding applications and future trends",
+      "authors": "Tsung-Jung Liu, Yu-Chieh Lin, Weisi Lin, C.-C. Jay Kuo",
+      "year": 2013,
+      "venue": "APSIPA Transactions on Signal and Information Processing, 2: e4",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/780B747AAE3253F21B2AA34D90C95B6A/S204877031300005Xa.pdf",
+      "doi": "10.1017/ATSIP.2013.5",
+      "verification": "MINOR",
+      "verify_evidence": "Cambridge官网命中，标题/作者/卷期一致；DOI按Cambridge编号规则推定，终稿前核对",
+      "read_status": "abstract",
+      "source_quality": "B",
+      "authority_signal": "core_journal",
+      "quality_basis": "APSIPA Transactions（Cambridge出版）",
+      "is_seminal": "no",
+      "role": "综述",
+      "fr_type": "综述",
+      "themes": [
+        "综述",
+        "图像/视频",
+        "编码应用"
+      ],
+      "key_finding": "图像与视频质量数据库/指标并重综述，讨论感知编码应用并做基准实验",
+      "methods_notes": "摘要层",
+      "citation_count": "",
+      "branches": [
+        "B6"
+      ]
+    }
+  ]
+}

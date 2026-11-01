@@ -1,0 +1,39 @@
+{
+  "number": 23,
+  "title": "HIPTrack: Visual Tracking with Historical Prompts",
+  "year": 2024,
+  "authors": [
+    "Wenrui Cai",
+    "Qingjie Liu",
+    "Yunhong Wang"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Cai_HIPTrack_Visual_Tracking_with_Historical_Prompts_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cai_HIPTrack_Visual_Tracking_with_Historical_Prompts_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cai_HIPTrack_Visual_Tracking_with_Historical_Prompts_CVPR_2024_paper.pdf",
+      "bytes": 4757267,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\023_2024_HIPTrack__Visual_Tracking_with_Historical_Prompts.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cai_HIPTrack_Visual_Tracking_with_Historical_Prompts_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Cai_HIPTrack_Visual_Tracking_with_Historical_Prompts_CVPR_2024_paper.pdf",
+  "bytes": 4757267,
+  "sha256": "24fa3e6b2dc11b0a8b1fdfca1c72c56ddedafeddac59d29d9dd2eb7d48232ab6",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "HIPTrack: Visual Tracking with Historical Prompts",
+  "first_page_text": "HIPTrack: Visual Tracking with Historical Prompts\nWenrui Cai1, Qingjie Liu1,2,3,∗, Yunhong Wang1,3\n1State Key Laboratory of Virtual Reality Technology and Systems, Beihang University, Beijing, China\n2Zhongguancun Laboratory, Beijing, China\n3Hangzhou Innovation Institute, Beihang University, Hangzhou, China\n{wenrui cai, qingjie.liu, yhwang}@buaa.edu.cn\nAbstract\nTrackers that follow Siamese paradigm utilize similar-\nity matching between template and search region features\nfor tracking. Many methods have been explored to enhance\ntracking performance by incorporating tracking history to\nbetter handle scenarios involving target appearance vari-\nations such as deformation and occlusion. However, the\nutilization of historical information in existing methods is\ninsufficient and incomprehensive, which typically requires\nrepetitive training and introduces a large amount of com-\nputation. In this paper, we show that by providing a tracker\nthat follows Siamese paradigm with precise and updated\nhistorical information, a significant performance improve-\nment can be achieved with completely unchanged parame-\nters. Based on this, we propose a historical prompt network\nthat uses refined historical foreground masks and historical\nvisual features of the target to provide comprehensive and\nprecise prompts for the tracker. We build a novel tracker\ncalled HIPTrack based on the historical prompt network,\nwhich achieves considerable performance improvements\nwithout the need to retrain the entire model.\nWe con-\nduct experiments on seven datasets and experimental results\ndemonstrate that our method surpasses the current state-of-\nthe-art trackers on LaSOT, LaSOText, GOT-10k and NfS.\nFurthermore, the historical prompt network can seamlessly\nintegrate as a plug-and-play module into existing trackers,\nproviding performance enhancements. The source code is\navailable at https://github.com/WenRuiCai/HIPTrack.\n1. Introduction\nVisual tracking aims to estimate the position of a target in\nsubsequent frames of a video, given the initial state in the\nfirst frame [1, 5, 24, 46]. It can be challenging when the\ntarget experiences deformation, scale variation, and partial\nocclusion over time. While Transformer-based one-stream\n∗Corresponding author.\n#572\n#694\n#950\n#232\n#741\n#792\n#275\n#877\n#1030\nHIPTrack\nGround Truth\nGRM\nSeqTrack\nFigure 1. Visualized comparisons of our approach and other excel-\nlent trackers GRM [16] and SeqTrack [6]. Our method performs\nbetter when the target suffer from occlusion, deformation and scale\nvariation.\ntrackers [4, 8, 16, 48] have significantly improved the track-\ning accuracy by incorporating feature extraction and inter-\naction of template and search regions into a single Trans-\nformer, they still follow Siamese paradigm that performs\nsimilarity matching between template and search regions.\nOnly using the template to predict the target in subsequent\nframes may not be effective in handling complex scenarios.\nThere have been numerous attempts to incorporate his-\ntorical context into trackers using techniques such as space-\ntime memory networks [13], utilizing a tracked frame as\nauxiliary template [8, 47] and incorporating multiple frames\nas inputs to the backbone [18, 38]. However, the target po-\nsition introduced by space-time memory networks lacks ac-\ncuracy, while the use of two backbones for the current frame\nand tracked frames introduces a substantial number of pa-\nrameters. Utilizing a tracked frame as auxiliary template is\ninsufficient and susceptible to introducing distractors. Em-\nploying multiple frames as inputs introduces considerable\ncomputational complexity while inadequately preserving a\nsubstantial amount of historical context. Recently, autore-\ngressive trackers [6, 40] have achieved state-of-the-art per-\nformance by tokenizing the target position and incorporat-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19258\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

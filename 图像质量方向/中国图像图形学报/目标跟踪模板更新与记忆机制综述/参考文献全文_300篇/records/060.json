@@ -1,0 +1,41 @@
+{
+  "number": 60,
+  "title": "Randomized Ensemble Tracking",
+  "year": 2013,
+  "authors": [
+    "Qinxun Bai",
+    "Zheng Wu",
+    "Stan Sclaroff",
+    "Margrit Betke",
+    "Camille Monnier"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.pdf",
+      "bytes": 570077,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\060_2013_Randomized_Ensemble_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.pdf",
+  "bytes": 570077,
+  "sha256": "abd93d8a9335f95e8ec797ee714c502becc7d78c3ed8a89721d9a9082a87ffac",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Randomized Ensemble Tracking",
+  "first_page_text": "Randomized Ensemble Tracking\nQinxun Bai1, Zheng Wu1, Stan Sclaroff1, Margrit Betke1, Camille Monnier2\n1 Boston University, Boston, MA 02215, USA\n2 Charles River Analytics, Cambridge, MA 02138, USA\nAbstract\nWe propose a randomized ensemble algorithm to model\nthe time-varying appearance of an object for visual track-\ning. In contrast with previous online methods for updat-\ning classiﬁer ensembles in tracking-by-detection, the weight\nvector that combines weak classiﬁers is treated as a ran-\ndom variable and the posterior distribution for the weight\nvector is estimated in a Bayesian manner. In essence, the\nweight vector is treated as a distribution that reﬂects the\nconﬁdence among the weak classiﬁers used to construct\nand adapt the classiﬁer ensemble. The resulting formula-\ntion models the time-varying discriminative ability among\nweak classiﬁers so that the ensembled strong classiﬁer can\nadapt to the varying appearance, backgrounds, and occlu-\nsions. The formulation is tested in a tracking-by-detection\nimplementation. Experiments on 28 challenging benchmark\nvideos demonstrate that the proposed method can achieve\nresults comparable to and often better than those of state-\nof-the-art approaches.\n1. Introduction\nMany tracking-by-detection methods have been devel-\noped for visual tracking applications [2, 3, 8, 17, 20, 21].\nThe motivation to treat tracking as a detection problem is\nto avoid having to model object dynamics especially when\nabrupt motion and occlusions can occur.\nTracking-by-detection requires training of a classiﬁer for\ndetecting the object in each frame. One common approach\nfor detector training is to use a detector ensemble frame-\nwork that linearly combines the weak classiﬁers with differ-\nent associated weights, e.g., [2, 8]. A larger weight implies\nthat the corresponding weak classiﬁer is more discrimina-\ntive and thus more useful. To date, most previous efforts\nhave focused on adapting ofﬂine ensemble algorithms into\nonline mode. This strategy, despite its success in many on-\nline visual learning tasks, has limitations in the visual track-\ning domain.\nFirst, the common assumption that the observed data, ex-\namples and their labels, have an unknown but ﬁxed joint dis-\nFigure 1. The proposed method can track a target person (green\nbox) during partial occlusion and in the presence of distractors (red\nboxes). It weights the “reliability” of the weak classiﬁers within\nthe box (green means high weight; blue means low weight). In the\nleft image, the person is unoccluded; therefore, high weights are\nassociated with weak classiﬁers that cover the body. In the right\nimage, the person is partially occluded; consequently, “reliability”\nweights for the occluded portion decrease while weights for the\nunoccluded portion are reinforced. Thus, the ensemble tracker can\ndistinguish the tracked person from the distractors.\ntribution does not apply in tracking scenarios where the ap-\npearance of an object can undergo such signiﬁcant changes\nthat a negative example in the current frame looks more sim-\nilar to the positive example identiﬁed in the past (Fig. 1).\nGiven the uncertainty in the appearance changes that may\noccur over time and the difﬁculty of estimating the non-\nstationary distribution of this observed data directly, we pro-\npose a method that models how the classiﬁer weights evolve\naccording to a non-stationary distribution.\nSecond, many online self-learning methods update the\nweights of their classiﬁers by ﬁrst computing the impor-\ntance weights of the incoming data. As noted by Grabner\nand Bischof [8], however, there are difﬁculties in computing\nthese weights. This becomes even more challenging when it\nis recognized that the distribution that generated the data is\nnon-stationary. We suggest that this is an inherent challenge\nfor online self-learning methods and propose an approach\nfor estimating the ensemble weights that is Bayesian and\nensures that the update of the ensemble weights is smooth.\nOur method models the weights of the classiﬁer ensem-\nble with a non-stationary distribution, where the weight vec-\ntor is a random variable whose instantiation can be inter-\npreted as a representation of the “hidden state” of the com-\nbined strong classiﬁer. Our method detects an object of in-\nterest by inferring the posterior distribution of the ensemble\n2013 IEEE International Conference on Computer Vision\n1550-5499 2013\nU.S. Government Work Not Protected by U.S. Copyright\nDOI 10.1109/ICCV.2013.255\n2040\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

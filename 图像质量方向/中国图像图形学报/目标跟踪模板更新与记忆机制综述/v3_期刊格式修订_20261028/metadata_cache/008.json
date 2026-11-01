@@ -1,0 +1,507 @@
+{
+  "number": 8,
+  "original_doi": "10.1109/TPAMI.2014.2345390",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "High-Speed Tracking with Kernelized Correlation Filters",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T03:30:07Z",
+      "timestamp": 1792899007818,
+      "version": "4.5.0"
+    },
+    "reference-count": 36,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2015-03-01T00:00:00Z",
+          "timestamp": 1425168000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100006129",
+        "name": "FCT",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "PTDC/EEA-CRO/122812/2010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "PTDC/EEA-CRO/122812/2010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006129",
+        "name": "FCT",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "SFRH/BD75459/2010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "SFRH/BD75459/2010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006129",
+        "name": "FCT",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "SFRH/BD74152/2010"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "SFRH/BD74152/2010"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100006129",
+        "name": "FCT",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "SFRH/BPD/90200/2012"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "SFRH/BPD/90200/2012"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100006129",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Pattern Anal. Mach. Intell."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/tpami.2014.2345390",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2014-08-01T17:03:02Z",
+      "timestamp": 1406912582000
+    },
+    "page": "583-596",
+    "source": "Crossref",
+    "is-referenced-by-count": 5267,
+    "title": [
+      "High-Speed Tracking with Kernelized Correlation Filters"
+    ],
+    "prefix": "10.1109",
+    "volume": "37",
+    "author": [
+      {
+        "given": "Joao F.",
+        "family": "Henriques",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rui",
+        "family": "Caseiro",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pedro",
+        "family": "Martins",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jorge",
+        "family": "Batista",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.297"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.381"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.343"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.318"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.153"
+      },
+      {
+        "key": "ref35",
+        "author": "davis",
+        "year": "0",
+        "journal-title": "Circulant Matrices"
+      },
+      {
+        "key": "ref34",
+        "author": "gray",
+        "year": "0",
+        "journal-title": "Toeplitz and circulant matrices A review"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206701"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "ref13",
+        "first-page": "234",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "0",
+        "journal-title": "Proc Eur Conf Comput Vis"
+      },
+      {
+        "key": "ref14",
+        "first-page": "1808",
+        "article-title": "Online robust image alignment via iterative convex optimization",
+        "author": "wu",
+        "year": "0",
+        "journal-title": "Proc Comput Vis Pattern Recognit"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2008.4587586"
+      },
+      {
+        "key": "ref17",
+        "first-page": "2735",
+        "article-title": "Exploiting spatial overlap to efficiently compute appearance distances between image windows",
+        "author": "alexe",
+        "year": "0",
+        "journal-title": "Proc Neural Inf Process Syst"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459257"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459183"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.26.003633"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-33712-3_62"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "32",
+        "DOI": "10.1007/11564386_4",
+        "article-title": "Kernel correlation filter based redundant class-dependence feature analysis (KCFA) on FRGC2.0 data",
+        "author": "xie",
+        "year": "2005",
+        "journal-title": "Proc Int Conf on Analysis and Modeling of Faces and Gestures"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457447"
+      },
+      {
+        "key": "ref29",
+        "first-page": "702",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "volume": "7575",
+        "author": "henriques",
+        "year": "0",
+        "journal-title": "Proc Eur Conf Comput Vis"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Regularized least-squares classification",
+        "author": "rifkin",
+        "year": "0",
+        "journal-title": "Nato Sci Ser Sub Ser III"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2011.07.024"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1442",
+        "DOI": "10.1109/TPAMI.2013.230",
+        "article-title": "Visual tracking: An experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.167"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2300479"
+      },
+      {
+        "key": "ref21",
+        "author": "gonzalez",
+        "year": "0",
+        "journal-title": "Digital Image Processing"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Analysis of kernel distortion-invariant filters",
+        "author": "casasent",
+        "year": "0",
+        "journal-title": "Proc SPIE"
+      },
+      {
+        "key": "ref23",
+        "author": "scholkopf",
+        "year": "0",
+        "journal-title": "Learning With Kernels Support Vector Machines Regularization Optimization and Beyond"
+      },
+      {
+        "key": "ref26",
+        "first-page": "1",
+        "article-title": "Kernel based synthetic discriminant function for object recognition",
+        "author": "jeong",
+        "year": "2006",
+        "journal-title": "Proc IEEE Int Conf Acoust Speech Signal Process"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.805411"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/34/7029731/06870486.pdf?arnumber=6870486",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          12
+        ]
+      ],
+      "date-time": "2022-01-12T10:59:49Z",
+      "timestamp": 1641985189000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6870486/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "3"
+    },
+    "URL": "https://doi.org/10.1109/tpami.2014.2345390",
+    "relation": {},
+    "ISSN": [
+      "0162-8828",
+      "2160-9292"
+    ],
+    "issn-type": [
+      {
+        "value": "0162-8828",
+        "type": "print"
+      },
+      {
+        "value": "2160-9292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          1
+        ]
+      ]
+    }
+  }
+}

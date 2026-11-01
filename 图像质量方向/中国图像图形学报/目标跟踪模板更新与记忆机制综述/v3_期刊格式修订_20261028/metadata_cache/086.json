@@ -1,0 +1,483 @@
+{
+  "number": 86,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Visual Tracking Using Attention-Modulated Disintegration and Integration",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          25
+        ]
+      ],
+      "date-time": "2026-03-25T06:13:21Z",
+      "timestamp": 1774419201225,
+      "version": "3.50.1"
+    },
+    "reference-count": 50,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2016.468",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          12
+        ]
+      ],
+      "date-time": "2016-12-12T20:38:49Z",
+      "timestamp": 1481575129000
+    },
+    "page": "4321-4330",
+    "source": "Crossref",
+    "is-referenced-by-count": 148,
+    "title": [
+      "Visual Tracking Using Attention-Modulated Disintegration and Integration"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Jongwon",
+        "family": "Choi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hyung Jin",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jiyeoup",
+        "family": "Jeong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yiannis",
+        "family": "Demiris",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jin Young",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Real-time Compressive Tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref33",
+        "article-title": "Object-centric Spatial Pooling for Image Classification",
+        "author": "russakovsky",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6248093"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2487837"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Active attentional sampling for speed-up of background subtraction",
+        "author": "chang",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Piotr's Computer Vision Matlab Toolbox (PMT)",
+        "author": "dollár",
+        "year": "0"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-011-0431-5"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Online Tracking by Learning Discriminative Saliency Map with Convolutional Neural Network",
+        "author": "hong",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-14249-4_62"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2011.07.024"
+      },
+      {
+        "key": "ref27",
+        "article-title": "Online Object Tracking: A Benchmark",
+        "author": "wu",
+        "year": "2010",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref29",
+        "article-title": "A Review of Visual Tracking",
+        "author": "cannons",
+        "year": "2008",
+        "journal-title": "Technical Report CSE-2008-07"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.370"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.70"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298961"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Classification and Regression Trees",
+        "author": "breiman",
+        "year": "1984",
+        "journal-title": "Wadsworth & Brooks/Cole Advanced Books and Software"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Human Tracking by Multiple Kernel Boosting with Locality Affinity Constraints",
+        "author": "yang",
+        "year": "2010",
+        "journal-title": "ACCV"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2015.7350968"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2015.7301754"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Visual Tracking via Adaptive Structural Local Sparse Appearance Model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Exploiting the Circulant Structure of Tracking-by-detection with Kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.118"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298938"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298798"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Robust Saliency Detection via Regularized Random Walks Ranking",
+        "author": "li",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298731"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.271"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298868"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Tracking-Learning-Detection",
+        "author": "kalal",
+        "year": "2010",
+        "journal-title": "Ieee Transactions on PAMI"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Accurate Scale Estimation for Robust Visual Tracking",
+        "author": "danellijan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "ref7",
+        "article-title": "MEEM: Robust Tracking via Multiple Experts using Entropy Minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Multihypothesis Trajectory Analysis for Robust Visual Tracking",
+        "author": "lee",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Tracking by Sampling Trackers",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/23936",
+        "article-title": "Attention Improves or Impairs Visual Performance by Enhancing Spatial Resolution",
+        "author": "yeshurun",
+        "year": "1998",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref45",
+        "article-title": "Tracking by Sampling and Integrating Multiple Trackers",
+        "author": "kwon",
+        "year": "2014",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Transfer Learning Based Visual Tracking with Gaussian Processes Regression",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.255"
+      },
+      {
+        "key": "ref42",
+        "article-title": "Visual Tracking: an Experimental Survey",
+        "author": "smeulders",
+        "year": "2013",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Learning Attention Map from Images",
+        "author": "lu",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2009.167"
+      }
+    ],
+    "event": {
+      "name": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Las Vegas, NV, USA",
+      "start": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2016,
+            6,
+            30
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7776647/7780329/07780837.pdf?arnumber=7780837",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2019-09-16T08:54:01Z",
+      "timestamp": 1568624041000
+    },
+    "score": 52.83011,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7780837/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "references-count": 50,
+    "URL": "https://doi.org/10.1109/cvpr.2016.468",
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    }
+  }
+}

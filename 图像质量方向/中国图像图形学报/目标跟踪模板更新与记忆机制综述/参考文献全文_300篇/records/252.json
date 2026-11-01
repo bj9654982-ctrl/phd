@@ -1,0 +1,46 @@
+{
+  "number": 252,
+  "title": "What You Have is What You Track: Adaptive and Robust Multimodal Tracking",
+  "year": 2025,
+  "authors": [
+    "Yuedong Tan",
+    "Jiawei Shao",
+    "Eduard Zamfir",
+    "Ruanjun Li",
+    "Zhaochong An",
+    "Chao Ma",
+    "Danda Paudel",
+    "Luc Van Gool",
+    "Radu Timofte",
+    "Zongwei Wu"
+  ],
+  "venue": "ICCV",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2025/html/Tan_What_You_Have_is_What_You_Track_Adaptive_and_Robust_ICCV_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_What_You_Have_is_What_You_Track_Adaptive_and_Robust_ICCV_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_What_You_Have_is_What_You_Track_Adaptive_and_Robust_ICCV_2025_paper.pdf",
+      "bytes": 12827740,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\252_2025_What_You_Have_is_What_You_Track__Adaptive_and_Robust_Multimodal_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_What_You_Have_is_What_You_Track_Adaptive_and_Robust_ICCV_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Tan_What_You_Have_is_What_You_Track_Adaptive_and_Robust_ICCV_2025_paper.pdf",
+  "bytes": 12827740,
+  "sha256": "7fa3ec7e12b39d98c5e596520498a5759736d651c5132f7a0373167d52a08c29",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "What You Have is What You Track: Adaptive and Robust Multimodal Tracking",
+  "first_page_text": "What You Have is What You Track: Adaptive and Robust Multimodal Tracking\nYuedong Tan1,2,3\nJiawei Shao1*\nEduard Zamfir2\nRuanjun Li4\nZhaochong An5\nChao Ma6\nDanda Paudel3\nLuc Van Gool3\nRadu Timofte2\nZongwei Wu2*\n1 TeleAI, China Telecom\n2 Computer Vision Lab, CAIDAS & IFI, University of Wurzburg\n3 INSAIT, Sofia University\n4 ShanghaiTech University\n5 University of Copenhagen\n6 AI Institute, Shanghai Jiao Tong University\nAbstract\nMultimodal data is known to be helpful for visual tracking\nby improving robustness to appearance variations. How-\never, sensor synchronization challenges often compromise\ndata availability, particularly in video settings where short-\nages can be temporal. Despite its importance, this area\nremains underexplored. In this paper, we present the first\ncomprehensive study on tracker performance with tempo-\nrally incomplete multimodal data. Unsurprisingly, under\nsuch a circumstance, existing trackers exhibit significant\nperformance degradation, as their rigid architectures lack\nthe adaptability needed to effectively handle missing modal-\nities. To address these limitations, we propose a flexible\nframework for robust multimodal tracking. We venture that\na tracker should dynamically activate computational units\nbased on missing data rates. This is achieved through a\nnovel Heterogeneous Mixture-of-Experts fusion mechanism\nwith adaptive complexity, coupled with a video-level mask-\ning strategy that ensures both temporal consistency and\nspatial completeness — critical for effective video track-\ning. Surprisingly, our model not only adapts to varying\nmissing rates but also adjusts to scene complexity. Exten-\nsive experiments show that our model achieves SOTA per-\nformance across 9 benchmarks, excelling in both conven-\ntional complete and missing modality settings. The code\nand benchmark will be made publicly available at https:\n//github.com/supertyd/FlexTrack.\n1. Introduction\nVisual object tracking aims to localize a target object\nin a video while handling dynamic appearance changes\n[3, 5, 15, 33, 39, 53]. To improve robustness against oc-\nclusions, illumination shifts, and environmental variations,\nmultimodal tracking has emerged as a powerful solution\n[29, 50, 52]. Complementary information from multiple\nsensors (e.g., depth, thermal, and event) has shown the ef-\n*Corresponding\nTimestamp t\nFrame Time\nExposure Time\nSynchronized Data\nt=1\nt=n\n(a) Sensor Synchronization.\nRGB-Unit\nRGB\nRGB+X\nX\nModality-Unit\n(b) Prior Work.\n[RGB]+[X]\n[RGB]+[  ]\n[  ]+[X]\n(c) Heterogenous Experts.\nFigure 1. Synchronization has long been a challenge in multisen-\nsor fusion. As illustrated in (a), differences in frame timing and ex-\nposure duration make it difficult for a multisensor system to obtain\nperfectly synchronized pairs, often resulting in missing data. To\naddress this issue, existing trackers [36], as shown in (b), handle\neach missing-data scenario individually, employing tailored and\nindividual strategies for different cases. However, this approach\ndoes not account for the complexity variations introduced by dif-\nferent types of missing data. In contrast, in (c), we take a more\nholistic approach, unifying both missing and full-modality scenar-\nios within a single framework. Our method leverages Heteroge-\nneous Experts with adaptive complexity, providing a personalized\nyet structurally unified solution for robust tracking.\nfectiveness of improving unimodal approaches under ideal\nconditions.\nHowever, real-world multimodal data is rarely perfect\n[37, 38, 66].\nSensors often suffer from synchronization\nfailures and temporary dropouts. As illustrated in Fig. 1,\nthe inherent differences in exposure time and frame rates\nmake it extremely challenging to achieve perfect synchro-\nnization across multiple sensors. Existing tracking datasets\n[29, 31, 60] simplify this issue by considering only paired\nmodalities, such as RGB and depth.\nHowever, this set-\nting remains limited, as it does not generalize to real-world\nscenarios where multiple modalities may be intermittently\nunavailable within a given temporal window during video\ntracking. Despite its practical importance, such a missing\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n3455\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

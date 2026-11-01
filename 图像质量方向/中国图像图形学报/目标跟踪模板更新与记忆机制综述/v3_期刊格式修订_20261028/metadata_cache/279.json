@@ -1,0 +1,561 @@
+{
+  "number": 279,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Scalable Video Object Segmentation with Simplified Framework",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T03:18:58Z",
+      "timestamp": 1792898338688,
+      "version": "4.5.0"
+    },
+    "reference-count": 60,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2023-10-01T00:00:00Z",
+          "timestamp": 1696118400000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100007567",
+        "name": "City University of Hong Kong",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100007567",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv51070.2023.01276",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T15:55:59Z",
+      "timestamp": 1705334159000
+    },
+    "page": "13833-13843",
+    "source": "Crossref",
+    "is-referenced-by-count": 44,
+    "title": [
+      "Scalable Video Object Segmentation with Simplified Framework"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Qiangqiang",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "City University of Hong Kong,Department of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tianyu",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "International Digital Economy Academy"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wei",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "City University of Hong Kong,Department of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antoni B.",
+        "family": "Chan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "City University of Hong Kong,Department of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00626"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.565"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_22"
+      },
+      {
+        "key": "ref4",
+        "article-title": "A simple framework for contrastive learning of visual representations",
+        "volume-title": "ICML",
+        "author": "Chen"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00130"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00551"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19815-1_37"
+      },
+      {
+        "key": "ref8",
+        "first-page": "11781",
+        "article-title": "Rethinking space-time networks with improved memory coverage for efficient video object segmentation",
+        "volume-title": "NIPS",
+        "author": "Cheng"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00774"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345401"
+      },
+      {
+        "key": "ref11",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "volume-title": "ICLR",
+        "author": "Dosovitskiy"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cgf.14484"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01390"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00585"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.447"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-009-0275-4"
+      },
+      {
+        "key": "ref17",
+        "author": "Gidaris",
+        "year": "2018",
+        "journal-title": "Unsupervised representation learning by predicting image rotations"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01781"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Training data-efficient image transformers distillation through attention",
+        "volume-title": "ICCV",
+        "author": "Hariharan"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00975"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206718"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20077-9_17"
+      },
+      {
+        "key": "ref24",
+        "article-title": "Video object segmentation with adaptive feature bank and uncertain-region refinement",
+        "volume-title": "NeurIPS",
+        "author": "Liang"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-20870-7_35"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00953"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01119"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46466-4_5"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.372"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "ref33",
+        "author": "Pont-Tuset",
+        "year": "2017",
+        "journal-title": "The 2017 davis challenge on video object segmentation"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Learning transferable visual models from natural language supervision",
+        "volume-title": "ICML",
+        "author": "Radford"
+      },
+      {
+        "key": "ref35",
+        "author": "Ridnik",
+        "year": "2021",
+        "journal-title": "Imagenet-21k pretraining for the masses"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Tokenlearner: Adaptive space-time tokenization for videos",
+        "volume-title": "NIPS",
+        "author": "Ryoo"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01265"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2465960"
+      },
+      {
+        "key": "ref39",
+        "article-title": "Unsupervised learning of video representations using lstms",
+        "volume-title": "ICML",
+        "author": "Srivastava"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58621-8_45"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Training data-efficient image transformers distillation through attention",
+        "volume-title": "ICML",
+        "author": "Touvron"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00971"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.31.116"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Generating videos with scene dynamics",
+        "author": "Vondrick",
+        "year": "2016",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2023.3299753"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3474085.3475230"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00301"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-20873-8_8"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01399"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00393"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2023.3243470"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00125"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00134"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01228-1_36"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00680"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58558-7_20"
+      },
+      {
+        "key": "ref57",
+        "first-page": "2491",
+        "article-title": "Associating objects with transformers for video object segmentation",
+        "volume-title": "NIPS",
+        "author": "Yang"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2021.3081597"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref60",
+        "article-title": "Image colorization",
+        "volume-title": "ECCV",
+        "author": "Zhang"
+      }
+    ],
+    "event": {
+      "name": "2023 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Paris, France",
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            6
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2023 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/10376473/10376477/10377989.pdf?arnumber=10377989",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2024-01-17T20:26:26Z",
+      "timestamp": 1705523186000
+    },
+    "score": 48.908672,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10377989/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 60,
+    "URL": "https://doi.org/10.1109/iccv51070.2023.01276",
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    }
+  }
+}

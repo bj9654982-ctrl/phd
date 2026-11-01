@@ -1,0 +1,40 @@
+{
+  "number": 8,
+  "title": "High-speed tracking with kernelized correlation filters",
+  "year": 2015,
+  "authors": [
+    "Henriques J F",
+    "Caseiro R",
+    "Martins P",
+    "Batista J"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "相关滤波与样本正则化",
+  "priority": "P1 核心精读",
+  "original_source": "https://arxiv.org/abs/1404.7584",
+  "doi": "10.1109/TPAMI.2014.2345390",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1404.7584",
+      "final_url": "https://arxiv.org/pdf/1404.7584",
+      "bytes": 1458405,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\008_2015_High-speed_tracking_with_kernelized_correlation_filters.pdf",
+  "download_url": "https://arxiv.org/pdf/1404.7584",
+  "requested_url": "https://arxiv.org/pdf/1404.7584",
+  "bytes": 1458405,
+  "sha256": "3682c36fe10ea7bd8a3a4ab284b5f9e33e5f7d9827bfe4fb1b45645427021fec",
+  "version": "arXiv公开版本；可能与正式出版版不同",
+  "pages": 14,
+  "pdf_title": "",
+  "first_page_text": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE\n1\nHigh-Speed Tracking with\nKernelized Correlation Filters\nJoão F. Henriques, Rui Caseiro, Pedro Martins, and Jorge Batista\nAbstract—The core component of most modern trackers is a discriminative classiﬁer, tasked with distinguishing between the target\nand the surrounding environment. To cope with natural image changes, this classiﬁer is typically trained with translated and scaled\nsample patches. Such sets of samples are riddled with redundancies – any overlapping pixels are constrained to be the same. Based\non this simple observation, we propose an analytic model for datasets of thousands of translated patches. By showing that the resulting\ndata matrix is circulant, we can diagonalize it with the Discrete Fourier Transform, reducing both storage and computation by several\norders of magnitude. Interestingly, for linear regression our formulation is equivalent to a correlation ﬁlter, used by some of the fastest\ncompetitive trackers. For kernel regression, however, we derive a new Kernelized Correlation Filter (KCF), that unlike other kernel\nalgorithms has the exact same complexity as its linear counterpart. Building on it, we also propose a fast multi-channel extension of\nlinear correlation ﬁlters, via a linear kernel, which we call Dual Correlation Filter (DCF). Both KCF and DCF outperform top-ranking\ntrackers such as Struck or TLD on a 50 videos benchmark, despite running at hundreds of frames-per-second, and being implemented\nin a few lines of code (Algorithm 1). To encourage further developments, our tracking framework was made open-source.\nIndex Terms—Visual tracking, circulant matrices, discrete Fourier transform, kernel methods, ridge regression, correlation ﬁlters.\n!\n1\nINTRODUCTION\nA\nRGUABLY one of the biggest breakthroughs in recent\nvisual tracking research was the widespread adoption\nof discriminative learning methods. The task of tracking, a\ncrucial component of many computer vision systems, can\nbe naturally speciﬁed as an online learning problem [1], [2].\nGiven an initial image patch containing the target, the goal\nis to learn a classiﬁer to discriminate between its appearance\nand that of the environment. This classiﬁer can be evaluated\nexhaustively at many locations, in order to detect it in\nsubsequent frames. Of course, each new detection provides\na new image patch that can be used to update the model.\nIt is tempting to focus on characterizing the object of\ninterest – the positive samples for the classiﬁer. However,\na core tenet of discriminative methods is to give as much\nimportance, or more, to the relevant environment – the\nnegative samples. The most commonly used negative sam-\nples are image patches from different locations and scales,\nreﬂecting the prior knowledge that the classiﬁer will be\nevaluated under those conditions.\nAn extremely challenging factor is the virtually unlim-\nited amount of negative samples that can be obtained from\nan image. Due to the time-sensitive nature of tracking,\nmodern trackers walk a ﬁne line between incorporating\nas many samples as possible and keeping computational\ndemand low. It is common practice to randomly choose only\na few samples each frame [3], [4], [5], [6], [7].\nAlthough the reasons for doing so are understandable,\nwe argue that undersampling negatives is the main factor\ninhibiting performance in tracking. In this paper, we de-\nvelop tools to analytically incorporate thousands of samples\n•\nThe authors are with the Institute of Systems and Robotics, University of\nCoimbra.\nE-mail: {henriques,ruicaseiro,pedromartins,batista}@isr.uc.pt\nat different relative translations, without iterating over them\nexplicitly. This is made possible by the discovery that, in the\nFourier domain, some learning algorithms actually become\neasier as we add more samples, if we use a speciﬁc model for\ntranslations.\nThese analytical tools, namely circulant matrices, pro-\nvide a useful bridge between popular learning algorithms\nand classical signal processing. The implication is that we\nare able to propose a tracker based on Kernel Ridge Re-\ngression [8] that does not suffer from the “curse of ker-\nnelization”, which is its larger asymptotic complexity, and\neven exhibits lower complexity than unstructured linear\nregression. Instead, it can be seen as a kernelized version\nof a linear correlation ﬁlter, which forms the basis for the\nfastest trackers available [9], [10]. We leverage the power-\nful kernel trick at the same computational complexity as\nlinear correlation ﬁlters. Our framework easily incorporates\nmultiple feature channels, and by using a linear kernel we\nshow a fast extension of linear correlation ﬁlters to the multi-\nchannel case.\n2\nRELATED WORK\n2.1\nOn tracking-by-detection\nA comprehensive review of tracking-by-detection is outside\nthe scope of this article, but we refer the interested reader\nto two excellent and very recent surveys [1], [2]. The most\npopular approach is to use a discriminative appearance\nmodel [3], [4], [5], [6]. It consists of training a classiﬁer\nonline, inspired by statistical machine learning methods, to\npredict the presence or absence of the target in an image\npatch. This classiﬁer is then tested on many candidate\npatches to ﬁnd the most likely location. Alternatively, the\nposition can also be predicted directly [7]. Regression with\narXiv:1404.7584v3  [cs.CV]  5 Nov 2014\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

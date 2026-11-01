@@ -1,0 +1,776 @@
+{
+  "number": 109,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Joint Group Feature Selection and Discriminative Filter Learning for Robust Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T16:46:18Z",
+      "timestamp": 1792169178725,
+      "version": "4.4.0"
+    },
+    "reference-count": 92,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2019.00804",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2020-02-28T10:27:52Z",
+      "timestamp": 1582885672000
+    },
+    "page": "7949-7959",
+    "source": "Crossref",
+    "is-referenced-by-count": 177,
+    "title": [
+      "Joint Group Feature Selection and Discriminative Filter Learning for Robust Visual Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Tianyang",
+        "family": "Xu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhen-Hua",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiao-Jun",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Josef",
+        "family": "Kittler",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00512"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.348"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298594"
+      },
+      {
+        "key": "ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.355"
+      },
+      {
+        "key": "ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00510"
+      },
+      {
+        "key": "ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2733373.2807412"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref75",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.510"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2015.2417577"
+      },
+      {
+        "key": "ref78",
+        "first-page": "2368",
+        "article-title": "Deep visual attention prediction",
+        "volume": "27",
+        "author": "wang",
+        "year": "2017",
+        "journal-title": "IEEE TIP"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2819173"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2017.230"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_54"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/12-STS392"
+      },
+      {
+        "key": "ref37",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref36",
+        "first-page": "564",
+        "article-title": "The visual object tracking vot2015 challenge results",
+        "author": "kristan",
+        "year": "2015",
+        "journal-title": "ICCVW"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref34",
+        "article-title": "The sixth Visual Object Tracking VOT2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "ECCV Workshops"
+      },
+      {
+        "key": "ref60",
+        "first-page": "510",
+        "article-title": "The matrix cookbook",
+        "volume": "7",
+        "author": "petersen",
+        "year": "2008",
+        "journal-title": "Technical University of Denmark"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref64",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2014",
+        "journal-title": "arXiv preprint arXiv 1409 1556"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "volume": "37",
+        "author": "henriques",
+        "year": "2015",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "first-page": "1442",
+        "DOI": "10.1109/TPAMI.2013.230",
+        "article-title": "Visual tracking: An experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2018.2833052"
+      },
+      {
+        "key": "ref29",
+        "first-page": "960",
+        "article-title": "Group sparse optimization via lp, q regularization",
+        "volume": "18",
+        "author": "hu",
+        "year": "2017",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00937"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00934"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "ref1",
+        "first-page": "174",
+        "article-title": "A tutorial on particle filters for online nonlinear/non-gaussian bayesian tracking",
+        "volume": "50",
+        "author": "sanjeev arulampalam",
+        "year": "2002",
+        "journal-title": "IEEE TSP"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TNNLS.2016.2551724"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1561/0100000006",
+        "article-title": "Toeplitz and circulant matrices: a review",
+        "volume": "2",
+        "author": "gray",
+        "year": "2006",
+        "journal-title": "Foundations and Trends in Communications and Information Theory"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2018.2806280"
+      },
+      {
+        "key": "ref26",
+        "first-page": "702",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2017.233"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref51",
+        "first-page": "472",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "martin",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref92",
+        "article-title": "Learning support correlation filters for visual tracking",
+        "author": "zuo",
+        "year": "2016",
+        "journal-title": "arXiv preprint arXiv 1601 03712"
+      },
+      {
+        "key": "ref91",
+        "first-page": "103",
+        "article-title": "Distractor-aware siamese networks for visual object tracking",
+        "author": "zhu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2797082"
+      },
+      {
+        "key": "ref59",
+        "first-page": "3827",
+        "article-title": "Robust subspace clustering via thresholding ridge regression",
+        "author": "peng",
+        "year": "2015",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref58",
+        "article-title": "Meta-tracker: Fast and robust online adaptation for visual object trackers",
+        "author": "park",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv 1801 03186"
+      },
+      {
+        "key": "ref57",
+        "first-page": "1813",
+        "article-title": "Efficient and robust feature selection via joint ?2,1-norms minimization",
+        "author": "nie",
+        "year": "2010",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref55",
+        "first-page": "300",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "muller",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.152"
+      },
+      {
+        "key": "ref53",
+        "first-page": "445",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "mueller",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2010.00740.x"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.421129"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.513"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00515"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref14",
+        "first-page": "1",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2609928"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.159"
+      },
+      {
+        "key": "ref84",
+        "first-page": "1255",
+        "article-title": "A two-phase test sample sparse representation method for use with face recognition",
+        "volume": "21",
+        "author": "xu",
+        "year": "2011",
+        "journal-title": "IEEE TCSVT"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2019.2919201"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00061"
+      },
+      {
+        "key": "ref80",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2009.2019809"
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.512"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/12-STS394"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01216-8_30"
+      },
+      {
+        "key": "ref5",
+        "first-page": "850",
+        "article-title": "Fullyconvolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9868.2005.00532.x"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206701"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_9"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.515"
+      },
+      {
+        "key": "ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01219-9_29"
+      },
+      {
+        "key": "ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.421"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000016"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299124"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.467"
+      },
+      {
+        "key": "ref48",
+        "first-page": "674",
+        "article-title": "An iterative image registration technique with an application to stereo vision",
+        "author": "lucas",
+        "year": "1981",
+        "journal-title": "IJCAI"
+      },
+      {
+        "key": "ref47",
+        "first-page": "353",
+        "article-title": "Deep regression tracking with shrinkage loss",
+        "author": "lu",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298632"
+      },
+      {
+        "key": "ref41",
+        "first-page": "254",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref44",
+        "article-title": "The augmented lagrange multiplier method for exact recovery of corrupted low-rank matrices",
+        "author": "lin",
+        "year": "2010",
+        "journal-title": "Arxiv preprint arXiv 1009 5055"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2482905"
+      }
+    ],
+    "event": {
+      "name": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Seoul, Korea (South)",
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            2
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2019 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8972782/9008105/09010061.pdf?arnumber=9010061",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2022-07-17T21:48:02Z",
+      "timestamp": 1658094482000
+    },
+    "score": 67.68235,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9010061/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 92,
+    "URL": "https://doi.org/10.1109/iccv.2019.00804",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  }
+}

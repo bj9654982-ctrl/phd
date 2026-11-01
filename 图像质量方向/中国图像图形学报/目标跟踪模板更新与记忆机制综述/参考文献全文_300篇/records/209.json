@@ -1,0 +1,40 @@
+{
+  "number": 209,
+  "title": "Know Your Surroundings: Exploiting Scene Information for Object Tracking",
+  "year": 2020,
+  "authors": [
+    "Goutam Bhat",
+    "Martin Danelljan",
+    "Luc Van Gool",
+    "Radu Timofte"
+  ],
+  "venue": "ECCV",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4297_ECCV_2020_paper.php",
+  "doi": "10.1007/978-3-030-58592-1_13",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680205.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680205.pdf",
+      "bytes": 1149664,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\209_2020_Know_Your_Surroundings__Exploiting_Scene_Information_for_Object_Tracking.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680205.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123680205.pdf",
+  "bytes": 1149664,
+  "sha256": "911706eaf87cbf7b05fc25aa227032597773b4a45e7539ce9a26411de530352d",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Know Your Surroundings: Exploiting Scene\nInformation for Object Tracking\nGoutam Bhat, Martin Danelljan, Luc Van Gool, and Radu Timofte\nCVL, ETH Z¨urich, Switzerland\nAbstract. Current state-of-the-art trackers rely only on a target ap-\npearance model in order to localize the object in each frame. Such ap-\nproaches are however prone to fail in case of e.g. fast appearance changes\nor presence of distractor objects, where a target appearance model alone\nis insuﬃcient for robust tracking. Having the knowledge about the pres-\nence and locations of other objects in the surrounding scene can be\nhighly beneﬁcial in such cases. This scene information can be propa-\ngated through the sequence and used to, for instance, explicitly avoid\ndistractor objects and eliminate target candidate regions.\nIn this work, we propose a novel tracking architecture which can utilize\nscene information for tracking. Our tracker represents such information\nas dense localized state vectors, which can encode, for example, if a local\nregion is target, background, or distractor. These state vectors are prop-\nagated through the sequence and combined with the appearance model\noutput to localize the target. Our network is learned to eﬀectively utilize\nthe scene information by directly maximizing tracking performance on\nvideo segments. The proposed approach sets a new state-of-the-art on\n3 tracking benchmarks, achieving an AO score of 63.6% on the recent\nGOT-10k dataset.\n1\nIntroduction\nGeneric object tracking is one of the fundamental computer vision problems with\nnumerous applications. The task is to estimate the state of a target object in\neach frame of a video sequence, given only its initial appearance. Most current\napproaches [3, 8, 16, 25, 30, 33, 36] tackle the problem by learning an appearance\nmodel of the target in the initial frame. This model is then applied in subse-\nquent frames to localize the target by distinguishing its appearance from the\nsurrounding background. While achieving impressive tracking performance [24,\n28], these approaches rely only on the appearance model, and do not utilize any\nother information contained in the scene.\nIn contrast, humans exploit a much richer set of cues when tracking an object.\nWe have a holistic view of the scene and take into consideration not only the\ntarget object, but also other objects in the scene. Such information is helpful\nwhen localizing the target, e.g. in case of cluttered scenes with distractor objects,\nor when the target undergoes fast appearance change. Consider the example in\nFigure 1. Given only the initial target appearance, it is hard to conﬁdently locate\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

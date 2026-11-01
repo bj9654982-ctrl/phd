@@ -1,0 +1,41 @@
+{
+  "number": 188,
+  "title": "Drift-Resilient Temporal Priors for Visual Tracking",
+  "year": 2026,
+  "authors": [
+    "Yuqing Huang",
+    "Liting Lin",
+    "Weijun Zhuang",
+    "Zhenyu He",
+    "Xin Li"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Drift-Resilient_Temporal_Priors_for_Visual_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_Drift-Resilient_Temporal_Priors_for_Visual_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_Drift-Resilient_Temporal_Priors_for_Visual_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 843458,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\188_2026_Drift-Resilient_Temporal_Priors_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_Drift-Resilient_Temporal_Priors_for_Visual_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Huang_Drift-Resilient_Temporal_Priors_for_Visual_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 843458,
+  "sha256": "c804214483a849c84a67c1c36d9424f6516805cd438f0a1de43102266679901d",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Drift-Resilient Temporal Priors for Visual Tracking",
+  "first_page_text": "Drift-Resilient Temporal Priors for Visual Tracking\nYuqing Huang1,2, Liting Lin3, Weijun Zhuang1,2, Zhenyu He1,∗, and Xin Li2,4,∗\n1Harbin Institute of Technology, Shenzhen\n2Pengcheng Laboratory\n3Lero, the Research Ireland Centre for Software, University of Limerick\n4Pazhou Lab (Huangpu)\nAbstract\nTemporal information is crucial for visual tracking, but ex-\nisting multi-frame trackers are vulnerable to model drift\ncaused by naively aggregating noisy historical predictions.\nIn this paper, we introduce DTPTrack, a lightweight and\ngeneralizable module designed to be seamlessly integrated\ninto existing trackers to suppress drift.\nOur framework\nconsists of two core components:\n(1) a Temporal Re-\nliability Calibrator (TRC) mechanism that learns to as-\nsign a per-frame reliability score to historical states, fil-\ntering out noise while anchoring on the ground-truth tem-\nplate; and (2) a Temporal Guidance Synthesizer (TGS)\nmodule that synthesizes this calibrated history into a com-\npact set of dynamic temporal priors to provide predic-\ntive guidance.\nTo demonstrate its versatility, we in-\ntegrate DTPTrack into three diverse tracking architec-\ntures—OSTrack, ODTrack, and LoRAT—and show consis-\ntent, significant performance gains across all baselines.\nOur best-performing model, built upon an extended Lo-\nRATv2 backbone, sets a new state-of-the-art on several\nbenchmarks, achieving a 77.5% Success rate on LaSOT and\nan 80.3% AO on GOT-10k. The source code is available at\nhttps://github.com/NorahGreen/DTPTrack.\n1. Introduction\nVisual Object Tracking (VOT) is a fundamental task in com-\nputer vision, with wide-ranging applications in autonomous\ndriving, video surveillance, robotics, and human-computer\ninteraction.\nThe core challenge lies in accurately and\nrobustly localizing a target specified in the initial frame\nthroughout an entire video sequence. This requires models\nto be resilient to a host of real-world complexities, includ-\ning severe occlusions, rapid motion, illumination changes,\nand significant variations in the target’s appearance.\nThe advent of deep learning, and particularly the rise\nof the Vision Transformer (ViT) architecture [16], has cat-\nalyzed a paradigm shift in the field. Modern trackers such\n∗Corresponding author\nas OSTrack [52], MixFormer [10], and SeqTrack [9] have\ndemonstrated remarkable performance by leveraging the\npower of self-attention to jointly learn target-specific fea-\ntures and model their relationship with the search region.\nA key driver of recent progress has been the incorporation\nof temporal information. Rather than relying solely on the\ninitial template and the current search frame, state-of-the-\nart methods increasingly utilize a history of past frames to\nbuild a more comprehensive and dynamic model of the tar-\nget. This is typically achieved through two main strategies:\nonline model updating, where a dynamic template is pro-\ngressively refreshed with recent predictions [21, 51], or di-\nrect multi-frame feature fusion, where features from several\nhistorical frames are jointly processed [9, 53].\nDespite these advances, a critical and persistent vulner-\nability plagues most temporal trackers: model drift. This\nphenomenon occurs when the tracker makes an inaccurate\nprediction—for instance, during a brief occlusion or due\nto a similar-looking distractor—and this erroneous infor-\nmation is subsequently ”baked into” the target’s temporal\nmodel. The corrupted model then leads to further inaccu-\nracies in the next frame, initiating a cascade of compound-\ning errors that often culminates in complete tracking failure.\nThis “Achilles’ heel” prevents trackers from achieving the\nlong-term robustness required for real-world applications.\nBoth direct feature aggregation and naive template updat-\ning treat all historical information as equally valid, provid-\ning no mechanism to differentiate between a high-quality\nprediction and a noisy, corrupted one.\nTo address this fundamental challenge, we introduce\nDTPTrack, a novel, generalizable module designed to ex-\nplicitly combat model drift by intelligently managing the\nflow of historical information.\nThe key insight behind\nDTPTrack is that a robust temporal tracker must not only\nremember the past but also critically assess its reliabil-\nity. Our module achieves this through a two-stage process.\nFirst, a Temporal Reliability Calibrator (TRC) mecha-\nnism learns to assign a per-frame reliability score to his-\ntorical states, dynamically weighting the influence of each\npast prediction. It suppresses noise by down-weighting low-\nconfidence frames. Second, a Temporal Guidance Syn-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n6847\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

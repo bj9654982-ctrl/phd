@@ -1,0 +1,13 @@
+{
+  "body_hanzi": 20591,
+  "references": 300,
+  "main_figures": 5,
+  "tables": 11,
+  "pdf_pages": 35,
+  "pdf_text_chars": 75909,
+  "min_page_text_chars": 645,
+  "pdf_references_last_present": true,
+  "pdf_end_present": true,
+  "docx_bytes": 714822,
+  "pdf_bytes": 1050675
+}

@@ -1,0 +1,40 @@
+{
+  "number": 193,
+  "title": "Autoregressive Sequential Pretraining for Visual Tracking",
+  "year": 2025,
+  "authors": [
+    "Shiyi Liang",
+    "Yifan Bai",
+    "Yihong Gong",
+    "Xing Wei"
+  ],
+  "venue": "CVPR",
+  "category": "自回归与生成式跟踪",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Liang_Autoregressive_Sequential_Pretraining_for_Visual_Tracking_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liang_Autoregressive_Sequential_Pretraining_for_Visual_Tracking_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liang_Autoregressive_Sequential_Pretraining_for_Visual_Tracking_CVPR_2025_paper.pdf",
+      "bytes": 5307300,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-28",
+  "human_verification": "未核验",
+  "file": "PDF\\193_2025_Autoregressive_Sequential_Pretraining_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liang_Autoregressive_Sequential_Pretraining_for_Visual_Tracking_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Liang_Autoregressive_Sequential_Pretraining_for_Visual_Tracking_CVPR_2025_paper.pdf",
+  "bytes": 5307300,
+  "sha256": "53c6d4dd205ea9433a71280730c9148e97828020ce9edf532881718c8470fa79",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Autoregressive Sequential Pretraining for Visual Tracking",
+  "first_page_text": "Autoregressive Sequential Pretraining for Visual Tracking\nShiyi Liang*\nYifan Bai* †\nYihong Gong\nXing WeiB\nSchool of Software Engineering, Xi’an Jiaotong University\n{sy liang2023, yfbai}@stu.xjtu.edu.cn\n{ygong, weixing}@mail.xjtu.edu.cn\nhttps://ARPTrack.github.io\nAbstract\nRecent advancements in visual object tracking have shifted\ntowards a sequential generation paradigm, where object\ndeformation and motion exhibit strong temporal dependen-\ncies. Despite the importance of these dependencies, widely\nadopted image-level pretrained backbones barely capture\nthe dynamics in the consecutive video, which is the essence\nof tracking. Thus, we propose AutoRegressive Sequen-\ntial Pretraining (ARP), an unsupervised spatio-temporal\nlearner, via generating the evolution of object appear-\nance and motion in video sequences. Our method leverages\na diffusion model to autoregressively generate the future\nframe appearance, conditioned on historical embeddings\nextracted by a general encoder. Furthermore, to ensure tra-\njectory coherence, the same encoder is employed to learn\ntrajectory consistency by generating coordinate sequences\nin a reverse autoregressive fashion, a process we term back-\ntracking. Further, we integrate the pretrained ARP into AR-\nTrackV2, creating ARPTrack, which is further fine-tuned\nfor tracking tasks. ARPTrack achieves state-of-the-art per-\nformance across multiple benchmarks, becoming the first\ntracker to surpass 80% AO on GOT-10k, while maintaining\nhigh efficiency. These results demonstrate the effectiveness\nof our approach in capturing temporal dependencies for\ncontinuous video tracking. The code will be released soon.\n1. Introduction\nRecent advances in Visual Object Tracking [3, 36, 38, 42,\n48], have witnessed a paradigm shift from traditional per-\nframe template matching [2, 23, 29, 41, 44, 56, 66] to se-\nquential generation [1, 14, 59], which has set new per-\nformance benchmarks, pioneered by ARTrack [59]. This\ntransformation aligns with the inherently temporal nature of\n*Co-first authors\n†Project lead\nBCorresponding author\nFigure 1. Comparison between image-level and video-level pre-\ntrained backbones. Top: Representative training samples from\nimage-based datasets (blue) and video-based datasets (red). Bot-\ntom: (1) The gradient cosine similarity between consecutive iter-\nations follows a normal distribution during image-level pretrain-\ning, whereas it demonstrates significant temporal correlation in\nthe video-level pretrained backbone, and (2) when fine-tuned with\nARTrackV2, the video-level pretrained approach (red) demon-\nstrates superior tracking performance on GOT-10k then image-\nlevel (blue) and pairs-level (yellow).\ntracking [6, 39, 62, 70], where object deformation and mo-\ntion exhibit strong sequential dependencies. This advance-\nment has far-reaching implications for time-critical appli-\ncations, spanning from embodied intelligence, autonomous\ndriving, human-computer interaction, and augmented real-\nity systems.\nMoreover, the paradigm shift offers a novel perspective\non conventional approaches. As demonstrated in Figure 1,\nthe gradient patterns between image-level and video-level\npretrained models exhibit stark disparities, with video mod-\nels demonstrating superior perception to temporal dynam-\nics. This reveals a fundamental constraint in current track-\ning frameworks: despite their widespread adoption, image-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n7254\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

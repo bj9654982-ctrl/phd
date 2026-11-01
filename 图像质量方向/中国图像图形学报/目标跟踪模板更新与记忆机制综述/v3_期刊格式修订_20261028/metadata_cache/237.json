@@ -1,0 +1,502 @@
+{
+  "number": 237,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Context-Aware Integration of Language and Visual References for Natural Language Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T16:26:29Z",
+      "timestamp": 1791303989414,
+      "version": "4.1.0"
+    },
+    "reference-count": 43,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52733.2024.01817",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2024-09-16T13:34:53Z",
+      "timestamp": 1726493693000
+    },
+    "page": "19208-19217",
+    "source": "Crossref",
+    "is-referenced-by-count": 70,
+    "title": [
+      "Context-Aware Integration of Language and Visual References for Natural Language Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Yanyan",
+        "family": "Shao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Zhejiang University of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shuting",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanyang Technological University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qi",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yuchao",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenhan",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Hong Kong University of Science and Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiming",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Zhejiang University of Technology"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-021-01559-4"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00179"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "issue": "7",
+        "key": "ref5",
+        "first-page": "8",
+        "volume": "1",
+        "author": "Feng",
+        "year": "2019",
+        "journal-title": "Robust visual object tracking with natural language region proposal network"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV45572.2020.9093425"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00579"
+      },
+      {
+        "key": "ref8",
+        "author": "Filtenborg",
+        "year": "2020",
+        "journal-title": "Siamese tracking with lingual object constraints"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00942"
+      },
+      {
+        "key": "ref10",
+        "first-page": "4446",
+        "article-title": "Divert more attention to vision-language tracking",
+        "volume": "35",
+        "author": "Guo",
+        "year": "2022",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01661"
+      },
+      {
+        "key": "ref12",
+        "author": "Jang",
+        "year": "2016",
+        "journal-title": "Categorical reparameterization with gumbel-softmax"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3065386"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00915"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPRW56347.2022.00540"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.777"
+      },
+      {
+        "key": "ref19",
+        "first-page": "16743",
+        "article-title": "Swintrack: A simple and strong baseline for transformer tracking",
+        "volume": "35",
+        "author": "Lin",
+        "year": "2022",
+        "journal-title": "Adv. Neural Inform. Process. Syst."
+      },
+      {
+        "key": "ref20",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Roberta: A robustly optimized bert pretraining approach"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref22",
+        "author": "Chris",
+        "year": "2016",
+        "journal-title": "The concrete distribution: A continuous relaxation of discrete random variables"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.9"
+      },
+      {
+        "key": "ref24",
+        "first-page": "8748",
+        "article-title": "Learning transferable visual models from natural language super-vision",
+        "author": "Radford",
+        "year": "2021",
+        "journal-title": "Int. Canf. Mach. Learn."
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v33i01.33014780"
+      },
+      {
+        "key": "ref26",
+        "first-page": "658",
+        "article-title": "Generalized inter-section over union: A metric and a loss for bounding box regression",
+        "volume-title": "IEEE Conf. Comput. Vis. Pattern Recog.",
+        "author": "Rezatofighi",
+        "year": "2019"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS55552.2023.10341690"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "ref29",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Describe and attend to track: Learning natural language guided structural representation and visual attention for object tracking"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01355"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01760"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00928"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58568-6_23"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2020.3038720"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01309"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3581783.3611736"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02217"
+      },
+      {
+        "key": "ref42",
+        "author": "Zhu",
+        "year": "2020",
+        "journal-title": "Deformable detr: Deformable transformers for end-to-end object detection"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Neural architecture search with reinforcement learning",
+        "volume-title": "Int. Conf. Learn. Represent.",
+        "author": "Zoph",
+        "year": "2017"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Seattle, WA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10654794/10654797/10656751.pdf?arnumber=10656751",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          21
+        ]
+      ],
+      "date-time": "2024-09-21T01:47:06Z",
+      "timestamp": 1726883226000
+    },
+    "score": 59.595596,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10656751/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 43,
+    "URL": "https://doi.org/10.1109/cvpr52733.2024.01817",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    }
+  }
+}

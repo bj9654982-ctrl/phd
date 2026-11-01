@@ -1,0 +1,41 @@
+{
+  "number": 21,
+  "title": "Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework",
+  "year": 2022,
+  "authors": [
+    "Botao Ye",
+    "Hong Chang",
+    "Bingpeng Ma",
+    "Shiguang Shan",
+    "Xilin Chen"
+  ],
+  "venue": "ECCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/3964_ECCV_2022_paper.php",
+  "doi": "10.1007/978-3-031-20047-2_20",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820332.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820332.pdf",
+      "bytes": 1224865,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\021_2022_Joint_Feature_Learning_and_Relation_Modeling_for_Tracking__A_One-Stream_Framew.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820332.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136820332.pdf",
+  "bytes": 1224865,
+  "sha256": "10f7c06a73e54027c6d650b25fd5fcbb3200e7aa4abd6af4a47714c732708e83",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "",
+  "first_page_text": "Joint Feature Learning and Relation Modeling\nfor Tracking: A One-Stream Framework\nBotao Ye1,2, Hong Chang1,2, Bingpeng Ma2,\nShiguang Shan1,2, and Xilin Chen1,2\n1 Key Lab of Intelligent Information Processing of Chinese Academy of Sciences\n(CAS), Institute of Computing Technology, CAS, Beijing, 100190, China\n2 University of Chinese Academy of Sciences, Beijing, 100049, China\nbotao.ye@vipl.ict.ac.cn, changhong@ict.ac.cn, bpma@ucas.ac.cn,\n{sgshan, xlchen}@ict.ac.cn\nAbstract. The current popular two-stream, two-stage tracking frame-\nwork extracts the template and the search region features separately\nand then performs relation modeling, thus the extracted features lack\nthe awareness of the target and have limited target-background dis-\ncriminability. To tackle the above issue, we propose a novel one-stream\ntracking (OSTrack) framework that unifies feature learning and relation\nmodeling by bridging the template-search image pairs with bidirectional\ninformation flows. In this way, discriminative target-oriented features\ncan be dynamically extracted by mutual guidance. Since no extra heavy\nrelation modeling module is needed and the implementation is highly\nparallelized, the proposed tracker runs at a fast speed. To further im-\nprove the inference efficiency, an in-network candidate early elimination\nmodule is proposed based on the strong similarity prior calculated in the\none-stream framework. As a unified framework, OSTrack achieves state-\nof-the-art performance on multiple benchmarks, in particular, it shows\nimpressive results on the one-shot tracking benchmark GOT-10k, i.e.,\nachieving 73.7% AO, improving the existing best result (SwinTrack) by\n4.3%. Besides, our method maintains a good performance-speed trade-\noff and shows faster convergence. The code and models are available at\nhttps://github.com/botaoye/OSTrack.\n1\nIntroduction\nVisual object tracking (VOT) aims at localizing an arbitrary target in each video\nframe, given only its initial appearance. The continuously changing and arbitrary\nnature of the target poses a challenge to learn a target appearance model that\ncan effectively discriminate the specified target from the background. Current\nmainstream trackers typically address this problem with a common two-stream\nand two-stage pipeline, which means that the features of the template and the\nsearch region are separately extracted (two-stream), and the whole process is\ndivided into two sequential steps: feature extraction and relation modeling (two-\nstage). Such a natural pipeline employs the strategy of “divide-and-conquer”\nand achieves remarkable success in terms of tracking performance.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,42 @@
+{
+  "number": 272,
+  "title": "Learning Position and Target Consistency for Memory-Based Video Object Segmentation",
+  "year": 2021,
+  "authors": [
+    "Li Hu",
+    "Peng Zhang",
+    "Bang Zhang",
+    "Pan Pan",
+    "Yinghui Xu",
+    "Rong Jin"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+      "bytes": 3572065,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\272_2021_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segment.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.pdf",
+  "bytes": 3572065,
+  "sha256": "e09cc8246a152abd78e24f33ceedb75c1736af39d9e538f8d3140ed085a91d79",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Learning Position and Target Consistency for Memory-Based Video Object Segmentation",
+  "first_page_text": "Learning Position and Target Consistency for Memory-based Video Object\nSegmentation\nLi Hu, Peng Zhang, Bang Zhang, Pan Pan, Yinghui Xu, Rong Jin\nMachine Intelligence Technology Lab, Alibaba Group\n{hooks.hl, futian.zp, zhangbang.zb, panpan.pp, renji.xyh, jinrong.jr}@alibaba-inc.com\nAbstract\nThis paper studies the problem of semi-supervised video\nobject segmentation(VOS). Multiple works have shown that\nmemory-based approaches can be effective for video object\nsegmentation. They are mostly based on pixel-level match-\ning, both spatially and temporally.\nThe main shortcom-\ning of memory-based approaches is that they do not take\ninto account the sequential order among frames and do\nnot exploit object-level knowledge from the target. To ad-\ndress this limitation, we propose to Learn position and tar-\nget Consistency framework for Memory-based video object\nsegmentation, termed as LCM. It applies the memory mech-\nanism to retrieve pixels globally, and meanwhile learns\nposition consistency for more reliable segmentation. The\nlearned location response promotes a better discrimination\nbetween target and distractors. Besides, LCM introduces\nan object-level relationship from the target to maintain tar-\nget consistency, making LCM more robust to error drifting.\nExperiments show that our LCM achieves state-of-the-art\nperformance on both DAVIS and Youtube-VOS benchmark.\nAnd we rank the 1st in the DAVIS 2020 challenge semi-\nsupervised VOS task.\n1. Introduction\nVideo object segmentation(VOS) is a fundamental com-\nputer vision task, with a wide range of applications includ-\ning video editing, video composition and autonomous driv-\ning. In this paper, we focus on the task of semi-supervised\nvideo object segmentation. Given a video and the ground\ntruth object mask of the ﬁrst frame, semi-supervised VOS\npredicts the segmentation masks of the objects speciﬁed by\nthe ground truth mask in the ﬁrst frame for the remain-\ning frames. In video sequences, the target object will un-\ndergo large appearance changes due to continuous motion\nand variable camera view. And it may disappear in some\nframes due to occlusion between different objects. Further-\nmore, there are also similar instances of same categories\nReference frame\nw/o PGM & ORM\nw/ PGM & ORM\n(LCM)\nFigure 1. Typical memory-based approaches rely on pixel-level\nsimilarity, which leads to errors in prediction, as show in second\nrow. The proposed Position Guidance Module(PGM) helps the\nnetwork track the motion trajectory(bottom left). And the object-\naware Object Relation Module(ORM) prevents the network from\nmaking fragmented segmentation pieces(bottom right).\nthat are difﬁcult to distinguish, making the problem even\nharder. Therefore, semi-supervised VOS is extremely chal-\nlenging despite the provided annotation in the ﬁrst frame.\nThe fundamental problem of VOS lies in how to\nmake full use of the spatio-temporally structured infor-\nmation contained in video frames.\nMemory-based ap-\nproaches are recently proposed with signiﬁcant perfor-\nmance improvements in popular VOS benchmarks, e.g.\nDAVIS[33, 34] and Youtube-VOS[46]. Space-Time Mem-\nory network(STM)[29] is the ﬁrst memory-based semi-\nsupervised VOS method, developing a memory mechanism\nto store information from all previous frames for the query\nframe to read. It differs from other matching-based meth-\nods as it expands its search range to the entire space-time\ndomain and perform dense matching in the feature space.\nHowever, memory-based methods only consider pixel-level\nmatching and tend to retrieve all pixels with high match-\ning score in the query image. It may fail when a non-target\nregion share similar visual appearance with the target re-\n4144\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

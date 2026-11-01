@@ -1,0 +1,39 @@
+{
+  "number": 54,
+  "title": "Least Soft-Threshold Squares Tracking",
+  "year": 2013,
+  "authors": [
+    "Dong Wang",
+    "Huchuan Lu",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2013/html/Wang_Least_Soft-Threshold_Squares_2013_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Wang_Least_Soft-Threshold_Squares_2013_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Wang_Least_Soft-Threshold_Squares_2013_CVPR_paper.pdf",
+      "bytes": 1734032,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\054_2013_Least_Soft-Threshold_Squares_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Wang_Least_Soft-Threshold_Squares_2013_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Wang_Least_Soft-Threshold_Squares_2013_CVPR_paper.pdf",
+  "bytes": 1734032,
+  "sha256": "085a2be10b8d29b0e3f5a311b0aba009a57cef6cb240e7b14535e3d4cf444864",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Least Soft-Threshold Squares Tracking",
+  "first_page_text": "Least Soft-thresold Squares Tracking\nDong Wang\nDalian University of Technology\nwangdong.ice@gmail.com\nHuchuan Lu\nDalian University of Technology\nlhchuan@dlut.edu.cn\nMing-Hsuan Yang\nUniversity of California at Merced\nmhyang@ucmerced.edu\nAbstract\nIn this paper, we propose a generative tracking method\nbased on a novel robust linear regression algorithm. In con-\ntrast to existing methods, the proposed Least Soft-thresold\nSquares (LSS) algorithm models the error term with the\nGaussian-Laplacian distribution, which can be solved ef-\nﬁciently. Based on maximum joint likelihood of parameters,\nwe derive a LSS distance to measure the difference between\nan observation sample and the dictionary. Compared with\nthe distance derived from ordinary least squares methods,\nthe proposed metric is more effective in dealing with out-\nliers. In addition, we present an update scheme to capture\nthe appearance change of the tracked target and ensure that\nthe model is properly updated. Experimental results on sev-\neral challenging image sequences demonstrate that the pro-\nposed tracker achieves more favorable performance than\nthe state-of-the-art methods.\n1. Introduction\nVisual tracking plays a critical role in computer vision\nthat ﬁnds many practical applications (e.g., motion analysis,\nvideo surveillance, vehicle navigation and human-computer\ninteraction). Although signiﬁcant progress has been made\nin the past decades, developing a robust tracking algorithm\nis still a challenging problem due to numerous factors such\nas partial occlusion, illumination variation, pose change,\ncomplex motion, and background clutter.\nTracking algorithms can be classiﬁed as either generative\n(e.g., [7, 1, 20, 19, 21, 15]) or discriminative (e.g., [2, 10,\n4, 11, 27, 18, 30, 14]) methods. Generative methods focus\non searching for the regions which are the most similar to\nthe tracked targets, while discriminative methods cast track-\ning as a classiﬁcation problem that distinguishes the tracked\ntargets from the surrounding backgrounds. In this work, we\npropose a robust generative tracker which is able to handle\npartial occlusion and other challenging factors effectively.\nAmong the generative methods, the trackers based on\nlinear representation maintain holistic appearance informa-\ntion and therefore provide a compact notion of the “thing”\nbeing tracked, which may facilitate some advanced vision\ntasks [7, 20]. These methods often adopt a dictionary (e.g.,\na set of basis vectors from a subspace or a series of tem-\nplates) to describe the tracked target. A given candidate\nsample is linearly represented by the dictionary, and the\nrepresentation coefﬁcient and reconstruction error are com-\nputed, from which the corresponding likelihood (belonging\nto the object class) is determined. Ross et al. [20] propose\nan incremental visual tracking (IVT) method which repre-\nsents the tracked target by a low dimensional PCA subspace\n(a set of PCA basis vectors) and assumes that the error is\nGaussian distributed with small variances (i.e., small dense\nnoise). Therefore, the representation coefﬁcient can be ob-\ntained by a simple projection operator, which is equivalent\nto the ordinary least squares solution under the assumption\nthat the dictionary atoms are orthogonal. The reconstruction\nerror is computed by the objective function of the ordinary\nleast squares methods. While the IVT method is effective\nto handle appearance change caused by illumination varia-\ntion and pose variation, it is not robust to some challenging\nfactors (e.g., partial occlusion and background clutter) due\nto the following two reasons. First, ordinary least squares\nmethods have been shown to be sensitive to outliers due to\nthe formulation based on reconstruction error with Gaussian\nnoise assumption. Second, the IVT method uses new ob-\nservations to update the observation model without detect-\ning outliers and processing them accordingly. Other recent\ntracking algorithms [16, 12] based on the Gaussian noise as-\nsumption or the ordinary least squares methods have similar\nproblems as the IVT method.\nMotivated by the success of sparse representation-based\nface recognition [28], Mei et al. [19] develop a novel ℓ1\ntracker that uses a series of target templates and trivial tem-\nplates to model the tracked target, where the target tem-\nplates are used to describe the object class to be tracked\nand trivial templates are used to deal with outliers (e.g., par-\ntial occlusion) with the sparsity constraints. For tracking, a\ncandidate sample can be sparsely represented by both tar-\nget and trivial templates, and its corresponding likelihood is\ndetermined by the reconstruction error with respect to target\ntemplates. We note that this formulation is a linear regres-\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.307\n2369\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.307\n2369\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.307\n2371\n",
+  "title_exact_normalized": false,
+  "title_token_coverage": 0.8,
+  "identity_check": "题名需人工核对",
+  "technical_check": "PDF可解析"
+}

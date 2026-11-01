@@ -1,0 +1,39 @@
+{
+  "number": 206,
+  "title": "Beyond Local Search: Tracking Objects Everywhere With Instance-Specific Proposals",
+  "year": 2016,
+  "authors": [
+    "Gao Zhu",
+    "Fatih Porikli",
+    "Hongdong Li"
+  ],
+  "venue": "CVPR",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2016/html/Zhu_Beyond_Local_Search_CVPR_2016_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhu_Beyond_Local_Search_CVPR_2016_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhu_Beyond_Local_Search_CVPR_2016_paper.pdf",
+      "bytes": 1289867,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\206_2016_Beyond_Local_Search__Tracking_Objects_Everywhere_With_Instance-Specific_Propos.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhu_Beyond_Local_Search_CVPR_2016_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhu_Beyond_Local_Search_CVPR_2016_paper.pdf",
+  "bytes": 1289867,
+  "sha256": "0e4ed5abc5fd58ec4c0a103ed2bcfba0cb2ea009df1fa7e3450737450803955a",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Beyond Local Search: Tracking Objects Everywhere With Instance-Specific Proposals",
+  "first_page_text": "Beyond Local Search: Tracking Objects Everywhere with Instance-Speciﬁc\nProposals\nGao Zhu1, Fatih Porikli1,2,3, and Hongdong Li1,3\nAustralian National University1 and NICTA2\nARC Centre of Excellence for Robotic Vision3\n{gao.zhu,fatih.porikli,hongdong.li}@anu.edu.au ∗\nAbstract\nMost tracking-by-detection methods employ a local\nsearch window around the predicted object location in the\ncurrent frame assuming the previous location is accurate,\nthe trajectory is smooth, and the computational capacity\npermits a search radius that can accommodate the maxi-\nmum speed yet small enough to reduce mismatches. These,\nhowever, may not be valid always, in particular for fast\nand irregularly moving objects. Here, we present an ob-\nject tracker that is not limited to a local search window and\nhas ability to probe efﬁciently the entire frame. Our method\ngenerates a small number of “high-quality” proposals by\na novel instance-speciﬁc objectness measure and evaluates\nthem against the object model that can be adopted from an\nexisting tracking-by-detection approach as a core tracker.\nDuring the tracking process, we update the object model\nconcentrating on hard false-positives supplied by the pro-\nposals, which help suppressing distractors caused by difﬁ-\ncult background clutters, and learn how to re-rank propos-\nals according to the object model. Since we reduce signiﬁ-\ncantly the number of hypotheses the core tracker evaluates,\nwe can use richer object descriptors and stronger detector.\nOur method outperforms most recent state-of-the-art track-\ners on popular tracking benchmarks, and provides improved\nrobustness for fast moving objects as well as for ultra low-\nframe-rate videos.\n1. Introduction\nModel-free object tracking, which aims to track arbi-\ntrary objects based on a single bounding-box annotation,\nhas gained signiﬁcant attention recently with numerous ap-\nproaches [22, 16, 18] proposed and several large benchmark\n∗This work was supported under the Australian Research Councils Dis-\ncovery Projects funding scheme (project DP150104645, DP120103896),\nLinkage Projects funding scheme (LP100100588), ARC Centre of Excel-\nlence on Robotic Vision (CE140100016) and NICTA (Data61).\n(a) Frame t\n(b) Frame t + 1\nFigure 1: Top row: Most existing tracking-by-detection\nmethods examine hypothesis locations within a local and\nheuristically deﬁned search window around the last detected\nlocation. Bottom row: Our tracker seeks high-quality hy-\npotheses over the entire image using instance-speciﬁc edge-\nbox locations.\ndatasets [39, 32, 26, 38] released. Signiﬁcant amount of ef-\nfort has been devoted to either designing a better object rep-\nresentation, including subspace [30], sparsity [28, 43], and\ndeep learned features [34, 41], or building complex clas-\nsiﬁers [16, 4, 45, 40, 29] for better discrimination of the\nobject from its background patches. Most of these meth-\nods, however, require a search window centered at the pre-\nvious object location to select candidate patches, partly due\nto computational complexity. This is sometimes referred as\nthe motion model [35], and it is implicitly assumed that the\nobject is correctly tracked in the previous frames and the\nobject motion is not large. Even though this simpliﬁcation\nworks in some situations, it also introduces serious difﬁcul-\nties especially when the object undergoes deformations and\n1943\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.9,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

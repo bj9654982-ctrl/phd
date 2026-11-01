@@ -1,0 +1,40 @@
+{
+  "number": 38,
+  "title": "Incremental Learning for Robust Visual Tracking",
+  "year": 2008,
+  "authors": [
+    "David A. Ross",
+    "Jongwoo Lim",
+    "Ruei-Sung Lin",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "International Journal of Computer Vision",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://doi.org/10.1007/s11263-007-0075-7",
+  "doi": "10.1007/s11263-007-0075-7",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.cs.toronto.edu/~dross/ivt/RossLimLinYang_ijcv.pdf",
+      "final_url": "https://www.cs.toronto.edu/~dross/ivt/RossLimLinYang_ijcv.pdf",
+      "bytes": 3177886,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\038_2008_Incremental_Learning_for_Robust_Visual_Tracking.pdf",
+  "download_url": "https://www.cs.toronto.edu/~dross/ivt/RossLimLinYang_ijcv.pdf",
+  "requested_url": "https://www.cs.toronto.edu/~dross/ivt/RossLimLinYang_ijcv.pdf",
+  "bytes": 3177886,
+  "sha256": "fc5c348e05e71ab2cadd34814da19f198565622c4e41911ef178cc11264639ff",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 21,
+  "pdf_title": "ijcv05a.dvi",
+  "first_page_text": "Incremental Learning for Robust Visual Tracking\nDavid A. Ross∗\nJongwoo Lim†\nRuei-Sung Lin‡\nMing-Hsuan Yang†\n∗University of Toronto\n† Honda Research Institute, USA\n‡ Motorola Labs\ndross@cs.toronto.edu\njlim@honda-ri.com\nruei-sung.lin@motorola.com\nmhyang@ieee.org\nAbstract\nVisual tracking, in essence, deals with non-stationary image streams that change over time. While most existing\nalgorithms are able to track objects well in controlled environments, they usually fail in the presence of signiﬁcant\nvariation of the object’s appearance or surrounding illumination. One reason for such failures is that many algorithms\nemploy ﬁxed appearance models of the target. Such models are trained using only appearance data available before\ntracking begins, which in practice limits the range of appearances that are modelled, and ignores the large volume of\ninformation (such as shape changes or speciﬁc lighting conditions) that becomes available during tracking. In this\npaper, we present a tracking method that incrementally learns a low-dimensional subspace representation, efﬁciently\nadapting online to changes in the appearance of the target. The model update, based on incremental algorithms\nfor principal component analysis, includes two important features: a method for correctly updating the sample\nmean, and a forgetting factor to ensure less modelling power is expended ﬁtting older observations. Both of these\nfeatures contribute measurably to improving overall tracking performance. Numerous experiments demonstrate the\neffectiveness of the proposed tracking algorithm in indoor and outdoor environments where the target objects undergo\nlarge changes in pose, scale, and illumination.\nIndex Terms: Visual tracking, subspace update, online algorithms, adaptive methods, particle ﬁlter, illumination.\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

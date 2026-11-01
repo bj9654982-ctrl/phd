@@ -1,0 +1,46 @@
+{
+  "number": 200,
+  "title": "Unsupervised Learning of Accurate Siamese Tracking",
+  "year": 2022,
+  "authors": [
+    "Qiuhong Shen",
+    "Lei Qiao",
+    "Jinyang Guo",
+    "Peixia Li",
+    "Xin Li",
+    "Bo Li",
+    "Weitao Feng",
+    "Weihao Gan",
+    "Wei Wu",
+    "Wanli Ouyang"
+  ],
+  "venue": "CVPR",
+  "category": "自监督训练与表征迁移",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Shen_Unsupervised_Learning_of_Accurate_Siamese_Tracking_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Shen_Unsupervised_Learning_of_Accurate_Siamese_Tracking_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Shen_Unsupervised_Learning_of_Accurate_Siamese_Tracking_CVPR_2022_paper.pdf",
+      "bytes": 989215,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\200_2022_Unsupervised_Learning_of_Accurate_Siamese_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Shen_Unsupervised_Learning_of_Accurate_Siamese_Tracking_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Shen_Unsupervised_Learning_of_Accurate_Siamese_Tracking_CVPR_2022_paper.pdf",
+  "bytes": 989215,
+  "sha256": "a565e1865860786019b97b280121bcbb13d294d282f21751270f3a687f93767c",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Unsupervised Learning of Accurate Siamese Tracking",
+  "first_page_text": "Unsupervised Learning of Accurate Siamese Tracking\nQiuhong Shen1,†, Lei Qiao2, Jinyang Guo 3, Peixia Li 3, Xin Li 4,\nBo Li 2, Weitao Feng 3, Weihao Gan 2,5, Wei Wu 2,5, Wanli Ouyang 3,5\n1 Harbin Institute of Technology (Shenzhen) 2 SenseTime Research\n3 The University of Sydney 4 Peng Cheng Laboratory 5 Shanghai AI Laboratory\n{shenqiuhong0905,xinlihitsz}@gmail.com, {qiaolei,libo,ganweihao,wuwei}@sensetime.com,\n{jinyang.guo,peixia.li,weitao.feng,wanli.ouyang}@sydney.edu.au\nAbstract\nUnsupervised learning has been popular in various com-\nputer vision tasks, including visual object tracking. How-\never, prior unsupervised tracking approaches rely heavily\non spatial supervision from template-search pairs and are\nstill unable to track objects with strong variation over a long\ntime span. As unlimited self-supervision signals can be ob-\ntained by tracking a video along a cycle in time, we investi-\ngate evolving a Siamese tracker by tracking videos forward-\nbackward. We present a novel unsupervised tracking frame-\nwork, in which we can learn temporal correspondence both\non the classification branch and regression branch. Specif-\nically, to propagate reliable template feature in the forward\npropagation process so that the tracker can be trained in\nthe cycle, we first propose a consistency propagation trans-\nformation. We then identify an ill-posed penalty problem in\nconventional cycle training in backward propagation pro-\ncess. Thus, a differentiable region mask is proposed to se-\nlect features as well as to implicitly penalize tracking errors\non intermediate frames. Moreover, since noisy labels may\ndegrade training, we propose a mask-guided loss reweight-\ning strategy to assign dynamic weights based on the qual-\nity of pseudo labels. In extensive experiments, our tracker\noutperforms preceding unsupervised methods by a substan-\ntial margin, performing on par with supervised methods on\nlarge-scale datasets such as TrackingNet and LaSOT. Code\nis available at https://github.com/FlorinShum/ULAST.\n1. Introduction\nVisual tracking has become an integral part of various\nvideo applications such as autonomous driving and video\nrecognition. In the mainstream of visual object tracking,\ndeep learning-based trackers are dominant [28], requiring\n†Work performed when Qiuhong Shen is an intern at SenseTime.\na large number of labeled videos. Since the labeled data\noccupy a relatively small portion of practical scenes, the\ntrained tracker cannot reliably track previously unseen ob-\njects.\nThus, learning from unlabeled videos becomes a\npromising approach. Prior works on unsupervised tracking\nfall into two categories: exploiting self-supervision signals\nin videos from either the spatial or temporal dimensions.\nFor the first category [24, 33], the focus is on how to con-\nstruct a template-search pair using a still frame. Since these\nmethods are limited by the inability to learn temporal cor-\nrespondence over long periods of time, trained trackers can\nno longer track objects with strong variation. To cope with\nthe appearance variations that occur during online tracking,\nwe center our attention on methods in the latter category,\nexploiting the temporal self-supervision signal in videos.\nIn supervised tracking methods, box-regression branch\nhas been demonstrated to be effective to capture the objects\nwith large scale variation along temporal dimension [4,22].\nHowever, in existing unsupervised methods, this branch is\nalways absent [33,34,38]. Recently, USOT [47] introduced\na box-regression head, but the tracker is initially trained\nwith template-search pairs from single frames, followed by\ncycle memory training to enhance the robustness of classifi-\ncation branch, whereas the box-regression branch is trained\nwith spatial supervision alone. In this paper, we aim to train\na better tracker by learning temporal correspondence both\non the classification branch and on the regression branch.\nHowever, we identify there are three critical challenges.\nFirst, despite unlimited self-supervision can be obtained\nby tracking a video along a cycle in time, how to explore the\nself-supervision signal in temporal dimension of videos for\ntraining a tracker equipped with a box-estimation branch is\nnot well explored in existing methods. In cycle training, as\nillustrated in Fig. 1, a tracker is assumed to be capable of\ntracking back to the initial location. The tracker is evolved\nin the cycle by utilizing the inconsistency between start and\nend location in initial frames. However, when training from\n8101\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

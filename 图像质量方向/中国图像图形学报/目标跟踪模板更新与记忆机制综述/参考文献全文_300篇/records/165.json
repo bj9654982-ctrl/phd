@@ -1,0 +1,40 @@
+{
+  "number": 165,
+  "title": "ATOM: Accurate Tracking by Overlap Maximization",
+  "year": 2019,
+  "authors": [
+    "Martin Danelljan",
+    "Goutam Bhat",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2019/html/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.pdf",
+      "bytes": 3371678,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\165_2019_ATOM__Accurate_Tracking_by_Overlap_Maximization.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.pdf",
+  "bytes": 3371678,
+  "sha256": "192001f7dea7ac9733d3463fbfcafdbbd65b4f638e267c92329fc4feaaa4e66d",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "ATOM: Accurate Tracking by Overlap Maximization",
+  "first_page_text": "ATOM: Accurate Tracking by Overlap Maximization\nMartin Danelljan∗,1,2\nGoutam Bhat∗,1,2\nFahad Shahbaz Khan1,3\nMichael Felsberg1\n1 CVL, Link¨oping University, Sweden\n2 CVL, ETH Z¨urich, Switzerland\n3 Inception Institute of Artiﬁcial Intelligence, UAE\nAbstract\nWhile recent years have witnessed astonishing improve-\nments in visual tracking robustness, the advancements in\ntracking accuracy have been limited. As the focus has been\ndirected towards the development of powerful classiﬁers,\nthe problem of accurate target state estimation has been\nlargely overlooked. In fact, most trackers resort to a simple\nmulti-scale search in order to estimate the target bounding\nbox. We argue that this approach is fundamentally limited\nsince target estimation is a complex task, requiring high-\nlevel knowledge about the object.\nWe address this problem by proposing a novel track-\ning architecture, consisting of dedicated target estimation\nand classiﬁcation components. High level knowledge is in-\ncorporated into the target estimation through extensive of-\nﬂine learning. Our target estimation component is trained\nto predict the overlap between the target object and an\nestimated bounding box. By carefully integrating target-\nspeciﬁc information, our approach achieves previously un-\nseen bounding box accuracy. We further introduce a clas-\nsiﬁcation component that is trained online to guarantee\nhigh discriminative power in the presence of distractors.\nOur ﬁnal tracking framework sets a new state-of-the-art\non ﬁve challenging benchmarks. On the new large-scale\nTrackingNet dataset, our tracker ATOM achieves a rela-\ntive gain of 15% over the previous best approach, while\nrunning at over 30 FPS. Code and models are available at\nhttps://github.com/visionml/pytracking.\n1. Introduction\nGeneric online visual tracking is a hard and ill-posed\nproblem. The tracking method must learn an appearance\nmodel of the target online based on minimal supervision,\noften a single starting frame in the video. The model then\nneeds to generalize to unseen aspects of the target appear-\nance, including different poses, viewpoints, lightning con-\nditions etc. The tracking problem can be decomposed into\n∗Both authors contributed equally.\nATOM\nDaSiamRPN\nUPDT\nFigure 1. A comparison of our approach with state-of-the-art track-\ners. UPDT [3], based on correlation ﬁlters, lacks an explicit tar-\nget state estimation component, performing a brute-force multi-\nscale search instead. Consequently, it does not handle aspect-ratio\nchanges, which can lead to tracking failure (second row). DaSi-\namRPN [39] employs a bounding box regression strategy to es-\ntimate the target state, but still struggles in cases of out-of-plane\nrotation, deformation, etc. Our approach ATOM, employing an\noverlap prediction network, successfully handles these challenges\nand provides accurate bounding box predictions.\na classiﬁcation task and an estimation task. In the former\ncase, the aim is to robustly provide a coarse location of the\ntarget in the image by categorizing image regions into fore-\nground and background. The second task is then to estimate\nthe target state, often represented by a bounding box.\nIn recent years, the focus of tracking research has been\non target classiﬁcation. Much attention has been invested\ninto constructing robust classiﬁers, based on e.g. correla-\ntion ﬁlters [6, 22, 31], and exploiting powerful deep feature\nrepresentations [3, 34] for this task. On the other hand, tar-\nget estimation has seen below expected progress. This trend\nis clearly observed in the recent VOT2018 challenge [17],\nwhere older trackers such as KCF [13] and MEEM [37] still\nobtain competitive accuracy while exhibiting vastly inferior\nrobustness. In fact, most current state-of-the-art trackers\n[3, 4, 31] still rely on the classiﬁcation component for tar-\nget estimation by performing a multi-scale search. How-\n4660\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

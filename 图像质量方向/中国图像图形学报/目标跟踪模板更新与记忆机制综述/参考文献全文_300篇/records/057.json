@@ -1,0 +1,39 @@
+{
+  "number": 57,
+  "title": "Orderless Tracking through Model-Averaged Posterior Estimation",
+  "year": 2013,
+  "authors": [
+    "Seunghoon Hong",
+    "Suha Kwak",
+    "Bohyung Han"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Hong_Orderless_Tracking_through_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Orderless_Tracking_through_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Orderless_Tracking_through_2013_ICCV_paper.pdf",
+      "bytes": 2917473,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\057_2013_Orderless_Tracking_through_Model-Averaged_Posterior_Estimation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Orderless_Tracking_through_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Hong_Orderless_Tracking_through_2013_ICCV_paper.pdf",
+  "bytes": 2917473,
+  "sha256": "71032cc7806d47b626e4c0cfdb1fbb6834bc79fd5f06b95a87479ae1081564bc",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Orderless Tracking through Model-Averaged Posterior Estimation",
+  "first_page_text": "Orderless Tracking through Model-Averaged Posterior Estimation∗\nSeunghoon Hong\nSuha Kwak\nBohyung Han\nDepartment of Computer Science and Engineering, POSTECH, Korea\n{maga33,mercury3,bhhan}@postech.ac.kr\nAbstract\nWe propose a novel ofﬂine tracking algorithm based on\nmodel-averaged posterior estimation through patch match-\ning across frames. Contrary to existing online and ofﬂine\ntracking methods, our algorithm is not based on temporally-\nordered estimates of target state but attempts to select easy-\nto-track frames ﬁrst out of the remaining ones without ex-\nploiting temporal coherency of target. The posterior of the\nselected frame is estimated by propagating densities from\nthe already tracked frames in a recursive manner. The den-\nsity propagation across frames is implemented by an ef-\nﬁcient patch matching technique, which is useful for our\nalgorithm since it does not require motion smoothness as-\nsumption. Also, we present a hierarchical approach, where\na small set of key frames are tracked ﬁrst and non-key\nframes are handled by local key frames. Our tracking al-\ngorithm is conceptually well-suited for the sequences with\nabrupt motion, shot changes, and occlusion.\nWe com-\npare our tracking algorithm with existing techniques in real\nvideos with such challenges and illustrate its superior per-\nformance qualitatively and quantitatively.\n1. Introduction\nThere is a tremendous amount of archived videos in lo-\ncal hard drive, ﬁle repositories, and video sharing websites.\nOfﬂine tracker is a reasonable option for tracking objects in\nsuch videos since more robust tracking results can be ob-\ntained by utilizing observations from the multiple frames\nregardless of their temporal order. However, most of ex-\nisting online (and even most of ofﬂine) tracking algorithms\nare limited to processing frames in a temporal order. Note\nthat tracking algorithms often fail eventually because a few\nintermediate frames are extremely challenging due to fast\nmotion, shot changes, occlusion, shadow, and temporary\nappearance changes. Therefore, we claim that tracking in\na non-temporal order improve performance by setting aside\n∗This work was supported by MEST Basic Science Research Program\nthrough the NRF of Korea (NRF-2012R1A1A1043658), the IT R&D Pro-\ngram of MKE/KEIT (10040246), and Samsung Electronics Co., Ltd.\ntroublesome frames and taking easy-to-track ones ﬁrst.\nRecent studies about visual tracking problem are mainly\nfocused on robust appearance modeling [2, 3, 7, 10, 17, 18,\n24, 25]; they handle the variations of target appearance on-\nline by sparse reconstruction [3, 10, 17, 24, 25], incremen-\ntal subspace learning [18], multiple instance learning [2],\nP-N learning [11], and so on. While these methods are suc-\ncessful in handling various appearance changes, they all as-\nsume temporal smoothness of target motion; they often fail\nto track objects in the presence of sudden changes in target\nand scene. To overcome the challenge related to abrupt mo-\ntion of target, [14] adopts the Wang-Landau Monte Carlo\nsampling method. It successfully tracks objects even with\nsudden changes of target location including shot changes in\nan online manner. However, it may not be able to recover\nfrom temporal failures as other online tracking algorithms,\nand may not be sufﬁciently robust to other kinds of chal-\nlenges such as occlusion, background clutter, and appear-\nance changes.\nOfﬂine tracking [4, 6, 20, 22, 23] is an alternative option\nto handle abrupt motion, occlusion, and shot changes ro-\nbustly since it can utilize entire frames within video at once.\nUchida et al. [22] formulates ofﬂine tracking as a global op-\ntimization problem, and solves it by dynamic programming\nefﬁciently. This approach is further extended by [6], which\nadopts generalized distance transform for additional com-\nputational efﬁciency. Note that dynamic programming esti-\nmates target state at each frame recursively, and still follows\na predeﬁned order, typically temporal order, of a sequence;\nthe beneﬁt of ofﬂine tracking is limited in practice.\nOn\nthe other hand, [20] proposes a bi-directional tracking al-\ngorithm, where a full trajectory of target is obtained by con-\nnecting a set of short trajectories with occlusion handling\nthrough the optimization with a discrete Hidden Markov\nModel (HMM). Some ofﬂine algorithms integrate user in-\nteractions [4, 23], where dynamic programming or k-d tree\nis employed in the optimization process.\nWe propose an ofﬂine tracking algorithm based on\nmodel-averaged posterior estimation. Although our track-\ning algorithm is not based on a temporal order, it actively\nﬁnds the next frame to track out of the remaining ones and\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.285\n2296\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.285\n2296\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

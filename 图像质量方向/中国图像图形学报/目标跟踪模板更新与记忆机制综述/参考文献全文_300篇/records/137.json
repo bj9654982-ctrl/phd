@@ -1,0 +1,41 @@
+{
+  "number": 137,
+  "title": "SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking",
+  "year": 2020,
+  "authors": [
+    "Dongyan Guo",
+    "Jun Wang",
+    "Ying Cui",
+    "Zhenhua Wang",
+    "Shengyong Chen"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Guo_SiamCAR_Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_Tracking_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_SiamCAR_Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_SiamCAR_Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "bytes": 1679363,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\137_2020_SiamCAR__Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_SiamCAR_Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_SiamCAR_Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "bytes": 1679363,
+  "sha256": "01f0e3c533e0b21de82719a342d27782ef48982cbd776e3291d481866bc0b339",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking",
+  "first_page_text": "SiamCAR: Siamese Fully Convolutional Classiﬁcation and Regression\nfor Visual Tracking\nDongyan Guo †, Jun Wang †, Ying Cui †∗, Zhenhua Wang †, Shengyong Chen ‡\n† Zhejiang University of Technology, China\n‡ Tianjin University of Technology, China\n{guodongyan, 1111912011, cuiying, zhhwang}@zjut.edu.cn,\nsy@ieee.org\nAbstract\nBy decomposing the visual tracking task into two sub-\nproblems as classiﬁcation for pixel category and regression\nfor object bounding box at this pixel, we propose a novel\nfully convolutional Siamese network to solve visual tracking\nend-to-end in a per-pixel manner. The proposed framework\nSiamCAR consists of two simple subnetworks: one Siamese\nsubnetwork for feature extraction and one classiﬁcation-\nregression subnetwork for bounding box prediction. Dif-\nferent from state-of-the-art trackers like Siamese-RPN,\nSiamRPN++ and SPM, which are based on region pro-\nposal, the proposed framework is both proposal and anchor\nfree. Consequently, we are able to avoid the tricky hyper-\nparameter tuning of anchors and reduce human interven-\ntion. The proposed framework is simple, neat and effective.\nExtensive experiments and comparisons with state-of-the-\nart trackers are conducted on challenging benchmarks in-\ncluding GOT-10K, LaSOT, UAV123 and OTB-50. Without\nbells and whistles, our SiamCAR achieves the leading per-\nformance with a considerable real-time speed. The code is\navailable at https://github.com/ohhhyeahhh/SiamCAR.\n1. Introduction\nVisual object tracking has received considerable atten-\ntion due to its wide application such as intelligent surveil-\nlance, human-machine interaction and unmanned vehicles.\nRapid progress has been made on visual tracking. However,\nit remains a challenging task especially for real world ap-\nplications, as object in unconstrained recording conditions\noften suffers from large illumination variation, scale varia-\ntion, background clutters and heavy occlusions, etc. More-\nover, the appearance of non-rigid objects may change sig-\nniﬁcantly due to extreme pose variation.\nCurrent popular visual tracking methods [1, 21, 14, 35,\n20, 42, 11, 33] revolve around the Siamese network based\narchitectures. The Siamese network formulates the visual\n#016\n#064\n#119\n#020\n#048\n#085\n#047\n#200\n#417\nSiamCAR\nSiamRPN++\nECO\nSPM\nFigure 1. Comparisons of the proposed SiamCAR with three state-of-the-\nart trackers on three challenging sequences from GOT-10K. Our SiamCAR\ncan accurately predict the bounding boxes even when objects suffer from\nsimilar distractors, large scale variation and large pose variation, while\nSiamRPN++ and SPM give much rougher results and ECO drifts to the\nbackground.\ntracking task as a target matching problem and aims to learn\na general similarity map between the target template and\nthe search region. Since one single similarity map typically\ncontains limited spatial information, a common strategy is\nto perform matching on multiple scales of the search re-\ngions to determine the object scale variation [1, 14, 35],\nwhich explains why these trackers are time-consuming and\nlabor-intensive. SiamRPN [21] attaches the Siamese net-\nwork a subnetwork for the extraction of region proposals\n(RPN). By jointly training a classiﬁcation branch and a re-\ngression branch for visual tracking, SiamRPN avoids the\ntime-consuming step of extracting multi-scale feature maps\nfor the object scale invariance.\nIt achieves state-of-the-\nart results on multiple benchmarks. Later works such as\nDaSiam [42] , CSiam [11] and SiamRPN++ [20] improve\nSiamRPN. However, since anchors are introduced for re-\ngion proposal, these trackers are sensitive to the numbers,\nsizes and aspect ratios of anchor boxes, and expertise on\nhyper-parameter tuning is crucial to obtain successful track-\ning with these trackers.\n4321\n6269\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.9,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

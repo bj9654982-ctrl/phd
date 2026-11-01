@@ -1,0 +1,41 @@
+{
+  "number": 143,
+  "title": "Learn To Match: Automatic Matching Network Design for Visual Tracking",
+  "year": 2021,
+  "authors": [
+    "Zhipeng Zhang",
+    "Yihao Liu",
+    "Xiao Wang",
+    "Bing Li",
+    "Weiming Hu"
+  ],
+  "venue": "ICCV",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Learn_To_Match_Automatic_Matching_Network_Design_for_Visual_Tracking_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Learn_To_Match_Automatic_Matching_Network_Design_for_Visual_Tracking_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Learn_To_Match_Automatic_Matching_Network_Design_for_Visual_Tracking_ICCV_2021_paper.pdf",
+      "bytes": 1701627,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\143_2021_Learn_To_Match__Automatic_Matching_Network_Design_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Learn_To_Match_Automatic_Matching_Network_Design_for_Visual_Tracking_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Learn_To_Match_Automatic_Matching_Network_Design_for_Visual_Tracking_ICCV_2021_paper.pdf",
+  "bytes": 1701627,
+  "sha256": "6c4c02658abfbd1fc5e829fad89465a414cff44e6da71670e8d0bee3f1e73d11",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learn To Match: Automatic Matching Network Design for Visual Tracking",
+  "first_page_text": "Learn to Match: Automatic Matching Network Design for Visual Tracking\nZhipeng Zhang1,2, Yihao Liu2, Xiao Wang3, Bing Li1,2,†, and Weiming Hu1,2,4,†\n1 National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences\n2 School of AI, University of Chinese Academy of Sciences\n3 Peng Cheng Laboratory\n4 CAS Center for Excellence in Brain Science and Intelligence Technology\nAbstract\nSiamese tracking has achieved groundbreaking perfor-\nmance in recent years, where the essence is the efﬁcient\nmatching operator cross-correlation and its variants. Be-\nsides the remarkable success, it is important to note that\nthe heuristic matching network design relies heavily on ex-\npert experience. Moreover, we experimentally ﬁnd that one\nsole matching operator is difﬁcult to guarantee stable track-\ning in all challenging environments. Thus, in this work, we\nintroduce six novel matching operators from the perspec-\ntive of feature fusion instead of explicit similarity learn-\ning, namely Concatenation, Pointwise-Addition, Pairwise-\nRelation, FiLM, Simple-Transformer and Transductive-\nGuidance, to explore more feasibility on matching oper-\nator selection.\nThe analyses reveal these operators’ se-\nlective adaptability on different environment degradation\ntypes, which inspires us to combine them to explore comple-\nmentary features. To this end, we propose binary channel\nmanipulation (BCM) to search for the optimal combination\nof these operators. BCM determines to retrain or discard\none operator by learning its contribution to other track-\ning steps. By inserting the learned matching networks to a\nstrong baseline tracker Ocean [47], our model achieves fa-\nvorable gains by 67.2 →71.4, 52.6 →58.3, 70.3 →76.0\nsuccess on OTB100, LaSOT, and TrackingNet, respectively.\nNotably, Our tracker, dubbed AutoMatch, uses less than\nhalf of training data/time than the baseline tracker, and runs\nat 50 FPS using PyTorch. Code and model are released at\nhttps://github.com/JudasDie/SOTS.\n1. Introduction\nGeneric object tracking, aiming to infer the location and\nscale of an arbitrary object in a video sequence, is one of the\nfundamental problems in computer vision [16, 21, 25, 33].\nThe recent prevailing Siamese methods [3, 6, 11, 18, 41, 42,\nEmail: zhangzhipeng2017@ia.ac.cn\n† Corresponding authors.\nOurs\nSiamRPN++\nOcean\nFigure 1:\nComparisons of our approach with depth-\nwise cross-correlation based trackers SiamRPN++ [18] and\nOcean [47].\nOur model, employing the automatically\nsearched matching networks, can better handle different\nchallenging factors, e.g., distractor in the ﬁrst video, occlu-\nsion and scale change of the second one, background clutter\nand fast motion of the third sequence.\n47], decompose the tracking problem into a relation learn-\ning task and a state estimation task. In the former case, the\ngoal is to measure the similarity between exemplar and can-\ndidate (search) images. The second task, which is normally\ncomprised of foreground classiﬁcation and scale regression\n[8, 18, 47], is followed to estimate the target state.\nFuelled by the emergence of object detection that fa-\ncilitates bounding box regression, the network design for\nstate estimation has substantially advanced in recent years\n[6, 8, 19, 41, 47]. However, the advancements in relation\nlearning have been limited. Previous works generally per-\nform relation learning with heuristically designed matching\noperators. Concretely, the seminal work SiamFC [3] em-\nploys cross-correlation to model the relation between exem-\nplar and candidate images. The follow-ups propose upchan-\nnel cross-correlation [19] and depthwise cross-correlation\n[18] to learn ﬁne-grained feature similarities. Besides their\ngreat success, it is important to note that the heuristic\n13339\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

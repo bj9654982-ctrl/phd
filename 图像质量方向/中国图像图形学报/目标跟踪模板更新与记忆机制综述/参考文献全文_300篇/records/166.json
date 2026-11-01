@@ -1,0 +1,39 @@
+{
+  "number": 166,
+  "title": "Deep Meta Learning for Real-Time Target-Aware Visual Tracking",
+  "year": 2019,
+  "authors": [
+    "Janghoon Choi",
+    "Junseok Kwon",
+    "Kyoung Mu Lee"
+  ],
+  "venue": "ICCV",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking_ICCV_2019_paper.pdf",
+      "bytes": 2099973,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\166_2019_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Choi_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking_ICCV_2019_paper.pdf",
+  "bytes": 2099973,
+  "sha256": "fb316278424a4231163d813bc7108a52959b6a3eb94a4ef79060135e29f37781",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Deep Meta Learning for Real-Time Target-Aware Visual Tracking",
+  "first_page_text": "Deep Meta Learning for Real-Time Target-Aware Visual Tracking\nJanghoon Choi\nASRI, Department of ECE,\nSeoul National University\nultio791@snu.ac.kr\nJunseok Kwon\nSchool of CSE,\nChung-Ang Univeristy\njskwon@cau.ac.kr\nKyoung Mu Lee\nASRI, Department of ECE,\nSeoul National University\nkyoungmu@snu.ac.kr\nAbstract\nIn this paper, we propose a novel on-line visual track-\ning framework based on the Siamese matching network and\nmeta-learner network, which run at real-time speeds. Con-\nventional deep convolutional feature-based discriminative\nvisual tracking algorithms require continuous re-training of\nclassiﬁers or correlation ﬁlters, which involve solving com-\nplex optimization tasks to adapt to the new appearance of\na target object. To alleviate this complex process, our pro-\nposed algorithm incorporates and utilizes a meta-learner\nnetwork to provide the matching network with new appear-\nance information of the target objects by adding target-\naware feature space. The parameters for the target-speciﬁc\nfeature space are provided instantly from a single forward-\npass of the meta-learner network. By eliminating the ne-\ncessity of continuously solving complex optimization tasks\nin the course of tracking, experimental results demonstrate\nthat our algorithm performs at a real-time speed while\nmaintaining competitive performance among other state-of-\nthe-art tracking algorithms.\n1. Introduction\nVisual object tracking is one of the fundamental and\npractical problems among the ﬁelds of computer vision re-\nsearch, and it has seen applications in automated surveil-\nlance, image stabilization, robotics and more. Given the\ninitial bounding box annotation of an object, visual track-\ning algorithms aim to track the speciﬁed object throughout\nthe subsequent part of the video without losing the object\nunder various circumstances such as illumination change,\nblur, deformation, fast motion, and occlusion.\nRecently, with the increasing use of deep learning and\nconvolutional neural networks (CNN) [27] in computer vi-\nsion applications for their rich representation power and\ngeneralization capabilities [26, 40, 43], there have been\nnumerous studies on utilizing the rich and general fea-\nture representation of the CNNs for visual tracking task\n[50, 31, 36, 48, 45]. Most algorithms incorporate the deep\nMatching network\nProposed Visual Tracking System\nTarget-Specific Feature Space\n𝝓𝒕𝒂𝒓𝒈𝒆𝒕\nContext Patch\nTarget Patch\nGeneral Feature Space\n𝝓\nMeta-learner network\nSearch\nMeta \nInformation\nAdaptive Feature Space\n𝝓𝒂𝒅𝒂𝒑𝒕\n𝝓𝒂𝒅𝒂𝒑𝒕\n𝝓𝒂𝒅𝒂𝒑𝒕\nFigure 1: Motivation of the proposed visual tracker. Our\nframework incorporates a meta-learner network along with\na matching network.\nThe meta-learner network receives\nmeta information from the matching network and provides\nthe matching network with the adaptive target-speciﬁc fea-\nture space needed for robust matching and tracking.\nconvolutional features used in object recognition systems\n[26, 43, 40]. On top of these feature representations, addi-\ntional classiﬁers or correlation ﬁlters are trained for on-line\nadaptation to the target object [36, 21, 48, 31, 9, 30, 7, 56].\nWhile these methods were successful in obtaining\nhigh performance metrics in well-known benchmarks and\ndatasets [4, 51] using deep representations, the majority of\nthese algorithms were not designed as an integrated struc-\nture, where two different systems (i.e. deep feature network\nsystem and target classiﬁer systems) are built and trained\nseparately, not being closely associated. This causes sev-\neral problems when the framework is naively applied to the\nproblem of visual tracking, where the classiﬁer system is in\nconstant need of being updated in order to adapt to the ap-\npearance changes of the target object, while the number of\npositive samples are highly limited.\nSince an update operation requires solving complex op-\ntimization problems for a given objective function using\nmethods such as stochastic gradient descent (SGD) [36],\n911\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

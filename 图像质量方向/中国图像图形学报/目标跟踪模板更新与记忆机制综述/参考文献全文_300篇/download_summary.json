@@ -1,0 +1,10 @@
+{
+  "total": 300,
+  "downloaded": 298,
+  "missing": [
+    2,
+    6
+  ],
+  "bytes": 953840234,
+  "duplicate_hash_groups": []
+}

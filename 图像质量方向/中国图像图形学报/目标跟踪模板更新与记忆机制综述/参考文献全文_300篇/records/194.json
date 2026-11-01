@@ -1,0 +1,41 @@
+{
+  "number": 194,
+  "title": "DreamTrack: Dreaming the Future for Multimodal Visual Object Tracking",
+  "year": 2025,
+  "authors": [
+    "Mingzhe Guo",
+    "Weiping Tan",
+    "Wenyu Ran",
+    "Liping Jing",
+    "Zhipeng Zhang"
+  ],
+  "venue": "CVPR",
+  "category": "自回归与生成式跟踪",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.pdf",
+      "bytes": 2851039,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\194_2025_DreamTrack__Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.pdf",
+  "bytes": 2851039,
+  "sha256": "3ecd8c6f2defa1e9c47b3abc733a540ed7b806e87237e9eefaee0a76bed32574",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "DreamTrack: Dreaming the Future for Multimodal Visual Object Tracking",
+  "first_page_text": "DreamTrack: Dreaming the Future for Multimodal Visual Object Tracking\nMingzhe Guo 1*\nWeiping Tan 1\nWenyu Ran 1\nLiping Jing 1†\nZhipeng Zhang 2*\nBeijing Jiaotong University 1, Shanghai Jiaotong University 2\nAbstract\nAiming to achieve class-agnostic perception in visual object\ntracking, current trackers commonly formulate tracking as a\none-shot detection problem with the template-matching ar-\nchitecture. Despite the success, severe environmental vari-\nations in long-term tracking raise challenges to generaliz-\ning the tracker in novel situations. Temporal trackers try\nto ﬁx it by preserving the time-validity of target informa-\ntion with historical predictions, e.g., updating the template.\nHowever, solely transmitting the previous observations in-\nstead of learning from them leads to an inferior capabil-\nity of understanding the tracking scenario from past experi-\nence, which is critical for the generalization in new frames.\nTo address this issue, we reformulate temporal learning\nin visual tracking as a History-to-Future process and pro-\npose a novel tracking framework DreamTrack. Our Dream-\nTrack learns the temporal dynamics from past observations\nto dream the future variations of the environment, which\nboosts the generalization with the extended future infor-\nmation from history. Considering the uncertainty of future\nvariation, multimodal prediction is designed to infer the tar-\nget trajectory of each possible future situation. The exper-\niments demonstrate that our DreamTrack achieves leading\nperformance with real-time inference speed. In particular,\nDreamTrack obtains SUC scores of 76.6%/87.9% on La-\nSOT/TrackingNet, surpassing all recent SOTA trackers.\n1. Introduction\nVisual Object Tracking (VOT) is one of the most funda-\nmental computer vision problems with numerous applica-\ntions [5, 28], which aims to estimate the position of an ar-\nbitrary target in a video sequence, given only its location\nin the initial frame. To achieve the class-agnostic percep-\ntion, recent prevalent Siamese-based approaches [2, 6, 7, 9,\n20, 31, 34, 47, 51, 52] typically formulate visual tracking\nas a one-shot detection problem. Speciﬁcally, these trackers\nperform general object tracking by matching with the ini-\ntialized target template and then predicting the location in a\nsingle forward pass, as shown in Fig. 1(a).\n* Equal contribution. † Corresponding author.\nInput Images\nCurrent Frame\nPrevious Frame\nFuture Frame\n(a) Non-temporal Architecture\nCurrent Frame\nPrevious Frame\nFuture Frame\n(b) Temporal Architecture with Only Historical Information\nCurrent Frame\nPrevious Frame\nFuture Frame\n(c) Our Temporal Architecture with Both Historical/Future Information\nHistorical \nInformation\nf\nf\nf\nf\nf\nf\nt-1\ny\nzͲ\nt-1\nx\nzͲ\ntx\nzͲ\nt 1\nx \u0002\nt-1\ny\nt-1\nx\nty\ntx\nt 1\nx \u0002\nt-1\ny\nt-1\nx\nty\ntx\nt 1\nx \u0002\nˆt\nx\nF\nzͲ\nzͲ\nzͲ\nzͲ\nzͲ\nzͲ\nt\nx\nF \u0003ͳ\nˆt\nx\nF \u0002ͳ\nHistorical \nInformation\nDream the Future\nDecode\nˆt 1\nx \u0002\nDreamed\nFuture Frame\nSupervise\nzͲ\nf\nTracking Model\nOutput\nty\nT\nx\nT\ny\nFigure 1. Comparison of different temporal architectures. (a) The\nnon-temporal architecture that regards visual tracking as a one-\nshot detection problem. (b) The temporal architecture with only\nhistorical information that limits the temporal messages in the\ntransmission of previous observations. (c) Our proposed tempo-\nral architecture with both historical and future information, which\nlearns environmental dynamics from past experiences and dreams\nthe future states for better generalization in subsequent frames.\nDespite the demonstrated success, it’s challenging for\nthe non-temporal architecture to ensure the generalization\nin new frames with severe environmental variations com-\npared with the initial frame, e.g., deformation of the tar-\nget appearance and background in long-term tracking. The\noutdated template hardly provides effective target-aware\nknowledge but distracts the tracking process. Then many\nworks [7, 10, 12, 25] intuitively try to ﬁx it by keeping the\ntime-validity of target information, e.g., updating the tem-\nplate with predictions of high conﬁdence scores in previ-\nous frames [45, 50] or passing historical trajectory as prior\nknowledge [7, 47], as shown in Fig. 1(b). However, these\nefforts focus on only transmitting previous observations in-\nstead of learning from them, leading to an inferior capability\nof understanding the tracking scenario from the past expe-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n7201\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

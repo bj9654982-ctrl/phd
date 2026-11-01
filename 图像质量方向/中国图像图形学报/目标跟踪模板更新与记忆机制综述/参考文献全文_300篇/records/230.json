@@ -1,0 +1,43 @@
+{
+  "number": 230,
+  "title": "Toward Low-Cost yet Effective Temporal Learning for UAV Tracking",
+  "year": 2026,
+  "authors": [
+    "Chaocan Xue",
+    "Qihua Liang",
+    "Bineng Zhong",
+    "Yanting Zu",
+    "Yuanliang Xue",
+    "Haiying Xia",
+    "Shuxiang Song"
+  ],
+  "venue": "CVPR",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Xue_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xue_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xue_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 1376665,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\230_2026_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xue_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Xue_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 1376665,
+  "sha256": "78eaf04fd2a087ccb8948daf5bbbbe4ade2b78484309ea6c30da6afa39563799",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Toward Low-Cost yet Effective Temporal Learning for UAV Tracking",
+  "first_page_text": "Toward Low-Cost yet Effective Temporal Learning for UAV Tracking\nChaocan Xue1,2,3, Qihua Liang1,2,3*, Bineng Zhong1,2,3*, Yanting Zu1,2,3,\nYuanliang Xue4, Haiying Xia1,2,3, Shuxiang Song1,2,3\n1 Key Lab of Education Blockchain and Intelligent Technology, Ministry of Education,\nGuangxi Normal University, Guilin, 541004, China\n2 Guangxi Key Lab of Multi-Source Information Mining and Security,\nGuangxi Normal University, Guilin, 541004, China\n3 University Engineering Research Center of Educational Intelligent Technology,\nGuangxi Normal University, Guilin, 541004, China\n4Xi’an Research Institute of High Technology, Xi’an 710025, China\nxcc23cg@163.com, qhliang@gxnu.edu.cn, bnzhong@gxnu.edu.cn\nAbstract\nThe utilization of temporal information has always been\nan open topic in the tracking community. However, exist-\ning trackers tend to employ more and more inputs or pa-\nrameters for temporal learning, hindering their deployment\nin resource-constrained unmanned aerial vehicles (UAVs).\nMore importantly, this raises ambiguity whether the per-\nformance gains come from the temporal learning itself, or\ncome from the increased inputs and parameters. In this\nstudy, we advocate designing temporal learning compo-\nnents from a more balanced perspective that jointly consid-\ners performance gains and computational costs. To achieve\nthis goal, we introduce a new evaluation metric, i.e., preci-\nsion per FLOP (PPF). The PPF is introduced to quantify\nthe tracking precision gains achieved by temporal learn-\ning components per unit of FLOP, thus enabling fair and\nefficiency-aware comparisons among these components and\ndriving them toward more efficient designs. Based on this\nmetric, we propose a low-cost yet effective temporal learn-\ning (LETL) approach to model contextual relationships.\nThis approach continuously propagates and merges repre-\nsentative appearance tokens in video streams, allowing the\ntracker to efficiently capture the changing patterns of tar-\ngets with relatively low costs. We integrate the LETL ap-\nproach into existing one-stream frameworks, thereby build-\ning a simple yet effective tracker, namely LETrack, for ro-\nbust UAV tracking. Extensive experimental demonstrate the\nsuperiority of our LETrack, and show that the proposed\nLETL approach achieves higher PPF scores. The Code is\navailable at https://github.com/GXNU-ZhongLab/LETrack.\n*Corresponding Author\n74\n76\n78\n80\n82\n84\nPrecision(%)\n60\n62\n64\n66\n68\nAUC(%)\nAUC and Precision on UAVTrack112_L\nLETrack (Ours)\nSGLATrack (CVPR'25)\nORTrack (CVPR'25)\nAsymTrack (AAAI'25)\nAVTrack (ICML'24)\nSMAT (WACV'24)\nHiT (ICCV'23)\nTCTrack++ (TPAMI'23)\nTCTrack (CVPR'22)\nUDAT (CVPR'22)\nHCAT (ECCV'22)\nLightTrack (CVPR'21)\nFigure 1. Comparison of AUC and precision between LETrack\nand other UAV trackers on UAVTrack112 L [18]. Our LETrack\nachieves SOTA performance in both AUC and precision.\n1. Introduction\nAs an important branch of visual object tracking (VOT),\nunmanned aerial vehicle (UAV) tracking is widely used for\nvarious applications [37, 57]. Although UAV tracking has\nbeen investigated over the years, it remains an open task due\nto challenges such as camera motion, background clutter,\nsimilar interference, and other factors.\nIn recent years, the emergence of works such as Aba-\nViTrack [33], AVTrack [35] and SGLATrack [56] has\nshifted the focus of UAV tracking research toward com-\nputational efficiency, thereby weakening the attention paid\nto the above-mentioned challenges to some extent. In fact,\nleveraging temporal information is an effective way to ad-\ndress these challenges, and it has been widely explored in\nthe field of generic VOT. For example, STARK [58] and\nMixFormer [14] introduce an additional dynamic template\nbeyond the initial one to capture appearance changes, while\nODTrack [67] and MCITrack [27] further expand the num-\nber of templates to three and five, respectively. To better\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n42538\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

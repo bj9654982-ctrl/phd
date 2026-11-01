@@ -1,0 +1,1905 @@
+<!DOCTYPE html>
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+<META NAME="GENERATOR" CONTENT="北京玛格泰克科技发展有限公司">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<Meta http-equiv="Content-Language" Content="zh-CN"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="citation_issn" content="1001-9081" />
+<meta name="citation_journal_title" xml:lang="zh" content="计算机应用" />
+<meta name="citation_journal_title" xml:lang="en" content="Journal of Computer Applications" />
+<meta name="citation_language" content="zh" />
+<meta name="citation_volume" content="44" />
+<meta name="citation_issue" content="5" />
+<meta name="citation_firstpage" content="1644" />
+<meta name="citation_id" content="44/5/1644" />
+<meta name="citation_doi" content="10.11772/j.issn.1001-9081.2023060796" />
+<meta name="citation_title" xml:lang="zh" content="基于Transformer的视觉目标跟踪方法综述" />
+<meta name="citation_title" xml:lang="en" content="Survey of visual object tracking methods based on Transformer" />
+<meta name="citation_authors" xml:lang="zh" content="孙子文, 钱立志, 杨传栋, 高一博, 陆庆阳, 袁广林" />
+<meta name="citation_authors" xml:lang="en" content="Ziwen SUN, Lizhi QIAN, Chuandong YANG, Yibo GAO, Qingyang LU, Guanglin YUAN" />
+<meta name="citation_publication_date" content="2024-05-10" />
+<meta name="citation_online_date" content="2023-10-27" />
+<meta name="citation_keywords" xml:lang="zh" content="计算机视觉" />
+<meta name="citation_keywords" xml:lang="zh" content="目标跟踪" />
+<meta name="citation_keywords" xml:lang="zh" content="混合网络结构" />
+<meta name="citation_keywords" xml:lang="zh" content="深度学习" />
+<meta name="citation_keywords" xml:lang="zh" content="孪生网络" />
+<meta name="citation_keywords" xml:lang="zh" content="Transformer" />
+<meta name="citation_keywords" xml:lang="en" content="computer vision" />
+<meta name="citation_keywords" xml:lang="en" content="object tracking" />
+<meta name="citation_keywords" xml:lang="en" content="hybrid network structure" />
+<meta name="citation_keywords" xml:lang="en" content="deep learning" />
+<meta name="citation_keywords" xml:lang="en" content="Siamese network" />
+<meta name="citation_keywords" xml:lang="en" content="Transformer" />
+<meta name="Description" xml:lang="zh" content="视觉目标跟踪是计算机视觉中的重要任务之一，为实现高性能的目标..." />
+<meta name="Description" xml:lang="en" content="Visual object tracking is one of the important tasks in computer visio..." />
+<meta name="citation_abstract_html_url" xml:lang="zh" content="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023060796" />
+<meta name="citation_abstract_html_url" xml:lang="en" content="https://www.joca.cn/EN/10.11772/j.issn.1001-9081.2023060796" />
+<meta name="citation_pdf_url" content="https://www.joca.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=26336" />
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Language" content="zh" />
+<meta name="DC.Title" content="基于Transformer的视觉目标跟踪方法综述" />
+<meta name="DC.Identifier" content="10.11772/j.issn.1001-9081.2023060796" />
+<meta name="DC.Contributor" content="孙子文" />
+<meta name="DC.Contributor" content="钱立志" />
+<meta name="DC.Contributor" content="杨传栋" />
+<meta name="DC.Contributor" content="高一博" />
+<meta name="DC.Contributor" content="陆庆阳" />
+<meta name="DC.Contributor" content="袁广林" />
+<meta name="DC.Date" content="2024-05-10" />
+<meta name="DC.Keywords" xml:lang="zh" content="计算机视觉,目标跟踪,混合网络结构,深度学习,孪生网络,Transformer,"/>
+<meta name="DC.Keywords" xml:lang="en" content="computer vision,object tracking,hybrid network structure,deep learning,Siamese network,Transformer,"/>
+<meta name="robots" content="index" />
+
+<title>基于Transformer的视觉目标跟踪方法综述</title>
+<!--css必引 -->
+<link href="https://www.joca.cn/js/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://www.joca.cn/images/1001-9081/css/css.css">
+<link href="https://www.joca.cn/js/bootstrap/css/font-awesome.min.css" rel="stylesheet">
+<!-- jQuery必引-->
+<script src="https://www.joca.cn/js/jquery/jquery.min.js"></script>
+<script src="https://www.joca.cn/js/bootstrap/js/bootstrap.min.js"></script>
+
+<style>
+	.kongzhitab{
+		width:100%;
+		overflow-x: auto;
+	}
+	
+	.kongzhitab th{
+		padding:5px 10px;
+		text-align:center;
+	}
+	.kongzhitab td{
+		padding:5px 10px;
+		text-align:center;
+	}
+</style>
+
+<!--原摘要中的js -->
+	<!--图片弹出窗口 必须放在jquery.min.js后-->
+	<link rel="stylesheet" href="https://www.joca.cn/js/colorbox/colorbox.css">
+	<script src="https://www.joca.cn/js/colorbox/jquery.colorbox.js"></script>
+	<script type="text/javascript">
+	//等比缩放图片
+function DrawImage(ImgD,FitWidth,FitHeight){
+	var image=new Image();
+	image.src=ImgD.src;
+	if(image.width>0 && image.height>0){
+		if(image.width/image.height>= FitWidth/FitHeight){
+			if(image.width>FitWidth){
+				ImgD.width=FitWidth;
+				ImgD.height=(image.height*FitWidth)/image.width;
+			}else{
+				ImgD.width=image.width;
+				ImgD.height=image.height;
+			}
+		} else{
+			if(image.height>FitHeight){
+				ImgD.height=FitHeight;
+				ImgD.width=(image.width*FitHeight)/image.height;
+			}else{
+				ImgD.width=image.width;
+				ImgD.height=image.height;
+			}
+		}enm
+	}
+}
+	window.onload=function(){
+		$(".figureClass").colorbox({rel:'figureClass', inline:true, width:"80%"});
+		$(".inline").colorbox({rel:'inline',inline:true, width:"80%"});
+		
+	}
+	</script>
+	<!--图片弹出窗口结束-->
+	
+	<!--原摘要中js end -->
+<script language="javascript" src="https://www.joca.cn/js/modelDialog1.js"></script>
+<script language="javascript" src="https://www.joca.cn/js/layer2.1/layer.js"></script>
+<script language="javascript" src="https://www.joca.cn/js/drag.js"></script>
+<script language="javascript" src="https://www.joca.cn/js/store.js"></script>
+<script language="javascript" src="https://www.joca.cn/js/download.js"></script>
+<script>
+MathJax = {
+tex: {
+inlineMath: [['$', '$'], ['\\(', '\\)']]
+},
+svg: {
+fontCache: 'global'
+}
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://www.joca.cn/js/mathJax3.0/tex-mml-chtml.js"></script>
+<script type="text/javascript">
+jQuery(function() {
+	jQuery.ajax({
+		url: "https://www.joca.cn/CN/user/validateCollectArticle.do?articleId=26336",
+		success: function(res) {
+			collectCount();
+			if (res == "true") {
+				jQuery("#collectArticle").append("已收藏");
+			}
+			if (res == "false") {
+				jQuery("#collectArticle").append("<a href='javascript:;' onclick=\"collectArticle('26336')\">收藏文章</a>");
+			}
+		}
+	});
+});
+
+function collectCount() {
+	jQuery.ajax({
+		url: "https://www.joca.cn/CN/user/articleCollectionTimes.do?articleId=26336",
+		success: function(res) {
+			jQuery("#collectCount").html("");
+			jQuery("#collectCount").append(res);
+		}
+	});
+}
+
+function collectArticle(id) {
+	var url = window.location.href;
+	jQuery.ajax({
+		url: "https://www.joca.cn/CN/user/addCollectArticle.do",
+		data: {
+			"articleId": id,
+			"url": url
+		},
+		type: "post",
+		success: function(res) {
+			if (res == "true") {
+				document.getElementById("collectArticle").innerHTML = "已收藏";
+				collectCount();
+				alert("收藏成功！");
+			} else if (res == "false") {
+				alert("您已经收藏过该篇文章啦！");
+				window.location.reload();
+			} else if (res.length > 5) {
+				window.location.href = "https://www.joca.cn/CN/user/userInfo_cn.jsp?url=" + res;
+			} else {
+				alert("收藏失败！");
+				window.location.reload();
+			}
+		},
+		error: function() {
+			alert("收藏失败！");
+		}
+	});
+}
+
+
+//可视化开始
+$(document).ready(function(){
+    jQuery.getJSON("https://www.joca.cn/CN/lexeme/existsCnctstInArticle.do?articleID=26336", null, function(json){
+        if(json.result){
+            $("#knowledge_map_count").html(json.count);
+            $("#knowledge_map_div").show();
+        }
+    });
+});
+function changeKnowledgeMapImg(flag){
+    if(flag==1){
+        document.getElementById("knowledge_map_img").src="../../images/knowledge_map1.png";
+    }else{
+        document.getElementById("knowledge_map_img").src="../../images/knowledge_map2.png";
+    }
+}
+//可视化结束
+<!--
+//点赞开始
+jQuery(function() {
+    jQuery.ajax({
+        url: 'https://www.joca.cn/CN/article/showArticleLikedNum.do',
+        data: {
+            articleId: 26336
+        },
+        type: 'post',
+        dataType: 'json',
+        success:function(data){  //成功的回调函数
+            $("#articleLikedNum").text(data);
+        },
+        error:function (XMLHttpRequest, textStatus, errorThrown) {
+            console.log("错误");
+            // 状态码
+            console.log(XMLHttpRequest.status);
+            // 状态
+            console.log(XMLHttpRequest.readyState);
+            // 错误信息
+            console.log(textStatus);
+        }
+    });
+});
+
+function addArticleLikedNum(id){
+    jQuery.ajax({
+        url: 'https://www.joca.cn/CN/article/addArticleLikedNum.do',
+        data: {
+            articleId: id
+        },
+        type: 'post',
+        dataType: 'json',
+        success:function(data){  //成功的回调函数
+            if(data==-1){
+                alert('今日已点赞！！');
+            }else{
+                $("#articleLikedNum").text(data);
+            }
+        },
+        error:function (XMLHttpRequest, textStatus, errorThrown) {
+            console.log("错误");
+            // 状态码
+            console.log(XMLHttpRequest.status);
+            // 状态
+            console.log(XMLHttpRequest.readyState);
+            // 错误信息
+            console.log(textStatus);
+        }
+    });
+}
+//点赞结束
+ -->
+
+function lsdy2(attachType,articleId,qiKanWangZhi,nian,issn){
+	var pars = "attachType="+attachType+"&id="+articleId;
+		if(attachType == "RICH_HTML"){
+			jQuery.post(qiKanWangZhi+"/CN/article/downloadArticleFileFee.do?" + new Date(), pars, function(data){
+				window.location.href = qiKanWangZhi+"/article/"+nian+"/"+issn+"/"+articleId;
+			});			
+		}else{
+			window.location.href = qiKanWangZhi+"/CN/article/downloadArticleFile.do?attachType="+attachType+"&id="+articleId;	
+		}	
+					$('.layui-layer').hide();
+	$('.layui-layer-shade').hide();
+}
+function submitLogin(login_id, remote_password){
+	var login_id = document.getElementById(login_id).value;
+	var remote_password = document.getElementById(remote_password).value;
+	var pars = "login_id="+login_id+"&remote_password="+remote_password;
+	jQuery.post("https://www.joca.cn/CN/user/login.do?" + new Date(), pars, function(data){
+		window.subwin = new SubWindow("下载文件",data,null,null,null,null,'620px','310px',null,null,"#dddddd","true",null,null,"true",null);
+		subwin.show();
+	});
+}
+
+function close(){
+		subwin.close();
+	}
+ 
+function showArticleFile(url,attachType,articleId){
+	var viewAttach = url+"/CN/article/showArticleFile.do?attachType="+attachType+"&id="+articleId;
+	window.open(viewAttach,"下载文件","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizeable=no,copyhistory=no,width=520,height=200,left=88,top=88");
+}                      
+function searchKeyword(url,id,keyword){
+	var form = document.refForm;
+	form.searchSQL.value="(("+keyword+"[Keyword]) AND "+id+"[Journal])";
+	form.action = url+"/CN/article/advancedSearchResult.do";
+	form.submit();
+}		
+function searchEnKeyword(url,id,keyword){
+	var form = document.refForm;
+	form.searchSQL.value="(("+keyword+"[Keyword]) AND "+id+"[Journal])";
+	form.action = url+"/EN/article/advancedSearchResult.do";
+	form.submit();
+}		
+	
+function searchAuthor(url,id,author){
+	var form = document.refForm;
+	form.searchSQL.value="(("+author+"[Author]) AND "+id+"[Journal])";
+	form.action = url+"/CN/article/searchArticleResult.do";
+	form.submit();
+}
+	
+function addtobookshelf(url,articleId){
+	var addbookshelf = "";
+	addbookshelf = url+"/CN/article/addBookShelf.do?id="+articleId;
+	window.open(addbookshelf,"添加到书架","");
+}	
+	
+function showTxtFile(url,articleId){
+	var showtxtfile = "";
+	showtxtfile = url+"/CN/article/showTxtFile.do?id="+articleId;
+	window.open(showtxtfile,"引用管理器","");
+}
+
+function addComment(url,articleId){
+	var addComment = "";
+	addComment = url+"/CN/comment/addComment.do?id="+articleId;
+	window.open(addComment,"文章反馈","toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizeable=no,copyhistory=no,width=520,height=300,left=88,top=88");
+}
+
+
+
+function findPassword(email){
+	var emailReg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/
+	var email = document.getElementById(email).value;
+	var matchemail = emailReg.test(email);
+	var pars = "email="+email;
+	if(email == '' || email == null){
+		alert("Email不能为空！");
+		return false;
+	} else {
+		if(matchemail){
+			jQuery.post("https://www.joca.cn/CN/user/findPassword.do?" + new Date(), pars, function(data){
+				subwin.close();
+			});
+		}else{
+			alert("Email格式不正确");		
+		}
+	}
+}
+
+//编辑推荐 
+$(document).ready(function(){
+    var recommendedArticlesCount = 0;
+    $("#recommendedArticles-list").load("https://www.joca.cn/CN/article/recommendedArticles.do?id=26336",null,function(){
+    	recommendedArticlesCount = $("#recommendedArticlesCount1").val();
+    	$("#recommendedArticlesCount").html($("#recommendedArticlesCount1").val());
+    	
+    	if(recommendedArticlesCount == 0){
+    		$("#bianjituijian").css("display","none");
+    		$("#bianjituijianli").css("display","none");
+    	}else{
+    		$("#bianjituijian").css("display","block");
+    		$("#bianjituijianli").css("display","block");
+    	}
+    });
+});
+
+//中图分类号
+function subjectScheme(url,code, journalId){
+	var form = document.subjectSchemeForm;
+	var searchSQL = "(("+ code +"[Words]) AND "+ journalId +"[Journal])";
+	form.searchSQL.value = searchSQL;
+	form.action = url + "/CN/article/advancedSearchResult.do";
+	form.language.value = "";
+	form.submit();
+}
+</script>
+
+	
+
+	<script src="https://www.joca.cn/images/1001-9081/js/abstract.js"></script>
+	<!--[if lt IE 9]>
+	<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	
+	<style>
+		#bsBox{
+			width:560px !important;
+			height:420px !important;
+		}
+		.bFind-wrapper-top{
+			height:25px !important;
+		}
+		#bsWXBox{
+			height: 257px !important;
+			width: 232px !important;
+		}
+	</style>
+	
+
+</head>
+<body id="goTop" style="background:#fff;">
+<script src="https://pv.sohu.com/cityjson?ie=utf-8" ></script>
+<script src='https://tongji.journalreport.cn/mstatistics.js' ></script>
+<script>record('deb1f540884c4d1b9ae55f92fda9d850')</script>
+<!--头部-->
+<div class="header">
+	<div class="banner">
+		<div class="col-lg-8 col-md-8 col-xs-9"><img src="https://www.joca.cn/images/1001-9081/images/banner.png" class="img-responsive"></div>		
+		<div class="col-lg-2 col-md-2 col-xs-3"><a href="http://www.joca.cn/jsjss" target="_blank"><img src="https://www.joca.cn/images/1001-9081/images/40th.png" class="img-responsive"></a></div>
+		<div class="col-lg-2 col-md-2 hidden-sm hidden-xs"><img src="https://www.joca.cn/images/1001-9081/images/wxtop.png" class="img-responsive"></div>
+	</div>	
+</div>
+
+<div class="daohang">
+<div class="navbar site-nav">
+	<div class="navbar-header">
+		<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand visible-xs" href=""></a>
+	</div>
+	<div class="navbar-collapse collapse" role="navigation">
+		<ul class="nav navbar-nav">
+			<li><a href="https://www.joca.cn/CN/1001-9081/home.shtml">首页</a></li>
+			<li role="presentation" class="dropdown">
+			   <a href="#" class="dropdown-toggle" data-toggle="dropdown">期刊介绍<b class="caret"></b></a>
+			   <ul class="dropdown-menu">
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column1.shtml">期刊简介</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column2.shtml">历史沿革</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column3.shtml">收录情况</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column4.shtml">获奖情况</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column5.shtml">引用指标</a></li>
+			   </ul>
+			</li>
+			<li><a href="https://www.joca.cn/CN/column/column6.shtml">编委会</a></li>
+			<li role="presentation" class="dropdown">
+			   <a href="#" class="dropdown-toggle" data-toggle="dropdown">期刊在线<b class="caret"></b></a>
+			    <ul class="dropdown-menu">
+				   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/article/showHotArticle.do">文章推荐</a></li>
+				   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/article/showOldVolumn.do">过刊浏览</a></li>
+				   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/subject/listSubject.do">专辑专刊</a></li>
+				   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/article/showDownloadTopList.do">下载排行</a></li>
+				   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/article/showBrowseTopList.do">阅读排行</a></li>
+				</ul>
+			 </li>
+			 <li role="presentation" class="dropdown">
+			   <a href="#" class="dropdown-toggle" data-toggle="dropdown">投稿指南<b class="caret"></b></a>
+			   <ul class="dropdown-menu">
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column7.shtml">组稿方向</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column8.shtml">投稿须知</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column9.shtml">论文模板</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column10.shtml">常见问题</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column11.shtml">署名变更申请</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column12.shtml">单位变更申请</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column13.shtml">版权转让协议</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column14.shtml">中图分类号</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column15.shtml">引言书写要求</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column16.shtml">参考文献著录格式</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column17.shtml">插图与表格规范</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column18.shtml">英文摘要书写要求</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column19.shtml">收费标准</a></li>
+			   </ul>
+			</li>
+			<li><a href="https://www.joca.cn/CN/column/column20.shtml">学术诚信</a></li>
+			<li role="presentation" class="dropdown">
+			   <a href="#" class="dropdown-toggle" data-toggle="dropdown">联系我们<b class="caret"></b></a>
+			   <ul class="dropdown-menu">
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column21.shtml">编辑部联系方式</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column22.shtml">位置示意图</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column23.shtml">期刊订阅办法</a></li>
+			   <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.joca.cn/CN/column/column24.shtml">广告合作</a></li>
+			   </ul>
+			</li>
+			 <li><a href="https://www.joca.cn/EN/1001-9081/home.shtml" target="_blank">English</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<!--头部 end-->
+
+
+<div class="container whitebg">
+<div class="abs-con">
+  <div class="row">
+  <div class="col-md-12">
+       <p style="margin-top:10px;">
+            <span><a href="https://www.joca.cn">《计算机应用》唯一官方网站</a> ›› <a href="https://www.joca.cn/CN/article/showTenYearVolumnDetail.do?nian=2024">2024</a>, <a href="https://www.joca.cn/CN/article/showTenYearVolumnDetail.do?nian=2024">Vol. 44</a>  ›› <a href="https://www.joca.cn/CN/volumn/volumn_1454.shtml">Issue (5)</a>: 1644-1654.</span><span class="doi-doi">DOI: <a href="https://doi.org/10.11772/j.issn.1001-9081.2023060796" target="_blank">10.11772/j.issn.1001-9081.2023060796</a></span>        </p>
+	<p>
+					所属专题：
+															<a href="https://www.joca.cn/CN/subject/listSubjectChapters.do?subjectId=1637325044716" target="_blank">
+					多媒体计算与计算机仿真</a>
+										</p>
+    <p class="clearfix">
+      <span class="pull-left">• 多媒体计算与计算机仿真 •</span>
+      <span class="pull-right"><a href="https://www.joca.cn/CN/abstract/abstract26269.shtml"><i class="glyphicon glyphicon-chevron-left"></i> 上一篇</a> &nbsp;&nbsp;&nbsp;</span>
+    </p>
+    <!--中文-->
+    
+            <h3 class="abs-tit">
+         基于Transformer的视觉目标跟踪方法综述    
+       </h3>
+         <p data-toggle="collapse" data-target="#divPanel">
+        <span>
+                    
+            孙子文<sup>1</sup>, 钱立志<sup>1</sup>, 杨传栋<sup>1</sup>, 高一博<sup>1</sup>, 陆庆阳<sup>2</sup>, 袁广林<sup>2</sup>(<a href="mailto:1183212999@qq.com"><img src="https://www.joca.cn/images/email.png" border="0" /></a>)
+                &nbsp;&nbsp;
+        <span data-placement="right"  type="button">
+        <i class="glyphicon glyphicon-menu-down" style="cursor:pointer;"></i>
+        </span>
+        </span>
+    </p>
+    <div id="divPanel" class="collapse bs-callout">
+        <address class="address">
+            <ol class="list-unstyled">
+            	                <li><sup>1.</sup>陆军炮兵防空兵学院 高过载弹药制导控制与信息感知实验室, 合肥 230031<br/><sup>2.</sup>陆军炮兵防空兵学院 信息工程系, 合肥 23003</li>
+                            </ol>
+            
+        </address>
+        <ul class="list-unstyled code-style" style="overflow: hidden;">
+            <li>
+				<span>
+											<code>收稿日期:</code>2023-06-21
+									</span>
+				<span>
+											<code>修回日期:</code>2023-09-04
+									</span>
+				<span>
+											<code>接受日期:</code>2023-09-11
+									</span>
+				<span>
+											<code>发布日期:</code>2023-10-27
+									</span>
+				<span>
+											<code>出版日期:</code>2024-05-10
+									</span>
+				
+			</li>
+            <li>				<code>通讯作者:</code>
+					袁广林
+							</li>
+            <li>				<code>作者简介:</code>孙子文（1996—），男，安徽蒙城人，博士研究生，主要研究方向：计算机视觉<br/>钱立志（1963—），男，安徽枞阳人，教授，博士，主要研究方向：智能弹药打击<br/>杨传栋（1994—），男，山东泰安人，博士研究生，主要研究方向：计算机视觉<br/>高一博（1998—），男，安徽太和人，硕士，主要研究方向：机器学习、硬件可编程语言<br/>陆庆阳（1994—），男，安徽合肥人，硕士研究生，主要研究方向：自然语言处理、目标跟踪<br/><strong>第一联系人：</strong>袁广林（1976—），河南周口人，副教授，博士，主要研究方向：计算机视觉、机器学习。
+				
+							</li>
+            <li>            
+            					<code  class="pull-left" style="overflow: hidden;">基金资助:</code><div class="pull-left">军队型号项目(LZX20190112)</div>					
+						</li>
+           
+        </ul>
+    </div>
+    <!--中文end-->
+    <!------------------------------------英文---------------------------------------------------------------------->
+        <h3 class="abs-tit">        
+	       Survey of visual object tracking methods based on Transformer	   
+    </h3>
+        <p data-toggle="collapse" data-target="#divPanelEn">
+        <span>
+                                                                                                                                                            <a href="https://www.joca.cn/EN/article/advancedSearchResult.do?searchSQL=(((Ziwen SUN[Author]) AND 1[Journal]) AND year[Order])" target="_blank">Ziwen SUN</a><sup>1</sup>, <a href="https://www.joca.cn/EN/article/advancedSearchResult.do?searchSQL=(((Lizhi QIAN[Author]) AND 1[Journal]) AND year[Order])" target="_blank">Lizhi QIAN</a><sup>1</sup>, <a href="https://www.joca.cn/EN/article/advancedSearchResult.do?searchSQL=(((Chuandong YANG[Author]) AND 1[Journal]) AND year[Order])" target="_blank">Chuandong YANG</a><sup>1</sup>, <a href="https://www.joca.cn/EN/article/advancedSearchResult.do?searchSQL=(((Yibo GAO[Author]) AND 1[Journal]) AND year[Order])" target="_blank">Yibo GAO</a><sup>1</sup>, <a href="https://www.joca.cn/EN/article/advancedSearchResult.do?searchSQL=(((Qingyang LU[Author]) AND 1[Journal]) AND year[Order])" target="_blank">Qingyang LU</a><sup>2</sup>, <a href="https://www.joca.cn/EN/article/advancedSearchResult.do?searchSQL=(((Guanglin YUAN[Author]) AND 1[Journal]) AND year[Order])" target="_blank">Guanglin YUAN</a><sup>2</sup>(<a href="mailto:1183212999@qq.com"><img src="https://www.joca.cn/images/email.png" border="0" /></a>)
+			&nbsp;&nbsp;
+			<span data-placement="right"  type="button">
+			<i class="glyphicon glyphicon-menu-down" style="cursor:pointer;"></i>
+			</span>
+                
+        </span>
+    </p>    
+    
+    <div id="divPanelEn" class="collapse bs-callout">
+        <address class="address">
+             <ol class="list-unstyled">
+            	                <li><sup>1.</sup>Laboratory of Guidance Control and Information Perception Technology of High Overload Projectiles，Army Academy of Artillery and Air Defense，Hefei Anhui 230031，China<br/><sup>2.</sup>Department of Information Engineering，Army Academy of Artillery and Air Defense，Hefei Anhui 230031，China</li>
+                            </ol>
+        </address>
+         <ul class="list-unstyled code-style" style="overflow: hidden;">
+            <li>
+				<span>
+											<code>Received:</code>2023-06-21
+									</span>
+				<span>
+											<code>Revised:</code>2023-09-04
+									</span>
+				<span>
+											<code>Accepted:</code>2023-09-11
+									</span>
+				<span>
+											<code>Online:</code>2023-10-27
+									</span>
+				<span>
+											<code>Published:</code>2024-05-10
+									</span>
+			</li>
+            <li>				<code>Contact:</code>
+					Guanglin YUAN   
+							</li>
+            <li>				<code>About author:</code>SUN Ziwen， born in 1996， Ph. D. candidate. His research interests include computer vision.<br>QIAN Lizhi， born in 1963， Ph. D.， professor. His research interests include intelligent ammunition strike.<br>YANG Chuandong， born in 1994， Ph. D. candidate. His research interests include computer vision.<br>GAO Yibo， born in 1998， M. S. His research interests include machine learning， hardware programmable languages.<br>LU Qingyang， born in 1994， M. S. candidate. His research interests include natural language processing， object tracking.				
+							</li>
+            <li>            
+            					<code class="pull-left" style="overflow: hidden;">Supported by:</code><div class="pull-left">Military Model Project(LZX20190112)</div>					
+						</li>           
+        </ul>
+    </div>
+    
+    <!--英文end-->
+    <!-------------------------6大块组----------------------------------------------->
+    <div class="group clearfix">
+        <div class="row diyihangdg">
+                      <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margin-bottom-10">
+                            <span class="change-section">
+                                                                    <a href="#" onclick="lsdy1('RICH_HTML','26336','https://www.joca.cn','2024','article/2024/1001-9081/1001-9081-2024-44-5-1644.shtml');return false;" class="black-bg btn-menu">
+                                    <i class="fa fa-file-text"></i>
+                                    <h2>RichHTML</h2>
+                                    <span class="badge">
+
+
+
+
+
+<span id="mag-getDianJiRichHtmlShu-26336"></span>
+<script>
+$("#mag-getDianJiRichHtmlShu-26336").load('/CN/article/getDianJiRichHtmlShu.jsp?articleid=26336&ajax=true');
+</script>
+
+</span>
+                                 </a>
+                                
+                            </span>
+            </div>
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margin-bottom-10">
+	            <span class="change-section">
+	                <a href="#1" onClick="lsdy1('PDF','26336','https://www.joca.cn','2024','1454');return false;" class="black-bg btn-menu">
+	                    <i class="fa fa-file-pdf-o text-danger"></i>
+	                    <h2>PDF</h2>
+	                    <span class="badge">
+
+
+
+
+	
+<span id="mag-getXiaZaiShu-26336"></span>
+<script>
+$("#mag-getXiaZaiShu-26336").load('/CN/article/getXiaZaiShu.jsp?articleid=26336&ajax=true');
+</script>
+	
+
+
+</span>
+	                </a>
+	            </span>
+            </div>
+                                  <!--
+            <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margin-bottom-10">
+                <span class="change-section">
+                    <a href="javascript:void(0);" class="black-bg btn-menu" id="likedNum" onclick="addArticleLikedNum(26336)">
+                        <i class="fa fa-thumbs-up"></i>
+                        <h2>赞</h2>
+                        <span id="articleLikedNum" class="badge"></span>
+                    </a>
+                </span>
+            </div>
+             -->
+                                    <div class="col-xs-6 col-sm-4 col-md-2 col-lg-2 margin-bottom-10" id="knowledge_map_div" style="display:none;">
+                            <span class="change-section" onmouseover="changeKnowledgeMapImg(2)" onmouseout="changeKnowledgeMapImg(1)">
+                                <a href="../lexeme/showArticleByLexeme.do?articleID=26336" class="black-bg btn-menu">
+                                    <i class="fa text-muted"><img src="../../images/knowledge_map1.png" height="40" style="margin:0px;" width="36" id="knowledge_map_img"></i>
+                                    <h2>可视化</h2>
+                                    <span class="badge" id="knowledge_map_count">0</span>
+                                </a>
+                            </span>
+            </div>
+			
+        </div>
+        
+        <!--<div class="jumbotron" id="showPdf2">
+            <ul class="list-unstyled">
+                <li><a href="">1. 探讨2016版国际胰瘘研究小组定义和分级系统对胰腺术后患者胰瘘分级的影响.PDF<span>(500KB)</span></a></li>
+            </ul>
+        </div>-->
+        
+    </div>
+    <!--6大块组------------------->
+    </div>
+    </div>
+    </div>
+    <div class="row" id="pin">
+        <div class="col-lg-11 col-md-10 col-sm-12 col-sm-12">
+            <!--折叠面板begin-->
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="zhaiyao" onClick="xianshi(this)" style="cursor: pointer;">
+                        <h4 class="panel-title">
+                            <a id="abstract">
+                               	 摘要/Abstract
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne" name="#abstract" style="display:block;">
+                        <div class="panel-body line-height text-justify">
+                                                        <p><strong>摘要： </strong><p>视觉目标跟踪是计算机视觉中的重要任务之一，为实现高性能的目标跟踪，近年来提出了大量的目标跟踪方法，其中基于Transformer的目标跟踪方法由于具有全局建模和联系上下文的能力，是目前视觉目标跟踪领域研究的热点。首先，根据网络结构的不同对基于Transformer的视觉目标跟踪方法进行分类，概述相关原理和模型改进的关键技术，总结不同网络结构的优缺点；其次，对这类方法在公开数据集上的实验结果进行对比，分析网络结构对性能的影响，其中MixViT-L（ConvMAE）在LaSOT和TrackingNet上跟踪成功率分别达到了73.3%和86.1%，说明基于纯Transformer两段式架构的目标跟踪方法具有更优的性能和更广的发展前景；最后，对方法当前存在的网络结构复杂、参数量大、训练要求高和边缘设备使用难度大等不足进行总结，并对今后的研究重点进行展望，通过与模型压缩、自监督学习以及Transformer可解释性分析相结合，可为基于Transformer的视觉目标跟踪提出更多可行的解决方案。</p></p>
+                                                        <div></div>
+                            <form name="refForm" action="showCorrelativeArticle.do" method=post target=_blank>
+							<input type="hidden" name="searchSQL" value="" />
+                            <input type=hidden name="keyword" value="" id="keyword">
+							<input type=hidden name="author" value="" id="author">
+                            
+                                                        <p><strong>关键词: </strong>
+                               																				                                       <a href="#" onClick="searchKeyword('https://www.joca.cn','1','计算机视觉')">计算机视觉, </a>
+	                                                                        											                                       <a href="#" onClick="searchKeyword('https://www.joca.cn','1','目标跟踪')">目标跟踪, </a>
+	                                                                        											                                       <a href="#" onClick="searchKeyword('https://www.joca.cn','1','混合网络结构')">混合网络结构, </a>
+	                                                                        											                                       <a href="#" onClick="searchKeyword('https://www.joca.cn','1','深度学习')">深度学习, </a>
+	                                                                        											                                       <a href="#" onClick="searchKeyword('https://www.joca.cn','1','孪生网络')">孪生网络, </a>
+	                                                                        											                                       <a href="#" onClick="searchKeyword('https://www.joca.cn','1','Transformer')">Transformer</a> 
+	                                                                                                    </p>
+                                                                                    <p><strong>Abstract: </strong><p>Visual object tracking is one of the important tasks in computer vision， in order to achieve high-performance object tracking， a large number of object tracking methods have been proposed in recent years. Among them， Transformer-based object tracking methods become a hot topic in the field of visual object tracking due to their ability to perform global modeling and capture contextual information. Firstly， existing Transformer-based visual object tracking methods were classified based on their network structures， an overview of the underlying principles and key techniques for model improvement were expounded， and the advantages and disadvantages of different network structures were also summarized. Then， the experimental results of the Transformer-based visual object tracking methods on public datasets were compared to analyze the impact of network structure on performance. in which MixViT-L （ConvMAE） achieved tracking success rates of 73.3% and 86.1% on LaSOT and TrackingNet， respectively， proving that the object tracking methods based on pure Transformer two-stage architecture have better performance and broader development prospects. Finally， the limitations of these methods， such as complex network structure， large number of parameters， high training requirements， and difficulty in deploying on edge devices， were summarized， and the future research focus was outlooked， by combining model compression， self-supervised learning， and Transformer interpretability analysis， more kinds of feasible solutions for Transformer-based visual target tracking could be presented.</p></p>
+                                                        	                            <p><strong>Key words: </strong>
+	                            																				                                       <a href="#" onClick="searchEnKeyword('https://www.joca.cn','1','computer vision')">computer vision, </a>
+	                                    	                            											                                       <a href="#" onClick="searchEnKeyword('https://www.joca.cn','1','object tracking')">object tracking, </a>
+	                                    	                            											                                       <a href="#" onClick="searchEnKeyword('https://www.joca.cn','1','hybrid network structure')">hybrid network structure, </a>
+	                                    	                            											                                       <a href="#" onClick="searchEnKeyword('https://www.joca.cn','1','deep learning')">deep learning, </a>
+	                                    	                            											                                       <a href="#" onClick="searchEnKeyword('https://www.joca.cn','1','Siamese network')">Siamese network, </a>
+	                                    	                            											                                       <a href="#" onClick="searchEnKeyword('https://www.joca.cn','1','Transformer')">Transformer</a> 
+	                                    	                                                            </p>
+                                                         </form>
+                              <!-- 分类号查询跳转 -->
+                             <form name="subjectSchemeForm" action="" method=post target=_blank>
+                             	<input type="hidden" name="searchSQL" />
+                             	<input type="hidden" name="language" />
+                             </form>
+                            <!--分类号-->
+                            																								<p>
+								<strong>
+																中图分类号:&nbsp;
+																</strong> 
+								</p>
+								<ul class="list-unstyled pacs">
+																								<li> 
+																<p>
+								<a href="#" onclick="subjectScheme('https://www.joca.cn','TP391.4','1');return false;" target="_blank">
+								TP391.4
+								</a>
+								</p>
+																</li>
+																																</ul>
+																                            <!--分类号end-->
+                            <div class="row hidden-xs hidden-sm">
+                                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 margin-bottom-10 text-center">
+                                    <div class="text-primary btn-menu">
+                                        <h4>引用本文</h4>
+
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 margin-bottom-10">
+                                    <div class="primary-border">
+                                        															<p>孙子文, 钱立志, 杨传栋, 高一博, 陆庆阳, 袁广林. 基于Transformer的视觉目标跟踪方法综述[J]. 计算机应用, 2024, 44(5): 1644-1654.	</p>
+																																									     												                                                                                                        	                                                                                                                      <p>Ziwen SUN, Lizhi QIAN, Chuandong YANG, Yibo GAO, Qingyang LU, Guanglin YUAN. Survey of visual object tracking methods based on Transformer[J]. Journal of Computer Applications, 2024, 44(5): 1644-1654.</p>
+															                                                                                            </div>
+
+                                </div>
+                            </div>
+                            <div class="row hidden-xs hidden-sm">
+                                <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 margin-bottom-10 text-center">
+
+                                    <div class="btn-menu bs-callout-warning">
+                                        <h4>使用本文</h4>
+                                    </div>
+
+                                </div>
+                                <div class="col-xs-12 col-sm-10 col-md-10 col-lg-10 margin-bottom-10">
+
+                                    <div class="primary-border">
+                                        <p>
+                                            <b>
+                                                <form name=mail action="https://www.joca.cn/CN/article/sendMail.jsp" method=post target=_blank> 
+												
+                                                 &nbsp;&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
+													<a onclick="mail.submit()" href="javascript:void(null)" class="tuij">推荐</a>
+													<input type="hidden" name="articleId" value='26336'>
+												<form>
+                                            </b>
+                                        </p>
+                                        <p><b>导出引用管理器</b> <span class="daochu"><a href="https://www.joca.cn/CN/article/getTxtFile.do?fileType=EndNote&id=26336" id="ris_export">EndNote</a>|<a href="https://www.joca.cn/CN/article/getTxtFile.do?fileType=Ris&id=26336">Ris</a>|<a id="bibtex_export" href="https://www.joca.cn/CN/article/getTxtFile.do?fileType=BibTeX&id=26336">BibTeX</a></span>
+										</p>
+										<p><strong>链接本文:</strong>
+										<a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023060796" class="txt_zhaiyao1">https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023060796</a>
+										</p>
+										<p>
+										<strong>&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+											<a href="https://www.joca.cn/CN/Y2024/V44/I5/1644" class="txt_zhaiyao1">
+										https://www.joca.cn/CN/Y2024/V44/I5/1644</a>										</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                                <div class="panel panel-default" >
+                    <div class="panel-heading" role="tab" id="tubiao" onClick="xianshi(this)">
+                        <h4 class="panel-title">
+                            <a id="figure" class="collapsed" href="javascript:;">
+                                图/表 <span class="badge badge-info">5</span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" style="display: none;">
+                        <div class="panel-body">
+                            <!--start-->
+                            <div class="row figureCon">
+																	<div class="col-lg-3 col-md-4 col-sm-6" style ="width:100%;">
+										<div class="thumbnail" style="background:#f8f8f8; border: 1px #eee solid; margin-top:20px;border-radius:15px; padding: 10px;">
+																							<div class="img_div">
+												<a class="figureClass" href="#figureClass16686"  data-toggle="tooltip" data-placement="bottom" data-original-title="图1&nbsp;&nbsp;基于Transformer目标跟踪方法的发展和分类">
+												  <img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F001.jpg" style="height:auto;max-width:90%;margin:15px auto;"  class="zhaiyao_img">
+												</a>
+												</div>
+																									<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;">
+														<b>图1</b>&nbsp;基于Transformer目标跟踪方法的发展和分类
+													</div>
+																																					<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;">
+														<b>Fig.1</b>&nbsp;Development and classification of Transformer based object tracking methods
+													</div>
+																								<div style='display:none'>
+													<div id='figureClass16686' style='padding:10px; background:#fff;text-align:center;' class="img_div">
+														<img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F001.jpg" style="height:auto;max-width:90%;margin:15px auto;" class="zhaiyao_img"/>
+																													<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;"><b>图1</b>&nbsp;基于Transformer目标跟踪方法的发展和分类</p>
+																																											<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;"><b>Fig.1</b>&nbsp;Development and classification of Transformer based object tracking methods</p>
+																											</div>
+												</div>
+																					</div>
+									</div>
+																	<div class="col-lg-3 col-md-4 col-sm-6" style ="width:100%;">
+										<div class="thumbnail" style="background:#f8f8f8; border: 1px #eee solid; margin-top:20px;border-radius:15px; padding: 10px;">
+																							<div class="img_div">
+												<a class="figureClass" href="#figureClass16687"  data-toggle="tooltip" data-placement="bottom" data-original-title="图2&nbsp;&nbsp;CNN+Transformer三段式混合结构">
+												  <img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F002.jpg" style="height:auto;max-width:90%;margin:15px auto;"  class="zhaiyao_img">
+												</a>
+												</div>
+																									<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;">
+														<b>图2</b>&nbsp;CNN+Transformer三段式混合结构
+													</div>
+																																					<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;">
+														<b>Fig.2</b>&nbsp;Three-stage hybrid structure of CNN+Transformer
+													</div>
+																								<div style='display:none'>
+													<div id='figureClass16687' style='padding:10px; background:#fff;text-align:center;' class="img_div">
+														<img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F002.jpg" style="height:auto;max-width:90%;margin:15px auto;" class="zhaiyao_img"/>
+																													<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;"><b>图2</b>&nbsp;CNN+Transformer三段式混合结构</p>
+																																											<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;"><b>Fig.2</b>&nbsp;Three-stage hybrid structure of CNN+Transformer</p>
+																											</div>
+												</div>
+																					</div>
+									</div>
+																	<div class="col-lg-3 col-md-4 col-sm-6" style ="width:100%;">
+										<div class="thumbnail" style="background:#f8f8f8; border: 1px #eee solid; margin-top:20px;border-radius:15px; padding: 10px;">
+																							<div class="img_div">
+												<a class="figureClass" href="#figureClass16688"  data-toggle="tooltip" data-placement="bottom" data-original-title="图3&nbsp;&nbsp;纯Transformer三段式架构">
+												  <img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F003.jpg" style="height:auto;max-width:90%;margin:15px auto;"  class="zhaiyao_img">
+												</a>
+												</div>
+																									<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;">
+														<b>图3</b>&nbsp;纯Transformer三段式架构
+													</div>
+																																					<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;">
+														<b>Fig.3</b>&nbsp;Three-stage architecture of pure Transformer
+													</div>
+																								<div style='display:none'>
+													<div id='figureClass16688' style='padding:10px; background:#fff;text-align:center;' class="img_div">
+														<img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F003.jpg" style="height:auto;max-width:90%;margin:15px auto;" class="zhaiyao_img"/>
+																													<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;"><b>图3</b>&nbsp;纯Transformer三段式架构</p>
+																																											<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;"><b>Fig.3</b>&nbsp;Three-stage architecture of pure Transformer</p>
+																											</div>
+												</div>
+																					</div>
+									</div>
+																	<div class="col-lg-3 col-md-4 col-sm-6" style ="width:100%;">
+										<div class="thumbnail" style="background:#f8f8f8; border: 1px #eee solid; margin-top:20px;border-radius:15px; padding: 10px;">
+																							<div class="img_div">
+												<a class="figureClass" href="#figureClass16689"  data-toggle="tooltip" data-placement="bottom" data-original-title="图4&nbsp;&nbsp;纯Transformer两段式架构">
+												  <img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F004.jpg" style="height:auto;max-width:90%;margin:15px auto;"  class="zhaiyao_img">
+												</a>
+												</div>
+																									<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;">
+														<b>图4</b>&nbsp;纯Transformer两段式架构
+													</div>
+																																					<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;">
+														<b>Fig.4</b>&nbsp;Two-stage architecture of pure Transformer
+													</div>
+																								<div style='display:none'>
+													<div id='figureClass16689' style='padding:10px; background:#fff;text-align:center;' class="img_div">
+														<img src="https://www.joca.cn/fileup/1001-9081/FIGURE/2024-44-5/Images/1001-9081-2024-44-5-1644/C759529A-B464-4791-BB82-D28C60166149-F004.jpg" style="height:auto;max-width:90%;margin:15px auto;" class="zhaiyao_img"/>
+																													<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;"><b>图4</b>&nbsp;纯Transformer两段式架构</p>
+																																											<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;"><b>Fig.4</b>&nbsp;Two-stage architecture of pure Transformer</p>
+																											</div>
+												</div>
+																					</div>
+									</div>
+																	<div class="col-lg-3 col-md-4 col-sm-6" style ="width:100%;">
+										<div class="thumbnail" style="background:#f8f8f8; border: 1px #eee solid; margin-top:20px;border-radius:15px; padding: 10px;">
+																																			<div style="color:#666;font-size: 14px;padding: 0px;margin-top:15px; text-align: center;">
+													<b>表1</b>&nbsp;基于Transformer的目标跟踪方法在常用数据集中的结果对比
+												</div>
+																																				<div style="color:#666;font-size: 14px;padding: 0px;text-align: center;">
+													<b>Tab.1</b>&nbsp;Comparison of results of Transformer based object tracking methods in common datasets
+												</div>
+																								<a class='inline' href="#inline_content16690" style="text-decoration: none;" data-toggle="tooltip" data-placement="bottom" data-original-title="表1&nbsp;&nbsp;基于Transformer的目标跟踪方法在常用数据集中的结果对比">
+													<div class="table-responsive kongzhitab">
+															<table id="Table1"><thead><tr><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">方法</th><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">出处</th><th align="center" colspan="2" style="border-top:solid;border-bottom:solid;">LaSOT</th><th align="center" colspan="2" style="border-top:solid;border-bottom:solid;">TrackingNet</th><th align="center" colspan="3" style="border-top:solid;border-bottom:solid;">GOT-10k</th><th align="center" style="border-top:solid;border-bottom:solid;">OTB2015</th><th align="center" style="border-top:solid;border-bottom:solid;">NFS</th><th align="center" style="border-top:solid;border-bottom:solid;">UAV123</th><th align="center" colspan="3" style="border-top:solid;border-bottom:solid;">VOT2020</th><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">FPS</th><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">Params/MB</th></tr><tr><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">P/%</th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">P/%</th><th align="center" style="border-bottom:solid;">AO</th><th align="center" style="border-bottom:solid;">SR<sub>0.5</sub></th><th align="center" style="border-bottom:solid;">SR<sub>0.75</sub></th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">EAO</th><th align="center" style="border-bottom:solid;">Acc/%</th><th align="center" style="border-bottom:solid;">Rob</th></tr></thead><tbody><tr align="center"><td align="left" style="padding-left:0.2em;">DTT<sup>［<xref ref-type="bibr" rid="R37">37</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV21</td><td align="center">53.8</td><td align="left"/><td align="center">74</td><td align="center">68.8</td><td align="center">63.4</td><td align="center">74.9</td><td align="center">51.4</td><td align="left"/><td align="center">60.8</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">54.5</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrTr-offline<sup>［<xref ref-type="bibr" rid="R38">38</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR21</td><td align="center">46.3</td><td align="left"/><td align="center">69.3</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">69.1</td><td align="center">55.2</td><td align="center">59.4</td><td align="left"/><td align="left"/><td align="left"/><td align="center">50</td><td align="center">33.9</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrTr-online<sup>［<xref ref-type="bibr" rid="R38">38</xref>］</sup></td><td align="center">55.1</td><td align="left"/><td align="center">71</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">71.5</td><td align="center">63.1</td><td align="center">65.2</td><td align="left"/><td align="left"/><td align="left"/><td align="center">35.3</td><td align="center">21</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TransT<sup>［<xref ref-type="bibr" rid="R39">39</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV21</td><td align="center">64.9</td><td align="center">69</td><td align="center">81.4</td><td align="center">80.3</td><td align="center">72.3</td><td align="center">82.4</td><td align="center">68.2</td><td align="center">69.4</td><td align="center">65.7</td><td align="center">69.1</td><td align="left"/><td align="left"/><td align="left"/><td align="center">50</td><td align="center">35.5</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrSiam<sup>［<xref ref-type="bibr" rid="R42">42</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">ICCV21</td><td align="center">62.4</td><td align="center">60</td><td align="center">78.1</td><td align="center">72.7</td><td align="center">67.3</td><td align="center">78.7</td><td align="center">58.6</td><td align="center">70.8</td><td align="center">65.8</td><td align="center">67.4</td><td align="left"/><td align="left"/><td align="left"/><td align="center">35.6</td><td align="center">52</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrDiMP<sup>［<xref ref-type="bibr" rid="R42">42</xref>］</sup></td><td align="center">63.9</td><td align="center">61.4</td><td align="center">78.4</td><td align="center">73.1</td><td align="center">68.8</td><td align="center">80.5</td><td align="center">59.7</td><td align="center">71.1</td><td align="center">66.5</td><td align="center">67.5</td><td align="left"/><td align="left"/><td align="left"/><td align="center">26.3</td><td align="center">55.2</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">STARK-ST50<sup>［<xref ref-type="bibr" rid="R43">43</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">ICCV21</td><td align="center">66.6</td><td align="center">70.8</td><td align="center">81.3</td><td align="left"/><td align="center">68.0</td><td align="center">77.7</td><td align="center">62.3</td><td align="left"/><td align="center">66.2</td><td align="center">68.2</td><td align="center">0.308</td><td align="center">0.478</td><td align="center">0.799</td><td align="center">41.8</td><td align="center">23.5</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">STARK-ST101<sup>［<xref ref-type="bibr" rid="R43">43</xref>］</sup></td><td align="center">67.1</td><td align="center">77.0</td><td align="center">82.0</td><td align="left"/><td align="center">68.8</td><td align="center">78.1</td><td align="center">64.1</td><td align="left"/><td align="left"/><td align="left"/><td align="center">0.303</td><td align="center">0.481</td><td align="center">0.775</td><td align="center">31.7</td><td align="center">42.4</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">E.T.Track<sup>［<xref ref-type="bibr" rid="R44">44</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR22</td><td align="center">59.1</td><td align="left"/><td align="center">75.0</td><td align="center">70.6</td><td align="left"/><td align="left"/><td align="left"/><td align="center">67.8</td><td align="center">59.0</td><td align="center">62.3</td><td align="center">0.267</td><td align="center">0.432</td><td align="center">0.741</td><td align="center">47.2</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">HCAT<sup>［<xref ref-type="bibr" rid="R40">40</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR22</td><td align="center">59.1</td><td align="center">60.7</td><td align="center">76.6</td><td align="center">72.9</td><td align="center">65.3</td><td align="center">76.8</td><td align="center">57</td><td align="center">68.1</td><td align="center">63.6</td><td align="center">63.6</td><td align="center">0.276</td><td align="center">0.455</td><td align="center">0.747</td><td align="center">195</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TransT_H<sup>［<xref ref-type="bibr" rid="R40">40</xref>］</sup></td><td align="center">66.2</td><td align="center">70.7</td><td align="center">82.2</td><td align="center">80.4</td><td align="center">72.4</td><td align="center">82.0</td><td align="center">68.5</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TransT-M<sup>［<xref ref-type="bibr" rid="R41">41</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR22</td><td align="center">65.4</td><td align="center">69.6</td><td align="center">82.5</td><td align="center">80.0</td><td align="center">74.7</td><td align="center">85.5</td><td align="center">71.3</td><td align="center">68.9</td><td align="center">66.2</td><td align="center">70.9</td><td align="center">0.550</td><td align="center">0.742</td><td align="center">0.869</td><td align="center">42.7</td><td align="center">23.1</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SparseTT<sup>［<xref ref-type="bibr" rid="R45">45</xref>］</sup></td><td align="left" style="padding-left:0.2em;">IJCAI22</td><td align="center">66.0</td><td align="center">70.1</td><td align="center">81.7</td><td align="center">79.5</td><td align="center">69.3</td><td align="center">79.1</td><td align="center">63.8</td><td align="center">70.4</td><td align="left"/><td align="center">70.4</td><td align="left"/><td align="left"/><td align="left"/><td align="center">40.1</td><td align="center">58.3</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">CSWinTT<sup>［<xref ref-type="bibr" rid="R46">46</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV22</td><td align="center">66.2</td><td align="center">70.9</td><td align="center">81.9</td><td align="center">79.5</td><td align="center">69.4</td><td align="center">78.9</td><td align="center">65.4</td><td align="left"/><td align="left"/><td align="center">70.5</td><td align="center">0.304</td><td align="center">0.480</td><td align="center">0.787</td><td align="center">12</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ToMP-50<sup>［<xref ref-type="bibr" rid="R47">47</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR22</td><td align="center">67.6</td><td align="center">72.2</td><td align="center">81.2</td><td align="center">78.6</td><td align="left"/><td align="left"/><td align="left"/><td align="center">70.1</td><td align="center">66.9</td><td align="center">69</td><td align="center">0.297</td><td align="center">0.453</td><td align="center">0.789</td><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ToMP-101<sup>［<xref ref-type="bibr" rid="R47">47</xref>］</sup></td><td align="center">68.5</td><td align="center">73.5</td><td align="center">81.5</td><td align="center">78.9</td><td align="left"/><td align="left"/><td align="left"/><td align="center">70.1</td><td align="center">66.7</td><td align="center">66.9</td><td align="center">0.309</td><td align="center">0.453</td><td align="center">0.814</td><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="border-bottom:solid;padding-left:0.2em;">AiATrack<sup>［<xref ref-type="bibr" rid="R48">48</xref>］</sup></td><td align="left" style="border-bottom:solid;padding-left:0.2em;">ECCV22</td><td align="center" style="border-bottom:solid;">69.0</td><td align="center" style="border-bottom:solid;">73.8</td><td align="center" style="border-bottom:solid;">82.7</td><td align="center" style="border-bottom:solid;">80.4</td><td align="center" style="border-bottom:solid;">69.6</td><td align="center" style="border-bottom:solid;">80.0</td><td align="center" style="border-bottom:solid;">63.2</td><td align="center" style="border-bottom:solid;">69.6</td><td align="center" style="border-bottom:solid;">67.9</td><td align="center" style="border-bottom:solid;">70.6</td><td align="center" style="border-bottom:solid;">0.530</td><td align="center" style="border-bottom:solid;">0.764</td><td align="center" style="border-bottom:solid;">0.827</td><td align="center" style="border-bottom:solid;">38</td><td align="center" style="border-bottom:solid;">23.6</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">DualTFR<sup>［<xref ref-type="bibr" rid="R49">49</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV21</td><td align="center">63.5</td><td align="center">66.5</td><td align="center">80.1</td><td align="left"/><td align="center">73.5</td><td align="center">84.8</td><td align="center">69.9</td><td align="left"/><td align="left"/><td align="center">68.2</td><td align="center">0.528</td><td align="center">0.755</td><td align="center">0.836</td><td align="left"/><td align="center">44.1</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SwinTrack-B<sup>［<xref ref-type="bibr" rid="R50">50</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR21</td><td align="center">69.6</td><td align="center">74.1</td><td align="center">82.5</td><td align="center">80.4</td><td align="center">69.4</td><td align="center">78</td><td align="center">64.3</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">52.2</td><td align="center">91.4</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SwinTrack-B-384<sup>［<xref ref-type="bibr" rid="R50">50</xref>］</sup></td><td align="center">70.2</td><td align="center">75.3</td><td align="center">84.0</td><td align="center">83.2</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">45</td><td align="center">101.3</td></tr><tr align="center"><td align="left" style="border-bottom:solid;padding-left:0.2em;">SFTransT<sup>［<xref ref-type="bibr" rid="R51">51</xref>］</sup></td><td align="left" style="border-bottom:solid;padding-left:0.2em;">CoRR22</td><td align="center" style="border-bottom:solid;">69.0</td><td align="center" style="border-bottom:solid;">73.9</td><td align="center" style="border-bottom:solid;">82.9</td><td align="center" style="border-bottom:solid;">81.3</td><td align="center" style="border-bottom:solid;">72.7</td><td align="center" style="border-bottom:solid;">84.3</td><td align="center" style="border-bottom:solid;">66.9</td><td align="center" style="border-bottom:solid;">70.3</td><td align="center" style="border-bottom:solid;">66.0</td><td align="center" style="border-bottom:solid;">71.3</td><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="center" style="border-bottom:solid;">27.3</td><td align="center" style="border-bottom:solid;">29.61</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">Sim-L/14<sup>［<xref ref-type="bibr" rid="R55">55</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ECCV21</td><td align="center">70.5</td><td align="center">76.2</td><td align="center">83.4</td><td align="center">87.4</td><td align="center">69.8</td><td align="center">78.8</td><td align="center">66.0</td><td align="left"/><td align="left"/><td align="center">71.2</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">103.1</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">OSTrack-256<sup>［<xref ref-type="bibr" rid="R56">56</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">ECCV22</td><td align="center">69.1</td><td align="center">75.2</td><td align="center">83.1</td><td align="center">82.0</td><td align="center">71.0</td><td align="center">80.4</td><td align="center">68.2</td><td align="left"/><td align="center">64.7</td><td align="center">66.5</td><td align="left"/><td align="left"/><td align="left"/><td align="center">105.4</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">OSTrack-384<sup>［<xref ref-type="bibr" rid="R56">56</xref>］</sup></td><td align="center">71.1</td><td align="center">77.6</td><td align="center">83.9</td><td align="center">83.2</td><td align="center">73.7</td><td align="center">83.2</td><td align="center">70.8</td><td align="left"/><td align="center">68.3</td><td align="center">70.7</td><td align="left"/><td align="left"/><td align="left"/><td align="center">58.1</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ProContEXT<sup>［<xref ref-type="bibr" rid="R57">57</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CoRR22</td><td align="left"/><td align="left"/><td align="center">84.6</td><td align="center">83.8</td><td align="center">74.6</td><td align="center">84.7</td><td align="center">72.9</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">26.4</td><td align="center">118.5</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">VideoTrack<sup>［<xref ref-type="bibr" rid="R58">58</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR23</td><td align="center">70.2</td><td align="center">76.4</td><td align="center">83.8</td><td align="center">83.1</td><td align="center">72.9</td><td align="center">81.9</td><td align="center">69.8</td><td align="left"/><td align="left"/><td align="center">69.7</td><td align="left"/><td align="left"/><td align="left"/><td align="center">81.4</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TATrack-L<sup>［<xref ref-type="bibr" rid="R52">52</xref>］</sup></td><td align="left" style="padding-left:0.2em;">IAAI23</td><td align="center">71.1</td><td align="center">76.1</td><td align="center">85.0</td><td align="center">84.5</td><td align="center">79.2</td><td align="center">88.6</td><td align="center">78.3</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">6.6</td><td align="center">112.8</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">GRM<sup>［<xref ref-type="bibr" rid="R59">59</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR23</td><td align="center">69.9</td><td align="center">75.8</td><td align="center">84.0</td><td align="center">83.3</td><td align="center">73.4</td><td align="center">82.9</td><td align="center">70.4</td><td align="left"/><td align="center">65.6</td><td align="center">70.2</td><td align="left"/><td align="left"/><td align="left"/><td align="center">45</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">GRM-L320<sup>［<xref ref-type="bibr" rid="R59">59</xref>］</sup></td><td align="center">71.4</td><td align="center">77.9</td><td align="center">84.4</td><td align="center">84.0</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">DropTrack<sup>［<xref ref-type="bibr" rid="R60">60</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR23</td><td align="center">71.8</td><td align="center">78.1</td><td align="center">84.1</td><td align="center">83.0</td><td align="center">75.9</td><td align="center">86.8</td><td align="center">72.0</td><td align="center">69.6</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">MixFormer<sup>［<xref ref-type="bibr" rid="R53">53</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR22</td><td align="center">67.9</td><td align="center">73.9</td><td align="center">82.6</td><td align="center">81.2</td><td align="center">73.2</td><td align="center">83.2</td><td align="center">70.2</td><td align="left"/><td align="left"/><td align="center">68.7</td><td align="center">0.527</td><td align="center">0.746</td><td align="center">0.833</td><td align="center">29</td><td align="center">53.3</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">MixFormer-L<sup>［<xref ref-type="bibr" rid="R53">53</xref>］</sup></td><td align="center">70.1</td><td align="center">76.3</td><td align="center">83.9</td><td align="center">83.1</td><td align="center">75.6</td><td align="center">85.7</td><td align="center">72.8</td><td align="left"/><td align="left"/><td align="center">69.5</td><td align="center">0.555</td><td align="center">0.762</td><td align="center">0.855</td><td align="center">25</td><td align="center">215.7</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;"><p>MixViT-L</p><p>（ConvMAE）<sup>［<xref ref-type="bibr" rid="R54">54</xref>］</sup></p></td><td align="left" style="padding-left:0.2em;">CVPR23</td><td align="center">73.3</td><td align="center">80.3</td><td align="center">86.1</td><td align="center">86.0</td><td align="center">75.4</td><td align="center">84.0</td><td align="center">75.4</td><td align="center">70.7</td><td align="left"/><td align="center">70.0</td><td align="center">0.567</td><td align="center">0.747</td><td align="center">0.870</td><td align="center">10</td><td align="center">286.9</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-B256<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="left" rowspan="4" style="padding-left:0.2em;">CVPR23</td><td align="center">69.9</td><td align="center">76.3</td><td align="center">83.3</td><td align="center">82.2</td><td align="center">74.7</td><td align="center">84.7</td><td align="center">71.8</td><td align="left"/><td align="center">67.6</td><td align="center">69.2</td><td align="center">0.520</td><td align="left"/><td align="left"/><td align="center">40</td><td align="center">89</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-B384<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="center">71.5</td><td align="center">77.8</td><td align="center">83.9</td><td align="center">83.6</td><td align="center">74.5</td><td align="center">84.3</td><td align="center">71.4</td><td align="left"/><td align="center">66.7</td><td align="center">68.6</td><td align="center">0.522</td><td align="left"/><td align="left"/><td align="center">15</td><td align="center">89</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-L256<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="center">72.1</td><td align="center">79.0</td><td align="center">85.0</td><td align="center">84.9</td><td align="center">74.5</td><td align="center">83.2</td><td align="center">72.0</td><td align="left"/><td align="center">66.9</td><td align="center">69.7</td><td align="center">0.555</td><td align="left"/><td align="left"/><td align="center">15</td><td align="center">309</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-L384<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="center">72.5</td><td align="center">79.3</td><td align="center">85.5</td><td align="center">85.8</td><td align="center">74.8</td><td align="center">81.9</td><td align="center">72.2</td><td align="left"/><td align="center">66.2</td><td align="center">68.5</td><td align="center">0.561</td><td align="left"/><td align="left"/><td align="center">5</td><td align="center">309</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ARTrack<sub>256</sub><sup>［<xref ref-type="bibr" rid="R62">62</xref>］</sup></td><td align="left" rowspan="3" style="border-bottom:solid;padding-left:0.2em;">CVPR23</td><td align="center">70.4</td><td align="center">76.6</td><td align="center">84.2</td><td align="center">83.5</td><td align="center">73.5</td><td align="center">82.2</td><td align="center">70.9</td><td align="left"/><td align="center">64.3</td><td align="center">67.7</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ARTrack<sub>384</sub><sup>［<xref ref-type="bibr" rid="R62">62</xref>］</sup></td><td align="center">72.6</td><td align="center">79.1</td><td align="center">85.1</td><td align="center">84.8</td><td align="center">75.5</td><td align="center">84.3</td><td align="center">74.3</td><td align="left"/><td align="center">66.8</td><td align="center">70.5</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="border-bottom:solid;padding-left:0.2em;">ARTrack-L<sub>384</sub><sup>［<xref ref-type="bibr" rid="R62">62</xref>］</sup></td><td align="center" style="border-bottom:solid;">73.1</td><td align="center" style="border-bottom:solid;">80.3</td><td align="center" style="border-bottom:solid;">85.6</td><td align="center" style="border-bottom:solid;">86.0</td><td align="center" style="border-bottom:solid;">78.5</td><td align="center" style="border-bottom:solid;">87.4</td><td align="center" style="border-bottom:solid;">77.8</td><td align="left" style="border-bottom:solid;"/><td align="center" style="border-bottom:solid;">67.9</td><td align="center" style="border-bottom:solid;">71.2</td><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="center" style="border-bottom:solid;">26</td><td align="left" style="border-bottom:solid;"/></tr></tbody></table>
+													</div>
+												</a>
+												<div style='display:none'>
+													<div class="table-responsive kongzhitab" id='inline_content16690' style='padding:10px; background:#fff;'>
+																												<p style="color:#666;font-size: 14px;padding: 0px;margin-top:15px;text-align: center;"><b>表1</b>&nbsp;基于Transformer的目标跟踪方法在常用数据集中的结果对比</p>
+																																										<p style="color:#666;font-size: 14px;padding: 0px;text-align: center;margin-bottom:15px;"><b>Tab.1</b>&nbsp;Comparison of results of Transformer based object tracking methods in common datasets</p>
+																												<table id="Table1"><thead><tr><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">方法</th><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">出处</th><th align="center" colspan="2" style="border-top:solid;border-bottom:solid;">LaSOT</th><th align="center" colspan="2" style="border-top:solid;border-bottom:solid;">TrackingNet</th><th align="center" colspan="3" style="border-top:solid;border-bottom:solid;">GOT-10k</th><th align="center" style="border-top:solid;border-bottom:solid;">OTB2015</th><th align="center" style="border-top:solid;border-bottom:solid;">NFS</th><th align="center" style="border-top:solid;border-bottom:solid;">UAV123</th><th align="center" colspan="3" style="border-top:solid;border-bottom:solid;">VOT2020</th><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">FPS</th><th align="center" rowspan="2" style="border-top:solid;border-bottom:solid;">Params/MB</th></tr><tr><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">P/%</th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">P/%</th><th align="center" style="border-bottom:solid;">AO</th><th align="center" style="border-bottom:solid;">SR<sub>0.5</sub></th><th align="center" style="border-bottom:solid;">SR<sub>0.75</sub></th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">AUC/%</th><th align="center" style="border-bottom:solid;">EAO</th><th align="center" style="border-bottom:solid;">Acc/%</th><th align="center" style="border-bottom:solid;">Rob</th></tr></thead><tbody><tr align="center"><td align="left" style="padding-left:0.2em;">DTT<sup>［<xref ref-type="bibr" rid="R37">37</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV21</td><td align="center">53.8</td><td align="left"/><td align="center">74</td><td align="center">68.8</td><td align="center">63.4</td><td align="center">74.9</td><td align="center">51.4</td><td align="left"/><td align="center">60.8</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">54.5</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrTr-offline<sup>［<xref ref-type="bibr" rid="R38">38</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR21</td><td align="center">46.3</td><td align="left"/><td align="center">69.3</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">69.1</td><td align="center">55.2</td><td align="center">59.4</td><td align="left"/><td align="left"/><td align="left"/><td align="center">50</td><td align="center">33.9</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrTr-online<sup>［<xref ref-type="bibr" rid="R38">38</xref>］</sup></td><td align="center">55.1</td><td align="left"/><td align="center">71</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">71.5</td><td align="center">63.1</td><td align="center">65.2</td><td align="left"/><td align="left"/><td align="left"/><td align="center">35.3</td><td align="center">21</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TransT<sup>［<xref ref-type="bibr" rid="R39">39</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV21</td><td align="center">64.9</td><td align="center">69</td><td align="center">81.4</td><td align="center">80.3</td><td align="center">72.3</td><td align="center">82.4</td><td align="center">68.2</td><td align="center">69.4</td><td align="center">65.7</td><td align="center">69.1</td><td align="left"/><td align="left"/><td align="left"/><td align="center">50</td><td align="center">35.5</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrSiam<sup>［<xref ref-type="bibr" rid="R42">42</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">ICCV21</td><td align="center">62.4</td><td align="center">60</td><td align="center">78.1</td><td align="center">72.7</td><td align="center">67.3</td><td align="center">78.7</td><td align="center">58.6</td><td align="center">70.8</td><td align="center">65.8</td><td align="center">67.4</td><td align="left"/><td align="left"/><td align="left"/><td align="center">35.6</td><td align="center">52</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TrDiMP<sup>［<xref ref-type="bibr" rid="R42">42</xref>］</sup></td><td align="center">63.9</td><td align="center">61.4</td><td align="center">78.4</td><td align="center">73.1</td><td align="center">68.8</td><td align="center">80.5</td><td align="center">59.7</td><td align="center">71.1</td><td align="center">66.5</td><td align="center">67.5</td><td align="left"/><td align="left"/><td align="left"/><td align="center">26.3</td><td align="center">55.2</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">STARK-ST50<sup>［<xref ref-type="bibr" rid="R43">43</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">ICCV21</td><td align="center">66.6</td><td align="center">70.8</td><td align="center">81.3</td><td align="left"/><td align="center">68.0</td><td align="center">77.7</td><td align="center">62.3</td><td align="left"/><td align="center">66.2</td><td align="center">68.2</td><td align="center">0.308</td><td align="center">0.478</td><td align="center">0.799</td><td align="center">41.8</td><td align="center">23.5</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">STARK-ST101<sup>［<xref ref-type="bibr" rid="R43">43</xref>］</sup></td><td align="center">67.1</td><td align="center">77.0</td><td align="center">82.0</td><td align="left"/><td align="center">68.8</td><td align="center">78.1</td><td align="center">64.1</td><td align="left"/><td align="left"/><td align="left"/><td align="center">0.303</td><td align="center">0.481</td><td align="center">0.775</td><td align="center">31.7</td><td align="center">42.4</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">E.T.Track<sup>［<xref ref-type="bibr" rid="R44">44</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR22</td><td align="center">59.1</td><td align="left"/><td align="center">75.0</td><td align="center">70.6</td><td align="left"/><td align="left"/><td align="left"/><td align="center">67.8</td><td align="center">59.0</td><td align="center">62.3</td><td align="center">0.267</td><td align="center">0.432</td><td align="center">0.741</td><td align="center">47.2</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">HCAT<sup>［<xref ref-type="bibr" rid="R40">40</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR22</td><td align="center">59.1</td><td align="center">60.7</td><td align="center">76.6</td><td align="center">72.9</td><td align="center">65.3</td><td align="center">76.8</td><td align="center">57</td><td align="center">68.1</td><td align="center">63.6</td><td align="center">63.6</td><td align="center">0.276</td><td align="center">0.455</td><td align="center">0.747</td><td align="center">195</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TransT_H<sup>［<xref ref-type="bibr" rid="R40">40</xref>］</sup></td><td align="center">66.2</td><td align="center">70.7</td><td align="center">82.2</td><td align="center">80.4</td><td align="center">72.4</td><td align="center">82.0</td><td align="center">68.5</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TransT-M<sup>［<xref ref-type="bibr" rid="R41">41</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR22</td><td align="center">65.4</td><td align="center">69.6</td><td align="center">82.5</td><td align="center">80.0</td><td align="center">74.7</td><td align="center">85.5</td><td align="center">71.3</td><td align="center">68.9</td><td align="center">66.2</td><td align="center">70.9</td><td align="center">0.550</td><td align="center">0.742</td><td align="center">0.869</td><td align="center">42.7</td><td align="center">23.1</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SparseTT<sup>［<xref ref-type="bibr" rid="R45">45</xref>］</sup></td><td align="left" style="padding-left:0.2em;">IJCAI22</td><td align="center">66.0</td><td align="center">70.1</td><td align="center">81.7</td><td align="center">79.5</td><td align="center">69.3</td><td align="center">79.1</td><td align="center">63.8</td><td align="center">70.4</td><td align="left"/><td align="center">70.4</td><td align="left"/><td align="left"/><td align="left"/><td align="center">40.1</td><td align="center">58.3</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">CSWinTT<sup>［<xref ref-type="bibr" rid="R46">46</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV22</td><td align="center">66.2</td><td align="center">70.9</td><td align="center">81.9</td><td align="center">79.5</td><td align="center">69.4</td><td align="center">78.9</td><td align="center">65.4</td><td align="left"/><td align="left"/><td align="center">70.5</td><td align="center">0.304</td><td align="center">0.480</td><td align="center">0.787</td><td align="center">12</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ToMP-50<sup>［<xref ref-type="bibr" rid="R47">47</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR22</td><td align="center">67.6</td><td align="center">72.2</td><td align="center">81.2</td><td align="center">78.6</td><td align="left"/><td align="left"/><td align="left"/><td align="center">70.1</td><td align="center">66.9</td><td align="center">69</td><td align="center">0.297</td><td align="center">0.453</td><td align="center">0.789</td><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ToMP-101<sup>［<xref ref-type="bibr" rid="R47">47</xref>］</sup></td><td align="center">68.5</td><td align="center">73.5</td><td align="center">81.5</td><td align="center">78.9</td><td align="left"/><td align="left"/><td align="left"/><td align="center">70.1</td><td align="center">66.7</td><td align="center">66.9</td><td align="center">0.309</td><td align="center">0.453</td><td align="center">0.814</td><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="border-bottom:solid;padding-left:0.2em;">AiATrack<sup>［<xref ref-type="bibr" rid="R48">48</xref>］</sup></td><td align="left" style="border-bottom:solid;padding-left:0.2em;">ECCV22</td><td align="center" style="border-bottom:solid;">69.0</td><td align="center" style="border-bottom:solid;">73.8</td><td align="center" style="border-bottom:solid;">82.7</td><td align="center" style="border-bottom:solid;">80.4</td><td align="center" style="border-bottom:solid;">69.6</td><td align="center" style="border-bottom:solid;">80.0</td><td align="center" style="border-bottom:solid;">63.2</td><td align="center" style="border-bottom:solid;">69.6</td><td align="center" style="border-bottom:solid;">67.9</td><td align="center" style="border-bottom:solid;">70.6</td><td align="center" style="border-bottom:solid;">0.530</td><td align="center" style="border-bottom:solid;">0.764</td><td align="center" style="border-bottom:solid;">0.827</td><td align="center" style="border-bottom:solid;">38</td><td align="center" style="border-bottom:solid;">23.6</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">DualTFR<sup>［<xref ref-type="bibr" rid="R49">49</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ICCV21</td><td align="center">63.5</td><td align="center">66.5</td><td align="center">80.1</td><td align="left"/><td align="center">73.5</td><td align="center">84.8</td><td align="center">69.9</td><td align="left"/><td align="left"/><td align="center">68.2</td><td align="center">0.528</td><td align="center">0.755</td><td align="center">0.836</td><td align="left"/><td align="center">44.1</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SwinTrack-B<sup>［<xref ref-type="bibr" rid="R50">50</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR21</td><td align="center">69.6</td><td align="center">74.1</td><td align="center">82.5</td><td align="center">80.4</td><td align="center">69.4</td><td align="center">78</td><td align="center">64.3</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">52.2</td><td align="center">91.4</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SwinTrack-B-384<sup>［<xref ref-type="bibr" rid="R50">50</xref>］</sup></td><td align="center">70.2</td><td align="center">75.3</td><td align="center">84.0</td><td align="center">83.2</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">45</td><td align="center">101.3</td></tr><tr align="center"><td align="left" style="border-bottom:solid;padding-left:0.2em;">SFTransT<sup>［<xref ref-type="bibr" rid="R51">51</xref>］</sup></td><td align="left" style="border-bottom:solid;padding-left:0.2em;">CoRR22</td><td align="center" style="border-bottom:solid;">69.0</td><td align="center" style="border-bottom:solid;">73.9</td><td align="center" style="border-bottom:solid;">82.9</td><td align="center" style="border-bottom:solid;">81.3</td><td align="center" style="border-bottom:solid;">72.7</td><td align="center" style="border-bottom:solid;">84.3</td><td align="center" style="border-bottom:solid;">66.9</td><td align="center" style="border-bottom:solid;">70.3</td><td align="center" style="border-bottom:solid;">66.0</td><td align="center" style="border-bottom:solid;">71.3</td><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="center" style="border-bottom:solid;">27.3</td><td align="center" style="border-bottom:solid;">29.61</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">Sim-L/14<sup>［<xref ref-type="bibr" rid="R55">55</xref>］</sup></td><td align="left" style="padding-left:0.2em;">ECCV21</td><td align="center">70.5</td><td align="center">76.2</td><td align="center">83.4</td><td align="center">87.4</td><td align="center">69.8</td><td align="center">78.8</td><td align="center">66.0</td><td align="left"/><td align="left"/><td align="center">71.2</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">103.1</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">OSTrack-256<sup>［<xref ref-type="bibr" rid="R56">56</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">ECCV22</td><td align="center">69.1</td><td align="center">75.2</td><td align="center">83.1</td><td align="center">82.0</td><td align="center">71.0</td><td align="center">80.4</td><td align="center">68.2</td><td align="left"/><td align="center">64.7</td><td align="center">66.5</td><td align="left"/><td align="left"/><td align="left"/><td align="center">105.4</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">OSTrack-384<sup>［<xref ref-type="bibr" rid="R56">56</xref>］</sup></td><td align="center">71.1</td><td align="center">77.6</td><td align="center">83.9</td><td align="center">83.2</td><td align="center">73.7</td><td align="center">83.2</td><td align="center">70.8</td><td align="left"/><td align="center">68.3</td><td align="center">70.7</td><td align="left"/><td align="left"/><td align="left"/><td align="center">58.1</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ProContEXT<sup>［<xref ref-type="bibr" rid="R57">57</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CoRR22</td><td align="left"/><td align="left"/><td align="center">84.6</td><td align="center">83.8</td><td align="center">74.6</td><td align="center">84.7</td><td align="center">72.9</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">26.4</td><td align="center">118.5</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">VideoTrack<sup>［<xref ref-type="bibr" rid="R58">58</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR23</td><td align="center">70.2</td><td align="center">76.4</td><td align="center">83.8</td><td align="center">83.1</td><td align="center">72.9</td><td align="center">81.9</td><td align="center">69.8</td><td align="left"/><td align="left"/><td align="center">69.7</td><td align="left"/><td align="left"/><td align="left"/><td align="center">81.4</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">TATrack-L<sup>［<xref ref-type="bibr" rid="R52">52</xref>］</sup></td><td align="left" style="padding-left:0.2em;">IAAI23</td><td align="center">71.1</td><td align="center">76.1</td><td align="center">85.0</td><td align="center">84.5</td><td align="center">79.2</td><td align="center">88.6</td><td align="center">78.3</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="center">6.6</td><td align="center">112.8</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">GRM<sup>［<xref ref-type="bibr" rid="R59">59</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR23</td><td align="center">69.9</td><td align="center">75.8</td><td align="center">84.0</td><td align="center">83.3</td><td align="center">73.4</td><td align="center">82.9</td><td align="center">70.4</td><td align="left"/><td align="center">65.6</td><td align="center">70.2</td><td align="left"/><td align="left"/><td align="left"/><td align="center">45</td><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">GRM-L320<sup>［<xref ref-type="bibr" rid="R59">59</xref>］</sup></td><td align="center">71.4</td><td align="center">77.9</td><td align="center">84.4</td><td align="center">84.0</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">DropTrack<sup>［<xref ref-type="bibr" rid="R60">60</xref>］</sup></td><td align="left" style="padding-left:0.2em;">CVPR23</td><td align="center">71.8</td><td align="center">78.1</td><td align="center">84.1</td><td align="center">83.0</td><td align="center">75.9</td><td align="center">86.8</td><td align="center">72.0</td><td align="center">69.6</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">MixFormer<sup>［<xref ref-type="bibr" rid="R53">53</xref>］</sup></td><td align="left" rowspan="2" style="padding-left:0.2em;">CVPR22</td><td align="center">67.9</td><td align="center">73.9</td><td align="center">82.6</td><td align="center">81.2</td><td align="center">73.2</td><td align="center">83.2</td><td align="center">70.2</td><td align="left"/><td align="left"/><td align="center">68.7</td><td align="center">0.527</td><td align="center">0.746</td><td align="center">0.833</td><td align="center">29</td><td align="center">53.3</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">MixFormer-L<sup>［<xref ref-type="bibr" rid="R53">53</xref>］</sup></td><td align="center">70.1</td><td align="center">76.3</td><td align="center">83.9</td><td align="center">83.1</td><td align="center">75.6</td><td align="center">85.7</td><td align="center">72.8</td><td align="left"/><td align="left"/><td align="center">69.5</td><td align="center">0.555</td><td align="center">0.762</td><td align="center">0.855</td><td align="center">25</td><td align="center">215.7</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;"><p>MixViT-L</p><p>（ConvMAE）<sup>［<xref ref-type="bibr" rid="R54">54</xref>］</sup></p></td><td align="left" style="padding-left:0.2em;">CVPR23</td><td align="center">73.3</td><td align="center">80.3</td><td align="center">86.1</td><td align="center">86.0</td><td align="center">75.4</td><td align="center">84.0</td><td align="center">75.4</td><td align="center">70.7</td><td align="left"/><td align="center">70.0</td><td align="center">0.567</td><td align="center">0.747</td><td align="center">0.870</td><td align="center">10</td><td align="center">286.9</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-B256<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="left" rowspan="4" style="padding-left:0.2em;">CVPR23</td><td align="center">69.9</td><td align="center">76.3</td><td align="center">83.3</td><td align="center">82.2</td><td align="center">74.7</td><td align="center">84.7</td><td align="center">71.8</td><td align="left"/><td align="center">67.6</td><td align="center">69.2</td><td align="center">0.520</td><td align="left"/><td align="left"/><td align="center">40</td><td align="center">89</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-B384<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="center">71.5</td><td align="center">77.8</td><td align="center">83.9</td><td align="center">83.6</td><td align="center">74.5</td><td align="center">84.3</td><td align="center">71.4</td><td align="left"/><td align="center">66.7</td><td align="center">68.6</td><td align="center">0.522</td><td align="left"/><td align="left"/><td align="center">15</td><td align="center">89</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-L256<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="center">72.1</td><td align="center">79.0</td><td align="center">85.0</td><td align="center">84.9</td><td align="center">74.5</td><td align="center">83.2</td><td align="center">72.0</td><td align="left"/><td align="center">66.9</td><td align="center">69.7</td><td align="center">0.555</td><td align="left"/><td align="left"/><td align="center">15</td><td align="center">309</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">SeqTrack-L384<sup>［<xref ref-type="bibr" rid="R61">61</xref>］</sup></td><td align="center">72.5</td><td align="center">79.3</td><td align="center">85.5</td><td align="center">85.8</td><td align="center">74.8</td><td align="center">81.9</td><td align="center">72.2</td><td align="left"/><td align="center">66.2</td><td align="center">68.5</td><td align="center">0.561</td><td align="left"/><td align="left"/><td align="center">5</td><td align="center">309</td></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ARTrack<sub>256</sub><sup>［<xref ref-type="bibr" rid="R62">62</xref>］</sup></td><td align="left" rowspan="3" style="border-bottom:solid;padding-left:0.2em;">CVPR23</td><td align="center">70.4</td><td align="center">76.6</td><td align="center">84.2</td><td align="center">83.5</td><td align="center">73.5</td><td align="center">82.2</td><td align="center">70.9</td><td align="left"/><td align="center">64.3</td><td align="center">67.7</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="padding-left:0.2em;">ARTrack<sub>384</sub><sup>［<xref ref-type="bibr" rid="R62">62</xref>］</sup></td><td align="center">72.6</td><td align="center">79.1</td><td align="center">85.1</td><td align="center">84.8</td><td align="center">75.5</td><td align="center">84.3</td><td align="center">74.3</td><td align="left"/><td align="center">66.8</td><td align="center">70.5</td><td align="left"/><td align="left"/><td align="left"/><td align="left"/><td align="left"/></tr><tr align="center"><td align="left" style="border-bottom:solid;padding-left:0.2em;">ARTrack-L<sub>384</sub><sup>［<xref ref-type="bibr" rid="R62">62</xref>］</sup></td><td align="center" style="border-bottom:solid;">73.1</td><td align="center" style="border-bottom:solid;">80.3</td><td align="center" style="border-bottom:solid;">85.6</td><td align="center" style="border-bottom:solid;">86.0</td><td align="center" style="border-bottom:solid;">78.5</td><td align="center" style="border-bottom:solid;">87.4</td><td align="center" style="border-bottom:solid;">77.8</td><td align="left" style="border-bottom:solid;"/><td align="center" style="border-bottom:solid;">67.9</td><td align="center" style="border-bottom:solid;">71.2</td><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="left" style="border-bottom:solid;"/><td align="center" style="border-bottom:solid;">26</td><td align="left" style="border-bottom:solid;"/></tr></tbody></table>
+													</div>
+												</div>
+																					</div>
+									</div>
+								                               
+                            </div>
+                            <!--end-->
+                        </div>
+                    </div>
+
+                </div>
+                                																																																																																																																																																																																																																																																																																																																																																																																																																																																																	                <div class="panel panel-default" >
+                    <div class="panel-heading" role="tab" id="cankaowenxian" onClick="xianshi(this)">
+						<a name="reference"></a>
+                        <h4 class="panel-title">
+                            <a id="reference" class="collapsed"  href="javascript:;">
+                                参考文献 <span class="badge badge-info">82</span>                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" style="display: none;">
+                        <div class="panel-body">
+                            <!---->
+                            <table width="98%" border="0" align="center" cellpadding="0" cellspacing="8">
+																											<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">1</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>黄凯奇，陈晓棠，康运锋，等.智能视频监控技术综述［J］.<span class="sourceStyle">计算机学报</span>，<span class="yearStyle">2015</span>，<span class="volStyele">38</span>（6）：1093-1118.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.11897/SP.J.1016.2015.01093">10.11897/SP.J.1016.2015.01093</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;"></td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>HUANG K Q， CHEN X T， KANG Y F， et al. Intelligent visual surveillance： a review［J］. <span class="sourceStyle">Chinese Journal of Computers</span>， <span class="yearStyle">2015</span>， <span class="volStyele">38</span>（6）： 1093-1118.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.11897/SP.J.1016.2015.01093">10.11897/SP.J.1016.2015.01093</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">2</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>钱夔，宋爱国.一种改进型机器人仿生认知神经网络［J］.<span class="sourceStyle">电子学报</span>，<span class="yearStyle">2015</span>，<span class="volStyele">43</span>（6）：1084-1089.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.3969/j.issn.0372-2112.2015.06.007">10.3969/j.issn.0372-2112.2015.06.007</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;"></td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>QIAN K， SONG A G. An improved bionic cognitive neural network for robot［J］. <span class="sourceStyle">Acta Electronica Sinica</span>， <span class="yearStyle">2015</span>， <span class="volStyele">43</span>（6）： 1084-1089.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.3969/j.issn.0372-2112.2015.06.007">10.3969/j.issn.0372-2112.2015.06.007</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">3</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>刘彩虹，张磊，黄华.交通路口监控视频跨视域多目标跟踪的可视化［J］.<span class="sourceStyle">计算机学报</span>，<span class="yearStyle">2018</span>，<span class="volStyele">41</span>（1）：221-235.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.11897/SP.J.1016.2018.00221">10.11897/SP.J.1016.2018.00221</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;"></td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LIU C H， ZHANG L， HUANG H. Visualization of cross-view multi-object tracking for surveillance videos in crossroad［J］. <span class="sourceStyle">Chinese Journal of Computers</span>， <span class="yearStyle">2018</span>， <span class="volStyele">41</span>（1）： 221-235.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.11897/SP.J.1016.2018.00221">10.11897/SP.J.1016.2018.00221</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">4</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>梁永强，王崴，瞿珏，等.基于眼动特征的人机交互行为意图预测模型［J］.<span class="sourceStyle">电子学报</span>，<span class="yearStyle">2018</span>，<span class="volStyele">46</span>（12）：2993-3001.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.3969/j.issn.0372-2112.2018.12.024">10.3969/j.issn.0372-2112.2018.12.024</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;"></td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LIANG Y Q， WANG W， QU Y， et al. Human-computer interaction behavior and intention prediction model based on eye movement characteristics［J］. <span class="sourceStyle">Acta Electronica Sinica</span>， <span class="yearStyle">2018</span>， <span class="volStyele">46</span>（12）： 2993-3001.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.3969/j.issn.0372-2112.2018.12.024">10.3969/j.issn.0372-2112.2018.12.024</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">5</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>葛宝义，左宪章，胡永江.视觉目标跟踪方法研究综述［J］.<span class="sourceStyle">中国图象图形学报</span>，<span class="yearStyle">2018</span>，<span class="volStyele">23</span>（8）：1091-1107.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.11834/jig.170604">10.11834/jig.170604</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;"></td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>GE B Y， ZUO X Z， HU Y J. Review of visual object tracking technology［J］. <span class="sourceStyle">Journal of Image and Graphics</span>， <span class="yearStyle">2018</span>， <span class="volStyele">23</span>（8）： 1091-1107.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.11834/jig.170604">10.11834/jig.170604</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">6</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>孟琭，杨旭.目标跟踪算法综述［J］.<span class="sourceStyle">自动化学报</span>，<span class="yearStyle">2019</span>，<span class="volStyele">45</span>（7）：1244-1260.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.16383/j.aas.c180277">10.16383/j.aas.c180277</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;"></td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>MENG L， YANG X. A survey of object tracking algorithms［J］. <span class="sourceStyle">Acta Automatica Sinica</span>， <span class="yearStyle">2019</span>， <span class="volStyele">45</span>（7）： 1244-1260.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.16383/j.aas.c180277">10.16383/j.aas.c180277</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">7</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>AVIDAN S. Support vector tracking［J］. <span class="sourceStyle">IEEE Transactions on Pattern Analysis and Machine Intelligence</span>， <span class="yearStyle">2004</span>， <span class="volStyele">26</span>（8）： 1064-1072.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/tpami.2004.53">10.1109/tpami.2004.53</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">8</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>NING J， YANG J， JIANG S， et al. Object tracking via dual linear structured SVM and explicit feature map［C］// Proceedings of the 2016 IEEE Conference on Computer Vision and Pattern Recognition.Piscataway： IEEE， <span class="yearStyle">2016</span> ：4266-4274.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2016.462">10.1109/cvpr.2016.462</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">9</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>ZHANG T， GHANEM B， LIU S， et al. Robust visual tracking via multi task sparse learning ［C］// Proceedings of the 2012 IEEE Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2012</span>： 2042-2049.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2012.6247908">10.1109/cvpr.2012.6247908</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">10</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>BABENKO B， YANG M-H， BELONGIE S. Visual tracking with online multiple instance learning［C］// Proceedings of the 2009 IEEE Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2009</span>： 983-990.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2009.5206737">10.1109/cvpr.2009.5206737</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">11</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>BOLME D S， BEVERIDGE J R， DRAPER B A， et al. Visual object tracking using adaptive correlation filters［C］// Proceeding of the 2010 IEEE Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2010</span>： 2544-2550.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2010.5539960">10.1109/cvpr.2010.5539960</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">12</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>HENRIQUES J F， CASEIRO R， MARTINS P， et al. Exploiting the circulant structure of tracking-by-detection with kernels［C］// Proceedings of the 12th European Conference on Computer Vision. Berlin： Springer， <span class="yearStyle">2012</span>： 702-715.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-642-33765-9_50">10.1007/978-3-642-33765-9_50</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">13</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>HENRIQUES J F， CASEIRO R， MARTINS P， et al. High-speed tracking with kernelized correlation filters［J］. <span class="sourceStyle">IEEE Transactions on Pattern Analysis and Machine Intelligence</span>， <span class="yearStyle">2015</span>， <span class="volStyele">37</span>（3）： 583-596.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/tpami.2014.2345390">10.1109/tpami.2014.2345390</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">14</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>DANELLJAN M HÄGER G， KHAN F， et al. Accurate scale estimation for robust visual tracking［C］// Proceedings of the British Machine Vision Conference 2014. Durham： British Machine Vision Association， <span class="yearStyle">2014</span>： 1-11.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.5244/c.28.65">10.5244/c.28.65</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">15</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LI Y， ZHU J. A scale adaptive kernel correlation filter tracker with feature integration［C］// Proceedings of the 2014 European Conference on Computer Vision Workshops. Cham： Springer， <span class="yearStyle">2015</span>： 254-265.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-319-16181-5_18">10.1007/978-3-319-16181-5_18</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">16</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LUKEŽIČ A， VOJÍŘ T， ČEHOVIN ZAJC L， et al. Discriminative correlation filter tracker with channel and spatial reliability［J］. <span class="sourceStyle">International Journal of Computer Vision</span>， <span class="yearStyle">2018</span>， <span class="volStyele">126</span>： 671-688.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/s11263-017-1061-3">10.1007/s11263-017-1061-3</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">17</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>DANELLJAN M， HÄGER G， KHAN F S， et al. Convolutional features for correlation filter based visual tracking［C］// Proceedings of the 2015 IEEE International Conference on Computer Vision Workshop. Piscataway： IEEE，<span class="yearStyle">2015</span>：621-629.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccvw.2015.84">10.1109/iccvw.2015.84</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">18</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>MA C， HUANG J-B， YANG X， et al. Hierarchical convolutional features for visual tracking［C］// Proceedings of the 2015 IEEE International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2015</span>： 3074-3082.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv.2015.352">10.1109/iccv.2015.352</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">19</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>GALOOGAHI H K， FAGG A， LUCEY S. Learning background-sware correlation filters for visual tracking［C］// Proceedings of the 2017 IEEE International Conference on Computer Vision. Piscataway： IEEE，<span class="yearStyle">2017</span>：1144-1152.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv.2017.129">10.1109/iccv.2017.129</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">20</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>DANELLJAN M， ROBINSON A， KHAN F S， et al. Beyond correlation filters： learning continuous convolution operators for visual tracking［C］// Proceedings of the 14th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2016</span>： 472-488.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-319-46454-1_29">10.1007/978-3-319-46454-1_29</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">21</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>DANELLJAN M， BHAT G， FAHAD S K， et al. ECO： efficient convolution operators for tracking［C］// Proceedings of the 2017 IEEE Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE，<span class="yearStyle">2017</span>： 6931-6939.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2017.733">10.1109/cvpr.2017.733</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">22</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>BHAT G， JOHNANDER J， DANELLJAN M， et al. Unveiling the power of deep tracking［C］// Proceedings of the 15th European Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2018</span>： 493-509.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-030-01216-8_30">10.1007/978-3-030-01216-8_30</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">23</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>VASWANI A， SHAZEER N， PARMAR N， et al.Attention is all you need［C］// Proceedings of the 31st International Conference on Neural Information Processing Systems. Red Hook， NY： Curran Associates Inc.， <span class="yearStyle">2017</span>： 6000-6010.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">24</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>DEVLIN J， CHANG M-W， LEE K， et al. BERT： pre-training of deep bidirectional transformers for language understanding［C］// Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics： Human Language Technologies， Volume 1 （Long and Short Papers）. Stroudsberg： ACL， <span class="yearStyle">2019</span>： 4171-4186.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.18653/v1/n18-2">10.18653/v1/n18-2</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">25</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>TONG C， PENG H， DAI Q， et al. Improving natural language understanding by reverse mapping Bytepair encoding［C］// Proceedings of the 23rd Conference on Computational Natural Language Learning. Stroudsberg： ACL， <span class="yearStyle">2019</span>：163-173.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.18653/v1/k19-1016">10.18653/v1/k19-1016</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">26</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>DOSOVITSKIY A， BEYER L， KOLESNIKOV A， et al. An image is worth 16×16 words： Transformers for image recognition at scale［C/OL］// Proceedings of the 9th International Conference on Learning Representations. ［S.l.］： ICLR， 2020 ［2023-05-30］. .</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">27</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEN C-F R， FAN Q， PANADA R. CrossViT： cross-attention multi-scale vision transformer for image classification［C］// Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2021</span>： 347-356.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv48922.2021.00041">10.1109/iccv48922.2021.00041</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">28</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CARION N， MASSA F， SYNNAEVE G， et al. End-to-end object detection with Transformers［C］// Proceeding of the 16th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2020</span>：213-229.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-030-58452-8_13">10.1007/978-3-030-58452-8_13</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">29</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>STRUDEL R， GARCIA R， LAPTEV I， et al. Segmenter： Transformer for semantic segmentation［C］// Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2021</span>：7242-7252.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv48922.2021.00717">10.1109/iccv48922.2021.00717</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">30</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LIU Z， LIN Y， CAO Y， et al. Swin Transformer： hierarchical vision Transformer using shifted windows［C］// Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2021</span>：9992-10002.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv48922.2021.00986">10.1109/iccv48922.2021.00986</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">31</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>TOUVRON H， CORD M， DOUZE M， et al. Training data-efficient image Transformers &amp; distillation through attention［C］// Proceedings of the 38th International Conference on Machine Learning. New York： PMLR， <span class="yearStyle">2021</span>：10347-10357.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv48922.2021.00091">10.1109/iccv48922.2021.00091</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">32</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>ZHOU D， KANG B， JIN X， et al. DeepViT： towards deeper vision Transformer［EB/OL］. ［2023-05-30］. .</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">33</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LI Y， ZHANG K， CAO J， et al. LocalViT： bringing locality to vision Transformers［EB/OL］. ［2023-05-30］. .  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iros55552.2023.10342025">10.1109/iros55552.2023.10342025</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">34</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHOPRA S， HADSELL R， LeCUN Y. Learning a similarity metric discriminatively， with application to face verification［C］// Proceedings of the 2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2005</span>：539-546.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">35</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>TAO R， GAVVES E， SMEULDERS A W M. Siamese instance search for tracking［C］// Proceedings of the 2016 IEEE Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2016</span>： 1420-1429.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2016.158">10.1109/cvpr.2016.158</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">36</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>BERTINETTO L， VALMADRE J， HENRIQUES J F， et al. Fully-convolutional siamese networks for object tracking［C］// Proceeding of the 14th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2016</span>： 850-865.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-319-48881-3_56">10.1007/978-3-319-48881-3_56</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">37</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>YU B， TANG M， ZHENG L， et al. High-performance discriminative tracking with Transformers［C］// Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2021</span>： 9836-9845.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv48922.2021.00971">10.1109/iccv48922.2021.00971</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">38</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>ZHAO M， OKADA K， INABA M. TrTr： visual tracking with Transformer［EB/OL］. ［2023-05-30］. .</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">39</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEN X， YAN B， ZHU J， et al. Transformer tracking［C］//Proceedings of the 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2021</span>：8122-8131.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr46437.2021.00803">10.1109/cvpr46437.2021.00803</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">40</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEN X， KANG B， WANG D， et al. Efficient visual tracking via hierarchical cross-attention Transformer［C］// Proceedings of the 17th European Conference on Computer Vision. Cham： Springer <span class="yearStyle">2022</span>： 461-477.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-031-25085-9_26">10.1007/978-3-031-25085-9_26</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">41</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEN X， YAN B， ZHU J， et al. High-performance Transformer tracking［J］. <span class="sourceStyle">IEEE Transactions on Pattern Analysis and Machine Intelligence</span>， <span class="yearStyle">2023</span>， <span class="volStyele">45</span>（7）： 8507-8523.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">42</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>WANG N， ZHOU W， WANG J， et al. Transformer meets tracker： exploiting temporal context for robust visual tracking［C］// Proceedings of the 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2021</span>：1571-1580.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr46437.2021.00162">10.1109/cvpr46437.2021.00162</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">43</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>YAN B， PENG H， FU J， et al. Learning spatio-temporal Transformer for visual tracking［C］// Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2021</span>： 10428-10437.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv48922.2021.01028">10.1109/iccv48922.2021.01028</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">44</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>BLATTER P， KANAKIS M， DANELLJAN M， et al. Efficient visual tracking with exemplar Transformers［C］// Proceedings of the 2023 IEEE/CVF Winter Conference on Applications of Computer Vision. Piscataway： IEEE， <span class="yearStyle">2023</span>： 1571-1581.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/wacv56688.2023.00162">10.1109/wacv56688.2023.00162</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">45</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>FU Z， FU Z， LIU Q， et al. SparseTT： visual tracking with sparse Transformers［C］// Proceedings of 31st the International Joint Conference on Artificial Intelligence. California： IJCAI， <span class="yearStyle">2022</span>：905-912.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.24963/ijcai.2022/127">10.24963/ijcai.2022/127</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">46</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>SONG Z， YU J， CHEN Y-P， et al. Transformer tracking with cyclic shifting window attention［C］// Proceedings of the 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2022</span>：8781-8790.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52688.2022.00859">10.1109/cvpr52688.2022.00859</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">47</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>MAYER C， DANELLJAN M， BHAT G， et al. Transforming model prediction for tracking［C］// Proceedings of the 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2022</span>： 8721-8730.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52688.2022.00853">10.1109/cvpr52688.2022.00853</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">48</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>GAO S， ZHOU C， MA C， et al. AiATrack： attention in attention for Transformer visual tracking［C］// Proceedings of the 17th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2022</span>：146-164.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-031-20047-2_9">10.1007/978-3-031-20047-2_9</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">49</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>XIE F， WANG C， WANG G， et al. Learning tracking representations via dual-branch fully Transformer networks［C］// Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision Workshops. Piscataway： IEEE，<span class="yearStyle">2021</span>：2688-2697.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccvw54120.2021.00303">10.1109/iccvw54120.2021.00303</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">50</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LIN L， FAN H， XU Y， et al. SwinTrack： a simple and strong baseline for Transformer tracking［EB/OL］. ［2023-05-30］. .  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.48550/arXiv.2112.00995">10.48550/arXiv.2112.00995</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">51</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>TANG C， WANG X， BAI Y， et al. Learning spatial-frequency Transformer for visual object tracking［EB/OL］. ［2023-05-30］. .  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/tcsvt.2023.3249468">10.1109/tcsvt.2023.3249468</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">52</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>HE K， ZHANG C， XIE S， et al. Target-aware tracking with long-term context attention［C］// Proceedings of the Thirty-Seventh AAAI Conference on Artificial Intelligence and Thirty-Fifth Conference on Innovative Applications of Artificial Intelligence and Thirteenth Symposium on Educational Advances in Artificial Intelligence. Palo Alto： AAAI Press， <span class="yearStyle">2023</span>： 773-780.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1609/aaai.v37i1.25155">10.1609/aaai.v37i1.25155</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">53</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEN Q， WU Q， WANG J， et al. MixFormer： mixing features across windows and dimensions［C］// Proceedings of the 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2022</span>： 5239-5249.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52688.2022.00518">10.1109/cvpr52688.2022.00518</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">54</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CUI T， JIANG C， WU G， et al. MixFormer： end-to-end tracking with iterative mixed attention［EB/OL］. ［2023-05-30］. .  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52688.2022.01324">10.1109/cvpr52688.2022.01324</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">55</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEN B， LI P， BAI L， et al. Backbone is all you need： a simplified architecture for visual object tracking［C］// Proceedings of the 17th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2022</span>： 375-392.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-031-20047-2_22">10.1007/978-3-031-20047-2_22</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">56</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>YE B， CHANG H， MA B， et al. Joint feature learning and relation modeling for tracking： a one-stream framework［C］// Proceedings of the 17th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2022</span>： 341-357.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-031-20047-2_20">10.1007/978-3-031-20047-2_20</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">57</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>LAN J-P， CHENG Z-Q， HE J-Y， et al. ProContEXT： exploring progressive context Transformer for tracking［EB/OL］. ［2023-05-30］. .  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/icassp49357.2023.10094971">10.1109/icassp49357.2023.10094971</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">58</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>XIE F， CHU L， LI J， et al. VideoTrack： learning to track objects via video Transformer［C］// Proceedings of the 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2023</span>： 22826-22835.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52729.2023.02186">10.1109/cvpr52729.2023.02186</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">59</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>GAO S， ZHOU C， ZHANG J. Generalized relation modeling for Transformer tracking ［C］// Proceedings of the 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2023</span>： 18686-18695.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52729.2023.01792">10.1109/cvpr52729.2023.01792</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">60</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>WU Q， YANG T， LIU Z， et al. DropMAE： masked autoencoders with spatial-attention dropout for tracking tasks［C］// Proceedings of the 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2023</span>： 14561-14571.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52729.2023.01399">10.1109/cvpr52729.2023.01399</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">61</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEN X， PENG H， WANG D， et al. SeqTrack： sequence to sequence learning for visual object tracking ［C］// Proceedings of the 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2023</span>：14572-14581.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52729.2023.01400">10.1109/cvpr52729.2023.01400</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">62</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>WEI X， BAI Y， ZHENG Y， et al. Autoregressive visual tracking ［C］// Proceedings of the 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2023</span>： 9697-9706.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr52729.2023.00935">10.1109/cvpr52729.2023.00935</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">63</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>HE K， ZHANG X， REN S， et al. Deep residual learning for image recognition［C］// Proceedings of the 2016 IEEE Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2016</span>： 770-778.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2016.90">10.1109/cvpr.2016.90</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">64</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>FAN H， LING L， YANG F， et al. LaSOT： a high quality benchmark for large scale single object tracking［C］// Proceedings of the 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition. Piscataway： IEEE， <span class="yearStyle">2019</span>： 5369-5378.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr.2019.00552">10.1109/cvpr.2019.00552</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">65</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>MÜLLER M， BIBI A， GIANCOLA S， et al. TrackingNet： a large scale dataset and benchmark for object tracking in the wild［C］// Proceedings of the 15th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2018</span>：310-327.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-030-01246-5_19">10.1007/978-3-030-01246-5_19</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">66</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>HUANG L， ZHAO X， HUANG K. GOT-10k： a large high diversity benchmark for generic object tracking in the wild［J］. <span class="sourceStyle">IEEE Transactions on Pattern Analysis and Machine Intelligence</span>， <span class="yearStyle">2021</span>， <span class="volStyele">43</span>（5）：1562-1577.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/tpami.2019.2957464">10.1109/tpami.2019.2957464</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">67</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>WU Y， LIM J， YANG M-H. Object tracking benchmark［J］. <span class="sourceStyle">IEEE Transactions on Pattern Analysis and Machine Intelligence</span>， <span class="yearStyle">2015</span>， <span class="volStyele">37</span>（9）：1834-1848.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/tpami.2014.2388226">10.1109/tpami.2014.2388226</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">68</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>GALOOGHI H K， FAGG A， HUANG C， et al. Need for speed： a benchmark for higher frame rate object tracking［C］// Proceedings of the 2017 IEEE International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2017</span>： 1134-1143.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv.2017.128">10.1109/iccv.2017.128</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">69</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>MUELLER M， SMITH N， GHANEM B. A benchmark and simulator for UAV tracking［C］// Proceedings of the 14th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2016</span>： 445-461.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1007/978-3-319-46448-0_27">10.1007/978-3-319-46448-0_27</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">70</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>KRISTAN M， LEONARDIS A， MATAS J， et al. The eighth visual object tracking VOT2020 Challenge results［C］// Proceedings of the 16th European Conference on Computer Vision. Cham： Springer， <span class="yearStyle">2020</span>： 547-601.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">71</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>KRIZHEVSKY A， SUTSKEVER I， HINTON G. ImageNet classification with deep convolutional neural networks［C］// Proceedings of the 25th International Conference on Neural Information Processing Systems. Red Hook： Curran Associates Inc.， <span class="yearStyle">2012</span>： 1097-1105.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">72</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>XIA M， ZHONG Z， CHEN D. Structured pruning learns compact and accurate models［C］// Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics （Volume 1： Long Papers）. Stroudsberg： ACL， <span class="yearStyle">2022</span>： 1513-1528.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.18653/v1/2022.acl-long.107">10.18653/v1/2022.acl-long.107</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">73</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>WANG W， WEI F， LI D， et al. MiniLM： deep self-attention distillation for task-agnostic compression of pre-trained Transformers［C］// Proceedings of the 34th International Conference on Neural Information Processing Systems. Red Hook： Curran Associates Inc.， <span class="yearStyle">2020</span>： 5776-5788.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">74</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>SO D R， LE Q V， LIANG C. The evolved Transformer［C］// Proceedings of the 36th International Conference on Machine Learning. New York： JMLR， <span class="yearStyle">2019</span>：5877-5886.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">75</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>WU Z， LIU Z， LIN J， et al. Lite Transformer with long-short range attention［C/OL］// Proceedings of the 8th International Conference on Learning Representations. ［S.l.］： ICLR， 2020 ［2023-05-30］. .</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">76</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CARON M， TOUVRON H， MISRA I， et al. Emerging properties in self-supervised vision Transformers［C］// Proceedings of the 2021 IEEE/CVF International Conference on Computer Vision. Piscataway： IEEE， <span class="yearStyle">2021</span>： 9630-9640.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/iccv48922.2021.00951">10.1109/iccv48922.2021.00951</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">77</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>XIE Z， LIN Y， YAO Z， et al. Self-supervised learning with Swin Transformers［EB/OL］. ［2023-05-30］. .</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">78</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>ATITO S， AWAIS M， KITTLER J. SiT： self-supervised vision Transformer［EB/OL］. ［2023-05-30］. .  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/icip49359.2023.10222150">10.1109/icip49359.2023.10222150</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">79</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>CHEFER H， GUR S， WOLF L. Transformer interpretability beyond attention visualization［C］// Proceedings of the 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognitio. Piscataway： IEEE， <span class="yearStyle">2021</span>： 782-791.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.1109/cvpr46437.2021.00084">10.1109/cvpr46437.2021.00084</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">80</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>SU H， YE Y， CHEN Z， et al. Re-attention Transformer for weakly supervised object localization［C］// Proceedings of the 33rd British Machine Vision Conference. Durham： BMVA Press， <span class="yearStyle">2022</span>：70.</span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">81</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>XIE W， LI X-H， CAO C C， et al. ViT-CX： causal explanation of vision Transformers［C］// Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence. California： IJCAI， <span class="yearStyle">2023</span>： 1569-1577.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.24963/ijcai.2023/174">10.24963/ijcai.2023/174</a> </span>
+											 											</td>
+										</tr>
+																													<tr>
+																						<td valign='top' align='right' style="padding-right:13px;">82</td>
+																						<td style="padding-bottom: 13px;"> 
+											 <span class='magtech_ref_source'>MOHEBBI H， ZUIDEMA W， CHRUPAŁA G， et al. Quantifying context mixing in Transformers［C］// Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistic. Stroudsberg： ACL， <span class="yearStyle">2023</span>： 3378-3400.  <a ext-link-type="doi" xmlns:xlink="http://www.w3.org/1999/xlink" href="http://dx.doi.org/10.18653/v1/2023.eacl-main.245">10.18653/v1/2023.eacl-main.245</a> </span>
+											 											</td>
+										</tr>
+																																		</table>
+                            <!--end--> 
+                        </div>
+                      </div>         
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="xiangguanwenzhang" onClick="xianshi(this)">
+                        <h4 class="panel-title">
+                            <a id="relatedArticles" class="collapsed"  href="javascript:;">
+                                相关文章 <span class="badge badge-info">15</span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" style="display: none;">
+                        <div class="panel-body">
+                        
+                        
+                           <table width="100%" border="0" height='25'>
+																																																																																																										<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[1]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>秦璟, 秦志光, 李发礼, 彭悦恒. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091371" target="_blank" class="txt_zhaiyao">基于概率稀疏自注意力神经网络的重性抑郁疾患诊断</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2970-2974.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[2]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>王熙源, 张战成, 徐少康, 张宝成, 罗晓清, 胡伏原. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091332" target="_blank" class="txt_zhaiyao">面向手术导航3D/2D配准的无监督跨域迁移网络</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2911-2918.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[3]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>方介泼, 陶重犇. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091328" target="_blank" class="txt_zhaiyao">应对零日攻击的混合车联网入侵检测系统</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2763-2769.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[4]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>黄云川, 江永全, 黄骏涛, 杨燕. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091286" target="_blank" class="txt_zhaiyao">基于元图同构网络的分子毒性预测</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2964-2969.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[5]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>杨鑫, 陈雪妮, 吴春江, 周世杰. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091262" target="_blank" class="txt_zhaiyao">结合变种残差模型和Transformer的城市公路短时交通流预测</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2947-2951.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[6]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>潘烨新, 杨哲. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091274" target="_blank" class="txt_zhaiyao">基于多级特征双向融合的小目标检测优化模型</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2871-2877.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[7]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>李金金, 桑国明, 张益嘉. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091359" target="_blank" class="txt_zhaiyao">APK-CNN和Transformer增强的多域虚假新闻检测模型</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2674-2682.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[8]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>李顺勇, 李师毅, 胥瑞, 赵兴旺. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091253" target="_blank" class="txt_zhaiyao">基于自注意力融合的不完整多视图聚类算法</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2696-2703.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[9]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>任烈弘, 黄铝文, 田旭, 段飞. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023091320" target="_blank" class="txt_zhaiyao">基于DFT的频率敏感双分支Transformer多变量长时间序列预测方法</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2739-2746.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[10]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>贾洁茹, 杨建超, 张硕蕊, 闫涛, 陈斌. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2024040425" target="_blank" class="txt_zhaiyao">基于自蒸馏视觉Transformer的无监督行人重识别</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(9): 2893-2902.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[11]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>付帅, 郭小英, 白茹意, 闫涛, 陈斌. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023081199" target="_blank" class="txt_zhaiyao">改进的CloFormer模型与有序回归相结合的年龄评估方法</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(8): 2372-2380.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[12]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>刘禹含, 吉根林, 张红苹. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023081157" target="_blank" class="txt_zhaiyao">基于骨架图与混合注意力的视频行人异常检测方法</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(8): 2551-2557.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[13]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>丁宇伟, 石洪波, 李杰, 梁敏. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023081131" target="_blank" class="txt_zhaiyao">基于局部和全局特征解耦的图像去噪网络</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(8): 2571-2579.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[14]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>邓凯丽, 魏伟波, 潘振宽. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023081122" target="_blank" class="txt_zhaiyao">改进掩码自编码器的工业缺陷检测方法</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(8): 2595-2603.</td>
+																				</tr>
+																																																																																																																																																<tr>
+																					<td width="30" valign='top' style="line-height:30px;">[15]</td>
+																					<td class="J_zhaiyao" style="line-height:30px;" valign='top'>顾焰杰, 张英俊, 刘晓倩, 周围, 孙威. <a href="https://www.joca.cn/CN/10.11772/j.issn.1001-9081.2023081226" target="_blank" class="txt_zhaiyao">基于时空多图融合的交通流量预测</a>[J]. 《计算机应用》唯一官方网站, 2024, 44(8): 2618-2625.</td>
+																				</tr>
+																																																																																													</table>
+							
+							
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="panel panel-default" id="bianjituijian" style="display:none;">
+                    <div class="panel-heading" role="tab" id="tuijianwenzhang" onClick="xianshi(this)">
+                        <h4 class="panel-title">
+                            <a id="recommendedArticles" class="collapsed"  href="javascript:;">
+                                编辑推荐 <span class="badge badge-info" id="recommendedArticlesCount"></span>
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" style="display: none;">
+                        <div class="panel-body" id="recommendedArticles-list">
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="panel panel-default" >
+                    <div class="panel-heading" role="tab" id="Metrics" onClick="xianshi(this)">
+                        <h4 class="panel-title">
+                            <a class="collapsed"  href="javascript:;" >
+                                Metrics 
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" style="display: none;">
+                        <div class="panel-body">
+                           <table width="98%" border="0" cellspacing="0" cellpadding="0">
+											    	<tr>
+											        	<td width="24" height="32"></td>
+											        	<td colspan="2" bgcolor="#E0EEF7"><span class="STYLE1">阅读次数</span></td>
+											        </tr>
+													<tr>
+											        	<td width="24" height="5"></td>
+											        	<td colspan="2" bgcolor="#FFFFFF"></td>
+											        </tr>
+											      	<tr>
+												        <td height="153"></td>
+												        <td width="110" valign="top" bgcolor="#EFEFEF" style="line-height:150%">
+												        	<strong>全文</strong><br />
+												          	<span class="STYLE2"><div id="FullText"></div></span>
+												        </td>
+											        	<td valign="top">
+												        	<table width="63%" border="0" cellspacing="0" cellpadding="0">
+													          	<tr>
+														            <td><div id="HtmlPdfVersion"></div></td>
+													            </tr>
+												        	</table>
+												        	<br />
+												        	<table width="63%" border="0" cellspacing="0" cellpadding="0">
+												        		<tr>
+														            <td colspan="3"><div id="FromHtmlPdf"></div></td>
+													            </tr>
+												        	</table>
+												          	<br />
+												          	<div id="DownloadDistribution"></div>
+												          	<div id="DownloadCountryDistribution"></div>
+														</td>
+													</tr>
+													<tr>
+												        <td></td>
+												        <td colspan="2" height=5></td>
+													</tr>
+													<tr>
+												        <td height="158"></td>
+												        <td valign="top" bgcolor="#efefef" style="line-height:150%">
+												        	<strong>摘要</strong><br>
+												          	<span class="STYLE2"><div id="AbstractCount"></div></span>
+														</td>
+												        <td valign="top">
+															<table width="40%" height="52" border="0" cellpadding="0" cellspacing="0">
+													          	<tr>
+													            	<td><div id="AbstractVersion"></div></td>
+													            </tr>
+													            <tr>
+													            	<td><div id="FromAbstract"></div></td>
+													            </tr>
+												        	</table>
+															<br />
+															<div id="AbstractDistribution"></div>
+															<div id="AbstractCountryDistribution"></div>
+												        </td>
+													</tr>
+													<tr>
+												        <td></td>
+												        <td colspan="2" height=5></td>
+													</tr>
+													<!--
+													<tr>
+												        <td height="30"></td>
+												        <td bgcolor="#E0EEF7"><p><strong>Cited</strong></p></td>
+												        <td>
+												        	<div id="citations"></div>
+												        </td>
+													</tr>
+													<tr>
+												        <td height="8"></td>
+												        <td height="8"></td>
+												        <td height="8"></td>
+													</tr>
+													<tr>
+													    <td height="31">&nbsp;</td>
+													    <td bgcolor="#E0EEF7"><strong>Shared</strong></td>
+													    <td><strong>&nbsp;&nbsp;<a class="shareCount"></a></strong></td>
+												  	</tr>
+												  	-->
+												  	<tr>
+													    <td height="5"></td>
+													    <td></td>
+													    <td></td>
+											  		</tr>
+											</table>
+											
+                        </div>
+                    </div>
+                </div>
+                <!--
+				<div class="panel panel-default" >
+                    <div class="panel-heading" role="tab" id="benwenpingjia" onClick="xianshi(this)">
+                        <h4 class="panel-title">
+                            <a id="pingjia" class="collapsed"  href="javascript:;" >
+                                本文评价 
+                            </a>
+                        </h4>
+                    </div>
+					<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix" style="display: none;">
+                        <div class="panel-body">
+							<div id="ArticleEstimate">
+								<div id="Estimate"></div>
+								<div id="Comment"></div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+			
+            <!--折叠面板end-->
+        </div>
+        <div class="col-lg-1 col-md-2 hidden-print hidden-xs hidden-sm">
+            <!--右快速导航-->
+            <div id="plane" class="pinned">
+                <ul class="plane-bd list-unstyled">
+                    <li style="width:100px;">
+                        <a href="javascript:;"  onclick="zhaiyao('#zhaiyao');">
+							<span>摘要</span>
+                            <i class="glyphicon glyphicon-text-color"></i>
+                        </a>
+                    </li>
+				                    <li style="width:100px;">
+                        <a href="javascript:;"  onclick="zhaiyao('#tubiao');">
+                            <span>图/表</span>
+                            <i class="glyphicon glyphicon-picture"></i>
+                        </a>
+                    </li>
+				                    <li style="width:100px;">
+                        <a href="javascript:;"  onclick="zhaiyao('#cankaowenxian');">
+                            <span>参考文献</span>
+                            <i class="glyphicon glyphicon-equalizer"></i>
+                        </a>
+                    </li>
+                    <li style="width:100px;">
+                        <a href="javascript:;"  onclick="zhaiyao('#xiangguanwenzhang');">
+                            <span>相关文章</span>
+                            <i class="glyphicon glyphicon-list-alt"></i>
+                        </a>
+                    </li>
+                    <li style="width:100px;" id="bianjituijianli" style="display:none;">
+                        <a href="javascript:;"  onclick="zhaiyao('#tuijianwenzhang');">
+                            <span>编辑推荐</span>
+                            <i class="glyphicon glyphicon-list-alt"></i>
+                        </a>
+                    </li>
+                    <li style="width:100px;">
+                        <a href="javascript:;"  onclick="zhaiyao('#Metrics');">
+                            <span>Metrics</span>
+                            <i class="glyphicon glyphicon-stats"></i>
+                        </a>
+                    </li>
+                    <!--
+					<li style="width:100px;">
+                        <a href="javascript:;" onclick="zhaiyao('#benwenpingjia');">
+                            <span>本文评价</span>
+                            <i class="glyphicon glyphicon-stats"></i>
+                        </a>
+                    </li>
+                    -->
+                </ul>
+                <div class="plane-ft">
+                    <a href="#goTop" target="_self"  title="回顶部" style="color:#ff6600;width:100px;" class="text-center">回顶部</a>
+                </div>
+            </div>
+            <!--右快速导航-->
+         </div> 
+    </div>
+</div>
+<!--底部-->
+<div class="footer">
+	<div class="banquan">
+		<div class="col-lg-9 db1">
+			版权所有 © 2021 四川计算机应用杂志社有限公司<br>
+			<a href="https://beian.miit.gov.cn/" target="_blank" class="baise">蜀ICP备 05010208 号-3</a>　新出网证(川)字026号<br>
+			技术支持：<a href="http://www.magtech.com.cn" taget="_blank" class="baise">北京玛格泰克科技发展有限公司</a>
+		</div>
+		<div class="col-lg-3 tongji">
+			<script>recordAdd('deb1f540884c4d1b9ae55f92fda9d850')</script>
+			访问总数：<label id="ipVisitsSum"></label><br>
+			今日访问：<label id="ipDaySum"></label><br>
+		</div>
+	
+	</div>	
+</div>
+<!--底部end-->
+
+<!--返回顶部-->
+<div class="top_web" id="backtop" style="display:block;">
+    <span class="glyphicon glyphicon-menu-up" aria-hidden="true" ></span>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#backtop").hide();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >50) {
+                $('#backtop').fadeIn();
+            } else {
+                $('#backtop').fadeOut();
+            }
+        });
+        $('#backtop').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500);
+        });
+        $("pre").addClass("prettyprint");
+        prettyPrint();
+    });
+</script>
+<!--返回顶部end-->	
+
+<iframe src="https://www.joca.cn/EN/article/updateBrowseNum.jsp?articleid=26336" height=0 scrolling=no border=0 frameborder=0 allowtransparency="true"></iframe>
+
+</body>
+</html>
+
+<script type="text/javascript">
+$(function(){
+		var width_div = $('#accordion').width();
+    	for(var i = 0;i<$('img_div').length;i++){
+    		var img_width = $('.img_div').eq(i).find('img').width();
+    		if(img_width >= width_div){
+    			$('.img_div').eq(i).find('img').width(width_div);
+    		}
+    	}
+	});
+	
+
+	var hash = window.location.hash;
+	loadMetricsTabc();
+	loadArticleEstimate();
+	$(function() {
+    	$('#container').tabs(1);
+    });
+    $("#MetricsTabC").click(function(){
+		loadMetricsTabc();
+	});
+	 $("#ArticleEstimateTab").click(function(){
+		loadArticleEstimate();
+	});
+	function loadArticleEstimate(){
+		$("#Estimate").empty();
+		$("#Estimate").append("<iframe src=\"https://www.joca.cn/include/showEstimate.do?articleId=26336\" width=\"1000\" height=\"85\"  scrolling=no frameborder=0 allowtransparency=\"true\" style=\"padding: 20\"></iframe>");
+		$("#Comment").empty();
+		$("#Comment").append("<iframe src=\"https://www.joca.cn/CN/comment/showCommentList.do?type=article&typeId=26336\" width=\"1000\" style=\"min-height:700px; width:100%;\"   scrolling=no frameborder=0 allowtransparency=\"true\" style=\"padding: 20\" id=\"ifr-comment\"></iframe>");
+	}
+	$(function(){
+		$('.tabs-nav').children('li').eq(0).addClass('tabs-selected');
+		$('.tabs-nav').children('li').last().removeClass('tabs-selected');
+		$('#AbstractTab').removeClass('tabs-hide');
+		$('#MetricsTab').addClass('tabs-hide');
+	})
+	function loadMetricsTabc(){
+		$("#FullText").load("https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=FullText");
+		$("#HtmlPdfVersion").load("https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=HtmlPdfVersion");
+		$("#FromHtmlPdf").load("https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=FromHtmlPdf");
+		$("#AbstractVersion").load("https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=AbstractVersion");
+		$("#AbstractCount").load("https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=AbstractCount");
+		$("#FromAbstract").load("https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=FromAbstract");
+		//$("#citations").load("https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=citations");
+		$("#DownloadDistribution").empty();
+		$("#DownloadDistribution").append("<iframe src=\"https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=DownloadDistribution\" width=\"600\" height=\"300\"  scrolling=no frameborder=0 allowtransparency=\"true\" style=\"padding: 20\"></iframe>");
+		$("#DownloadCountryDistribution").empty();
+		$("#DownloadCountryDistribution").append("<iframe src=\"https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=DownloadCountryDistribution\" width=\"550\" height=\"300\"  scrolling=no frameborder=0 allowtransparency=\"true\"></iframe>");
+		$("#AbstractDistribution").empty();
+		$("#AbstractDistribution").append("<iframe src=\"https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=AbstractDistribution\" width=\"600\" height=\"300\"  scrolling=no frameborder=0 allowtransparency=\"true\" style=\"padding: 20\"></iframe>");
+		$("#AbstractCountryDistribution").empty();
+		$("#AbstractCountryDistribution").append("<iframe src=\"https://www.joca.cn/CN/matrix/matrix.do?articleId=26336&type=AbstractCountryDistribution\" width=\"550\" height=\"300\"  scrolling=no frameborder=0 allowtransparency=\"true\" style=\"padding: 20\"></iframe>");
+	}
+	
+	  var mp4Videos = document.getElementsByClassName("mp4Video");
+                    if(mp4Videos.length > 0){
+                        for(var i = 0; i < mp4Videos.length; i++){
+                            mp4Videos[i].addEventListener("play", function (ele) {
+                                var supplId = ele.target.id;
+                                var id = supplId.substring(5);
+                                jQuery.ajax({
+                                    url: "https://www.joca.cn/CN/suppl/validateVideo.do",
+                                    data:{id : id},
+                                    type: 'post',
+                                    async:false, 
+                                    dataType: 'json',
+                                    success: function(data) {
+                                        if(data.info == "false"){
+                                            document.getElementById(supplId).pause();
+                                            alert("您还没有登录，请登录后查看！");
+                                        }
+                                    }
+                                });
+                            });
+                        }
+                    }
+    //mp3文件播放
+    var mp3Audios = document.getElementsByClassName("mp3Audio");
+    if(mp3Audios.length > 0){
+        for(var i = 0; i < mp3Audios.length; i++){
+            mp3Audios[i].addEventListener("play", function (ele) { 
+                var supplId = ele.target.id;
+                var id = supplId.substring(5);
+                jQuery.ajax({
+                    url: "https://www.joca.cn/CN/suppl/validateVideo.do",
+                    data:{id : id},
+                    type: 'post',
+                    async:false, 
+                    dataType: 'json',
+                    success: function(data) {
+                        if(data.info == "false"){
+                            document.getElementById(supplId).pause();
+                            alert("您还没有登录，请登录后查看！");
+                        }
+                    }
+                });
+            });
+        }
+    }
+    function chakan(shifoukaifang,id,url){
+        var url2 = "https://www.joca.cn/fileup/1001-9081/SUPPL/"+url;
+        window.location.href = "https://www.joca.cn/CN/suppl/validateVideo.do?url="+url2+"&id="+id+"&shifoukaifang="+shifoukaifang;
+    }
+</script>
+
+    <!--css必引 -->	
+	<link rel="stylesheet" href="https://www.joca.cn/images/1001-9081/css/abstract.css">

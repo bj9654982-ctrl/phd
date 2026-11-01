@@ -1,0 +1,42 @@
+{
+  "number": 244,
+  "title": "Object Tracking by Jointly Exploiting Frame and Event Domain",
+  "year": 2021,
+  "authors": [
+    "Jiqing Zhang",
+    "Xin Yang",
+    "Yingkai Fu",
+    "Xiaopeng Wei",
+    "Baocai Yin",
+    "Bo Dong"
+  ],
+  "venue": "ICCV",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain_ICCV_2021_paper.pdf",
+      "bytes": 3565645,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\244_2021_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain_ICCV_2021_paper.pdf",
+  "bytes": 3565645,
+  "sha256": "07a7661f71dd7744daed16ae17e8cdd424c2936260c2b32c79a123bfcc2b64de",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Object Tracking by Jointly Exploiting Frame and Event Domain",
+  "first_page_text": "Object Tracking by Jointly Exploiting Frame and Event Domain\nJiqing Zhang1,∗, Xin Yang1,∗, Yingkai Fu1, Xiaopeng Wei1, Baocai Yin1,†, Bo Dong2,†\n1Dalian University of Technology, 2 SRI International\nAbstract\nInspired by the complementarity between conventional\nframe-based and bio-inspired event-based cameras, we pro-\npose a multi-modal based approach to fuse visual cues from\nthe frame- and event-domain to enhance the single object\ntracking performance, especially in degraded conditions\n(e.g., scenes with high dynamic range, low light, and fast-\nmotion objects). The proposed approach can effectively and\nadaptively combine meaningful information from both do-\nmains. Our approach’s effectiveness is enforced by a novel\ndesigned cross-domain attention schemes, which can effec-\ntively enhance features based on self- and cross-domain at-\ntention schemes; The adaptiveness is guarded by a specially\ndesigned weighting scheme, which can adaptively balance\nthe contribution of the two domains. To exploit event-based\nvisual cues in single-object tracking, we construct a large-\nscale frame-event-based dataset, which we subsequently\nemploy to train a novel frame-event fusion based model. Ex-\ntensive experiments show that the proposed approach out-\nperforms state-of-the-art frame-based tracking methods by\nat least 10.4% and 11.9% in terms of representative success\nrate and precision rate, respectively. Besides, the effective-\nness of each key component of our approach is evidenced\nby our thorough ablation study.\n1. Introduction\nRecently, convolutional neural networks (CNNs) based\napproaches show promising performance in object tracking\ntasks [4, 6, 10, 12, 14, 18, 20, 30, 37, 46, 48, 49]. These\napproaches mainly use conventional frame-based cameras\nas sensing devices since they can effectively measure ab-\nsolute light intensity and provide a rich representation of\na scene. However, conventional frame-based sensors have\nlimited frame rates (i.e., ≤120 FPS) and dynamic range\n(i.e., ≤60 dB). Thus, they do not work robustly in degraded\nconditions. Figure 1 (a) and (b) show two examples of de-\ngraded conditions, high dynamic range, and fast-moving\nobject, respectively. Under both conditions, we hardly see\n∗Joint ﬁrst authors.\n†Baocai Yin (ybc@dlut.edu.cn) and Bo Dong\n(bo.dong@sri.com) are the corresponding authors.\n(a)\n(b)\n(c)\n(d)\n1.0\n0.5\n0.0\ntime\nFigure 1. Limitations of conventional frame-based and bio-\ninspired event-based cameras. (a) and (b) show the limitation of\na frame-based camera under HDR and fast-moving object, respec-\ntively. (d) shows an event-based camera’s asynchronous output of\nthe scene shown in (c), sparse and no texture information.\nthe moving objects. Thus, obtaining meaningful visual cues\nof the objects is challenging. By contrast, an event-based\ncamera, a bio-inspired sensor, offers high temporal resolu-\ntion (up to 1MHz), high dynamic range (up to 140 dB), and\nlow energy consumption [7]. Nevertheless, it cannot mea-\nsure absolute light intensity and thus texture cues (as shown\nin Figure 1 (d)). Both sensors are, therefore, complemen-\ntary. The unique complementarity triggers us to propose a\nmulti-modal sensor fusion-based approach to improve the\ntracking performance in degraded conditions, which lever-\nages the advantages of both the frame- and event-domain.\nYet,\nevent-based\ncameras\nmeasure\nlight\nintensity\nchanges and output events asynchronously. It differs sig-\nniﬁcantly from conventional frame-based cameras, which\nrepresent scenes with synchronous frames. Besides, CNNs-\nbased approaches are not designed to digest asynchronous\ninputs. Therefore, combining asynchronous events and syn-\nchronous images remains challenging. To address the chal-\nlenge, we propose a simple yet effective event aggregation\napproach to discretize the time domain of asynchronous\nevents. Each of the discretized time slices can be accumu-\n13043\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

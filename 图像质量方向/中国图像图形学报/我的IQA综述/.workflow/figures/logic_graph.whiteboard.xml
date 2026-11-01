@@ -1,0 +1,73 @@
+<whiteboard type="mermaid">
+%%{init: {'theme': 'base', 'themeVariables': {
+  'fontFamily': 'Inter, Arial, Microsoft YaHei, sans-serif',
+  'background': '#FAF9F6',
+  'primaryColor': '#E8EEF6',
+  'primaryTextColor': '#1F2933',
+  'primaryBorderColor': '#2F5D8C',
+  'lineColor': '#627D98',
+  'secondaryColor': '#E6F0EA',
+  'tertiaryColor': '#F4EFE6'
+}}}%%
+flowchart TD
+    Title["图像质量评价三十年范式迁移脉络：参考信息 × 建模范式双轴演进"]
+    Core["图像质量评价如何从像素保真、手工感知、深度特征演进到视觉-语言基础模型，并在 AIGC 时代面临传统指标失效与评价体系重构"]
+    Title --> Core
+    classDef title fill:#F4EFE6,stroke:#9A7B4F,color:#1F2933,stroke-width:1px
+    classDef core fill:#E8EEF6,stroke:#2F5D8C,color:#102A43,stroke-width:1.5px
+    classDef theme fill:#E6F0EA,stroke:#3B7C6E,color:#1F2933,stroke-width:1px
+    class Title title
+    class Core core
+    N1[["主观评价与数据库奠基 (P001 P003 P006)"]]
+    class N1 theme
+    N2[["合成失真库（LIVE/TID/CSIQ） (P006 P008 P009)"]]
+    class N2 theme
+    N3[["真实UGC库（LIVEC/KonIQ/SPAQ） (P013 P064 P015)"]]
+    class N3 theme
+    N4[["传统FR：SSIM结构范式 (P027 P028)"]]
+    class N4 theme
+    N5[["特征/信息论FR（VIF/FSIM/GMSD） (P026 P031 P032)"]]
+    class N5 theme
+    N6[["学习型FR：LPIPS/DISTS深度特征 (P017 P037)"]]
+    class N6 theme
+    N7[["传统NR：NSS/opinion-unaware (P047 P048 P049)"]]
+    class N7 theme
+    N8[["CNN-NR（WaDIQaM/RankIQA/hyperIQA） (P053 P057 P058)"]]
+    class N8 theme
+    N9[["Transformer/自监督NR（MUSIQ/CONTRIQUE/TOPIQ） (P067 P068 P073)"]]
+    class N9 theme
+    N10[["CLIP零样本质量（CLIP-IQA/LIQE） (P080 P081)"]]
+    class N10 theme
+    N11[["MLLM指令微调派（Q-Instruct/Q-Align/Co-Instruct） (P084 P087 P088)"]]
+    class N11 theme
+    N12[["未微调/prompting反方证据 (P092 P091 P085)"]]
+    class N12 theme
+    N13[["AIGC感知质量库（AGIQA/AIGCIQA/AIGIQA-20K） (P106 P108 P111)"]]
+    class N13 theme
+    N14[["偏好奖励与对齐指标（ImageReward/TIFA/VQAScore） (P119 P127 P125)"]]
+    class N14 theme
+    N15[["传统指标在AIGC上失效 (P129 P132)"]]
+    class N15 theme
+    N16[["评价协议：gMAD/横评/分辨率偏置 (P147 P011 P018)"]]
+    class N16 theme
+    Core -->|引出| N1
+    N1 -->|沿用| N2
+    N2 -->|扩展| N3
+    N1 -->|引出| N4
+    N4 -->|扩展| N5
+    N5 -->|分化| N6
+    N7 -->|扩展| N8
+    N8 -->|扩展| N9
+    N9 -->|分化| N10
+    N10 -->|扩展| N11
+    N11 -->|反驳| N12
+    N10 -->|反驳| N12
+    N3 -->|扩展| N13
+    N6 -->|限定| N15
+    N15 -->|限定| N13
+    N13 -->|分化| N14
+    N14 -->|融合| N11
+    N16 -->|补充| N4
+    N16 -->|补充| N15
+    N7 -->|补充| N6
+</whiteboard>

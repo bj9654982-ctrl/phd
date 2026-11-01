@@ -1,0 +1,566 @@
+{
+  "number": 166,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Deep Meta Learning for Real-Time Target-Aware Visual Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2026-07-07T15:59:15Z",
+      "timestamp": 1783439955848,
+      "version": "3.54.6"
+    },
+    "reference-count": 58,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2019-10-01T00:00:00Z",
+          "timestamp": 1569888000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2019.00100",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2020-02-28T10:27:52Z",
+      "timestamp": 1582885672000
+    },
+    "page": "911-920",
+    "source": "Crossref",
+    "is-referenced-by-count": 89,
+    "title": [
+      "Deep Meta Learning for Real-Time Target-Aware Visual Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Janghoon",
+        "family": "Choi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junseok",
+        "family": "Kwon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kyoung Mu",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "optimization as a model for few-shot learning",
+        "author": "ravi",
+        "year": "2016",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "ref32",
+        "article-title": "Robust visual tracking using 11 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.515"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Meta-tracker: Fast and robust online adaptation for visual object trackers",
+        "author": "park",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref36",
+        "article-title": "Learning multi-domain convolutional neural networks for visual tracking",
+        "author": "nam",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref35",
+        "article-title": "Meta networks",
+        "author": "munkhdalai",
+        "year": "2017",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.152"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/5.726791"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2482905"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bemnetto",
+        "year": "2016",
+        "journal-title": "arXiv preprint arXiv 1606 09549"
+      },
+      {
+        "key": "ref1",
+        "article-title": "Tensorflow: Large-scale machine learning on heterogeneous distributed systems",
+        "author": "abadi",
+        "year": "2016",
+        "journal-title": "arXiv preprint arXiv 1603 04467"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "crossref",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "article-title": "High-speed tracking with kernelized correlation filters",
+        "volume": "37",
+        "author": "henriques",
+        "year": "2015",
+        "journal-title": "IEEE TPAMI"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Online tracking by learning discriminative saliency map with convolutional neural network",
+        "author": "hong",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref26",
+        "article-title": "ImageNet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref25",
+        "article-title": "A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2015",
+        "journal-title": "ICLRE"
+      },
+      {
+        "key": "ref50",
+        "article-title": "Learning a deep compact image representation for visual tracking",
+        "author": "wang",
+        "year": "2013",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_7"
+      },
+      {
+        "key": "ref57",
+        "article-title": "Structured siamese net-work for real-time visual tracking",
+        "author": "zhang",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.512"
+      },
+      {
+        "key": "ref55",
+        "article-title": "Robust visual tracking via multi-task sparse learning",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.421"
+      },
+      {
+        "key": "ref53",
+        "article-title": "MEEM: robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref52",
+        "first-page": "2287",
+        "article-title": "Stereo matching by training a convolutional neural network to compare image patches",
+        "volume": "17",
+        "author": "žbontar",
+        "year": "2016",
+        "journal-title": "JMLR"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Triplet loss in siamese network for object tracking",
+        "author": "dong",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref40",
+        "article-title": "Towards real-time object detection with region proposal networks",
+        "author": "ren",
+        "year": "2015",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Lasot: A high-quality benchmark for large-scale single object tracking",
+        "author": "fan",
+        "year": "2018",
+        "journal-title": "arXiv preprint arXiv / 1809 07845"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.585"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+        "author": "finn",
+        "year": "2017",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Unifying feature and metric learning for patch-based matching",
+        "author": "han",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00508"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref4",
+        "first-page": "1261",
+        "article-title": "Visual object tracking performance measures revisited",
+        "volume": "25",
+        "author": "?ehovin",
+        "year": "2016",
+        "journal-title": "IEEE TIP"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref6",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2015.84"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.153"
+      },
+      {
+        "key": "ref9",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Matching networks for one shot learning",
+        "author": "vinyals",
+        "year": "2016",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.279"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Very deep convo-lutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2014",
+        "journal-title": "arXiv preprint arXiv 1409 1556"
+      }
+    ],
+    "event": {
+      "name": "2019 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Seoul, Korea (South)",
+      "start": {
+        "date-parts": [
+          [
+            2019,
+            10,
+            27
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2019,
+            11,
+            2
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2019 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8972782/9008105/09009472.pdf?arnumber=9009472",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          17
+        ]
+      ],
+      "date-time": "2022-07-17T21:46:35Z",
+      "timestamp": 1658094395000
+    },
+    "score": 54.552208,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9009472/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    },
+    "references-count": 58,
+    "URL": "https://doi.org/10.1109/iccv.2019.00100",
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          10
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "number": 55,
+  "title": "Minimum Uncertainty Gap for Robust Visual Tracking",
+  "year": 2013,
+  "authors": [
+    "Junseok Kwon",
+    "Kyoung Mu Lee"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2013/html/Kwon_Minimum_Uncertainty_Gap_2013_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Kwon_Minimum_Uncertainty_Gap_2013_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Kwon_Minimum_Uncertainty_Gap_2013_CVPR_paper.pdf",
+      "bytes": 2930836,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\055_2013_Minimum_Uncertainty_Gap_for_Robust_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Kwon_Minimum_Uncertainty_Gap_2013_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2013/papers/Kwon_Minimum_Uncertainty_Gap_2013_CVPR_paper.pdf",
+  "bytes": 2930836,
+  "sha256": "ae74f2ce83dd32b1c8bf45a33f2d934179b620a0a73201f182fd1fd3923fcc18",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Minimum Uncertainty Gap for Robust Visual Tracking",
+  "first_page_text": "Minimum Uncertainty Gap for Robust Visual Tracking\nJunseok Kwon and Kyoung Mu Lee\nDepartment of ECE, ASRI, Seoul National University, 151-742, Seoul, Korea\n{paradis0, kyoungmu}@snu.ac.kr, http://cv.snu.ac.kr\nAbstract\nWe propose a novel tracking algorithm that robustly\ntracks the target by ﬁnding the state which minimizes uncer-\ntainty of the likelihood at current state. The uncertainty of\nthe likelihood is estimated by obtaining the gap between the\nlower and upper bounds of the likelihood. By minimizing\nthe gap between the two bounds, our method ﬁnds the con-\nﬁdent and reliable state of the target. In the paper, the state\nthat gives the Minimum Uncertainty Gap (MUG) between\nlikelihood bounds is shown to be more reliable than the state\nwhich gives the maximum likelihood only, especially when\nthere are severe illumination changes, occlusions, and pose\nvariations. A rigorous derivation of the lower and upper\nbounds of the likelihood for the visual tracking problem is\nprovided to address this issue. Additionally, an efﬁcient in-\nference algorithm using Interacting Markov Chain Monte\nCarlo is presented to ﬁnd the best state that maximizes the\naverage of the lower and upper bounds of the likelihood\nand minimizes the gap between two bounds simultaneously.\nExperimental results demonstrate that our method success-\nfully tracks the target in realistic videos and outperforms\nconventional tracking methods.\n1. Introduction\nThe objective of the tracking problem is to track the tar-\nget accurately in the real environments [3, 5, 6, 8, 9, 11,\n13, 15, 21, 31, 35, 36].\nFor robust tracking, most con-\nventional tracking methods formulate the tracking prob-\nlem by the Bayesian framework [10, 20, 18, 26, 27, 28,\n33, 34].\nIn the Bayesian tracking approach, the goal\nof the tracking problem is to ﬁnd the best state, which\nmaximizes the posterior probability p(Xt|Y1:t).\nThis is\ncalled as the Maximum a Posterior (MAP) estimation:\nˆXMAP\nt\n= arg\nXt\nmax p(Xt|Y1:t), where ˆXMAP\nt\ndenotes the\nbest (MAP) state at time t. To obtain the MAP state, the\nmethod searches for the state that maximizes the likelihood\np(Yt|Xt), which is near the previous state as a prior. In this\ncase, the likelihood is typically calculated by measuring the\nsimilarity between the observation Yt at the state Xt and\n\u0002\u0003\u0004\u0005\u0006\u0007\b\u0007\t\n\n\u0005\u0006\u0007\u000b\u0003\t\f\r\u000e\u0007\u0003\u000f\u0007\u0010\u0011\u0012\u0005\u0010\u0011\u0013\u0003\u0003\r\n\u0014\u0006\u0015\u0016\u0005\n(a) Why our method considers the likelihood bounds?\n\u0002\u0003\u0004\u0005\u0006\u0004\u0007\b\u0003\u0004\t\n\u000b\t\f\f\r\u0003\t\u000e\u000f\n\u0010\u0011\r\u000b\t\f\f\r\u0003\t\u000e\u000f\n(b) Why our method minimizes the likelihood bounds?\n\u0012\b\u0004\b\u0007\u0006\u000b\u0004\u0011\u0013\u0014\u0006\r\u000b\u0003\u0015\u000b\u0007\t\r\u0016\u0006\u0007\u000b\u0013\u0003\u0017\u0006\n\u0018\n\u0019\u0004\u0015\b\u0004\b\u0007\u0006\u000b\u0004\u0011\u0013\u0014\u0006\r\u000b\u0003\u0015\u000b\u0007\t\r\u0016\u0006\u0007\u000b\u0013\u0003\u0017\u0006\n\u0018\n(c) How our method efﬁciently employs inﬁnite number of target models?\nFigure 1. Basic idea of the proposed method. (a) The likelihood\nbounds (uncertainty) are formed inevitably in real tracking situa-\ntions due to different target models that are employed via different\nupdating strategies during the tracking process. (b) A large gap\nbetween the upper and lower bounds indicates that the correspond-\ning state gives very different answers (likelihoods) depending on\nthe target models used (red and blue), although the average like-\nlihood obtained by using set of all target models (green) is high.\nThat means the likelihood estimation over that state is uncertain\nand unreliable. So, our method tries to ﬁnd the state that has min-\nimum gap (uncertainty), which gives consistent answers (likeli-\nhoods), regardless of the target models. And by maximizing the\naverage likelihood bound at the same time, our method gets the\nstate, which conﬁdently maximizes the likelihood. (c) The pro-\nposed method only compares two target models with observations\nwhile utilizing the inﬁnite number of target models, which gener-\nate lower and upper bounds of the likelihood. On the other hand,\nother methods compares all the ﬁnite number of target models to\nevaluate the likelihood.\nthe target model Mt at time t.\nIn this case, the MAP estimation assumes that the best\nstate produces the highest likelihood score near by the pre-\nvious state. However, in the real-world scenario, this as-\nsumption is not valid unless the target model Mt is always\ncorrect. In practice, the target model is easily corrupted\nand distorted during the online update. To deal with severe\nappearance changes, many tracking algorithms evolve the\ntarget model with online update. However, because of the\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.305\n2353\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.305\n2353\n2013 IEEE Conference on Computer Vision and Pattern Recognition\n1063-6919/13 $26.00 © 2013 IEEE\nDOI 10.1109/CVPR.2013.305\n2355\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

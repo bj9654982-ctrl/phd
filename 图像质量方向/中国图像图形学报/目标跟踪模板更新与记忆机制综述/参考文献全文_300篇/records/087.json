@@ -1,0 +1,42 @@
+{
+  "number": 87,
+  "title": "Robust Object Tracking Based on Temporal and Spatial Deep Networks",
+  "year": 2017,
+  "authors": [
+    "Zhu Teng",
+    "Junliang Xing",
+    "Qiang Wang",
+    "Congyan Lang",
+    "Songhe Feng",
+    "Yi Jin"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Teng_Robust_Object_Tracking_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Teng_Robust_Object_Tracking_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Teng_Robust_Object_Tracking_ICCV_2017_paper.pdf",
+      "bytes": 837503,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\087_2017_Robust_Object_Tracking_Based_on_Temporal_and_Spatial_Deep_Networks.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Teng_Robust_Object_Tracking_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Teng_Robust_Object_Tracking_ICCV_2017_paper.pdf",
+  "bytes": 837503,
+  "sha256": "45ddcfba6a2e0dab0329b5d027a2baa0caddd72bef17971c0fcf2f654768dd54",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Robust Object Tracking Based on Temporal and Spatial Deep Networks",
+  "first_page_text": "Robust Object Tracking based on Temporal and Spatial Deep Networks\nZhu Teng†, Junliang Xing‡, Qiang Wang‡, Congyan Lang†, Songhe Feng†, Yi Jin†\n†School of Computer and Information Technology, Beijing Jiaotong University, Beijing 100044, China\n‡National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China\n{zteng,cylang,shfeng,yjin}@bjtu.edu.cn, jlxing@nlpr.ia.ac.cn, wangqiang2015@ia.ac.cn\nAbstract\nRecently deep neural networks have been widely em-\nployed to deal with the visual tracking problem. In this\nwork, we present a new deep architecture which incorpo-\nrates the temporal and spatial information to boost the\ntracking performance. Our deep architecture contains three\nnetworks, a Feature Net, a Temporal Net, and a Spatial\nNet. The Feature Net extracts general feature representa-\ntions of the target. With these feature representations, the\nTemporal Net encodes the trajectory of the target and di-\nrectly learns temporal correspondences to estimate the ob-\nject state from a global perspective. Based on the learning\nresults of the Temporal Net, the Spatial Net further reﬁnes\nthe object tracking state using local spatial object informa-\ntion. Extensive experiments on four of the largest tracking\nbenchmarks, including VOT2014, VOT2016, OTB50, and\nOTB100, demonstrate competing performance of the pro-\nposed tracker over a number of state-of-the-art algorithms.\n1. Introduction\nVisual object tracking is a fundamental problem in com-\nputer vision and can be applied in many practical systems\nlike video surveillance [13], vehicle navigation [53], and\nhuman-machine interaction [35]. One common setting for\nthis problem is that a bounding box of a target is provided\nin the ﬁrst frame and the tracking objective is to predict lo-\ncations of the target in subsequent frames. Although lots of\nefforts have been devoted into this problem and extensive\nstudies are conducted in the past decades [4, 59], it still re-\nmains a very difﬁcult problem due to challenges like scale\nvariation, fast motion, occlusions, deformation, and back-\nground cluttering [58].\nIn order to overcome different kinds of challenges and\nachieve robust tracking results, previous works general-\nly focus on some of the most important components in a\nvisual tracking system, such as robust object appearance\nrepresentation [20, 22, 40, 44], sophisticated object motion\nmodel [29, 30, 34], and adaptive object model updating\n[9, 39, 46]. Conventional methods design the tracking ob-\nservation model using different representations, some of the\nmost typical ones include the subspace representation [46],\nthe sparse representation [24, 40, 63], the structured rep-\nresentation [20, 27], and the correlation ﬁlter based repre-\nsentation [22, 61]. Recently the Convolutional Neural Net-\nwork (CNN) based representations have been employed in\nmany computer vision problems [18, 28, 36, 42, 55] due to\nits strong representation power and vast modeling capaci-\nty. Inspired by these successes, we in this work design a\nTemporal-Spatial Network (TSN) model to deal with dif-\nferent kinds of challenges in visual tracking.\nAs the power of deep learning models generally comes\ninto effect when a large amount of labeled training sam-\nples are applied, it is not straightforward to directly deploy\na deep learning model into an online visual tracking algo-\nrithm, because the only labeled sample for object tracking\nproblem is the target annotated in the ﬁrst frame. Previ-\nous deep learning model based tracking algorithms need\nnumerous labeled videos to learn the feature representa-\ntions through ofﬂine training [21, 42].\nFor example, the\nMDNet tracker [42] pre-trains a deep model via a num-\nber of video sequences from similar tracking benchmark-\ns and ﬁne-tunes the learned model online using the target\nbenchmark sequence. It sets the best performance on the\nOTB benchmark. However, its ofﬂine pre-training on sim-\nilar tracking benchmarks takes too much time and prone to\nover-ﬁtting. The GOTURN tracker [21] only employs an\nofﬂine pre-trained model to perform online tracking. It thus\nlearns the appearance adaptation only from a limited adja-\ncent frames rather than a reasonable interpretation on time\nseries of a video. In the design of our TSN model, we do\nnot perform ofﬂine training from similar tracking bench-\nmarks but instead learn and ﬁne-tune the model online from\nsampled historical targets. Our feature extraction network\nis directly picked from an off-the-shelf deep models (e.g.,\nVGG model [49] trained on ImageNet [47]) without further\npre-training on similar tracking benchmarks.\nTo learn a complex inter-frame and intra-frame relation-\nship, the PROST method [48] employs optical ﬂow based\n11144\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

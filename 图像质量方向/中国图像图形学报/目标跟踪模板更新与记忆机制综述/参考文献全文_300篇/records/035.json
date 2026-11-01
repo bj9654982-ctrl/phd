@@ -1,0 +1,40 @@
+{
+  "number": 35,
+  "title": "A novel performance evaluation methodology for single-target trackers",
+  "year": 2016,
+  "authors": [
+    "Kristan M",
+    "Matas J",
+    "Leonardis A",
+    "et al"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "数据集与评价设计",
+  "priority": "P1 核心精读",
+  "original_source": "https://arxiv.org/abs/1503.01313",
+  "doi": "10.1109/TPAMI.2016.2516982",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://arxiv.org/pdf/1503.01313",
+      "final_url": "https://arxiv.org/pdf/1503.01313",
+      "bytes": 6062651,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\035_2016_A_novel_performance_evaluation_methodology_for_single-target_trackers.pdf",
+  "download_url": "https://arxiv.org/pdf/1503.01313",
+  "requested_url": "https://arxiv.org/pdf/1503.01313",
+  "bytes": 6062651,
+  "sha256": "ce3bf1a738d228fc7bfe98a46a9d52cf0ad9fe07ffc6c419855ce40e8086ae2c",
+  "version": "arXiv公开版本；可能与正式出版版不同",
+  "pages": 21,
+  "pdf_title": "",
+  "first_page_text": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, (ACCEPTED FOR PUBLICATION) 2016\n1\nA Novel Performance Evaluation Methodology\nfor Single-Target Trackers\nMatej Kristan, Member, IEEE, Jiri Matas, Aleˇs Leonardis, Member, IEEE, Tom´aˇs Voj´ıˇr,\nRoman Pﬂugfelder, Gustavo Fern´andez, Georg Nebehay, Fatih Porikli and\nLuka ˇCehovin Member, IEEE,\nAbstract—This paper addresses the problem of single-target tracker performance evaluation. We consider the performance\nmeasures, the dataset and the evaluation system to be the most important components of tracker evaluation and propose\nrequirements for each of them. The requirements are the basis of a new evaluation methodology that aims at a simple and\neasily interpretable tracker comparison. The ranking-based methodology addresses tracker equivalence in terms of statistical\nsigniﬁcance and practical differences. A fully-annotated dataset with per-frame annotations with several visual attributes is\nintroduced. The diversity of its visual properties is maximized in a novel way by clustering a large number of videos according to\ntheir visual attributes. This makes it the most sophistically constructed and annotated dataset to date. A multi-platform evaluation\nsystem allowing easy integration of third-party trackers is presented as well. The proposed evaluation methodology was tested\non the VOT2014 challenge on the new dataset and 38 trackers, making it the largest benchmark to date. Most of the tested\ntrackers are indeed state-of-the-art since they outperform the standard baselines, resulting in a highly-challenging benchmark.\nAn exhaustive analysis of the dataset from the perspective of tracking difﬁculty is carried out. To facilitate tracker comparison a\nnew performance visualization technique is proposed.\nIndex Terms—Performance analysis, single-target tracking, model-free tracking, tracker evaluation methodology, tracker\nevaluation datasets, tracker evaluation system\n!\n1\nINTRODUCTION\nVisual tracking is a rapidly evolving ﬁeld that has\nbeen increasingly attracting attention of the vision\ncommunity. It offers many scientiﬁc challenges and\nit emerges in other computer vision problems such as\nmotion analysis, event detection and activity recog-\nnition. A steady increase of hardware performance\nand its price reduction have opened a vast application\npotential for tracking algorithms including surveil-\nlance systems, automotive systems, transport, sports\nanalytics, medical imaging, mobile robotics, ﬁlm post-\nproduction and human-computer interfaces.\nThe activity in the ﬁeld is reﬂected in abundance of\nnew tracking algorithms presented in journals and at\nconferences summarized in the many survey papers,\ne.g., [1], [2], [3], [4], [5], [6], [7]. However, the boom\nin tracker proposals has not been accompanied by\nstandardization of the methodology for their objective\ncomparison.\n• M. Kristan and L. ˇCehovin are with the Faculty of Computer and\nInformation Science, University of Ljubljana, Slovenia.\nE-mail: see http://www.vicos.si/People/Matejk\n• R. Pﬂugfelder, G. Nebehay and G. Fern´andez are with Austrian\nInstitute of Technology, Austria\n• J. Matas and T. Voj´ıˇr are with the Faculty of Electrical Engineering,\nCzech Technical University in Prague, Czech Republic\n• A. Leonardis is with the University of Birmingham, School of Com-\nputer Science, United Kingdom\n• F. Porikli is with NICTA and Australian National University, Aus-\ntralia\nOne of the most inﬂuential performance analysis\nefforts for object tracking is PETS (Performance Eval-\nuation of Tracking and Surveillance) [8]. The ﬁrst\nPETS workshop took place in 2000 aiming at eval-\nuation of visual tracking algorithms for surveillance\napplications. Its focus gradually shifted to high-level\nevent interpretation algorithms. Other frameworks\nand datasets have been presented since, but these\nfocused on evaluation of surveillance systems and\nevent detection, e.g., CAVIAR1, i-LIDS 2, ETISEO3,\nchange detection [9], sports analytics (e.g., CVBASE4),\nspecialized on tracking speciﬁc objects like faces, e.g.,\nFERET [10], [11] or tracking for autonomous vehicles,\ne.g., KITTI [12]. Recently, several works have been\npublished in the broad area of model-free visual object\ntracking evaluation, eg., [13], [14], [15], [16], [17], [18],\n[19], [20] and following the success of the VOT chal-\nlenges [19], [20] a performance evaluation benchmark\nfor multiple target tracking was presented as well [21]\n.\nThere\nare\nseveral\nimportant\nsubﬁelds\nin\nvi-\nsual tracking, ranging from multi-camera, multi-\ntarget [13], [22], [21], to single-target [16], [17], [18],\n[19], [20] trackers. These subﬁelds are quite diverse,\nwithout a uniﬁed evaluation methodology and spe-\n1. http://homepages.inf.ed.ac.uk/rbf/CAVIARDATA1\n2. http://www.homeofﬁce.gov.uk/science-research/hosdb/i-\nlids\n3. http://www-sop.inria.fr/orion/ETISEO\n4. http://vision.fe.uni-lj.si/cvbase06/\narXiv:1503.01313v3  [cs.CV]  8 Jan 2016\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

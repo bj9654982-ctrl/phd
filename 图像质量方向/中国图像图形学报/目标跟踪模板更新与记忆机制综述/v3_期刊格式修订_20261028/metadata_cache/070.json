@@ -1,0 +1,324 @@
+{
+  "number": 70,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Visual Tracking via Probability Continuous Outlier Model",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          30
+        ]
+      ],
+      "date-time": "2026-03-30T13:55:34Z",
+      "timestamp": 1774878934829,
+      "version": "3.50.1"
+    },
+    "reference-count": 28,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2014.445",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2014-09-30T14:58:09Z",
+      "timestamp": 1412089089000
+    },
+    "page": "3478-3485",
+    "source": "Crossref",
+    "is-referenced-by-count": 90,
+    "title": [
+      "Visual Tracking via Probability Continuous Outlier Model"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Dong",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Huchuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1007/s11263-007-0075-7",
+        "article-title": "Incremental learning for robust visual tracking",
+        "volume": "77",
+        "author": "ross",
+        "year": "2008",
+        "journal-title": "International Journal of Computer Vision"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995730"
+      },
+      {
+        "key": "18",
+        "first-page": "1436",
+        "article-title": "Robust visual tracking using t\\ minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "15",
+        "author": "li",
+        "year": "2009",
+        "journal-title": "Markov Random Field Modeling in Image Analysis"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2008.73"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.1262177"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "11",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2007.4408954"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457447"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/jocn.1991.3.1.71"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.307"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2202677"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2008.79"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "27",
+        "first-page": "864",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "3",
+        "first-page": "1830",
+        "article-title": "Real time robust t\\ tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "2",
+        "first-page": "983",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "crossref",
+        "first-page": "2420",
+        "DOI": "10.1109/TPAMI.2012.42",
+        "article-title": "Single and multiple object tracking using log-euclidean riemannian subspace and block-division appearance model",
+        "volume": "34",
+        "author": "hu",
+        "year": "2012",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.257"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1195991"
+      },
+      {
+        "key": "5",
+        "year": "0",
+        "journal-title": "CAVIAR"
+      },
+      {
+        "key": "4",
+        "first-page": "105",
+        "article-title": "Interactive graph cuts for optimal boundary and region segmentation of objects in n-d images",
+        "author": "boykov",
+        "year": "2001",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.215"
+      },
+      {
+        "key": "8",
+        "author": "ford",
+        "year": "1962",
+        "journal-title": "Flows in Networks"
+      }
+    ],
+    "event": {
+      "name": "2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Columbus, OH, USA",
+      "start": {
+        "date-parts": [
+          [
+            2014,
+            6,
+            23
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2014,
+            6,
+            28
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2014 IEEE Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6909096/6909393/06909840.pdf?arnumber=6909840",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2020-10-14T15:59:24Z",
+      "timestamp": 1602691164000
+    },
+    "score": 53.485233,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/6909840"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "references-count": 28,
+    "URL": "https://doi.org/10.1109/cvpr.2014.445",
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    }
+  }
+}

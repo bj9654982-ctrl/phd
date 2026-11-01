@@ -1,0 +1,40 @@
+{
+  "number": 258,
+  "title": "IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking",
+  "year": 2021,
+  "authors": [
+    "Shuai Jia",
+    "Yibing Song",
+    "Chao Ma",
+    "Xiaokang Yang"
+  ],
+  "venue": "CVPR",
+  "category": "对抗扰动与可靠性诊断",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Jia_IoU_Attack_Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visual_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jia_IoU_Attack_Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visual_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jia_IoU_Attack_Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visual_CVPR_2021_paper.pdf",
+      "bytes": 3087064,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\258_2021_IoU_Attack__Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visua.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jia_IoU_Attack_Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visual_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Jia_IoU_Attack_Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visual_CVPR_2021_paper.pdf",
+  "bytes": 3087064,
+  "sha256": "92595e9ca92b337367eda6a62593dbe5b1fab981f8ee96780aad62d6b3dfe24c",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking",
+  "first_page_text": "IoU Attack: Towards Temporally Coherent Black-Box\nAdversarial Attack for Visual Object Tracking\nShuai Jia1\nYibing Song2\nChao Ma1* Xiaokang Yang1\n1MoE Key Lab of Artiﬁcial Intelligence, AI Institute, Shanghai Jiao Tong University\n2Tencent AI Lab\n{jiashuai,chaoma,xkyang}@sjtu.edu.cn, yibingsong.cv@gmail.com\nAbstract\nAdversarial attack arises due to the vulnerability of deep\nneural networks to perceive input samples injected with im-\nperceptible perturbations. Recently, adversarial attack has\nbeen applied to visual object tracking to evaluate the robust-\nness of deep trackers. Assuming that the model structures of\ndeep trackers are known, a variety of white-box attack ap-\nproaches to visual tracking have demonstrated promising\nresults. However, the model knowledge about deep trackers\nis usually unavailable in real applications. In this paper,\nwe propose a decision-based black-box attack method for\nvisual object tracking. In contrast to existing black-box ad-\nversarial attack methods that deal with static images for im-\nage classiﬁcation, we propose IoU attack that sequentially\ngenerates perturbations based on the predicted IoU scores\nfrom both current and historical frames. By decreasing the\nIoU scores, the proposed attack method degrades the accu-\nracy of temporal coherent bounding boxes (i.e., object mo-\ntions) accordingly. In addition, we transfer the learned per-\nturbations to the next few frames to initialize temporal mo-\ntion attack. We validate the proposed IoU attack on state-\nof-the-art deep trackers (i.e., detection based, correlation\nﬁlter based, and long-term trackers). Extensive experiments\non the benchmark datasets indicate the effectiveness of the\nproposed IoU attack method. The source code is available\nat https://github.com/VISION-SJTU/IoUattack.\n1. Introduction\nVisual object tracking is one of the fundamental com-\nputer vision problems with a wide range of applications.\nThe convolutional neural networks (CNNs) have signiﬁ-\ncantly advanced visual tracking performance. Meanwhile,\nthe enigma of interpreting CNNs has perplexed existing vi-\nsual tracking algorithms as well. For example, injecting\nimperceptible perturbations into input images leads deep\nneural networks to predict incorrectly [37, 43, 48]. To in-\n*Corresponding author.\nSiamRPN++\nDiMP\nLTMU\n(a) Original results\n(b) IoU attack\nFigure 1. IoU attack for visual object tracking. State-of-the-art\ndeep trackers (i.e., SiamRPN++ [22], DiMP [1], and LTMU [5])\neffectively locate target objects in the original video sequences as\nshown in (a). Our IoU attack decreases their tracking accuracies\nby injecting imperceptible perturbations as shown in (b).\nvestigate the robustness of visual tracking algorithms with\ndeep models, recent approaches [3, 44, 16, 24] assume that\nthe model structures of deep tracking algorithms are known\nand carry out white-box attack on them. Despite the demon-\nstrated promising results, the concrete structures and param-\neters of deep trackers are barely known in real applications.\nIn this paper, we investigate black-box adversarial attack for\nvisual tracking, where the model knowledge of deep track-\ners is unknown.\nPrevalent black-box attack algorithms inject impercep-\ntible perturbations into input images to decrease network\nclassiﬁcation accuracies. Although these methods are ef-\nfective to attack static images, they are not suitable to at-\ntack temporally moving objects in videos. This is because\n6709\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

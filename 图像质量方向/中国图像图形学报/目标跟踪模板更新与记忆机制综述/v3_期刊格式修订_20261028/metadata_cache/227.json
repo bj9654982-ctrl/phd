@@ -1,0 +1,582 @@
+{
+  "number": 227,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "UMDATrack: Unified Multi-Domain Adaptive Tracking under Adverse Weather Conditions",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2026-10-16T16:25:47Z",
+      "timestamp": 1792167947545,
+      "version": "4.4.0"
+    },
+    "reference-count": 55,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2025-10-19T00:00:00Z",
+          "timestamp": 1760832000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              19
+            ]
+          ],
+          "date-time": "2025-10-19T00:00:00Z",
+          "timestamp": 1760832000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "62402055, 62322216, 62025604, 62302480"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "62402055, 62322216, 62025604, 62302480"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          19
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv51701.2025.00610",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2026-04-29T19:45:49Z",
+      "timestamp": 1777491949000
+    },
+    "page": "6466-6475",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": [
+      "UMDATrack: Unified Multi-Domain Adaptive Tracking under Adverse Weather Conditions"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Siyuan",
+        "family": "Yao",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rui",
+        "family": "Zhu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing University of Posts and Telecommunications"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ziqi",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Beijing University of Posts and Telecommunications"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenqi",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yanyang",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Chinese Academy of Sciences"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaochun",
+        "family": "Cao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sun Yat-sen University"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01802"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01822"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00879"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01400"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2615921"
+      },
+      {
+        "key": "ref8",
+        "first-page": "2292",
+        "article-title": "Sinkhorn distances: Lightspeed computation of optimal transport",
+        "volume-title": "Annual Conference on Neural Information Processing Systems",
+        "author": "Cuturi"
+      },
+      {
+        "key": "ref9",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "volume-title": "International Conference on Learning Representations",
+        "author": "Dosovitskiy"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS47612.2022.9981070"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICARM62033.2024.10715901"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00694"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV57701.2024.00657"
+      },
+      {
+        "key": "ref15",
+        "first-page": "2579",
+        "article-title": "Visualizing data using t-sne journal of machine learning research",
+        "volume": "9",
+        "author": "Hinton",
+        "year": "2008",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr52729.2023.01493"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.632"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA48506.2021.9561564"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v31i1.11205"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-72970-6_24"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00522"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Learning adaptive and view-invariant vision transformer for real-time uav tracking",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Li"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.1405.0312"
+      },
+      {
+        "key": "ref27",
+        "first-page": "700",
+        "article-title": "Unsupervised image-to-image translation networks",
+        "volume-title": "Annual Conference on Neural Information Processing Systems",
+        "author": "Liu"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Mutual-learning knowledge distillation for nighttime UAV tracking",
+        "author": "Liu",
+        "year": "2023",
+        "journal-title": "arXiv preprint arXiv"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref30",
+        "first-page": "16784",
+        "article-title": "GLIDE: towards photorealistic image generation and editing with text-guided diffusion models",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Quinn Nichol"
+      },
+      {
+        "key": "ref31",
+        "first-page": "817",
+        "article-title": "Avist: A benchmark for visual object tracking in adverse visibility",
+        "volume-title": "British Machine Vision Conference",
+        "author": "Noman"
+      },
+      {
+        "key": "ref32",
+        "first-page": "8821",
+        "article-title": "Zero-shot text-to-image generation",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Ramesh"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "ref34",
+        "first-page": "2980",
+        "article-title": "Focal loss for dense object detection",
+        "volume-title": "IEEE Conference on Computer Vision and Pattern Recognition",
+        "author": "Ross"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00531"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-73016-0_6"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i5.28286"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvpr42600.2020.00709"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2003.819861"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v39i8.32906"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01399"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01826"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01055"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2025.3559796"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2021.3076272"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2021.3050314"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IROS51168.2021.9636680"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00869"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.00355"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00068"
+      },
+      {
+        "key": "ref52",
+        "article-title": "Domain adaptive siamrpn++ for object tracking in the wild",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "arXiv preprint arXiv"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i7.28591"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.244"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICRA57147.2024.10610544"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE/CVF International Conference on Computer Vision (ICCV)",
+      "location": "Honolulu, HI, USA",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            19
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE/CVF International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11443115/11443287/11445648.pdf?arnumber=11445648",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2026-05-01T05:10:46Z",
+      "timestamp": 1777612246000
+    },
+    "score": 74.599236,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11445648/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          19
+        ]
+      ]
+    },
+    "references-count": 55,
+    "URL": "https://doi.org/10.1109/iccv51701.2025.00610",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          19
+        ]
+      ]
+    }
+  }
+}

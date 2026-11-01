@@ -1,0 +1,38 @@
+{
+  "number": 255,
+  "title": "Physical Adversarial Textures That Fool Visual Object Tracking",
+  "year": 2019,
+  "authors": [
+    "Rey Reza Wiyatno",
+    "Anqi Xu"
+  ],
+  "venue": "ICCV",
+  "category": "对抗扰动与可靠性诊断",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Wiyatno_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Wiyatno_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Wiyatno_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+      "bytes": 1498762,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\255_2019_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Wiyatno_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Wiyatno_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+  "bytes": 1498762,
+  "sha256": "a9dca07dfe503a37511af90aed2c848e7c4f413fa80908a00888a13d1a9573a3",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Physical Adversarial Textures That Fool Visual Object Tracking",
+  "first_page_text": "Physical Adversarial Textures That Fool Visual Object Tracking\nRey Reza Wiyatno\nAnqi Xu\nElement AI\nMontreal, Canada\n{rey.reza, ax}@elementai.com\nAbstract\nWe present a method for creating inconspicuous-looking\ntextures that, when displayed as posters in the physical\nworld, cause visual object tracking systems to become con-\nfused. As a target being visually tracked moves in front\nof such a poster, its adversarial texture makes the tracker\nlock onto it, thus allowing the target to evade. This adver-\nsarial attack evaluates several optimization strategies for\nfooling seldom-targeted regression models: non-targeted,\ntargeted, and a newly-coined family of guided adversarial\nlosses. Also, while we use the Expectation Over Transfor-\nmation (EOT) algorithm to generate physical adversaries\nthat fool tracking models when imaged under diverse con-\nditions, we compare the impacts of different scene variables\nto ﬁnd practical attack setups with high resulting adversar-\nial strength and convergence speed. We further showcase\nthat textures optimized using simulated scenes can confuse\nreal-world tracking systems for cameras and robots.\n1. Introduction\nResearch on adversarial attacks [24, 9, 18] have shown\nthat deep learning models, e.g., for classiﬁcation and detec-\ntion tasks, are confused by adversarial examples: slightly-\nperturbed images of objects that cause them to make wrong\npredictions. While early attacks digitally modiﬁed inputs\nto a victim model, later advances created photos [14] and\nobjects in the physical world that lead to misclassiﬁcation\nunder diverse imaging conditions [7, 1]. Due to these added\ncomplexities, many physical adversaries were not created\nto look indistinguishable from regular items, but rather as\ninconspicuous objects such as colorful eyeglasses [20, 21].\nWe study the creation of physical adversaries for an ob-\nject tracking task, of which the goal is to ﬁnd the bounding-\nbox location of a target in the current camera frame given\nits location in the previous frame. We present a method for\ngenerating Physical Adversarial Textures (PAT) that, when\ndisplayed as advertisement or art posters, cause regression-\nbased neural tracking models like GOTURN [10] to break\naway from their tracked targets, even though these textures\n(a) source texture\n(b) adversarial texture\nFigure 1: A poster of a Physical Adversarial Texture resem-\nbling a photograph, causes a tracker’s bounding-box predic-\ntions to lose track as the target person moves over it.\ndo not look like targets to human eyes, as seen in Figure 1.\nFooling a tracking system comes with added challenges\ncompared to attacking classiﬁcation or detection models.\nSince a tracker adapts to changes in the target’s appear-\nance, an adversary must be universally effective as the target\nmoves and turns. Also, some trackers like GOTURN only\nsearch within a sub-region of the frame around the previ-\nous target location, and so only a small part of the PAT may\nbe in view and not obstructed, yet it must still be potent.\nFurthermore, it is insufﬁcient for the tracker to be slightly\noff-target on any single frame, as it may still end up track-\ning the target semi-faithfully; robust adversaries must cause\nthe system to break away from the tracked target over time.\nOur main contributions are as follows:\n1. ﬁrst known demo of adversaries for sequential tracking\ntasks, impacting domains such as surveillance, drone\nphotography, and autonomous convoying,\n2. coining of “guided adversarial losses” concept, which\nstrikes a middle-ground between targeted and non-\ntargeted adversarial objectives, and empirically shown\nto enhance convergence and adversarial strength,\n3. study of Expectation Over Transformation (EOT) [1],\nhighlighting the need to randomize only certain scene\nvariables while still creating potent adversaries, and\n4. show sim-to-real transfer of PATs created using a non-\nphotorealistic simulator and diffuse-only materials.\n4822\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

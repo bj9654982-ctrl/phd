@@ -1,0 +1,40 @@
+{
+  "number": 117,
+  "title": "A Twofold Siamese Network for Real-Time Object Tracking",
+  "year": 2018,
+  "authors": [
+    "Anfeng He",
+    "Chong Luo",
+    "Xinmei Tian",
+    "Wenjun Zeng"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/He_A_Twofold_Siamese_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/He_A_Twofold_Siamese_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/He_A_Twofold_Siamese_CVPR_2018_paper.pdf",
+      "bytes": 2009104,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\117_2018_A_Twofold_Siamese_Network_for_Real-Time_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/He_A_Twofold_Siamese_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/He_A_Twofold_Siamese_CVPR_2018_paper.pdf",
+  "bytes": 2009104,
+  "sha256": "c232cb607507c443b662b313360c8bdc59d46f3ec40ed7b0cc796b46fcd8a810",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "A Twofold Siamese Network for Real-Time Object Tracking",
+  "first_page_text": "A Twofold Siamese Network for Real-Time Object Tracking\nAnfeng He∗†, Chong Luo‡, Xinmei Tian†, and Wenjun Zeng‡\n†CAS Key Laboratory of Technology in Geo-Spatial Information Processing and Application System,\nUniversity of Science and Technology of China, Hefei, Anhui, China\n‡Microsoft Research, Beijing, China\nheanfeng@mail.ustc.edu.cn, {cluo, wezeng}@microsoft.com, xinmei@ustc.edu.cn\nAbstract\nObserving that Semantic features learned in an image\nclassiﬁcation task and Appearance features learned in a\nsimilarity matching task complement each other, we build\na twofold Siamese network, named SA-Siam, for real-time\nobject tracking. SA-Siam is composed of a semantic branch\nand an appearance branch. Each branch is a similarity-\nlearning Siamese network. An important design choice in\nSA-Siam is to separately train the two branches to keep\nthe heterogeneity of the two types of features.\nIn addi-\ntion, we propose a channel attention mechanism for the\nsemantic branch. Channel-wise weights are computed ac-\ncording to the channel activations around the target posi-\ntion. While the inherited architecture from SiamFC [3] al-\nlows our tracker to operate beyond real-time, the twofold\ndesign and the attention mechanism signiﬁcantly improve\nthe tracking performance. The proposed SA-Siam outper-\nforms all other real-time trackers by a large margin on\nOTB-2013/50/100 benchmarks.\n1. Introduction\nVisual object tracking is one of the most fundamental\nand challenging tasks in computer vision. Given the bound-\ning box of an unknown target in the ﬁrst frame, the objec-\ntive is to localize the target in all the following frames in a\nvideo sequence. While visual object tracking ﬁnds numer-\nous applications in surveillance, autonomous systems, and\naugmented reality, it is a very challenging task. For one\nreason, with only a bounding box in the ﬁrst frame, it is\ndifﬁcult to differentiate the unknown target from the clut-\ntered background when the target itself moves, deforms, or\nhas an appearance change due to various reasons. For an-\nother, most applications demand real-time tracking. It is\n∗This work is carried out while Anfeng He is an intern in MSRA.\nGround Truth\nSiamFC\nours\nFigure 1. Comparing the tracking results of SiamFC and our\ntracker. Thanks to the semantic features, our tracker successfully\nfollows the target object in case of shooting angle change or scale\nchange, when SiamFC fails.\neven harder to design a real-time high-performance tracker.\nThe key to design a high-performance tracker is to ﬁnd\nexpressive features and corresponding classiﬁers that are si-\nmultaneously discriminative and generalized. Being dis-\ncriminative allows the tracker to differentiate the true tar-\nget from the cluttered or even deceptive background. Being\ngeneralized means that a tracker would tolerate the appear-\nance changes of the tracked object, even when the object\nis not known a priori. Conventionally, both the discrimina-\ntion and the generalization power need to be strengthened\nthrough online training process, which collects target infor-\nmation while tracking. However, online updating is time\nconsuming, especially when a large number of parameters\nare involved. It is therefore very crucial to balance the track-\ning performance and the run-time speed.\nIn recent years, deep convolutional neural networks\n4834\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

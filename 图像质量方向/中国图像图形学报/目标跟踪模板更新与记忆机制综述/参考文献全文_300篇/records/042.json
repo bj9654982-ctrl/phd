@@ -1,0 +1,47 @@
+{
+  "number": 42,
+  "title": "Exploiting the Circulant Structure of Tracking-by-Detection with Kernels",
+  "year": 2012,
+  "authors": [
+    "João F. Henriques",
+    "Rui Caseiro",
+    "Pedro Martins",
+    "Jorge Batista"
+  ],
+  "venue": "Computer Vision - ECCV 2012",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://doi.org/10.1007/978-3-642-33765-9_50",
+  "doi": "10.1007/978-3-642-33765-9_50",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://doi.org/10.1007/978-3-642-33765-9_50",
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-642-33765-9_50",
+      "bytes": 259603,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-642-33765-9_50.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/978-3-642-33765-9_50.pdf",
+      "bytes": 800216,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\042_2012_Exploiting_the_Circulant_Structure_of_Tracking-by-Detection_with_Kernels.pdf",
+  "download_url": "https://link.springer.com/content/pdf/10.1007/978-3-642-33765-9_50.pdf",
+  "requested_url": "https://link.springer.com/content/pdf/10.1007/978-3-642-33765-9_50.pdf",
+  "bytes": 800216,
+  "sha256": "9890099b2ff9ab8463874eb3483b4dc60a23a745d8a20ecfc195de590d0f1146",
+  "version": "出版方公开全文",
+  "pages": 14,
+  "pdf_title": "LNCS 7575 - Exploiting the Circulant Structure of Tracking-by-Detection with Kernels",
+  "first_page_text": "Exploiting the Circulant Structure\nof Tracking-by-Detection with Kernels\nJo˜ao F. Henriques, Rui Caseiro, Pedro Martins, and Jorge Batista\nInstitute of Systems and Robotics, University of Coimbra\n{henriques,ruicaseiro,pedromartins,batista}@isr.uc.pt\nAbstract. Recent years have seen greater interest in the use of discrim-\ninative classiﬁers in tracking systems, owing to their success in object de-\ntection. They are trained online with samples collected during tracking.\nUnfortunately, the potentially large number of samples becomes a com-\nputational burden, which directly conﬂicts with real-time requirements.\nOn the other hand, limiting the samples may sacriﬁce performance.\nInterestingly, we observed that, as we add more and more samples, the\nproblem acquires circulant structure. Using the well-established theory\nof Circulant matrices, we provide a link to Fourier analysis that opens\nup the possibility of extremely fast learning and detection with the Fast\nFourier Transform. This can be done in the dual space of kernel ma-\nchines as fast as with linear classiﬁers. We derive closed-form solutions\nfor training and detection with several types of kernels, including the\npopular Gaussian and polynomial kernels. The resulting tracker achieves\nperformance competitive with the state-of-the-art, can be implemented\nwith only a few lines of code and runs at hundreds of frames-per-second.\nMATLAB code is provided in the paper (see Algorithm 1).\n1\nIntroduction\nTracking is a fundamental problem in computer vision, with applications in video\nsurveillance, human-machine interfaces and robot perception. Even though some\nsettings allow for strong assumptions about the target [1, 2], sometimes it is\ndesirable to track an object with little a-priori knowledge. Model-less tracking\nconsists of learning and adapting a representation of the target online.\nA very successful approach has been tracking-by-detection [3–7]. This stems\ndirectly from the development of powerful discriminative methods in machine\nlearning, and their application to detection with oﬄine training. Many of these\nalgorithms can be adapted for online training, where each successful detection\nprovides more information about the target.\nAlmost all of the proposed methods have one thing in common: a sparse\nsampling strategy [3, 5–7]. In each frame, several samples are collected in the\ntarget’s neighborhood, where typically each sample characterizes a subwindow\nthe same size as the target (illustrated in Table 1). Clearly, there is a lot of\nredundancy, since most of the samples have a large amount of overlap. This\nunderlying structure is usually ignored. Instead, most methods simply collect a\nsmall number of samples, because the cost of not doing so would be prohibitive.\nA. Fitzgibbon et al. (Eds.): ECCV 2012, Part IV, LNCS 7575, pp. 702–715, 2012.\nc\n⃝Springer-Verlag Berlin Heidelberg 2012\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

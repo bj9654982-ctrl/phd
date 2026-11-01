@@ -1,0 +1,40 @@
+{
+  "number": 17,
+  "title": "Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking",
+  "year": 2021,
+  "authors": [
+    "Ning Wang",
+    "Wengang Zhou",
+    "Jie Wang",
+    "Houqiang Li"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Transformer_Meets_Tracker_Exploiting_Temporal_Context_for_Robust_Visual_Tracking_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Transformer_Meets_Tracker_Exploiting_Temporal_Context_for_Robust_Visual_Tracking_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Transformer_Meets_Tracker_Exploiting_Temporal_Context_for_Robust_Visual_Tracking_CVPR_2021_paper.pdf",
+      "bytes": 1665619,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\017_2021_Transformer_Meets_Tracker__Exploiting_Temporal_Context_for_Robust_Visual_Track.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Transformer_Meets_Tracker_Exploiting_Temporal_Context_for_Robust_Visual_Tracking_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Transformer_Meets_Tracker_Exploiting_Temporal_Context_for_Robust_Visual_Tracking_CVPR_2021_paper.pdf",
+  "bytes": 1665619,
+  "sha256": "43a4d5b416d7a028a90914d1f966e432988550ca416cf34a80a982c0f82505ad",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking",
+  "first_page_text": "Transformer Meets Tracker:\nExploiting Temporal Context for Robust Visual Tracking\nNing Wang1 Wengang Zhou1,2 Jie Wang1,2 Houqiang Li1,2\n1CAS Key Laboratory of GIPAS, EEIS Department, University of Science and Technology of China (USTC)\n2Institute of Artiﬁcial Intelligence, Hefei Comprehensive National Science Center\nwn6149@mail.ustc.edu.cn, {zhwg,jiewangx,lihq}@ustc.edu.cn\nAbstract\nIn video object tracking, there exist rich temporal con-\ntexts among successive frames, which have been largely\noverlooked in existing trackers. In this work, we bridge the\nindividual video frames and explore the temporal contexts\nacross them via a transformer architecture for robust object\ntracking. Different from classic usage of the transformer in\nnatural language processing tasks, we separate its encoder\nand decoder into two parallel branches and carefully design\nthem within the Siamese-like tracking pipelines. The trans-\nformer encoder promotes the target templates via attention-\nbased feature reinforcement, which beneﬁts the high-quality\ntracking model generation. The transformer decoder prop-\nagates the tracking cues from previous templates to the cur-\nrent frame, which facilitates the object searching process.\nOur transformer-assisted tracking framework is neat and\ntrained in an end-to-end manner. With the proposed trans-\nformer, a simple Siamese matching approach is able to out-\nperform the current top-performing trackers. By combin-\ning our transformer with the recent discriminative track-\ning pipeline, our method sets several new state-of-the-art\nrecords on prevalent tracking benchmarks.\n1. Introduction\nVisual object tracking is a basic task in computer vision.\nDespite the recent progress, it remains a challenging task\ndue to factors such as occlusion, deformation, and appear-\nance changes. With the temporal error accumulation, these\nchallenges are further ampliﬁed in the online process.\nIt is well recognized that the rich temporal information\nin the video ﬂow is of vital importance for visual track-\ning. However, most tracking paradigms [28, 27, 48] handle\nthis task by per-frame object detection, where the tempo-\n*Corresponding Author: Wengang Zhou and Houqiang Li.\n†Source code, pretrained model, and raw tracking results are available\nat https://github.com/594422814/TransformerTrack.\nTransformer\nDecoder\nConv\nCNN\nCNN\nTemplate Set\nSearch Patch\nTransformer\nResponse\nBackbone\nTracking\nModel\nWeight Sharing\nTransformer\nEncoder\nFigure 1. An overview of our transformer-assisted tracking frame-\nwork. The transformer encoder and decoder are assigned to two\nparallel branches in a Siamese-like tracking pipeline. Thanks to\nthe encoder-decoder structure, isolated frames are tightly bridged\nto convey rich temporal information in the video ﬂow.\nral relationships among successive frames have been largely\noverlooked. Take the popular Siamese tracker as an exam-\nple, only the initial target is considered for template match-\ning [1, 44, 19, 28]. The merely used temporal information\nis the motion prior (e.g., cosine window) by assuming the\ntarget moves smoothly, which is widely adopted in visual\ntrackers. In other tracking frameworks with update mech-\nanisms [20, 39, 8, 58, 60, 3], previous prediction results\nare collected to incrementally update the tracking model.\nDespite the historical frames considered in the above ap-\nproaches, the video frames are still considered as indepen-\ndent counterparts without mutual reasoning. In real-world\nvideos, some frames inevitably contain noisy contents such\nas occluded or blurred objects. These imperfect frames will\nhurt the model update when serving as the templates and\nwill challenge the tracking process when performing as the\nsearch frames. Therefore, it is a non-trivial issue to convey\nrich information across temporal frames to mutually rein-\nforce them. We argue that the video frames should not be\ntreated in isolation and the performance potential is largely\nrestricted due to the overlook of frame-wise relationship.\nTo bridge the isolated video frames and convey the rich\ntemporal cues across them, in this work, we introduce the\ntransformer architecture [46] to the visual tracking commu-\nnity. Different from the traditional usage of the transformer\n1571\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

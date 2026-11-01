@@ -1,0 +1,40 @@
+{
+  "number": 81,
+  "title": "SOWP: Spatially Ordered and Weighted Patch Descriptor for Visual Tracking",
+  "year": 2015,
+  "authors": [
+    "Han-Ul Kim",
+    "Dae-Youn Lee",
+    "Jae-Young Sim",
+    "Chang-Su Kim"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Kim_SOWP_Spatially_Ordered_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Kim_SOWP_Spatially_Ordered_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Kim_SOWP_Spatially_Ordered_ICCV_2015_paper.pdf",
+      "bytes": 4109381,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\081_2015_SOWP__Spatially_Ordered_and_Weighted_Patch_Descriptor_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Kim_SOWP_Spatially_Ordered_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Kim_SOWP_Spatially_Ordered_ICCV_2015_paper.pdf",
+  "bytes": 4109381,
+  "sha256": "1f7fc808f4a7000bd703ca731f70116ef16e4e09ed4c24e858d3ec77791987fc",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "SOWP: Spatially Ordered and Weighted Patch Descriptor for Visual Tracking",
+  "first_page_text": "SOWP: Spatially Ordered and Weighted Patch Descriptor for Visual Tracking\nHan-Ul Kim1, Dae-Youn Lee2, Jae-Young Sim3, and Chang-Su Kim1\n1School of Electrical Engineering, Korea University 2Samsung Electronics Co., Ltd.\n3School of Electrical and Computer Engineering, Ulsan National Institute of Science and Technology\n{hanulkim, daeyounlee}@mcl.korea.ac.kr, jysim@unist.ac.kr, changsukim@korea.ac.kr\nAbstract\nA simple yet effective object descriptor for visual track-\ning is proposed in this paper. We ﬁrst decompose the bound-\ning box of a target object into multiple patches, which are\ndescribed by color and gradient histograms. Then, we con-\ncatenate the features of the spatially ordered patches to rep-\nresent the object appearance. Moreover, to alleviate the im-\npacts of background information possibly included in the\nbounding box, we determine patch weights using random\nwalk with restart (RWR) simulations. The patch weights\nrepresent the importance of each patch in the description\nof foreground information, and are used to construct an ob-\nject descriptor, called spatially ordered and weighted patch\n(SOWP) descriptor. We incorporate the proposed SOWP de-\nscriptor into the structured output tracking framework. Ex-\nperimental results demonstrate that the proposed algorithm\nyields signiﬁcantly better performance than the state-of-the-\nart trackers on a recent benchmark dataset, and also excels\nin another recent benchmark dataset.\n1. Introduction\nVisual tracking has drawn much attention for its various\napplications, such as self-driving cars, security and surveil-\nlance systems, and augmented reality. With recent advances\nin machine learning, numerous tracking-by-detection algo-\nrithms [16, 17, 3, 4, 24, 18, 33, 40] have been proposed,\nwhich yield promising performances. A typical tracking-\nby-detection algorithm detects a target object over time,\nwhile updating a classiﬁer using tracking results. Positive\nand negative samples, which correspond to foreground and\nbackground image regions, respectively, are employed to\ntrain the classiﬁer.\nHowever, when training samples are\nassigned false labels or when sample descriptors cannot\nclearly distinguish between positive and negative samples,\na classiﬁer may be corrupted, degrading the tracking-by-\ndetection performance.\nTo overcome these drawbacks, lots of algorithms have\nbeen proposed to reduce the impacts of false labeling [17,\n4, 18, 24, 40] and to describe positive and negative samples\ndistinguishably [33, 10]. However, it is still challenging to\ndevelop a reliable object descriptor, since the bounding box\nof a target object often contains background features due to\ndeformation, occlusion, and object size variation. Attempts\nhave been made to alleviate the effects of undesirable back-\nground features [7, 19, 31], but these approaches require\nprior knowledge or predeﬁned parameters, the validity of\nwhich is hard to be veriﬁed.\nWe propose a novel object descriptor, called spatially or-\ndered and weighted patch (SOWP) descriptor, to represent\nthe appearance of an object faithfully and suppress back-\nground information in a bounding box systematically. To\nconstruct the SOWP descriptor, we divide the bounding box\nof a target object into non-overlapping patches and then\ndescribe each patch using an RGB histogram and a gradi-\nent histogram. We then concatenate the patch descriptors\nwithin the bounding box to convey structural information of\nthe object. Moreover, to reduce the effects of background,\nwe scale each patch descriptor with a weight, which repre-\nsents the importance of the patch in the object description.\nFor the patch weight computation, we perform two random\nwalk with restart (RWR) simulations: one for foreground\nclustering and the other for background clustering. We in-\ncorporate this SOWP descriptor into the structured output\ntracking framework [18]. When updating the classiﬁer, we\nuse only the samples with high conﬁdence scores to prevent\nbad updates. Experimental results show that the proposed\ntracker achieves the best performance on the CVPR2013\nvisual tracking benchmark dataset [38], and improves the\nperformance of\n[18] by 36.3% in precision and 30.6%\nin success rate. Moreover, the proposed tracker also pro-\nvides a competitive performance in the VOT2014 challenge\ndataset [28].\nThis work has three main contributions: First, we ex-\nperimentally ﬁnd a simple yet effective method to con-\nstruct a spatially ordered patch descriptor for visual track-\ning. Second, we develop an RWR scheme to suppress the\nimpacts of background information in an object bounding\nbox through adaptive weighting. Third, the proposed al-\n13011\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

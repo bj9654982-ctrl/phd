@@ -1,0 +1,54 @@
+{
+  "number": 3,
+  "title": "Visual tracking: an experimental survey",
+  "year": 2014,
+  "authors": [
+    "Smeulders A W M",
+    "Chu D M",
+    "Cucchiara R",
+    "et al"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "相关综述与研究定位",
+  "priority": "P3 背景与边界",
+  "original_source": "https://ivi.fnwi.uva.nl/isis/publications/bibtexbrowser.php?bib=all.bib&key=SmeuldersTPAMI2014",
+  "doi": "10.1109/TPAMI.2013.230",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://ivi.fnwi.uva.nl/isis/publications/bibtexbrowser.php?bib=all.bib&key=SmeuldersTPAMI2014",
+      "final_url": "https://ivi.fnwi.uva.nl/isis/publications/bibtexbrowser.php?bib=all.bib&key=SmeuldersTPAMI2014",
+      "bytes": 10413,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://ivi.fnwi.uva.nl/isis/publications/2014/SmeuldersTPAMI2014",
+      "final_url": "https://ivi.fnwi.uva.nl/isis/publications/2014/SmeuldersTPAMI2014/",
+      "bytes": 157,
+      "content_type": "text/html; charset=UTF-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://ivi.fnwi.uva.nl/isis/publications/2014/SmeuldersTPAMI2014/SmeuldersTPAMI2014.pdf",
+      "final_url": "https://ivi.fnwi.uva.nl/isis/publications/2014/SmeuldersTPAMI2014/SmeuldersTPAMI2014.pdf",
+      "bytes": 2287973,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\003_2014_Visual_tracking__an_experimental_survey.pdf",
+  "download_url": "https://ivi.fnwi.uva.nl/isis/publications/2014/SmeuldersTPAMI2014/SmeuldersTPAMI2014.pdf",
+  "requested_url": "https://ivi.fnwi.uva.nl/isis/publications/2014/SmeuldersTPAMI2014/SmeuldersTPAMI2014.pdf",
+  "bytes": 2287973,
+  "sha256": "109e3ecb6ccf5b5500ff30fa821e04c0908c94e1164e354205b96ea3aad54c96",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 56,
+  "pdf_title": "untitled",
+  "first_page_text": "IEEE TRANSACTION ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE\n1\nVisual Tracking: an Experimental Survey\nArnold W. M. Smeulders*, Senior Member, IEEE,\nDung M. Chu*, Student Member, IEEE, Rita Cucchiara, Senior Member, IEEE,\nSimone Calderara, Senior Member, IEEE,\nAfshin Dehghan, Student Member, IEEE, and Mubarak Shah, Fellow, IEEE\nAbstract\nThere is a large variety of trackers, which have been proposed in the literature during the last two\ndecades with some mixed success. Object tracking in realistic scenarios is difﬁcult problem, therefore\nit remains a most active area of research in Computer Vision. A good tracker should perform well in a\nlarge number of videos involving illumination changes, occlusion, clutter, camera motion, low contrast,\nspecularities and at least six more aspects. However, the performance of proposed trackers have been\nevaluated typically on less than ten videos, or on the special purpose datasets. In this paper, we aim to\nevaluate trackers systematically and experimentally on 315 video fragments covering above aspects.\nWe selected a set of nineteen trackers to include a wide variety of algorithms often cited in literature,\nsupplemented with trackers appearing in 2010 and 2011 for which the code was publicly available.\nWe demonstrate that trackers can be evaluated objectively by survival curves, Kaplan Meier statistics,\nand Grubs testing. We ﬁnd that in the evaluation practice the F-score is as effective as the object tracking\naccuracy (OTA) score. The analysis under a large variety of circumstances provides objective insight\ninto the strengths and weaknesses of trackers.\nArnold W. M. Smeulders is with Informatics Institute, University of Amsterdam, The Netherlands and with Centrum Wiskunde\n& Informatica, Amsterdam, The Netherlands.\nDung M. Chu is with Informatics Institute, University of Amsterdam, The Netherlands.\nRita Cucchiara and Simone Calderara are with Faculty of Engineering of Modena, University of Modena and Reggio Emilia,\nItaly.\nAfshin Dehghan and Mubarak Shah are with School of Electric Engineering and Computer Science, University of Florida,\nUSA.\n* indicates equal contributions.\nOctober 18, 2013\nDRAFT\nDigital Object Indentifier 10.1109/TPAMI.2013.230\n0162-8828/13/$31.00 ©  2013 IEEE\nThis article has been accepted for publication in a future issue of this journal, but has not been fully edited. Content may change prior to final publication.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

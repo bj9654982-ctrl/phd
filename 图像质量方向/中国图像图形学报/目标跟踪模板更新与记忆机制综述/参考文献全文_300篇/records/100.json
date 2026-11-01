@@ -1,0 +1,39 @@
+{
+  "number": 100,
+  "title": "Large Margin Object Tracking With Circulant Feature Maps",
+  "year": 2017,
+  "authors": [
+    "Mengmeng Wang",
+    "Yong Liu",
+    "Zeyi Huang"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Wang_Large_Margin_Object_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_Large_Margin_Object_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_Large_Margin_Object_CVPR_2017_paper.pdf",
+      "bytes": 1322163,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\100_2017_Large_Margin_Object_Tracking_With_Circulant_Feature_Maps.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_Large_Margin_Object_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_Large_Margin_Object_CVPR_2017_paper.pdf",
+  "bytes": 1322163,
+  "sha256": "9ad6a0930c04fb89059277990c1b271ba15d9ab31b6a5631ee2f81183043bbd6",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Large Margin Object Tracking With Circulant Feature Maps",
+  "first_page_text": "Large Margin Object Tracking with Circulant Feature Maps\nMengmeng Wang1, Yong Liu1 ∗, Zeyi Huang2\n1 Institute of Cyber-Systems and Control, Zhejiang University, 2 Exacloud Limited, Zhejiang, China\nmengmengwang@zju.edu.cn; yongliu@iipc.zju.edu.cn; haoran@qunhemail.com\nAbstract\nStructured output support vector machine (SVM) based\ntracking algorithms have shown favorable performance re-\ncently.\nNonetheless, the time-consuming candidate sam-\npling and complex optimization limit their real-time appli-\ncations. In this paper, we propose a novel large margin ob-\nject tracking method which absorbs the strong discrimina-\ntive ability from structured output SVM and speeds up by the\ncorrelation ﬁlter algorithm signiﬁcantly. Secondly, a multi-\nmodal target detection technique is proposed to improve the\ntarget localization precision and prevent model drift intro-\nduced by similar objects or background noise. Thirdly, we\nexploit the feedback from high-conﬁdence tracking result-\ns to avoid the model corruption problem. We implement\ntwo versions of the proposed tracker with the representa-\ntions from both conventional hand-crafted and deep convo-\nlution neural networks (CNNs) based features to validate\nthe strong compatibility of the algorithm. The experimental\nresults demonstrate that the proposed tracker performs su-\nperiorly against several state-of-the-art algorithms on the\nchallenging benchmark sequences while runs at speed in\nexcess of 80 frames per second.\n1. Introduction\nVisual tracking enjoys a wide popularity recently and has\nbeen applied in many applications such as robotic services,\nsurveillance, human motion analyses, human-computer in-\nteractions and so on. In this paper, we consider the most\ngeneral scenario of visual tracking, i.e., short-term, single-\nobject tracking with the target given in the ﬁrst frame. The\nmost difﬁcult point of this problem is to track the target at a\nhigh speed for real-time applications while handle all chal-\nlenging factors simultaneously both from background or the\ntarget itself such as occlusions, deformations, fast motions,\nillumination variations and so on.\nDue to the lack of training samples, most existing track-\ners handle this problem from two aspects. The ﬁrst one is\n∗Corresponding author\nto explore an effective tracking algorithm which can be de-\nsigned to be either discriminative [17, 9, 13, 15, 22, 1, 31]\nor generative [24, 18, 16, 33] models. It seeks to design a\nrobust classiﬁer or ﬁlter to detect the target, and establish\nan optimal mechanism to update the model at each frame.\nThe other one is to exploit the power of the target rep-\nresentation which may come from conventional handcraft\nfeatures [16, 18, 17, 9, 24] or high-level convolutional fea-\ntures [15, 28, 23, 27, 21] from deep Convolutional Neural\nNetworks (CNNs). These methods improve performance\nsigniﬁcantly from different aspects.\nHowever, to further\nimprove the performance by more complex tracking algo-\nrithms or features, it would undoubtedly increase the com-\nputational complexity, which would limit the real-time per-\nformance of visual tracking.\nThe most popular and successful framework for visual\ntracking is tracking-by-detection [14, 17, 34, 13, 22, 13]\nwhich treats the tracking problem as a detection task and\nlearns information about the target from each detection on-\nline. There are many classiﬁcation algorithms used in this\nframework, such as multiple instance learning [1], P-N\nlearning [17], online boosting [11, 12], support vector ma-\nchines (SVM) [13, 15, 22, 31] and so on. Among them,\nstructured output SVM is demonstrated with an excellent\npotential in this ﬁeld [13, 22]. Structured output SVM is a\nkind of classiﬁcation algorithm which can deal with com-\nplex outputs like trees, sequences, or sets rather than class\nlabels [26]. Hare et al. [13] employ this algorithm in the\nvisual tracking for the ﬁrst time and improve tracking ac-\ncuracy considerably in several benchmarks [29, 30]. They\npropose a tracking algorithm named Struck based on ker-\nnelized structured output SVM where the output space is\ndeﬁned as the translations of the target relative to the pre-\nvious frame. However, Struck suffers from a high compu-\ntational complexity by its complex optimization while its\ntraining samples are still not dense enough. Therefore it op-\nerates slowly and limits to extend to higher dimensional fea-\ntures. Ning et al. [22] propose a dual linear structured SVM\n(DLSSVM) algorithm which approximates nonlinear ker-\nnels with explicit feature maps. DLSSVM improves track-\ning performance signiﬁcantly, while its tracking speed is not\n14021\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

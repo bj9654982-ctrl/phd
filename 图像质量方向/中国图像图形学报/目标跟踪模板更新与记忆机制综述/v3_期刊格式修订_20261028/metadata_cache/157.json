@@ -1,0 +1,392 @@
+{
+  "number": 157,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "BranchOut: Regularization for Online Ensemble Tracking with Convolutional Neural Networks",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2026-04-17T16:11:35Z",
+      "timestamp": 1776442295509,
+      "version": "3.51.2"
+    },
+    "reference-count": 40,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2017.63",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          9
+        ]
+      ],
+      "date-time": "2017-11-09T16:50:33Z",
+      "timestamp": 1510246233000
+    },
+    "page": "521-530",
+    "source": "Crossref",
+    "is-referenced-by-count": 110,
+    "title": [
+      "BranchOut: Regularization for Online Ensemble Tracking with Convolutional Neural Networks"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Bohyung",
+        "family": "Han",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jack",
+        "family": "Sim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Hartwig",
+        "family": "Adam",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Ensemble-based tracking: Aggregating crowdsourced structured time series data",
+        "author": "wang",
+        "year": "2014",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298664"
+      },
+      {
+        "key": "ref32",
+        "first-page": "1929",
+        "article-title": "Dropout: A simple way to prevent neural networks from overfitting",
+        "volume": "15",
+        "author": "srivastava",
+        "year": "2014",
+        "journal-title": "Journal of Machine Learning Research"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.153"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995407"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Regularization of neural network using dropconnect",
+        "author": "wan",
+        "year": "2013",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref40",
+        "author": "zhu",
+        "year": "2015",
+        "journal-title": "Tracking randomly moving objects on edge box proposals"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299094"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.81"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Online tracking by learning discriminative saliency map with convolutional neural network",
+        "author": "hong",
+        "year": "2015",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.354"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Deep networks with stochastic depth",
+        "author": "huang",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1010933404324"
+      },
+      {
+        "key": "ref27",
+        "article-title": "A scale adaptive kernel correlation filter tracker with feature integration",
+        "author": "li",
+        "year": "2014",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref6",
+        "article-title": "A unified framework for multitarget tracking and collective activity recognition",
+        "author": "choi",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref29",
+        "author": "nam",
+        "year": "2016",
+        "journal-title": "Modeling and propagating cnns in a tree structure for visual tracking"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Return of the devil in the details: Delving deep into convolutional nets",
+        "author": "chatfield",
+        "year": "2014",
+        "journal-title": "BMVC"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2015.84"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.28.65"
+      },
+      {
+        "key": "ref2",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "Fully-Convolutional Siamese Networks for Object Tracking"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref22",
+        "first-page": "564",
+        "article-title": "The visual object tracking VOT2015 challenge results",
+        "author": "kristan",
+        "year": "2015",
+        "journal-title": "ICCVW"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.95"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.346"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cviu.2016.07.002"
+      },
+      {
+        "key": "ref25",
+        "article-title": "Stochastic multiple choice learning for training diverse deep ensembles",
+        "author": "lee",
+        "year": "2016",
+        "journal-title": "NIPS"
+      }
+    ],
+    "event": {
+      "name": "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Honolulu, HI",
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            21
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            26
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8097368/8099483/08099546.pdf?arnumber=8099546",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          15
+        ]
+      ],
+      "date-time": "2017-12-15T16:48:06Z",
+      "timestamp": 1513356486000
+    },
+    "score": 65.75845,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/8099546/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    },
+    "references-count": 40,
+    "URL": "https://doi.org/10.1109/cvpr.2017.63",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          7
+        ]
+      ]
+    }
+  }
+}

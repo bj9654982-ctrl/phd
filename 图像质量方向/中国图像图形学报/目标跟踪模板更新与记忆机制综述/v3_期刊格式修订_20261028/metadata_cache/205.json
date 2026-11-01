@@ -1,0 +1,342 @@
+{
+  "number": 205,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Long-term correlation tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T00:40:11Z",
+      "timestamp": 1792024811511,
+      "version": "4.4.0"
+    },
+    "reference-count": 30,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2015.7299177",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2015-10-15T18:42:06Z",
+      "timestamp": 1444934526000
+    },
+    "page": "5388-5396",
+    "source": "Crossref",
+    "is-referenced-by-count": 753,
+    "title": [
+      "Long-term correlation tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Chao",
+        "family": "Ma",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaokang",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "family": "Chongyang Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ming-Hsuan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2014.2313227"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "Proceedings of the European Conference on Computer Vision"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Occlusion and motion reasoning for long-term tracking",
+        "author": "hua",
+        "year": "2014",
+        "journal-title": "Proceedings of the European Conference on Computer Vision"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511541087"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.16"
+      },
+      {
+        "key": "ref17",
+        "article-title": "Machine Learning: A Probabilistic Perspective",
+        "author": "murphy",
+        "year": "2012"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2007.383123"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-33885-4_61"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Fast visual tracking via dense spatio-temporal context learning",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "Proceedings of the European Conference on Computer Vision"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.177"
+      },
+      {
+        "key": "ref27",
+        "article-title": "MEEM: robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "Proceedings of the European Conference on Computer Vision"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "Proceedings of the European Conference on Computer Vision"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "Proceedings of British Machine Vision Conference"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Transfer learning based visual tracking with gaussian processes regression",
+        "author": "gao",
+        "year": "2014",
+        "journal-title": "Proceedings of the European Conference on Computer Vision"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2300479"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:VISI.0000011205.11775.fd"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.308"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.230"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2001.990517"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BFb0028345"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Boston, MA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7293313/7298593/07299177.pdf?arnumber=7299177",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2017-03-24T17:49:43Z",
+      "timestamp": 1490377783000
+    },
+    "score": 31.665022,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7299177/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "references-count": 30,
+    "URL": "https://doi.org/10.1109/cvpr.2015.7299177",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    }
+  }
+}

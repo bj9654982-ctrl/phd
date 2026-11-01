@@ -1,0 +1,42 @@
+{
+  "number": 168,
+  "title": "High-Performance Long-Term Tracking With Meta-Updater",
+  "year": 2020,
+  "authors": [
+    "Kenan Dai",
+    "Yunhua Zhang",
+    "Dong Wang",
+    "Jianhua Li",
+    "Huchuan Lu",
+    "Xiaoyun Yang"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.pdf",
+      "bytes": 3318754,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\168_2020_High-Performance_Long-Term_Tracking_With_Meta-Updater.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.pdf",
+  "bytes": 3318754,
+  "sha256": "5e6d50f98dfd8db0fed25cc4606f89c9727b602116711aefb47a8c27343b5d14",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "High-Performance Long-Term Tracking With Meta-Updater",
+  "first_page_text": "High-Performance Long-Term Tracking with Meta-Updater\nKenan Dai1, Yunhua Zhang2, Dong Wang1∗, Jianhua Li1, Huchuan Lu1,4, Xiaoyun Yang3\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2University of Amsterdam\n3China Science IntelliCloud Technology Co., Ltd\n4Peng Cheng Laboratory\ndkn2014@mail.dlut.edu.cn, y.zhang9@uva.nl, wdice@dlut.edu.cn\njianhual@dlut.edu.cn, lhchuan@dlut.edu.cn, xiaoyun.yang@intellicloud.ai\nAbstract\nLong-term visual tracking has drawn increasing atten-\ntion because it is much closer to practical applications\nthan short-term tracking. Most top-ranked long-term track-\ners adopt the ofﬂine-trained Siamese architectures, thus,\nthey cannot beneﬁt from great progress of short-term track-\ners with online update.\nHowever, it is quite risky to s-\ntraightforwardly introduce online-update-based trackers to\nsolve the long-term problem, due to long-term uncertain\nand noisy observations. In this work, we propose a nov-\nel ofﬂine-trained Meta-Updater to address an importan-\nt but unsolved problem: Is the tracker ready for updating\nin the current frame? The proposed meta-updater can ef-\nfectively integrate geometric, discriminative, and appear-\nance cues in a sequential manner, and then mine the se-\nquential information with a designed cascaded LSTM mod-\nule. Our meta-updater learns a binary output to guide the\ntracker’s update and can be easily embedded into differ-\nent trackers. This work also introduces a long-term track-\ning framework consisting of an online local tracker, an on-\nline veriﬁer, a SiamRPN-based re-detector, and our meta-\nupdater. Numerous experimental results on the VOT2018LT,\nVOT2019LT, OxUvALT, TLP, and LaSOT benchmarks show\nthat our tracker performs remarkably better than other com-\npeting algorithms. Our project is available on the website:\nhttps://github.com/Daikenan/LTMU.\n1. Introduction\nThe study of visual tracking has begun to shift from\nshort-term tracking to large-scale long-term tracking,\nroughly due to two reasons. First, long-term tracking is\nmuch closer to practical applications than short-term track-\ning. The average length of sequences in short-term track-\ning benchmarks (OTB [46], VOT2018 [23], TC128 [31], to\nname a few) is often at the second level, whereas the av-\n∗Corresponding Author: Dr. Dong Wang, wdice@dlut.edu.cn\nOurs\nATOM*_LT\nATOM*\nATOM*\nATOM* LT\nOurs\nCLGS\nSiamDW LT\nF-score\n0.527\n0.651\n0.697\n0.674\n0.665\nPr\n0.589\n0.685\n0.721\n0.739\n0.697\nRe\n0.477\n0.621\n0.674\n0.619\n0.636\nFigure 1. Visualization and comparisons of representative long-\nterm tracking results on VOT2019LT. “ATOM*” is our local track-\ner based on ATOM [9], “Ours” denotes our long-term tracker with\nmeta-update. “ATOM* LT” means “Ours” without meta-updater.\n“CLGS” and “SiamDW LT” are the second and third best trackers\non VOT2019LT. Please see Sections 3 and 4 for more details.\nerage frame length in long-term tracking datasets (such as\nVOT2018LT [23], VOT2019LT [24], and OxUvALT [42])\nis at least at the minute level. Second, the long-term track-\ning task additionally requires the tracker having the capabil-\nity to handle frequent disappearance and reappearance (i.e.,\nhaving a strong re-detection capability)1.\nDeep-learning-based methods have dominated the short-\nterm tracking ﬁeld [30, 47, 35], from the perspective of\neither one-shot learning [41, 2, 15, 28, 26, 12, 53, 29] or\nonline learning [37, 10, 8, 21, 40, 7, 49, 50, 9]. Usual-\nly, the latter methods (e.g., ECO [8], ATOM [9]) are more\naccurate (with less training data) but slower than the for-\nmer ones (e.g., SiamFC [2], SiamRPN [28]). A curious\nphenomenon is that few leading long-term trackers exploit\nonline-updated short-term trackers to conduct local track-\n1More resources about long-term tracking can be found in https://\ngithub.com/wangdongdut/Long-term-Visual-Tracking.\n6298\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

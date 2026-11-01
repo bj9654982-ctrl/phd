@@ -1,0 +1,1039 @@
+{
+  "number": 247,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2026-10-15T16:23:57Z",
+      "timestamp": 1792081437085,
+      "version": "4.4.0"
+    },
+    "reference-count": 125,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2024-06-16T00:00:00Z",
+          "timestamp": 1718496000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52733.2024.01805",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2024-09-16T13:34:53Z",
+      "timestamp": 1726493693000
+    },
+    "page": "19079-19091",
+    "source": "Crossref",
+    "is-referenced-by-count": 153,
+    "title": [
+      "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Lingyi",
+        "family": "Hong",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Key Lab of Intelligent Information Processing, School of Computer Science,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shilin",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Key Lab of Intelligent Information Processing, School of Computer Science,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Renrui",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CUHK MMLab"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wanyun",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Key Lab of Intelligent Information Processing, School of Computer Science,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xinyu",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Key Lab of Intelligent Information Processing, School of Computer Science,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pinxue",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Engineering Research Center of AI &#x0026; Robotics, Academy for Engineering &#x0026; Technology,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kaixun",
+        "family": "Jiang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Engineering Research Center of AI &#x0026; Robotics, Academy for Engineering &#x0026; Technology,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yiting",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Key Lab of Intelligent Information Processing, School of Computer Science,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jinglun",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Engineering Research Center of AI &#x0026; Robotics, Academy for Engineering &#x0026; Technology,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhaoyu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Engineering Research Center of AI &#x0026; Robotics, Academy for Engineering &#x0026; Technology,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wenqiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University,Shanghai Key Lab of Intelligent Information Processing, School of Computer Science,Shanghai,China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01797"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nn.3386"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Beit: Bert pre-training of image transformers",
+        "author": "Bao",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref7",
+        "article-title": "On the opportunities and risks of foundation models",
+        "author": "Bommasani",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.aan8869"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_22"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.312"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Adaptformer: Adapting vision transformers for scalable visual recognition",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00670"
+      },
+      {
+        "key": "ref14",
+        "article-title": "Vision transformer adapter for dense predictions",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19815-1_37"
+      },
+      {
+        "key": "ref16",
+        "first-page": "11781",
+        "article-title": "Re- thinking space-time networks with improved memory coverage for efficient video object segmentation",
+        "volume": "34",
+        "author": "Kei Cheng",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+        "author": "Devlin",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01850"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2010.11929"
+      },
+      {
+        "key": "ref26",
+        "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+        "author": "Dosovitskiy",
+        "year": "2021",
+        "journal-title": "ICLR"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0096-3445.113.4.501"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref30",
+        "article-title": "Instructseq: Unifying vision tasks with instruction- conditioned multi-modal sequence generation",
+        "author": "Fang",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV45572.2020.9093425"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00579"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-023-01891-x"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_9"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01792"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6248074"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2022.3219230"
+      },
+      {
+        "key": "ref38",
+        "article-title": "Towards a unified view of parameter-efficient transfer learning",
+        "author": "He",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2021.3137660"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/iccv51070.2023.01240"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3581783.3611804"
+      },
+      {
+        "key": "ref43",
+        "first-page": "2790",
+        "article-title": "Parameter-efficient transfer learning for nlp",
+        "volume-title": "International Conference on Machine Learning",
+        "author": "Houlsby"
+      },
+      {
+        "key": "ref44",
+        "article-title": "Lora: Low-rank adaptation of large language models",
+        "author": "Edward",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2004.834657"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19827-4_41"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-10484-7"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00276"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-68238-5_39"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW54120.2021.00305"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-25085-9_25"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01264-9_45"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.18653/v1/2021.emnlp-main.243"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3123266.3123289"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2019.106977"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58542-6_14"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2021.3130533"
+      },
+      {
+        "key": "ref61",
+        "article-title": "Prefix-tuning: Optimizing continuous prompts for generation",
+        "author": "Lisa Li",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.777"
+      },
+      {
+        "key": "ref63",
+        "article-title": "P-tuning v2: Prompt tuning can be comparable to fine-tuning universally across scales and tasks",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.1907.11692"
+      },
+      {
+        "key": "ref65",
+        "article-title": "Decoupled weight decay regularization",
+        "author": "Loshchilov",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00858"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01219-9_35"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "ref73",
+        "article-title": "Adapterfusion: Non-destructive task composition for transfer learning",
+        "author": "Pfeiffer",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref74",
+        "article-title": "The 2017 davis challenge on video object segmentation",
+        "author": "Pont-Tuset",
+        "year": "2017",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "8",
+        "key": "ref75",
+        "first-page": "9",
+        "article-title": "Language models are unsupervised multitask learners",
+        "volume": "1",
+        "author": "Radford",
+        "year": "2019",
+        "journal-title": "OpenAI blog"
+      },
+      {
+        "key": "ref76",
+        "first-page": "8748",
+        "article-title": "Learning transferable visual models from natural language supervision",
+        "volume-title": "International conference on machine learning",
+        "author": "Radford"
+      },
+      {
+        "issue": "1",
+        "key": "ref77",
+        "first-page": "5485",
+        "article-title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+        "volume": "21",
+        "author": "Raffel",
+        "year": "2020",
+        "journal-title": "The Journal of Machine Learning Research"
+      },
+      {
+        "key": "ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "ref79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00937"
+      },
+      {
+        "key": "ref80",
+        "article-title": "Towards all-in-one pre-training via maximizing multi-modal mutual information",
+        "author": "Su",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2005.304"
+      },
+      {
+        "key": "ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00540"
+      },
+      {
+        "key": "ref83",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/ARXIV.1706.03762"
+      },
+      {
+        "key": "ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "ref85",
+        "article-title": "Omnitracker: Unifying object tracking by tracking-with-detection",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "ref87",
+        "article-title": "Image as a foreign language: Beit pretraining for all vision and vision- language tasks",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref88",
+        "article-title": "Vi- sevent: Reliable object tracking via collaboration of frame and event flows",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01355"
+      },
+      {
+        "key": "ref90",
+        "first-page": "726",
+        "article-title": "Do different tracking tasks require different appearance models?",
+        "volume": "34",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref92",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v36i3.20187"
+      },
+      {
+        "key": "ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v36i3.20187"
+      },
+      {
+        "key": "ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICPR.2010.420"
+      },
+      {
+        "key": "ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01228-1_36"
+      },
+      {
+        "key": "ref96",
+        "article-title": "Clip-vip: Adapting pretrained image-text model to video-language representation alignment",
+        "author": "Xue",
+        "year": "2022",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02177"
+      },
+      {
+        "key": "ref98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-19803-8_43"
+      },
+      {
+        "key": "ref100",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01471"
+      },
+      {
+        "key": "ref101",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01055"
+      },
+      {
+        "key": "ref102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01055"
+      },
+      {
+        "key": "ref103",
+        "article-title": "Panovos: Bridging non- panoramic and panoramic views with transformer for video segmentation",
+        "author": "Yan",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref104",
+        "article-title": "Referred by multi-modality: A unified temporal transformer for video object segmentation",
+        "author": "Yan",
+        "year": "2023",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503161.3547851"
+      },
+      {
+        "key": "ref106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3503161.3547851"
+      },
+      {
+        "key": "ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58558-7_20"
+      },
+      {
+        "key": "ref108",
+        "first-page": "2491",
+        "article-title": "Associating objects with transformers for video object segmentation",
+        "volume": "34",
+        "author": "Yang",
+        "year": "2021",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01179"
+      },
+      {
+        "key": "ref112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01280"
+      },
+      {
+        "key": "ref113",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00860"
+      },
+      {
+        "key": "ref114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00278"
+      },
+      {
+        "key": "ref115",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00868"
+      },
+      {
+        "key": "ref116",
+        "article-title": "Tip-adapter: Training-free clip-adapter for better vision- language modeling",
+        "author": "Zhang",
+        "year": "2021",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "key": "ref117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.79"
+      },
+      {
+        "key": "ref118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02217"
+      },
+      {
+        "key": "ref119",
+        "article-title": "Reading relevant feature from global representation memory for visual object tracking",
+        "volume": "36",
+        "author": "Zhou",
+        "year": "2024",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2023.3272319"
+      },
+      {
+        "key": "ref121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.00918"
+      },
+      {
+        "key": "ref122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i3.25500"
+      },
+      {
+        "key": "ref123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v37i3.25500"
+      },
+      {
+        "key": "ref124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3343031.3350928"
+      },
+      {
+        "key": "ref125",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIV.2020.2980735"
+      }
+    ],
+    "event": {
+      "name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Seattle, WA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            16
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            22
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/10654794/10654797/10655540.pdf?arnumber=10655540",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2025-06-19T13:35:11Z",
+      "timestamp": 1750340111000
+    },
+    "score": 69.70183,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10655540/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 125,
+    "URL": "https://doi.org/10.1109/cvpr52733.2024.01805",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          16
+        ]
+      ]
+    }
+  }
+}

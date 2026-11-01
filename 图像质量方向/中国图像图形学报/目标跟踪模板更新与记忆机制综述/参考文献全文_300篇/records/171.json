@@ -1,0 +1,41 @@
+{
+  "number": 171,
+  "title": "Tracking by Instance Detection: A Meta-Learning Approach",
+  "year": 2020,
+  "authors": [
+    "Guangting Wang",
+    "Chong Luo",
+    "Xiaoyan Sun",
+    "Zhiwei Xiong",
+    "Wenjun Zeng"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Tracking_by_Instance_Detection_A_Meta-Learning_Approach_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Tracking_by_Instance_Detection_A_Meta-Learning_Approach_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Tracking_by_Instance_Detection_A_Meta-Learning_Approach_CVPR_2020_paper.pdf",
+      "bytes": 702344,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\171_2020_Tracking_by_Instance_Detection__A_Meta-Learning_Approach.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Tracking_by_Instance_Detection_A_Meta-Learning_Approach_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Tracking_by_Instance_Detection_A_Meta-Learning_Approach_CVPR_2020_paper.pdf",
+  "bytes": 702344,
+  "sha256": "fa891e67ac98b646df4086f0042ad43cc919129f5735157c2578c2eb73f264ae",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Tracking by Instance Detection: A Meta-Learning Approach",
+  "first_page_text": "Tracking by Instance Detection: A Meta-Learning Approach\nGuangting Wang1\nChong Luo2\nXiaoyan Sun2\nZhiwei Xiong1\nWenjun Zeng2\nUniversity of Science and Technology of China1\nMicrosoft Research Asia2\nwgting96@gmail.com\n{cluo, xysun, wezeng}@microsoft.com\nzwxiong@ustc.edu.cn\nAbstract\nWe consider the tracking problem as a special type of\nobject detection problem, which we call instance detection.\nWith proper initialization, a detector can be quickly con-\nverted into a tracker by learning the new instance from a\nsingle image. We ﬁnd that model-agnostic meta-learning\n(MAML) offers a strategy to initialize the detector that satis-\nﬁes our needs. We propose a principled three-step approach\nto build a high-performance tracker. First, pick any modern\nobject detector trained with gradient descent. Second, con-\nduct ofﬂine training (or initialization) with MAML. Third,\nperform domain adaptation using the initial frame. We fol-\nlow this procedure to build two trackers, named Retina-\nMAML and FCOS-MAML, based on two modern detec-\ntors RetinaNet and FCOS. Evaluations on four benchmarks\nshow that both trackers are competitive against state-of-\nthe-art trackers. On OTB-100, Retina-MAML achieves the\nhighest ever AUC of 0.712. On TrackingNet, FCOS-MAML\nranks the ﬁrst on the leader board with an AUC of 0.757\nand the normalized precision of 0.822. Both trackers run in\nreal-time at 40 FPS.\n1. Introduction\nGiven a bounding box deﬁning the target object in the\ninitial frame, the goal of visual object tracking is to auto-\nmatically determine the location and extent of the object in\nevery frame that follows. The tracking problem is closely\nrelated to the detection problem, and it even can be treated\nas a special type of object detection, which we call instance\ndetection. The major difference is that object detection lo-\ncates objects of some predeﬁned classes and its output does\nnot differentiate between intra-class instances. But object\ntracking only looks for a particular instance, which may be-\nlong to any known or unknown object class, that is speciﬁed\nin the initial frame.\nGiven the similarity between the two tasks, some object\ndetection techniques are used extensively in object tracking.\nFor example, the region proposal network (RPN), which\nThis work was done while Guangting was an intern with MSRA.\nDomain Adaptation\nTest image\nAfter adaptation\nBefore adaptation\nTraining image\nFigure 1: MAML provides an effective way to initialize an\ninstance detector. With a single training image, the detector\ncan be quickly adapted to the new domain (instance). It is\ncapable of locating target object in subsequent frames even\nwhen the object has signiﬁcant appearance changes.\nwas proposed in Faster R-CNN detector [30], has been\nadopted in SiamRPN tracker and its variants [21, 20, 43].\nThe introduction of multi-aspect-ratio anchors solves the\nbox estimation problem that has been plaguing previous\ntrackers.\nIt has greatly improved the performance of\nsiamese-network-based trackers.\nMore recently, the IoU\nnetwork [14], which is again an innovation in object de-\ntection, is applied to object tracking by ATOM and DiMP\n[6, 3] and demonstrates powerful capabilities.\nIn addition to these approaches that borrow advanced\ncomponents from object detection to assemble a tracker, we\nbelieve that another option is to directly convert a modern\nobject detector into a high-performance tracker. This will\nallow the tracker to retain not only the advanced compo-\nnents but also the overall design of the base detector. The\nmain challenge is how to obtain a good initialization of the\ndetector so that once a new instance is given, it can ef-\nﬁciently infuse the instance information into the network\nwithout overﬁtting. Fig.1 illustrates the idea. The detector\nmay behave like a general object detector before adaptation.\nBut after domain adaptation with a single training image, it\nis able to “memorize” the target and correctly locate the tar-\nget in subsequent frames. A recent work by Huang et al.\n6288\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

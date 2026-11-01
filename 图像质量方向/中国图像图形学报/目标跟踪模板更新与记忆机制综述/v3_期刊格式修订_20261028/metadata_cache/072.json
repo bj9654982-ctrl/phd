@@ -1,0 +1,439 @@
+{
+  "number": 72,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Exploring Causal Relationships in Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          4
+        ]
+      ],
+      "date-time": "2025-11-04T10:32:07Z",
+      "timestamp": 1762252327555
+    },
+    "reference-count": 41,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2015-12-01T00:00:00Z",
+          "timestamp": 1448928000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2015-12-01T00:00:00Z",
+          "timestamp": 1448928000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2015.351",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2016-02-19T23:23:49Z",
+      "timestamp": 1455924229000
+    },
+    "page": "3065-3073",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "Exploring Causal Relationships in Visual Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Karel",
+        "family": "Lebeda",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Univ. of Surrey, Guildford, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Simon",
+        "family": "Hadfield",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Univ. of Surrey, Guildford, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Bowden",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Univ. of Surrey, Guildford, UK"
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "article-title": "Sparse Granger causality graphs for human action classification",
+        "author": "yi",
+        "year": "2012",
+        "journal-title": "ICPR"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.24"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.85.461"
+      },
+      {
+        "journal-title": "Gaussian Processes for Machine Learning",
+        "year": "2006",
+        "author": "rasmussen",
+        "key": "ref32"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539871"
+      },
+      {
+        "journal-title": "Causality Models Reasoning and Inference",
+        "year": "2000",
+        "author": "pearl",
+        "key": "ref30"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10827-010-0262-3"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1992331"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.20965/jrm.2008.p0378",
+        "article-title": "Learning of joint attention from detecting causality based on transfer entropy",
+        "author": "sumioka",
+        "year": "2008",
+        "journal-title": "J of Robotics and Mechatronics"
+      },
+      {
+        "key": "ref10",
+        "article-title": "Using causal induction in humans to learn and infer causality from video",
+        "author": "fire",
+        "year": "2013",
+        "journal-title": "8th Annu Conf Cognitive Science Society"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.conb.2012.11.010"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1912791"
+      },
+      {
+        "key": "ref14",
+        "article-title": "An introduction to variable and feature selection",
+        "author": "guyon",
+        "year": "2003",
+        "journal-title": "J MLR"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00036840500405763"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/mp.2010.46"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1540-6261.1994.tb04776.x"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.physrep.2006.12.004"
+      },
+      {
+        "key": "ref28",
+        "article-title": "Robustifying the flock of trackers",
+        "author": "matas",
+        "year": "2011",
+        "journal-title": "CVWW"
+      },
+      {
+        "key": "ref4",
+        "article-title": "Physics-based visual understanding",
+        "author": "brand",
+        "year": "1996",
+        "journal-title": "CVIU"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.26.75"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCST.2006.883234"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/11744023_29"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.337"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.145"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/78.782219"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.70832"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TPAMI.2010.226",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "babenko",
+        "year": "2011",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s131013685"
+      },
+      {
+        "journal-title": "Physics III",
+        "year": "0",
+        "key": "ref1"
+      },
+      {
+        "journal-title": "A treatise of human nature",
+        "year": "1738",
+        "author": "hume",
+        "key": "ref20"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.280797"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1115/1.3662552"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0167-2789(02)00432-3"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.26"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.20"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE International Conference on Computer Vision (ICCV)",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            7
+          ]
+        ]
+      },
+      "location": "Santiago, Chile",
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            13
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7407725/7410356/07410708.pdf?arnumber=7410708",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2024-01-15T20:58:20Z",
+      "timestamp": 1705352300000
+    },
+    "score": 47.079094,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/7410708/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "references-count": 41,
+    "URL": "https://doi.org/10.1109/iccv.2015.351",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "number": 6,
+  "title": "Visual object tracking: review and challenges",
+  "year": 2025,
+  "authors": [
+    "Chen Z",
+    "Peng C",
+    "Liu S",
+    "Ding W"
+  ],
+  "venue": "Applied Soft Computing",
+  "category": "相关综述与研究定位",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.sciencedirect.com/science/article/pii/S156849462500451X",
+  "doi": "10.1016/j.asoc.2025.113140",
+  "status": "not_downloaded",
+  "attempts": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S156849462500451X",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.sciencedirect.com/science/article/pii/S156849462500451X"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验"
+}

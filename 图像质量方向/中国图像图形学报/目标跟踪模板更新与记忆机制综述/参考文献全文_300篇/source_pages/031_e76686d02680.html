@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Benchmark and Simulator for UAV Tracking — Matthias Müller</title>
+<meta name="description" content="We present a benchmark and simulator for UAV tracking. Our benchmark comprises 70 video sequences captured from a UAV perspective and annotated with bounding boxes, covering diverse scenarios including bird-eye-view, moving camera, and v…">
+<link rel="canonical" href="https://matthias.pw/publication/benchmark.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://matthias.pw/publication/benchmark.html">
+<meta property="og:title" content="A Benchmark and Simulator for UAV Tracking">
+<meta property="og:description" content="We present a benchmark and simulator for UAV tracking. Our benchmark comprises 70 video sequences captured from a UAV perspective and annotated with bounding boxes, covering diverse scenarios including bird-eye-view, moving camera, and v…">
+<meta property="og:image" content="https://matthias.pw/img/uav_benchmark_simulator.jpg">
+<meta property="og:site_name" content="Matthias Müller">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="A Benchmark and Simulator for UAV Tracking">
+<meta name="twitter:description" content="We present a benchmark and simulator for UAV tracking. Our benchmark comprises 70 video sequences captured from a UAV perspective and annotated with bounding boxes, covering diverse scenarios including bird-eye-view, moving camera, and v…">
+<meta name="twitter:image" content="https://matthias.pw/img/uav_benchmark_simulator.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "A Benchmark and Simulator for UAV Tracking",
+  "name": "A Benchmark and Simulator for UAV Tracking",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Matthias Müller"
+    },
+    {
+      "@type": "Person",
+      "name": "Neil Smith"
+    },
+    {
+      "@type": "Person",
+      "name": "Bernard Ghanem"
+    }
+  ],
+  "datePublished": "2016",
+  "isPartOf": {
+    "@type": "PublicationIssue",
+    "name": "ECCV 2016"
+  },
+  "url": "https://matthias.pw/publication/benchmark.html",
+  "inLanguage": "en",
+  "abstract": "We present a benchmark and simulator for UAV tracking. Our benchmark comprises 70 video sequences captured from a UAV perspective and annotated with bounding boxes, covering diverse scenarios including bird-eye-view, moving camera, and varying altitude. We evaluate 16 state-of-the-art trackers on our benchmark and find that most existing algorithms perform significantly worse than on standard ground-level datasets, highlighting the unique challenges of aerial tracking. To support learning-based approaches, we develop a photo-realistic UAV simulator built on Unreal Engine that enables large-scale synthetic data generation with full annotation control.",
+  "image": "https://matthias.pw/img/uav_benchmark_simulator.jpg"
+}
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YXGJ68P38C"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-YXGJ68P38C');
+</script>
+
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="stylesheet" href="../fonts/google-fonts.css">
+<link rel="stylesheet" href="../fonts/fa.min.css">
+<script>
+  (function(){var s=localStorage.getItem('theme');var d=s==='dark'||(s===null&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches);if(d)document.documentElement.setAttribute('data-theme','dark');})();
+</script>
+<style>
+:root{
+  --red:#e40000;--red-dark:#af0000;--red-bg:#fff5f5;--red-border:#fecaca;
+  --bg:#ffffff;--bg-alt:#f7f7f7;--text:#313131;--text-muted:#7a7a7a;
+  --border:#e5e5e5;--link:#5e3434;
+  --shadow-sm:0 1px 3px rgba(0,0,0,.08);--shadow:0 2px 8px rgba(0,0,0,.10);
+  --radius:6px;--t:.18s ease;
+}
+[data-theme="dark"]{
+  --bg:#0d1320;--bg-alt:#161e2e;--text:#e4e8ef;--text-muted:#8b95a8;
+  --border:#2a3345;--link:#fca5a5;--red:#ef4444;--red-dark:#dc2626;
+  --red-bg:#2a1414;--red-border:#7f1d1d;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Lato',sans-serif;background:var(--bg);color:var(--text);line-height:1.7;font-size:16px;}
+a{color:var(--red);text-decoration:none;}
+a:hover{text-decoration:underline;}
+picture{display:contents;}
+
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:#fff;border-bottom:1px solid var(--border);box-shadow:var(--shadow-sm);}
+[data-theme="dark"] nav{background:rgba(13,19,32,.95);border-bottom-color:var(--border);}
+.nav-inner{max-width:1160px;margin:0 auto;padding:0 2rem;height:60px;display:flex;align-items:center;justify-content:space-between;}
+.nav-right{display:flex;align-items:center;gap:.25rem;}
+.nav-brand{font-size:1rem;font-weight:700;color:var(--text);letter-spacing:-.01em;}
+.nav-brand:hover{text-decoration:none;color:var(--red);}
+.nav-links{list-style:none;display:flex;align-items:center;gap:.1rem;}
+.nav-links a{color:var(--link);font-size:.875rem;font-weight:700;padding:.4rem .9rem;border-radius:4px;}
+.nav-links a:hover{color:var(--red);text-decoration:none;}
+.theme-toggle{background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:1.05rem;padding:.4rem .55rem;border-radius:6px;transition:color var(--t),background var(--t);margin-left:.25rem;}
+.theme-toggle:hover{color:var(--red);background:var(--bg-alt);}
+.theme-toggle .icon-light{display:inline;}
+.theme-toggle .icon-dark{display:none;}
+[data-theme="dark"] .theme-toggle .icon-light{display:none;}
+[data-theme="dark"] .theme-toggle .icon-dark{display:inline;}
+.hamburger{display:none;background:none;border:none;cursor:pointer;color:var(--text);font-size:1.3rem;}
+@media(max-width:720px){
+  .hamburger{display:block;}
+  .nav-links{display:none;position:absolute;top:60px;left:0;right:0;background:#fff;flex-direction:column;padding:.75rem;border-bottom:1px solid var(--border);box-shadow:var(--shadow);}
+  [data-theme="dark"] .nav-links{background:var(--bg);}
+  .nav-links.open{display:flex;}
+  .nav-links a{width:100%;padding:.6rem 1rem;}
+}
+
+/* venue badges */
+.vbadge{display:inline-block;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:.25rem .7rem;border-radius:3px;}
+.vb-nature{background:#d1fae5;color:#065f46;}
+.vb-scirob{background:#dcfce7;color:#166534;}
+.vb-cvpr,.vb-iccv,.vb-eccv{background:#dbeafe;color:#1e40af;}
+.vb-iclr,.vb-neurips,.vb-icml{background:#ede9fe;color:#4c1d95;}
+.vb-rss,.vb-icra,.vb-corl{background:#fee2e2;color:#991b1b;}
+.vb-aaai{background:#fef3c7;color:#92400e;}
+.vb-journal{background:#f0fdf4;color:#166534;}
+.vb-arxiv,.vb-workshop{background:#f1f5f9;color:#475569;}
+[data-theme="dark"] .vb-nature{background:#0f2a1e;color:#86efac;}
+[data-theme="dark"] .vb-scirob{background:#0f2a1f;color:#a7f3d0;}
+[data-theme="dark"] .vb-cvpr,[data-theme="dark"] .vb-iccv,[data-theme="dark"] .vb-eccv{background:#0e1c2c;color:#bfdbfe;}
+[data-theme="dark"] .vb-iclr,[data-theme="dark"] .vb-neurips,[data-theme="dark"] .vb-icml{background:#1a1430;color:#ddd6fe;}
+[data-theme="dark"] .vb-rss,[data-theme="dark"] .vb-icra,[data-theme="dark"] .vb-corl{background:#2a1414;color:#fecaca;}
+[data-theme="dark"] .vb-aaai{background:#3b2f10;color:#fde68a;}
+[data-theme="dark"] .vb-journal{background:#0f2a1e;color:#a7f3d0;}
+[data-theme="dark"] .vb-arxiv,[data-theme="dark"] .vb-workshop{background:#1f2937;color:#cbd5e1;}
+
+/* link pills */
+.pl{display:inline-flex;align-items:center;gap:.3rem;padding:.4rem .85rem;border-radius:5px;font-size:.85rem;font-weight:700;text-decoration:none;border:1px solid;transition:all var(--t);cursor:pointer;line-height:1.4;box-sizing:border-box;font-family:inherit;}
+.pl-pdf{color:#166534;border-color:#bbf7d0;background:#f0fdf4;}
+.pl-pdf:hover{background:#166534;color:#fff;border-color:#166534;text-decoration:none;}
+.pl-code{color:#553c9a;border-color:#d6bcfa;background:#faf5ff;}
+.pl-code:hover{background:#553c9a;color:#fff;border-color:#553c9a;text-decoration:none;}
+.pl-video{color:#c53030;border-color:#fed7d7;background:#fff5f5;}
+.pl-video:hover{background:#c53030;color:#fff;border-color:#c53030;text-decoration:none;}
+.pl-project{color:#2b6cb0;border-color:#bee3f8;background:#ebf8ff;}
+.pl-project:hover{background:#2b6cb0;color:#fff;border-color:#2b6cb0;text-decoration:none;}
+.pl-pdf-svg{width:14px;height:14px;display:block;flex-shrink:0;}
+[data-theme="dark"] .pl-pdf{background:#0e1f17;border-color:#1e4d36;color:#5fd6a4;}
+[data-theme="dark"] .pl-code{background:#1a1430;border-color:#3d2d6e;color:#c4b5fd;}
+[data-theme="dark"] .pl-video{background:#2a1414;border-color:#7f1d1d;color:#fca5a5;}
+[data-theme="dark"] .pl-project{background:#0e1c2c;border-color:#1e3a5f;color:#7dd3fc;}
+
+/* detail page layout */
+.pub-detail{max-width:820px;margin:0 auto;padding:7rem 2rem 4rem;}
+.back-nav{display:flex;gap:1.25rem;margin-bottom:1.5rem;}
+.back-link{display:inline-flex;align-items:center;gap:.4rem;color:var(--text-muted);font-size:.88rem;font-weight:600;}
+.back-link:hover{color:var(--red);text-decoration:none;}
+.pub-detail-header{margin-bottom:2rem;}
+.pub-detail-header .vbadge{margin-bottom:1rem;}
+.pub-detail-header h1{font-family:'Merriweather',serif;font-size:1.85rem;font-weight:700;color:var(--text);line-height:1.3;margin-bottom:.85rem;}
+.pub-detail-authors{font-size:1rem;color:var(--text-muted);line-height:1.5;}
+.pub-detail-authors strong{color:var(--text);}
+.pub-detail-img{width:100%;background:#fff;border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-bottom:2rem;display:flex;align-items:center;justify-content:center;}
+.pub-detail-img img{max-width:100%;max-height:380px;object-fit:contain;display:block;}
+.pub-section{margin-bottom:2.25rem;}
+.pub-section h2{font-family:'Merriweather',serif;font-size:1.15rem;font-weight:700;color:var(--text);margin-bottom:.85rem;padding-bottom:.4rem;border-bottom:2px solid var(--red);display:inline-block;padding-right:1rem;}
+.pub-abstract-text{font-size:.95rem;line-height:1.75;color:var(--text);}
+.pub-resources{display:flex;flex-wrap:wrap;gap:.5rem;}
+.pub-arxiv-line{margin-top:.85rem;font-size:.85rem;color:var(--text-muted);}
+.pub-arxiv-line a{color:var(--text-muted);text-decoration:underline;}
+.bibtex-block{background:#1e1e1e;border-radius:6px;padding:1.1rem 1.3rem;font-family:'Courier New',monospace;font-size:.78rem;color:#d4d4d4;white-space:pre;overflow-x:auto;margin-bottom:.85rem;line-height:1.6;}
+.bibtex-actions{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;}
+.btn-red{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;background:var(--red);color:#fff;border:2px solid var(--red);border-radius:4px;font-size:.82rem;font-weight:700;cursor:pointer;text-decoration:none;transition:all var(--t);font-family:inherit;}
+.btn-red:hover{background:var(--red-dark);border-color:var(--red-dark);color:#fff;text-decoration:none;}
+.btn-outline-red{display:inline-flex;align-items:center;gap:.4rem;padding:.5rem 1.1rem;background:transparent;color:var(--red);border:2px solid var(--red);border-radius:4px;font-size:.82rem;font-weight:700;cursor:pointer;text-decoration:none;transition:all var(--t);font-family:inherit;}
+.btn-outline-red:hover{background:var(--red);color:#fff;text-decoration:none;}
+.copied-msg{color:#065f46;font-size:.82rem;font-weight:700;display:none;align-items:center;gap:.3rem;}
+.copied-msg.show{display:inline-flex;}
+[data-theme="dark"] .copied-msg{color:#86efac;}
+.video-embed{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:var(--radius);background:#000;}
+.video-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+
+/* footer */
+footer{text-align:center;padding:1.75rem;background:#313131;color:rgba(255,255,255,.5);font-size:.8rem;}
+footer a{color:rgba(255,255,255,.6);}
+[data-theme="dark"] footer{background:#060912;}
+
+/* print: clean, single column, no nav */
+@page { margin: 1.8cm 1.6cm; }
+@media print {
+  :root, [data-theme="dark"] { --bg:#fff; --text:#000; --text-muted:#444; --border:#bbb; --red:#c00; --red-bg:#fff; --red-border:#bbb; }
+  body { background:#fff !important; color:#000 !important; font-size:10.5pt; }
+  nav, footer { display: none !important; }
+  .pub-detail { padding: 0 !important; max-width: 100% !important; }
+  .vbadge, .pl { background: #fff !important; color: #000 !important; border: 1px solid #999 !important; }
+  .bibtex-block { background: #fff !important; color: #000 !important; border: 1px solid #999; }
+  .pub-section { page-break-inside: avoid; }
+  .video-embed { display: none !important; }
+  .copied-msg, .btn-red, .btn-outline-red { display: none !important; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="../" class="nav-brand">Matthias Müller</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="../#about">About</a></li>
+        <li><a href="../#news">News</a></li>
+        <li><a href="../#press">Press</a></li>
+        <li><a href="../#publications-selected">Publications</a></li>
+        <li><a href="../#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <i class="icon-light fa-solid fa-moon"></i>
+        <i class="icon-dark fa-solid fa-sun"></i>
+      </button>
+      <button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Open menu"><i class="fa fa-bars"></i></button>
+    </div>
+  </div>
+</nav>
+
+<article class="pub-detail">
+  <div class="back-nav">
+    <a href="javascript:history.length>1?history.back():location.href='../#row-benchmark';void 0" class="back-link"><i class="fa fa-arrow-left"></i> Back</a>
+    <a href="../" class="back-link"><i class="fa fa-house"></i> Home</a>
+  </div>
+
+  <header class="pub-detail-header">
+    <span class="vbadge vb-eccv">ECCV 2016</span>
+    <h1>A Benchmark and Simulator for UAV Tracking</h1>
+    <p class="pub-detail-authors"><strong>Matthias Müller</strong>, Neil Smith, Bernard Ghanem</p>
+  </header>
+
+  <div class="pub-detail-img">
+    <picture>
+      <source srcset="../img/uav_benchmark_simulator.webp" type="image/webp">
+      <img src="../img/uav_benchmark_simulator.jpg" alt="A Benchmark and Simulator for UAV Tracking">
+    </picture>
+  </div>
+
+  <section class="pub-section">
+    <h2>Abstract</h2>
+    <p class="pub-abstract-text">We present a benchmark and simulator for UAV tracking. Our benchmark comprises 70 video sequences captured from a UAV perspective and annotated with bounding boxes, covering diverse scenarios including bird-eye-view, moving camera, and varying altitude. We evaluate 16 state-of-the-art trackers on our benchmark and find that most existing algorithms perform significantly worse than on standard ground-level datasets, highlighting the unique challenges of aerial tracking. To support learning-based approaches, we develop a photo-realistic UAV simulator built on Unreal Engine that enables large-scale synthetic data generation with full annotation control.</p>
+  </section>
+
+  <section class="pub-section">
+    <h2>Resources</h2>
+    <div class="pub-resources"><a href="https://drive.google.com/file/d/1YDlCOWxH8HMPlmblJ2OvxFdSFecuiM3Z" target="_blank" rel="noopener" class="pl pl-pdf"><svg class="pl-pdf-svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zM13 3.5L18.5 9H13V3.5zM8 17h8v1.5H8V17zm0-3h8v1.5H8V14zm0-3h5v1.5H8V11z"/></svg> PDF</a><a href="https://repository.kaust.edu.sa/handle/10754/622126" target="_blank" rel="noopener" class="pl pl-project"><i class="fa fa-globe"></i> Project</a></div>
+  </section>
+
+
+  <section class="pub-section">
+    <h2>Citation</h2>
+    <pre class="bibtex-block" id="bibtex">@inproceedings{mueller2016benchmark,
+  title     = {A Benchmark and Simulator for {UAV} Tracking},
+  author    = {M{\"{u}}ller, Matthias and Smith, Neil and Ghanem, Bernard},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  year      = {2016}
+}</pre>
+    <div class="bibtex-actions">
+      <button class="btn-outline-red" onclick="copyBibtex()"><i class="fa fa-copy"></i> Copy BibTeX</button>
+      <button class="btn-outline-red" onclick="sharePage()"><i class="fa fa-share-nodes"></i> Share</button>
+      <span class="copied-msg" id="copied-msg"><i class="fa fa-check"></i> Copied!</span>
+    </div>
+  </section>
+</article>
+
+<footer><p>&copy; 2026 Matthias Müller</p></footer>
+
+<script>
+function toggleTheme(){var d=document.documentElement.getAttribute('data-theme')==='dark';if(d){document.documentElement.removeAttribute('data-theme');localStorage.setItem('theme','light');}else{document.documentElement.setAttribute('data-theme','dark');localStorage.setItem('theme','dark');}}
+function copyBibtex(){navigator.clipboard.writeText(document.getElementById('bibtex').textContent).then(function(){var el=document.getElementById('copied-msg');el.textContent='✓ BibTeX copied to clipboard';el.classList.add('show');setTimeout(function(){el.classList.remove('show');},3000);});}
+function sharePage(){var url=window.location.href;var title=document.title;if(navigator.share){navigator.share({title:title,url:url}).catch(function(){});}else{navigator.clipboard.writeText(url).then(function(){var el=document.getElementById('copied-msg');el.textContent='✓ Link copied to clipboard';el.classList.add('show');setTimeout(function(){el.classList.remove('show');},3000);});}}
+</script>
+</body>
+</html>

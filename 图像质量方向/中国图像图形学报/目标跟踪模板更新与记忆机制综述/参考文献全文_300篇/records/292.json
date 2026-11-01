@@ -1,0 +1,45 @@
+{
+  "number": 292,
+  "title": "Long-term Tracking in the Wild: a Benchmark",
+  "year": 2018,
+  "authors": [
+    "Valmadre",
+    "Jack and Bertinetto",
+    "Luca and Henriques",
+    "Joao F. and Tao",
+    "Ran and Vedaldi",
+    "Andrea and Smeulders",
+    "Arnold W.M. and Torr",
+    "Philip H.S. and Gavves",
+    "Efstratios"
+  ],
+  "venue": "ECCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Efstratios_Gavves_Long-term_Tracking_in_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Efstratios_Gavves_Long-term_Tracking_in_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Efstratios_Gavves_Long-term_Tracking_in_ECCV_2018_paper.pdf",
+      "bytes": 913047,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\292_2018_Long-term_Tracking_in_the_Wild__a_Benchmark.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Efstratios_Gavves_Long-term_Tracking_in_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Efstratios_Gavves_Long-term_Tracking_in_ECCV_2018_paper.pdf",
+  "bytes": 913047,
+  "sha256": "c6310fe980983c8398a7e1e9ac77c08a7735e8c85993003c5408365dca6bd720",
+  "version": "会议官方开放版本",
+  "pages": 16,
+  "pdf_title": "Long-term Tracking in the Wild: a Benchmark",
+  "first_page_text": "Long-term Tracking in the Wild: A Benchmark\nJack Valmadre∗1, Luca Bertinetto∗1, Jo˜ao F. Henriques1, Ran Tao2, Andrea\nVedaldi1, Arnold W.M. Smeulders2, Philip H.S. Torr1, and Efstratios Gavves∗2\n1 University of Oxford\n2 University of Amsterdam\nAbstract. We introduce the OxUvA dataset and benchmark for evalu-\nating single-object tracking algorithms. Benchmarks have enabled great\nstrides in the ﬁeld of object tracking by deﬁning standardized evalua-\ntions on large sets of diverse videos. However, these works have focused\nexclusively on sequences that are just tens of seconds in length and in\nwhich the target is always visible. Consequently, most researchers have\ndesigned methods tailored to this “short-term” scenario, which is poorly\nrepresentative of practitioners’ needs. Aiming to address this disparity,\nwe compile a long-term, large-scale tracking dataset of sequences with\naverage length greater than two minutes and with frequent target ob-\nject disappearance. The OxUvA dataset is much larger than the object\ntracking datasets of recent years: it comprises 366 sequences spanning 14\nhours of video. We assess the performance of several algorithms, consid-\nering both the ability to locate the target and to determine whether it\nis present or absent. Our goal is to oﬀer the community a large and di-\nverse benchmark to enable the design and evaluation of tracking methods\nready to be used “in the wild”. The project website is oxuva.net.\n1\nIntroduction\nVisual object tracking is the task of locating an arbitrary, user-speciﬁed target\nin all frames of a video sequence. Traditionally, the target is speciﬁed using a\nrectangle in a single frame. The ability to track an arbitrary object would be\nuseful for many applications including video analytics, surveillance, robotics,\naugmented reality and video editing. However, the requirement to be able to\ntrack anything given only a single example presents a signiﬁcant challenge due to\nthe many complex factors that aﬀect appearance, such as out-of-plane rotation,\nnon-rigid deformation, camera perspective, motion blur, illumination changes,\nocclusions and clutter.\nTracking benchmarks [28,34,13,16,14,21] have played a huge role in the ad-\nvancement of the ﬁeld, enabling the objective comparison of diﬀerent techniques\nand driving impressive progress in recent years. However, these benchmarks have\nfocused on the problem of “short-term tracking” according to the deﬁnition of\nKristan et al. [13], which does not require methods to perform re-detection. This\nimplies that the object is always present in the video frame.\n∗Equal contribution\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

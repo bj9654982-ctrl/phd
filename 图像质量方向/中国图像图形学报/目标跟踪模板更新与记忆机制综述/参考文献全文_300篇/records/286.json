@@ -1,0 +1,42 @@
+{
+  "number": 286,
+  "title": "Robust Promptable Video Object Segmentation",
+  "year": 2026,
+  "authors": [
+    "Sohyun Lee",
+    "Yeho Gwon",
+    "Lukas Hoyer",
+    "Konrad Schindler",
+    "Christos Sakaridis",
+    "Suha Kwak"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_Robust_Promptable_Video_Object_Segmentation_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lee_Robust_Promptable_Video_Object_Segmentation_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lee_Robust_Promptable_Video_Object_Segmentation_CVPR_2026_paper.pdf",
+      "bytes": 7818170,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\286_2026_Robust_Promptable_Video_Object_Segmentation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lee_Robust_Promptable_Video_Object_Segmentation_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Lee_Robust_Promptable_Video_Object_Segmentation_CVPR_2026_paper.pdf",
+  "bytes": 7818170,
+  "sha256": "cbe4e7da7b538bb911c9577052b2923647d7704e69f80e9412dab66df82a4771",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Robust Promptable Video Object Segmentation",
+  "first_page_text": "Robust Promptable Video Object Segmentation\nSohyun Lee1\nYeho Gwon1\nLukas Hoyer2\nKonrad Schindler3\nChristos Sakaridis3\nSuha Kwak1\n1POSTECH\n2Google\n3ETH Z¨urich\nhttps://sohyun-l.github.io/RobustPVOS_project_page/\nAbstract\nThe performance of promptable video object segmenta-\ntion (PVOS) models substantially degrades under input\ncorruptions, which prevents PVOS deployment in safety-\ncritical domains. This paper offers the first comprehensive\nstudy on robust PVOS (RobustPVOS). We first construct a\nnew, comprehensive benchmark with two real-world eval-\nuation datasets of 351 video clips and more than 2,500\nobject masks under real-world adverse conditions. At the\nsame time, we generate synthetic training data by apply-\ning diverse and temporally varying corruptions to exist-\ning VOS datasets.\nMoreover, we present a new Robust-\nPVOS method, dubbed Memory-object-conditioned Gated-\nrank Adaptation (MoGA). The key to successfully perform-\ning RobustPVOS is two-fold: effectively handling object-\nspecific degradation and ensuring temporal consistency in\npredictions.\nMoGA leverages object-specific representa-\ntions maintained in memory across frames to condition the\nrobustification process, which allows the model to han-\ndle each tracked object differently in a temporally consis-\ntent way.\nExtensive experiments on our benchmark val-\nidate MoGA’s efficacy, showing consistent and significant\nimprovements across diverse corruption types on both syn-\nthetic and real-world datasets, establishing a strong base-\nline for future RobustPVOS research. Our benchmark is\npublicly available at our project page.\n1. Introduction\nPromptable video object segmentation (PVOS) has emerged\nas a powerful paradigm, enabling users to segment and track\narbitrary objects in videos given free-form prompts [8, 28,\n33, 37, 46]. The recent introduction of SAM2 [37] marks a\nsignificant breakthrough in this field, achieving impressive\nzero-shot performance by extending the success of prompt-\nable segmentation from images to videos. However, we em-\npirically find that the performance of SAM2 substantially\ndegrades under input corruptions caused by noise, blur, low\nillumination, and adverse weather.\nThis lack of robust-\n(b)\nReal\n351 clips\n16,840 frames\n2,543 objects\nSynthetic\n47,275 clips\n1.7M frames\n3.9M objects\n(a)\nFigure 1. Overview of (a) RobustPVOS and (b) our benchmark.\nRobustPVOS is the task of tracking and segmenting objects, indi-\ncated by initial prompts, across frames despite adverse conditions.\nness poses critical challenges for deploying PVOS in safety-\ncritical domains such as autonomous vehicles and robotics,\nwhere adverse conditions are inevitable, but has not been\nadequately studied or addressed to date.\nMotivated by this, we introduce the first comprehensive\nstudy on robust promptable video object segmentation (Ro-\nbustPVOS), whose goal and benchmark composition are il-\nlustrated in Figure 1. Our primary contribution is estab-\nlishing RobustPVOS as a well-defined research direction\nthrough a carefully designed benchmark that enables de-\nvelopment and systematic evaluation of RobustPVOS mod-\nels. We construct two real-world evaluation datasets com-\nprising 351 video clips with over 2,500 annotated object\nmasks from existing video collections captured under natu-\nral adverse conditions including rain, fog, snow, and night-\ntime scenarios [16, 38, 39]. To our knowledge, this is the\nfirst effort to provide dense, object-level annotations for\npromptable video segmentation under real-world corrup-\ntions.\nAdditionally, we create synthetic training data by\napplying eight diverse corruption types with temporal vari-\nations [4, 13, 19] to annotated videos from established VOS\ndatasets [7, 34, 47], enabling model training and evalua-\ntion under controlled conditions. These datasets provide a\nvaluable testbed for assessing model performance across di-\nverse degradation scenarios, from controlled synthetic cor-\nruptions to naturally occurring adverse conditions.\nBeyond the benchmark, we further investigate method-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n39838\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

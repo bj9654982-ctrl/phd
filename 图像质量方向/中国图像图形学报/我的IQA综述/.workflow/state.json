@@ -1,0 +1,13 @@
+{
+  "topic": "面向中国图像图形学报的全景式IQA综述系统文献调研（主观/数据库-传统FR-RR-NR-CNN-Transformer-CLIP-MLLM-AIGC，重点2023-2026）",
+  "current_stage": "done",
+  "completed": [
+    "literature-scout",
+    "research-synthesis",
+    "review-writing",
+    "document-delivery"
+  ],
+  "last_blocked": null,
+  "requirement_checklist": "J:\\phd\\图像质量方向\\中国图像图形学报\\我的IQA综述\\.workflow\\requirement_checklist.json",
+  "updated_at": "2026-10-20T16:22:46+00:00"
+}

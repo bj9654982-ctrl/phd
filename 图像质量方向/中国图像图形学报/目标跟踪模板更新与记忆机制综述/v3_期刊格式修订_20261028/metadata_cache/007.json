@@ -1,0 +1,284 @@
+{
+  "number": 7,
+  "original_doi": "10.1109/CVPR.2010.5539960",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Visual object tracking using adaptive correlation filters",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T18:51:12Z",
+      "timestamp": 1792954272112,
+      "version": "4.5.0"
+    },
+    "reference-count": 19,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2010.5539960",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          8,
+          10
+        ]
+      ],
+      "date-time": "2010-08-10T13:57:43Z",
+      "timestamp": 1281448663000
+    },
+    "page": "2544-2550",
+    "source": "Crossref",
+    "is-referenced-by-count": 2710,
+    "title": [
+      "Visual object tracking using adaptive correlation filters"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Dav",
+        "family": "Bolme",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J. Ross",
+        "family": "Beveridge",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bruce A.",
+        "family": "Draper",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yui Man",
+        "family": "Lui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1117/12.56169"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.26.003633"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.33.003751"
+      },
+      {
+        "key": "ref13",
+        "author": "messerschmitt",
+        "year": "2006",
+        "journal-title": "Stationary points of a real-valued function of a complex variable"
+      },
+      {
+        "key": "ref14",
+        "author": "oza",
+        "year": "2001",
+        "journal-title": "Online ensemble learning"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Numerical Recipes in C",
+        "author": "press",
+        "year": "1988"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/OL.16.000829"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref18",
+        "article-title": "Face verification using correlation filters",
+        "author": "savvides",
+        "year": "2002",
+        "journal-title": "AIAT"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2007.4409034"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PETS-WINTER.2009.5399555"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206701"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.23.001620"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00058655"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1233903"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/AO.19.001758"
+      },
+      {
+        "key": "ref2",
+        "article-title": "Visual Tracking with Online Multiple Instance Learning",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/JOSAA.3.001579"
+      }
+    ],
+    "event": {
+      "name": "2010 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "San Francisco, CA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2010,
+            6,
+            13
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2010,
+            6,
+            18
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/5521876/5539770/05539960.pdf?arnumber=5539960",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          18
+        ]
+      ],
+      "date-time": "2017-03-18T17:00:56Z",
+      "timestamp": 1489856456000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/5539960/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          6
+        ]
+      ]
+    },
+    "references-count": 19,
+    "URL": "https://doi.org/10.1109/cvpr.2010.5539960",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          6
+        ]
+      ]
+    }
+  }
+}

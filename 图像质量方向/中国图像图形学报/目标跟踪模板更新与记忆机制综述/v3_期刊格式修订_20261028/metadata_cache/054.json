@@ -1,0 +1,359 @@
+{
+  "number": 54,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Least Soft-Threshold Squares Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2026-04-21T15:38:02Z",
+      "timestamp": 1776785882406,
+      "version": "3.51.2"
+    },
+    "reference-count": 32,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2013.307",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2013-10-10T19:22:10Z",
+      "timestamp": 1381432930000
+    },
+    "page": "2371-2378",
+    "source": "Crossref",
+    "is-referenced-by-count": 183,
+    "title": [
+      "Least Soft-Threshold Squares Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Dong",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Huchuan",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ming-Hsuan",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "19",
+        "first-page": "1436",
+        "article-title": "Robust visual tracking using -1 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995730"
+      },
+      {
+        "key": "18",
+        "first-page": "1365",
+        "article-title": "Pixel-wise spatial pyramidbased hybrid tracking",
+        "volume": "22",
+        "author": "lu",
+        "year": "2012",
+        "journal-title": "TCSVT"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "16",
+        "first-page": "1",
+        "article-title": "Visual tracking via incremental log-Euclidean Riemannian subspace learning",
+        "author": "li",
+        "year": "2008",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "13",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-010-0399-6"
+      },
+      {
+        "key": "21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1973.10481436"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TSP.2008.920488"
+      },
+      {
+        "key": "24",
+        "first-page": "711",
+        "article-title": "Object tracking via 2DPCA and -1-regularization",
+        "volume": "19",
+        "author": "wang",
+        "year": "2012",
+        "journal-title": "SPL"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sigpro.2012.07.015"
+      },
+      {
+        "key": "26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2202677"
+      },
+      {
+        "key": "27",
+        "first-page": "1323",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2008.79"
+      },
+      {
+        "key": "29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126357"
+      },
+      {
+        "key": "3",
+        "first-page": "100",
+        "article-title": "Occlusion detection and motion estimation with convex optimization",
+        "author": "ayvaci",
+        "year": "2010",
+        "journal-title": "NIPS"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.215"
+      },
+      {
+        "key": "1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "30",
+        "first-page": "864",
+        "article-title": "Real-time compressive tracking8",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1007939232436"
+      },
+      {
+        "key": "6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0710069"
+      },
+      {
+        "key": "32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "5",
+        "first-page": "1830",
+        "article-title": "Real time robust -1 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "4",
+        "first-page": "983",
+        "article-title": "Visual tracking with online multiple instance learning",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-009-0275-4"
+      },
+      {
+        "key": "8",
+        "first-page": "1776",
+        "article-title": "Decomposing and regularizing sparse/non-sparse components for motion field estimation",
+        "author": "chen",
+        "year": "2012",
+        "journal-title": "CVPR"
+      }
+    ],
+    "event": {
+      "name": "2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Portland, OR, USA",
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            6,
+            23
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2013,
+            6,
+            28
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2013 IEEE Conference on Computer Vision and Pattern Recognition"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6596161/6618844/06619151.pdf?arnumber=6619151",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          22
+        ]
+      ],
+      "date-time": "2017-03-22T13:19:37Z",
+      "timestamp": 1490188777000
+    },
+    "score": 47.726875,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6619151/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1109/cvpr.2013.307",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    }
+  }
+}

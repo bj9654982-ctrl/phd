@@ -1,0 +1,40 @@
+{
+  "number": 10,
+  "title": "ECO: Efficient Convolution Operators for Tracking",
+  "year": 2017,
+  "authors": [
+    "Martin Danelljan",
+    "Goutam Bhat",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.pdf",
+      "bytes": 1654877,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\010_2017_ECO__Efficient_Convolution_Operators_for_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.pdf",
+  "bytes": 1654877,
+  "sha256": "6d9a628bc386a962cb0a4c9df3a8d2f9d2f33ddb77b36dbf901b97189c7e2311",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "ECO: Efficient Convolution Operators for Tracking",
+  "first_page_text": "ECO: Efﬁcient Convolution Operators for Tracking\nMartin Danelljan, Goutam Bhat, Fahad Shahbaz Khan, Michael Felsberg\nComputer Vision Laboratory, Department of Electrical Engineering, Link¨oping University, Sweden\n{martin.danelljan, goutam.bhat, fahad.khan, michael.felsberg}@liu.se\nAbstract\nIn recent years, Discriminative Correlation Filter (DCF)\nbased methods have signiﬁcantly advanced the state-of-the-\nart in tracking. However, in the pursuit of ever increasing\ntracking performance, their characteristic speed and real-\ntime capability have gradually faded. Further, the increas-\ningly complex models, with massive number of trainable pa-\nrameters, have introduced the risk of severe over-ﬁtting. In\nthis work, we tackle the key causes behind the problems of\ncomputational complexity and over-ﬁtting, with the aim of\nsimultaneously improving both speed and performance.\nWe revisit the core DCF formulation and introduce: (i) a\nfactorized convolution operator, which drastically reduces\nthe number of parameters in the model; (ii) a compact gen-\nerative model of the training sample distribution, that sig-\nniﬁcantly reduces memory and time complexity, while pro-\nviding better diversity of samples; (iii) a conservative model\nupdate strategy with improved robustness and reduced com-\nplexity.\nWe perform comprehensive experiments on four\nbenchmarks: VOT2016, UAV123, OTB-2015, and Temple-\nColor. When using expensive deep features, our tracker pro-\nvides a 20-fold speedup and achieves a 13.0% relative gain\nin Expected Average Overlap compared to the top ranked\nmethod [12] in the VOT2016 challenge. Moreover, our fast\nvariant, using hand-crafted features, operates at 60 Hz on a\nsingle CPU, while obtaining 65.0% AUC on OTB-2015.\n1. Introduction\nGeneric visual tracking is one of the fundamental prob-\nlems in computer vision. It is the task of estimating the tra-\njectory of a target in an image sequence, given only its ini-\ntial state. Online visual tracking plays a crucial role in nu-\nmerous real-time vision applications, such as smart surveil-\nlance systems, autonomous driving, UAV monitoring, intel-\nligent trafﬁc control, and human-computer-interfaces. Due\nto the online nature of tracking, an ideal tracker should\nbe accurate and robust under the hard computational con-\nstraints of real-time vision systems.\nIn recent years, Discriminative Correlation Filter (DCF)\nECO\nC-COT\nFigure 1. A comparison of our approach ECO with the baseline\nC-COT [12] on three example sequences. In all three cases, C-\nCOT suffers from severe over-ﬁtting to particular regions of the\ntarget. This causes poor target estimation in cases of scale varia-\ntions (top row), deformations (middle row), and out-of-plane ro-\ntations (bottom row). Our ECO tracker successfully tackles the\ncauses of over-ﬁtting, leading to better generalization of the target\nappearance, while achieving a 20-fold speedup.\nbased approaches have shown continuous performance im-\nprovements in terms of accuracy and robustness on track-\ning benchmarks [23, 37].\nThe recent advancement in\nDCF based tracking performance is driven by the use of\nmulti-dimensional features [13, 15], robust scale estimation\n[7, 11], non-linear kernels [20], long-term memory com-\nponents [28], sophisticated learning models [3, 10] and re-\nducing boundary effects [9, 16]. However, these improve-\nments in accuracy come at the price of signiﬁcant reductions\nin tracking speed.\nFor instance, the pioneering MOSSE\ntracker by Bolme et al. [4] is about 1000× faster than the re-\ncent top-ranked DCF tracker, C-COT [12], in the VOT2016\nchallenge [23], but obtains only half the accuracy.\nAs mentioned above, the advancement in DCF tracking\nperformance is predominantly attributed to powerful fea-\ntures and sophisticated learning formulations [8, 12, 27].\nThis has led to substantially larger models, requiring hun-\ndreds of thousands of trainable parameters. On the other\nhand, such complex and large models have introduced the\n6638\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 0.833,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

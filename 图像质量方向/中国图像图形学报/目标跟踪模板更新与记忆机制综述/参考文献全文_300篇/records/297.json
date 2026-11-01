@@ -1,0 +1,40 @@
+{
+  "number": 297,
+  "title": "360VOT: A New Benchmark Dataset for Omnidirectional Visual Object Tracking",
+  "year": 2023,
+  "authors": [
+    "Huajian Huang",
+    "Yinzhe Xu",
+    "Yingshu Chen",
+    "Sai-Kit Yeung"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Huang_360VOT_A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_360VOT_A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_360VOT_A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+      "bytes": 8885748,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\297_2023_360VOT__A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_360VOT_A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Huang_360VOT_A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking_ICCV_2023_paper.pdf",
+  "bytes": 8885748,
+  "sha256": "2cf446bae4d449c4ea17f3ecf1b1e6dab4f00c6f102d7bdbe9bdc1bd03730af3",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "360VOT: A New Benchmark Dataset for Omnidirectional Visual Object Tracking",
+  "first_page_text": "360VOT: A New Benchmark Dataset for Omnidirectional Visual Object Tracking\nHuajian Huang\nYinzhe Xu\nYingshu Chen\nSai-Kit Yeung\nThe Hong Kong University of Science and Technology\n{hhuangbg, yxuck, ychengw}@connect.ust.hk, saikit@ust.hk\nFigure 1: Example sequences and annotations of 360VOT benchmark dataset. The target objects in each 360◦frame are\nannotated with four different representations as ground truth, including bounding box, rotated bounding box, bounding field-\nof-view, and rotated bounding field-of-view. 360VOT brings distinct challenges for tracking, e.g., crossing border (CB), large\ndistortion (LD) and stitching artifact (SA).\nAbstract\n360◦images can provide an omnidirectional field of view\nwhich is important for stable and long-term scene percep-\ntion. In this paper, we explore 360◦images for visual ob-\nject tracking and perceive new challenges caused by large\ndistortion, stitching artifacts, and other unique attributes\nof 360◦images. To alleviate these problems, we take ad-\nvantage of novel representations of target localization, i.e.,\nbounding field-of-view, and then introduce a general 360\ntracking framework that can adopt typical trackers for om-\nnidirectional tracking. More importantly, we propose a new\nlarge-scale omnidirectional tracking benchmark dataset,\n360VOT, in order to facilitate future research. 360VOT con-\ntains 120 sequences with up to 113K high-resolution frames\nin equirectangular projection. The tracking targets cover\n32 categories in diverse scenarios. Moreover, we provide 4\ntypes of unbiased ground truth, including (rotated) bound-\ning boxes and (rotated) bounding field-of-views, as well\nas new metrics tailored for 360◦images which allow for\nthe accurate evaluation of omnidirectional tracking perfor-\nmance. Finally, we extensively evaluated 20 state-of-the-art\nvisual trackers and provided a new baseline for future com-\nparisons. Homepage: https://360vot.hkustvgd.com\n1. Introduction\nVisual object tracking is an essential problem in com-\nputer vision since it is demanded in various applications\nsuch as video analysis, human-machine interaction, and in-\ntelligent robots. In the last decade, a large number of vi-\nsual tracking algorithms [19, 32, 11, 26, 1] and various\nbenchmarks [42, 30, 24, 16, 22] have been proposed to pro-\nmote the development of the visual tracking community.\nWhereas most existing research focuses on perspective vi-\nsual object tracking, there is little attention paid to omnidi-\nrectional visual object tracking.\nOmnidirectional visual object tracking employs a 360◦\ncamera to track the target object. With its omnidirectional\nfield-of-view (FoV), a 360◦camera offers continuous ob-\nservation of the target over a longer period, minimizing the\nout-of-view issue. This advantage is crucial for intelligent\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n20566\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,41 @@
+{
+  "number": 186,
+  "title": "VideoTrack: Learning To Track Objects via Video Transformer",
+  "year": 2023,
+  "authors": [
+    "Fei Xie",
+    "Lei Chu",
+    "Jiahao Li",
+    "Yan Lu",
+    "Chao Ma"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Xie_VideoTrack_Learning_To_Track_Objects_via_Video_Transformer_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_VideoTrack_Learning_To_Track_Objects_via_Video_Transformer_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_VideoTrack_Learning_To_Track_Objects_via_Video_Transformer_CVPR_2023_paper.pdf",
+      "bytes": 1400829,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\186_2023_VideoTrack__Learning_To_Track_Objects_via_Video_Transformer.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_VideoTrack_Learning_To_Track_Objects_via_Video_Transformer_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_VideoTrack_Learning_To_Track_Objects_via_Video_Transformer_CVPR_2023_paper.pdf",
+  "bytes": 1400829,
+  "sha256": "c066b35c3067ec7bab4e1219172a7569c7d8f29a54481890fd28feda4d8ee373",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "VideoTrack: Learning To Track Objects via Video Transformer",
+  "first_page_text": "VideoTrack: Learning to Track Objects via Video Transformer\nFei Xie †*, Lei Chu ‡, Jiahao Li ‡, Yan Lu ‡ and Chao Ma †\n† MoE Key Lab of Artiﬁcial Intelligence, AI Institute, Shanghai Jiao Tong University\n‡ Microsoft Research Asia\njaffe031@sjtu.edu.cn, leichu@microsoft.com, Li.Jiahao@microsoft.com\nyanlu@microsoft.com, chaoma@sjtu.edu.cn\nAbstract\nExisting Siamese tracking methods, which are built on\npair-wise matching between two single frames, heavily rely\non additional sophisticated mechanism to exploit tempo-\nral information among successive video frames, hindering\nthem from efﬁciency and industrial deployments. In this\nwork, we resort to sequence-level target matching that can\nencode temporal contexts into the spatial features through\na neat feedforward video model. Speciﬁcally, we adapt the\nstandard video transformer architecture to visual tracking\nby enabling spatiotemporal feature learning directly from\nframe-level patch sequences. To better adapt to the track-\ning task, we carefully blend the spatiotemporal information\nin the video clips through sequential multi-branch triplet\nblocks, which formulates a video transformer backbone.\nOur experimental study compares different model variants,\nsuch as tokenization strategies, hierarchical structures, and\nvideo attention schemes.\nThen, we propose a disentan-\ngled dual-template mechanism that decouples static and dy-\nnamic appearance clues over time, and reduces temporal\nredundancy in video frames. Extensive experiments show\nthat our method, named as VideoTrack, achieves state-of-\nthe-art results while running in real-time.\n1. Introduction\nVisual Object Tracking (VOT) is a fundamental problem\nin computer vision that aims to track an object of interest in\na video given its bounding box in the ﬁrst frame [53]. In re-\ncent years, mainstream approaches formulate visual track-\ning as a target matching problem, striking a good balance\nbetween performance and simplicity.\nThe philosophy of target matching is to ﬁnd the object by\nlooking for locations in the search area whose features have\nthe largest similarity with those in the target template. How-\n*This work was done when Fei Xie was an intern at Microsoft Research\nAsia.\n(PEHGGLQJ\u0003\n/D\\HU\n6SDWLRWHPSRUDO\u0003\n)HDWXUH\u0003/HDUQLQJ\n3UHGLFWLRQ\u0003\n1HWZRUN\n݂௭\n݂௧଴\n݂௧ଵ\n݂௧௡\n݂௫\n݂௧௡\n݂\n݂\nǥ\n݂௫݂\n 6HTXHQFH\u0010OHYHO\u0003PDWFKLQJ\u0003LQ\u00039LGHR7UDFN IUDPHZRUN\n9LGHR\u0010FOLS\u0003LQSXW\n3UHGLFWLRQ\u0003\n1HWZRUN\n(PEHGGLQJ\u0003\n1HWZRUN\u0003\u0012\u0003/D\\HU\n݂௫\n0DWFKLQJ\u00032SHUDWRU\n\u0012\u00031HWZRUN\n݂௭\n(PEHGGLQJ\u0003\n1HWZRUN\u0003\u0012\u0003/D\\HU\n7HPSODWH\n6HDUFK\u0003IUDPH\n\u000bD\f\u00033DLU\u0010ZLVH\u0003PDWFKLQJ\u0003LQ\u00036LDPHVH\u0003WUDFNLQJ\u0003IUDPHZRUN\n\u000bD\u0014\f\n7HPSRUDO\u0003FRQWH[W\u0003SURSDJDWLRQ\u0003\n2QOLQH\u0003WHPSODWH\u0003XSGDWLQJ\n\u000bD\u0015\f\n\u000bD\u0015\f\n\u000bD\u0014\f\nFigure 1.\nComparing to the pair-wise matching pipeline in\nSiamese tracking shown in (a), which requires sophisticated mech-\nanisms (a1)/(a2) to exploit temporal contexts, our neat video trans-\nformer tracking (VideoTrack) framework, as shown in (b), directly\nlifts the pair-wise feature matching into spatiotemporal domain.\never, target matching methods generally adopt per-frame\nobject matching manner, where the rich temporal informa-\ntion in the video is largely overlooked.\nThe representa-\ntive methods are Siamese trackers [4, 20, 26, 27, 57]: pair-\nwise frames are fed into Siamese network to extract fea-\ntures and a matching network/operator is applied for target\nmatching. Although recent pure transformer-based Siamese\ntrackers [10,16,55,61] unify feature extraction and match-\ning into a single step by leveraging the Vision Transformer\n(ViT) [14,31,49], these Siamese trackers still follow a pair-\nwise matching philosophy that hinders their exploitation of\ntemporal context.\nTo explore temporal information, some works have pro-\nposed sophisticated yet complex temporal modelling meth-\nods to improve the robustness of pair-wise Siamese track-\ners, where online template updating [60, 64] and tempo-\nral context propagating among frame-wise features [47] are\ntwo widely-adopted paradigms. Despite their great success,\nextra hand-crafted hyper-parameters and complex network\nmodules are inevitably introduced to the Siamese pipeline,\nwhich have a negative impact on the efﬁciency and are not\nfriendly to embedded devices. A natural question therefore\narises: can we exploit the temporal context while still main-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n22826\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

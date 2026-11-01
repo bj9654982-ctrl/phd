@@ -1,0 +1,39 @@
+{
+  "number": 41,
+  "title": "Struck: Structured output tracking with kernels",
+  "year": 2011,
+  "authors": [
+    "Sam Hare",
+    "Amir Saffari",
+    "Philip H. S. Torr"
+  ],
+  "venue": "2011 International Conference on Computer Vision",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://doi.org/10.1109/ICCV.2011.6126251",
+  "doi": "10.1109/ICCV.2011.6126251",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://ora.ox.ac.uk/objects/uuid:0db0bf88-f649-43d9-92a9-af4f5a82376c/files/sm613n041n",
+      "final_url": "https://ora.ox.ac.uk/objects/uuid:0db0bf88-f649-43d9-92a9-af4f5a82376c/files/sm613n041n",
+      "bytes": 2537870,
+      "content_type": "application/pdf; header=present"
+    }
+  ],
+  "access_date": "2026-10-28",
+  "human_verification": "未核验",
+  "file": "PDF\\041_2011_Struck__Structured_output_tracking_with_kernels.pdf",
+  "download_url": "https://ora.ox.ac.uk/objects/uuid:0db0bf88-f649-43d9-92a9-af4f5a82376c/files/sm613n041n",
+  "requested_url": "https://ora.ox.ac.uk/objects/uuid:0db0bf88-f649-43d9-92a9-af4f5a82376c/files/sm613n041n",
+  "bytes": 2537870,
+  "sha256": "4b0827051554165c2c074aaaebee0c4b18181a43d7e3bbf98812a874e452e29f",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 14,
+  "pdf_title": "TPAMI2509974.pdf",
+  "first_page_text": "IEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE, VOL. ?, NO. ?, ? 2015\n1\nStruck: Structured Output Tracking\nwith Kernels\nSam Hare∗, Stuart Golodetz∗, Amir Saffari∗, Vibhav Vineet,\nMing-Ming Cheng, Stephen L. Hicks and Philip H. S. Torr\nAbstract—Adaptive tracking-by-detection methods are widely used in computer vision for tracking arbitrary objects. Current\napproaches treat the tracking problem as a classiﬁcation task and use online learning techniques to update the object model.\nHowever, for these updates to happen one needs to convert the estimated object position into a set of labelled training examples,\nand it is not clear how best to perform this intermediate step. Furthermore, the objective for the classiﬁer (label prediction) is not\nexplicitly coupled to the objective for the tracker (estimation of object position). In this paper, we present a framework for adaptive\nvisual object tracking based on structured output prediction. By explicitly allowing the output space to express the needs of the\ntracker, we avoid the need for an intermediate classiﬁcation step. Our method uses a kernelised structured output support vector\nmachine (SVM), which is learned online to provide adaptive tracking. To allow our tracker to run at high frame rates, we (a)\nintroduce a budgeting mechanism that prevents the unbounded growth in the number of support vectors that would otherwise\noccur during tracking, and (b) show how to implement tracking on the GPU. Experimentally, we show that our algorithm is able to\noutperform state-of-the-art trackers on various benchmark videos. Additionally, we show that we can easily incorporate additional\nfeatures and kernels into our framework, which results in increased tracking performance.\nIndex Terms—tracking-by-detection, structured output SVMs, budget maintenance, GPU-based tracking\n!\n1\nINTRODUCTION\nVisual object tracking is one of the core problems of com-\nputer vision, with a wide range of applications that include\nhuman-computer interaction, surveillance and augmented\nreality. It also forms an essential part of higher-level vision\ntasks such as scene understanding and action recognition.\nIn some scenarios, the object to be tracked is known in\nadvance, and it is possible to incorporate prior knowledge\nwhen designing the tracker; in others, however, the target\nis arbitrary and only speciﬁed at runtime, in which case\nthe tracker must be able to model the object’s appearance\non the ﬂy and adapt the model during tracking to account\nfor object motion, lighting conditions and occlusion. Even\nwhen the object is known, having a ﬂexible tracker that can\nadapt its model at runtime is attractive and, in real-world\nscenarios, often essential for successful tracking.\nThe tracking-by-detection approach [1], which treats the\ntracking problem as one of repeated detection over time,\nhas become particularly popular recently, partly due to\nsigniﬁcant recent progress in object detection (with many of\nthe ideas being directly transferrable to tracking) and partly\ndue to the development of methods that allow the classiﬁers\nused by these approaches to be trained online, providing a\nnatural mechanism for adaptive tracking [2]–[4].\n• (*) S. Hare, S. Golodetz and A. Saffari assert joint ﬁrst authorship.\n• S. Hare was with Oxford Brookes University, and is now a co-founder\nof Obvious Engineering.\n• S. Golodetz, S.L. Hicks and P.H.S. Torr are with Oxford University.\n• A. Saffari was with Sony Europe Ltd., and is now with Affectv.\n• V. Vineet was with Oxford University and is now with Stanford.\n• M.-M. Cheng was with Oxford University and is now with Nankai.\nTraditional approaches to adaptive tracking-by-detection\nhave tended to train a binary classiﬁer online to distinguish\nthe target object from the background. This classiﬁer is used\nto estimate the object’s location in each new input frame by\nsearching for the maximum classiﬁcation score in a local\nregion around the previous frame’s estimate, typically using\na sliding-window approach. After estimating the new object\nlocation, traditional approaches have tended to generate a\nset of binary-labelled training samples with which to update\nthe classiﬁer. Such approaches thus separate the learning\nof the tracker into two distinct parts: (i) the generation and\nlabelling of samples, and (ii) the classiﬁer update.\nWhilst common, this separation is problematic. Firstly, it\nis unclear how to generate and label the samples in a princi-\npled manner (the usual approaches rely on predeﬁned rules\nsuch as labelling a sample positive/negative based on its\ndistance from the estimated object location). Secondly, the\nlearning process does not explicitly couple the classiﬁer’s\ngoal (predicting binary sample labels) to the tracker’s goal\n(estimating object location), and so the maximum classiﬁer\nconﬁdence may not correspond to the best location estimate\n(Williams et al. [5] raised a similar point). State-of-the-\nart adaptive tracking-by-detection methods have mainly\nfocused on improving tracking performance by increasing\nthe robustness of the classiﬁer to poorly-labelled samples\nresulting from this approach, e.g. using robust loss func-\ntions [6], [7], semi-supervised learning [8], [9], or multiple-\ninstance learning [3], [10].\nIn this paper, we take a different approach and frame\nthe overall tracking problem as one of structured output\nprediction, in which the task is to directly predict the change\nin object conﬁguration between frames. We present a novel\nThis is the author's version of an article that has been published in this journal. Changes were made to this version by the publisher prior to publication.\nThe final version of record is available at http://dx.doi.org/10.1109/TPAMI.2015.2509974\nCopyright (c) 2015 IEEE. Personal use is permitted. For any other purposes, permission must be obtained from the IEEE by emailing pubs-permissions@ieee.org.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

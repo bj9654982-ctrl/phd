@@ -1,0 +1,38 @@
+{
+  "number": 128,
+  "title": "Siamese Cascaded Region Proposal Networks for Real-Time Visual Tracking",
+  "year": 2019,
+  "authors": [
+    "Heng Fan",
+    "Haibin Ling"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.pdf",
+      "bytes": 1188030,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\128_2019_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2019/papers/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.pdf",
+  "bytes": 1188030,
+  "sha256": "a826ea612b2899784bebfb599012a1cb656b1adbb375f424b79512579d930045",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Siamese Cascaded Region Proposal Networks for Real-Time Visual Tracking",
+  "first_page_text": "Siamese Cascaded Region Proposal Networks for Real-Time Visual Tracking\nHeng Fan\nHaibin Ling∗\nDepartment of Computer and Information Sciences, Temple University, Philadelphia, PA USA\n{hengfan,hbling}temple.edu\nAbstract\nRecently, the region proposal networks (RPN) have been\ncombined with the Siamese network for tracking, and shown\nexcellent accuracy with high efﬁciency. Nevertheless, previ-\nously proposed one-stage Siamese-RPN trackers degenerate\nin presence of similar distractors and large scale variation.\nAddressing these issues, we propose a multi-stage tracking\nframework, Siamese Cascaded RPN (C-RPN), which con-\nsists of a sequence of RPNs cascaded from deep high-level\nto shallow low-level layers in a Siamese network. Com-\npared to previous solutions, C-RPN has several advantages:\n(1) Each RPN is trained using the outputs of RPN in the\nprevious stage. Such process stimulates hard negative sam-\npling, resulting in more balanced training samples. Con-\nsequently, the RPNs are sequentially more discriminative\nin distinguishing difﬁcult background (i.e., similar distrac-\ntors). (2) Multi-level features are fully leveraged through a\nnovel feature transfer block (FTB) for each RPN, further im-\nproving the discriminability of C-RPN using both high-level\nsemantic and low-level spatial information. (3) With mul-\ntiple steps of regressions, C-RPN progressively reﬁnes the\nlocation and shape of the target in each RPN with adjusted\nanchor boxes in the previous stage, which makes localiza-\ntion more accurate. C-RPN is trained end-to-end with the\nmulti-task loss function. In inference, C-RPN is deployed as\nit is, without any temporal adaption, for real-time tracking.\nIn extensive experiments on OTB-2013, OTB-2015, VOT-\n2016, VOT-2017, LaSOT and TrackingNet, C-RPN consis-\ntently achieves state-of-the-art results and runs in real-time.\n1. Introduction\nVisual tracking is one of the most fundamental problems\nin computer vision, and has a long list of applications such\nas robotics, human-machine interaction, intelligent vehicle,\nsurveillance and so forth. Despite great advances in recent\nyears, visual tracking remains challenging due to many fac-\n∗Corresponding author.\nGT\nC-RPN\nSiamese-RPN\nFigure 1. Comparisons between one-stage Siamese-RPN [23] and\nC-RPN on two challenging sequences: Bolt2 (the top row) with\nsimilar distractors and CarScale (the bottom row) with large scale\nchanges. We observe that C-RPN can distinguish the target from\ndistractors, while Siamese-RPN drifts to the background in Bolt2.\nIn addition, compared to using a single regressor in Siamese-RPN,\nmulti-regression in C-RPN can better localize the target in pres-\nence of large scale changes in CarScale. Best viewed in color.\ntors including occlusion, scale variation, etc.\nRecently, Siamese network has drawn great attention in\nthe tracking community owing to its balanced accuracy and\nspeed. By formulating object tracking as a matching prob-\nlem, Siamese trackers [2, 17, 19, 23, 45, 46, 51, 59] aim to\nlearn ofﬂine a generic similarity function from a large set of\nvideos. Among these methods, the work of [23] proposes a\none-stage Siamese-RPN for tracking by introducing the re-\ngional proposal networks (RPN), originally used for object\ndetection [38], into Siamese network. With the proposal\nextraction by RPN, this approach simultaneously performs\nclassiﬁcation and localization from multiple scales, achiev-\ning excellent performance. Besides, the use of RPN avoids\napplying the time-consuming pyramid for target scale esti-\nmation [2], leading to a super real-time solution.\n1.1. Problem and Motivation\nDespite having achieved promising result, Siamese-RPN\nmay drift to the background especially in presence of sim-\nilar semantic distractors (see Fig. 1). We identify two rea-\nsons accounting for this.\nFirst, the distribution of training samples is imbalanced:\n7952\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,40 @@
+{
+  "number": 279,
+  "title": "Scalable Video Object Segmentation with Simplified Framework",
+  "year": 2023,
+  "authors": [
+    "Qiangqiang Wu",
+    "Tianyu Yang",
+    "Wei Wu",
+    "Antoni B. Chan"
+  ],
+  "venue": "ICCV",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Scalable_Video_Object_Segmentation_with_Simplified_Framework_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Scalable_Video_Object_Segmentation_with_Simplified_Framework_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Scalable_Video_Object_Segmentation_with_Simplified_Framework_ICCV_2023_paper.pdf",
+      "bytes": 7305015,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\279_2023_Scalable_Video_Object_Segmentation_with_Simplified_Framework.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Scalable_Video_Object_Segmentation_with_Simplified_Framework_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Scalable_Video_Object_Segmentation_with_Simplified_Framework_ICCV_2023_paper.pdf",
+  "bytes": 7305015,
+  "sha256": "6d43e27721f12e68ed4e647d181d67bc2ae635c6548c977b321054c12d5c9c4a",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Scalable Video Object Segmentation with Simplified Framework",
+  "first_page_text": "Scalable Video Object Segmentation with Simplified Framework\nQiangqiang Wu1\nTianyu Yang2*\nWei Wu1\nAntoni B. Chan1\n1Department of Computer Science, City University of Hong Kong\n2International Digital Economy Academy\n{qiangqwu2-c, weiwu56-c-c}@my.cityu.edu.hk, tianyu-yang@outlook.com\nabchan@cityu.edu.hk\nAbstract\nThe current popular methods for video object segmen-\ntation (VOS) implement feature matching through several\nhand-crafted modules that separately perform feature ex-\ntraction and matching. However, the above hand-crafted\ndesigns empirically cause insufficient target interaction,\nthus limiting the dynamic target-aware feature learning\nin VOS. To tackle these limitations, this paper presents a\nscalable Simplified VOS (SimVOS) framework to perform\njoint feature extraction and matching by leveraging a sin-\ngle transformer backbone. Specifically, SimVOS employs a\nscalable ViT backbone for simultaneous feature extraction\nand matching between query and reference features. This\ndesign enables SimVOS to learn better target-ware features\nfor accurate mask prediction. More importantly, SimVOS\ncould directly apply well-pretrained ViT backbones (e.g.,\nMAE [21]) for VOS, which bridges the gap between VOS\nand large-scale self-supervised pre-training.\nTo achieve\na better performance-speed trade-off, we further explore\nwithin-frame attention and propose a new token refinement\nmodule to improve the running speed and save computa-\ntional cost. Experimentally, our SimVOS achieves state-\nof-the-art results on popular video object segmentation\nbenchmarks, i.e., DAVIS-2017 (88.0% J &F), DAVIS-2016\n(92.9% J &F) and YouTube-VOS 2019 (84.2% J &F),\nwithout applying any synthetic video or BL30K pre-training\nused in previous VOS approaches. Our code and models\nare available at https://github.com/jimmy-dq/\nSimVOS.git.\n1. Introduction\nVideo Object Segmentation (VOS) is an essential and\nfundamental computer vision tasks in video analysis [30,\n47, 48, 57, 49, 51] and scene understanding [28, 12, 46, 22,\n15, 45]. In this paper, we focus on the semi-supervised VOS\n*Corresponding Author\ntask, which aims to segment and track the objects of interest\nin each frame of a video, using only the mask annotation of\nthe target in the first frame as given. The key challenges in\nVOS mainly lie in two aspects: 1) how to effectively distin-\nguish the target from the background distractors; 2) how to\naccurately match the target across various frames in a video.\nIn the past few years, modern matching-based VOS ap-\nproaches have gained much attention due to their promising\nperformance on popular VOS benchmarks [54, 32, 33]. The\ntypical method STM [30] and its following works [8, 57, 7]\nmainly use several customized modules to perform semi-\nsupervised VOS, including feature extraction, target match-\ning and mask prediction modules. The whole mask pre-\ndiction process in these approaches can be divided into\ntwo sequential steps: 1) feature extraction on the previous\nframes (i.e., memory frames) and the new incoming frame\n(i.e., search frame); and 2) target matching in the search\nframe, which is commonly achieved by calculating per-\npixel matching between the memory frames’ embeddings\nand the search frame embedding.\nDespite the favorable performance achieved by the above\nmatching-based approaches, the separated feature extrac-\ntion and matching modules used in these methods still have\nseveral limitations. Firstly, the separate schema is unable\nto extract dynamic target-aware features, since there is no\ninteraction between the memory and search frame embed-\ndings during the feature extraction. In this way, the feature\nextraction module is treated as the fixed feature extractor\nafter offline training and thus cannot handle objects with\nlarge appearance variations in different frames of a video.\nSecondly, the matching module built upon the extracted\nfeatures needs to be carefully designed to perform suffi-\ncient interaction between query and memory features. Re-\ncent works (e.g., FEELVOS [42] and CFBI [56]) explore to\nuse local and global matching mechanisms. However, their\nperformance is still degraded due to the limited expressive\npower of the extracted fixed features.\nTo solve the aforementioned problems,\nthis paper\npresents a Simplified VOS framework (SimVOS) for joint\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13879\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

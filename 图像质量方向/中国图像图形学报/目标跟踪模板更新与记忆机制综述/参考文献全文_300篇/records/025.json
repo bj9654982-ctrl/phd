@@ -1,0 +1,40 @@
+{
+  "number": 25,
+  "title": "UncTrack: reliable visual object tracking with uncertainty-aware prototype memory network",
+  "year": 2025,
+  "authors": [
+    "Yao S",
+    "Guo Y",
+    "Yan Y",
+    "et al"
+  ],
+  "venue": "IEEE Transactions on Image Processing",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://arxiv.org/abs/2503.12888",
+  "doi": "10.1109/TIP.2025.3559796",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://arxiv.org/pdf/2503.12888",
+      "final_url": "https://arxiv.org/pdf/2503.12888",
+      "bytes": 3615187,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\025_2025_UncTrack__reliable_visual_object_tracking_with_uncertainty-aware_prototype_mem.pdf",
+  "download_url": "https://arxiv.org/pdf/2503.12888",
+  "requested_url": "https://arxiv.org/pdf/2503.12888",
+  "bytes": 3615187,
+  "sha256": "d1670707f9aefb6207225e73cd055029620787eaaf1d90041f300b67bcb5c3b7",
+  "version": "arXiv公开版本；可能与正式出版版不同",
+  "pages": 14,
+  "pdf_title": "",
+  "first_page_text": "1\nUncTrack: Reliable Visual Object Tracking with\nUncertainty-Aware Prototype Memory Network\nSiyuan Yao, Yang Guo, Yanyang Yan, Wenqi Ren and Xiaochun Cao, Senior Member, IEEE.\nAbstract—Transformer-based trackers have achieved promis-\ning success and become the dominant tracking paradigm due to\ntheir accuracy and efficiency. Despite the substantial progress,\nmost of the existing approaches tackle object tracking as a\ndeterministic coordinate regression problem, while the target\nlocalization uncertainty has been greatly overlooked, which ham-\npers trackers’ ability to maintain reliable target state prediction\nin challenging scenarios. To address this issue, we propose\nUncTrack, a novel uncertainty-aware transformer tracker that\npredicts the target localization uncertainty and incorporates\nthis uncertainty information for accurate target state inference.\nSpecifically, UncTrack utilizes a transformer encoder to perform\nfeature interaction between template and search images. The\noutput features are passed into an uncertainty-aware localization\ndecoder (ULD) to coarsely predict the corner-based localization\nand the corresponding localization uncertainty. Then the localiza-\ntion uncertainty is sent into a prototype memory network (PMN)\nto excavate valuable historical information to identify whether\nthe target state prediction is reliable or not. To enhance the\ntemplate representation, the samples with high confidence are\nfed back into the prototype memory bank for memory updating,\nmaking the tracker more robust to challenging appearance\nvariations. Extensive experiments demonstrate that our method\noutperforms other state-of-the-art methods. Our code is available\nat https://github.com/ManOfStory/UncTrack.\nIndex Terms—Reliable object tracking, Uncertainty estimation,\nPrototype memory network, Memory updating.\nI. INTRODUCTION\nVisual object tracking (VOT) is an essential task in com-\nputer vision society with various real-world applications, such\nas intelligent video surveillance, autonomous driving and\nrobotics. Given the initial annotation in the first frame, the\ngoal of visual object tracking is to predict the target bounding\nboxes across the entire video. The tracker should construct\ndiscriminative target appearance to distinguish target objects\nfrom background distracters on the fly, and flexibly adapt to\nchallenging appearance variations of the target object, e.g.,\nocclusion and deformation, etc.\nThis work was supported by National Natural Science Foundation of\nChina (No. 62402055, No. 62302480) and Shenzhen Science and Technology\nProgram (No. KQTD20221101093559018).\nS. Yao and Y. Guo are with School of Computer Science (National Pilot\nSoftware Engineering School), Beijing University of Posts and Telecom-\nmunications,\nBeijing\n100876,\nChina.\n(email:\nyaosiyuan04@gmail.com;\nguoyang4409@gmail.com).\nY. Yan is with State Key Lab of Processors, Institute of Computing\nTechnology, Chinese Academy of Sciences, Beijing 100190, China. (email:\nyanyanyang@ict.ac.cn).\nW. Ren and X. Cao are with School of Cyber Science and Technology,\nShenzhen Campus, Sun Yat-sen University, Shenzhen 518107, China. (email:\nrwq.renwenqi@gmail.com; caoxiaochun@mail.sysu.edu.cn).\nGRM\nMixFormer\nUncTrack\nGT\n(a) Uncertainty curve of UncTrack\n(b) Comparative tracking results\n#172\n#275\n#510\n#620\nFig. 1: A general introduction to our approach. (a) The\nuncertainty curves of the top-left and bottom-right corners\npredicted by the proposed UncTrack in challenging video\nsequence, the object occlusion raises significant localization\nuncertainty. The green and the blue boxes denote the ground-\ntruth and the predicted bounding boxes, respectively. (b) The\ncomparative tracking results of our method with other state-\nof-the-art trackers.\nOver the past decades, the matching-based approaches [1]–\n[5] have become the mainstream solution due to their well-\nbalanced accuracy and efficiency. These methods handle VOT\nfrom the perspective of similarity comparison, which learns\na two stream network to calculate the similarity between the\ntemplate and search images for target state estimation. Recent\nadvanced approaches employ visual transformer [6]–[12] to\nenhance the feature interaction of the template and search\npairs. The transformer network splits paired template-search\nimages into local patches and embeds them into a set of visual\ntokens, which are mutually aggregated using multiple cross-\nattention blocks. By taking scaled dot products of the query-\nkey tokens and performing softmax-normalized interaction\nwith the value tokens, it can capture discriminative features\nfor accurate target object localization.\nDespite the promising progress, both CNN and transformer-\narXiv:2503.12888v1  [cs.CV]  17 Mar 2025\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

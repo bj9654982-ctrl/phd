@@ -1,0 +1,41 @@
+{
+  "number": 263,
+  "title": "Fast Template Matching and Update for Video Object Tracking and Segmentation",
+  "year": 2020,
+  "authors": [
+    "Mingjie Sun",
+    "Jimin Xiao",
+    "Eng Gee Lim",
+    "Bingfeng Zhang",
+    "Yao Zhao"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Sun_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_CVPR_2020_paper.pdf",
+      "bytes": 995190,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\263_2020_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_Segmentation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Sun_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_CVPR_2020_paper.pdf",
+  "bytes": 995190,
+  "sha256": "9403285ec82147203606b9ed7401a83abd9ae9b1064814f60220e2f739898a2d",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Fast Template Matching and Update for Video Object Tracking and Segmentation",
+  "first_page_text": "Fast Template Matching and Update for Video Object Tracking and\nSegmentation\nMingjie Sun1,2,\nJimin Xiao1,*,\nEng Gee Lim1,\nBingfeng Zhang1,2,\nYao Zhao3\n1XJTLU,\n2University of Liverpool,\n3Beijing Jiaotong University\nmingjie.sun@liverpool.ac.uk,\n{jimin.xiao, enggee.lim, bingfeng.zhang}@xjtlu.edu.cn,\nyzhao@bjtu.edu.cn\nAbstract\nIn this paper, the main task we aim to tackle is the multi-\ninstance semi-supervised video object segmentation across\na sequence of frames where only the ﬁrst-frame box-level\nground-truth is provided. Detection-based algorithms are\nwidely adopted to handle this task, and the challenges lie in\nthe selection of the matching method to predict the result as\nwell as to decide whether to update the target template us-\ning the newly predicted result. The existing methods, how-\never, make these selections in a rough and inﬂexible way,\ncompromising their performance. To overcome this limita-\ntion, we propose a novel approach which utilizes reinforce-\nment learning to make these two decisions at the same time.\nSpeciﬁcally, the reinforcement learning agent learns to de-\ncide whether to update the target template according to the\nquality of the predicted result. The choice of the matching\nmethod will be determined at the same time, based on the\naction history of the reinforcement learning agent. Experi-\nments show that our method is almost 10 times faster than\nthe previous state-of-the-art method with even higher accu-\nracy (region similarity of 69.1% on DAVIS 2017 dataset).\n1. Introduction\nMulti-instance semi-supervised video object segmenta-\ntion (VOS) is an important computer vision task, serving\nas the basis of many other related tasks including scene un-\nderstand, video surveillance and video editing. The task of\nVOS is to produce instance segmentation masks for each\nframe in a video sequence where the ﬁrst-frame ground-\ntruth is provided in advance. It turns out to be a challenging\ntask especially in the situations of deformation, motion blur,\nillumination change, background clutter, and so on.\n*corresponding author\n1The work was supported by National Natural Science Foundation of\nChina under 61972323,61532005 and U1936212, and Key Program Spe-\ncial Fund in XJTLU under KSF-T-02, KSF-P-02.\nhttps://github.com/insomnia94/FTMU\nFigure 1. Speed-accuracy trade-off for various multi-instance\nsemi-supervised VOS methods on DAVIS 2017 dataset. Methods\nin green only rely on the ﬁrst-frame box-level ground-truth while\nmethods in red rely on the ﬁrst-frame pixel-level ground-truth.\nThere are two common ways to provide the ﬁrst-frame\nground-truth, including masks and bounding boxes. Provid-\ning the ﬁrst-frame masks is a conventional way, which has\nbeen widely adopted nowadays [32, 27]. Although these\nmethods have already achieved good performance with the\npixel-level accurate target object information, it turns to a\nhard task to utilize these methods to solve practical VOS\nproblems, especially when numerous video sequences need\nto be processed in a short time, because annotating pixel-\nlevel ground-truth masks for each video sequence is time-\nconsuming.\nTo overcome this problem, inspired by the\nrapid progress in the task of video object tracking (VOT) at\nbounding box level, some works attempt to rely on the ﬁrst-\nframe bounding boxes to provide target object information\ninstead of using the ﬁrst-frame masks, which dramatically\naccelerates the annotation process and increases scalability.\nThis kind of acceleration is, however, built on the sac-\nriﬁce of ground-truth “accuracy”. The reason is that some\nbackground area will be incorporated into the bounding box\nas well, which greatly increases the difﬁculty of the VOS\n110791\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

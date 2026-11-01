@@ -1,0 +1,40 @@
+{
+  "number": 22,
+  "title": "Robust Object Modeling for Visual Tracking",
+  "year": 2023,
+  "authors": [
+    "Yidong Cai",
+    "Jie Liu",
+    "Jie Tang",
+    "Gangshan Wu"
+  ],
+  "venue": "ICCV",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Cai_Robust_Object_Modeling_for_Visual_Tracking_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Cai_Robust_Object_Modeling_for_Visual_Tracking_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Cai_Robust_Object_Modeling_for_Visual_Tracking_ICCV_2023_paper.pdf",
+      "bytes": 1024366,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\022_2023_Robust_Object_Modeling_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Cai_Robust_Object_Modeling_for_Visual_Tracking_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Cai_Robust_Object_Modeling_for_Visual_Tracking_ICCV_2023_paper.pdf",
+  "bytes": 1024366,
+  "sha256": "7bbcb643ee2a0cb8651cca492e25750fc00af167e76696d1f5792de6360cc467",
+  "version": "会议官方开放版本",
+  "pages": 12,
+  "pdf_title": "Robust Object Modeling for Visual Tracking",
+  "first_page_text": "Robust Object Modeling for Visual Tracking\nYidong Cai\nJie Liu*\nJie Tang\nGangshan Wu\nState Key Laboratory for Novel Software Technology, Nanjing University, China\nyidong cai@smail.nju.edu.cn; {liujie, tangjie, gswu}@nju.edu.cn\nAbstract\nObject modeling has become a core part of recent track-\ning frameworks. Current popular tackers use Transformer\nattention to extract the template feature separately or in-\nteractively with the search region. However, separate tem-\nplate learning lacks communication between the template\nand search regions, which brings difficulty in extracting dis-\ncriminative target-oriented features. On the other hand, in-\nteractive template learning produces hybrid template fea-\ntures, which may introduce potential distractors to the tem-\nplate via the cluttered search regions. To enjoy the mer-\nits of both methods, we propose a robust object modeling\nframework for visual tracking (ROMTrack), which simulta-\nneously models the inherent template and the hybrid tem-\nplate features. As a result, harmful distractors can be sup-\npressed by combining the inherent features of target objects\nwith search regions’ guidance. Target-related features can\nalso be extracted using the hybrid template, thus resulting\nin a more robust object modeling framework. To further en-\nhance robustness, we present novel variation tokens to de-\npict the ever-changing appearance of target objects. Varia-\ntion tokens are adaptable to object deformation and appear-\nance variations, which can boost overall performance with\nnegligible computation. Experiments show that our ROM-\nTrack sets a new state-of-the-art on multiple benchmarks.\n1. Introduction\nVisual object tracking (VOT) [1, 4, 8, 12, 22, 25, 35,\n39, 41, 47, 57, 60] is a fundamental task in computer vi-\nsion, which aims at localizing an arbitrary target in video\nsequences given its initial status. The occlusion, scale vari-\nation, object deformation, and co-occurrence of distractor\nobjects pose a challenge to acquiring an effective tracker in\nreal-world scenarios. Current dominating trackers typically\naddress these problems with a Transformer-based [42] ar-\nchitecture.\n*Corresponding author.\nht\nsr\nSA\n[qht , qsr]\n[kvht , kvsr]\nit\nsr\nCA\nSA\nq,k,v\n[kvit , kvsr]\nqsr\nht\nsr\nSA\nSA\nq,k,v\nq,k,v\nCA\nCA\nq\nk,v\nk,v\nq\n(a) Two-stream Hybrid Modeling\n(b) Two-stream Seperate Modeling\n(c) One-stream Hybrid Modeling\nht\nsr\nSA\nCA\nit\nq,k,v\n[qht , qsr]\n[kvht , kvsr , kvit , kvvt]\n(d) Robust Modeling (Ours)\nvt\nFigure 1:\nThree typical object modeling methods for\ntemplate-search feature learning, together with our Robust\nModeling design.\nht, it, and vt represent hybrid tem-\nplate, inherent template, and variation tokens, respectively.\nsr represents the search region. SA and CA denote self-\nattention and cross-attention, respectively.\nThe core components in a typical Transformer tracking\nframework are the object modeling blocks.\nAs demon-\nstrated in Figure 1(a), the two-stream hybrid modeling\nmethods [6, 50] learn the template feature interactively with\nthe search region via two cross-attention (CA) operations.\nInstead of cross-attention, the one-stream hybrid model-\ning methods [5, 54] in Figure 1(c) jointly learn the hy-\nbrid template feature and search region feature with one\nself-attention (SA) operation. Different from hybrid tem-\nplate modeling, the two-stream separate modeling [10, 23]\nin Figure 1(b) keeps an inherent template stream to ensure\nthe purity of template features. Separate template learning\ncan keep the inherent features of target templates, which\nprevents interference from search regions. Though suffer-\ning from potential distractors, hybrid template learning con-\nducts extensive feature matching between the template and\nsearch region, thus allowing mutual guidance for target-\noriented feature extraction.\nIn order to enjoy the merits of separate and hybrid tem-\nplate modeling simultaneously, we propose a robust ob-\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n9589\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

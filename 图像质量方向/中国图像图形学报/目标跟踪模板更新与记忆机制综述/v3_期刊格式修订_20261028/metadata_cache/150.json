@@ -1,0 +1,894 @@
+{
+  "number": 150,
+  "original_doi": "10.1007/978-3-031-20047-2_33",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Robust Visual Tracking by Segmentation",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T01:37:52Z",
+      "timestamp": 1792633072024,
+      "version": "4.5.0"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 62,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783031200465",
+        "type": "print"
+      },
+      {
+        "value": "9783031200472",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-20047-2_33",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2022-10-22T06:02:55Z",
+      "timestamp": 1666418575000
+    },
+    "page": "571-588",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 76,
+    "title": [
+      "Robust Visual Tracking by Segmentation"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Matthieu",
+        "family": "Paul",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin",
+        "family": "Danelljan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christoph",
+        "family": "Mayer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luc",
+        "family": "Van Gool",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "33_CR1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Berman, M., Triki, A.R., Blaschko, M.B.: The Lovász-softmax loss: a tractable surrogate for the optimization of the intersection-over-union measure in neural networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2018",
+        "DOI": "10.1109/CVPR.2018.00464"
+      },
+      {
+        "key": "33_CR2",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "850",
+        "DOI": "10.1007/978-3-319-48881-3_56",
+        "volume-title": "Computer Vision – ECCV 2016 Workshops",
+        "author": "L Bertinetto",
+        "year": "2016",
+        "unstructured": "Bertinetto, L., Valmadre, J., Henriques, J.F., Vedaldi, A., Torr, P.H.S.: Fully-convolutional Siamese networks for object tracking. In: Hua, G., Jégou, H. (eds.) ECCV 2016. LNCS, vol. 9914, pp. 850–865. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "33_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhat, G., Danelljan, M., Gool, L.V., Timofte, R.: Learning discriminative model prediction for tracking. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), October 2019",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "33_CR4",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "205",
+        "DOI": "10.1007/978-3-030-58592-1_13",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "G Bhat",
+        "year": "2020",
+        "unstructured": "Bhat, G., Danelljan, M., Van Gool, L., Timofte, R.: Know your surroundings: exploiting scene information for object tracking. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12368, pp. 205–221. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58592-1_13"
+      },
+      {
+        "key": "33_CR5",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "777",
+        "DOI": "10.1007/978-3-030-58536-5_46",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "G Bhat",
+        "year": "2020",
+        "unstructured": "Bhat, G., et al.: Learning what to learn for video object segmentation. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12347, pp. 777–794. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58536-5_46"
+      },
+      {
+        "key": "33_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolme, D.S., Beveridge, J.R., Draper, B.A., Lui, Y.M.: Visual object tracking using adaptive correlation filters. In: CVPR (2010)",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "33_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caelles, S., Maninis, K.K., Pont-Tuset, J., Leal-Taixé, L., Cremers, D., Van Gool, L.: One-shot video object segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 221–230 (2017)",
+        "DOI": "10.1109/CVPR.2017.565"
+      },
+      {
+        "key": "33_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, X., Yan, B., Zhu, J., Wang, D., Yang, X., Lu, H.: Transformer tracking. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2021",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "33_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Y., Pont-Tuset, J., Montes, A., Van Gool, L.: Blazingly fast video object segmentation with pixel-wise metric learning. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 1189–1198 (2018)",
+        "DOI": "10.1109/CVPR.2018.00130"
+      },
+      {
+        "key": "33_CR10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dai, K., Zhang, Y., Wang, D., Li, J., Lu, H., Yang, X.: High-performance long-term tracking with meta-updater. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2020",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "33_CR11",
+        "unstructured": "Danelljan, M., Bhat, G.: PyTracking: visual tracking library based on PyTorch (2019). http://github.com/visionml/pytracking"
+      },
+      {
+        "key": "33_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Bhat, G., Khan, F.S., Felsberg, M.: ATOM: accurate tracking by overlap maximization. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2019",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "33_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Bhat, G., Shahbaz Khan, F., Felsberg, M.: ECO: efficient convolution operators for tracking. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2017",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "33_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Gool, L.V., Timofte, R.: Probabilistic regression for visual tracking. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "33_CR15",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "472",
+        "DOI": "10.1007/978-3-319-46454-1_29",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "M Danelljan",
+        "year": "2016",
+        "unstructured": "Danelljan, M., Robinson, A., Shahbaz Khan, F., Felsberg, M.: Beyond correlation filters: learning continuous convolution operators for visual tracking. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9909, pp. 472–488. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46454-1_29"
+      },
+      {
+        "key": "33_CR16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, H., et al.: LaSOT: a high-quality benchmark for large-scale single object tracking. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2019",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "33_CR17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, H., Ling, H.: CRACT: cascaded regression-align-classification for robust visual tracking. arXiv preprint arXiv:2011.12483 (2020)",
+        "DOI": "10.1109/IROS51168.2021.9636803"
+      },
+      {
+        "key": "33_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fu, Z., Liu, Q., Fu, Z., Wang, Y.: STMTrack: template-free visual tracking with space-time memory networks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2021",
+        "DOI": "10.1109/CVPR46437.2021.01356"
+      },
+      {
+        "key": "33_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Galoogahi, H.K., Fagg, A., Huang, C., Ramanan, D., Lucey, S.: Need for speed: a benchmark for higher frame rate object tracking. In: ICCV (2017)",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "33_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, Q., Feng, W., Zhou, C., Huang, R., Wan, L., Wang, S.: Learning dynamic Siamese network for visual object tracking. In: ICCV (2017)",
+        "DOI": "10.1109/ICCV.2017.196"
+      },
+      {
+        "key": "33_CR21",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "132",
+        "DOI": "10.1007/978-3-030-11009-3_7",
+        "volume-title": "Computer Vision – ECCV 2018 Workshops",
+        "author": "A He",
+        "year": "2019",
+        "unstructured": "He, A., Luo, C., Tian, X., Zeng, W.: Towards a better match in Siamese network based visual object tracker. In: Leal-Taixé, L., Roth, S. (eds.) ECCV 2018. LNCS, vol. 11129, pp. 132–147. Springer, Cham (2019). https://doi.org/10.1007/978-3-030-11009-3_7"
+      },
+      {
+        "issue": "3",
+        "key": "33_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "volume": "37",
+        "author": "JF Henriques",
+        "year": "2015",
+        "unstructured": "Henriques, J.F., Caseiro, R., Martins, P., Batista, J.: High-speed tracking with kernelized correlation filters. IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI) 37(3), 583–596 (2015)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI)"
+      },
+      {
+        "key": "33_CR23",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "56",
+        "DOI": "10.1007/978-3-030-01237-3_4",
+        "volume-title": "Computer Vision – ECCV 2018",
+        "author": "Y-T Hu",
+        "year": "2018",
+        "unstructured": "Hu, Y.-T., Huang, J.-B., Schwing, A.G.: VideoMatch: matching based video object segmentation. In: Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.) ECCV 2018. LNCS, vol. 11212, pp. 56–73. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-01237-3_4"
+      },
+      {
+        "issue": "5",
+        "key": "33_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "1562",
+        "DOI": "10.1109/TPAMI.2019.2957464",
+        "volume": "43",
+        "author": "L Huang",
+        "year": "2021",
+        "unstructured": "Huang, L., Zhao, X., Huang, K.: Got-10k: a large high-diversity benchmark for generic object tracking in the wild. IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI) 43(5), 1562–1577 (2021)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell. (TPAMI)"
+      },
+      {
+        "key": "33_CR25",
+        "unstructured": "Khoreva, A., Benenson, R., Ilg, E., Brox, T., Schiele, B.: Lucid data dreaming for object tracking. In: The DAVIS Challenge on Video Object Segmentation (2017)"
+      },
+      {
+        "key": "33_CR26",
+        "unstructured": "Kingma, D.P., Ba, J.: Adam: a method for stochastic optimization. In: Proceedings of the International Conference on Learning Representations (ICLR) (2014)"
+      },
+      {
+        "key": "33_CR27",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "547",
+        "DOI": "10.1007/978-3-030-68238-5_39",
+        "volume-title": "Computer Vision – ECCV 2020 Workshops",
+        "author": "M Kristan",
+        "year": "2020",
+        "unstructured": "Kristan, M., et al.: The eighth visual object tracking VOT2020 challenge results. In: Bartoli, A., Fusiello, A. (eds.) ECCV 2020. LNCS, vol. 12539, pp. 547–601. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-68238-5_39"
+      },
+      {
+        "key": "33_CR28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Wu, W., Wang, Q., Zhang, F., Xing, J., Yan, J.: SiamRPN++: evolution of Siamese visual tracking with very deep networks. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2019",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "33_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Yan, J., Wu, W., Zhu, Z., Hu, X.: High performance visual tracking with Siamese region proposal network. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2018",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "33_CR30",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "93",
+        "DOI": "10.1007/978-3-030-01219-9_6",
+        "volume-title": "Computer Vision – ECCV 2018",
+        "author": "X Li",
+        "year": "2018",
+        "unstructured": "Li, X., Loy, C.C.: Video object segmentation with joint re-identification and attention-aware mask propagation. In: Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.) ECCV 2018. LNCS, vol. 11207, pp. 93–110. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-01219-9_6"
+      },
+      {
+        "key": "33_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lukezic, A., Matas, J., Kristan, M.: D3S - a discriminative single shot segmentation tracker. In: CVPR (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00716"
+      },
+      {
+        "issue": "7",
+        "key": "33_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "671",
+        "DOI": "10.1007/s11263-017-1061-3",
+        "volume": "126",
+        "author": "A Lukezic",
+        "year": "2018",
+        "unstructured": "Lukezic, A., Vojír, T., Zajc, L.C., Matas, J., Kristan, M.: Discriminative correlation filter tracker with channel and spatial reliability. Int. J. Comput. Vis. (IJCV) 126(7), 671–688 (2018)",
+        "journal-title": "Int. J. Comput. Vis. (IJCV)"
+      },
+      {
+        "issue": "6",
+        "key": "33_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "1515",
+        "DOI": "10.1109/TPAMI.2018.2838670",
+        "volume": "41",
+        "author": "KK Maninis",
+        "year": "2018",
+        "unstructured": "Maninis, K.K., et al.: Video object segmentation without temporal information. IEEE Trans. Pattern Anal. Mach. Intell. 41(6), 1515–1530 (2018)",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "33_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mayer, C., et al.: Transforming model prediction for tracking. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 8731–8740, June 2022",
+        "DOI": "10.1109/CVPR52688.2022.00853"
+      },
+      {
+        "key": "33_CR35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mayer, C., Danelljan, M., Paudel, D.P., Van Gool, L.: Learning target candidate association to keep track of what not to track. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 13444–13454, October 2021",
+        "DOI": "10.1109/ICCV48922.2021.01319"
+      },
+      {
+        "key": "33_CR36",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "445",
+        "DOI": "10.1007/978-3-319-46448-0_27",
+        "volume-title": "Computer Vision – ECCV 2016",
+        "author": "M Mueller",
+        "year": "2016",
+        "unstructured": "Mueller, M., Smith, N., Ghanem, B.: A benchmark and simulator for UAV tracking. In: Leibe, B., Matas, J., Sebe, N., Welling, M. (eds.) ECCV 2016. LNCS, vol. 9905, pp. 445–461. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "33_CR37",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "310",
+        "DOI": "10.1007/978-3-030-01246-5_19",
+        "volume-title": "Computer Vision – ECCV 2018",
+        "author": "M Müller",
+        "year": "2018",
+        "unstructured": "Müller, M., Bibi, A., Giancola, S., Alsubaihi, S., Ghanem, B.: TrackingNet: a large-scale dataset and benchmark for object tracking in the wild. In: Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.) ECCV 2018. LNCS, vol. 11205, pp. 310–327. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "33_CR38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Oh, S.W., Lee, J.Y., Xu, N., Kim, S.J.: Video object segmentation using space-time memory networks. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), October 2019",
+        "DOI": "10.1109/ICCV.2019.00932"
+      },
+      {
+        "key": "33_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perazzi, F., Pont-Tuset, J., McWilliams, B., Van Gool, L., Gross, M., Sorkine-Hornung, A.: A benchmark dataset and evaluation methodology for video object segmentation. In: Computer Vision and Pattern Recognition (2016)",
+        "DOI": "10.1109/CVPR.2016.85"
+      },
+      {
+        "key": "33_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Perazzi, F., Khoreva, A., Benenson, R., Schiele, B., Sorkine-Hornung, A.: Learning video object segmentation from static images. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 2663–2672 (2017)",
+        "DOI": "10.1109/CVPR.2017.372"
+      },
+      {
+        "key": "33_CR41",
+        "unstructured": "Pont-Tuset, J., et al.: The 2017 Davis challenge on video object segmentation. arXiv:1704.00675 (2017)"
+      },
+      {
+        "key": "33_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Son, J., Jung, I., Park, K., Han, B.: Tracking-by-segmentation with online gradient boosting decision tree. In: Proceedings of the IEEE International Conference on Computer Vision (ICCV), December 2015",
+        "DOI": "10.1109/ICCV.2015.350"
+      },
+      {
+        "key": "33_CR43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tao, R., Gavves, E., Smeulders, A.W.M.: Siamese instance search for tracking. In: CVPR (2016)",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "33_CR44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Valmadre, J., Bertinetto, L., Henriques, J., Vedaldi, A., Torr, P.H.S.: End-to-end representation learning for correlation filter based tracking. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), July 2017",
+        "DOI": "10.1109/CVPR.2017.531"
+      },
+      {
+        "key": "33_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Chai, Y., Schroff, F., Adam, H., Leibe, B., Chen, L.C.: FEELVOS: fast end-to-end embedding learning for video object segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 9481–9490 (2019)",
+        "DOI": "10.1109/CVPR.2019.00971"
+      },
+      {
+        "key": "33_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Leibe, B.: Online adaptation of convolutional neural networks for video object segmentation. In: BMVC (2017)",
+        "DOI": "10.5244/C.31.116"
+      },
+      {
+        "key": "33_CR47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Luiten, J., Torr, P.H., Leibe, B.: Siam R-CNN: visual tracking by re-detection. In: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2020",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "33_CR48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, G., Luo, C., Sun, X., Xiong, Z., Zeng, W.: Tracking by instance detection: a meta-learning approach. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2020",
+        "DOI": "10.1109/CVPR42600.2020.00632"
+      },
+      {
+        "key": "33_CR49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, N., Zhou, W., Wang, J., Li, H.: Transformer meets tracker: exploiting temporal context for robust visual tracking. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2021",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "33_CR50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Q., Teng, Z., Xing, J., Gao, J., Hu, W., Maybank, S.J.: Learning attentions: residual attentional Siamese network for high performance online visual tracking. In: CVPR (2018)",
+        "DOI": "10.1109/CVPR.2018.00510"
+      },
+      {
+        "key": "33_CR51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, Q., Zhang, L., Bertinetto, L., Hu, W., Torr, P.H.: Fast online object tracking and segmentation: a unifying approach. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (2019)",
+        "DOI": "10.1109/CVPR.2019.00142"
+      },
+      {
+        "key": "33_CR52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wug Oh, S., Lee, J.Y., Sunkavalli, K., Joo Kim, S.: Fast video object segmentation by reference-guided mask propagation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 7376–7385 (2018)",
+        "DOI": "10.1109/CVPR.2018.00770"
+      },
+      {
+        "key": "33_CR53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, N., et al.: YouTube-VOS: a large-scale video object segmentation benchmark (2018)",
+        "DOI": "10.1007/978-3-030-01228-1_36"
+      },
+      {
+        "key": "33_CR54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, B., Wang, D., Lu, H., Yang, X.: Alpha-refine: boosting tracking performance by precise bounding box estimation. In: CVPR (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00525"
+      },
+      {
+        "key": "33_CR55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, B., Peng, H., Fu, J., Wang, D., Lu, H.: Learning spatio-temporal transformer for visual tracking. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 10448–10457, October 2021",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "33_CR56",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, B., et al.: High-performance discriminative tracking with transformers. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 9856–9865, October 2021",
+        "DOI": "10.1109/ICCV48922.2021.00971"
+      },
+      {
+        "key": "33_CR57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, Y., Xiong, Y., Huang, W., Scott, M.R.: Deformable Siamese attention networks for visual object tracking. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2020",
+        "DOI": "10.1109/CVPR42600.2020.00676"
+      },
+      {
+        "key": "33_CR58",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "771",
+        "DOI": "10.1007/978-3-030-58589-1_46",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "Z Zhang",
+        "year": "2020",
+        "unstructured": "Zhang, Z., Peng, H., Fu, J., Li, B., Hu, W.: Ocean: object-aware anchor-free tracking. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12366, pp. 771–787. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58589-1_46"
+      },
+      {
+        "key": "33_CR59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Zhong, B., Zhang, S., Tang, Z., Liu, X., Zhang, Z.: Distractor-aware fast tracking via dynamic convolutions and mot philosophy. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), June 2021",
+        "DOI": "10.1109/CVPR46437.2021.00108"
+      },
+      {
+        "key": "33_CR60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, B., Bhat, G., Danelljan, M., Van Gool, L., Timofte, R.: Generating masks from boxes by mining spatio-temporal consistencies in videos. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pp. 13556–13566, October 2021",
+        "DOI": "10.1109/ICCV48922.2021.01330"
+      },
+      {
+        "key": "33_CR61",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "759",
+        "DOI": "10.1007/978-3-030-58555-6_45",
+        "volume-title": "Computer Vision – ECCV 2020",
+        "author": "L Zheng",
+        "year": "2020",
+        "unstructured": "Zheng, L., Tang, M., Chen, Y., Wang, J., Lu, H.: Learning feature embeddings for discriminant model based tracking. In: Vedaldi, A., Bischof, H., Brox, T., Frahm, J.-M. (eds.) ECCV 2020. LNCS, vol. 12360, pp. 759–775. Springer, Cham (2020). https://doi.org/10.1007/978-3-030-58555-6_45"
+      },
+      {
+        "key": "33_CR62",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "103",
+        "DOI": "10.1007/978-3-030-01240-3_7",
+        "volume-title": "Computer Vision – ECCV 2018",
+        "author": "Z Zhu",
+        "year": "2018",
+        "unstructured": "Zhu, Z., Wang, Q., Li, B., Wu, W., Yan, J., Hu, W.: Distractor-aware Siamese networks for visual object tracking. In: Ferrari, V., Hebert, M., Sminchisescu, C., Weiss, Y. (eds.) ECCV 2018. LNCS, vol. 11213, pp. 103–119. Springer, Cham (2018). https://doi.org/10.1007/978-3-030-01240-3_7"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2022"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-20047-2_33",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T00:39:38Z",
+      "timestamp": 1792629578000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/chapter/10.1007/978-3-031-20047-2_33"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783031200465",
+      "9783031200472"
+    ],
+    "references-count": 62,
+    "URL": "https://doi.org/10.1007/978-3-031-20047-2_33",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "23 October 2022",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ECCV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "European Conference on Computer Vision",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Tel Aviv",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Israel",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2022",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "23 October 2022",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "27 October 2022",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "17",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "eccv2022",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://eccv2022.ecva.net/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Double-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "CMT",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "5804",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "1645",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "0",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "28% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.21",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.91",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Yes",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "This content has been made available to all.",
+        "name": "free",
+        "label": "Free to read"
+      }
+    ]
+  }
+}

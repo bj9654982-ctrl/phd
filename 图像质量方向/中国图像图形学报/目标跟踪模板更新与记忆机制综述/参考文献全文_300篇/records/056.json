@@ -1,0 +1,39 @@
+{
+  "number": 56,
+  "title": "Online Robust Non-negative Dictionary Learning for Visual Tracking",
+  "year": 2013,
+  "authors": [
+    "Naiyan Wang",
+    "Jingdong Wang",
+    "Dit-Yan Yeung"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Wang_Online_Robust_Non-negative_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Wang_Online_Robust_Non-negative_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Wang_Online_Robust_Non-negative_2013_ICCV_paper.pdf",
+      "bytes": 642047,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\056_2013_Online_Robust_Non-negative_Dictionary_Learning_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Wang_Online_Robust_Non-negative_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Wang_Online_Robust_Non-negative_2013_ICCV_paper.pdf",
+  "bytes": 642047,
+  "sha256": "afc6546d30da6c1207a510c12c0acef28dc384fbd9a4da1d265180dae58d76ea",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Online Robust Non-negative Dictionary Learning for Visual Tracking",
+  "first_page_text": "Online Robust Non-negative Dictionary Learning for Visual Tracking\nNaiyan Wang†\nJingdong Wang‡\nDit-Yan Yeung†\n† Hong Kong University of Science and Technology\n‡ Microsoft Research\nwinsty@gmail.com\njingdw@microsoft.com\ndyyeung@cse.ust.hk\nAbstract\nThis paper studies the visual tracking problem in video\nsequences and presents a novel robust sparse tracker under\nthe particle ﬁlter framework. In particular, we propose an\nonline robust non-negative dictionary learning algorithm\nfor updating the object templates so that each learned tem-\nplate can capture a distinctive aspect of the tracked object.\nAnother appealing property of this approach is that it can\nautomatically detect and reject the occlusion and cluttered\nbackground in a principled way. In addition, we propose\na new particle representation formulation using the Huber\nloss function. The advantage is that it can yield robust esti-\nmation without using trivial templates adopted by previous\nsparse trackers, leading to faster computation. We also re-\nveal the equivalence between this new formulation and the\nprevious one which uses trivial templates. The proposed\ntracker is empirically compared with state-of-the-art track-\ners on some challenging video sequences. Both quantita-\ntive and qualitative comparisons show that our proposed\ntracker is superior and more stable.\n1. Introduction\nVisual tracking or object tracking in video sequences\nis a major topic in computer vision and related ﬁelds. It\nhas a wide range of real-world applications, including secu-\nrity and surveillance, autonomous vehicles, automatic traf-\nﬁc control, medical imaging, human-computer interaction,\nand many more. A typical setting of the problem is that\nan object identiﬁed, either manually or automatically, in\nthe ﬁrst frame of a video sequence is tracked in the subse-\nquent frames by estimating its trajectory as it moves around.\nWhile the problem is easy to state, it is often challenging to\nbuild a robust object tracker due to various factors which\ninclude noise, occlusion, fast and abrupt object motion, il-\nlumination changes, and variations in pose and scale. The\nfocus of this paper is on the widely-studied single object\ntracking problem.\nMei and Ling proposed the ℓ1 tracker (L1T) [18] for ro-\nbust visual tracking under the particle ﬁlter framework [5]\nbased on the sparse coding technique [22]. L1T and its ex-\ntensions [30, 29] showed promising results in various tests.\n(a) davidin\n(b) bolt\nFigure 1. Learned templates for two video sequences: davidin and\nbolt. For each sequence, the learned templates cover different ap-\npearances of the tracked object in the video while rejecting the\ncluttered background.\nL1T describes the tracking target using basis vectors which\nconsist of object templates and trivial templates, and recon-\nstructs each candidate (particle) by a sparse linear combi-\nnation of them. While object templates correspond to the\nnormal appearance of objects, trivial templates are used to\nhandle noise or occlusion. Speciﬁcally, each trivial template\nhas only one nonzero element being one for a speciﬁc fea-\nture. If it is selected to represent the particle, it means that\nthe corresponding feature is occluded. It is shown in [18]\nthat a good target candidate should involve fewer trivial\ntemplates while keeping the reconstruction error low. We\nreview the L1T in detail in section 3.2.\nIn this paper, we present an online robust non-negative\ndictionary learning algorithm for updating the object tem-\nplates. The learned templates for two video sequences are\nshown in Fig. 1. We devise a novel online projected gradient\ndescent method to solve the dictionary learning problem. In\ncontrast to the ad hoc manner by replacing the least used\ntemplate with the current tracking result as in [18, 30], our\nalgorithm blends the past information and the current track-\ning result in a principled way. It can automatically detect\nand reject the occlusion and cluttered background, yielding\nrobust object templates. Besides, we formulate the particle\nrepresentation problem using the Huber loss function [10].\nThis formulation can yield robust estimation without using\ntrivial templates and thus lead to signiﬁcant reduction of the\ncomputational cost. Moreover, we also establish the equiv-\nalence between this new formulation and the L1T.\n2. Related Work\nObject tracking is an extensively studied research topic.\nFor a comprehensive survey of this topic, we refer readers\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.87\n657\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

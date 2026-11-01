@@ -1,0 +1,39 @@
+{
+  "number": 163,
+  "title": "Meta-Tracker: Fast and Robust Online Adaptation for Visual Object Trackers",
+  "year": 2018,
+  "authors": [
+    "Park",
+    "Eunbyung and Berg",
+    "Alexander C."
+  ],
+  "venue": "ECCV",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Eunbyung_Park_Meta-Tracker_Fast_and_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Eunbyung_Park_Meta-Tracker_Fast_and_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Eunbyung_Park_Meta-Tracker_Fast_and_ECCV_2018_paper.pdf",
+      "bytes": 1456015,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\163_2018_Meta-Tracker__Fast_and_Robust_Online_Adaptation_for_Visual_Object_Trackers.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Eunbyung_Park_Meta-Tracker_Fast_and_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Eunbyung_Park_Meta-Tracker_Fast_and_ECCV_2018_paper.pdf",
+  "bytes": 1456015,
+  "sha256": "bd6c2038e8ae08107046f675df53dd89e3c486dbb907f0e84e7c1088d83d3804",
+  "version": "会议官方开放版本",
+  "pages": 17,
+  "pdf_title": "Meta-Tracker: Fast and Robust Online Adaptation for Visual Object Trackers",
+  "first_page_text": "Meta-Tracker: Fast and Robust Online\nAdaptation for Visual Object Trackers\nEunbyung Park\nAlexander C. Berg\nDepartment of Computer Science,\nUniversity of North Carolina at Chapel Hill\n{eunbyung,aberg}@cs.unc.edu\nAbstract. This paper improves state-of-the-art visual object trackers\nthat use online adaptation. Our core contribution is an oﬄine meta-\nlearning-based method to adjust the initial deep networks used in online\nadaptation-based tracking. The meta learning is driven by the goal of\ndeep networks that can quickly be adapted to robustly model a particu-\nlar target in future frames. Ideally the resulting models focus on features\nthat are useful for future frames, and avoid overﬁtting to background\nclutter, small parts of the target, or noise. By enforcing a small number\nof update iterations during meta-learning, the resulting networks train\nsigniﬁcantly faster. We demonstrate this approach on top of the high per-\nformance tracking approaches: tracking-by-detection based MDNet [1]\nand the correlation based CREST [2]. Experimental results on standard\nbenchmarks, OTB2015 [3] and VOT2016 [4], show that our meta-learned\nversions of both trackers improve speed, accuracy, and robustness.\n1\nIntroduction\nVisual object tracking is a task that locates target objects precisely over a se-\nquence of image frames given a target bounding box at the initial frame. In\ncontrast to other object recognition tasks, such as object category classiﬁcation\nand detection, in visual object tracking, instance-level discrimination is an im-\nportant factor. For example, a target of interest could be one particular person\nin a crowd, or a speciﬁc product (e.g. coke can) in a broader category (e.g. soda\ncans). Therefore, an accurate object tracker should be capable of not only recog-\nnizing generic objects from background clutter and other categories of objects,\nbut also discriminating a particular target among similar distractors that may\nbe of the same category. Furthermore, the model learned during tracking should\nbe ﬂexible to account for appearance variations of the target due to viewpoint\nchange, occlusion, and deformation.\nOne approach to these challenges is applying online adaptation. The model\nof the target during tracking, e.g. DCF (discriminative correlation ﬁlter) or bi-\nnary classiﬁer (the object vs backgrounds), is initialized at the ﬁrst frame of a\nsequence, and then updated to be adapted to target appearance in subsequent\nThe code is available at https://github.com/silverbottlep/meta trackers.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

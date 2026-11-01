@@ -1,0 +1,44 @@
+{
+  "number": 219,
+  "title": "SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking",
+  "year": 2026,
+  "authors": [
+    "Qiuyang Zhang",
+    "Jiujun Cheng",
+    "Qichao Mao",
+    "Cong Liu",
+    "Yu Fang",
+    "Yuhong Li",
+    "Mengying Ge",
+    "Shangce Gao"
+  ],
+  "venue": "CVPR",
+  "category": "高效跟踪与资源预算",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.pdf",
+      "bytes": 4010590,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\219_2026_SpikeTrack__A_Spike-driven_Framework_for_Efficient_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.pdf",
+  "bytes": 4010590,
+  "sha256": "8e40238dfefebd51211c1977d96f475e1d0d0bfd8b44cfdf89fbb6fe67769ba7",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking",
+  "first_page_text": "SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking\nQiuyang Zhang1, Jiujun Cheng1,†, Qichao Mao1,†, Cong Liu2, Yu Fang1, Yuhong Li3, Mengying Ge4,\nShangce Gao5\n1Tongji University\n2Nova University of Lisbon\n3Stockholm University\n4Shanghai University\n5University of Toyama\nAbstract\nSpiking Neural Networks (SNNs) promise energy-\nefficient vision, but applying them to RGB visual tracking\nremains difficult: Existing SNN tracking frameworks either\ndo not fully align with spike-driven computation or do not\nfully leverage neurons’ spatiotemporal dynamics, leading\nto a trade-off between efficiency and accuracy. To address\nthis, we introduce SpikeTrack, a spike-driven framework for\nenergy-efficient RGB object tracking. SpikeTrack employs\na novel asymmetric design that uses asymmetric timestep\nexpansion and unidirectional information flow, harnessing\nspatiotemporal dynamics while cutting computation. To en-\nsure effective unidirectional information transfer between\nbranches, we design a memory-retrieval module inspired\nby neural inference mechanisms. This module recurrently\nqueries a compact memory initialized by the template to\nretrieve target cues and sharpen target perception over\ntime. Extensive experiments demonstrate that SpikeTrack\nachieves the state-of-the-art among SNN-based trackers\nand remains competitive with advanced ANN trackers. No-\ntably, it surpasses TransT on LaSOT dataset while consum-\ning only 1/26 of its energy. To our knowledge, SpikeTrack\nis the first spike-driven framework to make RGB tracking\nboth accurate and energy efficient. The code and models\nare available at this URL.\n1. Introduction\nSpiking neural networks (SNNs) are a promising energy-\nefficient computing paradigm that simulates the spatiotem-\nporal dynamics and spiking mechanisms of biological neu-\nrons [20]. Their spike-driven computation has two advan-\ntages: (i) computation is triggered only when driven by\nevents [21], and (ii) matrix multiplications between spike\ntensors and weights can be converted into sparse addi-\ntions [7]. This gives SNNs a significant power-saving ad-\n† Corresponding authors: Jiujun Cheng (chengjj@tongji.edu.cn), Qichao\nMao (mao qichao@tongji.edu.cn).\nFigure 1. Energy–accuracy trade-off on LaSOT[5]. SpikeTrack\nachieves lower energy consumption than efficient ANN trackers\nwhile matching the accuracy of precision-oriented methods.\nvantage over ANNs on neuromorphic chips [24, 25]. SNNs\nhave shown strong results on multiple vision tasks [13, 17,\n41], and their spatiotemporal dynamics make them natural\ncandidates for tracking continuously moving objects.\nCurrent SNN tracking work falls into RGB-based\nand event-based methods.\nWithin the RGB-based line,\nSiamSNN [18] and Spike-SiamFC++ [32], adopt the\nSiamese architecture, achieve tracking via network conver-\nsion and end-to-end training, respectively. Although these\nmethods use spiking neurons in form, they decode spike\nsignals into continuous values for computation, prevent-\ning fully spike-driven processing and reducing energy ef-\nficiency.\nEvent-based methods [26, 34] adapt the dense\ninteraction framework [2, 37] from ANN, also known as\nthe one-stream architecture, as shown in Fig. 2. This ap-\nproach concatenates the search region and multiple tem-\nplates along the token length dimension within a single\ntimestep, feeding them into the backbone for joint model-\ning via spike self-attention. However, this direct imitation\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n6802\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

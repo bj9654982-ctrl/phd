@@ -1,0 +1,606 @@
+{
+  "number": 199,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Progressive Unsupervised Learning for Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2026-09-12T17:12:00Z",
+      "timestamp": 1789233120886,
+      "version": "build-2803163510"
+    },
+    "reference-count": 67,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr46437.2021.00301",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2021-11-02T21:56:02Z",
+      "timestamp": 1635890162000
+    },
+    "page": "2992-3001",
+    "source": "Crossref",
+    "is-referenced-by-count": 38,
+    "title": [
+      "Progressive Unsupervised Learning for Visual Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Qiangqiang",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jia",
+        "family": "Wan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Antoni B.",
+        "family": "Chan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref38",
+        "first-page": "300",
+        "article-title": "Trackingnet: A large-scale dataset and benchmark for object tracking in the wild",
+        "author": "muller",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref33",
+        "first-page": "318",
+        "article-title": "Joint-task self-supervised learning for temporal correspondence",
+        "author": "li",
+        "year": "2019",
+        "journal-title": "International Conference on Neural Information Processing"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00519"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01060"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "ref36",
+        "first-page": "527",
+        "article-title": "Shuffle and learn: unsupervised learning using temporal order verification",
+        "author": "misra",
+        "year": "2016",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV45572.2020.9093278"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.478"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_10"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-58568-6_3"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00675"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3065386"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00411"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2019.00276"
+      },
+      {
+        "key": "ref65",
+        "article-title": "Deeper and wider siamese networks for raal-time visual tracking",
+        "author": "zhang",
+        "year": "2017",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00906"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref67",
+        "first-page": "391",
+        "article-title": "Edge boxes: Locating object proposals from edges",
+        "author": "zitnick",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/IROS45743.2020.9341621",
+        "article-title": "Self-supervised object tracking with cycle-consistent siamese networks",
+        "author": "yuan",
+        "year": "2020"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.01133"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "ref22",
+        "first-page": "5574",
+        "article-title": "What uncertainties do we need in bayesian deep learning for computer vision?",
+        "author": "kendall",
+        "year": "2017",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Improving multi-person pose estimation using label correction",
+        "author": "kato",
+        "year": "2018"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.239"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "kingma",
+        "year": "2014"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_54"
+      },
+      {
+        "key": "ref25",
+        "article-title": "The sixth visual object tracking vot2018 challenge results",
+        "author": "kristan",
+        "year": "2018",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref50",
+        "first-page": "6578",
+        "article-title": "Visual tracking by re-detection",
+        "author": "voigtlaender",
+        "year": "2020",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00140"
+      },
+      {
+        "key": "ref59",
+        "first-page": "2691",
+        "article-title": "Learning from massive noisy labeled data for image classification",
+        "author": "xiao",
+        "year": "2015",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00393"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00041"
+      },
+      {
+        "key": "ref55",
+        "first-page": "2794",
+        "article-title": "Unsupervised learning of visual representations using videos",
+        "author": "wang",
+        "year": "2020",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.24963/ijcai.2018/137"
+      },
+      {
+        "key": "ref53",
+        "article-title": "Dcfnet: Discriminant correlation filters network for visual tracking",
+        "author": "wang",
+        "year": "2017"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-020-01357-4"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01261-8_28"
+      },
+      {
+        "key": "ref40",
+        "first-page": "920",
+        "article-title": "Correlated uncertainty for learning dense correspondences from noisy labels",
+        "author": "neverova",
+        "year": "2019",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "ref13",
+        "article-title": "Unsupervised learning for physical interaction through video prediction",
+        "author": "finn",
+        "year": "2016"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2017.129"
+      },
+      {
+        "key": "ref15",
+        "first-page": "1919",
+        "article-title": "Robust loss functions under label noise for deep neural networks",
+        "author": "ghosh",
+        "year": "2017",
+        "journal-title": "AAAI"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00975"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref19",
+        "article-title": "Beyond synthetic noise: Deep learning on controlled noisy labels",
+        "author": "jiang",
+        "year": "2020",
+        "journal-title": "ICML"
+      },
+      {
+        "key": "ref4",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "ECCVW"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00465"
+      },
+      {
+        "key": "ref6",
+        "first-page": "483",
+        "article-title": "Unveiling the power of deep tracking",
+        "author": "bhat",
+        "year": "2018",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref5",
+        "first-page": "6182",
+        "article-title": "Leanring discriminative model prediction for tracking",
+        "author": "bhat",
+        "year": "2019",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref7",
+        "article-title": "A simple framework for contrastive learning of visual representations",
+        "author": "chen",
+        "year": "2020"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.696"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3394171.3413611"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Contrastive multiview coding",
+        "author": "tian",
+        "year": "2019"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Big self-supervised models are strong semi-supervised learners",
+        "author": "tian",
+        "year": "2020",
+        "journal-title": "NeurIPS"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.789"
+      },
+      {
+        "key": "ref41",
+        "article-title": "Robust learning under label noise with iterative noise-filtering",
+        "author": "nguyen",
+        "year": "2019"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01134"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      }
+    ],
+    "event": {
+      "name": "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            20
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            25
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/9577055/9577056/09577999.pdf?arnumber=9577999",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          14
+        ]
+      ],
+      "date-time": "2023-01-14T10:25:56Z",
+      "timestamp": 1673691956000
+    },
+    "score": 46.745953,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/9577999/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 67,
+    "URL": "https://doi.org/10.1109/cvpr46437.2021.00301",
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    }
+  }
+}

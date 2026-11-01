@@ -1,0 +1,39 @@
+{
+  "number": 192,
+  "title": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+  "year": 2024,
+  "authors": [
+    "Fei Xie",
+    "Zhongdao Wang",
+    "Chao Ma"
+  ],
+  "venue": "CVPR",
+  "category": "自回归与生成式跟踪",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+      "bytes": 1279348,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\192_2024_DiffusionTrack__Point_Set_Diffusion_Model_for_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.pdf",
+  "bytes": 1279348,
+  "sha256": "3b3fb70a8b5576acc3d7082da432048d4a136f889bbc612a64cc36ab9a9f9f53",
+  "version": "会议官方开放版本",
+  "pages": 12,
+  "pdf_title": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+  "first_page_text": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking\nFei Xie†\nZhongdao Wang‡\nChao Ma†*\n† MoE Key Lab of Artiﬁcial Intelligence, AI Institute, Shanghai Jiao Tong University\n‡ Huawei Noah’s Ark Lab\njaffe031@sjtu.edu.cn, wangzhongdao@huawei.com, chaoma@sjtu.edu.cn\nAbstract\nExisting Siamese or transformer trackers commonly pose\nvisual object tracking as a one-shot detection problem, i.e.,\nlocating the target object in a single forward evaluation\nscheme. Despite the demonstrated success, these trackers\nmay easily drift towards distractors with similar appear-\nance due to the single forward evaluation scheme lacking\nself-correction. To address this issue, we cast visual track-\ning as a point set based denoising diffusion process and\npropose a novel generative learning based tracker, dubbed\nDiffusionTrack. Our DiffusionTrack possesses two appeal-\ning properties: 1) It follows a novel noise-to-target track-\ning paradigm that leverages multiple denoising diffusion\nsteps to localize the target in a dynamic searching man-\nner per frame. 2) It models the diffusion process using a\npoint set representation, which can better handle appear-\nance variations for more precise localization.\nOne side\nbeneﬁt is that DiffusionTrack greatly simpliﬁes the post-\nprocessing, e.g. removing window penalty scheme. Without\nbells and whistles, our DiffusionTrack achieves leading per-\nformance over the state-of-the-art trackers and runs in real-\ntime. The code is in https://github.com/VISION-\nSJTU/DiffusionTrack.\n1. Introduction\nVisual Object Tracking (VOT) is one of the most fundamen-\ntal computer vision problems with numerous applications.\nRecent prevalent Siamese [5, 31, 51, 105, 117] and trans-\nformer [14, 17, 25, 106, 113] based tracking approaches\ntypically formulate visual tracking as a one-shot detection\nproblem with a single forward evaluation scheme, i.e., these\ntrackers ﬁrst perform template-matching, and then predict\nthe location and size changes of the target in a single for-\nward pass.\nDespite the demonstrated success, regarding\ntracking as one-shot detection raises two critical issues: 1)\nDetectors emphasize the category-level difference to detect\n*Corresponding author.\n\u000bF\f\u00032XU\u00031RLVH\u0010WR\u00107DUJHW\u0003\u000b1\u00157\f IUDPHZRUN ZLWK\u0003SRLQW\u0010VHW\u0003GLIIXVLRQ\u0003SURFHVV\n,QSXW\u0003LPDJHV\n݂\nݕ଴\nݕ௧ିଵ\nݕ௧\nݕ୘\n«\n݌ఏሺݕ௧ȁݕ௧ିଵሻ\n«\nݔ\nݖ\n7UDFNLQJ\u0003PRGHO\n'HQRLVLQJ\u0003GLIIXVLRQ\u0003SURFHVV\n\u000bD\f\u00036LQJOH\u0010IRUZDUG\u0003GHWHFWLRQ\u0003EDVHG\nWUDFNHUV \u000b6LDP531\u000f\u00037UDQV7\u000f\u00032VWUDFN«\f\n,QSXW\u0003LPDJHV\n7UDFNLQJ\u0003PRGHO\n2XWSXW\n݂\nݕ\nݔ\nݖ\n\u000bE\f 'LIIXVLRQ\u0003PRGHO\u0003LQ\u0003UHODWHG\u0003\nSHUFHSWLRQ\u0003WDVNV\n6HJPHQWDWLRQ\nRQ\u0003QRLVH\u0003PDS\n2EMHFW\u0003GHWHFWLRQ\nRQ ER[\nFigure 1.\nCompared to detection-based trackers with a single\nforward evaluation scheme (a), e.g. SiamRPN [51], TransT [14],\nOStrack [113], our proposed DiffusionTrack (c) localizes the tar-\nget in a progressive diffusion manner. Furthermore, we tailor a\npoint set representation to model the target object for the track-\ning task, instead of adopting existing representations such as noise\nmaps for segmentation [13, 42] and random boxes for object de-\ntection [11].Better viewed with zoomed in.\nall potential objects from the background, while trackers fo-\ncus on the instance-level difference to distinguish the target\nfrom distractors with a similar appearance. 2) It is difﬁ-\ncult for trackers to localize targets undergoing large appear-\nance variations and in complex scenarios in a single forward\npass. Even humans can be easily confused by similar dis-\ntractor objects at ﬁrst glance.\nTo address these issues, we reformulate the tracking\nproblem as a Noise-to-Target (N2T) process shown in\nFig. 1, which explicitly mimics the coarse-to-ﬁne search-\ning mechanism of human vision. Our intuition is that we\nshould empower a tracker with the ability of self-correction,\nby which it can progressively differentiate the target and\nfully exploit the rich contexts from the background and dis-\ntractors. Such a progressive searching manner is intuitively\nsuperior to predicting the target size and location changes\nin merely one forward pass. To this end, we construct a\ndenoising diffusion process, originally proposed for gen-\nerative image tasks [20, 73, 79], to infer the target from\nrandom hypotheses on the entire frame step by step (see\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n19113\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

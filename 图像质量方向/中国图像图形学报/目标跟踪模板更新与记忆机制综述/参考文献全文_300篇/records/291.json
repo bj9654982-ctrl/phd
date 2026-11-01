@@ -1,0 +1,41 @@
+{
+  "number": 291,
+  "title": "Need for Speed: A Benchmark for Higher Frame Rate Object Tracking",
+  "year": 2017,
+  "authors": [
+    "Hamed Kiani Galoogahi",
+    "Ashton Fagg",
+    "Chen Huang",
+    "Deva Ramanan",
+    "Simon Lucey"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Galoogahi_Need_for_Speed_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Need_for_Speed_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Need_for_Speed_ICCV_2017_paper.pdf",
+      "bytes": 4324148,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\291_2017_Need_for_Speed__A_Benchmark_for_Higher_Frame_Rate_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Need_for_Speed_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Galoogahi_Need_for_Speed_ICCV_2017_paper.pdf",
+  "bytes": 4324148,
+  "sha256": "6228c10e8a981df7041b6267974b083d87ea4eef5601fa41d6d5f9a347c2faca",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Need for Speed: A Benchmark for Higher Frame Rate Object Tracking",
+  "first_page_text": "Need for Speed: A Benchmark for Higher Frame Rate Object Tracking\nHamed Kiani Galoogahi1*, Ashton Fagg2*, Chen Huang1, Deva Ramanan1 and Simon Lucey1\n1Robotics Institute, Carnegie Mellon University\n2SAIVT Lab, Queensland University of Technology\n{hamedk,chenh2}@andrew.cmu.edu\nashton@fagg.id.au\n{deva,slucey}@cs.cmu.edu\nAbstract\nIn this paper, we propose the ﬁrst higher frame rate\nvideo dataset (called Need for Speed - NfS) and bench-\nmark for visual object tracking.\nThe dataset consists of\n100 videos (380K frames) captured with now commonly\navailable higher frame rate (240 FPS) cameras from real\nworld scenarios. All frames are annotated with axis aligned\nbounding boxes and all sequences are manually labelled\nwith nine visual attributes - such as occlusion, fast motion,\nbackground clutter, etc. Our benchmark provides an exten-\nsive evaluation of many recent and state-of-the-art trackers\non higher frame rate sequences. We ranked each of these\ntrackers according to their tracking accuracy and real-time\nperformance. One of our surprising conclusions is that at\nhigher frame rates, simple trackers such as correlation ﬁl-\nters outperform complex methods based on deep networks.\nThis suggests that for practical applications (such as in\nrobotics or embedded vision), one needs to carefully trade-\noff bandwidth constraints associated with higher frame rate\nacquisition, computational costs of real-time analysis, and\nthe required application accuracy. Our dataset and bench-\nmark allows for the ﬁrst time (to our knowledge) systematic\nexploration of such issues, and will be made available to\nallow for further research in this space.\n1. Introduction\nVisual object tracking is a fundamental task in computer\nvision which has implications for a bevy of applications:\nsurveillance, vehicle autonomy, video analysis, etc. The vi-\nsion community has shown an increasing degree of interest\nin the problem - with recent methods becoming increasingly\nsophisticated and accurate [9, 14, 11, 1, 2]. However, most\nof these algorithms - and the datasets they have been evalu-\nated upon [38, 37, 23] - have been aimed at the canonical ap-\nproximate frame rate of 30 Frames Per Second (FPS). Con-\n*The ﬁrst two authors contributed equally.\n# 00001\n# 00553\n# 00737\n# 00001\n# 00721\n# 01050\n# 02110\n# 00001\n# 00225\n# 00390\n# 00001\n# 00177\n# 00273\nFigure 1. The effect of tracking higher frame rate videos. Top rows\nillustrate the robustness of tracking higher frame rate videos (240\nFPS) versus lower frame rate videos (30 FPS) for a Correlation Fil-\nter (BACF with HOG) and a deep tracker (MDNet). Bottom rows\nshow if higher frame rate videos are available, cheap CF track-\ners (Staple and BACF) can outperform complicated deep trackers\n(SFC and MDNet) on challenging situations such as fast motion,\nrotation, illumination and cluttered background. Predicted bound-\ning boxes of these methods are shown by different colors. HFR\nand LFR refer to Higher and Lower Frame Rate videos.\nsumer devices with cameras such as smart phones, tablets,\ndrones, and robots are increasingly coming with higher\nframe rate cameras (240 FPS now being standard on many\nsmart phones, tablets, drones, etc.). The visual object track-\ning community is yet to adapt to the changing landscape of\nwhat “real-time” means and how faster frame rates effect\nthe choice of tracking algorithm one should employ.\nIn recent years, signiﬁcant attention has been paid to\nCorrelation Filter (CF) based methods [3, 14, 9, 16, 17, 1]\nfor visual tracking.\nThe appeal of correlation ﬁlters is\ntheir efﬁciency - a discriminative tracker can be learned on-\n11125\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

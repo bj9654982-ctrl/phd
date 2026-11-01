@@ -1,0 +1,43 @@
+{
+  "number": 173,
+  "title": "Transforming Model Prediction for Tracking",
+  "year": 2022,
+  "authors": [
+    "Christoph Mayer",
+    "Martin Danelljan",
+    "Goutam Bhat",
+    "Matthieu Paul",
+    "Danda Pani Paudel",
+    "Fisher Yu",
+    "Luc Van Gool"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Mayer_Transforming_Model_Prediction_for_Tracking_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Mayer_Transforming_Model_Prediction_for_Tracking_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Mayer_Transforming_Model_Prediction_for_Tracking_CVPR_2022_paper.pdf",
+      "bytes": 1394896,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\173_2022_Transforming_Model_Prediction_for_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Mayer_Transforming_Model_Prediction_for_Tracking_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Mayer_Transforming_Model_Prediction_for_Tracking_CVPR_2022_paper.pdf",
+  "bytes": 1394896,
+  "sha256": "9e779462e9c3c57491199d2aeea298363f324381f2a284c3e0b1eab797bfbd4a",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Transforming Model Prediction for Tracking",
+  "first_page_text": "Transforming Model Prediction for Tracking\nChristoph Mayer\nMartin Danelljan\nGoutam Bhat\nMatthieu Paul\nDanda Pani Paudel\nFisher Yu\nLuc Van Gool\nComputer Vision Lab, D-ITET, ETH Z¨urich, Switzerland\nAbstract\nOptimization based tracking methods have been widely\nsuccessful by integrating a target model prediction mod-\nule, providing effective global reasoning by minimizing an\nobjective function.\nWhile this inductive bias integrates\nvaluable domain knowledge, it limits the expressivity of\nthe tracking network.\nIn this work, we therefore pro-\npose a tracker architecture employing a Transformer-based\nmodel prediction module.\nTransformers capture global\nrelations with little inductive bias, allowing it to learn\nthe prediction of more powerful target models.\nWe fur-\nther extend the model predictor to estimate a second set\nof weights that are applied for accurate bounding box\nregression.\nThe resulting tracker ToMP relies on train-\ning and on test frame information in order to predict all\nweights transductively. We train the proposed tracker end-\nto-end and validate its performance by conducting compre-\nhensive experiments on multiple tracking datasets. ToMP\nsets a new state of the art on three benchmarks, achiev-\ning an AUC of 68.5% on the challenging LaSOT [14]\ndataset.\nThe code and trained models are available at\nhttps://github.com/visionml/pytracking\n1. Introduction\nGeneric visual object tracking is one of the fundamental\nproblems in computer vision. The task involves estimating\nthe state of the target object in every frame of a video se-\nquence, given only the initial target location. One of the\nkey problems in object tracking is learning to robustly de-\ntect the target object, given a scarce annotation. Among\nexisting methods, Discriminative Correlation Filters (DCF)\n[1,4,9,10,18,20,29,35] have achieved much success. These\napproaches learn a target model to localize the target in\neach frame, by minimizing a discriminative objective func-\ntion. The target model, often set to a convolutional kernel,\nprovides a compact and generalizable representation of the\ntracked object, leading to the popularity of DCFs.\nThe objective function in DCF integrates both fore-\nground and background knowledge over the previous\nSuperDiMP\nToMP-50+ \nIoUNet\nToMP-101\n63.1\n64.7\n68.5\n64.7\n65.2\n66.9\nSiamRCNN\nTrDiMP\nTransT\nKeepTrack\n63.9\n67.1\n63.9\n63.9\n66.2\n66.4\nLaSOT\nNFS\nSTARK-ST101\nSTARK-ST50\nToMP-50 \n66.7\n66.4\nFigure 1.\nPerformance improvements when transforming the\nmodel optimizer based tracker SuperDiMP [8] ( ) step-by-step.\nFirst, we replace the model optimizer by a Transformer based\nmodel predictor ( ).\nSecondly, we replace the probabilistic\nIoUNet by a new regressor and predict its weights with the same\nmodel predictor ( ). The performance (success AUC) is reported\non NFS [17] and LaSOT [14] and compared with recent track-\ners ( ). ToMP-50 and ToMP-101 refer to the different employed\nbackbones ResNet-50 [19] and ResNet-101 [19].\nframes, providing effective global reasoning when learning\nthe model. However, it also imposes severe inductive bias\non the predicted target model. Since the target model is ob-\ntained by solely minimizing an objective over the previous\nframes, the model predictor has limited flexibility. For in-\nstance, it cannot integrate any learned priors in the predicted\ntarget model. On the other hand, Transformers have also\nbeen shown to provide strong global reasoning across mul-\ntiple frames, thanks to the use of self and cross attention.\nConsequently, Transformers have been applied to generic\nobject tracking [6,40,43,45] with considerable success.\nIn this work, we propose a novel tracking framework that\naims at bridging the gap between DCF and Transformer\nbased trackers.\nOur approach employs a compact target\nmodel for localizing the target, as in DCF. The weights of\nthis model are however obtained using a Transformer-based\nmodel predictor, allowing us to learn more powerful target\nmodels, compared to DCFs. This is achieved by introduc-\ning novel encodings of the target state, allowing the Trans-\nformer to effectively utilize this information. We further ex-\ntend our model predictor to generate weights for a bounding\n8731\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,50 @@
+{
+  "number": 51,
+  "title": "Reading Relevant Feature from Global Representation Memory for Visual Object Tracking",
+  "year": 2023,
+  "authors": [
+    "Xinyu Zhou",
+    "Pinxue Guo",
+    "Lingyi Hong",
+    "Jinglun Li",
+    "Wei Zhang",
+    "Weifeng Ge",
+    "Wenqiang Zhang"
+  ],
+  "venue": "Advances in Neural Information Processing Systems",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://papers.nips.cc/paper_files/paper/2023/hash/2349293cb1bf2ce36d5c566f660f957e-Abstract-Conference.html",
+  "doi": "10.52202/075280-0476",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://papers.nips.cc/paper_files/paper/2023/hash/2349293cb1bf2ce36d5c566f660f957e-Abstract-Conference.html",
+      "final_url": "https://papers.nips.cc/paper_files/paper/2023/hash/2349293cb1bf2ce36d5c566f660f957e-Abstract-Conference.html",
+      "bytes": 10008,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf",
+      "bytes": 1074523,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\051_2023_Reading_Relevant_Feature_from_Global_Representation_Memory_for_Visual_Object_T.pdf",
+  "download_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf",
+  "requested_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/2349293cb1bf2ce36d5c566f660f957e-Paper-Conference.pdf",
+  "bytes": 1074523,
+  "sha256": "08a217581ed3d1645bc00aa9c433a369ec7c0e8a8ce6d31d440c4de688b5361d",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 14,
+  "pdf_title": "",
+  "first_page_text": "Reading Relevant Feature from Global Representation\nMemory for Visual Object Tracking\nXinyu Zhou1\nPinxue Guo2\nLingyi Hong1\nJinglun Li2\nWei Zhang1\nWeifeng Ge1∗Wenqiang Zhang1,2∗\n1School of Computer Science, Fudan University, Shanghai, China\n2Academy for Engineering and Technology, Fudan University, Shanghai, China\nzhouxinyu20@fudan.edu.cn, pxguo21@m.fudan.edu.cn,lyhong22@m.fudan.edu.cn,\njingli960423@gmail.com, weizhang@fudan.edu.cn,\nweifeng.ge.ic@gmail.com,wqzhang@fudan.edu.cn\nAbstract\nReference features from a template or historical frames are crucial for visual\nobject tracking. Prior works utilize all features from a fixed template or memory\nfor visual object tracking. However, due to the dynamic nature of videos, the\nrequired reference historical information for different search regions at different\ntime steps is also inconsistent. Therefore, using all features in the template and\nmemory can lead to redundancy and impair tracking performance. To alleviate this\nissue, we propose a novel tracking paradigm, consisting of a relevance attention\nmechanism and a global representation memory, which can adaptively assist the\nsearch region in selecting the most relevant historical information from reference\nfeatures. Specifically, the proposed relevance attention mechanism in this work\ndiffers from previous approaches in that it can dynamically choose and build the\noptimal global representation memory for the current frame by accessing cross-\nframe information globally. Moreover, it can flexibly read the relevant historical\ninformation from the constructed memory to reduce redundancy and counteract\nthe negative effects of harmful information. Extensive experiments validate the\neffectiveness of the proposed method, achieving competitive performance on five\nchallenging datasets with 71 FPS.\n1\nIntroduction\nVisual object tracking (VOT) is a fundamental task in computer vision, which provides only the\nlocation of an object in the first frame and then accomplishes continuous predictions of the object’s\nposition in subsequent video frames. At present, visual object tracking is widely used in autonomous\nvehicle [25], video surveillance[48], and other scenes. As video frames are dynamic and continuously\nchanging, it presents a significant challenge in addressing the appearance variation of the target and\nthe changes in the environment. The current mainstream approach to addressing this problem is\nin two perspectives: the first type[47, 5, 54, 41, 32, 49, 26], as shown in Fig. 1(a), is to perform\ninteractive computations on all patches of a fixed template and the search region. The second\ntype[15, 51, 52, 9, 14, 43], as shown in Fig.1(b), is to perform the interactive computation of template\nmemory and the search region. Despite their great success, they neglect the appearance variation of\nthe target and the changes in the environment. In other words, the relevant reference information\nfor the search region at different time steps should be diverse. Retrieving all information from the\n∗corresponding author.\n37th Conference on Neural Information Processing Systems (NeurIPS 2023).\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

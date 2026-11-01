@@ -1,0 +1,39 @@
+{
+  "number": 282,
+  "title": "RMem: Restricted Memory Banks Improve Video Object Segmentation",
+  "year": 2024,
+  "authors": [
+    "Junbao Zhou",
+    "Ziqi Pang",
+    "Yu-Xiong Wang"
+  ],
+  "venue": "CVPR",
+  "category": "视频分割中的可迁移记忆机制",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_RMem_Restricted_Memory_Banks_Improve_Video_Object_Segmentation_CVPR_2024_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_RMem_Restricted_Memory_Banks_Improve_Video_Object_Segmentation_CVPR_2024_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_RMem_Restricted_Memory_Banks_Improve_Video_Object_Segmentation_CVPR_2024_paper.pdf",
+      "bytes": 2411628,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\282_2024_RMem__Restricted_Memory_Banks_Improve_Video_Object_Segmentation.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_RMem_Restricted_Memory_Banks_Improve_Video_Object_Segmentation_CVPR_2024_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Zhou_RMem_Restricted_Memory_Banks_Improve_Video_Object_Segmentation_CVPR_2024_paper.pdf",
+  "bytes": 2411628,
+  "sha256": "2bd4a387d7caa04f92460c2df2bc2c7704f80a782038c9b27e99561d48f57c7f",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "RMem: Restricted Memory Banks Improve Video Object Segmentation",
+  "first_page_text": "RMem: Restricted Memory Banks Improve Video Object Segmentation\nJunbao Zhou∗\nZiqi Pang∗\nYu-Xiong Wang\nUniversity of Illinois Urbana-Champaign\n{junbaoz,ziqip2,yxw}@illinois.edu\nAbstract\nWith recent video object segmentation (VOS) bench-\nmarks evolving to challenging scenarios, we revisit a sim-\nple but overlooked strategy: restricting the size of mem-\nory banks. This diverges from the prevalent practice of ex-\npanding memory banks to accommodate extensive histor-\nical information. Our specially designed “memory deci-\nphering” study offers a pivotal insight underpinning such a\nstrategy: expanding memory banks, while seemingly bene-\nficial, actually increases the difficulty for VOS modules to\ndecode relevant features due to the confusion from redun-\ndant information. By restricting memory banks to a lim-\nited number of essential frames, we achieve a notable im-\nprovement in VOS accuracy. This process balances the im-\nportance and freshness of frames to maintain an informa-\ntive memory bank within a bounded capacity. Additionally,\nrestricted memory banks reduce the training-inference dis-\ncrepancy in memory lengths compared with continuous ex-\npansion. This fosters new opportunities in temporal reason-\ning and enables us to introduce the previously overlooked\n“temporal positional embedding.” Finally, our insights are\nembodied in “RMem” (“R” for restricted), a simple yet\neffective VOS modification that excels at challenging VOS\nscenarios and establishes new state of the art for object\nstate changes (on the VOST dataset) and long videos (on\nthe Long Videos dataset). Our code and demos are avail-\nable at https://restricted-memory.github.io/.\n1. Introduction\nThe rapid progress of video object segmentation (VOS) al-\ngorithms has motivated the creation of more challenging\nbenchmarks, as exemplified by VOST [34] on more com-\nplicated videos with significant object state changes and\nthe Long Videos dataset [25] featuring extremely long du-\nration. These benchmarks elevate the spatio-temporal mod-\neling and prompt us to reassess conventional VOS designs:\ncan learning-based VOS modules effectively decipher his-\ntorical information in such challenging scenarios?\nTo delve into this issue, it is essential to focus on memory\nbanks, which are central to storing past features and feed-\n*Equal contribution.\nOur Restricted Memory\nPredicted\nMasks\n∅\nLong-term\nMemory\nConventional Unrestricted Memory\nInput Videos\nPredicted\nMasks\n∅\nAppend\nVideo\nFrames\nGT\nMasks\nLong-term\nMemory\nAppend\nAppend\nSelect\nUpdate\nFigure 1. In light of challenging object state changes [34, 41, 47],\nwe rethink the conventional approach of continuously accumulat-\ning the features into memory banks: despite capturing all the infor-\nmation, it complicates the deciphering of relevant features. Con-\nversely, restricting the memory significantly enhances VOS.\ning input to VOS modules, and are fundamental in memory-\nbased VOS framework [9, 11, 45]. Typically, the memory\nbanks are managed via the simple intuition of expansion,\ncontinuously appending newly sampled frames as the video\nprogresses. While this approach is intended to encompass\nall historical information, thereby enhancing VOS, we real-\nize its potential limitation: as videos become longer or more\ncomplex, these expanding memory banks may overwhelm\nthe capability of VOS modules to discern reliable features.\nWe investigate this hypothesis by conducting a pilot\nstudy, named “memory deciphering,” to quantify the decod-\ning capability of VOS modules. In our analysis, we con-\ntinue to use object segmentation as the proxy to VOS, but\nshift the prediction target to decoding the object mask at\nthe initial frame (frame 0) from the memory bank. This\nchoice is deliberate based on the principle of controlling\nvariables: (1) In the VOS framework, the information of\nframe 0 is implicitly propagated to subsequent frames, en-\nsuring the presence of relevant information for decoding;\n(2) This prediction target is consistent across frames and al-\nlows for a fair comparison of decoding efficacy under vary-\ning memory sizes. Intuitively, the later frames have rigor-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n18602\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

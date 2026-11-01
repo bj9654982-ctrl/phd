@@ -1,0 +1,385 @@
+{
+  "number": 290,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Beyond Standard Benchmarks: Parameterizing Performance Evaluation in Visual Object Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2024-10-23T02:22:25Z",
+      "timestamp": 1729650145925,
+      "version": "3.28.0"
+    },
+    "reference-count": 32,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2017.360",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2017-12-25T21:51:45Z",
+      "timestamp": 1514238705000
+    },
+    "page": "3343-3351",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Beyond Standard Benchmarks: Parameterizing Performance Evaluation in Visual Object Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Luka Cehovin",
+        "family": "Zajc",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Lukezic",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Ales",
+        "family": "Leonardis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Matej",
+        "family": "Kristan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "941",
+        "DOI": "10.1109/TPAMI.2012.145",
+        "article-title": "Robust visual tracking using an adaptive coupled-layer visual model",
+        "volume": "35",
+        "author": "?ehovin",
+        "year": "2013",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-33712-3_62"
+      },
+      {
+        "key": "ref30",
+        "first-page": "188",
+        "article-title": "MEEM: robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "Proc European Conf Computer Vision"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref12",
+        "article-title": "The visual object tracking VOT2016 challenge results",
+        "author": "kristan",
+        "year": "2016",
+        "journal-title": "Proc European Conf Computer Vision"
+      },
+      {
+        "key": "ref13",
+        "article-title": "The visual object tracking vot2015 challenge results",
+        "author": "kristan",
+        "year": "2015",
+        "journal-title": "Int Conf Computer Vision"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2016.2516982"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.20"
+      },
+      {
+        "key": "ref16",
+        "first-page": "191",
+        "article-title": "The visual object tracking vot2014 challenge results",
+        "author": "kristan",
+        "year": "2014",
+        "journal-title": "Proc European Conf Computer Vision"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2482905"
+      },
+      {
+        "key": "ref18",
+        "article-title": "A benchmark and simulator for uav tracking",
+        "author": "mueller",
+        "year": "2016",
+        "journal-title": "Proc European Conf Computer Vision"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298895"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VSPETS.2005.1570931"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.156"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247880"
+      },
+      {
+        "key": "ref3",
+        "first-page": "1830",
+        "article-title": "Real time robust 11 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "Comp Vis Patt Recognition"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1261",
+        "DOI": "10.1109/TIP.2016.2520370",
+        "article-title": "Visual object tracking performance measures revisited",
+        "volume": "25",
+        "author": "?ehovin",
+        "year": "2016",
+        "journal-title": "IEEE Trans Image Proc"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.239"
+      },
+      {
+        "journal-title": "Fully-Convolutional Siamese Networks for Object Tracking",
+        "year": "2016",
+        "author": "bertinetto",
+        "key": "ref5"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.490"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.28.65"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref9",
+        "first-page": "4340",
+        "article-title": "Virtual worlds as proxy for multi-object tracking analysis",
+        "author": "gaidon",
+        "year": "2016",
+        "journal-title": "Comput Vis Pattern Recognit (CVPR)"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.256"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "first-page": "5",
+        "DOI": "10.1016/j.neucom.2017.02.036",
+        "article-title": "Trax: The visual tracking exchange protocol and library",
+        "volume": "260",
+        "author": "?ehovin",
+        "year": "2017",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1442",
+        "DOI": "10.1109/TPAMI.2013.230",
+        "article-title": "Visual tracking: An experimental survey",
+        "volume": "36",
+        "author": "smeulders",
+        "year": "2014",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref24",
+        "first-page": "652",
+        "article-title": "Robust scale-adaptive mean-shift for tracking",
+        "author": "vojir",
+        "year": "2013",
+        "journal-title": "Image Analysis 18th Scandinavian Conference SCIA 2013"
+      },
+      {
+        "key": "ref23",
+        "article-title": "The enhanced flock of trackers",
+        "volume": "532",
+        "author": "vojir",
+        "year": "2014",
+        "journal-title": "Reg-ist and Recog in Images and Videos"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      }
+    ],
+    "event": {
+      "name": "2017 IEEE International Conference on Computer Vision (ICCV)",
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            22
+          ]
+        ]
+      },
+      "location": "Venice",
+      "end": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            29
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2017 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8234942/8237262/08237622.pdf?arnumber=8237622",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2023-08-30T06:30:26Z",
+      "timestamp": 1693377026000
+    },
+    "score": 67.36157,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/8237622/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    },
+    "references-count": 32,
+    "URL": "https://doi.org/10.1109/iccv.2017.360",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    }
+  }
+}

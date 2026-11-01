@@ -1,0 +1,40 @@
+{
+  "number": 85,
+  "title": "Visual Tracking With Fully Convolutional Networks",
+  "year": 2015,
+  "authors": [
+    "Lijun Wang",
+    "Wanli Ouyang",
+    "Xiaogang Wang",
+    "Huchuan Lu"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Wang_Visual_Tracking_With_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Visual_Tracking_With_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Visual_Tracking_With_ICCV_2015_paper.pdf",
+      "bytes": 1053481,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\085_2015_Visual_Tracking_With_Fully_Convolutional_Networks.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Visual_Tracking_With_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Visual_Tracking_With_ICCV_2015_paper.pdf",
+  "bytes": 1053481,
+  "sha256": "3c5b7ace21e97ef47799eb20b673768332e885ac723851968f2e02b607ed5a5a",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Visual Tracking With Fully Convolutional Networks",
+  "first_page_text": "Visual Tracking with Fully Convolutional Networks\nLijun Wang1,2, Wanli Ouyang2, Xiaogang Wang2, and Huchuan Lu1\n1Dalian University of Technology, China\n2The Chinese University of Hong Kong, Hong Kong, China\nAbstract\nWe propose a new approach for general object tracking\nwith fully convolutional neural network. Instead of treating\nconvolutional neural network (CNN) as a black-box feature\nextractor, we conduct in-depth study on the properties of C-\nNN features ofﬂine pre-trained on massive image data and\nclassiﬁcation task on ImageNet. The discoveries motivate\nthe design of our tracking system. It is found that convolu-\ntional layers in different levels characterize the target from\ndifferent perspectives. A top layer encodes more semantic\nfeatures and serves as a category detector, while a lower\nlayer carries more discriminative information and can bet-\nter separate the target from distracters with similar appear-\nance. Both layers are jointly used with a switch mechanism\nduring tracking. It is also found that for a tracking target,\nonly a subset of neurons are relevant. A feature map se-\nlection method is developed to remove noisy and irrelevan-\nt feature maps, which can reduce computation redundancy\nand improve tracking accuracy. Extensive evaluation on the\nwidely used tracking benchmark [36] shows that the pro-\nposed tacker outperforms the state-of-the-art signiﬁcantly.\n1. Introduction\nVisual tracking, as a fundamental problem in comput-\ner vision, has found wide applications.\nAlthough much\nprogress [7, 29, 38] has been made in the past decade,\ntremendous challenges still exist in designing a robust track-\ner that can well handle signiﬁcant appearance changes, pose\nvariations, severe occlusions, and background clutters.\nExisting appearance-based tracking methods adopt ei-\nther generative or discriminative models to separate the\nforeground from background and distinct co-occurring ob-\njects. One major drawback is that they rely on low-level\nhand-crafted features which are incapable to capture seman-\ntic information of targets, not robust to signiﬁcant appear-\nance changes, and only have limited discriminative power.\nDriven by the emergence of large-scale visual data\nsets and fast development of computation power, Deep\n(c)\n(b)\n(a)\nFigure 1. Feature maps for target localization. (a)(b) From left to\nright: input image, the ground truth target heat map, the predict-\ned heat maps using feature maps of conv5-3 and conv4-3 layers of\nVGG network [27] (See Section 4.2 for the regression method). (c)\nFrom left to right: input image, ground truth foreground mask, av-\nerage feature maps of conv5-3 (top) and conv4-3 (bottom) layers,\naverage selected feature maps conv5-3 (top) and conv4-3 (bottom)\nlayers (See Section 4.1 for the feature map selection method).\nNeural Networks (DNNs), especially convolutional neu-\nral networks [17] (CNNs), with their strong capabilities of\nlearning feature representations, have demonstrated record\nbreaking performance in computer vision tasks, e.g., im-\nage classiﬁcation [16, 27], object detection [8, 23, 22], and\nsaliency detection [33, 39].\nDifferent from hand-crafted\nfeatures, those learned by CNNs from massive annotated\nvisual data and a large number of object classes (such as Im-\nageNet [4]) carry rich high-level semantic information and\nare strong at distinguishing objects of different categories.\nThese features have good generalization capability across\ndata sets. Recent studies [28, 1] have also shown that such\nfeatures are robust to data corruption. Their neuron respons-\n3119\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

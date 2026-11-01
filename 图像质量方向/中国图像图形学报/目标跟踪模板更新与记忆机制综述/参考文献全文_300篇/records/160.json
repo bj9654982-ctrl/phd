@@ -1,0 +1,39 @@
+{
+  "number": 160,
+  "title": "Tracking as Online Decision-Making: Learning a Policy From Streaming Videos With Reinforcement Learning",
+  "year": 2017,
+  "authors": [
+    "James Supancic",
+    "III",
+    "Deva Ramanan"
+  ],
+  "venue": "ICCV",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Supancic_Tracking_as_Online_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Supancic_Tracking_as_Online_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Supancic_Tracking_as_Online_ICCV_2017_paper.pdf",
+      "bytes": 870555,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\160_2017_Tracking_as_Online_Decision-Making__Learning_a_Policy_From_Streaming_Videos_Wi.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Supancic_Tracking_as_Online_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Supancic_Tracking_as_Online_ICCV_2017_paper.pdf",
+  "bytes": 870555,
+  "sha256": "590ba9d292d95f7c9b9495b5f461d3308113bf98195da47bb354e4abf5a9ceed",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Tracking as Online Decision-Making: Learning a Policy From Streaming Videos With Reinforcement Learning",
+  "first_page_text": "Tracking as Online Decision-Making:\nLearning a Policy from Streaming Videos with Reinforcement Learning\nJames Supanˇciˇc, III\nUniversity of California, Irvine\njsupanci@uci.edu\nDeva Ramanan\nCarnegie Mellon University\ndeva@cs.cmu.edu\nAbstract\nWe formulate tracking as an online decision-making pro-\ncess, where a tracking agent must follow an object despite\nambiguous image frames and a limited computational bud-\nget. Crucially, the agent must decide where to look in the\nupcoming frames, when to reinitialize because it believes\nthe target has been lost, and when to update its appearance\nmodel for the tracked object. Such decisions are typically\nmade heuristically. Instead, we propose to learn an optimal\ndecision-making policy by formulating tracking as a par-\ntially observable decision-making process (POMDP). We\nlearn policies with deep reinforcement learning algorithms\nthat need supervision (a reward signal) only when the track\nhas gone awry. We demonstrate that sparse rewards al-\nlow us to quickly train on massive datasets, several orders\nof magnitude more than past work. Interestingly, by treat-\ning the data source of Internet videos as unlimited streams,\nwe both learn and evaluate our trackers in a single, uniﬁed\ncomputational stream.\n1. Introduction\nObject tracking is one of the basic computational build-\ning blocks of video analysis, relevant for tasks such as gen-\neral scene understanding and perception-for-robotics.\nA\nparticularly popular formalism is that of model-free track-\ning, where a tracker is provided with a bounding-box ini-\ntialization of an unknown object.\nMuch of the recent\nstate-of-the-art advances make heavy use of machine learn-\ning [23, 54, 40, 56, 20], often producing impressive results\nby improving core components such as appearance descrip-\ntors or motion modeling.\nChallenges: We see two signiﬁcant challenges that limit\nfurther progress. First, the limited quantity of annotated\nvideo data impedes both training and evaluation.\nWhile\nimage datasets involve millions of images for training and\ntesting, tracking datasets have hundreds of videos. Lack\nof data seems to arise from the difﬁculty of annotating\nFigure 1. Streaming interactive training: We propose an iterative\nprocedure for interactively training trackers from data. We down-\nload a new video from the Internet and run the current tracker\non it, evaluate the tracker’s performance with interactive rewards,\nand then retrain the tracker policy (with reinforcement learning)\nwith the reward signals. Importantly, rather than requiring interac-\ntive labeling of bounding-boxes, we require only binary (incorrect\n/ correct) feedback from human users. This scheme allows us to\ntrain and evaluate our tracker on massive streaming datasets, 100X\nlarger than prior work (Table 1).\nvideos, as opposed to images.\nSecond, as vision (re)-\nintegrates with robotics, video processing must be done in\nan online, streaming fashion.\nThis requires a tracker to\nmake on-the-ﬂy decisions such as when to re-initialize it-\nself [51, 16, 30, 47, 21] or update its appearance model (the\nso-called template-update problem [54, 21]). Such deci-\nsions are known to be crucial in terms of ﬁnal performance,\nbut are typically hand-designed rather than learned.\nContribution 1 (interactive video processing):\nWe\nshow that reinforcement learning (RL) can be used to ad-\ndress both challenges in distinct ways. In terms of data,\nrather than requiring videos to be labeled with detailed\nbounding-boxes at each frame, we interactively train track-\ners with far more limited supervision (specifying binary re-\nwards/penalties only when a tracker fails). This allows us\nto train on massive video datasets that are 100× larger than\n322\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

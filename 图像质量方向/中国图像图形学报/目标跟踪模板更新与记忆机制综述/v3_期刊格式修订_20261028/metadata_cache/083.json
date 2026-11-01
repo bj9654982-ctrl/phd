@@ -1,0 +1,357 @@
+{
+  "number": 83,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Tracking-by-Segmentation with Online Gradient Boosting Decision Tree",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T10:00:38Z",
+      "timestamp": 1791194438111,
+      "version": "4.1.0"
+    },
+    "reference-count": 31,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2015.350",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2016-02-19T23:23:49Z",
+      "timestamp": 1455924229000
+    },
+    "page": "3056-3064",
+    "source": "Crossref",
+    "is-referenced-by-count": 96,
+    "title": [
+      "Tracking-by-Segmentation with Online Gradient Boosting Decision Tree"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Jeany",
+        "family": "Son",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ilchae",
+        "family": "Jung",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kayoung",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bohyung",
+        "family": "Han",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247882"
+      },
+      {
+        "key": "ref30",
+        "first-page": "188",
+        "article-title": "MEEM: robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126228"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "ref12",
+        "first-page": "234",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "ECCV"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1186",
+        "DOI": "10.1109/TPAMI.2007.70771",
+        "article-title": "Sequential kernel density approximation and its application to real-time visual tracking",
+        "volume": "30",
+        "author": "han",
+        "year": "2008",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cviu.2008.11.003"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298675"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10599-4_11"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1008078328650"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2013.20"
+      },
+      {
+        "key": "ref28",
+        "first-page": "1323",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-33765-9_60"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1015706.1015720"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref5",
+        "article-title": "Supervised feature learning for curvillinear structure segmentation",
+        "author": "becker",
+        "year": "2013",
+        "journal-title": "MICCAI"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-009-0275-4"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2013.308"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aos/1013203451"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539810"
+      },
+      {
+        "key": "ref20",
+        "first-page": "1551",
+        "article-title": "Learning occlusion with likelihoods for visual tracking",
+        "author": "kwak",
+        "year": "2011",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref22",
+        "first-page": "1208",
+        "article-title": "Tracking of a non-rigid object via patch-based dynamic appearance modeling and adaptive basin hopping monte carlo sampling",
+        "author": "kwon",
+        "year": "2009",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-540-88682-2_30"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-10602-1_8"
+      },
+      {
+        "key": "ref23",
+        "first-page": "1436",
+        "article-title": "Robust visual tracking using ?1 minimization",
+        "author": "mei",
+        "year": "2009",
+        "journal-title": "ICCV"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICSMC.2005.1571498"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Santiago, Chile",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            12,
+            13
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7407725/7410356/07410707.pdf?arnumber=7410707",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2017-06-24T06:21:28Z",
+      "timestamp": 1498285288000
+    },
+    "score": 51.495403,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7410707/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    },
+    "references-count": 31,
+    "URL": "https://doi.org/10.1109/iccv.2015.350",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          12
+        ]
+      ]
+    }
+  }
+}

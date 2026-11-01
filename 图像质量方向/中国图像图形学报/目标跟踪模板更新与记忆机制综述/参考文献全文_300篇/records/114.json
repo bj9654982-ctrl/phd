@@ -1,0 +1,41 @@
+{
+  "number": 114,
+  "title": "AutoTrack: Towards High-Performance Visual Tracking for UAV With Automatic Spatio-Temporal Regularization",
+  "year": 2020,
+  "authors": [
+    "Yiming Li",
+    "Changhong Fu",
+    "Fangqiang Ding",
+    "Ziyuan Huang",
+    "Geng Lu"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.pdf",
+      "bytes": 2928374,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\114_2020_AutoTrack__Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spa.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.pdf",
+  "bytes": 2928374,
+  "sha256": "3c6f05294b788e8592e945051486b95a2db0899ebef8b4666a17b5935f80a1eb",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "AutoTrack: Towards High-Performance Visual Tracking for UAV With Automatic Spatio-Temporal Regularization",
+  "first_page_text": "AutoTrack: Towards High-Performance Visual Tracking for UAV with\nAutomatic Spatio-Temporal Regularization\nYiming Li†, Changhong Fu†,∗, Fangqiang Ding†, Ziyuan Huang‡, and Geng Lu§\n†Tongji University\n‡National University of Singapore\n§ Tsinghua University\nyimingli9702@gmail.com, changhongfu@tongji.edu.cn, lug@tsinghua.edu.cn\nAbstract\nMost existing trackers based on discriminative correla-\ntion ﬁlters (DCF) try to introduce predeﬁned regularization\nterm to improve the learning of target objects, e.g., by sup-\npressing background learning or by restricting change rate\nof correlation ﬁlters. However, predeﬁned parameters intro-\nduce much effort in tuning them and they still fail to adapt\nto new situations that the designer did not think of. In this\nwork, a novel approach is proposed to online automatically\nand adaptively learn spatio-temporal regularization term.\nSpatially local response map variation is introduced as spa-\ntial regularization to make DCF focus on the learning of\ntrust-worthy parts of the object, and global response map\nvariation determines the updating rate of the ﬁlter. Exten-\nsive experiments on four UAV benchmarks have proven the\nsuperiority of our method compared to the state-of-the-art\nCPU- and GPU-based trackers, with a speed of ∼60 frames\nper second running on a single CPU.\nOur tracker is additionally proposed to be applied in\nUAV localization. Considerable tests in the indoor practi-\ncal scenarios have proven the effectiveness and versatility of\nour localization method. The code is available at https:\n//github.com/vision4robotics/AutoTrack.\n1. Introduction\nVisual object tracking is one of the fundamental tasks\nin the computer vision community, aiming to localize the\nobject sequentially only with the information given in the\nﬁrst frame. Endowing unmanned aerial vehicle (UAV) with\nvisual tracking capability brings many applications, e.g.,\naerial cinematography [1], person following [2], aircraft\ntracking [3], and trafﬁc patrolling [4].\nThere are currently two main research interests in this\narea: discriminative correlation ﬁlter (DCF)-based meth-\nods [5, 6, 7, 8, 9, 10, 11, 12, 13, 14] as well as deep learning-\nbased approaches [15, 16, 17, 18, 19, 20]. In considera-\n∗Corresponding author\nGlobal response variation\nOcclusion\nSevere illumination variation\nOut-of-view\n#095\n#107\n#025\n#207\n#005\nLocal response variation\nThreshold\nFigure 1. Central idea of our tracker. Spatially local and global\nresponse variations are exploited. Local variations indicate local\ncredibility in the object bounding box. Severe illumination change\nin frame 25 and 95 as well as partial occlusion in frame 107 and\n207 can lower the credibility of the appearance. AutoTrack is pun-\nished for learning these appearances so that local distractions can\nbe avoided. In terms of global variations, large value can indicate\nwrong tracking result, where we stop the learning of correlation\nﬁlters, while relatively large value should accelerate the learning\nof correlation ﬁlters so that adaptivity can be raised.\ntion of the limitation of power capacity and computational\nresources onboard UAVs, DCF framework is selected be-\ncause of its high efﬁciency originating from calculation in\nthe Fourier domain.\nTo improve DCF-based trackers, there are currently three\ndirections: a) building more robust appearance model [18,\n17, 20, 21], b) mitigating boundary effect or imposing re-\nstrictions in learning [8, 22, 17, 14, 23], and c) mitigating\nﬁlter degradation [24, 12, 14, 25]. Robust appearance can\nindeed boost performance, yet it leads to burdensome calcu-\nlations. Filter degradation, on the other hand, is not improv-\ning it fundamentally. Most trackers try to improve perfor-\nmance using option b) by introducing regularization terms.\nRecently, some attentions have been brought to using\nresponse maps generated in the detection phase to form\nthe restrictions in learning [26]. The intuition behind it is\n11923\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,41 @@
+{
+  "number": 53,
+  "title": "Initialization-Insensitive Visual Tracking through Voting with Salient Local Features",
+  "year": 2013,
+  "authors": [
+    "Kwang Moo Yi",
+    "Hawook Jeong",
+    "Byeongho Heo",
+    "Hyung Jin Chang",
+    "Jin Young Choi"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2013/html/Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.pdf",
+      "bytes": 1138255,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\053_2013_Initialization-Insensitive_Visual_Tracking_through_Voting_with_Salient_Local_F.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2013/papers/Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.pdf",
+  "bytes": 1138255,
+  "sha256": "0a0642489a7a7caa69090ba04ee80d53c4d72f642efb16e29100e1fef3d85792",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Initialization-Insensitive Visual Tracking through Voting with Salient Local Features",
+  "first_page_text": "Initialization-Insensitive Visual Tracking Through Voting\nwith Salient Local Features\nKwang Moo Yi*, Hawook Jeong*, Byeongho Heo*, Hyung Jin Chang**, and Jin Young Choi*\n*Department of EECS, ASRI\nSeoul National University, Seoul, Korea\n{kmyi, hwjeong, ho6946, jychoi}@snu.ac.kr\n**Department of EEE\nImperial College, London, UK\nhj.chang@imperial.ac.uk\nAbstract\nIn this paper we propose an object tracking method in\ncase of inaccurate initializations. To track objects accu-\nrately in such situation, the proposed method uses “motion\nsaliency” and “descriptor saliency” of local features and\nperforms tracking based on generalized Hough transform\n(GHT). The proposed motion saliency of a local feature em-\nphasizes features having distinctive motions, compared to\nthe motions which are not from the target object. The de-\nscriptor saliency emphasizes features which are likely to be\nof the object in terms of its feature descriptors. Through\nthese saliencies, the proposed method tries to “learn and\nﬁnd” the target object rather than looking for what was\ngiven at initialization, giving robust results even with inac-\ncurate initializations. Also, our tracking result is obtained\nby combining the results of each local feature of the tar-\nget and the surroundings with GHT voting, thus is robust\nagainst severe occlusions as well. The proposed method\nis compared against nine other methods, with nine image\nsequences, and hundred random initializations. The exper-\nimental results show that our method outperforms all other\ncompared methods.\n1. Introduction\nVarious tracking methods have been developed over the\npast decade and have proven to be successful for many\napplications [22].\nTo track objects accurately, problems\nsuch as non-rigid deformations [7, 14, 9], partial occlu-\nsions [1, 17], and drifting [20, 4] have been tackled giv-\ning promising results. However, the applicability of con-\nventional methods are still limited in actual environments\ndue to their sensitivity to initializations (illustrated in Fig-\nure 1). One of the major assumptions many conventional\ntrackers have is that the target object is given rather accu-\nrately. Therefore, the trackers are sensitive to how they were\ninitialized at the ﬁrst frame. Practically, this is not a trivial\n2\n215\n2\n215\n25\n \nGT\nPROP\nOAB\nSEMI\nBEYOND\nHOUGH\nMIL\nTLD\nMST\nFRAG\nINVIS\nFigure 1: Example of tracking in case of occlusions and\nwith clumsy initializations. Slight difference in initializa-\ntions for the occCup sequence (left column), leading to\ndifferent results for the same frame (right column). Best\nviewed in color.\ntask and leads to loss in tracking performances. Also, in\nactual environments, severe occlusions exist where almost\nall of the target object is occluded, which not many trackers\nare capable of dealing with.\nThe performance degradation of conventional trackers\nunder inaccurate initializations is a problem which has not\nbeen well addressed yet. There are methods with automatic\ninitialization for trackers such as the method by Mahade-\nvan and Vasconcelos [16], but still, they do not account for\ncases when these initializations fail to give an accurate ini-\ntialization. Performance degradation from inaccurate ini-\ntializations is closely related to drifting problems. In many\ntracking methods, such as [7, 1, 10, 11, 20], the model for\nthe target object is constructed using the initial target infor-\nmation given at the ﬁrst frame. Then, the methods adapt\nthe target model with the tracking results for each frames.\nDuring the adaptation, rather than learning about the tar-\nget object and enhancing the model, noise gets involved in\nthe learning process and the performance of the tracker de-\ngrades. This drifting phenomenon is evident even in online\n2013 IEEE International Conference on Computer Vision\n1550-5499/13 $31.00 © 2013 IEEE\nDOI 10.1109/ICCV.2013.362\n2912\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

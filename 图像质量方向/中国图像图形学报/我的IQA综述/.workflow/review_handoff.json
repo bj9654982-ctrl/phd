@@ -1,0 +1,19 @@
+{
+  "stage": "review-writing",
+  "read_gate": "pass",
+  "self_gate": "pass",
+  "draft_shape_checked": "pass",
+  "ready_for_final": "yes",
+  "artifacts": {
+    "review_draft": "J:\\phd\\图像质量方向\\中国图像图形学报\\我的IQA综述\\work\\review_draft.md",
+    "review_draft_with_ids": "J:\\phd\\图像质量方向\\中国图像图形学报\\我的IQA综述\\work\\review_draft_with_ids.md",
+    "check_report": "J:\\phd\\图像质量方向\\中国图像图形学报\\我的IQA综述\\.workflow\\review_draft_check.json"
+  },
+  "check_result": {
+    "status": "pass",
+    "paragraph_count": 5,
+    "visible_length": 2083,
+    "numbered_citations": 0,
+    "author_year_citations": 33
+  }
+}

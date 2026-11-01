@@ -1,0 +1,43 @@
+{
+  "number": 203,
+  "title": "Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning",
+  "year": 2026,
+  "authors": [
+    "Yaozong Zheng",
+    "Qihua Liang",
+    "Bineng Zhong",
+    "Shuimu Zeng",
+    "Yuanliang Xue",
+    "Ning Li",
+    "Shuxiang Song"
+  ],
+  "venue": "CVPR",
+  "category": "自监督训练与表征迁移",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning_CVPR_2026_paper.pdf",
+      "bytes": 3434613,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\203_2026_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning_CVPR_2026_paper.pdf",
+  "bytes": 3434613,
+  "sha256": "bf935cab745c8afe8540baf3087dfc56aaf097574348f6d0eaf72c565492d577",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning",
+  "first_page_text": "Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning\nYaozong Zheng1,2, Qihua Liang1,2*, Bineng Zhong1,2∗, Shuimu Zeng3,\nYuanliang Xue4, Ning Li1,2, Shuxiang Song1,2\n1Key Laboratory of Education Blockchain and Intelligent Technology, Ministry of Education\nGuangxi Normal University, Guilin 541004, China\n2University Engineering Research Center of Educational Intelligent Technology\nGuangxi Normal University, Guilin 541004, China\n3University of Southampton, Southampton, SO17 1BJ, United Kingdom\n4Xi’an Research Institute of High Technology, Xi’an 710025, China\nyaozongzheng@stu.gxnu.edu.cn, qhliang@gxnu.edu.cn, bnzhong@gxnu.edu.cn\nAbstract\nLearning robust contextual knowledge from unlabeled\nvideos is essential for advancing self-supervised tracking.\nHowever, conventional self-supervised trackers lack effec-\ntive context modeling, while existing context association\nmethods based on non-semantic queries struggle to adapt to\nunlabeled tracking scenarios, making it difficult to learn re-\nliable contextual cues. In this work, we propose a novel self-\nsupervised tracking framework, named PNTrack, which in-\ntroduces a dual-modal context association mechanism that\njointly leverages fine-grained semantic prompts and contex-\ntual noise to drive the model toward learning robust track-\ning representations. Adherent to the easy-to-hard learning\nprinciple, our contextual association mechanism operates\nbased on two stages. During early training, instance patch\ntokens (prompts) are assigned to both forward and back-\nward tracking branches to facilitate the acquisition of track-\ning knowledge. As training progresses, contextual noise is\ngradually injected into the model to perturb feature, encour-\naging the tracker to learn robust tracking representations in\na more complex feature space. Thus, this novel contextual\nassociation mechanism enables our self-supervised model\nto learn high-quality tracking representations from unla-\nbeled videos, while being applied exclusively during train-\ning to preserve efficient inference. Extensive experiments\ndemonstrate the superiority of our method.\n1. Introduction\nVisual object tracking aims to continuously locate and track\na specific target object throughout a video sequence. In re-\n*Corresponding author.\nTemplate\nSearch\nmodel\nas prompt\nnon-semantic\nquery\nHead\nBackbone\nas noise\nTrain\nEpoch\nas prompt\nTemplate\nSearch\npatch tokens from \nthe same sequence\npatch tokens from \nother sequences\n(a) The Self-supervised Tracker\nwithout Context\n(b) The Fully Supervised \nContextual Tracker\n(c) Our Self Supervised Contextual Tracker\nTemplate\nSearch\nmodel\nquery\nnon context\nModel\nFigure 1.\nComparison of different tracking methods.\n(a) The\nvanilla self-supervised tracker [17] without contextual modeling.\n(b) The fully supervised contextual tracker [4, 49] using randomly\ninitialized non-semantic queries. (c) Our self-supervised contex-\ntual tracker guided by prompt and noise tokens.\ncent years, this task has made significant strides, largely\ndriven by the availability of large-scale annotated track-\ning datasets and advancements in deep learning techniques.\nBenchmark datasets such as LaSOT [10], TrackingNet [23],\nand GOT10k [13] have played a crucial role in training ef-\nfective tracking models, substantially contributing to per-\nformance improvements across various challenging sce-\nnarios.\nHowever, due to their reliance on meticulously\nhuman-annotated video sequences, traditional fully super-\nvised tracking models [4, 41] face limitations in scalabil-\nity and generalization, which hinders their broader deploy-\nment. To address this issue, self-supervised tracking has\nbeen proposed and has since garnered considerable atten-\ntion. Typically, it seeks to leverage large volumes of unla-\nbeled video frames along with a minimal amount of labeled\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n35197\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

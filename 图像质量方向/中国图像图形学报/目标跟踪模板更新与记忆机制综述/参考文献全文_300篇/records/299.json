@@ -1,0 +1,42 @@
+{
+  "number": 299,
+  "title": "MOSE: A New Dataset for Video Object Segmentation in Complex Scenes",
+  "year": 2023,
+  "authors": [
+    "Henghui Ding",
+    "Chang Liu",
+    "Shuting He",
+    "Xudong Jiang",
+    "Philip H.S. Torr",
+    "Song Bai"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.pdf",
+      "bytes": 3067095,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\299_2023_MOSE__A_New_Dataset_for_Video_Object_Segmentation_in_Complex_Scenes.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2023/papers/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.pdf",
+  "bytes": 3067095,
+  "sha256": "c89382d98758ded0795f947799e83bef76e8ad734e301267afcf116cf0cbe818",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "MOSE: A New Dataset for Video Object Segmentation in Complex Scenes",
+  "first_page_text": "MOSE: A New Dataset for Video Object Segmentation in Complex Scenes\nHenghui Ding1 \u0000Chang Liu1\nShuting He1\nXudong Jiang1\nPhilip H.S. Torr2\nSong Bai3\n1Nanyang Technological University\n2University of Oxford\n3ByteDance\nhttps://henghuiding.github.io/MOSE\nFigure 1. Examples of video clips from the coMplex video Object SEgmentation (MOSE) dataset. The selected target objects are\nmasked in orange ◼. The most notable feature of MOSE is complex scenarios, including the disappearance-reappearance of objects,\nsmall/inconspicuous objects, heavy occlusions, crowded scenarios, etc. For example, the target player in the 2nd row turns around when\nreappearing in the 4th and 5th columns after disappearing in the 3rd column, bringing challenges in re-identifying him. Most videos in\nMOSE contain crowded and occluded objects with the target object seldom being the salient one. The goal of MOSE dataset is to provide\na platform that promotes the development of more comprehensive and robust video object segmentation algorithms.\nAbstract\nVideo object segmentation (VOS) aims at segmenting a\nparticular object throughout the entire video clip sequence.\nThe state-of-the-art VOS methods have achieved excellent\nperformance (e.g., 90+% &) on existing datasets. How-\never, since the target objects in these existing datasets\nare usually relatively salient, dominant, and isolated, VOS\nunder complex scenes has rarely been studied. To revisit\nVOS and make it more applicable in the real world, we\ncollect a new VOS dataset called coMplex video Object\nSEgmentation (MOSE) to study the tracking and segment-\ning objects in complex scenarios. MOSE contains 2,149\nvideo clips and 5,200 objects from 36 categories, with\n431,725 high-quality object segmentation masks. The most\nnotable feature of MOSE dataset is complex scenes with\ncrowded and occluded objects. The target objects in the\nvideos are commonly occluded by others and disappear\nin some frames. To analyze the proposed MOSE dataset,\nwe benchmark 18 existing VOS methods under 4 differ-\nent settings on the proposed MOSE dataset and conduct\ncomprehensive comparisons.\nThe experiments show that\n\u0000 henghui.ding@gmail.com\ncurrent VOS algorithms cannot well perceive objects in\ncomplex scenes. For example, under the semi-supervised\nVOS setting, the highest &by existing state-of-the-art\nVOS methods is only 59.4% on MOSE, much lower than\ntheir ∼90% &performance on DAVIS. The results reveal\nthat although excellent performance has been achieved on\nexisting benchmarks, there are unresolved challenges under\ncomplex scenes and more efforts are desired to explore these\nchallenges in the future.\n1. Introduction\nVideo object segmentation (VOS) [73, 74, 97] aims at\nsegmenting a particular object, e.g., the dominant objects\nor the objects indicated by users, throughout the entire\nvideo sequence.\nIt is one of the most fundamental and\nchallenging computer vision tasks and has a crucial role\nin many piratical applications that involve video analysis\nand understanding, e.g., self-driving vehicle, augmented\nreality, video editing, etc. There are many different settings\nfor VOS, for example, semi-supervised VOS [4, 71] that\ngives the first-frame mask of the target object, unsupervised\nVOS [14, 33] that automatically finds primary objects, and\nThis ICCV paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n20224\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

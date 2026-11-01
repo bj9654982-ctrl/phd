@@ -1,0 +1,41 @@
+{
+  "number": 145,
+  "title": "Learning To Fuse Asymmetric Feature Maps in Siamese Trackers",
+  "year": 2021,
+  "authors": [
+    "Wencheng Han",
+    "Xingping Dong",
+    "Fahad Shahbaz Khan",
+    "Ling Shao",
+    "Jianbing Shen"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.pdf",
+      "bytes": 1362341,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\145_2021_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.pdf",
+  "bytes": 1362341,
+  "sha256": "a52aed5f49be02fc4b4e82e5fa38c290b97763f970f8a038b01af269a7903c55",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Learning To Fuse Asymmetric Feature Maps in Siamese Trackers",
+  "first_page_text": "Learning to Fuse Asymmetric Feature Maps in Siamese Trackers\nWencheng Han∗1, Xingping Dong∗2, Fahad Shahbaz Khan3, Ling Shao2, Jianbing Shen†2,1\n1Beijing Institute of Technology, 2Inception Institute of Artiﬁcial Intelligence\n3Mohamed Bin Zayed University of Artiﬁcial Intelligence,UAE\nwencheng@bit.edu.cn, xingping.dong@gmail.com, fahad.khan@liu.se\nling.shao@ieee.org, shenjianbingcg@gmail.com\nAbstract\nRecently, Siamese-based trackers have achieved promis-\ning performance in visual tracking. Most recent Siamese-\nbased trackers typically employ a depth-wise cross-\ncorrelation (DW-XCorr) to obtain multi-channel correla-\ntion information from the two feature maps (target and\nsearch region). However, DW-XCorr has several limitations\nwithin Siamese-based tracking: it can easily be fooled by\ndistractors, has fewer activated channels and provides weak\ndiscrimination of object boundaries. Further, DW-XCorr is\na handcrafted parameter-free module and cannot fully ben-\neﬁt from ofﬂine learning on large-scale data.\nWe propose a learnable module, called the asymmetric\nconvolution (ACM), which learns to better capture the se-\nmantic correlation information in ofﬂine training on large-\nscale data. Different from DW-XCorr and its predecessor\n(XCorr), which regard a single feature map as the convo-\nlution kernel, our ACM decomposes the convolution oper-\nation on a concatenated feature map into two mathemati-\ncally equivalent operations, thereby avoiding the need for\nthe feature maps to be of the same size (width and height)\nduring concatenation.\nOur ACM can incorporate useful\nprior information, such as bounding-box size, with stan-\ndard visual features. Furthermore, ACM can easily be inte-\ngrated into existing Siamese trackers based on DW-XCorr\nor XCorr. To demonstrate its generalization ability, we in-\ntegrate ACM into three representative trackers: SiamFC,\nSiamRPN++ and SiamBAN. Our experiments reveal the\nbeneﬁts of the proposed ACM, which outperforms existing\nmethods on six tracking benchmarks. On the LaSOT test\nset, our ACM-based tracker obtains a signiﬁcant improve-\nment of 5.8% in terms of success (AUC), over the baseline.\n1. Introduction\nVisual tracking is a challenging problem, where the task\nis to estimate the state of an arbitrary target in each frame\nof a video, given only its location in the initial frame. Re-\ncently, trackers based on Siamese networks have gained at-\ntention due to their combined advantage of high speed and\ntracking performance. The pioneering method, SiamFC [2],\nutilizes Siamese networks to extract deep convolutional fea-\ntures from the template in the initial frame of a video and\ninstances inside the search regions of other frames. A cross\ncorrelation layer (XCorr) is then used to compute the sim-\nilarity between the template and instances. Consequently,\nthe instance with the highest similarity score is considered\nthe target. The XCorr in SiamFC produces a single-channel\nresponse map and assumes the target is located near the\nhighest response. As an extension, SiamRPN [26] formu-\nlates the tracking problem as one-shot detection. It intro-\nduces a region proposal network (RPN) [34] and utilizes up-\nchannel cross correlation (UP-XCorr). However, UP-XCorr\nimbalances the parameter distribution, making the training\noptimization hard. To address this issue, SiamRPN++ in-\ntroduces a depth-wise correlation (DW-XCorr) to efﬁciently\ngenerate a multi-channel correlation feature map. Due to its\nefﬁciency, several recent Siamese trackers [5,11,13,47,50]\nalso employ DW-XCorr in their frameworks.\nAs discussed above, most recent Siamese trackers em-\nploy DW-XCorr to compute the similarity between the tem-\nplate and instances.\nHowever, both DW-XCorr and its\npredecessor XCorr are handcrafted parameter-free modules\nand are not able to fully beneﬁt from large-scale ofﬂine\nlearning. DW-XCorr has several limitations in the context\nof tracking. First, it produces similar correlation responses\nfor the target and distractors of homogeneous appearance.\nTo demonstrate this, we analyze the similarity between DW-\nXCorr features of a target and its distractors in Fig. 1a. The\nheatmap is generated by performing an L1 normalization\n(∥x∥1 = Pn\ni=1 |xi|, where x is a pixel in the correlation\nfeature map and n is the number of channels) on every pixel\nin the DW-XCorr features. As can be seen, DW-XCorr pro-\nduces high responses (i.e. feature norms) not only near the\n. ∗Equal contribution. † Corresponding author.\n. Our\ncodes\nare\navailable\nat:\nhttps : / / github . com /\nwencheng256/SiamBAN-ACM\n16570\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

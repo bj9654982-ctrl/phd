@@ -1,0 +1,44 @@
+{
+  "number": 295,
+  "title": "Transparent Object Tracking Benchmark",
+  "year": 2021,
+  "authors": [
+    "Heng Fan",
+    "Halady Akhilesha Miththanthaya",
+    "Harshit",
+    "Siranjiv Ramana Rajan",
+    "Xiaoqiong Liu",
+    "Zhilin Zou",
+    "Yuewei Lin",
+    "Haibin Ling"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Fan_Transparent_Object_Tracking_Benchmark_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Fan_Transparent_Object_Tracking_Benchmark_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Fan_Transparent_Object_Tracking_Benchmark_ICCV_2021_paper.pdf",
+      "bytes": 8255454,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\295_2021_Transparent_Object_Tracking_Benchmark.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Fan_Transparent_Object_Tracking_Benchmark_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Fan_Transparent_Object_Tracking_Benchmark_ICCV_2021_paper.pdf",
+  "bytes": 8255454,
+  "sha256": "fd685bd766d4d3fd7815e79a644373ce9dd07eee5d2e44a1f32fb91172dd0448",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Transparent Object Tracking Benchmark",
+  "first_page_text": "Transparent Object Tracking Benchmark\nHeng Fan1\nHalady Akhilesha Miththanthaya2∗\nHarshit2∗\nSiranjiv Ramana Rajan2∗\nXiaoqiong Liu2\nZhilin Zou2\nYuewei Lin3\nHaibin Ling2†\n1Department of Computer Science and Engineering, University of North Texas, Denton, USA\n2Department of Computer Science, Stony Brook University, Stony Brook, USA\n3Computational Science Initiative, Brookhaven National Laboratory, Upton, USA\nheng.fan@unt.edu\nhling@cs.stonybrook.edu\nAbstract\nVisual tracking has achieved considerable progress in re-\ncent years. However, current research in the ﬁeld mainly fo-\ncuses on tracking of opaque objects, while little attention is\npaid to transparent object tracking. In this paper, we make\nthe ﬁrst attempt in exploring this problem by proposing a\nTransparent Object Tracking Benchmark (TOTB). Speciﬁ-\ncally, TOTB consists of 225 videos (86K frames) from 15 di-\nverse transparent object categories. Each sequence is man-\nually labeled with axis-aligned bounding boxes. To the best\nof our knowledge, TOTB is the ﬁrst benchmark dedicated to\ntransparent object tracking. In order to understand how ex-\nisting trackers perform and to provide comparison for future\nresearch on TOTB, we extensively evaluate 25 state-of-the-\nart tracking algorithms. The evaluation results exhibit that\nmore efforts are needed to improve transparent object track-\ning. Besides, we observe some nontrivial ﬁndings from the\nevaluation that are discrepant with some common beliefs in\nopaque object tracking. For example, we ﬁnd that deeper\nfeatures are not always good for improvements. Moreover,\nto encourage future research, we introduce a novel tracker,\nnamed TransATOM, which leverages transparency features\nfor tracking and surpasses all 25 evaluated approaches by a\nlarge margin. By releasing TOTB, we expect to facilitate fu-\nture research and application of transparent object tracking\nin both the academia and industry. The TOTB and evalua-\ntion results as well as TransATOM are available at https:\n//hengfan2010.github.io/projects/TOTB/.\n1. Introduction\nObject tracking is one of the most fundamental problems\nin computer vision and serves as an important component in\nnumerous applications [37, 50, 60, 36] including robotics,\n∗The three authors make equal contributions.\n†Corresponding author.\n\u0000\u0001\u0002\u0004\u0004\u0005\u0006\u0007\b\t\n\u0004\u000b\f\u0004\r\u000e\u0006\u000f\u0010\b\u0006\u000e\n\u000f\r\u0004\u000b\u0001\u0011\n\u0012\r\u0004\r\u000e\u0006\u0012\u0013\u0014\u000f\u0015\n\u0000\u0006\u0002\u0004\u0004\u0005\u0006\u0007\b\t\n\u0004\u000b\f\u0004\u000b\b\u0006\u0016\u0017\n\u0004\u000b\u0001\u0011\n\u0012\r\u0004\r\u000e\u0006\u0012\u0013\u0014\u000f\u0015\nFigure 1. Opaque object tracking (a) and transparent object track-\ning (b). Compared with opaque object tracking in which target\nobject appearance is more distinguishable from background and\nconsistent over time, tracking of transparent target is more chal-\nlenging as transparent object appearance is heavily dependent on\nbackground. All ﬁgures in this paper are best viewed in color and\nby zooming in.\nhuman-machine interaction, video analysis and understand-\ning, etc. In recent decades, the tracking community has wit-\nnessed remarkable progress. Numerous tracking algorithms\nhave been proposed and signiﬁcantly pushed the state-of-\nthe-arts. Nevertheless, existing research in the ﬁeld mainly\nfocuses on opaque object tracking, while very little attention\nis paid to tracking of transparent objects.\nTransparent objects (e.g., bottle, cup, bulb, jar and many\nothers made by glass and plastics) are common to see in the\nreal world. Many of them are closely related to human daily\nlife, and tracking of them are crucial for robotic vision and\nhuman-machine interaction. For example, a robot may need\nto know the trajectory of a transparent object in human hand\nfor better action understanding.\nCompared with tracking of opaque objects, transparent\nobject tracking is more challenging. Because of the par-\n10734\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

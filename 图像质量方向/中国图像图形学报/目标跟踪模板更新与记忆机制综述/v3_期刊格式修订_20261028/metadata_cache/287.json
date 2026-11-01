@@ -1,0 +1,633 @@
+{
+  "number": 287,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Finding the Best from the Second Bests - Inhibiting Subjective Bias in Evaluation of Visual Tracking Algorithms",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T10:00:42Z",
+      "timestamp": 1791194442283,
+      "version": "4.1.0"
+    },
+    "reference-count": 81,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2013.346",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2014-03-07T16:30:17Z",
+      "timestamp": 1394209817000
+    },
+    "page": "2784-2791",
+    "source": "Crossref",
+    "is-referenced-by-count": 58,
+    "title": [
+      "Finding the Best from the Second Bests - Inhibiting Subjective Bias in Evaluation of Visual Tracking Algorithms"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Yu",
+        "family": "Pang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Haibin",
+        "family": "Ling",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "79",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539816"
+      },
+      {
+        "key": "78",
+        "article-title": "Tracking using motion patterns for very crowded scenes",
+        "author": "zhao",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2008.57"
+      },
+      {
+        "key": "36",
+        "article-title": "Mcmc-based particle filtering for tracking a variable number of interacting targets",
+        "author": "khan",
+        "year": "2005",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "33",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.239"
+      },
+      {
+        "key": "39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.161"
+      },
+      {
+        "key": "37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "38",
+        "article-title": "Tracking by sampling trackers",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "In ICCV"
+      },
+      {
+        "key": "43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.166"
+      },
+      {
+        "key": "42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539805"
+      },
+      {
+        "key": "41",
+        "article-title": "Treat samples differently: Object tracking with semi-supervised online covboost",
+        "author": "li",
+        "year": "2011",
+        "journal-title": "In ICCV"
+      },
+      {
+        "key": "40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.305"
+      },
+      {
+        "key": "80",
+        "article-title": "Robust object tracking via sparsitybased collaborative model",
+        "author": "zhong",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2008.119"
+      },
+      {
+        "key": "67",
+        "article-title": "Online empirical evaluation of tracking algorithms",
+        "author": "wu",
+        "year": "2010",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "66",
+        "article-title": "Discriminative tracking by metric learning",
+        "author": "wang",
+        "year": "2010",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126357"
+      },
+      {
+        "key": "68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "22",
+        "year": "0",
+        "journal-title": "World Chess Federation"
+      },
+      {
+        "key": "23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.70"
+      },
+      {
+        "key": "24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-9876.00159"
+      },
+      {
+        "key": "25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5244/C.20.6"
+      },
+      {
+        "key": "26",
+        "article-title": "Semi-supervised on-line boosting for robust tracking",
+        "author": "grabner",
+        "year": "2008",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.314"
+      },
+      {
+        "key": "29",
+        "article-title": "Exploiting the circulant structure of tracking-by-detection with kernels",
+        "author": "henriques",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1411509.1411513"
+      },
+      {
+        "key": "2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00453-008-9211-1"
+      },
+      {
+        "key": "1",
+        "article-title": "Robust fragments-based tracking using the integral histogram",
+        "author": "adam",
+        "year": "2006",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "7",
+        "article-title": "Real time robust l1 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "30",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1109/TPAMI.2012.86",
+        "article-title": "Multi-layer adaptive linear predictors for real-time tracking",
+        "author": "holzer",
+        "year": "2013",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "6",
+        "article-title": "Robust tracking via weakly supervised ranking svm",
+        "author": "bai",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2010.226"
+      },
+      {
+        "key": "32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1023/A:1008078328650",
+        "article-title": "Condensationconditional density propagation for visual tracking",
+        "author": "isard",
+        "year": "1998",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "31",
+        "article-title": "Single and multiple object tracking using log-euclidean riemannian subspace and block-division appearance model",
+        "author": "hu",
+        "year": "2012",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "70",
+        "article-title": "Context-aware visual tracking",
+        "author": "yang",
+        "year": "2009",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "71",
+        "article-title": "Robust tracking with weighted online structured learning",
+        "author": "yao",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.306"
+      },
+      {
+        "key": "8",
+        "article-title": "Segmentation based particle filtering for real-time 2d object tracking",
+        "author": "belagiannis",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "74",
+        "article-title": "Visual tracking via adaptive tracker selection with multiple features",
+        "author": "yoon",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "75",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.240"
+      },
+      {
+        "key": "59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.94"
+      },
+      {
+        "key": "19",
+        "year": "0"
+      },
+      {
+        "key": "55",
+        "article-title": "Color-based probabilistic tracking",
+        "author": "p?erez",
+        "year": "2002",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "17",
+        "article-title": "Group tracking: Exploring mutual relations for multiple object tracking",
+        "author": "duan",
+        "year": "2012",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/371920.372165"
+      },
+      {
+        "key": "15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/34.1000236"
+      },
+      {
+        "key": "16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2005.205"
+      },
+      {
+        "key": "14",
+        "article-title": "An open source tracking testbed and evaluation web site",
+        "author": "collins",
+        "year": "2005",
+        "journal-title": "PETS"
+      },
+      {
+        "key": "11",
+        "article-title": "Robust visual tracking using an adaptive coupled-layer visual model",
+        "author": "cehovin",
+        "year": "2012",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1090/S0002-9939-06-08479-6",
+        "article-title": "Robust object tracking via online dynamic spatial bias appearance models",
+        "author": "chen",
+        "year": "2007",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "21",
+        "article-title": "Scribble tracker: A matting-based approach for robust tracking",
+        "author": "fan",
+        "year": "2012",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "20",
+        "author": "elo",
+        "year": "1978",
+        "journal-title": "The Rating of Chessplayers Past and Present"
+      },
+      {
+        "key": "64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.307"
+      },
+      {
+        "key": "65",
+        "article-title": "Superpixel tracking",
+        "author": "wang",
+        "year": "2011",
+        "journal-title": "In ICCV"
+      },
+      {
+        "key": "62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995347"
+      },
+      {
+        "key": "63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-011-0512-5"
+      },
+      {
+        "key": "60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2009.5457445"
+      },
+      {
+        "key": "61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.308"
+      },
+      {
+        "key": "49",
+        "article-title": "Robust and fast collaborative tracking with two stage sparse optimization",
+        "author": "liu",
+        "year": "2010",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995730"
+      },
+      {
+        "key": "45",
+        "article-title": "Non-sparse linear representations for visual tracking with online reservoir metric learning",
+        "author": "li",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126364"
+      },
+      {
+        "key": "47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539808"
+      },
+      {
+        "key": "46",
+        "article-title": "Tracking in low frame rate video: A cascade particle filter with discriminative observers of different life spans",
+        "author": "li",
+        "year": "2008",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "10",
+        "article-title": "Visual tracking using a pixelwise spatiotemporal oriented energy representation",
+        "author": "cannons",
+        "year": "2010",
+        "journal-title": "In ECCV"
+      },
+      {
+        "key": "51",
+        "article-title": "Robust visual tracking and vehicle classification via sparse representation",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "PAMI"
+      },
+      {
+        "key": "52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247895"
+      },
+      {
+        "key": "53",
+        "article-title": "The PageRank citation ranking: Bringing order to the web",
+        "author": "page",
+        "year": "1999",
+        "journal-title": "Stanford Infolab"
+      },
+      {
+        "key": "54",
+        "article-title": "Robust visual tracking using autoregressive hidden markov model",
+        "author": "park",
+        "year": "2012",
+        "journal-title": "In CVPR"
+      },
+      {
+        "key": "50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.98"
+      }
+    ],
+    "event": {
+      "name": "2013 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Sydney, Australia",
+      "start": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            1
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            8
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2013 IEEE International Conference on Computer Vision"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/6750807/6751100/06751457.pdf?arnumber=6751457",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2017-06-22T05:14:31Z",
+      "timestamp": 1498108471000
+    },
+    "score": 72.941734,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/6751457/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "references-count": 81,
+    "URL": "https://doi.org/10.1109/iccv.2013.346",
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    }
+  }
+}

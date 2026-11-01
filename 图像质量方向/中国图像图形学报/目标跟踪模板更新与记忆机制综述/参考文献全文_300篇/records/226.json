@@ -1,0 +1,43 @@
+{
+  "number": 226,
+  "title": "Similarity-Guided Layer-Adaptive Vision Transformer for UAV Tracking",
+  "year": 2025,
+  "authors": [
+    "Chaocan Xue",
+    "Bineng Zhong",
+    "Qihua Liang",
+    "Yaozong Zheng",
+    "Ning Li",
+    "Yuanliang Xue",
+    "Shuxiang Song"
+  ],
+  "venue": "CVPR",
+  "category": "无人机与退化观测",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Xue_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking_CVPR_2025_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xue_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking_CVPR_2025_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xue_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking_CVPR_2025_paper.pdf",
+      "bytes": 1737486,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\226_2025_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xue_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking_CVPR_2025_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Xue_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking_CVPR_2025_paper.pdf",
+  "bytes": 1737486,
+  "sha256": "1a820e0eaa1eae630038e415826a4b3ca48858710eb629bd8e8ccf951f440b87",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Similarity-Guided Layer-Adaptive Vision Transformer for UAV Tracking",
+  "first_page_text": "Similarity-Guided Layer-Adaptive Vision Transformer for UAV Tracking\nChaocan Xue1, Bineng Zhong1*, Qihua Liang1†, Yaozong Zheng1, Ning Li1\nYuanliang Xue2, Shuxiang Song1\n1Key Laboratory of Education Blockchain and Intelligent Technology,\nMinistry of Education, Guangxi Normal University, Guilin 541004, China\n2Xi’an Research Institute of High Technology, Xi’an 710025, China\nxcc23cg@163.com, bnzhong@gxnu.edu.cn, qhliang@gxnu.edu.cn\nyaozongzheng@stu.gxnu.edu.cn, ningli65536@mailbox.gxnu.edu.cn\nxyl 507@outlook.com, songshuxiang@mailbox.gxnu.edu.cn\nAbstract\nVision transformers (ViTs) have emerged as a popular\nbackbone for visual tracking. However, complete ViT ar-\nchitectures are too cumbersome to deploy for unmanned\naerial vehicle (UAV) tracking which extremely emphasizes\nefficiency.\nIn this study, we discover that many lay-\ners within lightweight ViT-based trackers tend to learn\nrelatively redundant and repetitive target representations.\nBased on this observation, we propose a similarity-guided\nlayer adaptation approach to optimize the structure of\nViTs.\nOur approach dynamically disables a large num-\nber of representation-similar layers and selectively retains\nonly a single optimal layer among them, aiming to achieve\na better accuracy-speed trade-off.\nBy incorporating this\napproach into existing ViTs, we tailor previously com-\nplete ViT architectures into an efficient similarity-guided\nlayer-adaptive framework, namely SGLATrack, for real-\ntime UAV tracking.\nExtensive experiments on six track-\ning benchmarks verify the effectiveness of the proposed ap-\nproach, and show that our SGLATrack achieves a state-\nof-the-art real-time speed while maintaining competitive\ntracking precision.\nCodes and models are available at\nhttps://github.com/GXNU-ZhongLab/SGLATrack.\n1. Introduction\nUnmanned Aerial Vehicle (UAV) tracking is an essen-\ntial branch of visual object tracking (VOT), which can be\nused for various applications such as visual surveillance\n[40], path planning [42] and border security [60]. How-\never, compared to generic object tracking, UAV tracking\ntypically faces greater challenges due to its unique aerial\n*Corresponding Author\n†Corresponding Author\n0\n50\n100\n150\n200\n250\n300\nSpeed(FPS)\n40\n45\n50\n55\n60\n65\n70\n75\nAUC(%)\nHiT\nfDSST\nECO-HC\nAutoTrack\nMCCT-H\nDRCI\nHiFT\nTCTrack\nAba-ViTrack\nAVTrack\nSGLATrack\nSGLATrack\nUDAT\nAUC vs. Speed on UAV123\nGPU Speed\nCPU Speed\nFigure 1. Comparison of SGLATrack against other UAV trackers\non UAV123. Our SGLATrack demonstrates state-of-the-art per-\nformance with an AUC score of 66.9%, while running efficiently\nat nearly 225 FPS on GPU and approximately 75 FPS on CPU.\nperspective. More importantly, the limited power and com-\nputing resources of UAVs impose strict demands on effi-\nciency. Therefore, an excellent UAV tracker must maintain\nboth high tracking precision and efficiency.\nOwing to the high efficiency derived from the opera-\ntions in the Fourier domain, discriminative correlation fil-\nter (DCF)-based methods are widely used for UAV Track-\ning.\nDespite the efficiency, they hardly achieve favor-\nable tracking robustness using hand-crafted feature extrac-\ntors [13, 16, 27].\nSiamese network (SN)-based track-\ners can learn robust target representations using deep fea-\ntures, but their reliance on early convolutional neural net-\nworks (CNNs) leaves considerable potential for precision\nimprovement [2, 34, 69].\nIn recent years, vision trans-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n6730\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

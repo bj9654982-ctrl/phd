@@ -1,0 +1,1703 @@
+{
+  "audit_date": "2026-10-27",
+  "draft": "J:\\phd\\图像质量方向\\中国图像图形学报\\目标跟踪模板更新与记忆机制综述\\v2_300篇",
+  "title": "视觉单目标跟踪中的模板更新与记忆机制综述",
+  "title_hanzi": 20,
+  "suggested_title": "单目标跟踪的模板更新与记忆机制综述",
+  "suggested_title_hanzi": 17,
+  "abstract_hanzi": 439,
+  "abstract_characters_including_punctuation": 477,
+  "abstract_english_words_hyphenated_as_one": 219,
+  "keywords_count": 6,
+  "references": 300,
+  "doi_present": 52,
+  "doi_missing": [
+    {
+      "number": 9,
+      "title": "Fully-convolutional Siamese networks for object tracking",
+      "year": 2016,
+      "url": "https://arxiv.org/abs/1606.09549"
+    },
+    {
+      "number": 10,
+      "title": "ECO: Efficient Convolution Operators for Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Danelljan_ECO_Efficient_Convolution_CVPR_2017_paper.html"
+    },
+    {
+      "number": 11,
+      "title": "MUlti-Store Tracker (MUSTer): A Cognitive Psychology Inspired Approach to Object Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Hong_MUlti-Store_Tracker_MUSTer_2015_CVPR_paper.html"
+    },
+    {
+      "number": 12,
+      "title": "Learning Dynamic Memory Networks for Object Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Tianyu_Yang_Learning_Dynamic_Memory_ECCV_2018_paper.php"
+    },
+    {
+      "number": 13,
+      "title": "Learning the Model Update for Siamese Trackers",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Zhang_Learning_the_Model_Update_for_Siamese_Trackers_ICCV_2019_paper.html"
+    },
+    {
+      "number": 14,
+      "title": "Learning Discriminative Model Prediction for Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Bhat_Learning_Discriminative_Model_Prediction_for_Tracking_ICCV_2019_paper.html"
+    },
+    {
+      "number": 15,
+      "title": "Probabilistic Regression for Visual Tracking",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Danelljan_Probabilistic_Regression_for_Visual_Tracking_CVPR_2020_paper.html"
+    },
+    {
+      "number": 16,
+      "title": "Transformer Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Transformer_Tracking_CVPR_2021_paper.html"
+    },
+    {
+      "number": 17,
+      "title": "Transformer Meets Tracker: Exploiting Temporal Context for Robust Visual Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Transformer_Meets_Tracker_Exploiting_Temporal_Context_for_Robust_Visual_Tracking_CVPR_2021_paper.html"
+    },
+    {
+      "number": 18,
+      "title": "Learning Spatio-Temporal Transformer for Visual Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Yan_Learning_Spatio-Temporal_Transformer_for_Visual_Tracking_ICCV_2021_paper.html"
+    },
+    {
+      "number": 19,
+      "title": "STMTrack: Template-Free Visual Tracking With Space-Time Memory Networks",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Fu_STMTrack_Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks_CVPR_2021_paper.html"
+    },
+    {
+      "number": 20,
+      "title": "MixFormer: End-to-End Tracking With Iterative Mixed Attention",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Cui_MixFormer_End-to-End_Tracking_With_Iterative_Mixed_Attention_CVPR_2022_paper.html"
+    },
+    {
+      "number": 22,
+      "title": "Robust Object Modeling for Visual Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Cai_Robust_Object_Modeling_for_Visual_Tracking_ICCV_2023_paper.html"
+    },
+    {
+      "number": 23,
+      "title": "HIPTrack: Visual Tracking with Historical Prompts",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Cai_HIPTrack_Visual_Tracking_with_Historical_Prompts_CVPR_2024_paper.html"
+    },
+    {
+      "number": 28,
+      "title": "Siam R-CNN: Visual Tracking by Re-Detection",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Voigtlaender_Siam_R-CNN_Visual_Tracking_by_Re-Detection_CVPR_2020_paper.html"
+    },
+    {
+      "number": 29,
+      "title": "Learning Target Candidate Association To Keep Track of What Not To Track",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Mayer_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_ICCV_2021_paper.html"
+    },
+    {
+      "number": 32,
+      "title": "TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.php"
+    },
+    {
+      "number": 33,
+      "title": "LaSOT: A High-Quality Benchmark for Large-Scale Single Object Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Fan_LaSOT_A_High-Quality_Benchmark_for_Large-Scale_Single_Object_Tracking_CVPR_2019_paper.html"
+    },
+    {
+      "number": 34,
+      "title": "GOT-10k: a large high-diversity benchmark for generic object tracking in the wild",
+      "year": 2021,
+      "url": "https://arxiv.org/abs/1810.11981"
+    },
+    {
+      "number": 46,
+      "title": "SAM 2: Segment Anything in Images and Videos",
+      "year": 2025,
+      "url": "https://openreview.net/forum?id=Ha6RTeWMd0"
+    },
+    {
+      "number": 52,
+      "title": "Constructing Adaptive Complex Cells for Robust Visual Tracking",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Chen_Constructing_Adaptive_Complex_2013_ICCV_paper.html"
+    },
+    {
+      "number": 53,
+      "title": "Initialization-Insensitive Visual Tracking through Voting with Salient Local Features",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Yi_Initialization-Insensitive_Visual_Tracking_2013_ICCV_paper.html"
+    },
+    {
+      "number": 54,
+      "title": "Least Soft-Threshold Squares Tracking",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/html/Wang_Least_Soft-Threshold_Squares_2013_CVPR_paper.html"
+    },
+    {
+      "number": 55,
+      "title": "Minimum Uncertainty Gap for Robust Visual Tracking",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/html/Kwon_Minimum_Uncertainty_Gap_2013_CVPR_paper.html"
+    },
+    {
+      "number": 56,
+      "title": "Online Robust Non-negative Dictionary Learning for Visual Tracking",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Wang_Online_Robust_Non-negative_2013_ICCV_paper.html"
+    },
+    {
+      "number": 57,
+      "title": "Orderless Tracking through Model-Averaged Posterior Estimation",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Hong_Orderless_Tracking_through_2013_ICCV_paper.html"
+    },
+    {
+      "number": 58,
+      "title": "Part-Based Visual Tracking with Online Latent Structural Learning",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/html/Yao_Part-Based_Visual_Tracking_2013_CVPR_paper.html"
+    },
+    {
+      "number": 59,
+      "title": "PixelTrack: A Fast Adaptive Algorithm for Tracking Non-rigid Objects",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Duffner_PixelTrack_A_Fast_2013_ICCV_paper.html"
+    },
+    {
+      "number": 60,
+      "title": "Randomized Ensemble Tracking",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Bai_Randomized_Ensemble_Tracking_2013_ICCV_paper.html"
+    },
+    {
+      "number": 61,
+      "title": "Robust Object Tracking with Online Multi-lifespan Dictionary Learning",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Xing_Robust_Object_Tracking_2013_ICCV_paper.html"
+    },
+    {
+      "number": 62,
+      "title": "Tracking via Robust Multi-task Multi-view Joint Sparse Representation",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Hong_Tracking_via_Robust_2013_ICCV_paper.html"
+    },
+    {
+      "number": 63,
+      "title": "Visual Tracking via Locality Sensitive Histograms",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/html/He_Visual_Tracking_via_2013_CVPR_paper.html"
+    },
+    {
+      "number": 64,
+      "title": "Multi-Cue Visual Tracking Using Robust Feature-Level Fusion Based on Joint Sparse Representation",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Lan_Multi-Cue_Visual_Tracking_2014_CVPR_paper.html"
+    },
+    {
+      "number": 65,
+      "title": "Multi-Forest Tracker: A Chameleon in Tracking",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Tan_Multi-Forest_Tracker_A_2014_CVPR_paper.html"
+    },
+    {
+      "number": 66,
+      "title": "Online Object Tracking, Learning and Parsing with And-Or Graphs",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Lu_Online_Object_Tracking_2014_CVPR_paper.html"
+    },
+    {
+      "number": 67,
+      "title": "Partial Occlusion Handling for Visual Tracking via Robust Part Matching",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Zhang_Partial_Occlusion_Handling_2014_CVPR_paper.html"
+    },
+    {
+      "number": 68,
+      "title": "Unifying Spatial and Attribute Selection for Distracter-Resilient Tracking",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Jiang_Unifying_Spatial_and_2014_CVPR_paper.html"
+    },
+    {
+      "number": 69,
+      "title": "Visual Tracking Using Pertinent Patch Selection and Masking",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Lee_Visual_Tracking_Using_2014_CVPR_paper.html"
+    },
+    {
+      "number": 70,
+      "title": "Visual Tracking via Probability Continuous Outlier Model",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Wang_Visual_Tracking_via_2014_CVPR_paper.html"
+    },
+    {
+      "number": 71,
+      "title": "Discriminative Low-Rank Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Sui_Discriminative_Low-Rank_Tracking_ICCV_2015_paper.html"
+    },
+    {
+      "number": 72,
+      "title": "Exploring Causal Relationships in Visual Object Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Lebeda_Exploring_Causal_Relationships_ICCV_2015_paper.html"
+    },
+    {
+      "number": 73,
+      "title": "Hierarchical Convolutional Features for Visual Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Ma_Hierarchical_Convolutional_Features_ICCV_2015_paper.html"
+    },
+    {
+      "number": 74,
+      "title": "In Defense of Color-Based Model-Free Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Possegger_In_Defense_of_2015_CVPR_paper.html"
+    },
+    {
+      "number": 75,
+      "title": "JOTS: Joint Online Tracking and Segmentation",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Wen_JOTS_Joint_Online_2015_CVPR_paper.html"
+    },
+    {
+      "number": 76,
+      "title": "Local Subspace Collaborative Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Ma_Local_Subspace_Collaborative_ICCV_2015_paper.html"
+    },
+    {
+      "number": 77,
+      "title": "Multihypothesis Trajectory Analysis for Robust Visual Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Lee_Multihypothesis_Trajectory_Analysis_2015_CVPR_paper.html"
+    },
+    {
+      "number": 78,
+      "title": "Online Object Tracking With Proposal Selection",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Hua_Online_Object_Tracking_ICCV_2015_paper.html"
+    },
+    {
+      "number": 79,
+      "title": "Reliable Patch Trackers: Robust Visual Tracking by Exploiting Reliable Patches",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Li_Reliable_Patch_Trackers_2015_CVPR_paper.html"
+    },
+    {
+      "number": 80,
+      "title": "Single Target Tracking Using Adaptive Clustered Decision Trees and Dynamic Multi-Level Appearance Models",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Xiao_Single_Target_Tracking_2015_CVPR_paper.html"
+    },
+    {
+      "number": 81,
+      "title": "SOWP: Spatially Ordered and Weighted Patch Descriptor for Visual Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Kim_SOWP_Spatially_Ordered_ICCV_2015_paper.html"
+    },
+    {
+      "number": 82,
+      "title": "Structural Sparse Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Zhang_Structural_Sparse_Tracking_2015_CVPR_paper.html"
+    },
+    {
+      "number": 83,
+      "title": "Tracking-by-Segmentation With Online Gradient Boosting Decision Tree",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Son_Tracking-by-Segmentation_With_Online_ICCV_2015_paper.html"
+    },
+    {
+      "number": 84,
+      "title": "TRIC-track: Tracking by Regression With Incrementally Learned Cascades",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Wang_TRIC-track_Tracking_by_ICCV_2015_paper.html"
+    },
+    {
+      "number": 85,
+      "title": "Visual Tracking With Fully Convolutional Networks",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Wang_Visual_Tracking_With_ICCV_2015_paper.html"
+    },
+    {
+      "number": 86,
+      "title": "Visual Tracking Using Attention-Modulated Disintegration and Integration",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Choi_Visual_Tracking_Using_CVPR_2016_paper.html"
+    },
+    {
+      "number": 87,
+      "title": "Robust Object Tracking Based on Temporal and Spatial Deep Networks",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Teng_Robust_Object_Tracking_ICCV_2017_paper.html"
+    },
+    {
+      "number": 88,
+      "title": "Adaptive Color Attributes for Real-Time Visual Tracking",
+      "year": 2014,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/html/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.html"
+    },
+    {
+      "number": 89,
+      "title": "Learning Spatially Regularized Correlation Filters for Visual Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Danelljan_Learning_Spatially_Regularized_ICCV_2015_paper.html"
+    },
+    {
+      "number": 90,
+      "title": "Multi-Kernel Correlation Filter for Visual Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Tang_Multi-Kernel_Correlation_Filter_ICCV_2015_paper.html"
+    },
+    {
+      "number": 91,
+      "title": "Real-Time Part-Based Visual Tracking via Adaptive Correlation Filters",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Liu_Real-Time_Part-Based_Visual_2015_CVPR_paper.html"
+    },
+    {
+      "number": 92,
+      "title": "Adaptive Decontamination of the Training Set: A Unified Formulation for Discriminative Visual Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Danelljan_Adaptive_Decontamination_of_CVPR_2016_paper.html"
+    },
+    {
+      "number": 93,
+      "title": "In Defense of Sparse Tracking: Circulant Sparse Tracker",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Zhang_In_Defense_of_CVPR_2016_paper.html"
+    },
+    {
+      "number": 94,
+      "title": "Staple: Complementary Learners for Real-Time Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Bertinetto_Staple_Complementary_Learners_CVPR_2016_paper.html"
+    },
+    {
+      "number": 95,
+      "title": "Structural Correlation Filter for Robust Visual Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Liu_Structural_Correlation_Filter_CVPR_2016_paper.html"
+    },
+    {
+      "number": 96,
+      "title": "Attentional Correlation Filter Network for Adaptive Visual Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.html"
+    },
+    {
+      "number": 97,
+      "title": "Context-Aware Correlation Filter Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Mueller_Context-Aware_Correlation_Filter_CVPR_2017_paper.html"
+    },
+    {
+      "number": 98,
+      "title": "CREST: Convolutional Residual Learning for Visual Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Song_CREST_Convolutional_Residual_ICCV_2017_paper.html"
+    },
+    {
+      "number": 99,
+      "title": "End-To-End Representation Learning for Correlation Filter Based Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Valmadre_End-To-End_Representation_Learning_CVPR_2017_paper.html"
+    },
+    {
+      "number": 100,
+      "title": "Large Margin Object Tracking With Circulant Feature Maps",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Wang_Large_Margin_Object_CVPR_2017_paper.html"
+    },
+    {
+      "number": 101,
+      "title": "Learning Background-Aware Correlation Filters for Visual Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Galoogahi_Learning_Background-Aware_Correlation_ICCV_2017_paper.html"
+    },
+    {
+      "number": 102,
+      "title": "Correlation Tracking via Joint Discrimination and Reliability Learning",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Sun_Correlation_Tracking_via_CVPR_2018_paper.html"
+    },
+    {
+      "number": 103,
+      "title": "High-Speed Tracking With Multi-Kernel Correlation Filters",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Tang_High-Speed_Tracking_With_CVPR_2018_paper.html"
+    },
+    {
+      "number": 104,
+      "title": "Joint Representation and Truncated Inference Learning for Correlation Filter based Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Yingjie_Yao_Joint_Representation_and_ECCV_2018_paper.php"
+    },
+    {
+      "number": 105,
+      "title": "Learning Spatial-Aware Regressions for Visual Tracking",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Sun_Learning_Spatial-Aware_Regressions_CVPR_2018_paper.html"
+    },
+    {
+      "number": 106,
+      "title": "Learning Spatial-Temporal Regularized Correlation Filters for Visual Tracking",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Li_Learning_Spatial-Temporal_Regularized_CVPR_2018_paper.html"
+    },
+    {
+      "number": 107,
+      "title": "Multi-Cue Correlation Filters for Robust Visual Tracking",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Multi-Cue_Correlation_Filters_CVPR_2018_paper.html"
+    },
+    {
+      "number": 108,
+      "title": "Visual Tracking via Spatially Aligned Correlation Filters Network",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/mengdan_zhang_Visual_Tracking_via_ECCV_2018_paper.php"
+    },
+    {
+      "number": 109,
+      "title": "Joint Group Feature Selection and Discriminative Filter Learning for Robust Visual Object Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Xu_Joint_Group_Feature_Selection_and_Discriminative_Filter_Learning_for_Robust_ICCV_2019_paper.html"
+    },
+    {
+      "number": 110,
+      "title": "Learning Aberrance Repressed Correlation Filters for Real-Time UAV Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Huang_Learning_Aberrance_Repressed_Correlation_Filters_for_Real-Time_UAV_Tracking_ICCV_2019_paper.html"
+    },
+    {
+      "number": 111,
+      "title": "Object Tracking by Reconstruction With View-Specific Discriminative Correlation Filters",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Kart_Object_Tracking_by_Reconstruction_With_View-Specific_Discriminative_Correlation_Filters_CVPR_2019_paper.html"
+    },
+    {
+      "number": 112,
+      "title": "ROI Pooled Correlation Filters for Visual Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Sun_ROI_Pooled_Correlation_Filters_for_Visual_Tracking_CVPR_2019_paper.html"
+    },
+    {
+      "number": 113,
+      "title": "Visual Tracking via Adaptive Spatially-Regularized Correlation Filters",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Dai_Visual_Tracking_via_Adaptive_Spatially-Regularized_Correlation_Filters_CVPR_2019_paper.html"
+    },
+    {
+      "number": 114,
+      "title": "AutoTrack: Towards High-Performance Visual Tracking for UAV With Automatic Spatio-Temporal Regularization",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Li_AutoTrack_Towards_High-Performance_Visual_Tracking_for_UAV_With_Automatic_Spatio-Temporal_CVPR_2020_paper.html"
+    },
+    {
+      "number": 116,
+      "title": "Siamese Instance Search for Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Tao_Siamese_Instance_Search_CVPR_2016_paper.html"
+    },
+    {
+      "number": 117,
+      "title": "A Twofold Siamese Network for Real-Time Object Tracking",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/He_A_Twofold_Siamese_CVPR_2018_paper.html"
+    },
+    {
+      "number": 118,
+      "title": "Deep Regression Tracking with Shrinkage Loss",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Xiankai_Lu_Deep_Regression_Tracking_ECCV_2018_paper.php"
+    },
+    {
+      "number": 119,
+      "title": "Distractor-aware Siamese Networks for Visual Object Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Zheng_Zhu_Distractor-aware_Siamese_Networks_ECCV_2018_paper.php"
+    },
+    {
+      "number": 120,
+      "title": "High Performance Visual Tracking With Siamese Region Proposal Network",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Li_High_Performance_Visual_CVPR_2018_paper.html"
+    },
+    {
+      "number": 121,
+      "title": "Learning Attentions: Residual Attentional Siamese Network for High Performance Online Visual Tracking",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_Learning_Attentions_Residual_CVPR_2018_paper.html"
+    },
+    {
+      "number": 122,
+      "title": "SINT++: Robust Visual Tracking via Adversarial Positive Instance Generation",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Wang_SINT_Robust_Visual_CVPR_2018_paper.html"
+    },
+    {
+      "number": 123,
+      "title": "Triplet Loss in Siamese Network for Object Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Xingping_Dong_Triplet_Loss_with_ECCV_2018_paper.php"
+    },
+    {
+      "number": 124,
+      "title": "Unveiling the Power of Deep Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Goutam_Bhat_Unveiling_the_Power_ECCV_2018_paper.php"
+    },
+    {
+      "number": 125,
+      "title": "VITAL: VIsual Tracking via Adversarial Learning",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Song_VITAL_VIsual_Tracking_CVPR_2018_paper.html"
+    },
+    {
+      "number": 126,
+      "title": "Deeper and Wider Siamese Networks for Real-Time Visual Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deeper_and_Wider_Siamese_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.html"
+    },
+    {
+      "number": 127,
+      "title": "Fast Online Object Tracking and Segmentation: A Unifying Approach",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Fast_Online_Object_Tracking_and_Segmentation_A_Unifying_Approach_CVPR_2019_paper.html"
+    },
+    {
+      "number": 128,
+      "title": "Siamese Cascaded Region Proposal Networks for Real-Time Visual Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Fan_Siamese_Cascaded_Region_Proposal_Networks_for_Real-Time_Visual_Tracking_CVPR_2019_paper.html"
+    },
+    {
+      "number": 129,
+      "title": "SiamRPN++: Evolution of Siamese Visual Tracking With Very Deep Networks",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Li_SiamRPN_Evolution_of_Siamese_Visual_Tracking_With_Very_Deep_Networks_CVPR_2019_paper.html"
+    },
+    {
+      "number": 130,
+      "title": "SPM-Tracker: Series-Parallel Matching for Real-Time Visual Object Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_SPM-Tracker_Series-Parallel_Matching_for_Real-Time_Visual_Object_Tracking_CVPR_2019_paper.html"
+    },
+    {
+      "number": 131,
+      "title": "Target-Aware Deep Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Li_Target-Aware_Deep_Tracking_CVPR_2019_paper.html"
+    },
+    {
+      "number": 133,
+      "title": "D3S - A Discriminative Single Shot Segmentation Tracker",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Lukezic_D3S_-_A_Discriminative_Single_Shot_Segmentation_Tracker_CVPR_2020_paper.html"
+    },
+    {
+      "number": 134,
+      "title": "Deformable Siamese Attention Networks for Visual Object Tracking",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Yu_Deformable_Siamese_Attention_Networks_for_Visual_Object_Tracking_CVPR_2020_paper.html"
+    },
+    {
+      "number": 137,
+      "title": "SiamCAR: Siamese Fully Convolutional Classification and Regression for Visual Tracking",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Guo_SiamCAR_Siamese_Fully_Convolutional_Classification_and_Regression_for_Visual_Tracking_CVPR_2020_paper.html"
+    },
+    {
+      "number": 138,
+      "title": "Siamese Box Adaptive Network for Visual Tracking",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Siamese_Box_Adaptive_Network_for_Visual_Tracking_CVPR_2020_paper.html"
+    },
+    {
+      "number": 139,
+      "title": "Alpha-Refine: Boosting Tracking Performance by Precise Bounding Box Estimation",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Yan_Alpha-Refine_Boosting_Tracking_Performance_by_Precise_Bounding_Box_Estimation_CVPR_2021_paper.html"
+    },
+    {
+      "number": 140,
+      "title": "CapsuleRRT: Relationships-Aware Regression Tracking via Capsules",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Ma_CapsuleRRT_Relationships-Aware_Regression_Tracking_via_Capsules_CVPR_2021_paper.html"
+    },
+    {
+      "number": 141,
+      "title": "Distractor-Aware Fast Tracking via Dynamic Convolutions and MOT Philosophy",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Zhang_Distractor-Aware_Fast_Tracking_via_Dynamic_Convolutions_and_MOT_Philosophy_CVPR_2021_paper.html"
+    },
+    {
+      "number": 142,
+      "title": "Graph Attention Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Guo_Graph_Attention_Tracking_CVPR_2021_paper.html"
+    },
+    {
+      "number": 143,
+      "title": "Learn To Match: Automatic Matching Network Design for Visual Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Learn_To_Match_Automatic_Matching_Network_Design_for_Visual_Tracking_ICCV_2021_paper.html"
+    },
+    {
+      "number": 144,
+      "title": "Learning To Filter: Siamese Relation Network for Robust Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Cheng_Learning_To_Filter_Siamese_Relation_Network_for_Robust_Tracking_CVPR_2021_paper.html"
+    },
+    {
+      "number": 145,
+      "title": "Learning To Fuse Asymmetric Feature Maps in Siamese Trackers",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Han_Learning_To_Fuse_Asymmetric_Feature_Maps_in_Siamese_Trackers_CVPR_2021_paper.html"
+    },
+    {
+      "number": 146,
+      "title": "Rotation Equivariant Siamese Networks for Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Gupta_Rotation_Equivariant_Siamese_Networks_for_Tracking_CVPR_2021_paper.html"
+    },
+    {
+      "number": 147,
+      "title": "Saliency-Associated Object Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhou_Saliency-Associated_Object_Tracking_ICCV_2021_paper.html"
+    },
+    {
+      "number": 148,
+      "title": "Correlation-Aware Deep Tracking",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Xie_Correlation-Aware_Deep_Tracking_CVPR_2022_paper.html"
+    },
+    {
+      "number": 149,
+      "title": "Ranking-Based Siamese Visual Tracking",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Tang_Ranking-Based_Siamese_Visual_Tracking_CVPR_2022_paper.html"
+    },
+    {
+      "number": 151,
+      "title": "Hedged Deep Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Qi_Hedged_Deep_Tracking_CVPR_2016_paper.html"
+    },
+    {
+      "number": 152,
+      "title": "Learning Multi-Domain Convolutional Neural Networks for Visual Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.html"
+    },
+    {
+      "number": 153,
+      "title": "Object Tracking via Dual Linear Structured SVM and Explicit Feature Map",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Ning_Object_Tracking_via_CVPR_2016_paper.html"
+    },
+    {
+      "number": 154,
+      "title": "Recurrently Target-Attending Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Cui_Recurrently_Target-Attending_Tracking_CVPR_2016_paper.html"
+    },
+    {
+      "number": 155,
+      "title": "STCT: Sequentially Training Convolutional Networks for Visual Tracking",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Wang_STCT_Sequentially_Training_CVPR_2016_paper.html"
+    },
+    {
+      "number": 156,
+      "title": "Action-Decision Networks for Visual Tracking With Deep Reinforcement Learning",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Yun_Action-Decision_Networks_for_CVPR_2017_paper.html"
+    },
+    {
+      "number": 157,
+      "title": "BranchOut: Regularization for Online Ensemble Tracking With Convolutional Neural Networks",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Han_BranchOut_Regularization_for_CVPR_2017_paper.html"
+    },
+    {
+      "number": 158,
+      "title": "Learning Dynamic Siamese Network for Visual Object Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.html"
+    },
+    {
+      "number": 159,
+      "title": "Learning Policies for Adaptive Tracking With Deep Feature Cascades",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Huang_Learning_Policies_for_ICCV_2017_paper.html"
+    },
+    {
+      "number": 160,
+      "title": "Tracking as Online Decision-Making: Learning a Policy From Streaming Videos With Reinforcement Learning",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Supancic_Tracking_as_Online_ICCV_2017_paper.html"
+    },
+    {
+      "number": 161,
+      "title": "Deep Reinforcement Learning with Iterative Shift for Visual Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Liangliang_Ren_Deep_Reinforcement_Learning_ECCV_2018_paper.php"
+    },
+    {
+      "number": 162,
+      "title": "Hyperparameter Optimization for Tracking With Continuous Deep Q-Learning",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Dong_Hyperparameter_Optimization_for_CVPR_2018_paper.html"
+    },
+    {
+      "number": 163,
+      "title": "Meta-Tracker: Fast and Robust Online Adaptation for Visual Object Trackers",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Eunbyung_Park_Meta-Tracker_Fast_and_ECCV_2018_paper.php"
+    },
+    {
+      "number": 164,
+      "title": "Real-time 'Actor-Critic' Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Boyu_Chen_Real-time_Actor-Critic_Tracking_ECCV_2018_paper.php"
+    },
+    {
+      "number": 165,
+      "title": "ATOM: Accurate Tracking by Overlap Maximization",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Danelljan_ATOM_Accurate_Tracking_by_Overlap_Maximization_CVPR_2019_paper.html"
+    },
+    {
+      "number": 166,
+      "title": "Deep Meta Learning for Real-Time Target-Aware Visual Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Choi_Deep_Meta_Learning_for_Real-Time_Target-Aware_Visual_Tracking_ICCV_2019_paper.html"
+    },
+    {
+      "number": 167,
+      "title": "GradNet: Gradient-Guided Network for Visual Object Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Li_GradNet_Gradient-Guided_Network_for_Visual_Object_Tracking_ICCV_2019_paper.html"
+    },
+    {
+      "number": 168,
+      "title": "High-Performance Long-Term Tracking With Meta-Updater",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Dai_High-Performance_Long-Term_Tracking_With_Meta-Updater_CVPR_2020_paper.html"
+    },
+    {
+      "number": 169,
+      "title": "Recursive Least-Squares Estimator-Aided Online Learning for Visual Tracking",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Gao_Recursive_Least-Squares_Estimator-Aided_Online_Learning_for_Visual_Tracking_CVPR_2020_paper.html"
+    },
+    {
+      "number": 170,
+      "title": "ROAM: Recurrently Optimizing Tracking Model",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_ROAM_Recurrently_Optimizing_Tracking_Model_CVPR_2020_paper.html"
+    },
+    {
+      "number": 171,
+      "title": "Tracking by Instance Detection: A Meta-Learning Approach",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_Tracking_by_Instance_Detection_A_Meta-Learning_Approach_CVPR_2020_paper.html"
+    },
+    {
+      "number": 173,
+      "title": "Transforming Model Prediction for Tracking",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Mayer_Transforming_Model_Prediction_for_Tracking_CVPR_2022_paper.html"
+    },
+    {
+      "number": 175,
+      "title": "SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Cai_SPMTrack_Spatio-Temporal_Parameter-Efficient_Fine-Tuning_with_Mixture_of_Experts_for_Scalable_CVPR_2025_paper.html"
+    },
+    {
+      "number": 176,
+      "title": "Correlation-Guided Attention for Corner Detection Based Visual Tracking",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Du_Correlation-Guided_Attention_for_Corner_Detection_Based_Visual_Tracking_CVPR_2020_paper.html"
+    },
+    {
+      "number": 177,
+      "title": "HiFT: Hierarchical Feature Transformer for Aerial Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Cao_HiFT_Hierarchical_Feature_Transformer_for_Aerial_Tracking_ICCV_2021_paper.html"
+    },
+    {
+      "number": 178,
+      "title": "High-Performance Discriminative Tracking With Transformers",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Yu_High-Performance_Discriminative_Tracking_With_Transformers_ICCV_2021_paper.html"
+    },
+    {
+      "number": 182,
+      "title": "Transformer Tracking With Cyclic Shifting Window Attention",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Song_Transformer_Tracking_With_Cyclic_Shifting_Window_Attention_CVPR_2022_paper.html"
+    },
+    {
+      "number": 183,
+      "title": "Unified Transformer Tracker for Object Tracking",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Ma_Unified_Transformer_Tracker_for_Object_Tracking_CVPR_2022_paper.html"
+    },
+    {
+      "number": 184,
+      "title": "Foreground-Background Distribution Modeling Transformer for Visual Object Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Yang_Foreground-Background_Distribution_Modeling_Transformer_for_Visual_Object_Tracking_ICCV_2023_paper.html"
+    },
+    {
+      "number": 185,
+      "title": "Generalized Relation Modeling for Transformer Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Gao_Generalized_Relation_Modeling_for_Transformer_Tracking_CVPR_2023_paper.html"
+    },
+    {
+      "number": 186,
+      "title": "VideoTrack: Learning To Track Objects via Video Transformer",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Xie_VideoTrack_Learning_To_Track_Objects_via_Video_Transformer_CVPR_2023_paper.html"
+    },
+    {
+      "number": 187,
+      "title": "Autoregressive Queries for Adaptive Tracking with Spatio-Temporal Transformers",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Xie_Autoregressive_Queries_for_Adaptive_Tracking_with_Spatio-Temporal_Transformers_CVPR_2024_paper.html"
+    },
+    {
+      "number": 188,
+      "title": "Drift-Resilient Temporal Priors for Visual Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Huang_Drift-Resilient_Temporal_Priors_for_Visual_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 189,
+      "title": "Autoregressive Visual Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Wei_Autoregressive_Visual_Tracking_CVPR_2023_paper.html"
+    },
+    {
+      "number": 190,
+      "title": "SeqTrack: Sequence to Sequence Learning for Visual Object Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_SeqTrack_Sequence_to_Sequence_Learning_for_Visual_Object_Tracking_CVPR_2023_paper.html"
+    },
+    {
+      "number": 191,
+      "title": "ARTrackV2: Prompting Autoregressive Tracker Where to Look and How to Describe",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Bai_ARTrackV2_Prompting_Autoregressive_Tracker_Where_to_Look_and_How_to_CVPR_2024_paper.html"
+    },
+    {
+      "number": 192,
+      "title": "DiffusionTrack: Point Set Diffusion Model for Visual Object Tracking",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Xie_DiffusionTrack_Point_Set_Diffusion_Model_for_Visual_Object_Tracking_CVPR_2024_paper.html"
+    },
+    {
+      "number": 193,
+      "title": "Autoregressive Sequential Pretraining for Visual Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liang_Autoregressive_Sequential_Pretraining_for_Visual_Tracking_CVPR_2025_paper.html"
+    },
+    {
+      "number": 194,
+      "title": "DreamTrack: Dreaming the Future for Multimodal Visual Object Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Guo_DreamTrack_Dreaming_the_Future_for_Multimodal_Visual_Object_Tracking_CVPR_2025_paper.html"
+    },
+    {
+      "number": 195,
+      "title": "Adaptive Capacity Autoregressive Visual Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lin_Adaptive_Capacity_Autoregressive_Visual_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 196,
+      "title": "TGTrack: Temporal Generative Learning for Unified Single Object Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Geng_TGTrack_Temporal_Generative_Learning_for_Unified_Single_Object_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 197,
+      "title": "Unsupervised Deep Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Unsupervised_Deep_Tracking_CVPR_2019_paper.html"
+    },
+    {
+      "number": 198,
+      "title": "Learning To Track Objects From Unlabeled Videos",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Zheng_Learning_To_Track_Objects_From_Unlabeled_Videos_ICCV_2021_paper.html"
+    },
+    {
+      "number": 199,
+      "title": "Progressive Unsupervised Learning for Visual Object Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Wu_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking_CVPR_2021_paper.html"
+    },
+    {
+      "number": 200,
+      "title": "Unsupervised Learning of Accurate Siamese Tracking",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Shen_Unsupervised_Learning_of_Accurate_Siamese_Tracking_CVPR_2022_paper.html"
+    },
+    {
+      "number": 201,
+      "title": "DropMAE: Masked Autoencoders With Spatial-Attention Dropout for Tracking Tasks",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.html"
+    },
+    {
+      "number": 202,
+      "title": "Representation Learning for Visual Object Tracking by Masked Appearance Transfer",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_Representation_Learning_for_Visual_Object_Tracking_by_Masked_Appearance_Transfer_CVPR_2023_paper.html"
+    },
+    {
+      "number": 203,
+      "title": "Boosting Self-Supervised Tracking with Contextual Prompts and Noise Learning",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_Boosting_Self-Supervised_Tracking_with_Contextual_Prompts_and_Noise_Learning_CVPR_2026_paper.html"
+    },
+    {
+      "number": 204,
+      "title": "Self-Paced Learning for Long-Term Tracking",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2013/html/Supancic_III_Self-Paced_Learning_for_2013_CVPR_paper.html"
+    },
+    {
+      "number": 205,
+      "title": "Long-Term Correlation Tracking",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2015/html/Ma_Long-Term_Correlation_Tracking_2015_CVPR_paper.html"
+    },
+    {
+      "number": 206,
+      "title": "Beyond Local Search: Tracking Objects Everywhere With Instance-Specific Proposals",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Zhu_Beyond_Local_Search_CVPR_2016_paper.html"
+    },
+    {
+      "number": 207,
+      "title": "Parallel Tracking and Verifying: A Framework for Real-Time and High Accuracy Visual Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Fan_Parallel_Tracking_and_ICCV_2017_paper.html"
+    },
+    {
+      "number": 208,
+      "title": "'Skimming-Perusal' Tracking: A Framework for Real-Time and Robust Long-Term Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Yan_Skimming-Perusal_Tracking_A_Framework_for_Real-Time_and_Robust_Long-Term_Tracking_ICCV_2019_paper.html"
+    },
+    {
+      "number": 210,
+      "title": "RTracker: Recoverable Tracking via PN Tree Structured Memory",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Huang_RTracker_Recoverable_Tracking_via_PN_Tree_Structured_Memory_CVPR_2024_paper.html"
+    },
+    {
+      "number": 211,
+      "title": "A Distractor-Aware Memory for Visual Object Tracking with SAM2",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Videnovic_A_Distractor-Aware_Memory_for_Visual_Object_Tracking_with_SAM2_CVPR_2025_paper.html"
+    },
+    {
+      "number": 212,
+      "title": "Context-Aware Deep Feature Compression for High-Speed Visual Tracking",
+      "year": 2018,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Choi_Context-Aware_Deep_Feature_CVPR_2018_paper.html"
+    },
+    {
+      "number": 213,
+      "title": "LightTrack: Finding Lightweight Neural Networks for Object Tracking via One-Shot Architecture Search",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Yan_LightTrack_Finding_Lightweight_Neural_Networks_for_Object_Tracking_via_One-Shot_CVPR_2021_paper.html"
+    },
+    {
+      "number": 215,
+      "title": "Exploring Lightweight Hierarchical Vision Transformers for Efficient Visual Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Kang_Exploring_Lightweight_Hierarchical_Vision_Transformers_for_Efficient_Visual_Tracking_ICCV_2023_paper.html"
+    },
+    {
+      "number": 217,
+      "title": "General Compression Framework for Efficient Transformer Object Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Hong_General_Compression_Framework_for_Efficient_Transformer_Object_Tracking_ICCV_2025_paper.html"
+    },
+    {
+      "number": 218,
+      "title": "An Efficient Token Compression Framework for Visual Object Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_An_Efficient_Token_Compression_Framework_for_Visual_Object_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 219,
+      "title": "SpikeTrack: A Spike-driven Framework for Efficient Visual Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SpikeTrack_A_Spike-driven_Framework_for_Efficient_Visual_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 220,
+      "title": "UETrack: A Unified and Efficient Framework for Single Object Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Kang_UETrack_A_Unified_and_Efficient_Framework_for_Single_Object_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 221,
+      "title": "UTPTrack: Towards Simple and Unified Token Pruning for Visual Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_UTPTrack_Towards_Simple_and_Unified_Token_Pruning_for_Visual_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 222,
+      "title": "Unsupervised Domain Adaptation for Nighttime Aerial Tracking",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Ye_Unsupervised_Domain_Adaptation_for_Nighttime_Aerial_Tracking_CVPR_2022_paper.html"
+    },
+    {
+      "number": 223,
+      "title": "Adaptive and Background-Aware Vision Transformer for Real-Time UAV Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Adaptive_and_Background-Aware_Vision_Transformer_for_Real-Time_UAV_Tracking_ICCV_2023_paper.html"
+    },
+    {
+      "number": 224,
+      "title": "PVT++: A Simple End-to-End Latency-Aware Visual Tracking Framework",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_PVT_A_Simple_End-to-End_Latency-Aware_Visual_Tracking_Framework_ICCV_2023_paper.html"
+    },
+    {
+      "number": 225,
+      "title": "Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Learning_Occlusion-Robust_Vision_Transformers_for_Real-Time_UAV_Tracking_CVPR_2025_paper.html"
+    },
+    {
+      "number": 226,
+      "title": "Similarity-Guided Layer-Adaptive Vision Transformer for UAV Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Xue_Similarity-Guided_Layer-Adaptive_Vision_Transformer_for_UAV_Tracking_CVPR_2025_paper.html"
+    },
+    {
+      "number": 227,
+      "title": "UMDATrack: Unified Multi-Domain Adaptive Tracking Under Adverse Weather Conditions",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Yao_UMDATrack_Unified_Multi-Domain_Adaptive_Tracking_Under_Adverse_Weather_Conditions_ICCV_2025_paper.html"
+    },
+    {
+      "number": 228,
+      "title": "Dual-branch Distilled Transformer for Efficient Asymmetric UAV Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Yang_Dual-branch_Distilled_Transformer_for_Efficient_Asymmetric_UAV_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 229,
+      "title": "Rethinking Occlusion Modeling for UAV Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Rethinking_Occlusion_Modeling_for_UAV_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 230,
+      "title": "Toward Low-Cost yet Effective Temporal Learning for UAV Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Xue_Toward_Low-Cost_yet_Effective_Temporal_Learning_for_UAV_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 231,
+      "title": "Tracking by Natural Language Specification",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/html/Li_Tracking_by_Natural_CVPR_2017_paper.html"
+    },
+    {
+      "number": 232,
+      "title": "Siamese Natural Language Tracker: Tracking by Natural Language Descriptions With Siamese Trackers",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Feng_Siamese_Natural_Language_Tracker_Tracking_by_Natural_Language_Descriptions_With_CVPR_2021_paper.html"
+    },
+    {
+      "number": 233,
+      "title": "Towards More Flexible and Accurate Object Tracking With Natural Language: Algorithms and Benchmark",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Towards_More_Flexible_and_Accurate_Object_Tracking_With_Natural_Language_CVPR_2021_paper.html"
+    },
+    {
+      "number": 234,
+      "title": "CiteTracker: Correlating Image and Text for Visual Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_CiteTracker_Correlating_Image_and_Text_for_Visual_Tracking_ICCV_2023_paper.html"
+    },
+    {
+      "number": 235,
+      "title": "Joint Visual Grounding and Tracking With Natural Language Specification",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhou_Joint_Visual_Grounding_and_Tracking_With_Natural_Language_Specification_CVPR_2023_paper.html"
+    },
+    {
+      "number": 236,
+      "title": "Tracking by Natural Language Specification with Long Short-term Context Decoupling",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Ma_Tracking_by_Natural_Language_Specification_with_Long_Short-term_Context_Decoupling_ICCV_2023_paper.html"
+    },
+    {
+      "number": 237,
+      "title": "Context-Aware Integration of Language and Visual References for Natural Language Tracking",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Shao_Context-Aware_Integration_of_Language_and_Visual_References_for_Natural_Language_CVPR_2024_paper.html"
+    },
+    {
+      "number": 238,
+      "title": "ATCTrack: Aligning Target-Context Cues with Dynamic Target States for Robust Vision-Language Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Feng_ATCTrack_Aligning_Target-Context_Cues_with_Dynamic_Target_States_for_Robust_ICCV_2025_paper.html"
+    },
+    {
+      "number": 239,
+      "title": "Dynamic Updates for Language Adaptation in Visual-Language Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Li_Dynamic_Updates_for_Language_Adaptation_in_Visual-Language_Tracking_CVPR_2025_paper.html"
+    },
+    {
+      "number": 240,
+      "title": "MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_MambaVLT_Time-Evolving_Multimodal_State_Space_Model_for_Vision-Language_Tracking_CVPR_2025_paper.html"
+    },
+    {
+      "number": 241,
+      "title": "Beyond Explicit Language: Plug-and-Play Visual-to-Linguistic Modeling Toward General Object Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lan_Beyond_Explicit_Language_Plug-and-Play_Visual-to-Linguistic_Modeling_Toward_General_Object_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 242,
+      "title": "Learning to Track Instance from Single Nature Language Description",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_Learning_to_Track_Instance_from_Single_Nature_Language_Description_CVPR_2026_paper.html"
+    },
+    {
+      "number": 243,
+      "title": "MVLM: Template-Free Tracking via Vision-Language Margin Confidence and Memory-Gated Tracking",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Park_MVLM_Template-Free_Tracking_via_Vision-Language_Margin_Confidence_and_Memory-Gated_Tracking_CVPR_2026_paper.html"
+    },
+    {
+      "number": 244,
+      "title": "Object Tracking by Jointly Exploiting Frame and Event Domain",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Zhang_Object_Tracking_by_Jointly_Exploiting_Frame_and_Event_Domain_ICCV_2021_paper.html"
+    },
+    {
+      "number": 245,
+      "title": "Bridging Search Region Interaction With Template for RGB-T Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.html"
+    },
+    {
+      "number": 246,
+      "title": "Visual Prompt Multi-Modal Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Zhu_Visual_Prompt_Multi-Modal_Tracking_CVPR_2023_paper.html"
+    },
+    {
+      "number": 247,
+      "title": "OneTracker: Unifying Visual Object Tracking with Foundation Models and Efficient Tuning",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Hong_OneTracker_Unifying_Visual_Object_Tracking_with_Foundation_Models_and_Efficient_CVPR_2024_paper.html"
+    },
+    {
+      "number": 248,
+      "title": "SDSTrack: Self-Distillation Symmetric Adapter Learning for Multi-Modal Visual Object Tracking",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Hou_SDSTrack_Self-Distillation_Symmetric_Adapter_Learning_for_Multi-Modal_Visual_Object_Tracking_CVPR_2024_paper.html"
+    },
+    {
+      "number": 249,
+      "title": "Single-Model and Any-Modality for Video Object Tracking",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Single-Model_and_Any-Modality_for_Video_Object_Tracking_CVPR_2024_paper.html"
+    },
+    {
+      "number": 250,
+      "title": "Exploring Historical Information for RGBE Visual Tracking with Mamba",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Sun_Exploring_Historical_Information_for_RGBE_Visual_Tracking_with_Mamba_CVPR_2025_paper.html"
+    },
+    {
+      "number": 251,
+      "title": "PURA: Parameter Update-Recovery Test-Time Adaption for RGB-T Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Shao_PURA_Parameter_Update-Recovery_Test-Time_Adaption_for_RGB-T_Tracking_CVPR_2025_paper.html"
+    },
+    {
+      "number": 252,
+      "title": "What You Have is What You Track: Adaptive and Robust Multimodal Tracking",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Tan_What_You_Have_is_What_You_Track_Adaptive_and_Robust_ICCV_2025_paper.html"
+    },
+    {
+      "number": 253,
+      "title": "XTrack: Multimodal Training Boosts RGB-X Video Object Trackers",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Tan_XTrack_Multimodal_Training_Boosts_RGB-X_Video_Object_Trackers_ICCV_2025_paper.html"
+    },
+    {
+      "number": 254,
+      "title": "Tracking through Severe Occlusion via Event-Derived Transient Cues",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Dong_Tracking_through_Severe_Occlusion_via_Event-Derived_Transient_Cues_CVPR_2026_paper.html"
+    },
+    {
+      "number": 255,
+      "title": "Physical Adversarial Textures That Fool Visual Object Tracking",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Wiyatno_Physical_Adversarial_Textures_That_Fool_Visual_Object_Tracking_ICCV_2019_paper.html"
+    },
+    {
+      "number": 256,
+      "title": "Cooling-Shrinking Attack: Blinding the Tracker With Imperceptible Noises",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.html"
+    },
+    {
+      "number": 258,
+      "title": "IoU Attack: Towards Temporally Coherent Black-Box Adversarial Attack for Visual Object Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Jia_IoU_Attack_Towards_Temporally_Coherent_Black-Box_Adversarial_Attack_for_Visual_CVPR_2021_paper.html"
+    },
+    {
+      "number": 259,
+      "title": "Learning To Adversarially Blur Visual Object Tracking",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Guo_Learning_To_Adversarially_Blur_Visual_Object_Tracking_ICCV_2021_paper.html"
+    },
+    {
+      "number": 261,
+      "title": "Learning Video Object Segmentation With Visual Memory",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Tokmakov_Learning_Video_Object_ICCV_2017_paper.html"
+    },
+    {
+      "number": 262,
+      "title": "Video Object Segmentation Using Space-Time Memory Networks",
+      "year": 2019,
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Oh_Video_Object_Segmentation_Using_Space-Time_Memory_Networks_ICCV_2019_paper.html"
+    },
+    {
+      "number": 263,
+      "title": "Fast Template Matching and Update for Video Object Tracking and Segmentation",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Sun_Fast_Template_Matching_and_Update_for_Video_Object_Tracking_and_CVPR_2020_paper.html"
+    },
+    {
+      "number": 264,
+      "title": "Fast Video Object Segmentation With Temporal Aggregation Network and Dynamic Template Matching",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Huang_Fast_Video_Object_Segmentation_With_Temporal_Aggregation_Network_and_Dynamic_CVPR_2020_paper.html"
+    },
+    {
+      "number": 266,
+      "title": "Learning Fast and Robust Target Models for Video Object Segmentation",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Robinson_Learning_Fast_and_Robust_Target_Models_for_Video_Object_Segmentation_CVPR_2020_paper.html"
+    },
+    {
+      "number": 267,
+      "title": "MAST: A Memory-Augmented Self-Supervised Tracker",
+      "year": 2020,
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/html/Lai_MAST_A_Memory-Augmented_Self-Supervised_Tracker_CVPR_2020_paper.html"
+    },
+    {
+      "number": 270,
+      "title": "Efficient Regional Memory Network for Video Object Segmentation",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Xie_Efficient_Regional_Memory_Network_for_Video_Object_Segmentation_CVPR_2021_paper.html"
+    },
+    {
+      "number": 271,
+      "title": "Hierarchical Memory Matching Network for Video Object Segmentation",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Seong_Hierarchical_Memory_Matching_Network_for_Video_Object_Segmentation_ICCV_2021_paper.html"
+    },
+    {
+      "number": 272,
+      "title": "Learning Position and Target Consistency for Memory-Based Video Object Segmentation",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Hu_Learning_Position_and_Target_Consistency_for_Memory-Based_Video_Object_Segmentation_CVPR_2021_paper.html"
+    },
+    {
+      "number": 273,
+      "title": "Video Object Segmentation With Dynamic Memory Networks and Adaptive Object Alignment",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Liang_Video_Object_Segmentation_With_Dynamic_Memory_Networks_and_Adaptive_Object_ICCV_2021_paper.html"
+    },
+    {
+      "number": 275,
+      "title": "Recurrent Dynamic Embedding for Video Object Segmentation",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Li_Recurrent_Dynamic_Embedding_for_Video_Object_Segmentation_CVPR_2022_paper.html"
+    },
+    {
+      "number": 276,
+      "title": "SWEM: Towards Real-Time Video Object Segmentation With Sequential Weighted Expectation-Maximization",
+      "year": 2022,
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Lin_SWEM_Towards_Real-Time_Video_Object_Segmentation_With_Sequential_Weighted_Expectation-Maximization_CVPR_2022_paper.html"
+    },
+    {
+      "number": 278,
+      "title": "Alignment Before Aggregation: Trajectory Memory Retrieval Network for Video Object Segmentation",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Sun_Alignment_Before_Aggregation_Trajectory_Memory_Retrieval_Network_for_Video_Object_ICCV_2023_paper.html"
+    },
+    {
+      "number": 279,
+      "title": "Scalable Video Object Segmentation with Simplified Framework",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Wu_Scalable_Video_Object_Segmentation_with_Simplified_Framework_ICCV_2023_paper.html"
+    },
+    {
+      "number": 281,
+      "title": "Putting the Object Back into Video Object Segmentation",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Cheng_Putting_the_Object_Back_into_Video_Object_Segmentation_CVPR_2024_paper.html"
+    },
+    {
+      "number": 282,
+      "title": "RMem: Restricted Memory Banks Improve Video Object Segmentation",
+      "year": 2024,
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Zhou_RMem_Restricted_Memory_Banks_Improve_Video_Object_Segmentation_CVPR_2024_paper.html"
+    },
+    {
+      "number": 283,
+      "title": "LiVOS: Light Video Object Segmentation with Gated Linear Matching",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Liu_LiVOS_Light_Video_Object_Segmentation_with_Gated_Linear_Matching_CVPR_2025_paper.html"
+    },
+    {
+      "number": 284,
+      "title": "SAM2Long: Enhancing SAM 2 for Long Video Segmentation with a Training-Free Memory Tree",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Ding_SAM2Long_Enhancing_SAM_2_for_Long_Video_Segmentation_with_a_ICCV_2025_paper.html"
+    },
+    {
+      "number": 285,
+      "title": "Efficient Video Object Segmentation and Tracking with Recurrent Dynamic Submodel",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Tang_Efficient_Video_Object_Segmentation_and_Tracking_with_Recurrent_Dynamic_Submodel_CVPR_2026_paper.html"
+    },
+    {
+      "number": 286,
+      "title": "Robust Promptable Video Object Segmentation",
+      "year": 2026,
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/html/Lee_Robust_Promptable_Video_Object_Segmentation_CVPR_2026_paper.html"
+    },
+    {
+      "number": 287,
+      "title": "Finding the Best from the Second Bests - Inhibiting Subjective Bias in Evaluation of Visual Tracking Algorithms",
+      "year": 2013,
+      "url": "https://openaccess.thecvf.com/content_iccv_2013/html/Pang_Finding_the_Best_2013_ICCV_paper.html"
+    },
+    {
+      "number": 288,
+      "title": "Understanding and Diagnosing Visual Tracking Systems",
+      "year": 2015,
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/html/Wang_Understanding_and_Diagnosing_ICCV_2015_paper.html"
+    },
+    {
+      "number": 289,
+      "title": "A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation",
+      "year": 2016,
+      "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/Perazzi_A_Benchmark_Dataset_CVPR_2016_paper.html"
+    },
+    {
+      "number": 290,
+      "title": "Beyond Standard Benchmarks: Parameterizing Performance Evaluation in Visual Object Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Zajc_Beyond_Standard_Benchmarks_ICCV_2017_paper.html"
+    },
+    {
+      "number": 291,
+      "title": "Need for Speed: A Benchmark for Higher Frame Rate Object Tracking",
+      "year": 2017,
+      "url": "https://openaccess.thecvf.com/content_iccv_2017/html/Galoogahi_Need_for_Speed_ICCV_2017_paper.html"
+    },
+    {
+      "number": 292,
+      "title": "Long-term Tracking in the Wild: a Benchmark",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Efstratios_Gavves_Long-term_Tracking_in_ECCV_2018_paper.php"
+    },
+    {
+      "number": 293,
+      "title": "The Unmanned Aerial Vehicle Benchmark: Object Detection and Tracking",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Dawei_Du_The_Unmanned_Aerial_ECCV_2018_paper.php"
+    },
+    {
+      "number": 294,
+      "title": "YouTube-VOS: Sequence-to-Sequence Video Object Segmentation",
+      "year": 2018,
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Ning_Xu_YouTube-VOS_Sequence-to-Sequence_Video_ECCV_2018_paper.php"
+    },
+    {
+      "number": 295,
+      "title": "Transparent Object Tracking Benchmark",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Fan_Transparent_Object_Tracking_Benchmark_ICCV_2021_paper.html"
+    },
+    {
+      "number": 296,
+      "title": "Video Annotation for Visual Tracking via Selection and Refinement",
+      "year": 2021,
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Dai_Video_Annotation_for_Visual_Tracking_via_Selection_and_Refinement_ICCV_2021_paper.html"
+    },
+    {
+      "number": 297,
+      "title": "360VOT: A New Benchmark Dataset for Omnidirectional Visual Object Tracking",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Huang_360VOT_A_New_Benchmark_Dataset_for_Omnidirectional_Visual_Object_Tracking_ICCV_2023_paper.html"
+    },
+    {
+      "number": 298,
+      "title": "LVOS: A Benchmark for Long-term Video Object Segmentation",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Hong_LVOS_A_Benchmark_for_Long-term_Video_Object_Segmentation_ICCV_2023_paper.html"
+    },
+    {
+      "number": 299,
+      "title": "MOSE: A New Dataset for Video Object Segmentation in Complex Scenes",
+      "year": 2023,
+      "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Ding_MOSE_A_New_Dataset_for_Video_Object_Segmentation_in_Complex_ICCV_2023_paper.html"
+    },
+    {
+      "number": 300,
+      "title": "Is Tracking Really More Challenging in First Person Egocentric Vision?",
+      "year": 2025,
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/html/Dunnhofer_Is_Tracking_Really_More_Challenging_in_First_Person_Egocentric_Vision_ICCV_2025_paper.html"
+    }
+  ],
+  "recent_2017_2026": 225,
+  "omml_equations": 0,
+  "tables": [
+    {
+      "style": "Table Grid",
+      "rows": 6
+    },
+    {
+      "style": "Table Grid",
+      "rows": 6
+    },
+    {
+      "style": "Table Grid",
+      "rows": 8
+    },
+    {
+      "style": "Table Grid",
+      "rows": 11
+    },
+    {
+      "style": "Table Grid",
+      "rows": 7
+    },
+    {
+      "style": "Table Grid",
+      "rows": 5
+    },
+    {
+      "style": "Table Grid",
+      "rows": 3
+    },
+    {
+      "style": "Table Grid",
+      "rows": 4
+    },
+    {
+      "style": "Table Grid",
+      "rows": 17
+    },
+    {
+      "style": "Table Grid",
+      "rows": 15
+    },
+    {
+      "style": "Table Grid",
+      "rows": 5
+    }
+  ],
+  "section_columns_xml": [
+    "<w:sectPr xmlns:w=\"http://schemas.openxmlformats.org/wordprocessingml/2006/main\" xmlns:wpc=\"http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas\" xmlns:mo=\"http://schemas.microsoft.com/office/mac/office/2008/main\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" xmlns:mv=\"urn:schemas-microsoft-com:mac:vml\" xmlns:o=\"urn:schemas-microsoft-com:office:office\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:m=\"http://schemas.openxmlformats.org/officeDocument/2006/math\" xmlns:v=\"urn:schemas-microsoft-com:vml\" xmlns:wp14=\"http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing\" xmlns:wp=\"http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing\" xmlns:w10=\"urn:schemas-microsoft-com:office:word\" xmlns:w14=\"http://schemas.microsoft.com/office/word/2010/wordml\" xmlns:wpg=\"http://schemas.microsoft.com/office/word/2010/wordprocessingGroup\" xmlns:wpi=\"http://schemas.microsoft.com/office/word/2010/wordprocessingInk\" xmlns:wne=\"http://schemas.microsoft.com/office/word/2006/wordml\" xmlns:wps=\"http://schemas.microsoft.com/office/word/2010/wordprocessingShape\" w:rsidR=\"00FC693F\" w:rsidRPr=\"0006063C\" w:rsidSect=\"00034616\">\n  <w:headerReference w:type=\"default\" r:id=\"rId9\"/>\n  <w:footerReference w:type=\"default\" r:id=\"rId10\"/>\n  <w:pgSz w:w=\"11906\" w:h=\"16838\"/>\n  <w:pgMar w:top=\"1191\" w:right=\"1134\" w:bottom=\"1134\" w:left=\"1134\" w:header=\"510\" w:footer=\"510\" w:gutter=\"0\"/>\n  <w:cols w:space=\"720\"/>\n  <w:docGrid w:linePitch=\"360\"/>\n</w:sectPr>\n"
+  ],
+  "inline_images": [
+    {
+      "part": "/word/media/image1.png",
+      "px": [
+        878,
+        107
+      ],
+      "width_inches": 3.817,
+      "effective_dpi_x": 230.0,
+      "metadata_dpi": [
+        229.99699999999999,
+        229.99699999999999
+      ]
+    },
+    {
+      "part": "/word/media/image2.png",
+      "px": [
+        1223,
+        109
+      ],
+      "width_inches": 5.317,
+      "effective_dpi_x": 230.0,
+      "metadata_dpi": [
+        229.99699999999999,
+        229.99699999999999
+      ]
+    },
+    {
+      "part": "/word/media/image3.png",
+      "px": [
+        504,
+        90
+      ],
+      "width_inches": 2.191,
+      "effective_dpi_x": 230.0,
+      "metadata_dpi": [
+        229.99699999999999,
+        229.99699999999999
+      ]
+    },
+    {
+      "part": "/word/media/image4.png",
+      "px": [
+        2089,
+        806
+      ],
+      "width_inches": 6.5,
+      "effective_dpi_x": 321.4,
+      "metadata_dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    {
+      "part": "/word/media/image5.png",
+      "px": [
+        950,
+        93
+      ],
+      "width_inches": 4.13,
+      "effective_dpi_x": 230.0,
+      "metadata_dpi": [
+        229.99699999999999,
+        229.99699999999999
+      ]
+    },
+    {
+      "part": "/word/media/image6.png",
+      "px": [
+        2089,
+        907
+      ],
+      "width_inches": 6.5,
+      "effective_dpi_x": 321.4,
+      "metadata_dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    {
+      "part": "/word/media/image7.png",
+      "px": [
+        699,
+        179
+      ],
+      "width_inches": 3.039,
+      "effective_dpi_x": 230.0,
+      "metadata_dpi": [
+        229.99699999999999,
+        229.99699999999999
+      ]
+    },
+    {
+      "part": "/word/media/image8.png",
+      "px": [
+        2089,
+        924
+      ],
+      "width_inches": 6.5,
+      "effective_dpi_x": 321.4,
+      "metadata_dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    {
+      "part": "/word/media/image9.png",
+      "px": [
+        279,
+        154
+      ],
+      "width_inches": 1.213,
+      "effective_dpi_x": 230.0,
+      "metadata_dpi": [
+        229.99699999999999,
+        229.99699999999999
+      ]
+    },
+    {
+      "part": "/word/media/image10.png",
+      "px": [
+        2520,
+        913
+      ],
+      "width_inches": 6.5,
+      "effective_dpi_x": 387.7,
+      "metadata_dpi": [
+        219.9894,
+        219.9894
+      ]
+    },
+    {
+      "part": "/word/media/image11.png",
+      "px": [
+        2394,
+        744
+      ],
+      "width_inches": 6.5,
+      "effective_dpi_x": 368.3,
+      "metadata_dpi": [
+        219.9894,
+        219.9894
+      ]
+    }
+  ],
+  "reading_status_counts": {
+    "未标记为全文精读；元数据核对与阅读完成度分别记录": 300
+  }
+}

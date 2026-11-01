@@ -1,0 +1,47 @@
+{
+  "number": 27,
+  "title": "MUTrack: a memory-aware unified representation framework for visual tracking",
+  "year": 2026,
+  "authors": [
+    "Wu W",
+    "Liang Q",
+    "Zhong B",
+    "et al"
+  ],
+  "venue": "AAAI",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://ojs.aaai.org/index.php/AAAI/article/view/38052",
+  "doi": "10.1609/aaai.v40i13.38052",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38052",
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/view/38052",
+      "bytes": 29236,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/38052/42014",
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38052/42014",
+      "bytes": 5523537,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\027_2026_MUTrack__a_memory-aware_unified_representation_framework_for_visual_tracking.pdf",
+  "download_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38052/42014",
+  "requested_url": "https://ojs.aaai.org/index.php/AAAI/article/download/38052/42014",
+  "bytes": 5523537,
+  "sha256": "0c9914cdd0d5d6cbb6f0f924dd07a65ef360a24579e16c08ac844949348d7307",
+  "version": "出版方公开全文",
+  "pages": 9,
+  "pdf_title": "MUTrack: A Memory-Aware Unified Representation Framework for Visual Tracking",
+  "first_page_text": "MUTrack: A Memory-Aware Unified Representation Framework\nfor Visual Tracking\nWeijing Wu1,2, Qihua Liang1,2*, Bineng Zhong1,2*, Xiaohu Tang1,2,Yufei Tan1,2,3, Ning Li1,2,\nYuanliang Xue4\n1Key Laboratory of Education Blockchain and Intelligent Technology Ministry of Education,\nGuangxi Normal University, Guilin 541004, China\n2University Engineering Research Center of Educational Intelligent Technology,\nGuangxi Normal University, Guilin, 541004, China\n3Guangxi Key Laboratory of Brain-inspired Computing and Intelligent Chips,\nSchool of Electronic and Information Engineering, Guangxi Normal University, Guilin, 541004, China\n4Xi’an Research Institute of High Technology, Xi’an 710025, China\nwuweijing182@163.com, qhliang@gxnu.edu.cn, bnzhong@gxnu.edu.cn, tangxiaohu@gxnu.edu.cn\njeffrey.yf.tan@gxnu.edu.cn, ningli65536@mailbox.gxnu.edu.cn, xyl 507@outlook.com\nAbstract\nBuilding a unified target representation that simultaneously\nachieves short-term adaptability and long-term stability is\ncrucial for robust visual tracking. However, existing trackers\ntypically face an inherent trade-off. Methods primarily rely-\ning on short-term appearance and motion cues achieve rapid\nadaptation, but they often struggle with long-term identity\nconsistency. Conversely, trackers that emphasize extensive\ntemporal context provide strong robustness, yet this approach\ncan compromise their short-term adaptability. To bridge this\ngap, we propose a novel tracker, MUTrack, which compre-\nhensively integrates both long-term and short-term memories\ninto a unified target representation for more robust tracking.\nSpecifically, we design a unified memory bank that stores and\nmanages long-term memory for maintaining long-term iden-\ntity consistency, and short-term memory for adapting to in-\nstantaneous appearance changes. To fully leverage the com-\nplementary nature of both long-term and short-term tempo-\nral information, we introduce a perception interaction module\nthat dynamically fuses these memory types through deep and\nbidirectional interactions, enabling mutual refinement where\none guides the other. This ultimately generates a highly adap-\ntive target representation, which effectively balances adapt-\nability to instantaneous changes with robustness against long-\nterm identity drift. Extensive experiments on GOT10k, Track-\ningNet, LaSOT, LaSOText, NfS, and OTB100 consistently\ndemonstrate that MUTrack achieves SOTA performance.\nIntroduction\nVisual object tracking (VOT) (Bertinetto et al. 2016) is a\nfundamental computer vision task that predicts a target’s po-\nsition in videos given an initial state. Earlier tracking ap-\nproaches (Chen et al. 2021, 2022; Hu et al. 2023; Fu et al.\n2022; Hu et al. 2024) have primarily relied on an initial\nstatic template (illustrated as the initial memory in Fig. 1(a)),\nleading to limited use of contextual cues. This reliance is\nunreliable when the target undergoes appearance or scale\n*Corresponding Author\nCopyright © 2026, Association for the Advancement of Artificial\nIntelligence (www.aaai.org). All rights reserved.\ni i+1 n-2n-1n\n…\n…\n…\n…\nUnified \nMemory\nModel\nModel\n(b) Our Architecture\nZ\nX\nZ\nX\nUnified \nMemory\n…\nk\nn-2 n-1\n…\nk\nn-1 n\nSymbol\nR\nR\nUpdate\nResult\nZ\nTemplate\nX\nSearch\nR\nShort-term \nMemory\nLong-term \nMemory\nUnified \nMemory\nt\nt\nt\n…\nk\ni i+1 n-1 n\nk\ni\nn\n(a) Overview of Temporal Memories\nInitial\nMemory\ntime point\n1 2\nn-1 n\n…\nt\nshort temporal span\nlong temporal span\n…\nFigure 1: (a) The top part illustrates representative track-\ning strategies based on different temporal memories: initial\nmemory-based trackers (Ye et al. 2022) typically rely on\na non-adaptive initial template for target matching; short-\nterm memory-based trackers (Bai et al. 2024) emphasize\nrecent target features for rapid adaptation; while long-term\nmemory-based trackers (Zheng et al. 2024) focus on pre-\nserving appearance continuity over extended time spans.\nIn contrast, unified memory-based trackers integrate these\ncomplementary approaches to construct a more complete\nand balanced target representation across time. For this il-\nlustration, it is assumed that k ≤i. (b) The bottom part\npresents an overview of our proposed tracking framework.\nvariations. To overcome this, many trackers introduce short-\nterm memory (as shown in Fig. 1(a)). For instance, subse-\nquent studies (Yang and Chan 2018; Zhang et al. 2019; Yan\net al. 2021) introduced template update mechanisms to adapt\nto target appearance changes. However, these models de-\npend on manual parameters, resulting in limited adaptability\nin dynamic scenarios. Some methods addressed these chal-\nlenges by designing appearance token propagation mech-\nanisms (Bai et al. 2024; Xie et al. 2024) or by incorpo-\nThe Fortieth AAAI Conference on Artificial Intelligence (AAAI-26)\n10772\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

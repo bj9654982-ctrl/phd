@@ -1,0 +1,42 @@
+{
+  "number": 158,
+  "title": "Learning Dynamic Siamese Network for Visual Object Tracking",
+  "year": 2017,
+  "authors": [
+    "Qing Guo",
+    "Wei Feng",
+    "Ce Zhou",
+    "Rui Huang",
+    "Liang Wan",
+    "Song Wang"
+  ],
+  "venue": "ICCV",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2017/html/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.pdf",
+      "bytes": 4276223,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\158_2017_Learning_Dynamic_Siamese_Network_for_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2017/papers/Guo_Learning_Dynamic_Siamese_ICCV_2017_paper.pdf",
+  "bytes": 4276223,
+  "sha256": "7fba705fca8693cb256046063b4d1e1d235197af49c6e059a25beaca97051d8c",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Learning Dynamic Siamese Network for Visual Object Tracking",
+  "first_page_text": "Learning Dynamic Siamese Network for Visual Object Tracking\nQing Guo1,3, Wei Feng1,3∗, Ce Zhou1,3, Rui Huang1,3,5, Liang Wan2,3, Song Wang1,3,4\n1 School of Computer Science and Technology, Tianjin University, Tianjin, China\n2 School of Computer Software, Tianjin University, Tianjin, China\n3 Key Research Center for Surface Monitoring and Analysis of Cultural Relics, SACH, China\n4 University of South Carolina, Columbia, SC 29208, USA\n5 School of Computer Science and Technology, Civil Aviation University of China\n{tsingqguo,wfeng,zhouce,ruihuang,lwan}@tju.edu.cn, songwang@cec.sc.edu\nAbstract\nHow to effectively learn temporal variation of target\nappearance, to exclude the interference of cluttered back-\nground, while maintaining real-time response, is an essen-\ntial problem of visual object tracking. Recently, Siamese\nnetworks have shown great potentials of matching based\ntrackers in achieving balanced accuracy and beyond real-\ntime speed. However, they still have a big gap to classiﬁ-\ncation & updating based trackers in tolerating the temporal\nchanges of objects and imaging conditions. In this paper,\nwe propose dynamic Siamese network, via a fast transfor-\nmation learning model that enables effective online learn-\ning of target appearance variation and background suppres-\nsion from previous frames. We then present elementwise\nmulti-layer fusion to adaptively integrate the network out-\nputs using multi-level deep features. Unlike state-of-the-\nart trackers, our approach allows the usage of any feasible\ngenerally- or particularly-trained features, such as SiamFC\nand VGG. More importantly, the proposed dynamic Siamese\nnetwork can be jointly trained as a whole directly on the la-\nbeled video sequences, thus can take full advantage of the\nrich spatial temporal information of moving objects. As a\nresult, our approach achieves state-of-the-art performance\non OTB-2013 and VOT-2015 benchmarks, while exhibits\nsuperiorly balanced accuracy and real-time response over\nstate-of-the-art competitors.\n1. Introduction\nVisual tracking aims to track an arbitrary temporally-\nchanging object, with the target being only speciﬁed at\nthe ﬁrst frame. Since potential changes of the object and\nits context are basically unknown and constantly happen,\n∗Corresponding author. Tel: (+86)-22-27406538. This work is sup-\nported by NSFC 61671325, 61572354, 61672376.\nFigure 1. Two tracking examples of state-of-the-art matching\nbased trackers (GOTURN [15] and SiamFC [2]), deep clas-\nsiﬁcation & updating based trackers (MDNet [22] and Deep-\nSRDCF [6]), and the proposed approach (DSiam). The intersec-\ntion over union (IoU) between ground truth and tracking result of\neach tracker on each frame is shown. Previous two matching based\nmethods easily miss the object when similar objects coexist (the\n1st case) or target changes signiﬁcantly (the 2nd case). The table\nshows the average tracking speed, measured on NVIDIA TITAN\nX platform, and accuracy, AUC score, on OTB-2013 dataset [30],\nof all compared trackers. R-MDNet indicates the retrained MDNet\non ILSVRC dataset [23]. See text for more details.\nthis problem, being highly useful for many computer vision\ntasks, such as surveillance, video analysis and augmented\n11763\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,40 @@
+{
+  "number": 198,
+  "title": "Learning To Track Objects From Unlabeled Videos",
+  "year": 2021,
+  "authors": [
+    "Jilai Zheng",
+    "Chao Ma",
+    "Houwen Peng",
+    "Xiaokang Yang"
+  ],
+  "venue": "ICCV",
+  "category": "自监督训练与表征迁移",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Zheng_Learning_To_Track_Objects_From_Unlabeled_Videos_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Learning_To_Track_Objects_From_Unlabeled_Videos_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Learning_To_Track_Objects_From_Unlabeled_Videos_ICCV_2021_paper.pdf",
+      "bytes": 1877385,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\198_2021_Learning_To_Track_Objects_From_Unlabeled_Videos.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Learning_To_Track_Objects_From_Unlabeled_Videos_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Zheng_Learning_To_Track_Objects_From_Unlabeled_Videos_ICCV_2021_paper.pdf",
+  "bytes": 1877385,
+  "sha256": "c78cb10085b01fbb3c95b34d57c7aaed017848506f900af5c11e803ffccaa0a4",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning To Track Objects From Unlabeled Videos",
+  "first_page_text": "Learning to Track Objects from Unlabeled Videos\nJilai Zheng1\nChao Ma1*\nHouwen Peng2\nXiaokang Yang1\n1 MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University\n2 Microsoft Research\n{zhengjilai,chaoma,xkyang}@sjtu.edu.cn, houwen.peng@microsoft.com\nAbstract\nIn this paper, we propose to learn an Unsupervised Sin-\ngle Object Tracker (USOT) from scratch. We identify that\nthree major challenges, i.e., moving object discovery, rich\ntemporal variation exploitation, and online update, are the\ncentral causes of the performance bottleneck of existing\nunsupervised trackers. To narrow the gap between unsu-\npervised trackers and supervised counterparts, we propose\nan effective unsupervised learning approach composed of\nthree stages. First, we sample sequentially moving objects\nwith unsupervised optical flow and dynamic programming,\ninstead of random cropping.\nSecond, we train a naive\nSiamese tracker from scratch using single-frame pairs.\nThird, we continue training the tracker with a novel cy-\ncle memory learning scheme, which is conducted in longer\ntemporal spans and also enables our tracker to update on-\nline. Extensive experiments show that the proposed USOT\nlearned from unlabeled videos performs well over the state-\nof-the-art unsupervised trackers by large margins, and on\npar with recent supervised deep trackers. Code is available\nat https://github.com/VISION-SJTU/USOT.\n1. Introduction\nVisual object tracking is one of the most fundamental\ncomputer vision tasks with numerous applications, such\nas autonomous driving, intelligent surveillance, robot, and\nhuman-computer interaction.\nThe past few years have\nwitnessed considerable progress in visual object tracking,\nthanks to the powerful representation of deep learning. In\nspite of the success, the state-of-the-art deep tracking algo-\nrithms are data-hungry, requiring a huge number of anno-\ntated data for supervised training. As manually labeled data\nare expensive and time-consuming, exploiting ubiquitous\nunlabeled videos for visual tracking has drawn increasing\nattention recently. Following the classic pipeline of unsu-\npervised learning, existing unsupervised trackers randomly\ncrop template regions on unlabeled videos and employ ei-\n* Corresponding author.\nFigure 1: Comparison on the VOT2017/18 benchmark with\nrecent deep trackers.\nThe proposed trackers, USOT and\nUSOT*, perform well over the state-of-the-art unsupervised\ndeep trackers, including LUDT [38], LUDT+ [38], and\nS2SiamFC [34], and on par with recent supervised trackers.\nNotation: SiamFC [2], SiamDW [47], SiamRPN [26], C-\nRPN [12], DaSiamRPN [50], ATOM [8], SiamRPN++ [25],\nDiMP [3], KYS [4].\nther self consistency [34] or cycle consistency [37] as a pre-\ntext task for learning to track. Despite the promising results,\nthere still exists a large performance gap between unsuper-\nvised and supervised trackers. In view of the great success\nof unsupervised learning on a number of other vision tasks,\nsuch as video object segmentation [23], optical flow [28]\nand depth estimation [14], it is of great interest to narrow\nthe gap between unsupervised and supervised trackers.\nWe identify three critical challenges that cause the per-\nformance bottleneck of unsupervised trackers.\n1) Mov-\ning object discovery. As ground truth bounding boxes are\nnot available, existing unsupervised trackers randomly sam-\nple regions in frames as pseudo templates [37, 34]. Ran-\ndom samples are far from precisely locating objects, not to\nmention learning to distinguish between objects and back-\nground. Moreover, as random samples do not contain clear\nedges of objects, they are not suitable for bounding box re-\n13546\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

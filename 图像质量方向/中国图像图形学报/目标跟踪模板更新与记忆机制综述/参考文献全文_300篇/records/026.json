@@ -1,0 +1,47 @@
+{
+  "number": 26,
+  "title": "Exploring enhanced contextual information for video-level object tracking",
+  "year": 2025,
+  "authors": [
+    "Kang B",
+    "Chen X",
+    "Lai S",
+    "et al"
+  ],
+  "venue": "AAAI",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://ojs.aaai.org/index.php/AAAI/article/view/32440",
+  "doi": "10.1609/aaai.v39i4.32440",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32440",
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/view/32440",
+      "bytes": 24867,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/download/32440/34595",
+      "final_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32440/34595",
+      "bytes": 986626,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\026_2025_Exploring_enhanced_contextual_information_for_video-level_object_tracking.pdf",
+  "download_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32440/34595",
+  "requested_url": "https://ojs.aaai.org/index.php/AAAI/article/download/32440/34595",
+  "bytes": 986626,
+  "sha256": "f55a5868c61742946d7563e2fc065fb9023652d2b55b421606dde72c04207e89",
+  "version": "出版方公开全文",
+  "pages": 9,
+  "pdf_title": "Exploring Enhanced Contextual Information for Video-Level Object Tracking",
+  "first_page_text": "Exploring Enhanced Contextual Information for Video-Level Object Tracking\nBen Kang1,2, Xin Chen1, Simiao Lai1, Yang Liu1*, Yi Liu3, Dong Wang1,2\n1 Dalian University of Technology\n2 Ningbo Institute of Dalian University of Technology\n3 Baidu Inc.\nkangben@mail.dlut.edu.cn, chenxin3131@mail.dlut.edu.cn, laisimiao@mail.dlut.edu.cn, ly@dlut.edu.cn,\nliuyi22@baidu.com, wdice@dlut.edu.cn\nAbstract\nContextual information at the video level has become increas-\ningly crucial for visual object tracking. However, existing\nmethods typically use only a few tokens to convey this in-\nformation, which can lead to information loss and limit their\nability to fully capture the context. To address this issue,\nwe propose a new video-level visual object tracking frame-\nwork called MCITrack. It leverages Mamba’s hidden states\nto continuously record and transmit extensive contextual in-\nformation throughout the video stream, resulting in more ro-\nbust object tracking. The core component of MCITrack is\nthe Contextual Information Fusion module, which consists\nof the mamba layer and the cross-attention layer. The mamba\nlayer stores historical contextual information, while the cross-\nattention layer integrates this information into the current vi-\nsual features of each backbone block. This module enhances\nthe model’s ability to capture and utilize contextual infor-\nmation at multiple levels through deep integration with the\nbackbone. Experiments demonstrate that MCITrack achieves\ncompetitive performance across numerous benchmarks. For\ninstance, it gets 76.6% AUC on LaSOT and 80.0% AO on\nGOT-10k, establishing a new state-of-the-art performance.\nCode — https://github.com/kangben258/MCITrack\nIntroduction\nVisual object tracking is a crucial task in computer vision,\naiming to identify an object in the initial frame of a video\nand predict its location in subsequent frames. Existing track-\ning methods (Danelljan et al. 2019; Chen et al. 2020, 2022;\nZhu et al. 2023; Xie et al. 2022) typically employ image-\nlevel matching techniques, using template and search region\nimages for feature matching and then making predictions\nbased on the matching results. These methods primarily fo-\ncus on the initial appearance of the target and do not utilize\nthe contextual information available in the video sequence.\nTo improve performance, some methods (Yan et al.\n2021a; Mayer et al. 2022; Chen et al. 2023b) use dynamic\ntemplates to record the appearance information of objects.\nAs shown in Figure 1 (a), these methods obtain more ap-\npearance information and enhance the model’s robustness by\n*Corresponding author.\nCopyright © 2025, Association for the Advancement of Artificial\nIntelligence (www.aaai.org). All rights reserved.\nEncoder & Head\nTracking Result\nUpdate\n(a) Dynamic Template\nSearch Region\nTemplate\nExtra Token\nDynamic Template\nTracking Result\nUpdate\n(b) Extra Token\nEncoder & Head\nTracking \nResult\nUpdate\nHidden State Layer\n(c) Hidden State (Ours)\nEncoder & Head\nFigure 1: Comparison of different contextual information\npropagation methods. (a) Using dynamic templates. (b) Us-\ning extra tokens. (c) Using hidden state layers.\nupdating the dynamic template. While these methods have\nachieved some success, they still primarily focus on the ap-\npearance information of the target and do not fully utilize\nthe contextual information in the video sequence.\nRecently, some works (Chang et al. 2024; Zheng et al.\n2024; Bai et al. 2024; Shi et al. 2024; Xie et al. 2024) have\nbegun to explore video-level object tracking. Unlike pre-\nvious methods focusing solely on the target’s appearance,\nthese works utilize more contextual information to enhance\nmodel performance. As shown in Figure 1 (b), these meth-\nods typically use a small number of extra tokens to capture\nand transmit contextual information, continuously updating\nas the video sequence progresses. Although these methods\nshow superior performance compared to earlier approaches,\nthe limited number of tokens can only transmit a limited\namount of contextual information, leading to information\nloss. Therefore, efficiently transmitting richer contextual in-\nformation remains an urgent challenge.\nTemporal models like LSTM (Graves 2012) and state\nspace models (Gu et al. 2021) are adept at preserving cru-\ncial information in their hidden states, making them suitable\nfor recording important contextual information in video se-\nThe Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)\n4194\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

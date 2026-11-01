@@ -1,0 +1,40 @@
+{
+  "number": 288,
+  "title": "Understanding and Diagnosing Visual Tracking Systems",
+  "year": 2015,
+  "authors": [
+    "Naiyan Wang",
+    "Jianping Shi",
+    "Dit-Yan Yeung",
+    "Jiaya Jia"
+  ],
+  "venue": "ICCV",
+  "category": "数据集与评价设计",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Wang_Understanding_and_Diagnosing_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Understanding_and_Diagnosing_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Understanding_and_Diagnosing_ICCV_2015_paper.pdf",
+      "bytes": 900252,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\288_2015_Understanding_and_Diagnosing_Visual_Tracking_Systems.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Understanding_and_Diagnosing_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_Understanding_and_Diagnosing_ICCV_2015_paper.pdf",
+  "bytes": 900252,
+  "sha256": "65eacef33ce1ce125d650cc7992c5dff0ca59b6019870078bce5d3ad2ccdf13c",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Understanding and Diagnosing Visual Tracking Systems",
+  "first_page_text": "Understanding and Diagnosing Visual Tracking Systems\nNaiyan Wang1\nJianping Shi2,3\nDit-Yan Yeung1\nJiaya Jia3\n1 Hong Kong University of Science and Technology\n2 Linkface Group Limited\n3 Chinese University of Hong Kong\nwinsty@gmail.com\njpshi@cse.cuhk.edu.hk\ndyyeung@cse.ust.hk\nleojia@cse.cuhk.edu.hk\nAbstract\nSeveral benchmark datasets for visual tracking research\nhave been created in recent years. Despite their usefulness,\nwhether they are sufﬁcient for understanding and diagnos-\ning the strengths and weaknesses of different trackers re-\nmains questionable. To address this issue, we propose a\nframework by breaking a tracker down into ﬁve constituent\nparts, namely, motion model, feature extractor, observation\nmodel, model updater, and ensemble post-processor. We\nthen conduct ablative experiments on each component to\nstudy how it affects the overall result.\nSurprisingly, our\nﬁndings are discrepant with some common beliefs in the\nvisual tracking research community. We ﬁnd that the fea-\nture extractor plays the most important role in a tracker.\nOn the other hand, although the observation model is the\nfocus of many studies, we ﬁnd that it often brings no signif-\nicant improvement. Moreover, the motion model and model\nupdater contain many details that could affect the result.\nAlso, the ensemble post-processor can improve the result\nsubstantially when the constituent trackers have high di-\nversity. Based on our ﬁndings, we put together some very\nelementary building blocks to give a basic tracker which\nis competitive in performance to the state-of-the-art track-\ners. We believe our framework can provide a solid baseline\nwhen conducting controlled experiments for visual tracking\nresearch.\n1. Introduction\nVisual tracking is an essential building block of many ad-\nvanced applications in the areas such as video surveillance\nand human-computer interaction. In this paper, we focus on\nthe most general type of visual tracking problems, namely,\nshort-term single-object model-free tracking [18]. We con-\nsider the most common setting for this problem: the tracker\nis given a bounding box to indicate the object to be tracked.\nThe bounding box is either from human annotation or an au-\ntomatic object detector. The tracker has no prior knowledge\nof the object to be tracked such as category and shape. Then\nin the following frames, the tracker needs to identify the ob-\nject as it moves around in the video. Numerous such track-\ners have been proposed over the past few decades, ranging\nfrom the simple KLT tracker [20, 31] in the 1980s to the\nrecent deep learning trackers [34, 16] which are a lot more\ncomplex.\nEvaluating and comparing trackers has always been a\nnontrivial task. For a long time, researchers usually reported\ntracking results on a small number of videos based on\nspeciﬁc model parameters manually tuned for each video.\nSince subjective bias [24] in the results can be caused by\nselection of videos, this practice makes it infeasible to give\na fair comparison of different trackers. To address this fair-\nness concern, several relatively large benchmarks [39, 18]\nand evaluation metrics [6] have been proposed recently.\nWith the aid of these benchmarks, we have witnessed sub-\nstantial advances in recent years. However, we would like\nto raise this question: Is simply evaluating these trackers on\nthe de facto benchmarks sufﬁcient for understanding and\ndiagnosing their strengths and weaknesses?\nWe are afraid that the answer to the above question is\nnot afﬁrmative, for the following reason. Modern trackers\nare usually complicated systems made up of several sepa-\nrate components. When a tracker is evaluated as a whole,\nwe cannot gain a detailed understanding of the effective-\nness of each component. For illustration, suppose tracker A\nuses histograms of oriented gradients (HOG) [8] as features\nand the support vector machine (SVM) as the observation\nmodel, while tracker B uses raw pixels as features and logis-\ntic regression as the observation model. If tracker A outper-\nforms tracker B in a benchmark, can we conclude that SVM\nis better than logistic regression for tracking? Obviously\ndrawing such a conclusion would be arbitrary since HOG\nfeatures have stronger representational power than raw pix-\nels. This calls for a more carefully designed framework for\nthe evaluation and comparison of trackers.\nWe propose in this paper a new way to understand and\ndiagnose visual trackers. Note that our goal is not to cre-\nate a new benchmark. Instead, our analysis will still be\nbased on existing benchmarks.\nWe ﬁrst break a tracker\n13101\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

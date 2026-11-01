@@ -1,0 +1,42 @@
+{
+  "number": 201,
+  "title": "DropMAE: Masked Autoencoders With Spatial-Attention Dropout for Tracking Tasks",
+  "year": 2023,
+  "authors": [
+    "Qiangqiang Wu",
+    "Tianyu Yang",
+    "Ziquan Liu",
+    "Baoyuan Wu",
+    "Ying Shan",
+    "Antoni B. Chan"
+  ],
+  "venue": "CVPR",
+  "category": "自监督训练与表征迁移",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.pdf",
+      "bytes": 7367393,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\201_2023_DropMAE__Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Wu_DropMAE_Masked_Autoencoders_With_Spatial-Attention_Dropout_for_Tracking_Tasks_CVPR_2023_paper.pdf",
+  "bytes": 7367393,
+  "sha256": "0539dcd464a5e7185e8cbc2c68c6c6e8eb2d85308ffb1a0c382507d3ef3495f8",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "DropMAE: Masked Autoencoders With Spatial-Attention Dropout for Tracking Tasks",
+  "first_page_text": "DropMAE: Masked Autoencoders with Spatial-Attention Dropout for\nTracking Tasks\nQiangqiang Wu1\nTianyu Yang2*\nZiquan Liu1\nBaoyuan Wu4\nYing Shan3\nAntoni B. Chan1\n1Department of Computer Science, City University of Hong Kong\n2International Digital Economy Academy\n3Tencent AI Lab\n4School of Data Science, The Chinese University of Hong Kong, Shenzhen\n{qiangqwu2-c, ziquanliu2-c}@my.cityu.edu.hk, tianyu-yang@outlook.com\nwubaoyuan@cuhk.edu.cn, yingsshan@tencent.com, abchan@cityu.edu.hk\nAbstract\nIn this paper, we study masked autoencoder (MAE) pre-\ntraining on videos for matching-based downstream tasks,\nincluding visual object tracking (VOT) and video object seg-\nmentation (VOS). A simple extension of MAE is to randomly\nmask out frame patches in videos and reconstruct the frame\npixels. However, we find that this simple baseline heav-\nily relies on spatial cues while ignoring temporal relations\nfor frame reconstruction, thus leading to sub-optimal tem-\nporal matching representations for VOT and VOS. To al-\nleviate this problem, we propose DropMAE, which adap-\ntively performs spatial-attention dropout in the frame re-\nconstruction to facilitate temporal correspondence learning\nin videos. We show that our DropMAE is a strong and effi-\ncient temporal matching learner, which achieves better fine-\ntuning results on matching-based tasks than the ImageNet-\nbased MAE with 2× faster pre-training speed. Moreover,\nwe also find that motion diversity in pre-training videos\nis more important than scene diversity for improving the\nperformance on VOT and VOS. Our pre-trained DropMAE\nmodel can be directly loaded in existing ViT-based track-\ners for fine-tuning without further modifications. Notably,\nDropMAE sets new state-of-the-art performance on 8 out\nof 9 highly competitive video tracking and segmentation\ndatasets. Our code and pre-trained models are available at\nhttps://github.com/jimmy-dq/DropMAE.git.\n1. Introduction\nRecently, transformers have achieved enormous success\nin many research areas, such as natural language processing\n(NLP) [6, 22], computer vision [97] and audio generation\n[43, 73]. In NLP, masked autoencoding is commonly used\nto train large-scale generalizable NLP transformers contain-\n*Corresponding Author\n60\n62\n64\n66\n68\n70\n72\n74\n76\nAverage Overlap (%)\n70\n72\n74\n76\n78\n80\n82\n84\n86\n88\nSuccess Rate (%)\nState-of-the-art Comparison on GOT-10k\nDropTrack\n(Ours)\nOSTrack\nSwinTrack\nSwinTrack\nMixFormer\nAiATrack\nSimTrack\nStark\nCIA50\nTransT\nAutoMatch\nSiamR-CNN\nOcean\nDiMP\nFigure 1. State-of-the-art comparison on GOT-10k [39] following\nthe one-shot protocol. Our DropTrack with the proposed Drop-\nMAE pre-training achieves state-of-the-art performance without\nusing complicated pipelines such as online updating.\ning billions of parameters. Inspired by the great success of\nself-supervised learning in NLP, recent advances [36, 89]\nin computer vision suggest that training large-scale vision\ntransformers may undertake a similar trajectory with NLP.\nThe seminal work MAE [36] reconstructs the input image\nfrom a small portion of patches. The learned representa-\ntion in this masked autoencoder has been demonstrated to\nbe effective in many computer vision tasks, such as image\nclassification, object detection and semantic segmentation.\nIn video object tracking (VOT), recently two works,\nSimTrack [10] and OSTrack [97], explore using an MAE\npre-trained ViT model as the tracking backbone. Notably,\nthese two trackers achieve state-of-the-art performance on\nexisting tracking benchmarks without using complicated\ntracking pipelines. The key to their success is the robust\npre-training weights learned by MAE on ImageNet [68]. In\naddition, [10,97] also demonstrate that, for VOT, MAE un-\nsupervised pre-training on ImageNet is more effective than\nsupervised pre-training using class labels – this is mainly\nbecause MAE pre-training learns more fine-grained local\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n14561\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

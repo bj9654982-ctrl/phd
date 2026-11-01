@@ -1,0 +1,40 @@
+{
+  "number": 20,
+  "title": "MixFormer: End-to-End Tracking With Iterative Mixed Attention",
+  "year": 2022,
+  "authors": [
+    "Yutao Cui",
+    "Cheng Jiang",
+    "Limin Wang",
+    "Gangshan Wu"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2022/html/Cui_MixFormer_End-to-End_Tracking_With_Iterative_Mixed_Attention_CVPR_2022_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Cui_MixFormer_End-to-End_Tracking_With_Iterative_Mixed_Attention_CVPR_2022_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Cui_MixFormer_End-to-End_Tracking_With_Iterative_Mixed_Attention_CVPR_2022_paper.pdf",
+      "bytes": 1363872,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\020_2022_MixFormer__End-to-End_Tracking_With_Iterative_Mixed_Attention.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Cui_MixFormer_End-to-End_Tracking_With_Iterative_Mixed_Attention_CVPR_2022_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2022/papers/Cui_MixFormer_End-to-End_Tracking_With_Iterative_Mixed_Attention_CVPR_2022_paper.pdf",
+  "bytes": 1363872,
+  "sha256": "615348c3c60b2fef5c472d28c358ed94fde8df935f20ada95ad3bb7f277504ca",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "MixFormer: End-to-End Tracking With Iterative Mixed Attention",
+  "first_page_text": "MixFormer: End-to-End Tracking with Iterative Mixed Attention\nYutao Cui\nCheng Jiang\nLimin Wang \u0000Gangshan Wu\nState Key Laboratory for Novel Software Technology, Nanjing University, China\n{cuiyutao,mg1933027}@smail.nju.edu.cn\n{lmwang,gswu}@nju.edu.cn\nAbstract\nTracking often uses a multi-stage pipeline of feature ex-\ntraction, target information integration, and bounding box\nestimation. To simplify this pipeline and unify the process\nof feature extraction and target information integration,\nwe present a compact tracking framework, termed as\nMixFormer, built upon transformers. Our core design is to\nutilize the flexibility of attention operations, and propose a\nMixed Attention Module (MAM) for simultaneous feature\nextraction and target information integration.\nThis syn-\nchronous modeling scheme allows to extract target-specific\ndiscriminative features and perform extensive communi-\ncation between target and search area. Based on MAM,\nwe build our MixFormer tracking framework simply by\nstacking multiple MAMs with progressive patch embedding\nand placing a localization head on top.\nIn addition, to\nhandle multiple target templates during online tracking,\nwe devise an asymmetric attention scheme in MAM to\nreduce computational cost, and propose an effective score\nprediction module to select high-quality templates.\nOur\nMixFormer sets a new state-of-the-art performance on\nfive tracking benchmarks, including LaSOT, TrackingNet,\nVOT2020, GOT-10k, and UAV123.\nIn particular, our\nMixFormer-L achieves NP score of 79.9% on LaSOT,\n88.9% on TrackingNet and EAO of 0.555 on VOT2020. We\nalso perform in-depth ablation studies to demonstrate the\neffectiveness of simultaneous feature extraction and infor-\nmation integration. Code and trained models are publicly\navailable at https://github.com/MCG-NJU/MixFormer.\n1. Introduction\nVisual object tracking [1,4,4,18,24,36,42,45] has been\na fundamental task in computer vision area for decades,\naiming to estimate the state of an arbitrary target in video\nsequences given its initial status. It has been successfully\ndeployed in various applications such as human computer\ninteraction [34] and visual surveillance [54]. However, how\n\u0000 : Corresponding author.\nIntegration \nModule\nClassification\nHead\nTemplate\nSearch\nTemplate\nSearch\nHead\nRegression\nHead\nMixed attention\n Based Backbone\nCNN/Transformer\nBackbone\nCNN/Transformer\nBackbone\n(a) Pipeline of  the current prevailing trackers \n(b) Pipeline of  our proposed MixFormer\nShare   weights\nFigure 1. Comparison of tracking pipeline. (a) The dominant\ntracking framework contains three components: a convolutional\nor transformer backbone, a carefully-designed integration mod-\nule, and task-specific heads. (b) Our MixFormer is more compact\nand composed of two components: a target-search mixed attention\nbased backbone and a simple localization head.\nto design a simple yet effective end-to-end tracker is still\nchallenging in real-world scenarios. The main challenges\nare from aspects of scale variations, object deformations,\nocclusion, and confusion from similar objects.\nCurrent prevailing trackers typically have a multi-stage\npipeline as shown in Fig. 1. It contains several components\nto accomplish the tracking task: (1) a backbone to extract\ngeneric features of tracking target and search area, (2) an\nintegration module to allow information communication be-\ntween tracking target and search area for subsequent target-\naware localization, (3) task-specific heads to precisely lo-\ncalize the target and estimate its bounding box. Integration\nmodule is the key of tracking algorithms as it is responsible\nfor incorporating the target information to bridge the steps\nof generic feature extraction and target-aware localization.\nTraditional integration methods include correlation-based\noperations (e.g. SiamFC [2], SiamRPN [29], CRPN [18],\nSiamFC++ [55], SiamBAN [8], OCEAN [63]) and on-\nline learning algorithms (e.g., DCF [36], KCF [22], CSR-\nDCF [37], ATOM [12], DiMP [3], FCOT [9]).\nRe-\ncently, thanks to its global and dynamic modeling capac-\nity, transformers [46] are introduced to perform attention\nbased integration and yields good tracking performance\n(e.g., TransT [6], TMT [49], STMTrack [19], TREG [10],\nSTARK [56], DTT [58]). However, these transformer based\ntrackers still depend on the CNN for generic feature ex-\ntraction, and only apply attention operations in the latter\nhigh-level and abstract representation space. We analyze\n13608\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

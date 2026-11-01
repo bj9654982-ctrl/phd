@@ -1,0 +1,42 @@
+{
+  "number": 32,
+  "title": "TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild",
+  "year": 2018,
+  "authors": [
+    "Muller",
+    "Matthias and Bibi",
+    "Adel and Giancola",
+    "Silvio and Alsubaihi",
+    "Salman and Ghanem",
+    "Bernard"
+  ],
+  "venue": "ECCV",
+  "category": "数据集与评价设计",
+  "priority": "P2 对照阅读",
+  "original_source": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/html/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.php",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.pdf",
+      "final_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.pdf",
+      "bytes": 1807595,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\032_2018_TrackingNet__A_Large-Scale_Dataset_and_Benchmark_for_Object_Tracking_in_the_Wi.pdf",
+  "download_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.pdf",
+  "requested_url": "https://www.ecva.net/papers/eccv_2018/papers_ECCV/papers/Matthias_Muller_TrackingNet_A_Large-Scale_ECCV_2018_paper.pdf",
+  "bytes": 1807595,
+  "sha256": "e85c0c9489cd59c3e0b7cefe76c03bf15c85aae0ae1f38795820eab5e2b9a55b",
+  "version": "会议官方开放版本",
+  "pages": 18,
+  "pdf_title": "TrackingNet: A Large-Scale Dataset and Benchmark for Object Tracking in the Wild",
+  "first_page_text": "TrackingNet: A Large-Scale Dataset and\nBenchmark for Object Tracking in the Wild ∗\nMatthias M¨uller†, Adel Bibi†, Silvio Giancola†,\nSalman Alsubaihi, and Bernard Ghanem\nKing Abdullah University of Science and Technology, Thuwal, KSA\n{name.surname,matthias.mueller.2}@kaust.edu.sa\nhttp://www.tracking-net.org\nAbstract. Despite the numerous developments in object tracking, fur-\nther improvement of current tracking algorithms is limited by small and\nmostly saturated datasets. As a matter of fact, data-hungry trackers\nbased on deep-learning currently rely on object detection datasets due\nto the scarcity of dedicated large-scale tracking datasets. In this work,\nwe present TrackingNet, the ﬁrst large-scale dataset and benchmark for\nobject tracking in the wild. We provide more than 30K videos with more\nthan 14 million dense bounding box annotations. Our dataset covers a\nwide selection of object classes in broad and diverse context. By releas-\ning such a large-scale dataset, we expect deep trackers to further improve\nand generalize. In addition, we introduce a new benchmark composed of\n500 novel videos, modeled with a distribution similar to our training\ndataset. By sequestering the annotation of the test set and providing an\nonline evaluation server, we provide a fair benchmark for future devel-\nopment of object trackers. Deep trackers ﬁne-tuned on a fraction of our\ndataset improve their performance by up to 1.6% on OTB100 and up\nto 1.7% on TrackingNet Test. We provide an extensive benchmark on\nTrackingNet by evaluating more than 20 trackers. Our results suggest\nthat object tracking in the wild is far from being solved.\nKeywords: Object Tracking, Dataset, Benchmark, Deep Learning\n1\nIntroduction\nObject tracking is a common task in computer vision, with a long history span-\nning decades [50,30,44]. Despite considerable progress in the ﬁeld, object tracking\nremains a challenging task. Current trackers perform well on established datasets\nsuch as OTB [48,49] and VOT [25,26,27,24,22,23] benchmarks. However, most\nof these datasets are fairly small and do not fully represent the challenges faced\nwhen tracking objects in the wild.\n∗This work was supported by the King Abdullah University of Science and Tech-\nnology (KAUST) Oﬃce of Sponsored Research (OSR).\n† denote equal contribution.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,39 @@
+{
+  "number": 69,
+  "title": "Visual Tracking Using Pertinent Patch Selection and Masking",
+  "year": 2014,
+  "authors": [
+    "Dae-Youn Lee",
+    "Jae-Young Sim",
+    "Chang-Su Kim"
+  ],
+  "venue": "CVPR",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Lee_Visual_Tracking_Using_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lee_Visual_Tracking_Using_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lee_Visual_Tracking_Using_2014_CVPR_paper.pdf",
+      "bytes": 4088385,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\069_2014_Visual_Tracking_Using_Pertinent_Patch_Selection_and_Masking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lee_Visual_Tracking_Using_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Lee_Visual_Tracking_Using_2014_CVPR_paper.pdf",
+  "bytes": 4088385,
+  "sha256": "72aa3a5c9bac2d6f5618bd64d55dee9b589a83e4208cfc2e44e0c30a72a1011c",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Visual Tracking Using Pertinent Patch Selection and Masking",
+  "first_page_text": "Visual Tracking Using Pertinent Patch Selection and Masking\nDae-Youn Lee†, Jae-Young Sim‡, and Chang-Su Kim†\n†School of Electrical Engineering, Korea University, Seoul, Korea\n‡School of Electrical and Computer Engineering,\nUlsan National Institute of Science and Technology, Ulsan, Korea\ndaeyounlee@mcl.korea.ac.kr, jysim@unist.ac.kr, changsukim@korea.ac.kr\nAbstract\nA novel visual tracking algorithm using patch-based ap-\npearance models is proposed in this paper. We ﬁrst divide\nthe bounding box of a target object into multiple patches\nand then select only pertinent patches, which occur repeat-\nedly near the center of the bounding box, to construct the\nforeground appearance model. We also divide the input im-\nage into non-overlapping blocks, construct a background\nmodel at each block location, and integrate these back-\nground models for tracking. Using the appearance models,\nwe obtain an accurate foreground probability map. Finally,\nwe estimate the optimal object position by maximizing the\nlikelihood, which is obtained by convolving the foreground\nprobability map with the pertinence mask. Experimental re-\nsults demonstrate that the proposed algorithm outperforms\nstate-of-the-art tracking algorithms signiﬁcantly in terms of\ncenter position errors and success rates.\n1. Introduction\nObject tracking is a fundamental vision tool to facil-\nitate various higher-level applications, including surveil-\nlance, object recognition, event analysis, and intelligent\nrobotics. Even though many attempts have been made to\ndevelop efﬁcient tracking algorithms, it is still challenging\nto detect and trace objects with illumination variations, pose\nchanges, complex motions, and background clutters in a re-\nliable manner. For robust tracking under these adverse con-\nditions, it is essential to design effective appearance models.\nRecently, many appearance models have been pro-\nposed [22, 24], and tracking algorithms can be roughly\ndivided into two categories according to their appearance\nThis work was supported in part by the National Research Foundation\nof Korea (NRF) grant funded by the Ministry of Science, ICT & Future\nPlanning (MSIP) (No. 2009-0083495), in part by the NRF grant funded\nby the Korea government (MSIP) (No. 2012-011031), and in part by Basic\nScience Research Program through the NRF funded by the Ministry of\nEducation (2013R1A1A2011920).\nmodels: bounding box models [3, 4, 7, 9] and patch mod-\nels [5, 11, 12, 14, 16]. A bounding box model uses the entire\nbounding box of a target object to extract object features,\nsuch as color, texture, and motion. It is sensitive to rapid\nand severe changes in structural appearance, which often\noccur in dynamic sequences, e.g. movies and sports videos.\nOn the other hand, a patch model divides the bounding box\ninto multiple smaller patches and extracts features for each\npatch separately. It can address appearance changes in a\ntarget object more ﬂexibly, but it may decrease tracking ac-\ncuracy when some foreground patches are not clearly dis-\ntinguishable from background patches.\nIn this paper, we propose novel appearance models for\nboth foreground and background to achieve reliable and ac-\ncurate tracking. We ﬁrst decompose the bounding box in the\nﬁrst frame into multiple patches and then select only per-\ntinent patches, whose color histograms are frequently ob-\nserved near the center of the bounding box, to construct\nthe foreground appearance model.\nMoreover, we design\nmultiple background appearance models to represent color\nhistograms locally and adaptively. Then, by exploiting the\nforeground and background appearance models, we obtain\nthe foreground probability map. Finally, we determine the\noptimal object position by convolving the foreground prob-\nability map with the pertinence mask, which records the\nlikelihood that each pixel location within the bounding box\nbelongs to the target object. This work has the following\ncontributions:\n1. Pertinent patch selection for an accurate foreground\nappearance model.\n2. Localized multiple background appearance models.\n3. Convolution scheme between the foreground proba-\nbility map and the pertinence mask to suppress back-\nground clutters.\nThe rest of the paper is organized as follows: Section 2\nsummarizes related work. Section 3 overviews the proposed\nalgorithm in the Bayesian framework. Section 4 proposes\n1\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

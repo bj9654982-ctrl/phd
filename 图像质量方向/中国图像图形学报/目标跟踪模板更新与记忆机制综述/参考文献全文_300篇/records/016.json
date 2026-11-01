@@ -1,0 +1,42 @@
+{
+  "number": 16,
+  "title": "Transformer Tracking",
+  "year": 2021,
+  "authors": [
+    "Xin Chen",
+    "Bin Yan",
+    "Jiawen Zhu",
+    "Dong Wang",
+    "Xiaoyun Yang",
+    "Huchuan Lu"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Transformer_Tracking_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Transformer_Tracking_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Transformer_Tracking_CVPR_2021_paper.pdf",
+      "bytes": 1145000,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\016_2021_Transformer_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Transformer_Tracking_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Transformer_Tracking_CVPR_2021_paper.pdf",
+  "bytes": 1145000,
+  "sha256": "97f0447b2f073f728b28d0ce1577fc1910082919fa0efcf72df701f8c1cea463",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Transformer Tracking",
+  "first_page_text": "Transformer Tracking\nXin Chen1 *, Bin Yan1 *, Jiawen Zhu1, Dong Wang1 †, Xiaoyun Yang3 and Huchuan Lu1,2\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2Peng Cheng Laboratory 3Remark AI\n{chenxin3131, yan bin, jiawen}@mail.dlut.edu.cn\nwdice@dlut.edu.cn, xyang@remarkholdings.com, lhchuan@dlut.edu.cn\nAbstract\nCorrelation acts as a critical role in the tracking ﬁeld,\nespecially in recent popular Siamese-based trackers. The\ncorrelation operation is a simple fusion manner to con-\nsider the similarity between the template and the search re-\ngion. However, the correlation operation itself is a local\nlinear matching process, leading to lose semantic informa-\ntion and fall into local optimum easily, which may be the\nbottleneck of designing high-accuracy tracking algorithms.\nIs there any better feature fusion method than correlation?\nTo address this issue, inspired by Transformer, this work\npresents a novel attention-based feature fusion network,\nwhich effectively combines the template and search region\nfeatures solely using attention. Speciﬁcally, the proposed\nmethod includes an ego-context augment module based on\nself-attention and a cross-feature augment module based on\ncross-attention. Finally, we present a Transformer track-\ning (named TransT) method based on the Siamese-like fea-\nture extraction backbone, the designed attention-based fu-\nsion mechanism, and the classiﬁcation and regression head.\nExperiments show that our TransT achieves very promis-\ning results on six challenging datasets, especially on large-\nscale LaSOT, TrackingNet, and GOT-10k benchmarks. Our\ntracker runs at approximatively 50 fps on GPU. Code\nand models are available at https://github.com/chenxin-\ndlut/TransT.\n1. Introduction\nVisual object tracking is a fundamental task in computer\nvision, which aims to predict the position and shape of a\ngiven target in each video frame. It has a wide range of\napplications in robot vision, video surveillance, unmanned\ndriving, and other ﬁelds. The main challenges of tracking\nare large occlusion, severe deformation, interference from\n*Equal contribution\n†Corresponding author: Dr. Dong Wang, wdice@dlut.edu.cn\nSelf-attention\nScreen Shots\nCross-attention\nGround-Truth\nOurs\nOcean-online\nDiMP50\nFigure 1. Tracking results of TransT and two state-of-the-art track-\ners. Our tracker is more robust and accurate in handling various\nchallenges, such as occlusion, similar object interference, motion\nblur.\nsimilar objects, to name a few. Many efforts have been done\nin recent years [23, 28], however, designing a high-accuracy\nand real-time tracker is still a challenging task.\nFor most of the popular trackers (such as SiamFC [1],\nSiamRPN [22], and ATOM [9]), correlation plays a critical\nrole in integrating the template or target information into\nthe regions of interest (ROI). However, the correlation op-\neration itself is a linear matching process and leads to se-\nmantic information loss, which limits the tracker to capture\nthe complicated non-linear interaction between the template\nand ROIs. Thus, previous models have to improve the non-\nlinear representation ability by introducing fashion struc-\ntures [21, 44, 48], using additional modules [7, 46, 13], de-\nsigning effective online updaters [2, 47, 10], to name a few.\nThis naturally introduces an interesting question: is there\n8126\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

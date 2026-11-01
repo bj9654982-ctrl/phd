@@ -1,0 +1,734 @@
+{
+  "number": 21,
+  "original_doi": "10.1007/978-3-031-20047-2_20",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          27
+        ]
+      ],
+      "date-time": "2026-10-27T15:56:48Z",
+      "timestamp": 1793116608534,
+      "version": "4.5.0"
+    },
+    "publisher-location": "Cham",
+    "reference-count": 46,
+    "publisher": "Springer Nature Switzerland",
+    "isbn-type": [
+      {
+        "value": "9783031200465",
+        "type": "print"
+      },
+      {
+        "value": "9783031200472",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-031-20047-2_20",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2022-10-22T06:02:55Z",
+      "timestamp": 1666418575000
+    },
+    "page": "341-357",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 810,
+    "title": [
+      "Joint Feature Learning and Relation Modeling for Tracking: A One-Stream Framework"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Botao",
+        "family": "Ye",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hong",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bingpeng",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shiguang",
+        "family": "Shan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xilin",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          23
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "20_CR1",
+        "series-title": "Lecture Notes in Computer Science",
+        "doi-asserted-by": "publisher",
+        "first-page": "850",
+        "DOI": "10.1007/978-3-319-48881-3_56",
+        "volume-title": "Computer Vision",
+        "author": "L Bertinetto",
+        "year": "2016",
+        "unstructured": "Bertinetto, L., Valmadre, J., Henriques, J.F., Vedaldi, A., Torr, P.H.S.: Fully-convolutional Siamese networks for object tracking. In: Hua, G., Jégou, H. (eds.) ECCV 2016. LNCS, vol. 9914, pp. 850–865. Springer, Cham (2016). https://doi.org/10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "20_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhat, G., Danelljan, M., Gool, L.V., Timofte, R.: Learning discriminative model prediction for tracking. In: ICCV, pp. 6182–6191 (2019)",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "20_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bolme, D.S., Beveridge, J.R., Draper, B.A., Lui, Y.M.: Visual object tracking using adaptive correlation filters. In: CVPR, pp. 2544–2550 (2010)",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "20_CR4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, X., Yan, B., Zhu, J., Wang, D., Yang, X., Lu, H.: Transformer tracking. In: CVPR, pp. 8126–8135 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "20_CR5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dai, K., Zhang, Y., Wang, D., Li, J., Lu, H., Yang, X.: High-performance long-term tracking with meta-updater. In: CVPR, pp. 6298–6307 (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00633"
+      },
+      {
+        "key": "20_CR6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Bhat, G., Khan, F.S., Felsberg, M.: Atom: accurate tracking by overlap maximization. In: CVPR, pp. 4660–4669 (2019)",
+        "DOI": "10.1109/CVPR.2019.00479"
+      },
+      {
+        "key": "20_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danelljan, M., Bhat, G., Shahbaz Khan, F., Felsberg, M.: ECO: efficient convolution operators for tracking. In: CVPR, pp. 6638–6646 (2017)",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "20_CR8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Deng, J., Dong, W., Socher, R., Li, L.J., Li, K., Fei-Fei, L.: ImageNet: a large-scale hierarchical image database. In: CVPR, pp. 248–255 (2009)",
+        "DOI": "10.1109/CVPR.2009.5206848"
+      },
+      {
+        "key": "20_CR9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Devlin, J., Chang, M.W., Lee, K., Toutanova, K.: BERT: pre-training of deep bidirectional transformers for language understanding. In: NAACL, pp. 4171–4186 (2019)",
+        "DOI": "10.18653/v1/N19-1423"
+      },
+      {
+        "key": "20_CR10",
+        "unstructured": "Dosovitskiy, A., et al.: An image is worth 16 x 16 words: transformers for image recognition at scale. In: ICLR (2021)"
+      },
+      {
+        "issue": "2",
+        "key": "20_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "439",
+        "DOI": "10.1007/s11263-020-01387-y",
+        "volume": "129",
+        "author": "H Fan",
+        "year": "2021",
+        "unstructured": "Fan, H., et al.: LaSOT: a high-quality large-scale single object tracking benchmark. IJCV 129(2), 439–461 (2021)",
+        "journal-title": "IJCV"
+      },
+      {
+        "key": "20_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, H., et al.: LaSOT: a high-quality benchmark for large-scale single object tracking. In: CVPR, pp. 5374–5383 (2019)",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "key": "20_CR13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fu, Z., Liu, Q., Fu, Z., Wang, Y.: STMTrack: template-free visual tracking with space-time memory networks. In: CVPR, pp. 13774–13783 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.01356"
+      },
+      {
+        "key": "20_CR14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Chen, X., Xie, S., Li, Y., Dollár, P., Girshick, R.: Masked autoencoders are scalable vision learners. arXiv preprint arXiv:2111.06377 (2021)",
+        "DOI": "10.1109/CVPR52688.2022.01553"
+      },
+      {
+        "key": "20_CR15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: CVPR, pp. 770–778 (2016)",
+        "DOI": "10.1109/CVPR.2016.90"
+      },
+      {
+        "issue": "3",
+        "key": "20_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "583",
+        "DOI": "10.1109/TPAMI.2014.2345390",
+        "volume": "37",
+        "author": "JF Henriques",
+        "year": "2014",
+        "unstructured": "Henriques, J.F., Caseiro, R., Martins, P., Batista, J.: High-speed tracking with kernelized correlation filters. TPAMI 37(3), 583–596 (2014)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "issue": "5",
+        "key": "20_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "1562",
+        "DOI": "10.1109/TPAMI.2019.2957464",
+        "volume": "43",
+        "author": "L Huang",
+        "year": "2019",
+        "unstructured": "Huang, L., Zhao, X., Huang, K.: Got-10k: a large high-diversity benchmark for generic object tracking in the wild. TPAMI 43(5), 1562–1577 (2019)",
+        "journal-title": "TPAMI"
+      },
+      {
+        "key": "20_CR18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jung, I., Son, J., Baek, M., Han, B.: Real-time mdnet. In: ECCV, pp. 83–98 (2018)",
+        "DOI": "10.1007/978-3-030-01225-0_6"
+      },
+      {
+        "key": "20_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kiani Galoogahi, H., Fagg, A., Huang, C., Ramanan, D., Lucey, S.: Need for speed: a benchmark for higher frame rate object tracking. In: ICCV, pp. 1125–1134 (2017)",
+        "DOI": "10.1109/ICCV.2017.128"
+      },
+      {
+        "key": "20_CR20",
+        "unstructured": "Krizhevsky, A., Sutskever, I., Hinton, G.E.: ImageNet classification with deep convolutional neural networks. In: NeurIPS, vol. 25 (2012)"
+      },
+      {
+        "key": "20_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Law, H., Deng, J.: CornerNet: Detecting objects as paired keypoints. In: ECCV, pp. 734–750 (2018)",
+        "DOI": "10.1007/978-3-030-01264-9_45"
+      },
+      {
+        "key": "20_CR22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Wu, W., Wang, Q., Zhang, F., Xing, J., Yan, J.: SiamRPN++: evolution of Siamese visual tracking with very deep networks. In: CVPR, pp. 4282–4291 (2019)",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "20_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, B., Yan, J., Wu, W., Zhu, Z., Hu, X.: High performance visual tracking with Siamese region proposal network. In: CVPR, pp. 8971–8980 (2018)",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "20_CR24",
+        "unstructured": "Liang, Y., GE, C., Tong, Z., Song, Y., Wang, J., Xie, P.: EViT: expediting vision transformers via token reorganizations. In: ICLR (2022)"
+      },
+      {
+        "key": "20_CR25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, L., Fan, H., Xu, Y., Ling, H.: SwinTrack: a simple and strong baseline for transformer tracking. arXiv preprint arXiv:2112.00995 (2021)",
+        "DOI": "10.52202/068431-1218"
+      },
+      {
+        "key": "20_CR26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, T.Y., et al.: Microsoft coco: common objects in context. In: ECCV, pp. 740–755 (2014)",
+        "DOI": "10.1007/978-3-319-10602-1_48"
+      },
+      {
+        "key": "20_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Z., et al.: Swin transformer: hierarchical vision transformer using shifted windows. In: ICCV, pp. 10012–10022 (2021)",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "20_CR28",
+        "unstructured": "Loshchilov, I., Hutter, F.: Decoupled weight decay regularization. In: ICLR (2018)"
+      },
+      {
+        "key": "20_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mayer, C., Danelljan, M., Paudel, D.P., Van Gool, L.: Learning target candidate association to keep track of what not to track. In: ICCV, pp. 13444–13454 (2021)",
+        "DOI": "10.1109/ICCV48922.2021.01319"
+      },
+      {
+        "key": "20_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mueller, M., Smith, N., Ghanem, B.: A benchmark and simulator for UAV tracking. In: ECCV, pp. 445–461 (2016)",
+        "DOI": "10.1007/978-3-319-46448-0_27"
+      },
+      {
+        "key": "20_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muller, M., Bibi, A., Giancola, S., Alsubaihi, S., Ghanem, B.: TrackingNet: a large-scale dataset and benchmark for object tracking in the wild. In: ECCV, pp. 300–317 (2018)",
+        "DOI": "10.1007/978-3-030-01246-5_19"
+      },
+      {
+        "key": "20_CR32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nam, H., Han, B.: Learning multi-domain convolutional neural networks for visual tracking. In: CVPR, pp. 4293–4302 (2016)",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "20_CR33",
+        "unstructured": "Rao, Y., Zhao, W., Liu, B., Lu, J., Zhou, J., Hsieh, C.J.: DynamicViT: efficient vision transformers with dynamic token sparsification. In: NeurIPS, vol. 34 (2021)"
+      },
+      {
+        "key": "20_CR34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rezatofighi, H., Tsoi, N., Gwak, J., Sadeghian, A., Reid, I., Savarese, S.: Generalized intersection over union: a metric and a loss for bounding box regression. In: CVPR, pp. 658–666 (2019)",
+        "DOI": "10.1109/CVPR.2019.00075"
+      },
+      {
+        "key": "20_CR35",
+        "unstructured": "Ridnik, T., Ben-Baruch, E., Noy, A., Zelnik-Manor, L.: ImageNet-21k pretraining for the masses. arXiv preprint arXiv:2104.10972 (2021)"
+      },
+      {
+        "key": "20_CR36",
+        "unstructured": "Steiner, A., Kolesnikov, A., Zhai, X., Wightman, R., Uszkoreit, J., Beyer, L.: How to train your ViT? data, augmentation, and regularization in vision transformers. arXiv preprint arXiv:2106.10270 (2021)"
+      },
+      {
+        "key": "20_CR37",
+        "unstructured": "Touvron, H., Cord, M., Douze, M., Massa, F., Sablayrolles, A., Jégou, H.: Training data-efficient image transformers & distillation through attention. In: ICML, pp. 10347–10357 (2021)"
+      },
+      {
+        "key": "20_CR38",
+        "unstructured": "Vaswani, A., et al.: Attention is all you need. In: NeurIPS, pp. 5998–6008 (2017)"
+      },
+      {
+        "key": "20_CR39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Voigtlaender, P., Luiten, J., Torr, P.H., Leibe, B.: Siam R-CNN: visual tracking by re-detection. In: CVPR, pp. 6578–6588 (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00661"
+      },
+      {
+        "key": "20_CR40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, G., Luo, C., Sun, X., Xiong, Z., Zeng, W.: Tracking by instance detection: a meta-learning approach. In: CVPR, pp. 6288–6297 (2020)",
+        "DOI": "10.1109/CVPR42600.2020.00632"
+      },
+      {
+        "key": "20_CR41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, N., Zhou, W., Wang, J., Li, H.: Transformer meets tracker: exploiting temporal context for robust visual tracking. In: CVPR, pp. 1571–1580 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "20_CR42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, X., et al.: Towards more flexible and accurate object tracking with natural language: algorithms and benchmark. In: CVPR, pp. 13763–13773 (2021)",
+        "DOI": "10.1109/CVPR46437.2021.01355"
+      },
+      {
+        "key": "20_CR43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yan, B., Peng, H., Fu, J., Wang, D., Lu, H.: Learning Spatio-temporal transformer for visual tracking. In: ICCV, pp. 10448–10457 (2021)",
+        "DOI": "10.1109/ICCV48922.2021.01028"
+      },
+      {
+        "key": "20_CR44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yin, H., Vahdat, A., Alvarez, J., Mallya, A., Kautz, J., Molchanov, P.: AdaViT: adaptive tokens for efficient vision transformer. arXiv preprint arXiv:2112.07658 (2021)",
+        "DOI": "10.1109/CVPR52688.2022.01054"
+      },
+      {
+        "key": "20_CR45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Liu, Y., Wang, X., Li, B., Hu, W.: Learn to match: automatic matching network design for visual tracking. In: ICCV, pp. 13339–13348 (2021)",
+        "DOI": "10.1109/ICCV48922.2021.01309"
+      },
+      {
+        "key": "20_CR46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, Z., Peng, H., Fu, J., Li, B., Hu, W.: Ocean: object-aware anchor-free tracking. In: ECCV, pp. 771–787 (2020)",
+        "DOI": "10.1007/978-3-030-58589-1_46"
+      }
+    ],
+    "container-title": [
+      "Lecture Notes in Computer Science",
+      "Computer Vision – ECCV 2022"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-20047-2_20",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T00:27:37Z",
+      "timestamp": 1792628857000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://link.springer.com/chapter/10.1007/978-3-031-20047-2_20"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "ISBN": [
+      "9783031200465",
+      "9783031200472"
+    ],
+    "references-count": 46,
+    "URL": "https://doi.org/10.1007/978-3-031-20047-2_20",
+    "relation": {},
+    "ISSN": [
+      "0302-9743",
+      "1611-3349"
+    ],
+    "issn-type": [
+      {
+        "value": "0302-9743",
+        "type": "print"
+      },
+      {
+        "value": "1611-3349",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "23 October 2022",
+        "order": 1,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ChapterHistory",
+          "label": "Chapter History"
+        }
+      },
+      {
+        "value": "ECCV",
+        "order": 1,
+        "name": "conference_acronym",
+        "label": "Conference Acronym",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "European Conference on Computer Vision",
+        "order": 2,
+        "name": "conference_name",
+        "label": "Conference Name",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Tel Aviv",
+        "order": 3,
+        "name": "conference_city",
+        "label": "Conference City",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Israel",
+        "order": 4,
+        "name": "conference_country",
+        "label": "Conference Country",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "2022",
+        "order": 5,
+        "name": "conference_year",
+        "label": "Conference Year",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "23 October 2022",
+        "order": 7,
+        "name": "conference_start_date",
+        "label": "Conference Start Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "27 October 2022",
+        "order": 8,
+        "name": "conference_end_date",
+        "label": "Conference End Date",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "17",
+        "order": 9,
+        "name": "conference_number",
+        "label": "Conference Number",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "eccv2022",
+        "order": 10,
+        "name": "conference_id",
+        "label": "Conference ID",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "https://eccv2022.ecva.net/",
+        "order": 11,
+        "name": "conference_url",
+        "label": "Conference URL",
+        "group": {
+          "name": "ConferenceInfo",
+          "label": "Conference Information"
+        }
+      },
+      {
+        "value": "Double-blind",
+        "order": 1,
+        "name": "type",
+        "label": "Type",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "CMT",
+        "order": 2,
+        "name": "conference_management_system",
+        "label": "Conference Management System",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "5804",
+        "order": 3,
+        "name": "number_of_submissions_sent_for_review",
+        "label": "Number of Submissions Sent for Review",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "1645",
+        "order": 4,
+        "name": "number_of_full_papers_accepted",
+        "label": "Number of Full Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "0",
+        "order": 5,
+        "name": "number_of_short_papers_accepted",
+        "label": "Number of Short Papers Accepted",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "28% - The value is computed by the equation \"Number of Full Papers Accepted / Number of Submissions Sent for Review * 100\" and then rounded to a whole number.",
+        "order": 6,
+        "name": "acceptance_rate_of_full_papers",
+        "label": "Acceptance Rate of Full Papers",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.21",
+        "order": 7,
+        "name": "average_number_of_reviews_per_paper",
+        "label": "Average Number of Reviews per Paper",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "3.91",
+        "order": 8,
+        "name": "average_number_of_papers_per_reviewer",
+        "label": "Average Number of Papers per Reviewer",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "Yes",
+        "order": 9,
+        "name": "external_reviewers_involved",
+        "label": "External Reviewers Involved",
+        "group": {
+          "name": "ConfEventPeerReviewInformation",
+          "label": "Peer Review Information (provided by the conference organizers)"
+        }
+      },
+      {
+        "value": "This content has been made available to all.",
+        "name": "free",
+        "label": "Free to read"
+      }
+    ]
+  }
+}

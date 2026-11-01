@@ -1,0 +1,42 @@
+{
+  "number": 242,
+  "title": "Learning to Track Instance from Single Nature Language Description",
+  "year": 2026,
+  "authors": [
+    "Yaozong Zheng",
+    "Bineng Zhong",
+    "Qihua Liang",
+    "Shuimu Zeng",
+    "Haiying Xia",
+    "Shuxiang Song"
+  ],
+  "venue": "CVPR",
+  "category": "语言条件与语义更新",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2026/html/Zheng_Learning_to_Track_Instance_from_Single_Nature_Language_Description_CVPR_2026_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Learning_to_Track_Instance_from_Single_Nature_Language_Description_CVPR_2026_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Learning_to_Track_Instance_from_Single_Nature_Language_Description_CVPR_2026_paper.pdf",
+      "bytes": 2365115,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\242_2026_Learning_to_Track_Instance_from_Single_Nature_Language_Description.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Learning_to_Track_Instance_from_Single_Nature_Language_Description_CVPR_2026_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2026/papers/Zheng_Learning_to_Track_Instance_from_Single_Nature_Language_Description_CVPR_2026_paper.pdf",
+  "bytes": 2365115,
+  "sha256": "5638bf49a59b406c0f895327881d01fddbcb6114ebf235296f69f0706f684dfc",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning to Track Instance from Single Nature Language Description",
+  "first_page_text": "Learning to Track Instance from Single Nature Language Description\nYaozong Zheng1,2, Bineng Zhong1,2*, Qihua Liang1,2∗, Shuimu Zeng3, Haiying Xia1,2, Shuxiang Song1,2\n1Key Laboratory of Education Blockchain and Intelligent Technology, Ministry of Education\nGuangxi Normal University, Guilin 541004, China\n2University Engineering Research Center of Educational Intelligent Technology\nGuangxi Normal University, Guilin 541004, China\n3University of Southampton, Southampton, SO17 1BJ, United Kingdom\nyaozongzheng@stu.gxnu.edu.cn, bnzhong@gxnu.edu.cn,qhliang@gxnu.edu.cn\nAbstract\nHow to achieve vision-language (VL) tracking using natu-\nral language descriptions from a video sequence without\nrelying on any bounding-box ground truth? In this work,\nwe achieve this goal by tackling self-supervised VL track-\ning, which aims to evaluate tracking capabilities guided by\nnatural language descriptions. We introduce SVLTrack, a\nnovel self-supervised VL tracker that is capable of track-\ning any referred object by a language description. Unlike\ntraditional methods that equally fuse all language and vi-\nsual tokens, we propose an efficient Dynamic Token Aggre-\ngation Module, which treats each visual token unequally.\nThe module consists of three main steps: i) Based on an\nanchor token, it selects multiple important target tokens\nfrom the template frame. ii) The selected target tokens are\nmerged according to their attention scores and aggregated\ninto the language tokens, thereby eliminating redundant vi-\nsual token noise and enhancing semantic alignment. iii)\nFinally, the fused language tokens serve as guiding signals\nto extract potential target tokens from the search frame and\npropagate them to subsequent frames, enhancing temporal\nprompts and encouraging the tracker to autonomously learn\ninstance tracking from unlabeled videos. This new modeling\napproach enables the effective self-supervised learning of\nlanguage-guided tracking representations without the need\nfor large-scale bounding box annotations. Extensive exper-\niments on VL tracking benchmarks show that SVLTrack sur-\npasses SOTA self-supervised methods.\n1. Introduction\nVisual object tracking relies on explicit visual prompt, such\nas initial bounding box, to identify and track target objects\nin video sequences. Compared to specifying object bound-\n*Corresponding author.\nSVLTrack\nwhite boat floating \non the river\nFigure 1. Natural language descriptions can refer to any visual ob-\nject within a video sequence and continuously track it. Inspired by\nthis idea, we propose SVLTrack, which relies solely on a natural\nlanguage description for object tracking.\nTracking Tasks\nTrain Annotations\nTest Initialization\nMulti-Boxes\nLanguage\nInit-Box\nLanguage\nFully-supervised V\n✓\n✓\nFully-supervised VL\n✓\n✓\n✓\n✓\nSelf-supervised VL\n✓\n✓\nTable 1. Comparison with different tracking tasks. V stands for the\nvision-only tracking task, while VL represents the vision-language\ntracking task.\ning boxes, natural language descriptions provide a more in-\ntuitive and cost-effective way to express human intent in the\nreal world [17]. Therefore, exploring language-guided vi-\nsual tracking presents an opportunity to enhance the human-\ncomputer interaction capabilities of next-generation vision-\nlanguage (VL) tracking models.\nTo achieve this challenging goal, recent studies [22, 25,\n43, 47] have developed robust VL tracking models by in-\ntroducing natural language descriptions. Typically, these\nmethods fine-tune the multi-modal fusion operations under\nthe supervision of bounding box annotations to ensure sta-\nble multi-modal tracking performance. For example, the\nfully supervised JointNLT [47] introduces a multi-source\nrelation modeling module and performs vision-language fu-\nsion and training on the LaSOT [6], TNL2K [31], and\nOTB99 [17] datasets, which contain 3.52M, 1.24M, and\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n20922\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

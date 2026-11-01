@@ -1,0 +1,39 @@
+{
+  "number": 30,
+  "title": "Object tracking benchmark",
+  "year": 2015,
+  "authors": [
+    "Wu Y",
+    "Lim J",
+    "Yang M H"
+  ],
+  "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+  "category": "数据集与评价设计",
+  "priority": "P3 背景与边界",
+  "original_source": "https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf",
+  "doi": "10.1109/TPAMI.2014.2388226",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf",
+      "final_url": "https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf",
+      "bytes": 2085462,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\030_2015_Object_tracking_benchmark.pdf",
+  "download_url": "https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf",
+  "requested_url": "https://faculty.ucmerced.edu/mhyang/papers/pami15_tracking_benchmark.pdf",
+  "bytes": 2085462,
+  "sha256": "497e8e8afce5f6ded340861d985e469223c19dee115bb6f95ed5985ba19b6633",
+  "version": "作者或机构公开稿；待人工确认版本",
+  "pages": 15,
+  "pdf_title": "untitled",
+  "first_page_text": "Object Tracking Benchmark\nYi Wu, Member, IEEE, Jongwoo Lim, Member, IEEE, and Ming-Hsuan Yang, Senior Member, IEEE\nAbstract—Object tracking has been one of the most important and active research areas in the ﬁeld of computer vision. A large\nnumber of tracking algorithms have been proposed in recent years with demonstrated success. However, the set of sequences used\nfor evaluation is often not sufﬁcient or is sometimes biased for certain types of algorithms. Many datasets do not have common\nground-truth object positions or extents, and this makes comparisons among the reported quantitative results difﬁcult. In addition, the\ninitial conditions or parameters of the evaluated tracking algorithms are not the same, and thus, the quantitative results reported in\nliterature are incomparable or sometimes contradictory. To address these issues, we carry out an extensive evaluation of the\nstate-of-the-art online object-tracking algorithms with various evaluation criteria to understand how these methods perform within the\nsame framework. In this work, we ﬁrst construct a large dataset with ground-truth object positions and extents for tracking and\nintroduce the sequence attributes for the performance analysis. Second, we integrate most of the publicly available trackers into one\ncode library with uniform input and output formats to facilitate large-scale performance evaluation. Third, we extensively evaluate the\nperformance of 31 algorithms on 100 sequences with different initialization settings. By analyzing the quantitative results, we identify\neffective approaches for robust tracking and provide potential future research directions in this ﬁeld.\nIndex Terms—Object tracking, benchmark dataset, performance evaluation\nÇ\n1\nINTRODUCTION\nO\nBJECT tracking is one of the most important problems in\nthe ﬁeld of computer vision with applications ranging\nfrom surveillance and human-computer interactions to\nmedical imaging [13], [89]. Given the initial state (e.g., posi-\ntion and extent) of a target object in the ﬁrst image, the goal\nof tracking is to estimate the states of the target in the subse-\nquent frames. Although object tracking has been studied for\nseveral decades and considerable progress has been made\nin recent years [5], [17], [32], [35], [36], [54], [65], it remains a\nchallenging problem. Numerous factors affect the perfor-\nmance of a tracking algorithm, including illumination varia-\ntion, occlusion, and background clutters, and there exists no\nsingle approach that successfully handles all scenarios.\nTherefore, it is crucial to thoroughly evaluate the state-of-\nthe-art tracking algorithms to demonstrate their strength\nand weakness, thereby identifying future research direc-\ntions in this ﬁeld for more robust algorithms.\nFor a comprehensive performance evaluation, it is critical\nto collect a representative dataset. There exist several data-\nsets for object tracking in surveillance scenarios, such as the\nVIVID [14], CAVIAR [24], and PETS [23] databases. How-\never, in these surveillance sequences, the target objects are\nusually humans or small cars and the background is usually\nstatic. For generic scenes with various types of tracking tar-\ngets, many of the available sequences do not provide the\nground-truth target locations except a few datasets [5], [43],\n[65]. The reported tracking results on these unlabeled data-\nsets are not directly comparable since different ground-\ntruth annotations are used.\nRecently, signiﬁcant efforts have been made to make\ntracking code available for evaluation, e.g., OAB [27], IVT\n[65], MIL [5], L1 [53], and TLD [39] algorithms. These track-\ning algorithms accommodate different input formats (e.g.,\navi videos or raw image sequences) and motion models\n(e.g., 2D translation, similarity or afﬁne transforms) with\nvarious output formats (e.g., position or extent). Therefore,\nto evaluate the performance of these algorithms on a large\nnumber of image sequences, it is necessary to integrate\nthem in a library for evaluation on a common platform. In\nthis work, we integrate most of the publicly available track-\ners in a code library with uniform input and output formats\nfor a performance evaluation. In addition, we provide a\nlarge benchmark dataset with ground-truth annotations\nand attributes (e.g., occlusion, fast motion, or illumination\nvariation) such that the performance of the evaluated track-\ning algorithms can be better analyzed.\nOne common issue in assessing tracking algorithms is\nthat the reported results are often based on a few sequences\nwith different initializations or parameters. Inaccurate local-\nization of the target occurs frequently as an object detector\nmay be used for locating the object in the ﬁrst frame. In\naddition, an object detector may be used to recover from\ntracking failures by re-initializing the tracker. For a fair and\ncomprehensive evaluation, we propose to perturb the initial\nobject states spatially and temporally on the basis of the\nground-truth target locations. With this evaluation method-\nology, the sensitivity of a tracking algorithm to initialization\n(i.e., robustness) can be better analyzed. While the robust-\nness to initialization is a known problem in other ﬁelds, it\nhas not been well addressed in the literature of object\n\u0001\nY. Wu is with the Department of Computer Science, Nanjing University of\nInformation Science and Technology, Nanjing, Nanjing, China.\nE-mail: ywu.china@gmail.com.\n\u0001\nJ. Lim is with the Department of Computer Science and Engineering,\nHanyang University, Seoul, Seoul, Republic of Korea.\nE-mail: jlim@hanyang.ac.kr.\n\u0001\nM.-H. Yang is with Department of Electrical Engineering and Computer\nScience, University of California at Merced, Merced, CA 95344.\nE-mail: mhyang@ucmerced.edu.\nManuscript received 18 May 2014; revised 26 Sept. 2014; accepted 10 Oct.\n2014. Date of publication 31 Dec. 2014; date of current version 7 Aug. 2015.\nRecommended for acceptance by K.M. Lee.\nFor information on obtaining reprints of this article, please send e-mail to:\nreprints@ieee.org, and reference the Digital Object Identiﬁer below.\nDigital Object Identiﬁer no. 10.1109/TPAMI.2014.2388226\n1834\nIEEE TRANSACTIONS ON PATTERN ANALYSIS AND MACHINE INTELLIGENCE,\nVOL. 37,\nNO. 9,\nSEPTEMBER 2015\n0162-8828 \u0001 2014 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission.\nSee http://www.ieee.org/publications_standards/publications/rights/index.html for more information.\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

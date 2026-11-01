@@ -1,0 +1,42 @@
+{
+  "number": 96,
+  "title": "Attentional Correlation Filter Network for Adaptive Visual Tracking",
+  "year": 2017,
+  "authors": [
+    "Jongwon Choi",
+    "Hyung Jin Chang",
+    "Sangdoo Yun",
+    "Tobias Fischer",
+    "Yiannis Demiris",
+    "Jin Young Choi"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.pdf",
+      "bytes": 2093671,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\096_2017_Attentional_Correlation_Filter_Network_for_Adaptive_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Choi_Attentional_Correlation_Filter_CVPR_2017_paper.pdf",
+  "bytes": 2093671,
+  "sha256": "1a6e0382357e78bcc6774baccb05a4d62dc5b225d1ed9a47966194734c015357",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Attentional Correlation Filter Network for Adaptive Visual Tracking",
+  "first_page_text": "Attentional Correlation Filter Network for Adaptive Visual Tracking\nJongwon Choi1\nHyung Jin Chang2\nSangdoo Yun1\nTobias Fischer2\nYiannis Demiris2\nJin Young Choi1\n1ASRI, Dept. of Electrical and Computer Eng., Seoul National University, South Korea\n2Personal Robotics Laboratory, Department of Electrical and Electronic Engineering\nImperial College London, United Kingdom\njwchoi.pil@gmail.com {hj.chang,t.fischer,y.demiris}@imperial.ac.uk {yunsd101,jychoi}@snu.ac.kr\nAbstract\nWe propose a new tracking framework with an attentional\nmechanism that chooses a subset of the associated corre-\nlation ﬁlters for increased robustness and computational\nefﬁciency. The subset of ﬁlters is adaptively selected by a\ndeep attentional network according to the dynamic proper-\nties of the tracking target. Our contributions are manifold,\nand are summarised as follows: (i) Introducing the Atten-\ntional Correlation Filter Network which allows adaptive\ntracking of dynamic targets. (ii) Utilising an attentional net-\nwork which shifts the attention to the best candidate modules,\nas well as predicting the estimated accuracy of currently in-\nactive modules. (iii) Enlarging the variety of correlation\nﬁlters which cover target drift, blurriness, occlusion, scale\nchanges, and ﬂexible aspect ratio. (iv) Validating the robust-\nness and efﬁciency of the attentional mechanism for visual\ntracking through a number of experiments. Our method\nachieves similar performance to non real-time trackers, and\nstate-of-the-art performance amongst real-time trackers.\n1. Introduction\nHumans rely on various cues when observing and tracking\nobjects, and the selection of attentional cues highly depends\non knowledge-based expectation according to the dynamics\nof the current scene [13,14,28]. Similarly, in order to infer\nthe accurate location of the target object, a tracker needs\nto take changes of several appearance (illumination change,\nblurriness, occlusion) and dynamic (expanding, shrinking,\naspect ratio change) properties into account. Although visual\ntracking research has achieved remarkable advances in the\npast decades [21–23,32,38–40], and thanks to deep learning\nespecially in the recent years [6,8,29,35,36,41], most meth-\nods employ only a subset of these properties, or are too slow\nto perform in real-time.\nThe deep learning based approaches can be divided into\ntwo large groups. Firstly, online deep learning based track-\nColor\nHOG\nColour\nHOG\nColour\nHOG\nColour\nHOG\nColour\nHOG\nColour\nHOG\nColour\nHOG\nShape-deformed Target\nShrinking Target\nFigure 1.\nAttentional Mechanism for Visual Tracking. The\ntracking results of the proposed framework (red) are shown along\nwith the ground truth (cyan). The circles represent the attention at\nthat time, where one region represents one tracking module. When\nthe target shrinks as in the ﬁrst row, the attention is on modules\nwith scale-down changes in the left-top region of the circles. If\nthe target suffers from shape deformation as in the second row,\nmodules with colour features are chosen because they are robust to\nshape deformation.\ners [29,33,35,36,41] which require frequent ﬁne-tuning of\nthe network to learn the appearance of the target. These ap-\nproaches show high robustness and accuracy, but are too slow\nto be applied in real-world settings. Secondly, correlation\nﬁlter based trackers [6,8,26,30] utilising deep convolutional\nfeatures have also shown state-of-the-art performance. Each\ncorrelation ﬁlter distinguishes the target from nearby outliers\nin the Fourier domain, which leads to high robustness even\nwith small computational time. However, in order to cover\nmore features and dynamics, more diverse correlation ﬁlters\nneed to be added, which slows the overall tracker.\nAs previous deep-learning based trackers focus on the\nchanges in the appearance properties of the target, only lim-\nited dynamic properties can be considered. Furthermore,\nupdating the entire network for online deep learning based\ntrackers is computationally demanding, although the deep\nnetwork is only sparsely activated at any time [29,33,35,36,\n4807\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,40 @@
+{
+  "number": 29,
+  "title": "Learning Target Candidate Association To Keep Track of What Not To Track",
+  "year": 2021,
+  "authors": [
+    "Christoph Mayer",
+    "Martin Danelljan",
+    "Danda Pani Paudel",
+    "Luc Van Gool"
+  ],
+  "venue": "ICCV",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/ICCV2021/html/Mayer_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_ICCV_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Mayer_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_ICCV_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Mayer_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_ICCV_2021_paper.pdf",
+      "bytes": 5418163,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\029_2021_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_To_Track.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Mayer_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_ICCV_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/ICCV2021/papers/Mayer_Learning_Target_Candidate_Association_To_Keep_Track_of_What_Not_ICCV_2021_paper.pdf",
+  "bytes": 5418163,
+  "sha256": "462721fb7e67dd68e8e4a3ddb3fa33190351690ea66ff39b44a44ff5015cdbbe",
+  "version": "会议官方开放版本",
+  "pages": 11,
+  "pdf_title": "Learning Target Candidate Association To Keep Track of What Not To Track",
+  "first_page_text": "Learning Target Candidate Association to Keep Track of What Not to Track\nChristoph Mayer\nMartin Danelljan\nDanda Pani Paudel\nLuc Van Gool\nComputer Vision Lab, D-ITET, ETH Z¨urich, Switzerland\nAbstract\nThe presence of objects that are confusingly similar\nto the tracked target, poses a fundamental challenge in\nappearance-based visual tracking. Such distractor objects\nare easily misclassified as the target itself, leading to even-\ntual tracking failure. While most methods strive to suppress\ndistractors through more powerful appearance models, we\ntake an alternative approach.\nWe propose to keep track of distractor objects in or-\nder to continue tracking the target. To this end, we intro-\nduce a learned association network, allowing us to prop-\nagate the identities of all target candidates from frame-\nto-frame.\nTo tackle the problem of lacking ground-\ntruth correspondences between distractor objects in vi-\nsual tracking, we propose a training strategy that com-\nbines partial annotations with self-supervision.\nWe con-\nduct comprehensive experimental validation and anal-\nysis of our approach on several challenging datasets.\nOur tracker sets a new state-of-the-art on six bench-\nmarks, achieving an AUC score of 67.1% on LaSOT [21]\nand a +5.8% absolute gain on the OxUvA long-term\ndataset [41]. The code and trained models are available at\nhttps://github.com/visionml/pytracking\n1. Introduction\nGeneric visual object tracking is one of the fundamen-\ntal problems in computer vision. The task involves esti-\nmating the state of the target object in every frame of a\nvideo sequence, given only the initial target location. Most\nprior research has been devoted to the development of ro-\nbust appearance models, used for locating the target object\nin each frame. The two currently dominating paradigms\nare Siamese networks [2, 35, 34] and discriminative appear-\nance modules [3, 13]. While the former employs a template\nmatching in a learned feature space, the latter constructs\nan appearance model through a discriminative learning for-\nmulation. Although these approaches have demonstrated\npromising performance in recent years, they are effectively\nlimited by the quality and discriminative power of the ap-\npearance model.\n0.75\n0.43\n0.27\n0.26\n0.39\n0.23\n0.35 0.330.40\nTarget \nCandidate \nAssociation  \nNetwork\nTarget Object\nTarget Candidate\nDistractor Object\nCurrent Frame\nPrevious Frame\nFigure 1. Visualization of the proposed target candidate associa-\ntion network used for tracking. For each target candidate ( ) we\nextract a set of features such as score, position and appearance in\norder to associate candidates across frames. The proposed target\nassociation network then allows to associate these candidates ( )\nwith the detected distractors ( ) and the target object ( ) of the\nprevious frame. Lines connecting circles represent associations.\nAs one of the most challenging factors, co-occurrence\nof distractor objects similar in appearance to the target is\na common problem in real-world tracking applications [4,\n56, 46]. Appearance-based models struggle to identify the\nsought target in such cases, often leading to tracking failure.\nMoreover, the target object may undergo a drastic appear-\nance change over time, further complicating the discrimi-\nnation between target and distractor objects. In certain sce-\nnarios, e.g., as visualized in Fig. 1, it is even virtually im-\npossible to unambiguously identify the target solely based\non appearance information. Such circumstances can only\nbe addressed by leveraging other cues during tracking, for\ninstance the spatial relations between objects. We therefore\nset out to address problematic distractors by exploring such\nalternative cues.\nWe propose to actively keep track of distractor objects\nin order to ensure more robust target identification.\nTo\nthis end, we introduce a target candidate association net-\nwork, that matches distractor objects as well as the target\nacross frames. Our approach consists of a base appearance\ntracker, from which we extract target candidates in each\nframe. Each candidate is encoded with a set of distinctive\nfeatures, consisting of the target classifier score, location,\nand appearance. The encodings of all candidates are jointly\n13444\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

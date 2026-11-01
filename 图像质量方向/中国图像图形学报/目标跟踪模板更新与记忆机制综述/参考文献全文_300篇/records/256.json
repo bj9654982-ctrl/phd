@@ -1,0 +1,40 @@
+{
+  "number": 256,
+  "title": "Cooling-Shrinking Attack: Blinding the Tracker With Imperceptible Noises",
+  "year": 2020,
+  "authors": [
+    "Bin Yan",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Xiaoyun Yang"
+  ],
+  "venue": "CVPR",
+  "category": "对抗扰动与可靠性诊断",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.pdf",
+      "bytes": 3256291,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\256_2020_Cooling-Shrinking_Attack__Blinding_the_Tracker_With_Imperceptible_Noises.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yan_Cooling-Shrinking_Attack_Blinding_the_Tracker_With_Imperceptible_Noises_CVPR_2020_paper.pdf",
+  "bytes": 3256291,
+  "sha256": "df4d97faad8968a70252051a7d8bd2b9e7ebfc6a5e7895cd6ad595d8e72c2d70",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Cooling-Shrinking Attack: Blinding the Tracker With Imperceptible Noises",
+  "first_page_text": "Cooling-Shrinking Attack: Blinding the Tracker with Imperceptible Noises\nBin Yan1, Dong Wang1∗, Huchuan Lu1,2 and Xiaoyun Yang3\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2Peng Cheng Laboratory\n3China Science IntelliCloud Technology Co., Ltd.,\nyan bin@mail.dlut.edu.cn, {wdice, lhchuan}@dlut.edu.cn, xiaoyun.yang@intellicloud.ai\nAbstract\nAdversarial attack of CNN aims at deceiving models to\nmisbehave by adding imperceptible perturbations to im-\nages. This feature facilitates to understand neural networks\ndeeply and to improve the robustness of deep learning mod-\nels. Although several works have focused on attacking im-\nage classiﬁers and object detectors, an effective and ef-\nﬁcient method for attacking single object trackers of any\ntarget in a model-free way remains lacking.\nIn this pa-\nper, a cooling-shrinking attack method is proposed to de-\nceive state-of-the-art SiameseRPN-based trackers. An ef-\nfective and efﬁcient perturbation generator is trained with\na carefully designed adversarial loss, which can simulta-\nneously cool hot regions where the target exists on the\nheatmaps and force the predicted bounding box to shrink,\nmaking the tracked target invisible to trackers. Numerous\nexperiments on OTB100, VOT2018, and LaSOT datasets\nshow that our method can effectively fool the state-of-the-\nart SiameseRPN++ tracker by adding small perturbations\nto the template or the search regions. Besides, our method\nhas good transferability and is able to deceive other top-\nperformance trackers such as DaSiamRPN, DaSiamRPN-\nUpdateNet, and DiMP. The source codes are available at\nhttps://github.com/MasterBin-IIAU/CSA.\n1. Introduction\nOnline single object tracking is a fundamental task\nin computer vision and has many important applica-\ntions including intelligent surveillance, autonomous driv-\ning, human-machine interaction, to name a few.\nIn re-\ncent years, as deep learning matures and large-scale track-\ning datasets [18, 7, 12] are introduced, the single object\ntracking ﬁeld has developed rapidly.\nCurrent state-of-\nthe-art trackers [16, 40, 15, 8, 17, 6, 3] can be grouped\ninto two categories: deep discriminative trackers [6, 3, 4],\nand SiameseRPN-based trackers [16, 40, 39, 15].\nDeep\n∗Corresponding Author: Dr. Dong Wang, wdice@dlut.edu.cn\ndiscriminative trackers decompose tracking into two sub-\nproblems: classiﬁcation and state estimation. The ﬁrst one\nis solved by an online-learning classiﬁer and the second\none is achieved by maximizing the overlap between can-\ndidates and the ground truth. SiameseRPN-based trackers\nformulate tracking as a one-shot detection problem, locat-\ning objects that have similar appearance with the initial tem-\nplate on the search region in each frame. Considering their\nbalance between accuracy and speed, SiameseRPN-series\ntrackers have attracted more attention than deep discrimina-\ntive trackers.\nAdversarial attack is originated from [29], which has\nshown that state-of-the-art deep learning models can be\nfooled by adding small perturbations to original images.\nResearch on adversarial attack is beneﬁcial to understand\ndeep neural networks and design robust models.\nPop-\nular adversarial attack methods can be roughly summa-\nrized into two categories: iterative-optimization-based and\ndeep-network-based attacks.\nThe former method [9, 21,\n35] applies many times of gradient ascent to maximize\nan adversarial objective function for deceiving deep net-\nworks and is usually time-consuming. However, the latter\none [34, 31] applies tremendous data to train an adversar-\nial perturbation-generator. The latter method is faster than\nthe former method because only one-time forward propaga-\ntion is needed for each attack after training. In recent years,\nadversarial attack has become a popular topic and has ex-\ntended from image classiﬁcation to more challenging tasks,\nsuch as object detection [35, 31] and semantic segmenta-\ntion [35].\nHowever, an effective and efﬁcient adversarial attack\nmethod for single object tracking remains lacking.\nIn\nthis study, we choose the state-of-the-art SiamRPN++ [15]\ntracker as our main research object and propose a novel\ncooling-shrinking attack method. This method learns an\nefﬁcient perturbation generator to make the tracker fail by\nsimultaneously cooling down hot regions where the target\nexists on the heatmaps and forcing the predicted bounding\nbox to shrink during online tracking. Our main contribution\n990\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

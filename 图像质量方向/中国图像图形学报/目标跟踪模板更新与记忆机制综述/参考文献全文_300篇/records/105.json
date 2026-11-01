@@ -1,0 +1,40 @@
+{
+  "number": 105,
+  "title": "Learning Spatial-Aware Regressions for Visual Tracking",
+  "year": 2018,
+  "authors": [
+    "Chong Sun",
+    "Dong Wang",
+    "Huchuan Lu",
+    "Ming-Hsuan Yang"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2018/html/Sun_Learning_Spatial-Aware_Regressions_CVPR_2018_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Learning_Spatial-Aware_Regressions_CVPR_2018_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Learning_Spatial-Aware_Regressions_CVPR_2018_paper.pdf",
+      "bytes": 916583,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\105_2018_Learning_Spatial-Aware_Regressions_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Learning_Spatial-Aware_Regressions_CVPR_2018_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2018/papers/Sun_Learning_Spatial-Aware_Regressions_CVPR_2018_paper.pdf",
+  "bytes": 916583,
+  "sha256": "d30df8cbd0b44409cc4d412100e3815b3b5b75bd76155656d789f815ccac95e1",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "Learning Spatial-Aware Regressions for Visual Tracking",
+  "first_page_text": "Learning Spatial-Aware Regressions for Visual Tracking\nChong Sun1,2, Dong Wang1, Huchuan Lu1, Ming-Hsuan Yang2\n1School of Information and Communication Engineering, Dalian University of Technology, China\n2Electrical Engineering and Computer Science, University of California, Merced, USA\nwaynecool@mail.dlut.edu.cn, {wdice,lhchuan}@dlut.edu.cn, mhyang@ucmerced.edu\nAbstract\nIn this paper, we analyze the spatial information of deep\nfeatures, and propose two complementary regressions for\nrobust visual tracking. First, we propose a kernelized ridge\nregression model wherein the kernel value is deﬁned as the\nweighted sum of similarity scores of all pairs of patches be-\ntween two samples. We show that this model can be formu-\nlated as a neural network and thus can be efﬁciently solved.\nSecond, we propose a fully convolutional neural network\nwith spatially regularized kernels, through which the ﬁlter\nkernel corresponding to each output channel is forced to fo-\ncus on a speciﬁc region of the target. Distance transform\npooling is further exploited to determine the effectiveness\nof each output channel of the convolution layer. The output-\ns from the kernelized ridge regression model and the fully\nconvolutional neural network are combined to obtain the\nultimate response. Experimental results on two benchmark\ndatasets validate the effectiveness of the proposed method.\n1. Introduction\nVisual tracking, which aims to continuously estimate the\npositions and scales of a pre-speciﬁed target, has been a hot\ntopic for the last decades. It is widely used in numerous\nvision tasks, such as video surveillance, augmented reality\nand so on. Current algorithms have achieved very impres-\nsive results, however, many problems remain to be solved.\nWith the emergence of large-scale datasets, deep neural\nnetworks have shown their great capacity in object classiﬁ-\ncation, image identiﬁcation, to name a few. It has been ver-\niﬁed in many prior papers [31, 25, 22] that trackers based\non convolutional neural networks (CNNs) can signiﬁcantly\nimprove the tracking performance. Usually, these methods\npretrain their networks on a large scale dataset, and ﬁnetune\nthe networks with the ground-truth data in the ﬁrst frame of\na sequence. In addition to the CNN-based trackers, meth-\nods based on the kernelized correlation ﬁlter (KCF) are al-\nso very popular in recent years for the efﬁciency and ca-\npacity to utilize large numbers of negative samples. As is\nLSART\nCF2\nDeepSRDCF\nECO\nFigure 1. Example tracking results of different methods on the OT-\nB dataset. Our tracker (LSART) has comparable results compared\nwith the state-of-the-art algorithms.\ndescribed in [17], the KCF method is essentially the kernel-\nized ridge regression (KRR) with cyclically shifted samples.\nMethods based on the KCF usually take a region of inter-\nest as the input, which makes it very difﬁcult to exploit the\nstructural information of the target. In addition, the cyclical-\nly constructed samples also introduce the unwanted bound-\nary effects. Compared to the KCF method, the dominating\nreason why the conventional KRR is not widely applied is\nthat it has to compute a kernel matrix for large numbers of\nsamples, which results in heavy computational load.\nBoth the CNN-and KRR-based trackers have limitations\nand they have complementarities. The CNN-based trackers\nusually contain a large number of parameters which are d-\nifﬁcult to be ﬁnetuned in the tracking problem. As a result,\nthe trained ﬁlter kernels in the convolution layer are usually\nhighly correlated and tend to overﬁt the training data. On\nthe contrary, the KRR-based trackers have limited model\nparameters (equal to the number of training samples), and\ncannot learn discriminative enough models when training\nsamples are correlated. In addition, the existing KRR-based\n8962\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

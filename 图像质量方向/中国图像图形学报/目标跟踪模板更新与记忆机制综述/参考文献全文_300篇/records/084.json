@@ -1,0 +1,41 @@
+{
+  "number": 84,
+  "title": "TRIC-track: Tracking by Regression With Incrementally Learned Cascades",
+  "year": 2015,
+  "authors": [
+    "Xiaomeng Wang",
+    "Michel Valstar",
+    "Brais Martinez",
+    "Muhammad Haris Khan",
+    "Tony Pridmore"
+  ],
+  "venue": "ICCV",
+  "category": "传统外观建模与局部可靠性",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_iccv_2015/html/Wang_TRIC-track_Tracking_by_ICCV_2015_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_TRIC-track_Tracking_by_ICCV_2015_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_TRIC-track_Tracking_by_ICCV_2015_paper.pdf",
+      "bytes": 742122,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\084_2015_TRIC-track__Tracking_by_Regression_With_Incrementally_Learned_Cascades.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_TRIC-track_Tracking_by_ICCV_2015_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_iccv_2015/papers/Wang_TRIC-track_Tracking_by_ICCV_2015_paper.pdf",
+  "bytes": 742122,
+  "sha256": "057f3993fb66090e2a8dcab55537e7c956f574c2a9c93814cf410015171a3851",
+  "version": "会议官方开放版本",
+  "pages": 9,
+  "pdf_title": "TRIC-track: Tracking by Regression With Incrementally Learned Cascades",
+  "first_page_text": "TRIC-track: Tracking by Regression with Incrementally Learned Cascades\nXiaomeng Wang\nMichel Valstar\nBrais Martinez\nMuhammad Haris Khan\nTony Pridmore\nComputer Vision Laboratory, University of Nottingham, Nottingham, UK\n{psxxw, michel.valstar, brais.martinez, psxmhk, tony.pridmore}@nottingham.ac.uk\nAbstract\nThis paper proposes a novel approach to part-based track-\ning by replacing local matching of an appearance model by\ndirect prediction of the displacement between local image\npatches and part locations. We propose to use cascaded\nregression with incremental learning to track generic ob-\njects without any prior knowledge of an object’s structure\nor appearance. We exploit the spatial constraints between\nparts by implicitly learning the shape and deformation pa-\nrameters of the object in an online fashion. We integrate a\nmultiple temporal scale motion model to initialise our cas-\ncaded regression search close to the target and to allow it\nto cope with occlusions. Experimental results show that our\ntracker ranks ﬁrst on the CVPR 2013 Benchmark.\n1. Introduction\nWe propose a method for structured object Tracking by\nRegression with Incrementally learned Cascades (TRIC-\ntrack). Visual tracking of generic objects is one of the most\nactive topics in computer vision. It aims to detect the lo-\ncation of a possibly moving target by extracting local ap-\npearance features and matching them between consecutive\nimages to obtain accurate estimates of target location, of-\nten helped by similar estimates of the object’s motion. The\nparameters describing a target object can vary, but often in-\nclude position, size, orientation and velocity. Tracking in-\nformation can subsequently be used to reason about the tar-\nget’s behaviour or complete other tasks that require knowl-\nedge of the object’s state. If solved, visual tracking has\nextensive applications in areas such as visual (robot) navi-\ngation, surveillance, trafﬁc monitoring, video compression,\nmedical imaging etc.\nDespite the large body of computer vision work address-\ning this problem, robust visual tracking of generic objects\nis still a challenging problem. The performance of a vi-\nsual tracking algorithm is affected by many factors, such\nas non-rigid object deformation, partial or full occlusion of\nthe target, illumination variation, scale variation, viewpoint\n(a)\n(b)\n(c)\n(d)\nFigure 1: (a) Training a direct displacement regressor with\nfour examples. (b) Testing a regressor. Four test patches\nsampled around the initial location (blue dot) provide pre-\ndictions (purple dots). (c) Evidence aggregation map. (d)\nLocation-based initialisation and implicit shape model.\nchange, motion blur, background clutter, etc. The combi-\nnation of rigid motion and non-rigid object deformation re-\nsults in complex appearance changes, making general ob-\nject tracking a particularly hard problem.\nCurrent part-based trackers rely upon a response map es-\ntimating the likelihood that any given location in an image\nrepresents the target (part). While approaches to the com-\nputation of this ﬁtness vary from simple template matching\nto complex machine learning based methods, all assign a\nsingle scalar value to a queried location. Tracking then be-\ncomes a problem of determining what area(s) to search in,\noften guided by some motion model(s), how to construct an\nappearance model that can capture changes in the object’s\nimage properties, and how to deal with local optima.\nWhile a template likelihood strategy may appear to be\nthe logical solution to the visual tracking problem, its view\nof the image as a set of independent, possible target loca-\ntions introduces a number of inherent drawbacks. Firstly,\nincorrect optima occur when changes in the target’s ap-\npearance make it look less like the original template than\nsome background image patch(es), or when there are mul-\n4337\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

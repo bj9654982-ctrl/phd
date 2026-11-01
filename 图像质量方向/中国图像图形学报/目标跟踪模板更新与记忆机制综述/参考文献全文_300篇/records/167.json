@@ -1,0 +1,42 @@
+{
+  "number": 167,
+  "title": "GradNet: Gradient-Guided Network for Visual Object Tracking",
+  "year": 2019,
+  "authors": [
+    "Peixia Li",
+    "Boyu Chen",
+    "Wanli Ouyang",
+    "Dong Wang",
+    "Xiaoyun Yang",
+    "Huchuan Lu"
+  ],
+  "venue": "ICCV",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Li_GradNet_Gradient-Guided_Network_for_Visual_Object_Tracking_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_GradNet_Gradient-Guided_Network_for_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_GradNet_Gradient-Guided_Network_for_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+      "bytes": 3062105,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\167_2019_GradNet__Gradient-Guided_Network_for_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_GradNet_Gradient-Guided_Network_for_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_GradNet_Gradient-Guided_Network_for_Visual_Object_Tracking_ICCV_2019_paper.pdf",
+  "bytes": 3062105,
+  "sha256": "d80dea9adc96763f3cde4568dccf14f87882edb457fffd5b40ecfc77843f08b5",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "GradNet: Gradient-Guided Network for Visual Object Tracking",
+  "first_page_text": "GradNet: Gradient-Guided Network for Visual Object Tracking\nPeixia Li†, Boyu Chen†, Wanli Ouyang§, Dong Wang†∗, Xiaoyun Yang‡, Huchuan Lu†\n† Dalian University of Technology, China, § The University of Sydney, Australia,\n‡ China Science IntelliCloud Technology Co., Ltd\n{pxli, bychen}@mail.dlut.edu.cn, wanli.ouyang@sydney.edu.au, {wdice,lhchuan}@dlut.edu.cn, xiaoyun.yang@intellicloud.ai\nAbstract\nThe fully-convolutional siamese network based on tem-\nplate matching has shown great potentials in visual track-\ning. During testing, the template is ﬁxed with the initial\ntarget feature and the performance totally relies on the\ngeneral matching ability of the siamese network.\nHow-\never, this manner cannot capture the temporal variations\nof targets or background clutter. In this work, we propose\na novel gradient-guided network to exploit the discrimi-\nnative information in gradients and update the template\nin the siamese network through feed-forward and back-\nward operations.\nTo be speciﬁc, the algorithm can uti-\nlize the information from the gradient to update the tem-\nplate in the current frame. In addition, a template gener-\nalization training method is proposed to better use gradi-\nent information and avoid overﬁtting. To our knowledge,\nthis work is the ﬁrst attempt to exploit the information in\nthe gradient for template update in siamese-based trackers.\nExtensive experiments on recent benchmarks demonstrate\nthat our method achieves better performance than other\nstate-of-the-art trackers. The source codes are available at\nhttps://github.com/LPXTT/GradNet-Tensorﬂow.\n1. Introduction\nVisual object tracking is an important topic in computer\nvision, where the target object is identiﬁed in the initial\nvideo frame and successively tracked in subsequent frames.\nIn recent years, deep networks [37, 3, 19, 44, 23, 39] have\nsigniﬁcantly improved the tracking performance due to their\nrepresentation prowess.\nThere are two groups of deep-learning-based trackers.\nThe ﬁrst group [36, 28, 32, 4] improves the discriminative\nability of deep networks by frequent online update. They\nutilize the ﬁrst frame to initialize the model and update it\n∗Corresponding Author: Dr. Dong Wang\nFigure 1. The motivation of our algorithm. Images in the ﬁrst and\nthird column are target patches in SiameseFC. The other images\nshow absolute values of their gradients, where the red regions have\nlarge gradient. As we can see, the gradient values can reﬂect the\ntarget variations and background clutter.\nevery few frames. Timely online update enables trackers\nto capture target variations but also requires more computa-\ntional time. Therefore, the speed of these trackers generally\ncannot meet the real-time requirements.\nSiamese-based trackers are representative in the second\ngroup [3, 44, 22] which is totally based on ofﬂine training.\nThey learn the similarity between objects in different frames\nthrough massive ofﬂine training. During online testing, the\ninitial target feature is regarded as template and used to\nsearch the target in the following frames. These methods\nneed no online updating, thus, they usually run at real-time\nspeeds. However, these methods cannot adapt to appear-\nance variations of target without important online adaptabil-\nity, thereby increasing the risk of tracking drift. To solve\nthis problem, many researches\n[16, 45, 40] present dif-\nferent mechanisms to update template features. However,\nthese methods only focus on combining the previous target\nfeatures, ignoring the discriminative information in back-\nground clutter. This results in a big accuracy gap between\nthe siamese-based trackers and those with online update.\nGenerally, gradients are calculated through the ﬁnal\nloss which considers both positive and negative candidates.\n6162\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

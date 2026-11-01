@@ -1,0 +1,450 @@
+P001 | ITU-R（2019） | 2019 | Q=A | 其他（方法论标准） | 奠基工作 | 主观实验方法论,标准,MOS/DMOS
+    F: 规定了主观图像/电视质量评价的标准实验方法（观看条件、刺激方法、评分量表、数据处理），是后续几乎所有IQA数据库主观实验的方法依据。
+    M: 定义单刺激/双刺激、连续质量量表等方法类别（摘要层仅确认标准存在及其适用范围）。
+P002 | ITU-T（1996） | 1996 | Q=A | 其他（方法论标准） | 奠基工作 | 主观实验方法论,标准,MOS/DMOS
+    F: 规定多媒体应用主观质量评价方法（绝对类别评分ACR等），是MOS评分范式的另一标准来源。
+    M: ACR等评分方法（摘要层确认）。
+P003 | VQEG（2003） | 2003 | Q=A | 其他（官方报告） | 奠基工作 | 主观实验方法论,性能评估范式
+    F: 通过多实验室统一主观测试数据系统验证客观质量模型，确立了IQA领域'以主观数据为ground truth、用相关系数评估模型'的范式。
+    M: 大规模主观测试+客观模型横向验证（摘要层）。
+P004 | Mantiuk等（2012） | 2012 | Q=A | 其他（方法论） | 奠基工作 | 主观实验方法论,成对比较
+    F: 在四种主流主观质量评价方法中，强制选择成对比较(forced-choice pairwise comparison)测量方差最小、结果最准确，且在中等条件数下最省时。
+    M: 比较single-stimulus/double-stimulus/forced-choice pairwise/similarity judgment；给出置信区间、统计检验与回
+P005 | Ribeiro等（2011） | 2011 | Q=B | 其他（方法论） | 奠基工作 | 众包主观评价,MOS/DMOS
+    F: 提出通过Amazon Mechanical Turk众包获取MOS（crowdMOS），并设计检测/剔除不准确或恶意评分的方法；在LIVE主观数据集上证明众包结果准确、可重复。
+    M: 众包平台+恶意评分过滤机制+开源工具集。
+P006 | Sheikh等（2006） | 2006 | Q=A | 数据库 | 奠基工作 | 质量数据库,合成失真,MOS/DMOS,评价协议,LIVE数据库,FR-IQA
+    F: 构建LIVE IQA数据库：779幅失真图像由约24名观察者评分，获得约25000次人类质量判断，是当时除VQEG外最大的主观图像质量研究，用于横向评估主流FR-IQA算法。
+    M: 29幅参考图×JPEG/JP2K/噪声/模糊等失真类型×失真等级；实验室受控主观测试。
+P007 | Ponomarenko等（2009） | 2009 | Q=A | 数据库 | benchmark或dataset | 质量数据库,合成失真
+    F: 发布TID2008：1700幅测试图（25参考图×17种失真×4等级），经芬兰/意大利/乌克兰三国800余实验、约25.6万次人类判断得到MOS。
+    M: 跨国实验室主观测试收集MOS。
+P008 | Ponomarenko等（2015） | 2015 | Q=A | 数据库 | benchmark或dataset | 质量数据库,合成失真
+    F: 发布TID2013：3000幅测试图（25参考图×24种失真×5等级），较TID2008新增7种失真类型；由芬兰/法国/意大利/乌克兰/美国五国985次主观实验收集MOS。
+    M: 五国主观实验，985名观察者；按失真类型子集分析各度量性能。
+P009 | Larson和Chandler（2010） | 2010 | Q=A | 数据库 | benchmark或dataset | 质量数据库,合成失真,双策略,HVS掩蔽,超阈值失真
+    F: 提出HVS在判断质量时使用检测式与外观式两种策略，并构建CSIQ数据库支撑MAD度量的主观验证；近阈值失真时观察者'透过图像找失真'，明显失真时'透过失真找内容'。
+    M: CSIQ数据库伴随主观评分（摘要层确认数据库与策略模型）。
+P010 | Jayaraman等（2012） | 2012 | Q=B | 数据库 | benchmark或dataset | 质量数据库,多重失真
+    F: 针对以往主观研究只测单一失真的局限，对两类多重失真叠加图像开展主观实验获得人类质量判断，并在新库上比较多种客观质量度量。
+    M: 模糊+噪声等多重失真叠加的主观评分。
+P011 | Ma等（2017） | 2017 | Q=A | 数据库 | benchmark或dataset | 质量数据库,合成失真,大规模
+    F: 构建Waterloo Exploration数据库：4744幅原始自然图与94880幅衍生失真图；因逐图主观评分不现实，改用原始/失真可分性(D-test)、列表排序一致性(L-test)、成对偏好一致性(P-test)三种免主观评分测试准则。
+    M: 无需MOS的三类隐式测试协议；比较20个知名IQA模型。
+P012 | Lin等（2019） | 2019 | Q=A | 数据库 | benchmark或dataset | 质量数据库,合成失真,大规模
+    F: 发布KADID-10k：81幅原始图×25种失真×5等级，每图由30名众包工作者主观评分得MOS；另发布14万原始图×25失真共70万失真图的无标注KADIS-700k，支持弱监督学习。
+    M: 众包主观评分；KADIS-700k无主观标注，以11个FR-IQA度量为代理差分MOS。
+P013 | Ghadiyaram和Bovik（2017） | 2017 | Q=A | 数据库 | benchmark或dataset | 质量数据库,真实失真,UGC,众包
+    F: 构建LIVE In-the-Wild (LIVEC)数据库：1162幅移动设备实拍的真实失真图像，由8100余名观察者在线众包评分，累计超35万条主观评分；证明在非受控在线环境下主观数据仍具良好内部一致性。
+    M: Amazon Mechanical Turk大规模在线众包；真实采集（非人工合成）失真。
+P014 | Virtanen等（2015） | 2015 | Q=A | 数据库 | benchmark或dataset | 质量数据库,真实失真,UGC
+    F: 构建CID2013数据库：480幅由79种相机设备拍摄的真实图像（8类场景），188名受试者；提出混合绝对类别评级对比较主观方法，除MOS外还对清晰度/颗粒度/亮度/色彩饱和度分别评级。
+    M: 受控实验室混合主观方法；记录受试者背景信息。
+P015 | Fang等（2020） | 2020 | Q=A | 数据库 | benchmark或dataset | 质量数据库,移动端,UGC,多属性
+    F: 构建SPAQ数据库：11125幅由66款智能手机拍摄的照片，受控实验室采集，每图附带质量分、亮度/色彩/对比度/噪声/清晰度5类属性分与场景类别标签及EXIF信息，是当时标注最丰富的手机摄影质量库。
+    M: 实验室主观评分+多属性+场景分类+EXIF元数据。
+P016 | Gu等（2020） | 2020 | Q=A | 数据库 | benchmark或dataset | 质量数据库,感知图像恢复,成对比较
+    F: 构建PIPAL数据集：包含GAN-based图像恢复算法输出（以往数据集缺失），收集超113万条人类判断，采用更可靠的Elo成对比较系统打主观分；发现现有IQA方法无法公平评价GAN-based恢复算法。
+    M: Elo评分制成对比较；patch级感知质量。
+P017 | Zhang等（2018） | 2018 | Q=A | 数据库 | benchmark或dataset | 质量数据库,感知相似性,成对比较,深度特征,感知度量,LPIPS,BAPPS
+    F: 构建新的人类感知相似性判断数据集（BAPPS），系统评估深度特征作为感知度量的有效性，发现深度特征在该数据集上大幅超越以往所有经典度量。
+    M: 人类成对偏好判断收集；跨架构/任务的深度特征比较。
+P018 | Wiedemann等（2023） | 2023 | Q=B | 数据库 | 最新进展 | 质量数据库,分辨率,in-the-wild
+    F: 构建KonX跨分辨率IQA数据库，首次通过实验分离并揭示：呈现分辨率变化会导致主观质量标签漂移，且客观IQA方法存在尺度偏置（scale bias）。
+    M: 多分辨率版本主观标签对照实验。
+P019 | Fang等（2023） | 2023 | Q=A | 数据库 | 最新进展 | 质量数据库,移动端,相机质量
+    F: 构建SQAD数据集：29款设备拍摄的自然图像，在受控实验室环境下基于六维度客观准则建立相机系统质量基准，并训练深度学习模型实现任意照片的相机质量预测。
+    M: 实验室受控+客观度量基准（非纯主观MOS）。
+P020 | Liu等（2024a） | 2024 | Q=B | 数据库 | 最新进展 | 质量数据库,HDR,压缩失真
+    F: 构建HDRC数据库：80幅参考图+400幅VVC等压缩失真HDR图像，是首个纳入Versatile Video Coding压缩失真的HDR-IQA主观数据库；实验显示现有IQA模型在新压缩失真上精度明显下降。
+    M: HDR显示条件下主观评分；3个HDR专项+9个LDR通用IQA模型基准测试。
+P021 | Venkataramanan和Bovik（2024） | 2024 | Q=A | 数据库 | 最新进展 | 质量数据库,HDR,色调映射
+    F: 构建LIVE-TMHDR数据库：15000条由40个HDR源生成的色调映射压缩序列，由1600余名观察者标注超75万条主观质量分，是首个大规模开源压缩色调映射HDR视频主观库。
+    M: 大规模在线主观标注；色调映射算子影响分析。
+P022 | Liu等（2024b） | 2024 | Q=B | 其他（综述） | 综述 | 质量数据库,HDR,综述
+    F: 综述7个主观HDR-IQA数据库与12个客观度量，指出两大改进方向：HDR主观数据库规模与多样性需扩大，客观算法需更通用的感知映射方法。
+    M: 统计分析9个IQA算法+3个感知映射函数。
+P023 | Lou等（2024） | 2024 | Q=B | 其他（方法论/基准） | 最新进展 | 主观实验方法论,MOS/DMOS,个体差异
+    F: 指出MOS在观察者间意见分歧大时代表性下降，构建观点分数方差(VOS)基准并分析其随失真强度/类型/场景内容的变化，训练深度模型识别高分歧图像。
+    M: VOS分类基准+深度学习识别模型。
+P024 | Wang & Bovik (2009) | 2009 | Q=A | FR | 奠基工作/问题提出 | 信号保真度基线,MSE/PSNR批判,感知度量动机
+    F: MSE/PSNR在感知信号上性能弱却长期主导；需要从视觉感知而非像素误差角度设计质量度量。
+    M: 立场性专论：不提出新指标，而是论证逐点像素误差(MSE)与主观感知不一致，为后续HVS/结构/特征类FR指标提供合法性依据。
+P025 | Sheikh, Bovik & De Veciana (2005) | 2005 | Q=A | FR | 奠基工作/代表路线 | 信息论,自然场景统计NSS,HVS早期
+    F: 以自然场景统计建模参考-失真图像间的互信息，无参数且优于当时主流HVS方法（摘要层）。
+    M: 将图像质量问题转化为参考与失真图像在NSS/高斯尺度混合模型下的信息保真度；局部测量后聚合为全局分数。
+P026 | Sheikh & Bovik (2006) | 2006 | Q=A | FR | 奠基工作/代表路线 | 信息论,VIF,NSS,HVS早期
+    F: 将参考-失真互信息与HVS通道结合得到VIF，在多种失真类型上显著优于当时方法（摘要层）。
+    M: VIF：在wavelet/GGD-NSS模型下计算参考与失真图像子带间的信息比；含像素域VIFp与子带域版本。
+P027 | Wang et al. (2004) | 2004 | Q=A | FR | 奠基工作 | 结构相似性,SSIM,亮度对比度结构三分量
+    F: HVS高度适应提取结构信息；以亮度、对比度、结构三个局部相似性乘积度量感知质量，优于PSNR/PSNR-HVS类方法（摘要层）。
+    M: SSIM：局部窗口内 l(x,y)·c(x,y)·s(x,y)，全局取平均；从误差可见性范式转向结构保真范式。
+P028 | Wang, Simoncelli & Bovik (2003) | 2003 | Q=A | FR | 代表路线/SSIM谱系扩展 | SSIM谱系,多尺度,观看条件自适应
+    F: 单尺度SSIM对观看条件敏感；多尺度下加权融合各尺度SSIM更鲁棒（摘要层）。
+    M: MS-SSIM：对图像反复低通+下采样构成5级金字塔，亮度仅在最粗尺度计算，对比度/结构在各尺度加权合并。
+P029 | Wang & Simoncelli (2005) | 2005 | Q=B | FR | 代表路线/SSIM谱系扩展 | SSIM谱系,复小波,相位一致性,几何鲁棒
+    F: 复小波域系数的一致相位漂移不改变结构内容；利用相位一致性度量可对平移/缩放/旋转不敏感（摘要层）。
+    M: CW-SSIM：dual-tree/steerable复小波分解，在子带内比较系数模与相位一致性；免配准。
+P030 | Wang & Li (2011) | 2011 | Q=A | FR | 代表路线/SSIM谱系扩展 | SSIM谱系,池化策略,信息内容加权
+    F: 最优感知池化权重应正比于局部信息含量；信息内容加权一致提升IQA性能，最佳为IW-MSSSIM（摘要层）。
+    M: IW-SSIM：先局部失真度量，再以自然图像统计估计的局部自信息作权重池化；通用池化框架。
+P031 | Zhang et al. (2011) | 2011 | Q=A | FR | 奠基工作/代表路线 | 特征相似性,相位一致性,梯度,池化加权
+    F: HVS主要依据低层特征理解图像；相位一致性(对比度不变)与梯度幅值互补，以PC加权池化得到高一致性分数（摘要层）。
+    M: FSIM：局部PC similarity × GM similarity，再以PC均值加权池化；彩色版FSIMc增加色度特征。
+P032 | Xue et al. (2014) | 2014 | Q=A | FR | 代表路线 | 梯度,池化策略,高效指标
+    F: 像素级梯度幅值相似性(GMS)的标准差(而非均值)作为池化量，可在极低计算成本下取得有竞争力性能（摘要层）。
+    M: GMSD：Sobel梯度→逐点GMS→取GMS图标准差为全局分数。
+P033 | Zhang, Shen & Li (2014) | 2014 | Q=A | FR | 代表路线 | 视觉显著性,VSI,池化加权
+    F: 超阈值失真会显著改变显著性图；将显著性既作为局部特征又作为池化权重可提升预测精度（摘要层）。
+    M: VSI：梯度+显著性图构成局部质量图，显著性加权池化。
+P034 | Reisenhofer et al. (2018) | 2018 | Q=B | FR | 代表路线 | 小波,Haar,高效感知相似
+    F: Haar小波系数足以度量局部感知相似性；计算结构简单、运行时间短，真实场景适用性高（摘要层）。
+    M: HaarPSI：Haar小波分解→水平/垂直系数局部相似→按重要性加权平均，经非线性校正输出。
+P035 | Soundararajan & Bovik (2012) | 2012 | Q=A | RR | 奠基工作/半参考代表路线 | 半参考RR,小波熵差,NSS
+    F: 以小波系数熵的差异度量参考-失真图像信息变化，RR信息量从近乎全参考到单标量可调，与主观评分相关性好（摘要层）。
+    M: RRED：感知加权的小波系数熵差；家族算法按所需参考信息量分级；含RRED-1/RRED-2等版本。
+P036 | Prashnani et al. (2018) | 2018 | Q=B | FR | 代表路线/学习型感知FR | 成对偏好学习,感知误差,深度学习
+    F: 人类更易做两两偏好判断而非打绝对分；用大规模成对偏好标签训练网络，推理时单张失真图+参考图即可输出感知误差（摘要层）。
+    M: PieAPP：孪生CNN提取局部patch特征→成对比较网络→经概率框架回归为逐patch感知误差图。
+P037 | Ding et al. (2022) | 2022 | Q=A | FR | 奠基工作/学习型感知FR | 深度特征,结构-纹理统一,DISTS
+    F: 既有深度特征度量对纹理重采样过度敏感；显式分离结构相似（特征图相关）与纹理相似（空间均值统计相关），可容忍纹理替换而保持结构敏感度（摘要层）。
+    M: DISTS：CNN嵌入到多尺度过完备表示；特征图空间平均提供纹理约束，再联合相关型距离；无监督纹理项+有监督主观分数联合优化。
+P038 | Ding et al. (2021) | 2021 | Q=B | FR | 代表路线/DISTS谱系扩展 | DISTS谱系,局部自适应,纹理-结构分离
+    F: DISTS是全局度量，忽略图像空间/尺度上的局部结构-纹理差异；以dispersion index统计量定位纹理区域并自适应池化，在10个数据库上提升相关性（摘要层）。
+    M: A-DISTS：单一统计特征dispersion index估计patch为纹理的概率，再据此自适应加权局部结构/纹理测量。
+P039 | Liao et al. (2022) | 2022 | Q=B | FR | 代表路线/学习型感知FR | Wasserstein距离,深度特征分布,可解释性
+    F: 传统深度FR模型以确定性特征距离衡量失真；改为在VGG各层特征分布上计算1D Wasserstein距离，对各类失真的可解释性与预测能力更好（摘要层）。
+    M: DeepWSD：预训练VGG逐层提取特征→层内逐位置1D W1距离→层间加权聚合为质量分。
+P040 | Severo, Theis & Ballé (2024) | 2024 | Q=B | FR | 最新进展 | 无训练感知度量,线性预测,可微,2023-2026
+    F: 无需任何训练数据或深度网络特征，仅靠推理时像素级加权最小二乘解即可构造感知嵌入；在FR-IQA数据库上与LPIPS/PIM竞争（摘要层）。
+    M: LASI：像素域WLS线性预测系数作为感知嵌入，嵌入空间距离即相似度；全可微，复杂度随嵌入维立方增长。
+P041 | Tian, Chen, Wang & Kwong (2023) | 2023 | Q=B | FR | 最新进展/范式反思 | 参考图像选择,等质量空间,2023-2026
+    F: 近阈值视觉感知意味着同一场景存在大量不可区分的优质参考图；在等质量特征空间中搜索最优伪参考再做深度FR度量，可显著提升预测性能（摘要层）。
+    M: FLRE：PNTE预测等质量map，PRS在等质量空间内逐元素最小距离搜索失真图的最佳参考特征；作为插件模块叠加在现有深度FR模型前。
+P042 | Tang et al. (2023) | 2023 | Q=B | FR | 最新进展 | Transformer,孪生网络,GAN失真,2023-2026
+    F: 传统FR方法对传统失真与GAN失真图像预测不准；孪生Transformer空间注意力+通道/空间双重注意力可同时敏感两类失真（摘要层）。
+    M: UniDASTN：孪生Transformer提取参考/失真特征→特征融合块→双注意力聚合→MSE+双向KL+质量分排序联合损失回归。
+P043 | Yuan et al. (2024) | 2024 | Q=C | FR | 最新进展/AIGIQA新范式 | AI生成图像质量评价,AIGIQA,FR-AIGCIQA,2023-2026,质量数据库,图生图,文生图
+    F: 现有AIGIQA数据库只覆盖文生图场景；新库覆盖文生图+图生图，并给出NR-AIGCIQA/FR-AIGCIQA/PR-AIGCIQA三种基准方法（摘要层）。
+    M: FR-AIGCIQA：以image prompt作为参考输入，预训练模型提取参考/待评图像特征并比较，预测感知质量。
+P044 | Moorthy & Bovik (2010) | 2010 | Q=A | NR | 奠基工作 | NSS,distortion-identification,通用盲质量
+    F: 提出失真无关的两步 NR-IQA 框架：先 NSS 识别失真类型，再分类型回归质量，模块化可扩展。
+    M: 小波域 NSS 特征 + SVM 失真分类 + 分类型 SVR 回归；LIVE 库验证。摘要层。
+P045 | Moorthy & Bovik (2011) | 2011 | Q=A | NR | 奠基工作 | NSS,wavelet,distortion-identification
+    F: 基于可操纵金字塔小波域 NSS 的两步法 DIIVINE，在 LIVE 上统计性能优于 PSNR、与 SSIM 相当。
+    M: steerable pyramid 多尺度分解 + GGD 拟合 + 失真识别 + 分类型质量回归。摘要层。
+P046 | Saad et al. (2012) | 2012 | Q=A | NR | 代表路线 | NSS,DCT,Bayesian
+    F: DCT 系数 NSS + 简单贝叶斯推断预测质量，训练需求小，LIVE 上与 SSIM 同级相关。
+    M: DCT 域系数统计建模 + 贝叶斯质量推断。摘要层。
+P047 | Mittal et al. (2012) | 2012 | Q=A | NR | 奠基工作 | NSS,spatial,MSCN,opinion-aware
+    F: 不计算失真特异特征，仅用局部归一化亮度（MSCN）系数的双变量分布度量自然度损失，即达到优于 PSNR/SSIM 的盲评价性能，计算复杂度低可实时。
+    M: MSCN 系数及其乘积的 GGGD 拟合 + 空间域特征 + SVR；TID/LIVE/CSIQ 评测。摘要层。
+P048 | Mittal et al. (2013) | 2013 | Q=A | NR | 奠基工作 | NSS,opinion-unaware,MVG,distortion-free-training
+    F: 仅从自然无失真图像语料学习质量感知统计特征，用多元高斯模型距离度量失真程度，完全不接触失真样本即可达到需大规模主观分数训练的 NR 模型同级性能。
+    M: 空间域 NSS + pristine 语料 MVG 建模 + 马氏距离类距离评分。摘要层。
+P049 | Zhang et al. (2015) | 2015 | Q=A | NR | 代表路线 | NSS,opinion-unaware,multi-cue,MVG
+    F: 融合多线索自然图像统计特征学习 MVG 模型，用 Bhattacharyya 类距离逐块评分再平均池化，无需任何失真样本与主观分数，性能超过同期 opinion-aware 方法。
+    M: 空间/频域多线索 NSS 特征 + pristine MVG + Bhattacharyya 距离。摘要层。
+P050 | Ye et al. (2012) | 2012 | Q=A | NR | 奠基工作 | codebook,unsupervised-feature-learning,pre-CNN
+    F: 直接从无标注原始图块学习字典（soft-assignment coding + max pooling），摆脱手工 NSS 先验，LIVE 上优于 SSIM。
+    M: raw patch 无监督字典学习 + soft assignment + max pooling + SVR。摘要层。
+P051 | Xu et al. (2016) | 2016 | Q=A | NR | 代表路线 | codebook,high-order-statistics,pre-CNN
+    F: 仅需 100 词本，聚合簇均值/方差/偏度等高阶统计差异即得到与同期深度方法竞争的性能。
+    M: K-means 小词本 + 高阶统计（mean/var/skewness）soft 聚合 + SVR；10 库评测。摘要层。
+P052 | Gu et al. (2013) | 2013 | Q=B | NR | 代表路线 | free-energy,NSS-adjacent,SVM
+    F: 组合自由能失真度量（FEDM）与结构退化模型（SDM）得到 NFSDM，摆脱参考图依赖后优于 PSNR/SSIM。
+    M: 自由能特征 + 结构退化特征 + SVM 融合。摘要层。
+P053 | Kang et al. (2014) | 2014 | Q=A | NR | 奠基工作 | CNN,patch-based,early-deep
+    F: 以图块为输入、单层卷积+max/min pooling+两层全连接的小 CNN，把特征学习与质量回归一体化，LIVE 上达到 SOTA 并具跨库泛化。
+    M: 浅层 CNN（1 conv + 2 FC）图块训练 + 图块评分池化。摘要层。
+P054 | Kim & Lee (2017) | 2017 | Q=A | NR | 代表路线 | CNN,FR-supervision,local-quality-map
+    F: 用深度 CNN 生成局部质量图模仿 FR-IQA 行为，解决 NR 局部真值缺失，使 NR 精度可比肩 SOTA FR 方法。
+    M: 两阶段：先预测客观误差图，再回归主观分数；附可靠性图与手工特征。摘要层。
+P055 | Ma et al. (2017) | 2017 | Q=A | NR | 代表路线 | CNN,multi-task,GDN,end-to-end
+    F: 失真识别子网与质量预测子网共享早期层、两阶段训练；用 GDN 替代 ReLU，以较小复杂度在 4 个基准达 SOTA。
+    M: 多任务 CNN + GDN 激活 + gMAD 竞争验证。摘要层。
+P056 | Talebi & Milanfar (2018) | 2018 | Q=A | NR | 代表路线 | CNN,distribution-learning,aesthetics-adjacent
+    F: 不回归 MOS 而预测人类意见分数的概率分布，网络结构比同期方法显著更简单，与人类感知高相关，可辅助摄影流水线优化。
+    M: 在 ImageNet 预训练分类网络上微调 + EMDB/AVA 训练 + 分布回归（EMD 损失）。摘要层。
+P057 | Bosse et al. (2018) | 2018 | Q=A | NR | 代表路线 | CNN,weighted-pooling,NR-FR-unified,deep
+    F: 10 层卷积深网同时学习局部质量与局部权重（重要性），稍作改动即可 NR/FR 两用；LIVE/CSIQ/TID2013/LIVE-in-the-Wild 均优于同期 SOTA。
+    M: 端到端 CNN + 加权平均池化 + 跨库评测。摘要层。
+P058 | Liu et al. (2017) | 2017 | Q=A | NR | 代表路线 | CNN,ranking,Siamese,data-augmentation
+    F: 用合成失真自动生成排序对训练 Siamese 网络学相对质量，再微调迁移到单图绝对质量回归；TID2013 提升 SOTA 逾 5%，LIVE 上超 FR 方法。
+    M: Siamese 排序预训练 + 微调 CNN 回归 + 批内高效反向传播。摘要层。
+P059 | Lin & Wang (2018) | 2018 | Q=A | NR | 代表路线 | GAN,hallucinated-reference,adversarial
+    F: 由失真图条件生成'幻觉参考图'补足真值参考缺失，成对送入回归器在隐式排序引导下学习感知差异，大幅超越此前 SOTA。
+    M: GAN 生成幻觉参考 + 质量回归 + 隐式排序损失；4 个基准验证。摘要层。
+P060 | Zhang et al. (2020) | 2020 | Q=A | NR | 代表路线 | CNN,bilinear-pooling,synthetic-authentic-dual
+    F: 两个 CNN 分别专攻合成失真（失真类型/等级分类预训练）与真实失真（分类预训练），特征双线性池化统一后微调质量回归，合成与真实库上均优。
+    M: 双分支 CNN + 双线性池化 + SGD 变体微调；Waterloo Exploration 库 gMAD 验证。摘要层。
+P061 | Su et al. (2020) | 2020 | Q=A | NR | 代表路线 | CNN,hypernetwork,in-the-wild
+    F: 把 IQA 拆为内容理解、感知规则学习、质量预测三阶段；超网络根据图像语义自适应生成质量回归规则，在真实失真库大幅领先且合成库竞争。
+    M: ResNet 类骨干 + 超网络生成回归参数。摘要层。
+P062 | Zhu et al. (2020) | 2020 | Q=A | NR | 代表路线 | meta-learning,few-shot,generalization
+    F: 把不同失真 NR-IQA 定义为任务集合，用基于优化的元学习学习共享质量先验，再快速适配未知失真；合成到真实失真迁移良好。
+    M: 双层梯度优化元学习 + CNN 骨干；5 库评测。摘要层。
+P063 | Zhang et al. (2021) | 2021 | Q=A | NR | 代表路线 | CNN,pairwise-loss,uncertainty,synthetic-authentic
+    F: 跨库采样图像对计算'谁更好'概率，用 fidelity loss 训练，并显式 hinge 约束正则化不确定性估计，统一合成与真实失真场景。
+    M: pairwise 概率损失 + 不确定性估计 + 6 库评测。摘要层。
+P064 | Hosu et al. (2020) | 2020 | Q=A | NR | benchmark/dataset | dataset,in-the-wild,CNN-baseline,质量数据库,真实失真,UGC,深度学习
+    F: 构建KonIQ-10k：10073幅带质量评分的图像，经1459名众包工作者获得120万条可靠评分，是首个追求生态效度（失真真实、内容多样）的in-the-wild数据库；配套KonCept512模型在LIVEC上SROCC达0.825（摘要层数字）。
+    M: 众包主观库 + InceptionResNet 512 分辨率训练。摘要层性能数字：0.921/0.825 SROCC。
+P065 | Sun et al. (2022) | 2022 | Q=A | NR | 代表路线 | CNN,hierarchical-feature-fusion,mixed-database-training
+    F: staircase 结构把中间层特征分层整合，配合迭代混合多库训练（IMDT）扩充内容与失真多样性，6 个真实失真库大幅领先并具强跨库泛化。
+    M: 分层特征融合 CNN + IMDT 多库训练。摘要层。
+P066 | Golestaneh et al. (2022) | 2022 | Q=A | NR | 代表路线 | Transformer,CNN-hybrid,ranking,self-supervision
+    F: CNN 提局部特征后接 Transformer 建模非局部关系；批内相对排序增强单调相关，翻转自一致性自监督提升鲁棒性。
+    M: CNN+Transformer 混合 + relative ranking + flip self-consistency；7 库评测。摘要层。
+P067 | Ke et al. (2021) | 2021 | Q=A | NR | 代表路线 | Transformer,multi-scale,native-resolution
+    F: 多尺度图像表示处理任意尺寸原生分辨率输入，hash 2D 空间嵌入 + 尺度嵌入；PaQ-2-PIQ/SPAQ/KonIQ-10k 上 SOTA。
+    M: Transformer 多尺度分支 + hash 位置嵌入。摘要层。
+P068 | Madhusudana et al. (2022) | 2022 | Q=A | NR | 代表路线 | contrastive-learning,self-supervised,CNN
+    F: 以'失真类型与程度预测'为辅助任务、用对比成对目标在无标注混合失真数据上预训练 CNN；冻结骨干仅加线性回归器即达 SOTA，泛化跨合成/真实失真。
+    M: 对比学习预训练 CNN + 冻结骨干 + 线性回归；GitHub 开源。摘要层。
+P069 | Yang et al. (2022) | 2022 | Q=A | NR | 代表路线 | Transformer,ViT,multi-dimension-attention,patch-weighted
+    F: ViT 提特征后，转置注意力块（TAB）与尺度 Swin 块（SSTB）分别建模通道/空间维全局-局部交互，双分支 patch 加权预测；LIVE/TID2013/CSIQ/KADID-10K 大幅领先，NTIRE 赛道第一。
+    M: ViT 骨干 + TAB/SSTB 注意力 + 双分支 patch 加权回归。摘要层。
+P070 | Zhao et al. (2023) | 2023 | Q=A | NR | 代表路线 | self-supervised,contrastive,pretext-task
+    F: 为 BIQA 定制 pretext 自监督任务：同图块质量应相似、跨失真/跨图应不同的质量感知对比损失，构建约 2×10^7 规模失真空间预训练，下游 BIQA 显著提升。
+    M: quality-aware 对比损失 + ImageNet 预训练。摘要层。
+P071 | Saha et al. (2023) | 2023 | Q=A | NR | 代表路线 | MoE,unsupervised,content-aware,quality-aware
+    F: 混合专家框架：内容感知编码器与质量感知编码器无监督训练，分别捕获高层内容与低层技术质量，再联合回归 MOS。
+    M: 双编码器 MoE 无监督预训练 + MOS 回归。摘要层。
+P072 | Qin et al. (2023) | 2023 | Q=A | NR | 代表路线 | Transformer,data-efficient,CLS-token,attention-panel
+    F: 把微调解释为预训练模型的解释过程，引入 Transformer decoder 从多角度精炼 CLS token，attention panel 机制提升性能并降低预测不确定性；8 库 SOTA。
+    M: 预训练 ViT + 单层 Transformer decoder + attention panel。摘要层性能数字：0.875/0.980 SRCC。
+P073 | Chen et al. (2024) | 2024 | Q=A | NR | 代表路线 | CNN,top-down,cross-scale-attention,NR-FR-dual
+    F: 模拟人类'先整体后局部'的自上而下机制：高层语义引导低层特征关注语义重要区域的失真；ResNet50 骨干，仅约当前最佳 FR 方法 13% FLOPs 即 competitive/SOTA。
+    M: CFANet 粗到细 + 跨尺度注意力 + ResNet50 骨干；NR/FR 双用。摘要层。
+P074 | Zhang et al. (2023) | 2023 | Q=B | NR | benchmark/dataset | CGI,dataset,multi-stage-fusion,质量数据库,in-the-wild
+    F: 构建大规模in-the-wild CGIQA-6k数据库（6000幅计算机图形图像），受控实验室主观实验获取感知评分，并提出融合失真与美学质量表征的NR-IQA模型。
+    M: 多阶段融合深度 NR 模型。摘要层。
+P075 | Li et al. (2024) | 2024 | Q=A | NR | 代表路线 | contrastive-learning,global-context,mask-attention
+    F: 统一全局（数据集内图像间相对质量对比）与局部（图内视觉局部敏感性）视角；8 个标准库上优于 SOTA。
+    M: 质量上下文对比学习 + 质量感知掩码注意力模块。摘要层。
+P076 | Pan et al. (2024) | 2024 | Q=B | NR | 代表路线 | Transformer,Swin,semantic-guided
+    F: 以图像语义显式引导质量评价：语义注意力模块按内容精炼特征，感知规则学习模块按语义动态生成回归参数；5 库 SOTA 且泛化好。
+    M: Swin Transformer 骨干 + 语义注意力 + 感知规则学习。摘要层。
+P077 | Yang et al. (2024) | 2024 | Q=B | NR | 代表路线 | Transformer,Swin,NSS-fusion
+    F: Swin Transformer 提多尺度特征并融合 NSS 弥补缩放信息损失，双分支注意力聚焦关键区域；6 库 SOTA。
+    M: Swin + 可变形卷积特征增强 + NSS 分支。摘要层性能数字：0.922/0.923 SROCC。
+P078 | Ni et al. (2025) | 2025 | Q=A | NR | 最新进展 | opinion-unaware,deep-feature,MVG,2025
+    F: 把预训练视觉模型多尺度图块深度特征拟合 MVG，以与高质量基准 MVG 的距离评分，摆脱主观标注依赖并提升训练效率。
+    M: 预训练 ViT 类模型多尺度特征 + MVG 距离。摘要层。
+P079 | Fu et al. (2025) | 2025 | Q=B | NR | 最新进展 | Transformer,Swin,multi-scale,2025
+    F: 移位窗口多尺度空间池化 Transformer，原生分辨率输入不裁剪缩放；LIVE/LIVE MD/TID2013 SOTA，真实失真库竞争。
+    M: Swin 移位窗口 + 空间金字塔池化。摘要层。
+P080 | Wang et al. (2023) | 2023 | Q=A | NR | 奠基工作 | CLIP零样本,反义提示对,look/feel感知
+    F: 无需任务特定训练，利用CLIS对比先验+反义提示对（antonym prompt pairing）即可零样本评估图像技术质量（look）与抽象美感（feel）。
+    M: 基座：OpenAI CLIP；打分范式：提示词相似度softmax；评测：受控数据集+LIVE/KonIQ等IQA基准（摘要层，具体SROCC未转引）。
+P081 | Zhang et al. (2023) | 2023 | Q=A | NR | 奠基工作 | 视觉-语言对应,多任务学习,场景分类/失真识别联合
+    F: 用文本模板描述多任务标签组合，通过图文嵌入余弦相似度求联合概率，联合BIQA/场景分类/失真识别三任务，提升跨数据集泛化并对齐不同数据集的质量标注。
+    M: 基座：CLIP；范式：多任务概率联合推断；代码github.com/zwx8981/LIQE。
+P082 | Agnolucci et al. (2024) | 2024 | Q=B | NR | 代表路线 | self-supervised,opinion-unaware,质量感知图文对齐
+    F: 从 pristine 图像合成递增退化图，训练CLIP按与质量相关反义文本提示的相似度排序，无需MOS即可达到接近监督方法的跨数据集性能。
+    M: 基座：CLIP；范式：合成退化排序+质量感知表征；评测：KonIQ/LIVE等真实失真数据集跨库实验。
+P083 | Onuoha et al. (2024) | 2024 | Q=B | NR | 局限证据 | CLIP特征批判,LMM对比,简单失真特征融合
+    F: CLIP与其他LMM的视觉特征并不总是最优；将其与简单失真特征组合后性能提升可超10%、预测准确率超90%——对"大模型特征即万能"的反方证据。
+    M: 实证研究：CLIP/LMM特征+传统失真特征的组合回归；摘要层给出准确率量级，未转引具体SROCC。
+P084 | Wu et al. (2024) | 2024 | Q=A | NR | 奠基工作 | 指令微调,低层视觉,人类自然语言反馈数据集
+    F: 构建首个低层视觉人类自然语言反馈数据集Q-Pathway（58K反馈/18,973图），经GPT路径转换为200K指令-响应对Q-Instruct，一致提升多基座MLLM的低层视觉能力。
+    M: 基座：多种开源MLLM；数据：Q-Pathway人工反馈→GPT-4改写为指令对；任务：属性识别+质量评价。
+P085 | Zhang et al. (2024) | 2024 | Q=A | NR | benchmark | benchmark,成对比较,低层视觉感知
+    F: 评测24个MLLM的低层视觉感知/描述/打分能力；发现多数MLLM单图尚可，但成对比较精度超过单图评估的只有GPT-4V——即MLLM尚未具备类人的成对判别能力。
+    M: 数据集：LLVisionQA+（2,990单图+1,999图对）、LLDescribe+（499单图+450图对）、7个IQA数据集打分（A3）；Q-Future项目组维护。
+P086 | Zhang et al. (2024) | 2024 | Q=A | NR | 代表路线 | 零样本,提示工程,三元语调集成
+    F: 无需训练：Triadic-Tone Integration（引入中性提示作为正负之间的中间态）+ Multi-Prompt Ensemble（多质量提示集成去偏），低层级MLLM即获出色零样本IQA/VQA性能。
+    M: 基座：低层级MLLM（Q-Future系）；范式：纯提示工程零样本；任务：IQA+VQA视频质量。
+P087 | Wu et al. (2024) | 2024 | Q=A | NR | 奠基工作 | 离散等级对齐,打分范式,IQA/IAA/VQA统一
+    F: 模仿人主观实验中只学离散文字等级（good/bad等）的机制，用文字定义等级代替连续分数监督LMM；在IQA/IAA/VQA上，尤其跨数据集设置下显著优于直接分数监督与已有SOTA（摘要层：指标为(SRCC+PLCC)/2，具体数值未转引）。
+    M: 基座：LLaVA系MLLM；范式：text-defined levels离散token监督；评测：多个IQA/IAA/VQA数据集跨库。
+P088 | Wu et al. (2024b) | 2024 | Q=A | NR | 代表路线 | 开放式比较,GPT-4V教师蒸馏,多图比较benchmark
+    F: 将视觉质量比较从成对选择扩展到开放式问答+理由生成；构建Co-Instruct-562K数据集（LLM合并描述+GPT-4V教师回答）与MICBench基准；Co-Instruct比开源SOTA MLLM平均高30%，并超过其教师GPT-4V。
+    M: 数据：Co-Instruct-562K；benchmark：MICBench；范式：GPT-4V教师响应蒸馏。
+P089 | Zhu et al. (2024) | 2024 | Q=A | NR | 代表路线 | 成对比较转分数,锚点图,MAP推断
+    F: 训练时用同库内图像生成尺度化比较指令（跨库融合），推理时以软比较计算待测图相对多个锚点图的偏好概率矩阵，再MAP估计连续质量分；9个IQA数据集验证SOTA，且概率矩阵转换法对通用零样本LMM同样有效。
+    M: 基座：LMM；范式：比较式监督→概率矩阵→MAP分数；9个IQA数据集评测。
+P090 | You et al. (2023) | 2023 | Q=B | FR/NR | 代表路线 | 描述式IQA,语言化评估,全参考可扩展到无参考
+    F: 放弃单一分数，用MLLM对图像内容与失真做描述性、比较性语言评价，贴近人类推理过程；在多基准上优于分数法，且全参考数据集设计可迁移到无参考场景。
+    M: 基座：MLLM；范式：分层任务框架+多源训练数据+专门图像标签。
+P091 | Zhu et al. (2024b) | 2024 | Q=B | NR | benchmark | 2AFC提示,零样本评测,粗粒度vs细粒度判别
+    F: 用最可靠的2AFC主观范式提示5个LMM，MAP聚合全局分；发现现有LMM粗粒度质量比较出色，但细粒度质量判别仍有明显差距。
+    M: 范式：two-alternative forced choice prompting+MAP；提出一致性/准确率/相关性三指标；5个LMM受测。
+P092 | Wu et al. (2024b) | 2024 | Q=A | NR | 局限证据 | 提示技术系统研究,反方证据,模板化描述
+    F: 系统梳理开源MLLM做IQA的提示技术；发现未微调MLLM倾向于输出模板化质量描述、缺乏灵活细致的感知判断——即通用prompting不足以做好IQA（与Q-Future微调路线形成对立结论）。
+    M: 方法论：在已有人标MOS数据集上系统试验提示技术组合；属实证/立场论文。
+P093 | Zhang et al. (2023) | 2023 | Q=B | NR | 代表路线 | MLLM-as-Judge,单答案打分,成对比较
+    F: 系统验证GPT-4V作为视觉-语言任务通用评估者：单答案打分与成对比较两种方式均与人类判断有较好一致性；但在视觉清晰度分级与复杂真实推理上存在局限。
+    M: 范式：single-answer grading + pairwise comparison；覆盖图文生成、图生图、多图对齐等任务。
+P094 | Chen et al. (2024) | 2024 | Q=A | NR | benchmark | MLLM-as-Judge评测,奖励模型,图像质量/偏见
+    F: 从对齐/安全/图像质量/偏见四维度评测CLIP系打分模型、开源VLM（LLaVA系）与闭源VLM（GPT-4o/Claude 3）；闭源VLM总体更好，GPT-4o最优；小打分模型在图文对齐与图像质量上更稳，VLM在安全与偏见判断上更强；VLM用自然语言Lik
+    M: 偏好数据集4维度分解；对比likert-scale vs数值反馈；huggingface.co/MJ-Bench开源。
+P095 | Pu et al. (2025) | 2025 | Q=B | NR | benchmark | MLLM-as-Judge,跨模态,生成任务打分弱
+    F: 评测8个先进MLLM（Gemini-1.5-Pro/Qwen2.5-Omni等）的评判能力：视觉理解任务上成对比较平均66.55%、打分42.79%；但在图像/视频生成任务上仅53.37%/30.05%，暴露跨模态偏见与幻觉。
+    M: TaskAnything 1,500查询；Pair Comparison vs Score Evaluation两种评判方式。
+P096 | Huang et al. (2024) | 2024 | Q=A | NR | benchmark | 美学感知,专家标注,benchmark,美学评价,大模型评判AIGC
+    F: 构建专家标注美学感知库EAPD，从感知/共情/评估/解释四维度评测MLLM；结论：当前MLLM仅具备初级美学感知能力，与人类专家差距显著。
+    M: EAPD数据集+AesP/AesE/AesA/AesI四评测维度。
+P097 | Huang et al. (2024b) | 2024 | Q=B | NR | 代表路线 | 美学指令微调,AesMMIT数据集,美感批评语料
+    F: 构建AesMMIT美学多模态指令数据集：21,904图+88K人写美感批评，GPT-4精炼为409K指令对；据此训练美学感知MLLM基座。
+    M: 范式：渐进式提问（粗粒度等级→细粒度描述）收集人工批评→GPT-4改写指令对。
+P098 | Huang et al. (2024c) | 2024 | Q=B | NR | 代表路线 | 广谱质量评估,开箱即用,AI生成图鉴别
+    F: 首个广谱图像主观质量评估LMM，开箱即用跨数据集；可同时输出MOS/噪声/色彩/锐度等数值指标、可解释语言描述，并能判别AI生成图与摄影图。
+    M: 基座：指令跟随LMM；能力：定量指标+定性解释+AIGC判别三合一。
+P099 | You et al. (2025) | 2025 | Q=B | NR | 代表路线 | 分数分布回归,软标签,跨数据集共训
+    F: 针对MLLM离散token与连续分数不匹配，将分数分布离散化为软标签（而非one-hot均值），并引入Thurstone模型保真损失捕捉数据集内关系；多基准分数回归稳定优于基线，且可预测与人标注对齐的分数分布。
+    M: 范式：score distribution soft-label + Thurstone fidelity loss；多IQA数据集共训。
+P100 | Li et al. (2025) | 2025 | Q=B | NR | benchmark | next-token打分,RealQA数据集,细粒度属性
+    F: 构建RealQA数据集（14,715张UGC图，每图10项细粒度人类感知属性标注）；发现大规模数据训练后直接用next-token预测带两位小数的MOS即可领先，CoT融合细粒度属性后在5个IQA/IAA基准超SOTA且VQA零样本强。
+    M: 范式：数值next-token回归+CoT属性融合；RealQA数据集。
+P101 | Lu et al. (2025) | 2025 | Q=B | NR | 代表路线 | 渐进指令微调,LoRA,可解释IQA
+    F: 针对整体质量解释与属性级感知问答联合微调时的冲突，分两阶段渐进式适配（LoRA通用感知知识+指令自适应视觉提示调优），轻量LMM即可在感知相关基准与常用IQA库上取得可比甚至更优结果。
+    M: 两阶段：LoRA迁移学习→视觉提示调优；任务：整体质量解释+属性级问答。
+P102 | Tang et al. (2025) | 2025 | Q=C | NR | 局限证据 | 分数转换误差,等级token语义混淆,回归模块补救
+    F: 理论分析指出既往方法把离散token预测转连续分数存在转换误差，且good/bad等等级token引入语义混淆；提出轻量回归模块+IQA专用分数token的Q-Scorer，多基准SOTA且混合数据集泛化好。
+    M: 范式：轻量回归头+专用score token；批评对象含Q-Align等级token路线。
+P103 | Wang et al. (2024) | 2024 | Q=A | NR | 代表路线 | AIGC图像质量,语义感知,MoE融合
+    F: 传统DNN-IQA在AI生成图上失效，MA-AGIQA用多模态模型提取语义向量引导，MoE结构融合语义信息与传统质量特征；在2个AIGC数据集+2个传统IQA数据集达SOTA且泛化性好。
+    M: 范式：MLLM语义引导+MoE融合质量特征；评测：AGIQA-2023等AIGC数据集。
+P104 | Cui et al. (2025) | 2025 | Q=B | NR | 代表路线 | AIGC质量,多轮评估,三方面对齐
+    F: 用MLLM对AI生成图从感知质量/提示对应/真实性三方面做结构化多轮评估（先生成中间描述再分析），多基准SOTA、跨数据集泛化强。
+    M: 范式：multi-round描述→三方面打分；AIGC质量评估。
+P105 | Gu等(2020) | 2020 | Q=C | NR | 奠基工作 | GAN生成图像,奠基
+    F: 首次提出对单张GAN生成图像做质量定量评价(GIQA)，给出learning-based与data-based两类算法，与人类评估一致
+    M: 对象为GAN生成图；无MOS数据库，用真实/生成分布似然做单图打分；可分离realism与diversity
+P106 | Zhang等(2023) | 2023 | Q=B | 数据库 | benchmark/dataset | 质量数据库,文生图
+    F: 首个面向AIGC感知质量评价的数据库AGIQA-1K，含1080张扩散模型生成图，讨论技术失真/AI伪影/不自然/不一致/美学等评价维度，并对现有IQA模型做基准测试
+    M: 规模1080张AIGI，标注MOS；仅感知质量单维（未含文图对齐）；基线为传统NR-IQA模型
+P107 | Li等(2023) | 2023 | Q=C | 数据库 | benchmark/dataset | 质量数据库,文生图对齐,偏好奖励模型
+    F: 构建细粒度多维主观库AGIQA-3K，同时收集感知质量与文生图对齐两维主观分；提出StairReward提升对齐评价；基准实验显示现有IQA模型与人类感知一致性有限
+    M: 覆盖多种主流AGI模型×多prompt×多采样参数；MOS双维度；提出StairReward对齐指标
+P108 | Wang等(2023) | 2023 | Q=C | 数据库 | benchmark/dataset | 质量数据库,文生图对齐
+    F: 建立大规模AIGC质量库AIGCIQA2023，从质量、真实性(authenticity)、对应性(correspondence)三视角采集人类视觉偏好，并评测主流IQA指标
+    M: 2000+张图，6个SOTA T2I模型×100个prompt；三维MOS；公开github.com/wangjiarui153/AIGCIQA2023
+P109 | Wang等(2024) | 2024 | Q=C | NR | 代表路线 | 质量数据库,大模型评判AIGC,文生图对齐
+    F: 在AIGCIQA2023基础上建立带偏好解释文本的AIGCIQA2023+库，提出MINT-IQA，通过视觉-语言指令微调实现多视角(质量/真实性/对应性)偏好打分与解释
+    M: 多视角偏好+自然语言解释；MLLM指令微调路线；与传统IQA模型竞争性能
+P110 | Yuan等(2023) | 2023 | Q=C | 数据库 | benchmark/dataset | 质量数据库,图生图
+    F: 指出既有库(AGIQA-1K/3K、AIGCIQA2023)仅覆盖文生图，建立图生图主观质量库PKU-I2IQA，并给出NR-AIGCIQA与FR-AIGCIQA两个基线模型
+    M: 图生图场景；含NR与FR双基线；公开github.com/jiquan123/I2IQA
+P111 | Li等(2024) | 2024 | Q=C | 数据库 | benchmark/dataset | 质量数据库,挑战赛,文生图对齐
+    F: 在NTIRE2024挑战赛组织过程中构建AIGIQA-20K：15个生成模型×动态超参(CFG/迭代轮数/分辨率)生成20000张图，21名受试者标注感知质量+对齐综合MOS，共420000条评分，并基准测试16个主流AIGI质量模型
+    M: 20000张图；420000条主观评分；感知质量+文图对齐双维度合并标注
+P112 | Li等(2024)挑战报告 | 2024 | Q=B | 数据库 | 挑战赛 | 挑战赛,质量数据库
+    F: NTIRE2024 AIGC质量评价挑战赛分图像赛道(用AIGIQA-20K，318人注册、16队提交)与视频赛道(用T2VQA-DB)；报告获奖方法相对基线的预测性能提升
+    M: 图像+视频双赛道；MOS预测任务；赛题报告汇总各队方法
+P113 | Chen等(2023) | 2023 | Q=B | NR | benchmark/dataset | 质量数据库,自然度,理性失真
+    F: 首次基准化AI生成图像视觉自然度：构建AGIN库(6049图，5类生成任务18模型变体，907350条技术/理性视角评价)；发现整体自然度分≈0.145×技术分+0.769×理性分的线性加权关系；提出JOINT联合学习技术与理性分支
+    M: 自然度评价；技术质量vs理性(rationality)两维；JOINT/JOINT++两种监督
+P114 | Tian等(2024) | 2024 | Q=C | 数据库 | benchmark/dataset | 质量数据库,应用导向,偏好解释
+    F: 指出现有AIGC-IQA只看生成内容本身、忽略真实应用有效性；建立AIGI-VC库(2500图，14个广告主题×8种情绪类型)，从信息清晰度与情感互动两视角标注粗粒度偏好+细粒度偏好描述
+    M: 广告传播场景；偏好预测/解释/推理三任务；评测传统IQA与大多模态模型
+P115 | Qian等(2025) | 2025 | Q=C | 数据库 | benchmark/dataset | 局部编辑,质量数据库,大模型评判AIGC
+    F: 指出现有AIGCIQA只覆盖全图生成、局部AI编辑图(partial-AIGC image)几乎空白；构建EPAIQA-15K(15000张局部编辑图+300000多维人类评分)，用大模型三阶段训练范式实现编辑区域定位→质量打分→质量解释
+    M: 局部编辑场景；LMM三阶段(grounding/scoring/explanation)；解释性质量反馈
+P116 | Wang等(2025) | 2025 | Q=A | 数据库 | benchmark/dataset | AI增强内容,质量数据库
+    F: 构建AI增强UGC(AI-UGC)感知质量库AU-IQA：4800张由超分/低光照增强/去噪三类增强技术处理的UGC图，评测传统IQA模型与大多模态模型在该混合场景的表现
+    M: AI增强而非AI生成；三类增强任务；传统IQA与LMM对比
+P117 | Wang等(2025) | 2025 | Q=C | 数据库 | benchmark/dataset | 质量数据库,大模型评判AIGC,文生图对齐
+    F: 构建EvalMi-50K：2100个prompt×20个细粒度任务维度，24个T2I模型生成50400张图，标注100K条MOS与50K条QA对；提出LMM4LMM评测指标(感知/文图对应/任务准确性多维)
+    M: 50400图/100K MOS；LMM评分模型；跨库泛化评测
+P118 | Qu等(2024) | 2024 | Q=C | NR | 代表路线 | 文生图对齐,质量数据库
+    F: 指出AGI质量的多模态本质：ground truth分耦合了图与文本prompt对应关系，混淆单模态IQA；提出IP-IQA图像-prompt多模态框架，引入Image2Prompt增量预训练任务，在AGIQA-1K与AGIQA-3K上取得SOTA
+    M: 图像+prompt双流；[QA]token融合模块；plug-and-play
+P119 | Xu等(2023) | 2023 | Q=A | 其他（奖励模型） | 偏好奖励模型 | 偏好奖励模型,文生图对齐
+    F: 构建首个通用文生图人类偏好奖励模型ImageReward：系统化标注流程收集137K专家成对比较；提出ReFL直接微调算法优化扩散模型；人类评测中优于现有打分模型与指标
+    M: 137K成对偏好；CLIP-based奖励模型；可做自动评测指标
+P120 | Wu等(2023) | 2023 | Q=C | 其他（奖励模型） | 偏好奖励模型 | 偏好奖励模型,文生图对齐
+    F: 构建HPD v2数据集：798090条人类偏好选择(433760对图)，刻意消除偏差；在其上微调CLIP得到HPS v2，跨图像分布泛化优于旧指标，并随生成算法改进而灵敏；建立T2I模型偏好基准
+    M: 798K偏好选择；CLIP微调；评测prompt设计指南
+P121 | Ma等(2025) | 2025 | Q=C | 其他（奖励模型） | 偏好奖励模型 | 偏好奖励模型,文生图对齐
+    F: 发布HPDv3：1.08M文图对+1.17M成对比较，首次覆盖从SOTA生成模型到低质量真实图的宽频谱；提出基于VLM与不确定性感知排序损失的HPSv3偏好模型，以及CoHP链式人类偏好图像精修方法
+    M: 1.17M比较对；VLM偏好模型；CoHP迭代选图
+P122 | Kirstain等(2023) | 2023 | Q=A | 其他（奖励模型） | 偏好奖励模型 | 偏好奖励模型,文生图对齐
+    F: 通过Web应用收集真实用户T2I偏好，建立大规模开放数据集Pick-a-Pic；训练CLIP打分函数PickScore，预测人类偏好达超人类水平，与人类排序相关性优于其他自动指标
+    M: 约100万级用户偏好对（后续Diffusion-DPO引用为851K成对偏好）；PickScore可用于模型评测与排序选图
+P123 | Zhang等(2024) | 2024 | Q=A | 其他（奖励模型） | 偏好奖励模型 | 偏好奖励模型,文生图对齐
+    F: 指出现有偏好模型把人类偏好压缩为单一总分；构建MHP数据集(918315条偏好选择，覆盖美学/语义对齐/细节质量/总体评估4维)，提出偏好条件模块的MPS多维打分模型
+    M: 918K四维偏好；CLIP+preference condition module
+P124 | Wu等(2024) | 2024 | Q=A | 其他（奖励模型） | 偏好奖励模型 | 偏好奖励模型,大模型评判AIGC,文生图对齐
+    F: 用MLLM构造细粒度偏好数据集VisionPrefer(1.2M偏好选择，覆盖prompt遵循/美学/保真/无害4维)，训练VP-Score奖励模型，经PPO/DPO微调T2I模型
+    M: AI标注偏好数据；四维细粒度；VP-Score+RL微调
+P125 | Lin等(2024) | 2024 | Q=C | 其他（对齐指标） | 代表路线 | 文生图对齐,VQA类指标
+    F: 用VQA模型对"Does this figure show [text]?"回答Yes的概率计算对齐分；现成模型即可在8个文图对齐基准上达SOTA，可超越GPT4-V类基线；缓解CLIPScore"词袋"问题
+    M: Yes概率打分；CLIP-FlanT5自研模型；亦可扩展到视频/3D对齐
+P126 | Li等(2024) | 2024 | Q=C | 其他（benchmark） | benchmark | 文生图对齐,benchmark
+    F: GenAI-Bench含1600个组合型prompt与15000+人类评分；VQAScore在黑盒排序选图上比PickScore/HPSv2/ImageReward有效2-3倍；另发布GenAI-Rank(40000+人类评分)评测打分指标
+    M: 组合型prompt；排序选图(ranking)评测协议
+P127 | Hu等(2023) | 2023 | Q=A | 其他（对齐指标） | benchmark | 文生图对齐,VQA类指标
+    F: 用LM自动生成QA对、VQA模型回答来度量生成图对文本的忠实度；TIFA v1.0含4000文本输入/25000问题/12类；发现现有T2I模型在计数、空间关系、多物体组合上仍弱
+    M: 无参考指标；细粒度可解释；12类问题
+P128 | Huang等(2023) | 2023 | Q=A | 其他（benchmark） | benchmark | 文生图对齐,benchmark
+    F: 构建组合型T2I综合基准：6000条组合prompt(属性绑定/物体关系/复杂组合3大类6子类)，提出组合专属评测指标并探索MLLM评测潜力；另提出GORS奖励驱动样本选择方法
+    M: 组合生成评测；CLIPScore类+检测类指标；MLLM评测探索
+P129 | Ku等(2024) | 2024 | Q=A | 其他（benchmark） | benchmark | benchmark,传统IQA失效证据
+    F: 统一7类条件图像生成任务的评测管线(约30个模型)；发现除主体驱动生成外，现有自动指标与人类判断的Spearman相关性均低于0.2——传统/现有自动指标在AIGC上失效的关键证据；74%模型总分低于0.5
+    M: 专家标注员人工评测；语义一致性+感知质量两维人类分数
+P130 | Lee等(2023) | 2023 | Q=A | 其他（benchmark） | benchmark | benchmark,文生图对齐
+    F: 从12个维度(文图对齐/图像质量/美学/原创性/推理/知识/偏见/毒性/公平/鲁棒/多语言/效率)评测26个SOTA T2I模型(62场景)；无单一模型全维度领先
+    M: 12维62场景；人类评测结果全公开
+P131 | Ku等(2024) | 2024 | Q=A | 其他（对齐指标） | 代表路线 | 大模型评判AIGC,文生图对齐
+    F: 用通用MLLM(无需训练)做7类条件图像任务评测：VIEScore(GPT-4o)与人类评测Spearman相关约0.4，接近人-人相关0.45；开源MLLM明显弱于GPT-4o；生成任务上与人评相当，编辑任务上仍吃力
+    M: 无需训练的MLLM prompt评测；7类条件生成任务
+P132 | Ghildyal等(2024) | 2024 | Q=C | 其他（立场论文） | 局限证据 | 传统IQA失效证据,综述,AIGC,生成式失真,QoE
+    F: 系统指出：多数既有IQA/VQA模型度量的是对原始参考的"重建"保真度，并非为"生成"伪影设计；小而失真的数据集限制了GenAI质量模型评测
+    M: 立场/趋势论文；面向QoE部署视角
+P133 | Schuhmann等(2022) | 2022 | Q=A | 其他（数据库） | 背景数据库 | 美学评价,背景
+    F: LAION-5B(58.5亿文图对)及其LAION-Aesthetics子集(约12亿图)的构建管道；其上训练的美学预测器LAP被广泛用于生成数据筛选与美学打分
+    M: 注：LAP v1/v2本身是社区发布的模型而非同行评议论文，引用时应引用本LAION-5B论文并注明
+P134 | Lin and Kuo（2011） | 2011 | Q=A | 综述 | 综述 | 综述,感知质量指标
+    F: 系统综述PVQM的计算模块（信号分解、JND、视觉注意）与SSIM/VSNR/IFC/VIF等指标在7个数据库上的比较
+    M: 摘要层：3832幅测试图像比较6个常用指标
+P135 | Zhai and Min（2020） | 2020 | Q=A | 综述 | 综述 | 综述,主观数据库,客观指标,评价协议
+    F: 先综述主观数据库，再按方法学分类综述客观指标，并引入评价协议比较SOTA指标性能
+    M: 摘要层
+P136 | Manap and Shao（2015） | 2015 | Q=A | 综述 | 综述 | 综述,NR-IQA,NSS
+    F: 将非失真特异NR-IQA分为NSS派与学习派，讨论性能、局限与趋势
+    M: 摘要层
+P137 | Rehman et al.（2024） | 2024 | Q=B | 综述 | 综述 | 综述,Transformer,NR-IQA,FR-IQA
+    F: 综述ViT在NR/FR-IQA中的应用，指出注意力机制对失真区域的对齐优势，展望混合架构与元学习
+    M: 摘要层
+P138 | Wang（2023） | 2023 | Q=C | 综述 | 综述 | 综述,BIQA,多模态
+    F: 覆盖手工特征BIQA、深度学习BIQA（监督/无监督）与多模态（视觉-音频、视觉-文本）质量评价
+    M: 摘要层；预印本
+P139 | Tian et al.（2025） | 2025 | Q=A | 综述 | 综述 | 综述,AIGC,文生图,对齐,美学
+    F: 从主观/客观两视角综述文生图质量评价，覆盖文本-图像对齐、感知、美学、公平性、毒性等维度
+    M: 摘要层；卷期终稿前需在IEEE Xplore核对
+P140 | Hartwig et al.（2024） | 2024 | Q=C | 综述 | 综述 | 综述,AIGC,文生图,指标分类
+    F: 提出文生图质量指标taxonomy：组合质量（compositional）与一般质量（general）两大准则，并整理专用benchmark
+    M: 摘要层；预印本
+P141 | 王志明（2015） | 2015 | Q=A | 综述 | 综述 | 综述,NR-IQA,中文工作
+    F: 综述20年NR-IQA技术，介绍评价指标与公开数据库，对近年非失真特异方法做公开库测试比较
+    M: 摘要层
+P142 | 方玉明等（2021） | 2021 | Q=A | 综述 | 综述 | 综述,NR-IQA,中文工作,目标期刊定位
+    F: 概述2012-2020年NR-IQA，按是否使用主观分数分为有监督/无监督，再分传统机器学习与深度学习，并覆盖新媒体数据
+    M: 摘要层；本综述定位的直接对标前作
+P143 | 鄢杰斌等（2022） | 2022 | Q=A | 综述 | 综述 | 综述,失真分类,中文工作,目标期刊定位
+    F: 梳理2011-2021年IQA模型，按失真类型分为合成失真、真实失真、算法相关失真三类
+    M: 摘要层；本综述定位的直接对标前作，新综述须补2022后MLLM/AIGC
+P144 | 程茹秋等（2022） | 2022 | Q=A | 综述 | 综述 | 综述,图像/视频,中文工作,目标期刊定位
+    F: 回顾图像/视频质量评价发展，从FR/RR/NR三方面综述结构信息/HVS/NSS方法，基于SROCC/PLCC比较代表算法
+    M: 摘要层；含视频，本综述以图像为主可简要对照
+P145 | 高敏娟等（2021） | 2021 | Q=A | 综述 | 综述 | 综述,FR-IQA,中文工作
+    F: 回顾FR-IQA发展，分析问题构建合理性、建模全面性、知识驱动与数据驱动结合问题，提出模糊建模与知识-数据联合驱动方向
+    M: 摘要层
+P146 | Bovik（2013） | 2013 | Q=A | 综述 | 综述 | 综述,视觉通信,NSS,HVS
+    F: 以视觉通信系统类比组织质量评价问题，综述自然图像/视频模型、视觉感知模型与广谱应用
+    M: 摘要层
+P147 | Ma et al.（2016） | 2016 | Q=A | 其他（评价协议） | 奠基工作 | 评价协议,gMAD,大规模比较
+    F: 提出gMAD竞争机制自动选择最能区分模型优劣的图像对，配合4744源图/94880失真图大规模库进行人评比较
+    M: 摘要层：16个模型参与gMAD
+P148 | Zhang et al.（2012） | 2012 | Q=B | 其他（评价协议） | benchmark或dataset | 评价协议,FR-IQA,横向评测
+    F: 在全部7个公开IQA库上评测11个FR指标，给出统一比较结果
+    M: 摘要层：7库11指标
+P149 | Xu et al.（2017） | 2017 | Q=B | 综述 | 综述 | 综述,NR-IQA,中文工作
+    F: 重点综述通用型NR-IQA（失真特异与非特异），在三个常用库上评测SOTA并讨论开放挑战
+    M: 摘要层
+P150 | Liu et al.（2013） | 2013 | Q=B | 综述 | 综述 | 综述,图像/视频,编码应用
+    F: 图像与视频质量数据库/指标并重综述，讨论感知编码应用并做基准实验
+    M: 摘要层

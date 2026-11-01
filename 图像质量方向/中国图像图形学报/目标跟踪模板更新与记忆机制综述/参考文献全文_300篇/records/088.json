@@ -1,0 +1,40 @@
+{
+  "number": 88,
+  "title": "Adaptive Color Attributes for Real-Time Visual Tracking",
+  "year": 2014,
+  "authors": [
+    "Martin Danelljan",
+    "Fahad Shahbaz Khan",
+    "Michael Felsberg",
+    "Joost van de Weijer"
+  ],
+  "venue": "CVPR",
+  "category": "相关滤波与样本正则化",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2014/html/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.pdf",
+      "bytes": 1345176,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\088_2014_Adaptive_Color_Attributes_for_Real-Time_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2014/papers/Danelljan_Adaptive_Color_Attributes_2014_CVPR_paper.pdf",
+  "bytes": 1345176,
+  "sha256": "824f0505bb75daf125d41188d211d8283066b33ff98ec6d995bc6c0124bc763f",
+  "version": "会议官方开放版本",
+  "pages": 8,
+  "pdf_title": "Adaptive Color Attributes for Real-Time Visual Tracking",
+  "first_page_text": "Adaptive Color Attributes for Real-Time Visual Tracking\nMartin Danelljan1, Fahad Shahbaz Khan1, Michael Felsberg1, Joost van de Weijer2\n1Computer Vision Laboratory, Link¨oping University, Sweden\n2Computer Vision Center, CS Dept. Universitat Autonoma de Barcelona, Spain\n{martin.danelljan, fahad.khan, michael.felsberg}@liu.se, joost@cvc.uab.es\nAbstract\nVisual tracking is a challenging problem in computer vi-\nsion. Most state-of-the-art visual trackers either rely on\nluminance information or use simple color representations\nfor image description. Contrary to visual tracking, for ob-\nject recognition and detection, sophisticated color features\nwhen combined with luminance have shown to provide ex-\ncellent performance. Due to the complexity of the tracking\nproblem, the desired color feature should be computation-\nally efﬁcient, and possess a certain amount of photometric\ninvariance while maintaining high discriminative power.\nThis paper investigates the contribution of color in a\ntracking-by-detection framework. Our results suggest that\ncolor attributes provides superior performance for visual\ntracking. We further propose an adaptive low-dimensional\nvariant of color attributes. Both quantitative and attribute-\nbased evaluations are performed on 41 challenging bench-\nmark color sequences. The proposed approach improves the\nbaseline intensity-based tracker by 24% in median distance\nprecision. Furthermore, we show that our approach out-\nperforms state-of-the-art tracking methods while running at\nmore than 100 frames per second.\n1. Introduction\nVisual object tracking, where the objective is to estimate\nlocations of a target in an image sequence, is one of the most\nchallenging problems in computer vision. It plays a crucial\nrole in many applications, especially for human-computer\ninteraction, surveillance and robotics. Several factors, such\nas illumination variations, partial occlusions, background\nclutter and shape deformation complicate the problem. In\nthis paper we investigate to what extent the usage of color\ncan alleviate some of these issues.\nMost state-of-the-art trackers either rely on intensity or\ntexture information [7, 27, 11, 5, 20].\nWhile signiﬁcant\nprogress has been made to visual tracking, the use of color\ninformation is limited to simple color space transforma-\ntions [19, 17, 18]. In contrast to visual tracking, sophisti-\n#002\n#048\n#102\n#014\n#151\n#220\n#001\n#073\n#155\nFigure 1: Comparison of our approach with state-of-the-\nart trackers in challenging situations such as illumination\nvariation, occlusion, deformation and in-plane rotation. The\nexample frames are from the Ironman, Bolt and Soccer se-\nquences respectively. The results of Struck [7], EDFT [6],\nCSK [9], LSHT [8] and our approach are represented by\nblue, grey, cyan, magenta and red boxes respectively.\ncated color features have shown to provide excellent per-\nformance for object recognition and detection [21, 14, 26,\n22, 13]. Exploiting color information for visual tracking\nis a difﬁcult challenge. Color measurements can vary sig-\nniﬁcantly over an image sequence due to variations in illu-\nminant, shadows, shading, specularities, camera and object\ngeometry. Robustness with respect to these factors has been\nstudied in color imaging, and successfully applied to image\nclassiﬁcation [21, 14], and action recognition [12]. There-\nfore, we evaluate existing color transformations for the task\nof visual object tracking.\nThere exist two main approaches to handle visual track-\ning, namely generative and discriminative methods. The\ngenerative methods [2, 15, 16] tackle the problem by\nsearching for regions that are most similar to the target\nmodel.\nThe models in these methods are either based\non templates or subspace models. The discriminative ap-\nproaches [7, 27, 5, 9] aim at differentiating the target from\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

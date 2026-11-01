@@ -1,0 +1,41 @@
+{
+  "number": 138,
+  "title": "Siamese Box Adaptive Network for Visual Tracking",
+  "year": 2020,
+  "authors": [
+    "Zedu Chen",
+    "Bineng Zhong",
+    "Guorong Li",
+    "Shengping Zhang",
+    "Rongrong Ji"
+  ],
+  "venue": "CVPR",
+  "category": "孪生匹配与目标条件化",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_CVPR_2020/html/Chen_Siamese_Box_Adaptive_Network_for_Visual_Tracking_CVPR_2020_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Siamese_Box_Adaptive_Network_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Siamese_Box_Adaptive_Network_for_Visual_Tracking_CVPR_2020_paper.pdf",
+      "bytes": 2563069,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\138_2020_Siamese_Box_Adaptive_Network_for_Visual_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Siamese_Box_Adaptive_Network_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Siamese_Box_Adaptive_Network_for_Visual_Tracking_CVPR_2020_paper.pdf",
+  "bytes": 2563069,
+  "sha256": "3a673e141cc19ff2a53bd3a4f436c51ed361eb36dc56580110d7728f3816a591",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Siamese Box Adaptive Network for Visual Tracking",
+  "first_page_text": "Siamese Box Adaptive Network for Visual Tracking\nZedu Chen1, Bineng Zhong1, 6∗, Guorong Li2, Shengping Zhang3,4, Rongrong Ji5,4\n1Department of Computer Science and Technology, Huaqiao University\n2School of Computer Science and Technology, University of Chinese Academy of Sciences\n3Harbin Institute of Technology, 4Peng Cheng Laboratory\n5Department of Artiﬁcial Intelligence, School of Informatics, Xiamen University\n6Key Laboratory of Intelligent Perception and Systems for High-Dimensional Information of\nMinistry of Education, Nanjing University of Science and Technology\nzeduchen@stu.hqu.edu.cn, bnzhong@hqu.edu.cn, liguorong@ucas.ac.cn\ns.zhang@hit.edu.cn, rrji@xmu.edu.cn\nAbstract\nMost of the existing trackers usually rely on either a\nmulti-scale searching scheme or pre-deﬁned anchor boxes\nto accurately estimate the scale and aspect ratio of a target.\nUnfortunately, they typically call for tedious and heuristic\nconﬁgurations. To address this issue, we propose a simple\nyet effective visual tracking framework (named Siamese Box\nAdaptive Network, SiamBAN) by exploiting the expressive\npower of the fully convolutional network (FCN). SiamBAN\nviews the visual tracking problem as a parallel classiﬁca-\ntion and regression problem, and thus directly classiﬁes ob-\njects and regresses their bounding boxes in a uniﬁed FCN.\nThe no-prior box design avoids hyper-parameters associ-\nated with the candidate boxes, making SiamBAN more ﬂex-\nible and general. Extensive experiments on visual tracking\nbenchmarks including VOT2018, VOT2019, OTB100, NFS,\nUAV123, and LaSOT demonstrate that SiamBAN achieves\nstate-of-the-art performance and runs at 40 FPS, conﬁrm-\ning its effectiveness and efﬁciency. The code will be avail-\nable at https://github.com/hqucv/siamban.\n1. Introduction\nVisual tracking is a fundamental but challenging task in\ncomputer vision. Given the target state in the initial frame\nof a sequence, the tracker needs to predict the target state\nin each subsequent frame. Despite great progress in recent\nyears, visual tracking still faces challenges due to occlusion,\nscale variation, background clutters, fast motion, illumina-\ntion variation, and appearance variations.\nIn a real-world video, the target scale and aspect ratio are\n∗Corresponding author.\nscale #2\nscale #1\nscale #3\nanchor \nboxes \nwith \ndifferent \nratios\npredicted \nfour \noffsets\nMulti-scale Search\nAnchor-based\nAnchor-free (ours)\n(a) Different scale or aspect ratio handing methods\nECO\nOurs\nSiamRPN++\n(b) Qualitative comparison results\nFigure 1. (a) Methods used to estimate the target scale or as-\npect ratio: multi-scale search (such as SiamFC, ECO), anchor-\nbased (such as SiamRPN, SiamRPN++), and anchor-free (such\nas ours).(b) Some representative experiment results from our\nSiamBAN tracker and two state-of-the-art trackers.\nObserved\nfrom the visualization results, our tracker is better than the other\ntwo trackers in terms of scale and aspect ratio.\nalso changing due to target or camera movement and target\nappearance changes. Accurately estimating the scale and\naspect ratio of the target becomes a challenge in the ﬁeld\nof visual tracking. However, many existing trackers ignore\nthis problem and rely on a multi-scale search to estimate the\ntarget size. For example, the current state-of-the-art cor-\nrelation ﬁlter based trackers [6, 3] rely on their classiﬁca-\ntion components, and the target scale is simply estimated by\nmulti-scale search. Recently, Siamese network based visual\n6668\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

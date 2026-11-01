@@ -1,0 +1,601 @@
+{
+  "number": 240,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          6
+        ]
+      ],
+      "date-time": "2026-10-06T16:26:24Z",
+      "timestamp": 1791303984987,
+      "version": "4.1.0"
+    },
+    "reference-count": 61,
+    "publisher": "IEEE",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              6,
+              10
+            ]
+          ],
+          "date-time": "2025-06-10T00:00:00Z",
+          "timestamp": 1749513600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr52734.2025.00816",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          13
+        ]
+      ],
+      "date-time": "2025-08-13T17:26:42Z",
+      "timestamp": 1755106002000
+    },
+    "page": "8731-8741",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": [
+      "MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Xinqi",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zikun",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Pengcheng Laboratory"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianqiu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhenyu",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Harbin Institute of Technology,Shenzhen"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "article-title": "Long-former: The long-document transformer",
+        "author": "Beltagy",
+        "year": "2020"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-48881-3_56"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2019.00628"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00803"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.01324"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.733"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.00721"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00552"
+      },
+      {
+        "issue": "7",
+        "key": "ref9",
+        "first-page": "8",
+        "article-title": "Robust visual object tracking with natural language region proposal network",
+        "volume": "1",
+        "author": "Feng",
+        "year": "2019"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/WACV45572.2020.9093425"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00579"
+      },
+      {
+        "key": "ref12",
+        "article-title": "Hungry hungry hippos: Towards language modeling with state space models",
+        "volume-title": "International Conference on Learning Representations",
+        "author": "Fu"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01356"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.01792"
+      },
+      {
+        "key": "ref15",
+        "article-title": "Mamba: Linear-time sequence modeling with selective state spaces",
+        "author": "Gu",
+        "year": "2023"
+      },
+      {
+        "key": "ref16",
+        "article-title": "Efficiently modeling long sequences with structured state spaces",
+        "volume-title": "International Conference on Learning Representations",
+        "author": "Gu"
+      },
+      {
+        "key": "ref17",
+        "first-page": "572",
+        "article-title": "Combining recurrent, convolutional, and continuous-time models with linear state space layers",
+        "volume": "34",
+        "author": "Gu",
+        "year": "2021",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref18",
+        "first-page": "35971",
+        "article-title": "On the parameterization and initialization of diagonal state space models",
+        "volume": "35",
+        "author": "Gu",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-72649-1_13"
+      },
+      {
+        "key": "ref20",
+        "first-page": "4446",
+        "article-title": "Divert more attention to vision-language tracking",
+        "volume": "35",
+        "author": "Guo",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref21",
+        "article-title": "Demystify mamba in vision: A linear attention perspective",
+        "author": "Han",
+        "year": "2024"
+      },
+      {
+        "key": "ref22",
+        "article-title": "Mambaad: Exploring state space models for multi-class unsupervised anomaly detection",
+        "author": "He",
+        "year": "2024"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref24",
+        "article-title": "A multi-modal global instance tracking benchmark (mgit): Better locating target in complex spatio-temporal and causal relationship",
+        "volume": "36",
+        "author": "Hu",
+        "year": "2024",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2019.2957464"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2018.00935"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2019.00441"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-73347-5_14"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Coupled mamba: Enhanced multi-modal fusion with coupled state space model",
+        "author": "Li",
+        "year": "2024"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/cvprw56347.2022.00540"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2017.777"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-72897-6_18"
+      },
+      {
+        "key": "ref33",
+        "first-page": "16743",
+        "article-title": "Swintrack: A simple and strong baseline for transformer tracking",
+        "volume": "35",
+        "author": "Lin",
+        "year": "2022",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "ref34",
+        "article-title": "Vmamba: Visual state space model",
+        "author": "Liu",
+        "year": "2024"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00986"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV51070.2023.01288"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i5.28205"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.9"
+      },
+      {
+        "key": "ref39",
+        "article-title": "Long range language modeling via gated state spaces",
+        "author": "Mehta",
+        "year": "2022"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52733.2024.01817"
+      },
+      {
+        "key": "ref42",
+        "article-title": "Multi-scale vmamba: Hierarchy in hierarchy visual state space model",
+        "author": "Shi",
+        "year": "2024"
+      },
+      {
+        "key": "ref43",
+        "article-title": "Simplified state space layers for sequence modeling",
+        "volume-title": "International Conference on Learning Representations",
+        "author": "Smith"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR42600.2020.01080"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.00162"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR46437.2021.01355"
+      },
+      {
+        "key": "ref47",
+        "article-title": "Mamballie: Implicit retinex-aware low light enhancement with global-then-local state space",
+        "author": "Weng",
+        "year": "2024"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v39i8.32954"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v34i07.6944"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-01240-3_10"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2020.3038720"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-20047-2_20"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref54",
+        "article-title": "Vfimamba: Video frame interpolation with state space models",
+        "author": "Zhang",
+        "year": "2024"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.01309"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCSVT.2023.3301933"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1609/aaai.v38i7.28591"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52729.2023.02217"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV48922.2021.00972"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR52688.2022.00856"
+      },
+      {
+        "key": "ref61",
+        "article-title": "Vision mamba: Efficient visual representation learning with bidirectional state space model",
+        "volume-title": "Forty-first International Conference on Machine Learning",
+        "author": "Zhu"
+      }
+    ],
+    "event": {
+      "name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Nashville, TN, USA",
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            10
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            17
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/11091818/11091608/11093726.pdf?arnumber=11093726",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2025-08-14T07:57:22Z",
+      "timestamp": 1755158242000
+    },
+    "score": 69.386795,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/11093726/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    },
+    "references-count": 61,
+    "URL": "https://doi.org/10.1109/cvpr52734.2025.00816",
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          10
+        ]
+      ]
+    }
+  }
+}

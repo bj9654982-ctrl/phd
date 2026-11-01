@@ -1,0 +1,500 @@
+{
+  "number": 91,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Real-time part-based visual tracking via adaptive correlation filters",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2026-10-05T10:00:42Z",
+      "timestamp": 1791194442347,
+      "version": "4.1.0"
+    },
+    "reference-count": 56,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1109/cvpr.2015.7299124",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2015-10-15T22:42:06Z",
+      "timestamp": 1444948926000
+    },
+    "page": "4902-4912",
+    "source": "Crossref",
+    "is-referenced-by-count": 293,
+    "title": [
+      "Real-time part-based visual tracking via adaptive correlation filters"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Ting",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qingxiong",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.161"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126309"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2220151"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247895"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459292"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICIP.2005.1529854"
+      },
+      {
+        "key": "ref37",
+        "first-page": "1815",
+        "article-title": "Part-based multiple-person tracking with partial occlusion handling",
+        "author": "shu",
+        "year": "2012",
+        "journal-title": "Computer Vision and Pattern Recognition (CVPR) 2012 IEEE Conference on"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2008.4587575"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247891"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref28",
+        "first-page": "1",
+        "article-title": "Visual tracking via temporally smooth sparse coding",
+        "author": "liu",
+        "year": "2014",
+        "journal-title": "Signal Processing Letters IEEE"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995730"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2008.4587564"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.53"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "798",
+        "DOI": "10.1109/CVPR.2006.256",
+        "article-title": "Robust fragments-based tracking using the integral histogram",
+        "volume": "1",
+        "author": "adam",
+        "year": "2006",
+        "journal-title": "Computer Vision and Pattern Recognition 2006 IEEE Computer Society Conference on"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247880"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126414"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540231"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126369"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206502"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1109/CVPR.2008.4587699",
+        "article-title": "Visual tracking via incremental log-euclidean riemannian subspace learning",
+        "author": "li",
+        "year": "2008",
+        "journal-title": "Computer Vision and Pattern Recognition 2008 CVPR 2008 IEEE Conference on"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.446"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2012.07.013"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.patcog.2015.02.003"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neucom.2013.11.004"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.164"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-012-0582-z"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "first-page": "864",
+        "DOI": "10.1007/978-3-642-33712-3_62",
+        "article-title": "Real-time compressive tracking",
+        "author": "zhang",
+        "year": "2012",
+        "journal-title": "Computer Vision-ECCV 2012"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2012.145"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459276"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2012.2202677"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.143"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1177",
+        "DOI": "10.1109/CVPR.2011.5995733",
+        "article-title": "Context track-er: Exploring supporters and distracters in unconstrained environments",
+        "author": "dinh",
+        "year": "2011",
+        "journal-title": "Computer Vision and Pattern Recognition (CVPR) 2011 IEEE Conference on"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-009-0275-4"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cviu.2012.11.005"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2006.181"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "100",
+        "DOI": "10.1007/978-3-642-33783-3_8",
+        "article-title": "2t: Multiple people multiple parts tracker",
+        "author": "izadinia",
+        "year": "2012",
+        "journal-title": "Computer Vision-ECCV 2012"
+      },
+      {
+        "key": "ref4",
+        "first-page": "983",
+        "article-title": "Visual tracking with online multiple instance learning. In Computer Vision and Pattern Recognition, 2009. CVPR 2009",
+        "author": "babenko",
+        "year": "2009",
+        "journal-title": "IEEE Conference on"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-33765-9_60"
+      },
+      {
+        "key": "ref5",
+        "first-page": "1830",
+        "article-title": "Real time robust 11 tracker using accelerated proximal gradient approach",
+        "author": "bao",
+        "year": "2012",
+        "journal-title": "Computer Vision and Pattern Recognition (CVPR) 2012 IEEE Conference on"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2009.5459278"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539960"
+      },
+      {
+        "key": "ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.306"
+      },
+      {
+        "key": "ref9",
+        "first-page": "1363",
+        "article-title": "An adaptive coupled-layer visual model for robust visual tracking. In Computer Vision (ICCV)",
+        "author": "cehovin",
+        "year": "2011",
+        "journal-title": "2011 IEEE International Conference on"
+      },
+      {
+        "key": "ref46",
+        "first-page": "665",
+        "article-title": "Robust object tracking with online multi-lifespan dictionary learning",
+        "author": "xinp",
+        "year": "2013",
+        "journal-title": "Computer Vision (ICCV) 2013 IEEE International Conference on"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-319-12637-1_74"
+      },
+      {
+        "key": "ref48",
+        "article-title": "Online object tracking, learning and parsing with and-or graphs",
+        "author": "yang lu",
+        "year": "2014",
+        "journal-title": "CVPR"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "crossref",
+        "first-page": "484",
+        "DOI": "10.1007/978-3-642-33718-5_35",
+        "article-title": "Online learned discriminative part-based appearance models for multi-human tracking",
+        "author": "yang",
+        "year": "2012",
+        "journal-title": "Computer Vision-ECCV 2012"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "crossref",
+        "first-page": "200",
+        "DOI": "10.1007/978-3-642-15558-1_15",
+        "article-title": "Discriminative tracking by metric learning",
+        "author": "wang",
+        "year": "2010",
+        "journal-title": "Computer Vision-ECCV 2010"
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2403231"
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2012.6247878"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      }
+    ],
+    "event": {
+      "name": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "location": "Boston, MA, USA",
+      "start": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            7
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2015,
+            6,
+            12
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/7293313/7298593/07299124.pdf?arnumber=7299124",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          15
+        ]
+      ],
+      "date-time": "2023-08-15T11:35:19Z",
+      "timestamp": 1692099319000
+    },
+    "score": 59.731396,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/7299124/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "references-count": 56,
+    "URL": "https://doi.org/10.1109/cvpr.2015.7299124",
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    }
+  }
+}

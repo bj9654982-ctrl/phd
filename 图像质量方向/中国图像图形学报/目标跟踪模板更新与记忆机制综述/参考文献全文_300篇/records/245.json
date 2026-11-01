@@ -1,0 +1,45 @@
+{
+  "number": 245,
+  "title": "Bridging Search Region Interaction With Template for RGB-T Tracking",
+  "year": 2023,
+  "authors": [
+    "Tianrui Hui",
+    "Zizheng Xun",
+    "Fengguang Peng",
+    "Junshi Huang",
+    "Xiaoming Wei",
+    "Xiaolin Wei",
+    "Jiao Dai",
+    "Jizhong Han",
+    "Si Liu"
+  ],
+  "venue": "CVPR",
+  "category": "多模态历史与统一跟踪",
+  "priority": "P3 背景与边界",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.pdf",
+      "bytes": 2484779,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\245_2023_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Hui_Bridging_Search_Region_Interaction_With_Template_for_RGB-T_Tracking_CVPR_2023_paper.pdf",
+  "bytes": 2484779,
+  "sha256": "9065eb59962956f2faaab59b052bc7dfec3b2a8baf7145b634fb76e1e5d84b26",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Bridging Search Region Interaction With Template for RGB-T Tracking",
+  "first_page_text": "Bridging Search Region Interaction with Template for RGB-T Tracking\nTianrui Hui1,2,4\nZizheng Xun3,5\nFengguang Peng3,5\nJunshi Huang4\nXiaoming Wei4\nXiaolin Wei4\nJiao Dai1,2*\nJizhong Han1,2\nSi Liu3,5\n1 Institute of Information Engineering, Chinese Academy of Sciences\n2 School of Cyber Security, University of Chinese Academy of Sciences\n3 Institute of Artificial Intelligence, Beihang University\n4 Meituan\n5 Hangzhou Innovation Institute, Beihang University\nAbstract\nRGB-T tracking aims to leverage the mutual enhance-\nment and complement ability of RGB and TIR modalities for\nimproving the tracking process in various scenarios, where\ncross-modal interaction is the key component. Some previ-\nous methods concatenate the RGB and TIR search region\nfeatures directly to perform a coarse interaction process\nwith redundant background noises introduced. Many other\nmethods sample candidate boxes from search frames and\nconduct various fusion approaches on isolated pairs of RGB\nand TIR boxes, which limits the cross-modal interaction\nwithin local regions and brings about inadequate context\nmodeling. To alleviate these limitations, we propose a novel\nTemplate-Bridged Search region Interaction (TBSI) module\nwhich exploits templates as the medium to bridge the cross-\nmodal interaction between RGB and TIR search regions by\ngathering and distributing target-relevant object and envi-\nronment contexts. Original templates are also updated with\nenriched multimodal contexts from the template medium.\nOur TBSI module is inserted into a ViT backbone for joint\nfeature extraction, search-template matching, and cross-\nmodal interaction. Extensive experiments on three popu-\nlar RGB-T tracking benchmarks demonstrate our method\nachieves new state-of-the-art performances. Code is avail-\nable at https://github.com/RyanHTR/TBSI.\n1. Introduction\nGiven the initial state of a single target object in the first\nframe, the goal of single object tracking (SOT) is to local-\nize the target object in successive frames. As a fundamen-\ntal task in the computer vision community, SOT has drawn\nthe great attention of researchers. However, current SOT\nmethods built on only visible light (RGB) data become vul-\nnerable under extreme imaging conditions (e.g., low illumi-\n*Corresponding author\nRGB Search Frame\nTIR Search Frame\n(a)\nRGB RoIs\nTIR RoIs\n(b)\nTemplate\nTIR Search Tokens\nRGB Search Tokens\n(c)\nCNN\nCNN\nConcat\nCNN\nCNN\nFusion\nViT\nViT\nTokens\nBridging\nFigure 1. Comparison between our cross-modal interaction ap-\nproach and previous ones. (a) Features of RGB and TIR search\nframes are directly concatenated. (b) Candidate boxes (RoIs) are\nsampled from RGB and TIR search frames and fused in pairs with\ngating or attention mechanisms. (c) Our approach exploits tem-\nplate tokens as the medium to bridge the cross-modal interaction\nbetween RGB and TIR search region tokens.\nnation and adverse weather, etc), which motivates the in-\ncorporation of thermal infrared (TIR or T) data for mutual\nenhancement and complement. Benefiting from the strong\nnocturnal photosensitivity and penetration ability of thermal\ninfrared data, RGB-T tracking enjoys wide potential appli-\ncations such as video surveillance processing [1], intelligent\nrobotics [5], and autonomous driving [8].\nAs a multimodal vision task, the key to RGB-T tracking\nis how to perform effective cross-modal interaction. Since\nthe tracking process occurs in successive frames guided\nby the annotated initial frame, cross-modal interaction be-\nThis CVPR paper is the Open Access version, provided by the Computer Vision Foundation.\nExcept for this watermark, it is identical to the accepted version;\nthe final published version of the proceedings is available on IEEE Xplore.\n13630\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

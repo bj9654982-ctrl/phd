@@ -1,0 +1,584 @@
+{
+  "number": 87,
+  "original_doi": "",
+  "matched": true,
+  "score": 1.0,
+  "candidate_title": "Robust Object Tracking Based on Temporal and Spatial Deep Networks",
+  "metadata": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          18
+        ]
+      ],
+      "date-time": "2026-09-18T13:08:38Z",
+      "timestamp": 1789736918400,
+      "version": "4.0.1"
+    },
+    "reference-count": 63,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1109/iccv.2017.130",
+    "type": "proceedings-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2017-12-25T21:51:45Z",
+      "timestamp": 1514238705000
+    },
+    "page": "1153-1162",
+    "source": "Crossref",
+    "is-referenced-by-count": 50,
+    "title": [
+      "Robust Object Tracking Based on Temporal and Spatial Deep Networks"
+    ],
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Zhu",
+        "family": "Teng",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Junliang",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qiang",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Congyan",
+        "family": "Lang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Songhe",
+        "family": "Feng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yi",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2004.16"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7299177"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2508037.2508039"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2015.2510583"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2011.167"
+      },
+      {
+        "key": "ref30",
+        "first-page": "1195",
+        "article-title": "Tracking by sampling trackers",
+        "author": "kwon",
+        "year": "2011",
+        "journal-title": "IEEE Conference on Computer Vision"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.352"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2015.7298965"
+      },
+      {
+        "key": "ref35",
+        "first-page": "565",
+        "article-title": "Hand posture recognition using finger geometric feature",
+        "author": "liu",
+        "year": "2012",
+        "journal-title": "IEEE International Conference on Pattern Recognition"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "crossref",
+        "first-page": "1728",
+        "DOI": "10.1109/TPAMI.2008.73",
+        "article-title": "Tracking in low frame rate video: A cascade particle filter with discriminative observers of different life spans",
+        "volume": "30",
+        "author": "li",
+        "year": "2008",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref60",
+        "first-page": "188",
+        "article-title": "Meem: robust tracking via multiple experts using entropy minimization",
+        "author": "zhang",
+        "year": "2014",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-014-0738-0"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2015.81"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2014.2313227"
+      },
+      {
+        "key": "ref28",
+        "first-page": "1097",
+        "article-title": "Imagenet classification with deep convolutional neural networks",
+        "author": "krizhevsky",
+        "year": "2012",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.345"
+      },
+      {
+        "key": "ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5539821"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2009.5206737"
+      },
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2007.35"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2011.6126251"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2345390"
+      },
+      {
+        "key": "ref21",
+        "first-page": "749",
+        "article-title": "Learning to track at 100 fps with deep regression networks",
+        "author": "held",
+        "year": "2016",
+        "journal-title": "European Conference Computer Vision"
+      },
+      {
+        "key": "ref24",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref23",
+        "first-page": "1",
+        "article-title": "Online tracking by learning discriminative saliency map with convolutional neural network",
+        "author": "hong",
+        "year": "2015",
+        "journal-title": "International Conference on Machine Learning"
+      },
+      {
+        "key": "ref26",
+        "author": "kai chen",
+        "year": "2016",
+        "journal-title": "Once for all a two-flow convolutional neural network for visual tracking"
+      },
+      {
+        "key": "ref25",
+        "first-page": "1822",
+        "article-title": "Visual tracking via adaptive structural local sparse appearance model",
+        "author": "jia",
+        "year": "2012",
+        "journal-title": "IEEE Conference on Computer Vision and Pattern Recognition"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2013.230"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.158"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/1177352.1177355"
+      },
+      {
+        "key": "ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2014.2388226"
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2013.312"
+      },
+      {
+        "key": "ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIP.2013.2293430"
+      },
+      {
+        "key": "ref55",
+        "first-page": "809",
+        "article-title": "Learning a deep compact image representation for visual tracking",
+        "author": "wang",
+        "year": "2013",
+        "journal-title": "Advances in neural information processing systems"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.357"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TITS.2012.2187641"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/2733373.2807412"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCVW.2015.84"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Beyond correlation filters: Learning continuous convolution operators for visual tracking",
+        "author": "danelljan",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "first-page": "2259",
+        "DOI": "10.1109/TPAMI.2011.66",
+        "article-title": "Robust visual tracking and vehicle classification via sparse representation",
+        "volume": "33",
+        "author": "mei",
+        "year": "2011",
+        "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2011.5995733"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/AVSS.2012.64"
+      },
+      {
+        "key": "ref14",
+        "first-page": "191",
+        "article-title": "The visual object tracking vot2014 challenge results",
+        "year": "2014",
+        "journal-title": "European Conf on Comp Vision Workshop"
+      },
+      {
+        "key": "ref15",
+        "first-page": "777",
+        "article-title": "The visual object tracking vot2016 challenge results",
+        "year": "2016",
+        "journal-title": "European Conf on Comp Vision Workshop"
+      },
+      {
+        "key": "ref16",
+        "first-page": "480",
+        "article-title": "Discriminative spatial attention for robust tracking",
+        "author": "fan",
+        "year": "2010",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCV.2015.169"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2014.81"
+      },
+      {
+        "key": "ref19",
+        "first-page": "6.1",
+        "article-title": "Real-time tracking via on-line boosting",
+        "author": "grabner",
+        "year": "2006",
+        "journal-title": "British Machine Vision Conference"
+      },
+      {
+        "key": "ref4",
+        "article-title": "A review of visual tracking",
+        "author": "cannons",
+        "year": "2008",
+        "journal-title": "Technical Report CSE-2008-07"
+      },
+      {
+        "key": "ref3",
+        "first-page": "850",
+        "article-title": "Fully-convolutional siamese networks for object tracking",
+        "author": "bertinetto",
+        "year": "2016",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2003.1195991"
+      },
+      {
+        "key": "ref5",
+        "author": "choi",
+        "year": "2017",
+        "journal-title": "Visual tracking by reinforced decision making"
+      },
+      {
+        "key": "ref8",
+        "article-title": "Accurate scale estimation for robust visual tracking",
+        "author": "danelljan",
+        "year": "2014",
+        "journal-title": "British Machine Vision Conference"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.161"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Very deep convolutional networks for large-scale image recognition",
+        "author": "simonyan",
+        "year": "2015",
+        "journal-title": "International Conference on Learning Representations"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.159"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-007-0075-7"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.466"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2010.5540145"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11263-015-0816-y"
+      },
+      {
+        "key": "ref42",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/CVPR.2016.465"
+      },
+      {
+        "key": "ref41",
+        "author": "nam",
+        "year": "2016",
+        "journal-title": "Modeling and propagating cnns in a tree structure for visual tracking"
+      },
+      {
+        "key": "ref44",
+        "first-page": "661",
+        "article-title": "Color-based probabilistic tracking",
+        "author": "pérez",
+        "year": "2002",
+        "journal-title": "European Conference on Computer Vision"
+      },
+      {
+        "key": "ref43",
+        "first-page": "2291",
+        "article-title": "Correlation filters for object alignment",
+        "author": "naresh boddeti",
+        "year": "2013",
+        "journal-title": "IEEE Conference on Computer Vision and Pattern Recognition"
+      }
+    ],
+    "event": {
+      "name": "2017 IEEE International Conference on Computer Vision (ICCV)",
+      "location": "Venice",
+      "start": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            22
+          ]
+        ]
+      },
+      "end": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            29
+          ]
+        ]
+      }
+    },
+    "container-title": [
+      "2017 IEEE International Conference on Computer Vision (ICCV)"
+    ],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx7/8234942/8237262/08237392.pdf?arnumber=8237392",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          25
+        ]
+      ],
+      "date-time": "2022-01-25T21:37:25Z",
+      "timestamp": 1643146645000
+    },
+    "score": 48.31902,
+    "resource": {
+      "primary": {
+        "URL": "http://ieeexplore.ieee.org/document/8237392/"
+      }
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    },
+    "references-count": 63,
+    "URL": "https://doi.org/10.1109/iccv.2017.130",
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          10
+        ]
+      ]
+    }
+  }
+}

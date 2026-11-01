@@ -1,0 +1,39 @@
+{
+  "number": 199,
+  "title": "Progressive Unsupervised Learning for Visual Object Tracking",
+  "year": 2021,
+  "authors": [
+    "Qiangqiang Wu",
+    "Jia Wan",
+    "Antoni B. Chan"
+  ],
+  "venue": "CVPR",
+  "category": "自监督训练与表征迁移",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Wu_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking_CVPR_2021_paper.pdf",
+      "bytes": 902492,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\199_2021_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_Progressive_Unsupervised_Learning_for_Visual_Object_Tracking_CVPR_2021_paper.pdf",
+  "bytes": 902492,
+  "sha256": "5206c377be151a2edeca409220f4f781d234ecea12904f394d545e8b1a572d77",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Progressive Unsupervised Learning for Visual Object Tracking",
+  "first_page_text": "Progressive Unsupervised Learning for Visual Object Tracking\nQiangqiang Wu\nJia Wan\nAntoni B. Chan\nDepartment of Computer Science, City University of Hong Kong\nqiangqwu2-c@my.cityu.edu.hk, jiawan1998@gmail.com, abchan@cityu.edu.hk\nAbstract\nIn this paper, we propose a progressive unsupervised\nlearning (PUL) framework, which entirely removes the need\nfor annotated training videos in visual tracking.\nSpecif-\nically, we ﬁrst learn a background discrimination (BD)\nmodel that effectively distinguishes an object from back-\nground in a contrastive learning way.\nWe then employ\nthe BD model to progressively mine temporal correspond-\ning patches (i.e., patches connected by a track) in sequen-\ntial frames.\nAs the BD model is imperfect and thus the\nmined patch pairs are noisy, we propose a noise-robust\nloss function to more effectively learn temporal correspon-\ndences from this noisy data. We use the proposed noise ro-\nbust loss to train backbone networks of Siamese trackers.\nWithout online ﬁne-tuning or adaptation, our unsupervised\nreal-time Siamese trackers can outperform state-of-the-art\nunsupervised deep trackers and achieve competitive results\nto the supervised baselines.\n1. Introduction\nVisual object tracking (VOT) is one of the fundamental\ntasks in computer vision, which has gained much attention\nin recent years due to its wide usage in many practical ap-\nplications, such as robotics [37], video surveillance [25] and\neye-tracking applications [24]. Although much progress has\nbeen made on VOT, it is still far from being fully solved due\nto the numerous real-world challenges, e.g., background\ncluster, rotation, occlusion and illumination variation.\nTo handle with the above challenges, the existing end-\nto-end trainable deep trackers [62, 65] learn rich feature\nrepresentations from large-scale annotated training videos\nbased on supervised learning. The representative works are\nSiamese trackers [29, 30], which learn feature representa-\ntions in an ofﬂine manner, and achieve favorable perfor-\nmance even without online ﬁne-tuning or adaptation. The\nsuccess of Siamese-based trackers demonstrate that the nu-\nmerous annotated data is the key to feature learning of\ndeep trackers. For example, the pioneering deep tracker\nSiamFC [4] is trained with the ILSVRC [43] dataset, which\ncontains about 2 million labeled frames. Some extensions\n0.36\n0.38\n0.4\n0.42\n0.44\n0.48\n0.5\n0.52\n0.54\n0.46\nAccuracy\n0.12\n0.14\n0.16\n0.18\n0.2\n0.22\n0.24\nEAO\nVOT17/18\nDCFNet\nUDT\nDSiam  \nSiamFC\nSiamDW\nOurs-ResPUL\nCycleSiam\nOurs-AlexPUL\nLUDT\nS2Siam\nsupervised\nunsupervised\nFigure 1: Tracking accuracy and EAO obtained by supervised (denoted by\nblue color) and unsupervised trackers (red color) on the VOT17/18 dataset.\nWithout online ﬁne-tuning or adaptation, our unsupervised AlexPUL and\nResPUL trackers outperform state-of-the-art online updating-based un-\nsupervised trackers, meanwhile performing favorably against supervised\ndeep trackers, which shows the potential of our unsupervised method.\nlike SiamRPN++ [30] commonly need more labeled video\ndatasets for training, e.g., using Got-10k [18], LaSOT [12],\nYoutube-BB [42]. These supervised deep trackers assume\nthat a robust tracking model can be learned by using large-\nscale annotated video datasets. However, they usually ig-\nnore the fact that annotating such large scale video datasets\ncan be prohibitively expensive and time-consuming.\nUnlabeled videos or images are a fertile source for unsu-\npervised learning, since they are easily collected from on-\nline services. The main problem is how to construct a super-\nvisory signal from these sources for learning a feature map\nrepresentation that is useful for visual tracking. The super-\nvision in visual tracking generally comes from two aspects:\nspatial supervision in a static video frame, and sequential\nsupervision across multiple frames. Spatial supervision [45]\ncan be achieved by learning template correspondence in a\nsingle frame or image. The training cost is reduced by us-\ning static images, but the learned features lack invariance to\nvisual changes in sequential frames. On the other hand, se-\nquential supervision is commonly achieved by ﬁnding tem-\nporal correspondence in multiple frames. The recent cycle\nlearning [2, 51] is based on sequential supervision, but the\ntracking performance is still limited without online adapta-\ntion [53]. To achieve favorable performance, an online up-\ndated correlation ﬁlter is required [8]. In this paper, we pro-\npose to use both spatial and sequential supervision for un-\n2993\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,46 @@
+{
+  "number": 43,
+  "title": "MEEM: Robust Tracking via Multiple Experts Using Entropy Minimization",
+  "year": 2014,
+  "authors": [
+    "Jianming Zhang",
+    "Shugao Ma",
+    "Stan Sclaroff"
+  ],
+  "venue": "Computer Vision - ECCV 2014",
+  "category": "长时跟踪与记忆恢复",
+  "priority": "P1 核心精读",
+  "original_source": "https://doi.org/10.1007/978-3-319-10599-4_13",
+  "doi": "10.1007/978-3-319-10599-4_13",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://doi.org/10.1007/978-3-319-10599-4_13",
+      "final_url": "https://link.springer.com/chapter/10.1007/978-3-319-10599-4_13",
+      "bytes": 265596,
+      "content_type": "text/html; charset=utf-8",
+      "result": "not_pdf"
+    },
+    {
+      "url": "https://link.springer.com/content/pdf/10.1007/978-3-319-10599-4_13.pdf",
+      "final_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-10599-4_13.pdf",
+      "bytes": 2140551,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\043_2014_MEEM__Robust_Tracking_via_Multiple_Experts_Using_Entropy_Minimization.pdf",
+  "download_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-10599-4_13.pdf",
+  "requested_url": "https://link.springer.com/content/pdf/10.1007/978-3-319-10599-4_13.pdf",
+  "bytes": 2140551,
+  "sha256": "f4942ffa097a1feb3d1d40f1065a56a75c374cc4452608af07c4ca3ca750e1fd",
+  "version": "出版方公开全文",
+  "pages": 16,
+  "pdf_title": "LNCS 8694 - MEEM: Robust Tracking via Multiple Experts Using Entropy Minimization",
+  "first_page_text": "MEEM: Robust Tracking via Multiple Experts Using\nEntropy Minimization\nJianming Zhang, Shugao Ma, and Stan Sclaroff\nDepartment of Computer Science, Boston University, USA\n{jmzhang,shugaoma,sclaroff}@bu.edu\nAbstract. We propose a multi-expert restoration scheme to address the model\ndrift problem in online tracking. In the proposed scheme, a tracker and its histor-\nical snapshots constitute an expert ensemble, where the best expert is selected to\nrestore the current tracker when needed based on a minimum entropy criterion,\nso as to correct undesirable model updates. The base tracker in our formulation\nexploits an online SVM on a budget algorithm and an explicit feature mapping\nmethod for efﬁcient model update and inference. In experiments, our tracking\nmethod achieves substantially better overall performance than 32 trackers on a\nbenchmark dataset of 50 video sequences under various evaluation settings. In\naddition, in experiments with a newly collected dataset of challenging sequences,\nwe show that the proposed multi-expert restoration scheme signiﬁcantly improves\nthe robustness of our base tracker, especially in scenarios with frequent occlu-\nsions and repetitive appearance variations.\n1\nIntroduction\nIn this paper, we focus on the problem of model-free online tracking of an object,\ngiven only the object’s initial position and previous observations, within a tracking-by-\ndetection framework. In many online trackers, an object model is maintained via online\nupdates, which are intended to account for appearance changes of the target. However,\nthe process of updating the model also brings the model drift problem, which is a key\nchallenge in online visual tracking.\nModel drift occurs because factors like tracking failure, occlusions and misalignment\nof training samples can lead to bad model updates. One remedy is to incorporate the ﬁrst\nframe template or prior knowledge in the online model update procedure [20,15]. How-\never, relying on a ﬁxed model prior tends to restrict the tracker’s ability to handle large\nobject appearance changes. Other trackers [22,32,14] use a “censorship mechanism”\nwhere an update is prevented when certain criteria are met (or not met). The detection\nof good or bad updates usually relies upon smoothness assumptions for motion and\nappearance changes, which are often violated in challenging scenarios. And once the\ncensorship mechanism fails, these trackers will either miss the chance to evolve or get\ntrapped in a background region, due to the fact that the model can only evolve forward,\nwithout a mechanism to correct for past mistakes.\nInstead of trying to prevent bad updates from happening, we propose a formulation\nthat can correct the effects of bad updates after they happen. For this purpose, we intro-\nduce a multi-expert tracking framework, where a discriminative tracker and its former\nD. Fleet et al. (Eds.): ECCV 2014, Part VI, LNCS 8694, pp. 188–203, 2014.\nc⃝Springer International Publishing Switzerland 2014\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

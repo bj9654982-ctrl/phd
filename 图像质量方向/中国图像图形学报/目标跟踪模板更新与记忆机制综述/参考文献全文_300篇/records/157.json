@@ -1,0 +1,39 @@
+{
+  "number": 157,
+  "title": "BranchOut: Regularization for Online Ensemble Tracking With Convolutional Neural Networks",
+  "year": 2017,
+  "authors": [
+    "Bohyung Han",
+    "Jack Sim",
+    "Hartwig Adam"
+  ],
+  "venue": "CVPR",
+  "category": "更新策略与在线适应",
+  "priority": "P2 对照阅读",
+  "original_source": "https://openaccess.thecvf.com/content_cvpr_2017/html/Han_BranchOut_Regularization_for_CVPR_2017_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Han_BranchOut_Regularization_for_CVPR_2017_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Han_BranchOut_Regularization_for_CVPR_2017_paper.pdf",
+      "bytes": 3376140,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\157_2017_BranchOut__Regularization_for_Online_Ensemble_Tracking_With_Convolutional_Neur.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Han_BranchOut_Regularization_for_CVPR_2017_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_cvpr_2017/papers/Han_BranchOut_Regularization_for_CVPR_2017_paper.pdf",
+  "bytes": 3376140,
+  "sha256": "bedd3ae4bea8eaac85e9c4b74fcaa661fae050352dbb32032b9862c132d267de",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "BranchOut: Regularization for Online Ensemble Tracking With Convolutional Neural Networks",
+  "first_page_text": "BranchOut: Regularization for Online Ensemble Tracking\nwith Convolutional Neural Networks\nBohyung Han\nPOSTECH, Korea\nbhhan@postech.ac.kr\nJack Sim\nGoogle Inc.\njacksim@google.com\nHartwig Adam\nGoogle Inc.\nhadam@google.com\nAbstract\nWe propose an extremely simple but effective regulariza-\ntion technique of convolutional neural networks (CNNs),\nreferred to as BranchOut, for online ensemble tracking.\nOur algorithm employs a CNN for target representation,\nwhich has a common convolutional layers but has multi-\nple branches of fully connected layers.\nFor better regu-\nlarization, a subset of branches in the CNN are selected\nrandomly for online learning whenever target appearance\nmodels need to be updated. Each branch may have a differ-\nent number of layers to maintain variable abstraction levels\nof target appearances. BranchOut with multi-level target\nrepresentation allows us to learn robust target appearance\nmodels with diversity and handle various challenges in vi-\nsual tracking problem effectively. The proposed algorithm is\nevaluated in standard tracking benchmarks and shows the\nstate-of-the-art performance even without additional pre-\ntraining on external tracking sequences.\n1. Introduction\nVisual tracking is valuable source of low-level informa-\ntion for high-level video understanding, so it has been ap-\nplied to many computer vision tasks such as action recog-\nnition [6, 35], event detection [24], object detection from\nvideo [21], and so on. Despite tremendous amount of ef-\nforts, visual tracking is still regarded as a challenging prob-\nlem since there exist a lot of variations imposed on target\nand surrounding background, and it is not straightforward to\nhandle all the variations in a single framework. Most of all,\nit is extremely difﬁcult to learn representative but adaptive\nfeatures for robust tracking, especially in online scenarios.\nWe propose a novel visual tracking algorithm focusing\non target appearance modeling, where the appearance is\nlearned by a convolutional neural network (CNN) with mul-\ntiple branches as shown in Figure 1. The target state is es-\ntimated by an ensemble of all branches while online model\nupdate is performed by the standard error backpropagation.\nIn addition, we allow the individual branches to have differ-\nent numbers of fully connected layers and maintain multi-\nlevel target representations.\nThe main challenge in this ensemble approach is how to\ndecorrelate multiple branches and diversify learned models\nto maximize beneﬁt of ensemble. Note that our problem\nis particularly challenging because training should be per-\nformed online with only a limited number of training exam-\nples in the presence of label noises. To deal with these chal-\nlenges, we take an extremely simple strategy, BranchOut,\nwhich disregards a subset of the branches in the CNN cho-\nsen randomly for model update. This technique is helpful to\nmaintain diversity of target appearance models and achieve\nperformance improvement over deterministic methods. The\nproposed learning framework shares the motivation with\nDropout [32] and DropConnect [34], where a subset of ac-\ntivations or weights in the fully connected layers are set to\nzeros randomly for each mini-batch during training. Our\ncontribution is summarized as follows:\n• We propose a simple but effective regularization tech-\nnique, BranchOut, which is well-suited for online en-\nsemble tracking. BranchOut alleviates the limitations\nof na¨ıve ensemble learning approach—lack of model\ndiversity and noisy labels of training data.\n• Our network has a different number of fully connected\nlayers in individual branches and maintains multi-level\nrepresentations based on a CNN using the branches.\n• We explore various options of online ensemble learn-\ning for visual tracking and verify the effectiveness of\nBranchOut and multi-level representation. Our algo-\nrithm illustrates the state-of-the-art performance even\nwithout pretraining with external tracking videos.\nThe rest of this paper is organized as follows. We ﬁrst\nreview existing visual tracking algorithms in Section 2. The\nproposed online stochastic learning and visual tracking al-\ngorithm design are described in Section 3 and 4, respec-\ntively. Section 5 presents experimental results with discus-\nsion, and Section 6 concludes our paper.\n3356\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

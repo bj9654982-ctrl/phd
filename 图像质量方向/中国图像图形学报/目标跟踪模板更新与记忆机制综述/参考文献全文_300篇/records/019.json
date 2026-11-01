@@ -1,0 +1,40 @@
+{
+  "number": 19,
+  "title": "STMTrack: Template-Free Visual Tracking With Space-Time Memory Networks",
+  "year": 2021,
+  "authors": [
+    "Zhihong Fu",
+    "Qingjie Liu",
+    "Zehua Fu",
+    "Yunhong Wang"
+  ],
+  "venue": "CVPR",
+  "category": "注意力与时序状态建模",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content/CVPR2021/html/Fu_STMTrack_Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks_CVPR_2021_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Fu_STMTrack_Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks_CVPR_2021_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Fu_STMTrack_Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks_CVPR_2021_paper.pdf",
+      "bytes": 1038979,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\019_2021_STMTrack__Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks.pdf",
+  "download_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Fu_STMTrack_Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks_CVPR_2021_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content/CVPR2021/papers/Fu_STMTrack_Template-Free_Visual_Tracking_With_Space-Time_Memory_Networks_CVPR_2021_paper.pdf",
+  "bytes": 1038979,
+  "sha256": "65f83680fc5ba805c98ba0a66a456d3a0ac744f4ec43022fc61a6bdad57888fb",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "STMTrack: Template-Free Visual Tracking With Space-Time Memory Networks",
+  "first_page_text": "STMTrack: Template-free Visual Tracking with Space-time Memory Networks\nZhihong Fu, Qingjie Liu∗, Zehua Fu, Yunhong Wang\nState Key Laboratory of Virtual Reality Technology and Systems, Beihang University, Beijing, China\nHangzhou Innovation Institute, Beihang University\n{fuzhihong, qingjie.liu, yhwang}@buaa.edu.cn, zehua fu@163.com\nAbstract\nBoosting performance of the ofﬂine trained siamese\ntrackers is getting harder nowadays since the ﬁxed infor-\nmation of the template cropped from the ﬁrst frame has been\nalmost thoroughly mined, but they are poorly capable of re-\nsisting target appearance changes. Existing trackers with\ntemplate updating mechanisms rely on time-consuming nu-\nmerical optimization and complex hand-designed strategies\nto achieve competitive performance, hindering them from\nreal-time tracking and practical applications. In this paper,\nwe propose a novel tracking framework built on top of a\nspace-time memory network that is competent to make full\nuse of historical information related to the target for better\nadapting to appearance variations during tracking. Specif-\nically, a novel memory mechanism is introduced, which\nstores the historical information of the target to guide the\ntracker to focus on the most informative regions in the cur-\nrent frame. Furthermore, the pixel-level similarity compu-\ntation of the memory network enables our tracker to gen-\nerate much more accurate bounding boxes of the target.\nExtensive experiments and comparisons with many com-\npetitive trackers on challenging large-scale benchmarks,\nOTB-2015, TrackingNet, GOT-10k, LaSOT, UAV123, and\nVOT2018, show that, without bells and whistles, our tracker\noutperforms all previous state-of-the-art real-time methods\nwhile running at 37 FPS. The code is available at https:\n//github.com/fzh0917/STMTrack.\n1. Introduction\nVisual object tracking is an essential task in computer\nvision with applications in various ﬁelds such as human-\ncomputer interactions [29], video surveillance [54], and au-\ntonomous driving [22]. Signiﬁcant efforts have been de-\nvoted to address this problem, yet there is still a great gap\nto the practical applications due to the challenging factors\nsuch as occlusions, fast motions, and non-rigid deforma-\n∗Corresponding author.\nOurs\nSiamFC++\nDiMP-50\nGround Truth\n#229\n#815\n#836\n#214\n#247\n#519\n#419\n#568\n#1312\nFigure 1: Visualized comparisons of our method with rep-\nresentative trackers SiamFC++ [56] and DiMP-50 [2]. Our\nmethod can estimate more accurate target state when targets\nsuffer from partial occlusions and non-rigid deformations.\ntions [13, 53, 20], which urge us to develop trackers with\nstrong adaptiveness and robustness.\nThe goal of visual tracking is to locate an object in the\nsubsequent frames of a video given its initial annotation in\nthe ﬁrst frame. In recent years, with the advancements of\ndeep learning techniques, deep trackers have dominated the\ntracking ﬁeld, among which two methodologies are widely\nstudied, and one popular methodology addresses object\ntracking as a similarity matching problem between the tar-\nget template and the search frames in an embedding space\nofﬂine trained. The representative template-matching meth-\nods are siamese trackers [1, 65, 61, 14, 50, 6, 24, 23, 56, 15].\nThese methods usually do not update the template and thus\nare hard to adapt to appearance changes caused by occlu-\nsions, non-rigid deformations, etc.\nTo solve this problem, some trackers [2, 11] are equipped\nwith sophisticated template updating mechanisms and thus\nshow stronger robustness than siamese trackers.\nHow-\never, online template updating requires much more compu-\ntational resources, which impends trackers from real-time\ntracking. Furthermore, these customized updating strate-\ngies [16, 58, 65, 25, 59, 7] introduce hyper-parameters that\nrequire tricky tuning.\n13774\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}

@@ -1,0 +1,40 @@
+{
+  "number": 14,
+  "title": "Learning Discriminative Model Prediction for Tracking",
+  "year": 2019,
+  "authors": [
+    "Goutam Bhat",
+    "Martin Danelljan",
+    "Luc Van Gool",
+    "Radu Timofte"
+  ],
+  "venue": "ICCV",
+  "category": "更新策略与在线适应",
+  "priority": "P1 核心精读",
+  "original_source": "https://openaccess.thecvf.com/content_ICCV_2019/html/Bhat_Learning_Discriminative_Model_Prediction_for_Tracking_ICCV_2019_paper.html",
+  "doi": "",
+  "status": "downloaded",
+  "attempts": [
+    {
+      "url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Bhat_Learning_Discriminative_Model_Prediction_for_Tracking_ICCV_2019_paper.pdf",
+      "final_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Bhat_Learning_Discriminative_Model_Prediction_for_Tracking_ICCV_2019_paper.pdf",
+      "bytes": 748014,
+      "content_type": "application/pdf"
+    }
+  ],
+  "access_date": "2026-10-27",
+  "human_verification": "未核验",
+  "file": "PDF\\014_2019_Learning_Discriminative_Model_Prediction_for_Tracking.pdf",
+  "download_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Bhat_Learning_Discriminative_Model_Prediction_for_Tracking_ICCV_2019_paper.pdf",
+  "requested_url": "https://openaccess.thecvf.com/content_ICCV_2019/papers/Bhat_Learning_Discriminative_Model_Prediction_for_Tracking_ICCV_2019_paper.pdf",
+  "bytes": 748014,
+  "sha256": "e6cb8a22803d9b4b96a8bb9c30f7659b9ada5bc5c27bac4ab993bc621f8aedb9",
+  "version": "会议官方开放版本",
+  "pages": 10,
+  "pdf_title": "Learning Discriminative Model Prediction for Tracking",
+  "first_page_text": "Learning Discriminative Model Prediction for Tracking\nGoutam Bhat∗\nMartin Danelljan∗\nLuc Van Gool\nRadu Timofte\nCVL, ETH Z¨urich, Switzerland\nAbstract\nThe current strive towards end-to-end trainable com-\nputer vision systems imposes major challenges for the task\nof visual tracking. In contrast to most other vision problems,\ntracking requires the learning of a robust target-speciﬁc ap-\npearance model online, during the inference stage. To be\nend-to-end trainable, the online learning of the target model\nthus needs to be embedded in the tracking architecture it-\nself. Due to the imposed challenges, the popular Siamese\nparadigm simply predicts a target feature template, while\nignoring the background appearance information during\ninference. Consequently, the predicted model possesses lim-\nited target-background discriminability.\nWe develop an end-to-end tracking architecture, capa-\nble of fully exploiting both target and background appear-\nance information for target model prediction. Our archi-\ntecture is derived from a discriminative learning loss by\ndesigning a dedicated optimization process that is capa-\nble of predicting a powerful model in only a few iterations.\nFurthermore, our approach is able to learn key aspects of\nthe discriminative loss itself.\nThe proposed tracker sets\na new state-of-the-art on 6 tracking benchmarks, achiev-\ning an EAO score of 0.440 on VOT2018, while running\nat over 40 FPS. The code and models are available at\nhttps://github.com/visionml/pytracking.\n1. Introduction\nGeneric object tracking is the task of estimating the state\nof an arbitrary target in each frame of a video sequence. In\nthe most general setting, the target is only deﬁned by its ini-\ntial state in the sequence. Most current approaches address\nthe tracking problem by constructing a target model, capa-\nble of differentiating between the target and background ap-\npearance. Since target-speciﬁc information is only available\nat test-time, the target model cannot be learned in an of-\nﬂine training phase, as in for instance object detection. In-\nstead, the target model must be constructed during the infer-\nence stage itself by exploiting the target information given\n∗Both authors contributed equally.\nImage\nSiamese based\nOurs\nFigure 1. Conﬁdence maps of the target object (red box) provided\nby the target model obtained using i) a Siamese approach (middle),\nand ii) Our approach (right). The model predicted in a Siamese\nfashion, using only target appearance, struggles to distinguish the\ntarget from distractor objects in the background. In contrast, our\nmodel prediction architecture also integrates background appear-\nance, providing superior discriminative power.\nat test-time. This unconventional nature of the visual track-\ning problem imposes signiﬁcant challenges when pursuing\nan end-to-end learning solution.\nThe aforementioned problems have been most success-\nfully addressed by the Siamese learning paradigm [2, 22].\nThese approaches ﬁrst learn a feature embedding, where\nthe similarity between two image regions is computed by\na simple cross-correlation. Tracking is then performed by\nﬁnding the image region most similar to the target template.\nIn this setting, the target model simply corresponds to the\ntemplate features extracted from the target region. Conse-\nquently, the tracker can easily be trained end-to-end using\npairs of annotated images.\nDespite its recent success, the Siamese learning frame-\nwork suffers from severe limitations. Firstly, Siamese track-\ners only utilize the target appearance when inferring the\nmodel.\nThis completely ignores background appearance\ninformation, which is crucial for discriminating the target\nfrom similar objects in the scene (see ﬁgure 1). Secondly,\nthe learned similarity measure is not necessarily reliable for\nobjects that are not included in the ofﬂine training set, lead-\ning to poor generalization. Thirdly, the Siamese formulation\n16182\n",
+  "title_exact_normalized": true,
+  "title_token_coverage": 1.0,
+  "identity_check": "题名自动匹配；待人工核验",
+  "technical_check": "PDF可解析"
+}
